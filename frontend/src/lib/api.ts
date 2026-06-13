@@ -804,6 +804,10 @@ export const api = {
       body: JSON.stringify(data),
     });
   },
+
+  async getFeedback(): Promise<{ entries: { id: number; text: string; rating: number; page?: string; created_at: string }[]; total: number }> {
+    return fetchAPI('/api/feedback');
+  },
 };
 
 // 球员数据类型

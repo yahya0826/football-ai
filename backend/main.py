@@ -1993,6 +1993,22 @@ async def submit_feedback(request: FeedbackRequest):
         raise HTTPException(status_code=500, detail=str(e))
 
 
+@app.get("/api/feedback")
+async def get_feedback():
+    """获取所有用户反馈"""
+    try:
+        import json
+        feedback_file = Path("data/feedback/entries.json")
+        if not feedback_file.exists():
+            return {"entries": [], "total": 0}
+        with open(feedback_file, "r", encoding="utf-8") as f:
+            entries = json.load(f)
+        entries.reverse()
+        return {"entries": entries, "total": len(entries)}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+
 # ==================== 启动应用 ====================
 
 if __name__ == "__main__":
