@@ -14,19 +14,8 @@ function HeroSection() {
           src="/images/hero-banner.png"
           alt="2026世界杯AI助手"
           className="mx-auto img-responsive"
-          style={{ maxHeight: '320px' }}
+          style={{ maxHeight: '640px' }}
         />
-        <div className="flex items-center justify-center gap-4 flex-wrap mt-6">
-          <Link href="/predict" className="btn btn-primary">
-            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
-            </svg>
-            开始预测
-          </Link>
-          <Link href="/knowledge" className="btn btn-secondary">
-            探索知识库
-          </Link>
-        </div>
       </div>
     </section>
   );
@@ -229,43 +218,6 @@ function RecentMatches() {
   );
 }
 
-function IntelPreview() {
-  const [dailyData, setDailyData] = useState<{ summary: string; total_matches: number } | null>(null);
-
-  useEffect(() => {
-    async function load() {
-      try {
-        const data = await api.getDailyReport();
-        setDailyData({ summary: data.summary, total_matches: data.total_matches });
-      } catch { /* silently fail */ }
-    }
-    load();
-  }, []);
-
-  return (
-    <section className="py-6 md:py-12">
-      <div className="max-w-4xl mx-auto px-4">
-        <div className="flex justify-between items-center mb-6">
-          <h2 className="text-2xl font-bold">哨前情报站</h2>
-          <Link href="/intelligence" className="text-sm" style={{ color: 'var(--primary)' }}>
-            查看完整情报
-          </Link>
-        </div>
-        <div className="card">
-          <p className="mb-4" style={{ color: 'var(--text-muted)' }}>
-            {dailyData?.summary || '哨响之前，看懂比赛变量' || '数据加载中...'}
-          </p>
-          <div className="flex gap-4">
-            <Link href="/intelligence/daily" className="btn btn-primary text-sm">哨前日报</Link>
-            <Link href="/intelligence/breaking" className="btn btn-secondary text-sm">临哨快讯</Link>
-            <Link href="/intelligence" className="btn btn-secondary text-sm">情报卡</Link>
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-}
-
 export default function Home() {
   return (
     <div>
@@ -273,7 +225,6 @@ export default function Home() {
       <HeroSection />
       <QuickPredict />
       <RecentMatches />
-      <IntelPreview />
     </div>
   );
 }
