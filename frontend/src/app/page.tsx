@@ -2,21 +2,21 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import api, { PredictResponse, Match } from '@/lib/api';
+import api, { PredictResponse, ScheduleMatch } from '@/lib/api';
 import LiveScoreTicker from '@/components/LiveScoreTicker';
 
 function HeroSection() {
   return (
-    <section className="relative py-8 md:py-16 overflow-hidden">
+    <section className="relative py-4 md:py-8 overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-r from-emerald-900/20 via-transparent to-indigo-900/20" />
-      <div className="relative max-w-7xl mx-auto px-4 text-center">
-        <h1 className="page-title text-4xl md:text-5xl font-bold mb-4">
-          世界杯AI助手
-        </h1>
-        <p className="text-lg md:text-xl max-w-2xl mx-auto mb-8" style={{ color: 'var(--text-muted)' }}>
-          数据驱动的智能足球分析平台 · 比赛预测 · AI解说 · 可视化分析 · 知识百库
-        </p>
-        <div className="flex items-center justify-center gap-4 flex-wrap">
+      <div className="relative max-w-4xl mx-auto px-4 text-center">
+        <img
+          src="/images/hero-banner.png"
+          alt="2026世界杯AI助手"
+          className="mx-auto img-responsive"
+          style={{ maxHeight: '320px' }}
+        />
+        <div className="flex items-center justify-center gap-4 flex-wrap mt-6">
           <Link href="/predict" className="btn btn-primary">
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
@@ -148,14 +148,19 @@ function QuickPredict() {
 }
 
 function RecentMatches() {
-  const [matches, setMatches] = useState<Match[]>([]);
+  const [matches, setMatches] = useState<ScheduleMatch[]>([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     async function loadMatches() {
       try {
-        const data = await api.getMatches();
-        setMatches(data.matches.slice(0, 5));
+        const data = await api.getMatchSchedule();
+        const today = '2026-06-14';
+        const completed = data.matches
+          .filter(m => m.home_score != null && m.date <= today)
+          .sort((a, b) => b.date.localeCompare(a.date) || b.time_bj.localeCompare(a.time_bj))
+          .slice(0, 6);
+        setMatches(completed);
       } catch (err) {
         console.error('Failed to load matches:', err);
       } finally {
@@ -191,14 +196,22 @@ function RecentMatches() {
                 <div className="flex justify-between items-center">
                   <div className="flex-1">
                     <div className="flex justify-between items-center">
-                      <span className="font-medium">{match.home_team}</span>
-                      <span className="match-score" style={{ color: 'var(--primary)' }}>
-                        {match.home_score} - {match.away_score}
-                      </span>
-                      <span className="font-medium">{match.away_team}</span>
+                      <div className="text-right flex-1">
+                        <span className="font-medium">{match.home_team_cn}</span>
+                        <span className="text-xs block" style={{ color: 'var(--text-muted)' }}>{match.home_team}</span>
+                      </div>
+                      <div className="mx-4 text-center">
+                        <span className="match-score" style={{ color: 'var(--primary)' }}>
+                          {match.home_score} - {match.away_score}
+                        </span>
+                      </div>
+                      <div className="text-left flex-1">
+                        <span className="font-medium">{match.away_team_cn}</span>
+                        <span className="text-xs block" style={{ color: 'var(--text-muted)' }}>{match.away_team}</span>
+                      </div>
                     </div>
                     <p className="text-sm text-center mt-2" style={{ color: 'var(--text-muted)' }}>
-                      {match.date}
+                      {match.date} · {match.time_bj} · {match.group ? `小组${match.group}第${match.round}轮` : match.stage}
                     </p>
                   </div>
                 </div>
@@ -253,67 +266,14 @@ function IntelPreview() {
   );
 }
 
-function FeaturesSection() {
-  const features = [
-    {
-      title: 'AI预测',
-      desc: '基于ELO评分和机器学习的比赛预测',
-      icon: '📊',
-      href: '/predict',
-      color: 'var(--primary)'
-    },
-    {
-      title: 'AI解说',
-      desc: '智能生成专业比赛解说和战术分析',
-      icon: '🎙️',
-      href: '/matches',
-      color: 'var(--secondary)'
-    },
-    {
-      title: '可视化',
-      desc: 'xG曲线、热力图、射门分布全解析',
-      icon: '📈',
-      href: '/matches',
-      color: 'var(--accent)'
-    },
-    {
-      title: '知识库',
-      desc: '世界杯历史、规则、趣闻一网打尽',
-      icon: '📚',
-      href: '/knowledge',
-      color: '#ec4899'
-    }
-  ];
-
-  return (
-    <section className="py-8 md:py-16">
-      <div className="max-w-6xl mx-auto px-4">
-        <h2 className="text-2xl font-bold text-center mb-10">核心功能</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-          {features.map((feature) => (
-            <Link key={feature.title} href={feature.href}>
-              <div className="card h-full cursor-pointer">
-                <div className="text-4xl mb-4">{feature.icon}</div>
-                <h3 className="font-bold text-lg mb-2">{feature.title}</h3>
-                <p className="text-sm" style={{ color: 'var(--text-muted)' }}>{feature.desc}</p>
-              </div>
-            </Link>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
-}
-
 export default function Home() {
   return (
     <div>
       <LiveScoreTicker />
       <HeroSection />
       <QuickPredict />
-      <IntelPreview />
       <RecentMatches />
-      <FeaturesSection />
+      <IntelPreview />
     </div>
   );
 }

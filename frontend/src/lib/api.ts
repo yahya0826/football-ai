@@ -382,6 +382,8 @@ export interface ScheduleMatch {
   city: string;
   country: string;
   note?: string;
+  home_score?: number;
+  away_score?: number;
 }
 
 export interface ScheduleGroup {
