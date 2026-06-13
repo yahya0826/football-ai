@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import api, { PredictResponse, ScheduleMatch } from '@/lib/api';
 import LiveScoreTicker from '@/components/LiveScoreTicker';
@@ -136,26 +136,20 @@ function QuickPredict() {
   );
 }
 
-function shuffleArray<T>(arr: T[], n: number): T[] {
-  const shuffled = [...arr];
-  for (let i = shuffled.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
-  }
-  return shuffled.slice(0, n);
-}
-
 function RecentMatches() {
   const [matches, setMatches] = useState<ScheduleMatch[]>([]);
   const [loading, setLoading] = useState(true);
-  const randomMatches = useRef<ScheduleMatch[]>([]);
 
   useEffect(() => {
     async function loadMatches() {
       try {
         const data = await api.getMatchSchedule();
-        randomMatches.current = shuffleArray(data.matches, 5);
-        setMatches(randomMatches.current);
+        const today = '2026-06-14';
+        const completed = data.matches
+          .filter(m => m.home_score != null && m.away_score != null && m.date <= today)
+          .sort((a, b) => b.date.localeCompare(a.date) || b.time_bj.localeCompare(a.time_bj))
+          .slice(0, 5);
+        setMatches(completed);
       } catch (err) {
         console.error('Failed to load matches:', err);
       } finally {
@@ -175,61 +169,44 @@ function RecentMatches() {
     );
   }
 
-  const today = '2026-06-14';
-
   return (
     <section className="py-6 md:py-12">
       <div className="max-w-4xl mx-auto px-4">
         <div className="flex justify-between items-center mb-6">
-          <h2 className="text-2xl font-bold">随机比赛</h2>
+          <h2 className="text-2xl font-bold">最近比赛</h2>
           <Link href="/matches" className="text-sm" style={{ color: 'var(--primary)' }}>
             查看全部
           </Link>
         </div>
         <div className="grid gap-4">
-          {matches.map((match) => {
-            const isPast = match.date <= today;
-            const hasScore = match.home_score != null && match.away_score != null;
-            return (
-              <Link key={match.match_id} href={`/matches/${match.match_id}`}>
-                <div className="match-card">
-                  <div className="flex justify-between items-center">
-                    <div className="flex-1">
-                      <div className="flex justify-between items-center">
-                        <div className="text-right flex-1">
-                          <span className="font-medium">{match.home_team_cn}</span>
-                          <span className="text-xs block" style={{ color: 'var(--text-muted)' }}>{match.home_team}</span>
-                        </div>
-                        <div className="mx-4 text-center">
-                          {hasScore ? (
-                            <span className="match-score" style={{ color: 'var(--primary)' }}>
-                              {match.home_score} - {match.away_score}
-                            </span>
-                          ) : (
-                            <span className="text-lg font-bold" style={{ color: 'var(--text-muted)' }}>
-                              VS
-                            </span>
-                          )}
-                        </div>
-                        <div className="text-left flex-1">
-                          <span className="font-medium">{match.away_team_cn}</span>
-                          <span className="text-xs block" style={{ color: 'var(--text-muted)' }}>{match.away_team}</span>
-                        </div>
+          {matches.map((match) => (
+            <Link key={match.match_id} href={`/matches/${match.match_id}`}>
+              <div className="match-card">
+                <div className="flex justify-between items-center">
+                  <div className="flex-1">
+                    <div className="flex justify-between items-center">
+                      <div className="text-right flex-1">
+                        <span className="font-medium">{match.home_team_cn}</span>
+                        <span className="text-xs block" style={{ color: 'var(--text-muted)' }}>{match.home_team}</span>
                       </div>
-                      <div className="flex justify-center items-center gap-2 mt-2">
-                        {isPast && !hasScore && (
-                          <span className="badge badge-accent">已结束</span>
-                        )}
-                        <p className="text-sm" style={{ color: 'var(--text-muted)' }}>
-                          {match.date} · {match.time_bj} · {match.group ? `小组${match.group}第${match.round}轮` : match.stage}
-                        </p>
+                      <div className="mx-4 text-center">
+                        <span className="match-score" style={{ color: 'var(--primary)' }}>
+                          {match.home_score} - {match.away_score}
+                        </span>
+                      </div>
+                      <div className="text-left flex-1">
+                        <span className="font-medium">{match.away_team_cn}</span>
+                        <span className="text-xs block" style={{ color: 'var(--text-muted)' }}>{match.away_team}</span>
                       </div>
                     </div>
+                    <p className="text-sm text-center mt-2" style={{ color: 'var(--text-muted)' }}>
+                      {match.date} · {match.time_bj} · {match.group ? `小组${match.group}第${match.round}轮` : match.stage}
+                    </p>
                   </div>
                 </div>
-              </Link>
-            );
-          })}
+              </div>
+            </Link>
+          ))}
           {matches.length === 0 && (
             <p className="text-center py-8" style={{ color: 'var(--text-muted)' }}>
               暂无比赛数据
