@@ -1,0 +1,292 @@
+{
+  "team": "Egypt",
+  "player_count": 26,
+  "players": [
+    {
+      "id": "mohamed-el-shenawy",
+      "name": "Mohamed El Shenawy",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 1,
+      "club": "Al Ahly",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "yasser-ibrahim",
+      "name": "Yasser Ibrahim",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 2,
+      "club": "Al Ahly",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "mohamed-hany",
+      "name": "Mohamed Hany",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 3,
+      "club": "Al Ahly",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "hossam-abdelmaguid",
+      "name": "Hossam Abdelmaguid",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 4,
+      "club": "Zamalek",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ramy-rabia",
+      "name": "Ramy Rabia",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 5,
+      "club": "Al Ain",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "mohamed-abdelmonem",
+      "name": "Mohamed Abdelmonem",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 6,
+      "club": "Nice",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "tr-z-guet",
+      "name": "Trézéguet",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 7,
+      "club": "Al Ahly",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "emam-ashour",
+      "name": "Emam Ashour",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 8,
+      "club": "Al Ahly",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "hamza-abdelkarim",
+      "name": "Hamza Abdelkarim",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 9,
+      "club": "Barcelona",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "mohamed-salah",
+      "name": "Mohamed Salah",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 10,
+      "club": "Liverpool",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "mostafa-ziko",
+      "name": "Mostafa Ziko",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 11,
+      "club": "Pyramids",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "haissem-hassan",
+      "name": "Haissem Hassan",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 12,
+      "club": "Oviedo",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ahmed-fatouh",
+      "name": "Ahmed Fatouh",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 13,
+      "club": "Zamalek",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "hamdy-fathy",
+      "name": "Hamdy Fathy",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 14,
+      "club": "Al-Wakrah",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "karim-hafez",
+      "name": "Karim Hafez",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 15,
+      "club": "Pyramids",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "el-mahdy-soliman",
+      "name": "El Mahdy Soliman",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 16,
+      "club": "Zamalek",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "mohanad-lasheen",
+      "name": "Mohanad Lasheen",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 17,
+      "club": "Pyramids",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "nabil-emad",
+      "name": "Nabil Emad",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 18,
+      "club": "Al-Najma",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "marwan-attia",
+      "name": "Marwan Attia",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 19,
+      "club": "Al Ahly",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ibrahim-adel",
+      "name": "Ibrahim Adel",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 20,
+      "club": "Nordsjælland",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "mahmoud-saber",
+      "name": "Mahmoud Saber",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 21,
+      "club": "ZED",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "omar-marmoush",
+      "name": "Omar Marmoush",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 22,
+      "club": "Manchester City",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "mostafa-shobeir",
+      "name": "Mostafa Shobeir",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 23,
+      "club": "Al Ahly",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "tarek-alaa",
+      "name": "Tarek Alaa",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 24,
+      "club": "ZED",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "zizo",
+      "name": "Zizo",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 25,
+      "club": "Al Ahly",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "mohamed-alaa",
+      "name": "Mohamed Alaa",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 26,
+      "club": "El Gouna",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    }
+  ]
+}

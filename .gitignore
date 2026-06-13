@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+.venv/
+venv/
+*.pyo
+
+# Node
+node_modules/
+/.pnp
+.pnp.*
+
+# Next.js
+.next/
+out/
+
+# Env files (API keys!)
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large downloaded / temp
+downloaded_files/
+*.tmp
+*.log
+
+# Archive
+archive/
+
+# Raw data - not used by backend at runtime
+football-data/

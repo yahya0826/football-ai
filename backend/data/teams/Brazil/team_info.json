@@ -1,0 +1,171 @@
+{
+  "team_en": "Brazil",
+  "team_cn": "巴西",
+  "confederation": "CONMEBOL",
+  "group": "C",
+  "stats": {
+    "total_matches": 268,
+    "wins": 178,
+    "draws": 54,
+    "losses": 36,
+    "goals_for": 554,
+    "goals_against": 181
+  },
+  "recent_matches": [
+    {
+      "date": "2026-06-24",
+      "home_team": "Scotland",
+      "away_team": "Brazil",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Miami Gardens",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-06-19",
+      "home_team": "Brazil",
+      "away_team": "Haiti",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Philadelphia",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-06-13",
+      "home_team": "Brazil",
+      "away_team": "Morocco",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "East Rutherford",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-03-31",
+      "home_team": "Brazil",
+      "away_team": "Croatia",
+      "home_score": "3",
+      "away_score": "1",
+      "tournament": "Friendly",
+      "city": "Orlando",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-03-26",
+      "home_team": "Brazil",
+      "away_team": "France",
+      "home_score": "1",
+      "away_score": "2",
+      "tournament": "Friendly",
+      "city": "Foxborough",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2025-11-18",
+      "home_team": "Brazil",
+      "away_team": "Tunisia",
+      "home_score": "1",
+      "away_score": "1",
+      "tournament": "Friendly",
+      "city": "Lille",
+      "country": "France",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2025-11-15",
+      "home_team": "Brazil",
+      "away_team": "Senegal",
+      "home_score": "2",
+      "away_score": "0",
+      "tournament": "Friendly",
+      "city": "London",
+      "country": "England",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2025-10-14",
+      "home_team": "Japan",
+      "away_team": "Brazil",
+      "home_score": "3",
+      "away_score": "2",
+      "tournament": "Kirin Cup",
+      "city": "Tokyo",
+      "country": "Japan",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-10-10",
+      "home_team": "South Korea",
+      "away_team": "Brazil",
+      "home_score": "0",
+      "away_score": "5",
+      "tournament": "Friendly",
+      "city": "Seoul",
+      "country": "South Korea",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-09-09",
+      "home_team": "Bolivia",
+      "away_team": "Brazil",
+      "home_score": "1",
+      "away_score": "0",
+      "tournament": "FIFA World Cup qualification",
+      "city": "El Alto",
+      "country": "Bolivia",
+      "neutral": "FALSE"
+    }
+  ],
+  "matches_by_year": {
+    "2026": 5,
+    "2025": 10,
+    "2024": 14,
+    "2023": 9,
+    "2022": 13,
+    "2021": 16,
+    "2020": 4,
+    "2019": 16,
+    "2018": 15,
+    "2017": 11,
+    "2016": 11,
+    "2015": 14,
+    "2014": 15,
+    "2013": 19,
+    "2012": 13,
+    "2011": 16,
+    "2010": 12,
+    "2009": 17,
+    "2008": 11,
+    "2007": 18,
+    "2006": 12
+  },
+  "tournament_breakdown": {
+    "Friendly": 117,
+    "FIFA World Cup qualification": 71,
+    "Copa América": 34,
+    "FIFA World Cup": 30,
+    "Confederations Cup": 10,
+    "Superclásico de las Américas": 8,
+    "Kirin Cup": 1
+  },
+  "total_matches_20y": 271,
+  "elo_rating": 1688,
+  "odds": {
+    "decimal_odds": 9.0,
+    "implied_probability": 10.5,
+    "rank": 4,
+    "platforms": {
+      "Bet365": 9.0,
+      "William Hill": 8.5,
+      "DraftKings": 9.5
+    }
+  },
+  "fifa_ranking": null
+}

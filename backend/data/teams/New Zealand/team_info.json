@@ -1,0 +1,174 @@
+{
+  "team_en": "New Zealand",
+  "team_cn": "新西兰",
+  "confederation": "OFC",
+  "group": "G",
+  "stats": {
+    "total_matches": 138,
+    "wins": 54,
+    "draws": 28,
+    "losses": 56,
+    "goals_for": 200,
+    "goals_against": 174
+  },
+  "recent_matches": [
+    {
+      "date": "2026-06-26",
+      "home_team": "New Zealand",
+      "away_team": "Belgium",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Vancouver",
+      "country": "Canada",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-06-21",
+      "home_team": "New Zealand",
+      "away_team": "Egypt",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Vancouver",
+      "country": "Canada",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-06-15",
+      "home_team": "Iran",
+      "away_team": "New Zealand",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Inglewood",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-03-30",
+      "home_team": "New Zealand",
+      "away_team": "Chile",
+      "home_score": "4",
+      "away_score": "1",
+      "tournament": "FIFA Series",
+      "city": "Auckland",
+      "country": "New Zealand",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2026-03-27",
+      "home_team": "New Zealand",
+      "away_team": "Finland",
+      "home_score": "0",
+      "away_score": "2",
+      "tournament": "FIFA Series",
+      "city": "Auckland",
+      "country": "New Zealand",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-11-18",
+      "home_team": "Ecuador",
+      "away_team": "New Zealand",
+      "home_score": "2",
+      "away_score": "0",
+      "tournament": "Friendly",
+      "city": "Harrison",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2025-11-15",
+      "home_team": "Colombia",
+      "away_team": "New Zealand",
+      "home_score": "2",
+      "away_score": "1",
+      "tournament": "Friendly",
+      "city": "Fort Lauderdale",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2025-10-14",
+      "home_team": "Norway",
+      "away_team": "New Zealand",
+      "home_score": "1",
+      "away_score": "1",
+      "tournament": "Friendly",
+      "city": "Oslo",
+      "country": "Norway",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-10-09",
+      "home_team": "Poland",
+      "away_team": "New Zealand",
+      "home_score": "1",
+      "away_score": "0",
+      "tournament": "Friendly",
+      "city": "Chorzów",
+      "country": "Poland",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-09-09",
+      "home_team": "New Zealand",
+      "away_team": "Australia",
+      "home_score": "1",
+      "away_score": "3",
+      "tournament": "Soccer Ashes",
+      "city": "Auckland",
+      "country": "New Zealand",
+      "neutral": "FALSE"
+    }
+  ],
+  "matches_by_year": {
+    "2026": 5,
+    "2025": 10,
+    "2024": 12,
+    "2023": 7,
+    "2022": 11,
+    "2021": 3,
+    "2019": 2,
+    "2018": 4,
+    "2017": 12,
+    "2016": 8,
+    "2015": 3,
+    "2014": 5,
+    "2013": 7,
+    "2012": 13,
+    "2011": 3,
+    "2010": 9,
+    "2009": 10,
+    "2008": 3,
+    "2007": 6,
+    "2006": 8
+  },
+  "tournament_breakdown": {
+    "Friendly": 65,
+    "FIFA World Cup qualification": 29,
+    "Oceania Nations Cup": 20,
+    "FIFA World Cup": 6,
+    "Confederations Cup": 6,
+    "FIFA Series": 4,
+    "Soccer Ashes": 3,
+    "Intercontinental Cup": 3,
+    "Canadian Shield": 2,
+    "OSN Cup": 2,
+    "Kirin Challenge Cup": 1
+  },
+  "total_matches_20y": 141,
+  "elo_rating": 1433,
+  "odds": {
+    "decimal_odds": 1501.0,
+    "implied_probability": 0.07,
+    "rank": 41,
+    "platforms": {
+      "Bet365": 1501.0,
+      "William Hill": 2001.0,
+      "DraftKings": 1500.0
+    }
+  },
+  "fifa_ranking": null
+}

@@ -1,0 +1,173 @@
+{
+  "team_en": "Tunisia",
+  "team_cn": "突尼斯",
+  "confederation": "CAF",
+  "group": "F",
+  "stats": {
+    "total_matches": 256,
+    "wins": 122,
+    "draws": 74,
+    "losses": 60,
+    "goals_for": 375,
+    "goals_against": 221
+  },
+  "recent_matches": [
+    {
+      "date": "2026-06-25",
+      "home_team": "Tunisia",
+      "away_team": "Netherlands",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Kansas City",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-06-20",
+      "home_team": "Tunisia",
+      "away_team": "Japan",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Guadalupe",
+      "country": "Mexico",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-06-14",
+      "home_team": "Sweden",
+      "away_team": "Tunisia",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Guadalupe",
+      "country": "Mexico",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-03-31",
+      "home_team": "Canada",
+      "away_team": "Tunisia",
+      "home_score": "0",
+      "away_score": "0",
+      "tournament": "Friendly",
+      "city": "Toronto",
+      "country": "Canada",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2026-03-28",
+      "home_team": "Haiti",
+      "away_team": "Tunisia",
+      "home_score": "0",
+      "away_score": "1",
+      "tournament": "Friendly",
+      "city": "Toronto",
+      "country": "Canada",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-01-03",
+      "home_team": "Mali",
+      "away_team": "Tunisia",
+      "home_score": "1",
+      "away_score": "1",
+      "tournament": "African Cup of Nations",
+      "city": "Casablanca",
+      "country": "Morocco",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2025-12-30",
+      "home_team": "Tanzania",
+      "away_team": "Tunisia",
+      "home_score": "1",
+      "away_score": "1",
+      "tournament": "African Cup of Nations",
+      "city": "Rabat",
+      "country": "Morocco",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2025-12-27",
+      "home_team": "Nigeria",
+      "away_team": "Tunisia",
+      "home_score": "3",
+      "away_score": "2",
+      "tournament": "African Cup of Nations",
+      "city": "Fez",
+      "country": "Morocco",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2025-12-23",
+      "home_team": "Tunisia",
+      "away_team": "Uganda",
+      "home_score": "3",
+      "away_score": "1",
+      "tournament": "African Cup of Nations",
+      "city": "Rabat",
+      "country": "Morocco",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2025-12-07",
+      "home_team": "Qatar",
+      "away_team": "Tunisia",
+      "home_score": "0",
+      "away_score": "3",
+      "tournament": "Arab Cup",
+      "city": "Al Khor",
+      "country": "Qatar",
+      "neutral": "FALSE"
+    }
+  ],
+  "matches_by_year": {
+    "2026": 6,
+    "2025": 17,
+    "2024": 15,
+    "2023": 9,
+    "2022": 17,
+    "2021": 17,
+    "2020": 4,
+    "2019": 17,
+    "2018": 13,
+    "2017": 13,
+    "2016": 9,
+    "2015": 12,
+    "2014": 9,
+    "2013": 13,
+    "2012": 16,
+    "2011": 10,
+    "2010": 11,
+    "2009": 10,
+    "2008": 16,
+    "2007": 9,
+    "2006": 16
+  },
+  "tournament_breakdown": {
+    "Friendly": 90,
+    "African Cup of Nations qualification": 52,
+    "FIFA World Cup qualification": 46,
+    "African Cup of Nations": 45,
+    "FIFA World Cup": 12,
+    "Arab Cup": 9,
+    "FIFA Series": 2,
+    "Kirin Cup": 2,
+    "Kirin Challenge Cup": 1
+  },
+  "total_matches_20y": 259,
+  "elo_rating": 1514,
+  "odds": {
+    "decimal_odds": 501.0,
+    "implied_probability": 0.2,
+    "rank": 33,
+    "platforms": {
+      "Bet365": 501.0,
+      "William Hill": 501.0,
+      "DraftKings": 500.0
+    }
+  },
+  "fifa_ranking": null
+}

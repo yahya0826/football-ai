@@ -1,0 +1,292 @@
+{
+  "team": "Saudi Arabia",
+  "player_count": 26,
+  "players": [
+    {
+      "id": "nawaf-al-aqidi",
+      "name": "Nawaf Al-Aqidi",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 1,
+      "club": "Al-Nassr",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ali-majrashi",
+      "name": "Ali Majrashi",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 2,
+      "club": "Al-Ahli",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ali-lajami",
+      "name": "Ali Lajami",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 3,
+      "club": "Al-Hilal",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "abdulelah-al-amri",
+      "name": "Abdulelah Al-Amri",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 4,
+      "club": "Al-Nassr",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "hassan-al-tambakti",
+      "name": "Hassan Al-Tambakti",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 5,
+      "club": "Al-Hilal",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "nasser-al-dawsari",
+      "name": "Nasser Al-Dawsari",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 6,
+      "club": "Al-Hilal",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "musab-al-juwayr",
+      "name": "Musab Al-Juwayr",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 7,
+      "club": "Al-Qadsiah",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ayman-yahya",
+      "name": "Ayman Yahya",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 8,
+      "club": "Al-Nassr",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "firas-al-buraikan",
+      "name": "Firas Al-Buraikan",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 9,
+      "club": "Al-Ahli",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "salem-al-dawsari",
+      "name": "Salem Al-Dawsari",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 10,
+      "club": "Al-Hilal",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "saleh-al-shehri",
+      "name": "Saleh Al-Shehri",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 11,
+      "club": "Al-Ittihad",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "saud-abdulhamid",
+      "name": "Saud Abdulhamid",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 12,
+      "club": "Lens",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "nawaf-boushal",
+      "name": "Nawaf Boushal",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 13,
+      "club": "Al-Nassr",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "hassan-kadesh",
+      "name": "Hassan Kadesh",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 14,
+      "club": "Al-Ittihad",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "abdullah-al-khaibari",
+      "name": "Abdullah Al-Khaibari",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 15,
+      "club": "Al-Nassr",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ziyad-al-johani",
+      "name": "Ziyad Al-Johani",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 16,
+      "club": "Al-Ahli",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "khalid-al-ghannam",
+      "name": "Khalid Al-Ghannam",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 17,
+      "club": "Al-Ettifaq",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "alaa-al-hejji",
+      "name": "Alaa Al-Hejji",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 18,
+      "club": "Neom",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "abdullah-al-hamdan",
+      "name": "Abdullah Al-Hamdan",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 19,
+      "club": "Al-Nassr",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "sultan-mandash",
+      "name": "Sultan Mandash",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 20,
+      "club": "Al-Hilal",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "mohammed-al-owais",
+      "name": "Mohammed Al-Owais",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 21,
+      "club": "Al-Ula",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ahmed-al-kassar",
+      "name": "Ahmed Al-Kassar",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 22,
+      "club": "Al-Qadsiah",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "mohamed-kanno",
+      "name": "Mohamed Kanno",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 23,
+      "club": "Al-Hilal",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "moteb-al-harbi",
+      "name": "Moteb Al-Harbi",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 24,
+      "club": "Al-Hilal",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "jehad-thakri",
+      "name": "Jehad Thakri",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 25,
+      "club": "Al-Qadsiah",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "mohammed-abu-al-shamat",
+      "name": "Mohammed Abu Al-Shamat",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 26,
+      "club": "Al-Qadsiah",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    }
+  ]
+}

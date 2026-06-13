@@ -1,0 +1,480 @@
+{
+  "Argentina": {
+    "formation": "4-3-3",
+    "positions": ["GK", "RB", "CB", "CB", "LB", "CM", "CM", "CM", "RW", "ST", "LW"],
+    "players": [
+      "Emiliano Martínez", "Nahuel Molina", "Cristian Romero", "Nicolás Otamendi",
+      "Nicolás Tagliafico", "Rodrigo De Paul", "Enzo Fernández", "Alexis Mac Allister",
+      "Lionel Messi", "Julián Alvarez", "Thiago Almada"
+    ]
+  },
+  "Algeria": {
+    "formation": "4-2-3-1",
+    "positions": ["GK", "RB", "CB", "CB", "LB", "CDM", "CDM", "RW", "CAM", "LW", "ST"],
+    "players": [
+      "Zineddine Belaïd", "Mohamed Belghali", "Ramy Bensebaini", "Rayan Aït-Nouri",
+      "Ramy Bensebaini", "Ramy Zerrouki", "Hicham Boudaoui",
+      "Riyad Mahrez", "Houssem Aouar", "Farès Chaïbi", "Amine Gouiri"
+    ]
+  },
+
+  "Australia": {
+    "formation": "4-2-3-1",
+    "positions": ["GK", "RB", "CB", "CB", "LB", "CDM", "CDM", "RW", "CAM", "LW", "ST"],
+    "players": [
+      "Mathew Ryan", "Jason Geria", "Harry Souttar", "Alessandro Circati",
+      "Jordy Bos", "Jackson Irvine", "Aiden O'Neill",
+      "Nestory Irankunda", "Ajdin Hrustic", "Awer Mabil", "Kusini Yengi"
+    ]
+  },
+
+  "Austria": {
+    "formation": "4-2-3-1",
+    "positions": ["GK", "RB", "CB", "CB", "LB", "CDM", "CDM", "RW", "CAM", "LW", "ST"],
+    "players": [
+      "Patrick Pentz", "Stefan Posch", "Kevin Danso", "Maximilian Wöber",
+      "Phillipp Mwene", "Nicolas Seiwald", "Konrad Laimer",
+      "Marcel Sabitzer", "Christoph Baumgartner", "Patrick Wimmer", "Michael Gregoritsch"
+    ]
+  },
+
+  "Belgium": {
+    "formation": "4-2-3-1",
+    "positions": ["GK", "RB", "CB", "CB", "LB", "CDM", "CDM", "RW", "CAM", "LW", "ST"],
+    "players": [
+      "Thibaut Courtois", "Thomas Meunier", "Zeno Debast", "Arthur Theate",
+      "Maxim De Cuyper", "Amadou Onana", "Youri Tielemans",
+      "Johan Bakayoko", "Kevin De Bruyne", "Jérémy Doku", "Romelu Lukaku"
+    ]
+  },
+
+  "Bosnia and Herzegovina": {
+    "formation": "4-2-3-1",
+    "positions": ["GK", "RB", "CB", "CB", "LB", "CDM", "CDM", "RW", "CAM", "LW", "ST"],
+    "players": [
+      "Nikola Vasilj", "Amar Dedić", "Nikola Katić", "Tarik Muharemovic",
+      "Sead Kolašinac", "Amir Hadžiahmetović", "Benjamin Tahirović",
+      "Esad Bajraktarević", "Armin Memic", "Anes Gigović", "Edin Džeko"
+    ]
+  },
+
+  "Brazil": {
+    "formation": "4-3-3",
+    "positions": ["GK", "RB", "CB", "CB", "LB", "CM", "CM", "CM", "RW", "ST", "LW"],
+    "players": [
+      "Alisson", "Wesley", "Marquinhos", "Gabriel Magalhães",
+      "Douglas Santos", "Casemiro", "Bruno Guimarães", "Lucas Paquetá",
+      "Raphinha", "Vinícius Júnior", "Gabriel Martinelli"
+    ]
+  },
+
+  "Canada": {
+    "formation": "4-4-2",
+    "positions": ["GK", "RB", "CB", "CB", "LB", "RM", "CM", "CM", "LM", "ST", "ST"],
+    "players": [
+      "Maxime Crépeau", "Alistair Johnston", "Moïse Bombito", "Derek Cornelius",
+      "Alphonso Davies", "Tajon Buchanan", "Stephen Eustáquio", "Ismaël Koné",
+      "Liam Millar", "Jonathan David", "Cyle Larin"
+    ]
+  },
+
+  "Cape Verde": {
+    "formation": "4-3-3",
+    "positions": ["GK", "RB", "CB", "CB", "LB", "CM", "CM", "CM", "RW", "ST", "LW"],
+    "players": [
+      "Vozinha", "Steven Moreira", "João Paulo Costa", "Roberto Lopes",
+      "Júnior Paulo", "Jamiro Monteiro", "João Paulo Pina", "Laros Duarte",
+      "Ryan Mendes", "Garry Rodrigues", "Jovane Cabral"
+    ]
+  },
+
+  "Colombia": {
+    "formation": "4-2-3-1",
+    "positions": ["GK", "RB", "CB", "CB", "LB", "CDM", "CDM", "RW", "CAM", "LW", "ST"],
+    "players": [
+      "Camilo Vargas", "Daniel Muñoz", "Davinson Sánchez", "Jhon Janer Lucumí",
+      "Johan Mojica", "Richard Ríos", "Jefferson Lerma",
+      "Luis Díaz", "James Rodríguez", "Jhon Arias", "John Jader Durán"
+    ]
+  },
+
+  "Croatia": {
+    "formation": "4-3-3",
+    "positions": ["GK", "RB", "CB", "CB", "LB", "CM", "CM", "CM", "RW", "ST", "LW"],
+    "players": [
+      "Dominik Livaković", "Josip Stanišić", "Josip Šutalo", "Joško Gvardiol",
+      "Luka Vušković", "Luka Modrić", "Mateo Kovačić", "Mario Pašalić",
+      "Martin Baturina", "Ante Budimir", "Andrej Kramarić"
+    ]
+  },
+
+  "Curaçao": {
+    "formation": "4-3-3",
+    "positions": ["GK", "RB", "CB", "CB", "LB", "CM", "CM", "CM", "RW", "ST", "LW"],
+    "players": [
+      "Eloy Room", "Sherel Floranus", "Shaquille Obispo", "Riechedly Bazoer",
+      "Giovanni Troupée", "Leandro Bacuna", "Jearl Comenencia", "Jimmy Felida",
+      "Tahith Chong", "Brandley Kuwas", "Kenji Gorré"
+    ]
+  },
+
+  "Czech Republic": {
+    "formation": "3-4-2-1",
+    "positions": ["GK", "CB", "CB", "CB", "RM", "CM", "CM", "LM", "CAM", "CAM", "ST"],
+    "players": [
+      "Matěj Kovář", "Robin Hranáč", "Tomáš Holeš", "Ladislav Krejčí",
+      "Vladimír Coufal", "Tomáš Souček", "Lukáš Provod", "David Jurásek",
+      "Pavel Šulc", "Adam Hložek", "Patrik Schick"
+    ]
+  },
+
+  "DR Congo": {
+    "formation": "4-2-3-1",
+    "positions": ["GK", "RB", "CB", "CB", "LB", "CDM", "CDM", "RW", "CAM", "LW", "ST"],
+    "players": [
+      "Lionel Mpasi", "Aaron Wan-Bissaka", "Chancel Mbemba", "Axel Tuanzebe",
+      "Arthur Masuaku", "Charles Pickel", "Samuel Moutoussamy",
+      "Meschak Elia", "Gaël Kakuta", "Yoane Wissa", "Simon Banza"
+    ]
+  },
+
+  "Ecuador": {
+    "formation": "4-2-3-1",
+    "positions": ["GK", "RB", "CB", "CB", "LB", "CDM", "CDM", "RW", "CAM", "LW", "ST"],
+    "players": [
+      "Hernán Galíndez", "Ángelo Preciado", "Willian Pacho", "Piero Hincapié",
+      "Pervis Estupiñán", "Alan Franco", "Moisés Caicedo",
+      "Pedro Vite", "Ángel Mena", "Jeremy Sarmiento", "Enner Valencia"
+    ]
+  },
+
+  "Egypt": {
+    "formation": "4-3-3",
+    "positions": ["GK", "RB", "CB", "CB", "LB", "CM", "CM", "CM", "RW", "ST", "LW"],
+    "players": [
+      "Mohamed El Shenawy", "Mohamed Hany", "Mohamed Abdelmonem", "Ramy Rabia",
+      "Ahmed Fattouh", "Hamdy Fathi", "Marwan Attia", "Ahmed Sayed Zizo",
+      "Mohamed Salah", "Omar Marmoush", "Trézéguet"
+    ]
+  },
+
+  "England": {
+    "formation": "4-2-3-1",
+    "positions": ["GK", "RB", "CB", "CB", "LB", "CDM", "CDM", "RW", "CAM", "LW", "ST"],
+    "players": [
+      "Jordan Pickford", "Reece James", "Marc Guéhi", "Ezri Konsa",
+      "Callum O'Reilly", "Declan Rice", "Kobbie Mainoo",
+      "Bukayo Saka", "Jude Bellingham", "Marcus Rashford", "Harry Kane"
+    ]
+  },
+
+  "France": {
+    "formation": "4-2-3-1",
+    "positions": ["GK", "RB", "CB", "CB", "LB", "CDM", "CDM", "RW", "CAM", "LW", "ST"],
+    "players": [
+      "Mike Maignan", "Jules Koundé", "William Saliba", "Dayot Upamecano",
+      "Théo Hernandez", "Aurélien Tchouaméni", "N'Golo Kanté",
+      "Ousmane Dembélé", "Michael Olise", "Désiré Doué", "Kylian Mbappé"
+    ]
+  },
+
+  "Germany": {
+    "formation": "4-2-3-1",
+    "positions": ["GK", "RB", "CB", "CB", "LB", "CDM", "CDM", "RW", "CAM", "LW", "ST"],
+    "players": [
+      "Manuel Neuer", "Joshua Kimmich", "Antonio Rüdiger", "Nico Schlotterbeck",
+      "David Raum", "Aleksandar Pavlović", "Leon Goretzka",
+      "Jamal Musiala", "Florian Wirtz", "Leroy Sané", "Kai Havertz"
+    ]
+  },
+
+  "Ghana": {
+    "formation": "4-2-3-1",
+    "positions": ["GK", "RB", "CB", "CB", "LB", "CDM", "CDM", "RW", "CAM", "LW", "ST"],
+    "players": [
+      "Lawrence Ati-Zigi", "Alidu Seidu", "Daniel Opoku", "Nathaniel Adjetey",
+      "Gideon Mensah", "Thomas Partey", "Elisha Owusu",
+      "Ernest Nuamah", "André Ayew", "Iñaki Williams", "Antoine Semenyo"
+    ]
+  },
+
+  "Haiti": {
+    "formation": "4-3-3",
+    "positions": ["GK", "RB", "CB", "CB", "LB", "CM", "CM", "CM", "RW", "ST", "LW"],
+    "players": [
+      "Johny Placide", "Carlens Arcus", "Ricardo Adé", "Jean-Kévin Duverne",
+      "Martin Expérience Lacroix", "Jean-Victor Makengo", "Bryan Alceus",
+      "Dany Jean Jacques", "Frantzdy Pierrot", "Duckens Nazon", "Mondy Prunier"
+    ]
+  },
+
+  "Iran": {
+    "formation": "4-4-2",
+    "positions": ["GK", "RB", "CB", "CB", "LB", "RM", "CM", "CM", "LM", "ST", "ST"],
+    "players": [
+      "Alireza Beiranvand", "Saleh Hardani", "Hossein Kanaanizadegan", "Shojae Khalilzadeh",
+      "Milad Mohammadi", "Alireza Jahanbakhsh", "Saeid Ezatolahi", "Saman Ghoddos",
+      "Mehdi Torabi", "Mehdi Ghayedi", "Mehdi Taremi"
+    ]
+  },
+
+  "Iraq": {
+    "formation": "4-2-3-1",
+    "positions": ["GK", "RB", "CB", "CB", "LB", "CDM", "CDM", "RW", "CAM", "LW", "ST"],
+    "players": [
+      "Jalal Hassan", "Mustafa Saadoon", "Rebin Sulaka", "Zaid Tahseen",
+      "Merchas Doski", "Amir Al-Ammari", "Zidane Iqbal",
+      "Ibrahim Bayesh", "Ali Al-Hamadi", "Ali Jasim", "Aymen Hussein"
+    ]
+  },
+
+  "Ivory Coast": {
+    "formation": "4-3-3",
+    "positions": ["GK", "RB", "CB", "CB", "LB", "CM", "CM", "CM", "RW", "ST", "LW"],
+    "players": [
+      "Yahia Fofana", "Guéla Doué", "Evan Ndicka", "Ousmane Diomande",
+      "Ghislain Konan", "Franck Kessié", "Ibrahim Sangaré", "Seko Fofana",
+      "Simon Adingra", "Sébastien Haller", "Nicolas Pépé"
+    ]
+  },
+
+  "Japan": {
+    "formation": "3-4-2-1",
+    "positions": ["GK", "CB", "CB", "CB", "RM", "CM", "CM", "LM", "CAM", "CAM", "ST"],
+    "players": [
+      "Zion Suzuki", "Hiroki Ito", "Ko Itakura", "Takehiro Tomiyasu",
+      "Ritsu Doan", "Wataru Endo", "Hidemasa Morita", "Kaoru Mitoma",
+      "Takefusa Kubo", "Daichi Kamada", "Ayase Ueda"
+    ]
+  },
+
+  "Jordan": {
+    "formation": "3-4-2-1",
+    "positions": ["GK", "CB", "CB", "CB", "RM", "CM", "CM", "LM", "CAM", "CAM", "ST"],
+    "players": [
+      "Yazeed Abu Laila", "Abdallah Nasib", "Yazan Al-Arab", "Hussein Al-Ajalin",
+      "Ihsan Haddad", "Nour Bani Attiah", "Mahmoud Al-Mardi", "Mohammad Al-Rashdan",
+      "Musa Al-Taamari", "Ali Olwan", "Yazan Al-Naimat"
+    ]
+  },
+
+  "Mexico": {
+    "formation": "4-3-3",
+    "positions": ["GK", "RB", "CB", "CB", "LB", "CM", "CM", "CM", "RW", "ST", "LW"],
+    "players": [
+      "José Rangel", "Jorge Sánchez", "César Montes", "Johan Vásquez",
+      "Jesús Gallardo", "Érik Lira", "Érick Álvarez", "Román Mora",
+      "Roberto Alvarado", "Raúl Jiménez", "Santiago Giménez"
+    ]
+  },
+
+  "Morocco": {
+    "formation": "4-2-3-1",
+    "positions": ["GK", "RB", "CB", "CB", "LB", "CDM", "CDM", "RW", "CAM", "LW", "ST"],
+    "players": [
+      "Yassine Bounou", "Achraf Hakimi", "Nayef Aguerd", "Chadi Riad",
+      "Noussair Mazraoui", "Sofyan Amrabat", "Nabil El Aynaoui",
+      "Brahim Díaz", "Bilal El Khannouss", "Abde Ezzalzouli", "Ayoub El Kaabi"
+    ]
+  },
+
+  "Netherlands": {
+    "formation": "4-3-3",
+    "positions": ["GK", "RB", "CB", "CB", "LB", "CM", "CM", "CM", "RW", "ST", "LW"],
+    "players": [
+      "Bart Verbruggen", "Denzel Dumfries", "Virgil van Dijk", "Micky van de Ven",
+      "Nathan Aké", "Jerdy Schouten", "Ryan Gravenberch", "Tijjani Reijnders",
+      "Xavi Simons", "Memphis Depay", "Cody Gakpo"
+    ]
+  },
+
+  "New Zealand": {
+    "formation": "4-2-3-1",
+    "positions": ["GK", "RB", "CB", "CB", "LB", "CDM", "CDM", "RW", "CAM", "LW", "ST"],
+    "players": [
+      "Max Crocombe", "Tim Payne", "Finn Surman", "Michael Boxall",
+      "Liberato Cacace", "Matthew Garbett", "Marko Stamenic",
+      "Elijah Just", "Sarpreet Singh", "Kosta Barbarouses", "Chris Wood"
+    ]
+  },
+
+  "Norway": {
+    "formation": "4-3-3",
+    "positions": ["GK", "RB", "CB", "CB", "LB", "CM", "CM", "CM", "RW", "ST", "LW"],
+    "players": [
+      "Ørjan Nyland", "Julian Ryerson", "Leo Østigård", "Andreas Hanche-Olsen",
+      "David Wolfe", "Martin Ødegaard", "Sander Berge", "Kristian Thorsby",
+      "Oscar Bobb", "Erling Haaland", "Antonio Nusa"
+    ]
+  },
+
+  "Panama": {
+    "formation": "3-4-3",
+    "positions": ["GK", "CB", "CB", "CB", "RM", "CM", "CM", "LM", "RW", "ST", "LW"],
+    "players": [
+      "Orlando Mosquera", "José Córdoba", "Harold Cummings", "Roderick Miller",
+      "Amir Murillo", "Aníbal Godoy", "Adalberto Carrasquilla", "Carlos Harvey",
+      "José Fajardo", "Yoel Bárcenas", "José Luis Rodríguez"
+    ]
+  },
+
+  "Paraguay": {
+    "formation": "4-2-3-1",
+    "positions": ["GK", "RB", "CB", "CB", "LB", "CDM", "CDM", "RW", "CAM", "LW", "ST"],
+    "players": [
+      "Carlos Coronel", "Gustavo Velázquez", "Fabián Balbuena", "Omar Alderete",
+      "Júnior Alonso", "Mathías Villasanti", "Andrés Cubas",
+      "Miguel Almirón", "Julio Enciso", "Ramón Sosa", "Antonio Sanabria"
+    ]
+  },
+
+  "Portugal": {
+    "formation": "4-3-3",
+    "positions": ["GK", "RB", "CB", "CB", "LB", "CM", "CM", "CM", "RW", "ST", "LW"],
+    "players": [
+      "Diogo Costa", "João Cancelo", "Rúben Dias", "Gonçalo Inácio",
+      "Nuno Mendes", "Rúben Neves", "Vitinha", "Bruno Fernandes",
+      "Bernardo Silva", "Cristiano Ronaldo", "Rafael Leão"
+    ]
+  },
+
+  "Qatar": {
+    "formation": "4-3-3",
+    "positions": ["GK", "RB", "CB", "CB", "LB", "CM", "CM", "CM", "RW", "ST", "LW"],
+    "players": [
+      "Meshaal Barsham", "Ayoub Al-Oui", "Boualem Khoukhi", "Lucas Mendes",
+      "Homam Ahmed", "Karim Boudiaf", "Assim Madibo",
+      "Ahmed Al-Mannai", "Akram Afif", "Almoez Ali", "Edmilson Junior"
+    ]
+  },
+
+  "Saudi Arabia": {
+    "formation": "4-3-3",
+    "positions": ["GK", "RB", "CB", "CB", "LB", "CM", "CM", "CM", "RW", "ST", "LW"],
+    "players": [
+      "Mohammed Al-Owais", "Saud Abdulhamid", "Hassan Al-Tambakti", "Ali Lajami",
+      "Ahmed Kadesh", "Mohamed Kanno", "Abdullah Al-Khaibari", "Nasser Al-Dawsari",
+      "Abdulaziz Al-Ghannam", "Firas Al-Buraikan", "Salem Al-Dawsari"
+    ]
+  },
+
+  "Scotland": {
+    "formation": "3-4-2-1",
+    "positions": ["GK", "CB", "CB", "CB", "RM", "CM", "CM", "LM", "CAM", "CAM", "ST"],
+    "players": [
+      "Angus Gunn", "Ryan Porteous", "Grant Hanley", "Kieran Tierney",
+      "Anthony Ralston", "Scott McTominay", "Lewis Ferguson", "Andrew Robertson",
+      "John McGinn", "Ryan Christie", "Ché Adams"
+    ]
+  },
+
+  "Senegal": {
+    "formation": "4-3-3",
+    "positions": ["GK", "RB", "CB", "CB", "LB", "CM", "CM", "CM", "RW", "ST", "LW"],
+    "players": [
+      "Édouard Mendy", "Youssouf Sabaly", "Kalidou Koulibaly", "Moussa Niakhaté",
+      "Ismail Jakobs", "Pape Matar Sarr", "Idrissa Gueye", "Lamine Camara",
+      "Ismaïla Sarr", "Nicolas Jackson", "Sadio Mané"
+    ]
+  },
+
+  "South Africa": {
+    "formation": "4-2-3-1",
+    "positions": ["GK", "RB", "CB", "CB", "LB", "CDM", "CDM", "RW", "CAM", "LW", "ST"],
+    "players": [
+      "Ronwen Williams", "Khuliso Mudau", "Siyabonga Sibisi", "Grant Kekana",
+      "Aubrey Modiba", "Teboho Mokoena", "Thalente Mbatha",
+      "Oswin Appollis", "Themba Zwane", "Elias Mokwana", "Lyle Foster"
+    ]
+  },
+
+  "South Korea": {
+    "formation": "4-2-3-1",
+    "positions": ["GK", "RB", "CB", "CB", "LB", "CDM", "CDM", "RW", "CAM", "LW", "ST"],
+    "players": [
+      "Jo Hyun-Woo", "Seol Young-Woo", "Kim Min-Jae", "Jo Yu-Min",
+      "Lee Tae-Seok", "Paik Seung-Ho", "Hwang In-Beom",
+      "Lee Kang-In", "Bae Jun-Ho", "Hwang Hee-Chan", "Son Heung-Min"
+    ]
+  },
+
+  "Spain": {
+    "formation": "4-3-3",
+    "positions": ["GK", "RB", "CB", "CB", "LB", "CM", "CM", "CM", "RW", "ST", "LW"],
+    "players": [
+      "Unai Simón", "Dani Carvajal", "Aymeric Laporte", "Pau Cubarsí",
+      "Marc Cucurella", "Rodri", "Fabián Ruiz", "Pedri",
+      "Lamine Yamal", "Mikel Oyarzabal", "Nico Williams"
+    ]
+  },
+
+  "Sweden": {
+    "formation": "4-4-2",
+    "positions": ["GK", "RB", "CB", "CB", "LB", "RM", "CM", "CM", "LM", "ST", "ST"],
+    "players": [
+      "Marko Johansson", "Emil Krafth", "Isak Hien", "Victor Lindelöf",
+      "Gabriel Gudmundsson", "Anthony Elanga", "Jens Cajuste", "Hugo Larsson",
+      "Yasin Ayari", "Alexander Isak", "Viktor Gyökeres"
+    ]
+  },
+
+  "Switzerland": {
+    "formation": "3-4-2-1",
+    "positions": ["GK", "CB", "CB", "CB", "RM", "CM", "CM", "LM", "CAM", "CAM", "ST"],
+    "players": [
+      "Gregor Kobel", "Nico Elvedi", "Manuel Akanji", "Ricardo Rodríguez",
+      "Silvan Widmer", "Remo Freuler", "Granit Xhaka", "Dan Ndoye",
+      "Fabian Rieder", "Ruben Vargas", "Breel Embolo"
+    ]
+  },
+
+  "Tunisia": {
+    "formation": "4-3-3",
+    "positions": ["GK", "RB", "CB", "CB", "LB", "CM", "CM", "CM", "RW", "ST", "LW"],
+    "players": [
+      "Aymen Dahmen", "Yan Valery", "Yassine Meriah", "Montassar Talbi",
+      "Ali Abdi", "Ellyes Skhiri", "Mohamed Ali Ben Romdhane", "Hannibal Mejbri",
+      "Sayfallah Ltaief", "Seifeddine Jaziri", "Elias Achouri"
+    ]
+  },
+
+  "Turkey": {
+    "formation": "4-2-3-1",
+    "positions": ["GK", "RB", "CB", "CB", "LB", "CDM", "CDM", "RW", "CAM", "LW", "ST"],
+    "players": [
+      "Mert Günok", "Zeki Çelik", "Merih Demiral", "Abdülkerim Bardakcı",
+      "Ferdi Kadıoğlu", "Kaan Ayhan", "Hakan Çalhanoğlu",
+      "Barış Yılmaz", "Arda Güler", "Kenan Yıldız", "Kerem Aktürkoğlu"
+    ]
+  },
+
+  "United States": {
+    "formation": "4-3-3",
+    "positions": ["GK", "RB", "CB", "CB", "LB", "CM", "CM", "CM", "RW", "ST", "LW"],
+    "players": [
+      "Matt Turner", "Joe Scally", "Chris Richards", "Tim Ream",
+      "Antonee Robinson", "Tyler Adams", "Weston McKennie", "Yunus Musah",
+      "Christian Pulisic", "Folarin Balogun", "Timothy Weah"
+    ]
+  },
+
+  "Uruguay": {
+    "formation": "4-2-3-1",
+    "positions": ["GK", "RB", "CB", "CB", "LB", "CDM", "CDM", "RW", "CAM", "LW", "ST"],
+    "players": [
+      "Sergio Rochet", "Nahitan Nández", "Ronald Araujo", "José Giménez",
+      "Mathías Olivera", "Federico Valverde", "Manuel Ugarte",
+      "Facundo Pellistri", "Giorgian De Arrascaeta", "Maximiliano Araújo", "Darwin Núñez"
+    ]
+  },
+
+  "Uzbekistan": {
+    "formation": "3-4-2-1",
+    "positions": ["GK", "CB", "CB", "CB", "RM", "CM", "CM", "LM", "CAM", "CAM", "ST"],
+    "players": [
+      "Utkir Yusupov", "Rustam Ashurmatov", "Abdukodir Khusanov", "Umar Abdullaev",
+      "Farrukh Sayfiev", "Otabek Shukurov", "Odiljon Hamrobekov", "Sherzod Nasrullaev",
+      "Oston Urunov", "Abbosbek Fayzullaev", "Eldor Shomurodov"
+    ]
+  }
+}

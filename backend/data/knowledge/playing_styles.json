@@ -1,0 +1,266 @@
+[
+  {
+    "id": "tiki-taka",
+    "name": "Tiki-Taka",
+    "name_cn": "传控足球",
+    "description": "以短传渗透和控球为核心理念的足球风格，通过大量传球控制比赛节奏，寻找防守漏洞。巴萨和西班牙国家队是典型代表。",
+    "principles": [
+      "短传渗透，保持球权",
+      "高位控球，压缩对手空间",
+      "丢球后立即反抢（6秒规则）",
+      "通过位置轮转制造人数优势",
+      "门将参与后场出球体系"
+    ],
+    "required_team_attributes": {
+      "avg_passing_min": 72,
+      "avg_dribbling_min": 65,
+      "avg_speed_min": 60,
+      "avg_shooting_min": 55,
+      "avg_defending_min": 55,
+      "avg_physical_min": 55
+    },
+    "preferred_formations": ["4-3-3", "3-4-3"],
+    "strength_against": ["low_block", "defensive_block"],
+    "weakness_against": ["gegenpressing", "direct_play"],
+    "key_positions": ["CM", "CAM", "CF"],
+    "data_fingerprint": {
+      "possession_high": true,
+      "pass_accuracy_high": true,
+      "tempo_slow": true,
+      "pressing_intensity": "high_after_loss",
+      "defensive_line": "high",
+      "attack_build_up": "short_passes"
+    }
+  },
+  {
+    "id": "gegenpressing",
+    "name": "Gegenpressing",
+    "name_cn": "高位压迫",
+    "description": "在丢球后立即对持球者进行高压逼抢，迫使对方失误的战术风格。由朗尼克理论化，克洛普将其推广至全球。核心理念：最好的组织进攻时机是刚夺回球权的瞬间。",
+    "principles": [
+      "丢球后5-6秒内全力反抢",
+      "多人围抢持球者（蜂群战术）",
+      "高位防线压缩空间",
+      "抢断后快速垂直进攻",
+      "全队保持紧凑阵型"
+    ],
+    "required_team_attributes": {
+      "avg_speed_min": 70,
+      "avg_physical_min": 72,
+      "avg_passing_min": 62,
+      "avg_dribbling_min": 60,
+      "avg_defending_min": 60,
+      "avg_shooting_min": 58
+    },
+    "preferred_formations": ["4-3-3", "4-2-3-1"],
+    "strength_against": ["tiki-taka", "possession_based"],
+    "weakness_against": ["direct_play", "counter_attack"],
+    "key_positions": ["CDM", "CM", "ST"],
+    "data_fingerprint": {
+      "possession_high": false,
+      "pass_accuracy_high": false,
+      "tempo_slow": false,
+      "pressing_intensity": "very_high",
+      "defensive_line": "high",
+      "attack_build_up": "direct_fast"
+    }
+  },
+  {
+    "id": "counter_attack",
+    "name": "Counter-Attack",
+    "name_cn": "防守反击",
+    "description": "球队大部分时间退守本方半场，一旦夺回球权迅速发动快速反击，利用对方压上后身后的空间。穆里尼奥的切尔西和皇马是该风格的经典代表。",
+    "principles": [
+      "低中位防守，压缩身后空间",
+      "抢断后第一时间向前传球",
+      "利用对方防守转换时的混乱",
+      "前场球员保持速度优势",
+      "防守时全员参与，保持纪律"
+    ],
+    "required_team_attributes": {
+      "avg_speed_min": 72,
+      "avg_defending_min": 70,
+      "avg_shooting_min": 62,
+      "avg_physical_min": 65,
+      "avg_passing_min": 58,
+      "avg_dribbling_min": 60
+    },
+    "preferred_formations": ["4-4-2", "5-4-1", "4-2-3-1"],
+    "strength_against": ["gegenpressing", "possession_based", "tiki-taka"],
+    "weakness_against": ["low_block", "possession_based"],
+    "key_positions": ["ST", "LW", "RW", "CM"],
+    "data_fingerprint": {
+      "possession_high": false,
+      "pass_accuracy_high": false,
+      "tempo_slow": false,
+      "pressing_intensity": "low_medium",
+      "defensive_line": "low_medium",
+      "attack_build_up": "direct_fast"
+    }
+  },
+  {
+    "id": "direct_play",
+    "name": "Direct Play",
+    "name_cn": "直接进攻",
+    "description": "通过长传球和快速传递直接攻击对方防线，减少中后场倒脚。英式足球的传统风格，强调身体对抗和第二落点争夺。",
+    "principles": [
+      "快速将球推进至前场",
+      "利用长传和传中制造机会",
+      "争夺第二落点是关键",
+      "身体对抗和空中优势",
+      "减少后场传球风险"
+    ],
+    "required_team_attributes": {
+      "avg_physical_min": 75,
+      "avg_speed_min": 68,
+      "avg_shooting_min": 62,
+      "avg_passing_min": 55,
+      "avg_dribbling_min": 55,
+      "avg_defending_min": 58
+    },
+    "preferred_formations": ["4-4-2", "4-3-3"],
+    "strength_against": ["gegenpressing", "tiki-taka"],
+    "weakness_against": ["possession_based", "low_block"],
+    "key_positions": ["ST", "CM", "LB", "RB"],
+    "data_fingerprint": {
+      "possession_high": false,
+      "pass_accuracy_high": false,
+      "tempo_slow": false,
+      "pressing_intensity": "medium",
+      "defensive_line": "medium",
+      "attack_build_up": "long_balls"
+    }
+  },
+  {
+    "id": "possession_based",
+    "name": "Possession-Based",
+    "name_cn": "控球进攻",
+    "description": "以控球为防守，通过持续传球消耗对手体能并寻找破绽。与tiki-taka不同，更注重纵向推进而非横向传导。曼城在瓜迪奥拉治下是该风格的代表。",
+    "principles": [
+      "高位控球，持续施压",
+      "位置轮转创造接球点",
+      "边后卫内收形成中场人数优势",
+      "耐心传导，等待最佳时机",
+      "丢球后有序反抢"
+    ],
+    "required_team_attributes": {
+      "avg_passing_min": 75,
+      "avg_dribbling_min": 68,
+      "avg_speed_min": 62,
+      "avg_shooting_min": 62,
+      "avg_defending_min": 58,
+      "avg_physical_min": 58
+    },
+    "preferred_formations": ["4-3-3", "3-4-2-1", "4-2-3-1"],
+    "strength_against": ["direct_play", "low_block"],
+    "weakness_against": ["gegenpressing", "counter_attack"],
+    "key_positions": ["CM", "CDM", "CAM"],
+    "data_fingerprint": {
+      "possession_high": true,
+      "pass_accuracy_high": true,
+      "tempo_slow": true,
+      "pressing_intensity": "high_organized",
+      "defensive_line": "high",
+      "attack_build_up": "short_medium"
+    }
+  },
+  {
+    "id": "wing_play",
+    "name": "Wing Play",
+    "name_cn": "边路进攻",
+    "description": "依赖边路球员的速度和传中能力制造机会，通过边路突破拉开防守宽度。传统4-4-2的经典打法，现代版本加入了内切边锋的变化。",
+    "principles": [
+      "充分利用场地宽度",
+      "边路一对一突破或二打一配合",
+      "高质量传中是得分手段",
+      "边后卫插上提供额外压力",
+      "中锋抢点能力至关重要"
+    ],
+    "required_team_attributes": {
+      "avg_speed_min": 72,
+      "avg_dribbling_min": 68,
+      "avg_shooting_min": 60,
+      "avg_physical_min": 62,
+      "avg_passing_min": 60,
+      "avg_defending_min": 55
+    },
+    "preferred_formations": ["4-4-2", "4-3-3", "3-5-2"],
+    "strength_against": ["low_block", "defensive_block"],
+    "weakness_against": ["gegenpressing", "possession_based"],
+    "key_positions": ["LW", "RW", "LWB", "RWB", "ST"],
+    "data_fingerprint": {
+      "possession_high": false,
+      "pass_accuracy_high": false,
+      "tempo_slow": false,
+      "pressing_intensity": "medium",
+      "defensive_line": "medium",
+      "attack_build_up": "wide_play"
+    }
+  },
+  {
+    "id": "low_block",
+    "name": "Low Block",
+    "name_cn": "低位防守",
+    "description": "全队退守禁区前沿，用人数优势封堵射门路线，放弃控球权换取防守稳固。弱队对抗强队的常见策略。",
+    "principles": [
+      "防线退至禁区线附近",
+      "紧凑阵型，减少线间空档",
+      "限制对方在危险区域接球",
+      "依靠定位球和反击得分",
+      "保持耐心，等待对方失误"
+    ],
+    "required_team_attributes": {
+      "avg_defending_min": 75,
+      "avg_physical_min": 72,
+      "avg_speed_min": 60,
+      "avg_passing_min": 50,
+      "avg_dribbling_min": 48,
+      "avg_shooting_min": 50
+    },
+    "preferred_formations": ["5-4-1", "4-5-1", "5-3-2"],
+    "strength_against": ["possession_based", "wing_play", "tiki-taka"],
+    "weakness_against": ["counter_attack", "direct_play"],
+    "key_positions": ["CB", "CDM", "ST"],
+    "data_fingerprint": {
+      "possession_high": false,
+      "pass_accuracy_high": false,
+      "tempo_slow": true,
+      "pressing_intensity": "very_low",
+      "defensive_line": "low",
+      "attack_build_up": "long_balls"
+    }
+  },
+  {
+    "id": "fluid_attack",
+    "name": "Fluid Attack",
+    "name_cn": "全攻全守",
+    "description": "荷兰足球哲学，场上10名球员同时参与进攻和防守，位置灵活互换。由米歇尔斯和克鲁伊夫在1970年代创立，影响了现代足球所有战术流派。",
+    "principles": [
+      "位置高度互换，球员全能化",
+      "进攻时多人前插，防守时全员回撤",
+      "高位防线与紧凑阵型",
+      "持续施压不给对手喘息",
+      "球员理解多种位置要求"
+    ],
+    "required_team_attributes": {
+      "avg_speed_min": 70,
+      "avg_physical_min": 70,
+      "avg_passing_min": 68,
+      "avg_dribbling_min": 65,
+      "avg_shooting_min": 60,
+      "avg_defending_min": 60
+    },
+    "preferred_formations": ["3-4-3", "4-3-3"],
+    "strength_against": ["low_block", "direct_play"],
+    "weakness_against": ["counter_attack", "gegenpressing"],
+    "key_positions": ["CM", "CB", "LW", "RW"],
+    "data_fingerprint": {
+      "possession_high": true,
+      "pass_accuracy_high": true,
+      "tempo_slow": false,
+      "pressing_intensity": "high",
+      "defensive_line": "high",
+      "attack_build_up": "mixed"
+    }
+  }
+]

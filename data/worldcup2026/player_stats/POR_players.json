@@ -1,0 +1,339 @@
+{
+  "team_en": "Portugal",
+  "team_cn": "葡萄牙",
+  "fifa_code": "POR",
+  "coach": "Roberto Martínez",
+  "group": "K",
+  "players": [
+    {
+      "name_en": "Diogo Costa",
+      "name_cn": "迪奥戈·科斯塔",
+      "position": "GK",
+      "club": "FC Porto",
+      "age": 26,
+      "club_country": "Portugal",
+      "transfermarkt_url": "https://www.transfermarkt.com/diogo-costa/profil/spieler/617384",
+      "profile_url": "https://www.transfermarkt.com/diogo-costa/profil/spieler/617384/statistik",
+      "basic_info": {
+        "date_of_birth": "13/05/1996 (30)",
+        "height": "1,79 m"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "José Sá",
+      "name_cn": "若泽·萨",
+      "position": "GK",
+      "club": "Wolverhampton",
+      "age": 33,
+      "club_country": "England",
+      "transfermarkt_url": "https://www.transfermarkt.com/jose-sa/profil/spieler/207883",
+      "profile_url": "https://www.transfermarkt.com/jose-sa/profil/spieler/207883/statistik",
+      "basic_info": {
+        "date_of_birth": "17/12/1993 (32)"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Rui Silva",
+      "name_cn": "鲁伊·席尔瓦",
+      "position": "GK",
+      "club": "Sporting CP",
+      "age": 32,
+      "club_country": "Portugal",
+      "transfermarkt_url": "https://www.transfermarkt.com/rui-silva/profil/spieler/128385",
+      "profile_url": "https://www.transfermarkt.com/rui-silva/profil/spieler/128385/statistik",
+      "basic_info": {},
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Rúben Dias",
+      "name_cn": "鲁本·迪亚斯",
+      "position": "DF",
+      "club": "Manchester City",
+      "age": 29,
+      "club_country": "England",
+      "transfermarkt_url": "https://www.transfermarkt.com/ruben-dias/profil/spieler/388270",
+      "profile_url": "https://www.transfermarkt.com/ruben-dias/profil/spieler/388270/statistik",
+      "basic_info": {
+        "date_of_birth": "30/07/1993 (32)",
+        "height": "1,85 m"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Gonçalo Inácio",
+      "name_cn": "贡萨洛·伊纳西奥",
+      "position": "DF",
+      "club": "Sporting CP",
+      "age": 24,
+      "club_country": "Portugal",
+      "transfermarkt_url": "https://www.transfermarkt.com/goncalo-inacio/profil/spieler/558889",
+      "profile_url": "https://www.transfermarkt.com/goncalo-inacio/profil/spieler/558889/statistik",
+      "basic_info": {},
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "João Cancelo",
+      "name_cn": "坎塞洛",
+      "position": "DF",
+      "club": "Barcelona",
+      "age": 32,
+      "club_country": "Spain",
+      "transfermarkt_url": "https://www.transfermarkt.com/joao-cancelo/profil/spieler/194980",
+      "profile_url": "https://www.transfermarkt.com/joao-cancelo/profil/spieler/194980/statistik",
+      "basic_info": {},
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Diogo Dalot",
+      "name_cn": "达洛特",
+      "position": "DF",
+      "club": "Manchester United",
+      "age": 27,
+      "club_country": "England",
+      "transfermarkt_url": "https://www.transfermarkt.com/diogo-dalot/profil/spieler/361339",
+      "profile_url": "https://www.transfermarkt.com/diogo-dalot/profil/spieler/361339/statistik",
+      "basic_info": {},
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Nuno Mendes",
+      "name_cn": "努诺·门德斯",
+      "position": "DF",
+      "club": "Paris Saint-Germain",
+      "age": 23,
+      "club_country": "France",
+      "transfermarkt_url": "https://www.transfermarkt.com/nuno-mendes/profil/spieler/564954",
+      "profile_url": "https://www.transfermarkt.com/nuno-mendes/profil/spieler/564954/statistik",
+      "basic_info": {
+        "date_of_birth": "27/07/1999 (26)",
+        "height": "1,73 m"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Nélson Semedo",
+      "name_cn": "塞梅多",
+      "position": "DF",
+      "club": "Fenerbahçe",
+      "age": 32,
+      "club_country": "Turkey",
+      "transfermarkt_url": "https://www.transfermarkt.com/nelson-semedo/profil/spieler/189651",
+      "profile_url": "https://www.transfermarkt.com/nelson-semedo/profil/spieler/189651/statistik",
+      "basic_info": {
+        "date_of_birth": "23/12/1990 (35)"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Renato Veiga",
+      "name_cn": "雷纳托·维加",
+      "position": "DF",
+      "club": "Villarreal",
+      "age": 22,
+      "club_country": "Spain",
+      "transfermarkt_url": "https://www.transfermarkt.com/renato-veiga/profil/spieler/1003146",
+      "profile_url": "https://www.transfermarkt.com/renato-veiga/profil/spieler/1003146/statistik",
+      "basic_info": {},
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Tomás Araújo",
+      "name_cn": "托马斯·阿拉乌霍",
+      "position": "DF",
+      "club": "Benfica",
+      "age": 24,
+      "club_country": "Portugal",
+      "transfermarkt_url": "https://www.transfermarkt.com/tomas-araujo/profil/spieler/1029044",
+      "profile_url": "https://www.transfermarkt.com/tomas-araujo/profil/spieler/1029044/statistik",
+      "basic_info": {
+        "date_of_birth": "26/07/2003 (22)",
+        "height": "1,80 m",
+        "caps_goals": "5 / 0"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Bruno Fernandes",
+      "name_cn": "B费",
+      "position": "MF",
+      "club": "Manchester United",
+      "age": 31,
+      "club_country": "England",
+      "transfermarkt_url": "https://www.transfermarkt.com/bruno-fernandes/profil/spieler/240671",
+      "profile_url": "https://www.transfermarkt.com/bruno-fernandes/profil/spieler/240671/statistik",
+      "basic_info": {
+        "date_of_birth": "12/02/1994 (32)"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Bernardo Silva",
+      "name_cn": "B席",
+      "position": "MF",
+      "club": "Manchester City",
+      "age": 31,
+      "club_country": "England",
+      "transfermarkt_url": "https://www.transfermarkt.com/bernardo-silva/profil/spieler/321233",
+      "profile_url": "https://www.transfermarkt.com/bernardo-silva/profil/spieler/321233/statistik",
+      "basic_info": {},
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Vitinha",
+      "name_cn": "维蒂尼亚",
+      "position": "MF",
+      "club": "Paris Saint-Germain",
+      "age": 26,
+      "club_country": "France",
+      "transfermarkt_url": "https://www.transfermarkt.com/vitinha/profil/spieler/600118",
+      "profile_url": "https://www.transfermarkt.com/vitinha/profil/spieler/600118/statistik",
+      "basic_info": {},
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "João Neves",
+      "name_cn": "若昂·内维斯",
+      "position": "MF",
+      "club": "Paris Saint-Germain",
+      "age": 21,
+      "club_country": "France",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "Rúben Neves",
+      "name_cn": "鲁本·内维斯",
+      "position": "MF",
+      "club": "Al-Hilal",
+      "age": 29,
+      "club_country": "Saudi Arabia",
+      "transfermarkt_url": "https://www.transfermarkt.com/ruben-neves/profil/spieler/321234",
+      "profile_url": "https://www.transfermarkt.com/ruben-neves/profil/spieler/321234/statistik",
+      "basic_info": {
+        "date_of_birth": "28/03/1999 (27)",
+        "height": "1,86 m",
+        "caps_goals": "3 / 0"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Samu Costa",
+      "name_cn": "萨姆·科斯塔",
+      "position": "MF",
+      "club": "Mallorca",
+      "age": 25,
+      "club_country": "Spain",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "Matheus Nunes",
+      "name_cn": "马特乌斯·努内斯",
+      "position": "MF",
+      "club": "Manchester City",
+      "age": 27,
+      "club_country": "England",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "Cristiano Ronaldo",
+      "name_cn": "C罗",
+      "position": "FW",
+      "club": "Al-Nassr",
+      "age": 41,
+      "club_country": "Saudi Arabia",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "Rafael Leão",
+      "name_cn": "拉斐尔·莱奥",
+      "position": "FW",
+      "club": "AC Milan",
+      "age": 26,
+      "club_country": "Italy",
+      "transfermarkt_url": "https://www.transfermarkt.com/rafael-leao/profil/spieler/472046",
+      "profile_url": "https://www.transfermarkt.com/rafael-leao/profil/spieler/472046/statistik",
+      "basic_info": {
+        "date_of_birth": "02/12/1999 (26)"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Gonçalo Ramos",
+      "name_cn": "贡萨洛·拉莫斯",
+      "position": "FW",
+      "club": "Paris Saint-Germain",
+      "age": 24,
+      "club_country": "France",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "João Félix",
+      "name_cn": "若昂·菲利克斯",
+      "position": "FW",
+      "club": "Al-Nassr",
+      "age": 26,
+      "club_country": "Saudi Arabia",
+      "transfermarkt_url": "https://www.transfermarkt.com/joao-felix/profil/spieler/462737",
+      "profile_url": "https://www.transfermarkt.com/joao-felix/profil/spieler/462737/statistik",
+      "basic_info": {
+        "date_of_birth": "24/02/1997 (29)",
+        "caps_goals": "0 / 0"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Pedro Neto",
+      "name_cn": "佩德罗·内托",
+      "position": "FW",
+      "club": "Chelsea",
+      "age": 26,
+      "club_country": "England",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "Francisco Trincão",
+      "name_cn": "弗朗西斯科·特林康",
+      "position": "FW",
+      "club": "Sporting CP",
+      "age": 26,
+      "club_country": "Portugal",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "Francisco Conceição",
+      "name_cn": "弗朗西斯科·孔塞桑",
+      "position": "FW",
+      "club": "Juventus",
+      "age": 23,
+      "club_country": "Italy",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "Gonçalo Guedes",
+      "name_cn": "贡萨洛·古埃德斯",
+      "position": "FW",
+      "club": "Real Sociedad",
+      "age": 29,
+      "club_country": "Spain",
+      "transfermarkt_url": null
+    }
+  ]
+}

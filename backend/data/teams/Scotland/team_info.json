@@ -1,0 +1,172 @@
+{
+  "team_en": "Scotland",
+  "team_cn": "苏格兰",
+  "confederation": "UEFA",
+  "group": "C",
+  "stats": {
+    "total_matches": 185,
+    "wins": 82,
+    "draws": 34,
+    "losses": 69,
+    "goals_for": 249,
+    "goals_against": 232
+  },
+  "recent_matches": [
+    {
+      "date": "2026-06-24",
+      "home_team": "Scotland",
+      "away_team": "Brazil",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Miami Gardens",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-06-19",
+      "home_team": "Scotland",
+      "away_team": "Morocco",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Foxborough",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-06-13",
+      "home_team": "Haiti",
+      "away_team": "Scotland",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Foxborough",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-03-31",
+      "home_team": "Ivory Coast",
+      "away_team": "Scotland",
+      "home_score": "1",
+      "away_score": "0",
+      "tournament": "Friendly",
+      "city": "Liverpool",
+      "country": "England",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-03-28",
+      "home_team": "Scotland",
+      "away_team": "Japan",
+      "home_score": "0",
+      "away_score": "1",
+      "tournament": "Friendly",
+      "city": "Glasgow",
+      "country": "Scotland",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-11-18",
+      "home_team": "Scotland",
+      "away_team": "Denmark",
+      "home_score": "4",
+      "away_score": "2",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Glasgow",
+      "country": "Scotland",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-11-15",
+      "home_team": "Greece",
+      "away_team": "Scotland",
+      "home_score": "3",
+      "away_score": "2",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Piraeus",
+      "country": "Greece",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-10-12",
+      "home_team": "Scotland",
+      "away_team": "Belarus",
+      "home_score": "2",
+      "away_score": "1",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Glasgow",
+      "country": "Scotland",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-10-09",
+      "home_team": "Scotland",
+      "away_team": "Greece",
+      "home_score": "3",
+      "away_score": "1",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Glasgow",
+      "country": "Scotland",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-09-08",
+      "home_team": "Belarus",
+      "away_team": "Scotland",
+      "home_score": "0",
+      "away_score": "2",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Zalaegerszeg",
+      "country": "Hungary",
+      "neutral": "TRUE"
+    }
+  ],
+  "matches_by_year": {
+    "2026": 5,
+    "2025": 10,
+    "2024": 13,
+    "2023": 10,
+    "2022": 10,
+    "2021": 15,
+    "2020": 8,
+    "2019": 10,
+    "2018": 10,
+    "2017": 8,
+    "2016": 8,
+    "2015": 8,
+    "2014": 7,
+    "2013": 10,
+    "2012": 8,
+    "2011": 10,
+    "2010": 7,
+    "2009": 7,
+    "2008": 7,
+    "2007": 10,
+    "2006": 7
+  },
+  "tournament_breakdown": {
+    "Friendly": 55,
+    "UEFA Euro qualification": 50,
+    "FIFA World Cup qualification": 45,
+    "UEFA Nations League": 24,
+    "UEFA Euro": 6,
+    "FIFA World Cup": 3,
+    "Nations Cup": 3,
+    "Kirin Cup": 2
+  },
+  "total_matches_20y": 188,
+  "elo_rating": 1465,
+  "odds": {
+    "decimal_odds": 251.0,
+    "implied_probability": 0.4,
+    "rank": 26,
+    "platforms": {
+      "Bet365": 251.0,
+      "William Hill": 251.0,
+      "DraftKings": 200.0
+    }
+  },
+  "fifa_ranking": null
+}

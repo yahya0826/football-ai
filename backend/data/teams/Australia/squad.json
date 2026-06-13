@@ -1,0 +1,292 @@
+{
+  "team": "Australia",
+  "player_count": 26,
+  "players": [
+    {
+      "id": "mathew-ryan",
+      "name": "Mathew Ryan",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 1,
+      "club": "Levante",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "milo--degenek",
+      "name": "Miloš Degenek",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 2,
+      "club": "APOEL",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "alessandro-circati",
+      "name": "Alessandro Circati",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 3,
+      "club": "Parma",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "jacob-italiano",
+      "name": "Jacob Italiano",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 4,
+      "club": "GAK",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "jordan-bos",
+      "name": "Jordan Bos",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 5,
+      "club": "Feyenoord",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "jason-geria",
+      "name": "Jason Geria",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 6,
+      "club": "Albirex Niigata",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "mathew-leckie",
+      "name": "Mathew Leckie",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 7,
+      "club": "Melbourne City",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "connor-metcalfe",
+      "name": "Connor Metcalfe",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 8,
+      "club": "FC St. Pauli",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "mohamed-tour",
+      "name": "Mohamed Touré",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 9,
+      "club": "Norwich City",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ajdin-hrustic",
+      "name": "Ajdin Hrustic",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 10,
+      "club": "Heracles Almelo",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "awer-mabil",
+      "name": "Awer Mabil",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 11,
+      "club": "Castellón",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "paul-izzo",
+      "name": "Paul Izzo",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 12,
+      "club": "Randers",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "aiden-o-neill",
+      "name": "Aiden O'Neill",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 13,
+      "club": "New York City FC",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "cammy-devlin",
+      "name": "Cammy Devlin",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 14,
+      "club": "Heart of Midlothian",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "kai-trewin",
+      "name": "Kai Trewin",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 15,
+      "club": "New York City FC",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "aziz-behich",
+      "name": "Aziz Behich",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 16,
+      "club": "Melbourne City",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "nestory-irankunda",
+      "name": "Nestory Irankunda",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 17,
+      "club": "Watford",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "patrick-beach",
+      "name": "Patrick Beach",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 18,
+      "club": "Melbourne City",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "harry-souttar",
+      "name": "Harry Souttar",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 19,
+      "club": "Leicester City",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "cristian-volpato",
+      "name": "Cristian Volpato",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 20,
+      "club": "Sassuolo",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "cameron-burgess",
+      "name": "Cameron Burgess",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 21,
+      "club": "Swansea City",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "jackson-irvine",
+      "name": "Jackson Irvine",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 22,
+      "club": "FC St. Pauli",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "nishan-velupillay",
+      "name": "Nishan Velupillay",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 23,
+      "club": "Melbourne Victory",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "paul-okon-engstler",
+      "name": "Paul Okon-Engstler",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 24,
+      "club": "Sydney FC",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "lucas-herrington",
+      "name": "Lucas Herrington",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 25,
+      "club": "Colorado Rapids",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "tete-yengi",
+      "name": "Tete Yengi",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 26,
+      "club": "Machida Zelvia",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    }
+  ]
+}

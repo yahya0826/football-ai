@@ -1,0 +1,172 @@
+{
+  "team_en": "South Africa",
+  "team_cn": "南非",
+  "confederation": "CAF",
+  "group": "A",
+  "stats": {
+    "total_matches": 274,
+    "wins": 119,
+    "draws": 93,
+    "losses": 62,
+    "goals_for": 346,
+    "goals_against": 218
+  },
+  "recent_matches": [
+    {
+      "date": "2026-06-24",
+      "home_team": "South Africa",
+      "away_team": "South Korea",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Guadalupe",
+      "country": "Mexico",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-06-18",
+      "home_team": "Czech Republic",
+      "away_team": "South Africa",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Atlanta",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-06-11",
+      "home_team": "Mexico",
+      "away_team": "South Africa",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Mexico City",
+      "country": "Mexico",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2026-03-31",
+      "home_team": "South Africa",
+      "away_team": "Panama",
+      "home_score": "1",
+      "away_score": "2",
+      "tournament": "Friendly",
+      "city": "Cape Town",
+      "country": "South Africa",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2026-03-27",
+      "home_team": "South Africa",
+      "away_team": "Panama",
+      "home_score": "1",
+      "away_score": "1",
+      "tournament": "Friendly",
+      "city": "Durban",
+      "country": "South Africa",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2026-01-04",
+      "home_team": "South Africa",
+      "away_team": "Cameroon",
+      "home_score": "1",
+      "away_score": "2",
+      "tournament": "African Cup of Nations",
+      "city": "Rabat",
+      "country": "Morocco",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2025-12-29",
+      "home_team": "Zimbabwe",
+      "away_team": "South Africa",
+      "home_score": "2",
+      "away_score": "3",
+      "tournament": "African Cup of Nations",
+      "city": "Marrakesh",
+      "country": "Morocco",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2025-12-26",
+      "home_team": "Egypt",
+      "away_team": "South Africa",
+      "home_score": "1",
+      "away_score": "0",
+      "tournament": "African Cup of Nations",
+      "city": "Agadir",
+      "country": "Morocco",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2025-12-22",
+      "home_team": "South Africa",
+      "away_team": "Angola",
+      "home_score": "2",
+      "away_score": "1",
+      "tournament": "African Cup of Nations",
+      "city": "Marrakesh",
+      "country": "Morocco",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2025-11-15",
+      "home_team": "South Africa",
+      "away_team": "Zambia",
+      "home_score": "3",
+      "away_score": "1",
+      "tournament": "Friendly",
+      "city": "Gqeberha",
+      "country": "South Africa",
+      "neutral": "FALSE"
+    }
+  ],
+  "matches_by_year": {
+    "2026": 6,
+    "2025": 12,
+    "2024": 18,
+    "2023": 14,
+    "2022": 10,
+    "2021": 15,
+    "2020": 4,
+    "2019": 13,
+    "2018": 10,
+    "2017": 12,
+    "2016": 11,
+    "2015": 18,
+    "2014": 10,
+    "2013": 20,
+    "2012": 11,
+    "2011": 9,
+    "2010": 17,
+    "2009": 21,
+    "2008": 21,
+    "2007": 14,
+    "2006": 11
+  },
+  "tournament_breakdown": {
+    "Friendly": 110,
+    "African Cup of Nations qualification": 46,
+    "COSAFA Cup": 43,
+    "FIFA World Cup qualification": 36,
+    "African Cup of Nations": 29,
+    "FIFA World Cup": 6,
+    "Confederations Cup": 5,
+    "FIFA Series": 2
+  },
+  "total_matches_20y": 277,
+  "elo_rating": 1477,
+  "odds": {
+    "decimal_odds": 1001.0,
+    "implied_probability": 0.1,
+    "rank": 38,
+    "platforms": {
+      "Bet365": 1001.0,
+      "William Hill": 1001.0,
+      "DraftKings": 800.0
+    }
+  },
+  "fifa_ranking": null
+}

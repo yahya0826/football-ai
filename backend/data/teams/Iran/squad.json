@@ -1,0 +1,292 @@
+{
+  "team": "Iran",
+  "player_count": 26,
+  "players": [
+    {
+      "id": "alireza-beiranvand",
+      "name": "Alireza Beiranvand",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 1,
+      "club": "Tractor",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "saleh-hardani",
+      "name": "Saleh Hardani",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 2,
+      "club": "Esteghlal",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ehsan-hajsafi",
+      "name": "Ehsan Hajsafi",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 3,
+      "club": "Sepahan",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "shojae-khalilzadeh",
+      "name": "Shojae Khalilzadeh",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 4,
+      "club": "Tractor",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "milad-mohammadi",
+      "name": "Milad Mohammadi",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 5,
+      "club": "Persepolis",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "saeid-ezatolahi",
+      "name": "Saeid Ezatolahi",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 6,
+      "club": "Shabab Al Ahli",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "alireza-jahanbakhsh",
+      "name": "Alireza Jahanbakhsh",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 7,
+      "club": "Dender",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "mohammad-mohebi",
+      "name": "Mohammad Mohebi",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 8,
+      "club": "Rostov",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "mehdi-taremi",
+      "name": "Mehdi Taremi",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 9,
+      "club": "Olympiacos",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "mehdi-ghayedi",
+      "name": "Mehdi Ghayedi",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 10,
+      "club": "Al Nasr",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ali-alipour",
+      "name": "Ali Alipour",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 11,
+      "club": "Persepolis",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "payam-niazmand",
+      "name": "Payam Niazmand",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 12,
+      "club": "Persepolis",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "hossein-kanaanizadegan",
+      "name": "Hossein Kanaanizadegan",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 13,
+      "club": "Persepolis",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "saman-ghoddos",
+      "name": "Saman Ghoddos",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 14,
+      "club": "Kalba",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "rouzbeh-cheshmi",
+      "name": "Rouzbeh Cheshmi",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 15,
+      "club": "Esteghlal",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "mehdi-torabi",
+      "name": "Mehdi Torabi",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 16,
+      "club": "Tractor",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "aria-yousefi",
+      "name": "Aria Yousefi",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 17,
+      "club": "Sepahan",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "amirhossein-hosseinzadeh",
+      "name": "Amirhossein Hosseinzadeh",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 18,
+      "club": "Tractor",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ali-nemati",
+      "name": "Ali Nemati",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 19,
+      "club": "Foolad",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "shahriyar-moghanlou",
+      "name": "Shahriyar Moghanlou",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 20,
+      "club": "Kalba",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "mohammad-ghorbani",
+      "name": "Mohammad Ghorbani",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 21,
+      "club": "Al Wahda",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "hossein-hosseini",
+      "name": "Hossein Hosseini",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 22,
+      "club": "Sepahan",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ramin-rezaeian",
+      "name": "Ramin Rezaeian",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 23,
+      "club": "Foolad",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "dennis-eckert",
+      "name": "Dennis Eckert",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 24,
+      "club": "Standard Liège",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "danial-eiri",
+      "name": "Danial Eiri",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 25,
+      "club": "Malavan",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "amirmohammad-razzaghinia",
+      "name": "Amirmohammad Razzaghinia",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 26,
+      "club": "Esteghlal",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    }
+  ]
+}

@@ -1,0 +1,292 @@
+{
+  "team": "Morocco",
+  "player_count": 26,
+  "players": [
+    {
+      "id": "yassine-bounou",
+      "name": "Yassine Bounou",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 1,
+      "club": "Al-Hilal",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "achraf-hakimi",
+      "name": "Achraf Hakimi",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 2,
+      "club": "Paris Saint-Germain",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "noussair-mazraoui",
+      "name": "Noussair Mazraoui",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 3,
+      "club": "Manchester United",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "sofyan-amrabat",
+      "name": "Sofyan Amrabat",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 4,
+      "club": "Real Betis",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "nayef-aguerd",
+      "name": "Nayef Aguerd",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 5,
+      "club": "Marseille",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ayyoub-bouaddi",
+      "name": "Ayyoub Bouaddi",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 6,
+      "club": "Lille",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "chemsdine-talbi",
+      "name": "Chemsdine Talbi",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 7,
+      "club": "Sunderland",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "azzedine-ounahi",
+      "name": "Azzedine Ounahi",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 8,
+      "club": "Girona",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "soufiane-rahimi",
+      "name": "Soufiane Rahimi",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 9,
+      "club": "Al Ain",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "brahim-d-az",
+      "name": "Brahim Díaz",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 10,
+      "club": "Real Madrid",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ismael-saibari",
+      "name": "Ismael Saibari",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 11,
+      "club": "PSV Eindhoven",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "munir-mohamedi",
+      "name": "Munir Mohamedi",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 12,
+      "club": "RS Berkane",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "zakaria-el-ouahdi",
+      "name": "Zakaria El Ouahdi",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 13,
+      "club": "Genk",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "issa-diop",
+      "name": "Issa Diop",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 14,
+      "club": "Fulham",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "samir-el-mourabet",
+      "name": "Samir El Mourabet",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 15,
+      "club": "Strasbourg",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "gessime-yassine",
+      "name": "Gessime Yassine",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 16,
+      "club": "Strasbourg",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "abde-ezzalzouli",
+      "name": "Abde Ezzalzouli",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 17,
+      "club": "Real Betis",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "chadi-riad",
+      "name": "Chadi Riad",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 18,
+      "club": "Crystal Palace",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "youssef-belammari",
+      "name": "Youssef Belammari",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 19,
+      "club": "Al Ahly",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ayoub-el-kaabi",
+      "name": "Ayoub El Kaabi",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 20,
+      "club": "Olympiacos",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ayoube-amaimouni",
+      "name": "Ayoube Amaimouni",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 21,
+      "club": "Eintracht Frankfurt",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ahmed-reda-tagnaouti",
+      "name": "Ahmed Reda Tagnaouti",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 22,
+      "club": "AS FAR",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "bilal-el-khannouss",
+      "name": "Bilal El Khannouss",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 23,
+      "club": "VfB Stuttgart",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "neil-el-aynaoui",
+      "name": "Neil El Aynaoui",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 24,
+      "club": "Roma",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "redouane-halhal",
+      "name": "Redouane Halhal",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 25,
+      "club": "Mechelen",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "anass-salah-eddine",
+      "name": "Anass Salah-Eddine",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 26,
+      "club": "PSV Eindhoven",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    }
+  ]
+}

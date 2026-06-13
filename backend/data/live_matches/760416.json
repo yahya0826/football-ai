@@ -1,0 +1,597 @@
+{
+  "match_id": "760416",
+  "status": {
+    "state": "finished",
+    "detail": "FT",
+    "period": 0,
+    "clock": "",
+    "completed": true,
+    "state_cn": "已结束"
+  },
+  "home": {
+    "name": "Canada",
+    "abbrev": "CAN",
+    "logo": "",
+    "score": 1,
+    "team_id": "206",
+    "name_cn": "加拿大"
+  },
+  "away": {
+    "name": "Bosnia-Herzegovina",
+    "abbrev": "BIH",
+    "logo": "",
+    "score": 1,
+    "team_id": "452",
+    "name_cn": "波黑"
+  },
+  "events": [
+    {
+      "type": "kickoff",
+      "minute": "",
+      "team": "",
+      "player": "",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "",
+      "type_cn": "开球",
+      "team_cn": "",
+      "description_cn": "比赛开始！"
+    },
+    {
+      "type": "yellow_card",
+      "minute": "11'",
+      "team": "Canada",
+      "player": "Alistair Johnston Yellow Card",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Alistair Johnston (Canada) is shown the yellow card for a bad foul.",
+      "type_cn": "黄牌",
+      "team_cn": "加拿大",
+      "description_cn": "11'' Alistair Johnston Yellow Card（加拿大）吃到黄牌 🟨"
+    },
+    {
+      "type": "goal",
+      "minute": "21'",
+      "team": "Bosnia-Herzegovina",
+      "player": "Jovo Lukic Goal - Header",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Goal! Canada 0, Bosnia and Herzegovina 1. Jovo Lukic (Bosnia and Herzegovina) header from very close range to the centre of the goal. Assisted by Sead Kolasinac with a headed pass following a corner.",
+      "type_cn": "进球",
+      "team_cn": "波黑",
+      "description_cn": "21'' Jovo Lukic Goal - Header 为波黑进球！"
+    },
+    {
+      "type": "yellow_card",
+      "minute": "45'",
+      "team": "Bosnia-Herzegovina",
+      "player": "Ermedin Demirovic Yellow Card",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Ermedin Demirovic (Bosnia and Herzegovina) is shown the yellow card for a bad foul.",
+      "type_cn": "黄牌",
+      "team_cn": "波黑",
+      "description_cn": "45'' Ermedin Demirovic Yellow Card（波黑）吃到黄牌 🟨"
+    },
+    {
+      "type": "yellow_card",
+      "minute": "45'+1'",
+      "team": "Bosnia-Herzegovina",
+      "player": "Jovo Lukic Yellow Card",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Jovo Lukic (Bosnia and Herzegovina) is shown the yellow card for a bad foul.",
+      "type_cn": "黄牌",
+      "team_cn": "波黑",
+      "description_cn": "45'+1'' Jovo Lukic Yellow Card（波黑）吃到黄牌 🟨"
+    },
+    {
+      "type": "halftime",
+      "minute": "45'+4'",
+      "team": "",
+      "player": "",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "",
+      "type_cn": "中场休息",
+      "team_cn": "",
+      "description_cn": "中场休息 ⏸️"
+    },
+    {
+      "type": "fulltime",
+      "minute": "45'",
+      "team": "",
+      "player": "",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "",
+      "type_cn": "全场结束",
+      "team_cn": "",
+      "description_cn": "全场比赛结束 🏁"
+    },
+    {
+      "type": "yellow_card",
+      "minute": "53'",
+      "team": "Canada",
+      "player": "Luc de Fougerolles Yellow Card",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Luc De Fougerolles (Canada) is shown the yellow card for a bad foul.",
+      "type_cn": "黄牌",
+      "team_cn": "加拿大",
+      "description_cn": "53'' Luc de Fougerolles Yellow Card（加拿大）吃到黄牌 🟨"
+    },
+    {
+      "type": "substitution",
+      "minute": "61'",
+      "team": "Canada",
+      "player": "Jacob Shaffelburg Substitution",
+      "player_in": "Jacob Shaffelburg",
+      "player_out": "Liam Millar",
+      "assist": "",
+      "text": "Substitution, Canada. Jacob Shaffelburg replaces Liam Millar.",
+      "type_cn": "换人",
+      "team_cn": "加拿大",
+      "description_cn": "61'' Jacob Shaffelburg ↑ 替补登场，Liam Millar ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "61'",
+      "team": "Canada",
+      "player": "Promise David Substitution",
+      "player_in": "Promise David",
+      "player_out": "Jonathan David",
+      "assist": "",
+      "text": "Substitution, Canada. Promise David replaces Jonathan David.",
+      "type_cn": "换人",
+      "team_cn": "加拿大",
+      "description_cn": "61'' Promise David ↑ 替补登场，Jonathan David ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "61'",
+      "team": "Canada",
+      "player": "Ali Ahmed Substitution",
+      "player_in": "Ali Ahmed",
+      "player_out": "Tajon Buchanan",
+      "assist": "",
+      "text": "Substitution, Canada. Ali Ahmed replaces Tajon Buchanan.",
+      "type_cn": "换人",
+      "team_cn": "加拿大",
+      "description_cn": "61'' Ali Ahmed ↑ 替补登场，Tajon Buchanan ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "62'",
+      "team": "Bosnia-Herzegovina",
+      "player": "Samed Bazdar Substitution",
+      "player_in": "Samed Bazdar",
+      "player_out": "Jovo Lukic",
+      "assist": "",
+      "text": "Substitution, Bosnia and Herzegovina. Samed Bazdar replaces Jovo Lukic.",
+      "type_cn": "换人",
+      "team_cn": "波黑",
+      "description_cn": "62'' Samed Bazdar ↑ 替补登场，Jovo Lukic ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "62'",
+      "team": "Bosnia-Herzegovina",
+      "player": "Armin Gigovic Substitution",
+      "player_in": "Armin Gigovic",
+      "player_out": "Ivan Basic",
+      "assist": "",
+      "text": "Substitution, Bosnia and Herzegovina. Armin Gigovic replaces Ivan Basic.",
+      "type_cn": "换人",
+      "team_cn": "波黑",
+      "description_cn": "62'' Armin Gigovic ↑ 替补登场，Ivan Basic ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "74'",
+      "team": "Bosnia-Herzegovina",
+      "player": "Ivan Sunjic Substitution",
+      "player_in": "Ivan Sunjic",
+      "player_out": "Esmir Bajraktarevic",
+      "assist": "",
+      "text": "Substitution, Bosnia and Herzegovina. Ivan Sunjic replaces Esmir Bajraktarevic.",
+      "type_cn": "换人",
+      "team_cn": "波黑",
+      "description_cn": "74'' Ivan Sunjic ↑ 替补登场，Esmir Bajraktarevic ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "74'",
+      "team": "Bosnia-Herzegovina",
+      "player": "Kerim Alajbegovic Substitution",
+      "player_in": "Kerim Alajbegovic",
+      "player_out": "Amar Memic",
+      "assist": "",
+      "text": "Substitution, Bosnia and Herzegovina. Kerim Alajbegovic replaces Amar Memic.",
+      "type_cn": "换人",
+      "team_cn": "波黑",
+      "description_cn": "74'' Kerim Alajbegovic ↑ 替补登场，Amar Memic ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "76'",
+      "team": "Canada",
+      "player": "Cyle Larin Substitution",
+      "player_in": "Cyle Larin",
+      "player_out": "Tani Oluwaseyi",
+      "assist": "",
+      "text": "Substitution, Canada. Cyle Larin replaces Tani Oluwaseyi.",
+      "type_cn": "换人",
+      "team_cn": "加拿大",
+      "description_cn": "76'' Cyle Larin ↑ 替补登场，Tani Oluwaseyi ↓ 被换下"
+    },
+    {
+      "type": "goal",
+      "minute": "78'",
+      "team": "Canada",
+      "player": "Cyle Larin Goal",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Goal! Canada 1, Bosnia and Herzegovina 1. Cyle Larin (Canada) right footed shot from the centre of the box to the bottom right corner. Assisted by Promise David.",
+      "type_cn": "进球",
+      "team_cn": "加拿大",
+      "description_cn": "78'' Cyle Larin Goal 为加拿大进球！"
+    },
+    {
+      "type": "substitution",
+      "minute": "84'",
+      "team": "Bosnia-Herzegovina",
+      "player": "Dzenis Burnic Substitution",
+      "player_in": "Dzenis Burnic",
+      "player_out": "Sead Kolasinac",
+      "assist": "",
+      "text": "Substitution, Bosnia and Herzegovina. Dzenis Burnic replaces Sead Kolasinac because of an injury.",
+      "type_cn": "换人",
+      "team_cn": "波黑",
+      "description_cn": "84'' Dzenis Burnic ↑ 替补登场，Sead Kolasinac ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "90'+1'",
+      "team": "Canada",
+      "player": "Jonathan Osorio Substitution",
+      "player_in": "Jonathan Osorio",
+      "player_out": "Stephen Eustáquio",
+      "assist": "",
+      "text": "Substitution, Canada. Jonathan Osorio replaces Stephen Eustaquio.",
+      "type_cn": "换人",
+      "team_cn": "加拿大",
+      "description_cn": "90'+1'' Jonathan Osorio ↑ 替补登场，Stephen Eustáquio ↓ 被换下"
+    },
+    {
+      "type": "yellow_card",
+      "minute": "90'+3'",
+      "team": "Bosnia-Herzegovina",
+      "player": "Nikola Katic Yellow Card",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Nikola Katic (Bosnia and Herzegovina) is shown the yellow card for a bad foul.",
+      "type_cn": "黄牌",
+      "team_cn": "波黑",
+      "description_cn": "90'+3'' Nikola Katic Yellow Card（波黑）吃到黄牌 🟨"
+    },
+    {
+      "type": "83",
+      "minute": "90'+7'",
+      "team": "",
+      "player": "",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Second Half ends, Canada 1, Bosnia and Herzegovina 1.",
+      "type_cn": "83",
+      "team_cn": "",
+      "description_cn": "Second Half ends, Canada 1, Bosnia and Herzegovina 1."
+    }
+  ],
+  "statistics": {
+    "home": {
+      "team_name": "Canada",
+      "stats": {
+        "foulsCommitted": {
+          "label": "Fouls",
+          "value": "10",
+          "label_cn": "犯规"
+        },
+        "yellowCards": {
+          "label": "Yellow Cards",
+          "value": "2",
+          "label_cn": "黄牌"
+        },
+        "redCards": {
+          "label": "Red Cards",
+          "value": "0",
+          "label_cn": "红牌"
+        },
+        "offsides": {
+          "label": "Offsides",
+          "value": "1",
+          "label_cn": "越位"
+        },
+        "wonCorners": {
+          "label": "Corner Kicks",
+          "value": "9",
+          "label_cn": "角球"
+        },
+        "saves": {
+          "label": "Saves",
+          "value": "2",
+          "label_cn": "扑救"
+        },
+        "possessionPct": {
+          "label": "Possession",
+          "value": "61.1",
+          "label_cn": "控球率"
+        },
+        "totalShots": {
+          "label": "SHOTS",
+          "value": "13",
+          "label_cn": "总射门"
+        },
+        "shotsOnTarget": {
+          "label": "ON GOAL",
+          "value": "4",
+          "label_cn": "射正"
+        },
+        "shotPct": {
+          "label": "On Target %",
+          "value": "0.3",
+          "label_cn": "射正率"
+        },
+        "penaltyKickGoals": {
+          "label": "Penalty Goals",
+          "value": "0",
+          "label_cn": "点球进球"
+        },
+        "penaltyKickShots": {
+          "label": "Penalty Kicks Taken",
+          "value": "0",
+          "label_cn": "点球次数"
+        },
+        "accuratePasses": {
+          "label": "Accurate Passes",
+          "value": "310",
+          "label_cn": "精准传球"
+        },
+        "totalPasses": {
+          "label": "Passes",
+          "value": "421",
+          "label_cn": "传球"
+        },
+        "passPct": {
+          "label": "Pass Completion %",
+          "value": "0.7",
+          "label_cn": "传球成功率"
+        },
+        "accurateCrosses": {
+          "label": "Accurate Crosses",
+          "value": "5",
+          "label_cn": "精准传中"
+        },
+        "totalCrosses": {
+          "label": "Crosses",
+          "value": "24",
+          "label_cn": "传中"
+        },
+        "crossPct": {
+          "label": "Cross %",
+          "value": "0.2",
+          "label_cn": "传中成功率"
+        },
+        "totalLongBalls": {
+          "label": "Long Balls",
+          "value": "41",
+          "label_cn": "长传"
+        },
+        "accurateLongBalls": {
+          "label": "Accurate Long Balls",
+          "value": "18",
+          "label_cn": "精准长传"
+        },
+        "longballPct": {
+          "label": "Long Balls %",
+          "value": "0.4",
+          "label_cn": "长传成功率"
+        },
+        "blockedShots": {
+          "label": "Blocked Shots",
+          "value": "4",
+          "label_cn": "封堵射门"
+        },
+        "effectiveTackles": {
+          "label": "Effective Tackles",
+          "value": "15",
+          "label_cn": "有效抢断"
+        },
+        "totalTackles": {
+          "label": "Tackles",
+          "value": "23",
+          "label_cn": "抢断"
+        },
+        "tacklePct": {
+          "label": "Tackle %",
+          "value": "0.7",
+          "label_cn": "抢断成功率"
+        },
+        "interceptions": {
+          "label": "Interceptions",
+          "value": "4",
+          "label_cn": "拦截"
+        },
+        "effectiveClearance": {
+          "label": "Effective Clearances",
+          "value": "21",
+          "label_cn": "有效解围"
+        },
+        "totalClearance": {
+          "label": "Clearances",
+          "value": "21",
+          "label_cn": "解围"
+        }
+      },
+      "team_name_cn": "加拿大"
+    },
+    "away": {
+      "team_name": "Bosnia-Herzegovina",
+      "stats": {
+        "foulsCommitted": {
+          "label": "Fouls",
+          "value": "20",
+          "label_cn": "犯规"
+        },
+        "yellowCards": {
+          "label": "Yellow Cards",
+          "value": "3",
+          "label_cn": "黄牌"
+        },
+        "redCards": {
+          "label": "Red Cards",
+          "value": "0",
+          "label_cn": "红牌"
+        },
+        "offsides": {
+          "label": "Offsides",
+          "value": "0",
+          "label_cn": "越位"
+        },
+        "wonCorners": {
+          "label": "Corner Kicks",
+          "value": "4",
+          "label_cn": "角球"
+        },
+        "saves": {
+          "label": "Saves",
+          "value": "1",
+          "label_cn": "扑救"
+        },
+        "possessionPct": {
+          "label": "Possession",
+          "value": "38.9",
+          "label_cn": "控球率"
+        },
+        "totalShots": {
+          "label": "SHOTS",
+          "value": "8",
+          "label_cn": "总射门"
+        },
+        "shotsOnTarget": {
+          "label": "ON GOAL",
+          "value": "3",
+          "label_cn": "射正"
+        },
+        "shotPct": {
+          "label": "On Target %",
+          "value": "0.4",
+          "label_cn": "射正率"
+        },
+        "penaltyKickGoals": {
+          "label": "Penalty Goals",
+          "value": "0",
+          "label_cn": "点球进球"
+        },
+        "penaltyKickShots": {
+          "label": "Penalty Kicks Taken",
+          "value": "0",
+          "label_cn": "点球次数"
+        },
+        "accuratePasses": {
+          "label": "Accurate Passes",
+          "value": "172",
+          "label_cn": "精准传球"
+        },
+        "totalPasses": {
+          "label": "Passes",
+          "value": "271",
+          "label_cn": "传球"
+        },
+        "passPct": {
+          "label": "Pass Completion %",
+          "value": "0.6",
+          "label_cn": "传球成功率"
+        },
+        "accurateCrosses": {
+          "label": "Accurate Crosses",
+          "value": "6",
+          "label_cn": "精准传中"
+        },
+        "totalCrosses": {
+          "label": "Crosses",
+          "value": "10",
+          "label_cn": "传中"
+        },
+        "crossPct": {
+          "label": "Cross %",
+          "value": "0.6",
+          "label_cn": "传中成功率"
+        },
+        "totalLongBalls": {
+          "label": "Long Balls",
+          "value": "62",
+          "label_cn": "长传"
+        },
+        "accurateLongBalls": {
+          "label": "Accurate Long Balls",
+          "value": "17",
+          "label_cn": "精准长传"
+        },
+        "longballPct": {
+          "label": "Long Balls %",
+          "value": "0.3",
+          "label_cn": "长传成功率"
+        },
+        "blockedShots": {
+          "label": "Blocked Shots",
+          "value": "1",
+          "label_cn": "封堵射门"
+        },
+        "effectiveTackles": {
+          "label": "Effective Tackles",
+          "value": "12",
+          "label_cn": "有效抢断"
+        },
+        "totalTackles": {
+          "label": "Tackles",
+          "value": "20",
+          "label_cn": "抢断"
+        },
+        "tacklePct": {
+          "label": "Tackle %",
+          "value": "0.6",
+          "label_cn": "抢断成功率"
+        },
+        "interceptions": {
+          "label": "Interceptions",
+          "value": "11",
+          "label_cn": "拦截"
+        },
+        "effectiveClearance": {
+          "label": "Effective Clearances",
+          "value": "70",
+          "label_cn": "有效解围"
+        },
+        "totalClearance": {
+          "label": "Clearances",
+          "value": "70",
+          "label_cn": "解围"
+        }
+      },
+      "team_name_cn": "波黑"
+    }
+  },
+  "_saved_at": "2026-06-13T08:48:23.462050"
+}

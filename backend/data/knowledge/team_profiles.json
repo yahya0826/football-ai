@@ -1,0 +1,266 @@
+[
+  {
+    "team": "Argentina", "confederation": "CONMEBOL", "world_cup_titles": 3,
+    "playing_style": "控球进攻", "strength": "梅西为核心的创造力进攻体系，中前场技术精湛，团队配合默契",
+    "weakness": "防守转换时容易出现空档，定位球防守偶有漏洞",
+    "key_formation": "4-3-3", "history": "阿根廷是南美足球强国，曾于1978、1986和2022年三次夺得世界杯冠军。",
+    "rivalries": ["Brazil", "England", "Germany"],
+    "tactical_profile": {"primary_style": "possession_based", "secondary_styles": ["wing_play"], "formation_flexibility": ["4-3-3", "4-4-2", "4-2-3-1"], "pressing_intensity": "medium", "defensive_line": "medium", "build_up_style": "short_passes", "transition_speed": "medium", "set_piece_threat": "medium", "key_tactical_patterns": ["梅西回撤组织制造局部人数优势", "边后卫高位助攻提供宽度", "中场三角传导控制节奏"]}
+  },
+  {
+    "team": "Brazil", "confederation": "CONMEBOL", "world_cup_titles": 5,
+    "playing_style": "桑巴足球", "strength": "个人能力出众，边路突破犀利，进攻端人才济济",
+    "weakness": "中场防守屏障不足，面对高位逼抢时出球受阻",
+    "key_formation": "4-2-3-1", "history": "巴西是唯一参加过所有22届世界杯的球队，5次夺冠世界第一。",
+    "rivalries": ["Argentina", "Italy", "France"],
+    "tactical_profile": {"primary_style": "wing_play", "secondary_styles": ["possession_based"], "formation_flexibility": ["4-2-3-1", "4-3-3"], "pressing_intensity": "medium_low", "defensive_line": "medium", "build_up_style": "mixed", "transition_speed": "fast", "set_piece_threat": "medium", "key_tactical_patterns": ["边锋一对一突破制造传中", "双后腰一守一攻", "内马尔/维尼修斯式边路创造力"]}
+  },
+  {
+    "team": "France", "confederation": "UEFA", "world_cup_titles": 2,
+    "playing_style": "快速反击", "strength": "姆巴佩领衔的速度型锋线，中场拦截能力强，身体对抗占优",
+    "weakness": "中场创造力依赖格列兹曼，后防线默契度不足",
+    "key_formation": "4-3-3", "history": "法国1998年本土夺冠，2018年在俄罗斯再登世界之巅。",
+    "rivalries": ["Germany", "Italy", "Argentina"],
+    "tactical_profile": {"primary_style": "counter_attack", "secondary_styles": ["direct_play"], "formation_flexibility": ["4-3-3", "4-2-3-1"], "pressing_intensity": "medium", "defensive_line": "medium", "build_up_style": "direct_fast", "transition_speed": "very_fast", "set_piece_threat": "high", "key_tactical_patterns": ["姆巴佩左路突破利用速度优势", "格列兹曼作为攻防转换枢纽", "坎特式中场覆盖破坏对方组织"]}
+  },
+  {
+    "team": "Germany", "confederation": "UEFA", "world_cup_titles": 4,
+    "playing_style": "高位压迫", "strength": "团队执行力强，战术纪律严明，大赛经验丰富",
+    "weakness": "中锋位置储备不足，近年大赛成绩波动较大",
+    "key_formation": "4-2-3-1", "history": "德国队四夺世界杯（1954、1974、1990、2014），以顽强意志和严谨战术著称。",
+    "rivalries": ["Netherlands", "England", "Italy"],
+    "tactical_profile": {"primary_style": "gegenpressing", "secondary_styles": ["possession_based"], "formation_flexibility": ["4-2-3-1", "4-3-3", "3-4-3"], "pressing_intensity": "high", "defensive_line": "high", "build_up_style": "short_medium", "transition_speed": "fast", "set_piece_threat": "high", "key_tactical_patterns": ["高位防线压缩空间", "穆西亚拉/维尔茨在肋部创造", "基米希式战术枢纽"]}
+  },
+  {
+    "team": "Spain", "confederation": "UEFA", "world_cup_titles": 1,
+    "playing_style": "传控足球", "strength": "中场控制力顶级，短传配合娴熟，控球率高",
+    "weakness": "终结能力欠佳，面对密集防守时破局手段单一",
+    "key_formation": "4-3-3", "history": "西班牙2010年首夺世界杯，哈维-伊涅斯塔时代的tiki-taka风靡全球。",
+    "rivalries": ["Portugal", "Italy", "Netherlands"],
+    "tactical_profile": {"primary_style": "tiki-taka", "secondary_styles": ["possession_based"], "formation_flexibility": ["4-3-3", "4-2-3-1"], "pressing_intensity": "high_after_loss", "defensive_line": "high", "build_up_style": "short_passes", "transition_speed": "medium", "set_piece_threat": "low", "key_tactical_patterns": ["佩德里+加维中场双核驱动", "高位控球消耗对手体能", "边后卫内收创造中场人数优势"]}
+  },
+  {
+    "team": "England", "confederation": "UEFA", "world_cup_titles": 1,
+    "playing_style": "直接进攻", "strength": "年轻才俊辈出，边路速度优势明显，定位球威胁大",
+    "weakness": "中场控制力不足，面对顶级强队时战术应变能力有待提升",
+    "key_formation": "4-2-3-1", "history": "英格兰1966年唯一一次夺冠，近年图赫尔执教带来战术革新。",
+    "rivalries": ["Germany", "Argentina", "Scotland"],
+    "tactical_profile": {"primary_style": "wing_play", "secondary_styles": ["gegenpressing"], "formation_flexibility": ["4-2-3-1", "4-3-3", "3-4-2-1"], "pressing_intensity": "medium_high", "defensive_line": "medium", "build_up_style": "mixed", "transition_speed": "fast", "set_piece_threat": "high", "key_tactical_patterns": ["贝林厄姆B2B全能中场", "萨卡右路内切", "凯恩回撤做球串联", "定位球战术丰富"]}
+  },
+  {
+    "team": "Italy", "confederation": "UEFA", "world_cup_titles": 4,
+    "playing_style": "防守反击", "strength": "防守体系严密，战术素养极高，定位球战术丰富",
+    "weakness": "近年来锋线人才断层，连续两届无缘世界杯正赛",
+    "key_formation": "3-5-2", "history": "意大利四夺世界杯（1934、1938、1982、2006），以链式防守著称。",
+    "rivalries": ["Germany", "France", "Brazil"],
+    "tactical_profile": {"primary_style": "counter_attack", "secondary_styles": ["low_block"], "formation_flexibility": ["3-5-2", "4-3-3", "3-4-2-1"], "pressing_intensity": "medium_low", "defensive_line": "medium_low", "build_up_style": "mixed", "transition_speed": "fast", "set_piece_threat": "medium", "key_tactical_patterns": ["三中卫稳固防守", "翼卫前插提供宽度", "巴雷拉式中场覆盖"]}
+  },
+  {
+    "team": "Netherlands", "confederation": "UEFA", "world_cup_titles": 0,
+    "playing_style": "全攻全守", "strength": "青训体系完善，出球型中卫储备充足，边翼卫助攻能力强",
+    "weakness": "关键比赛心理素质待提升，三次决赛失利留下心理阴影",
+    "key_formation": "3-4-3", "history": "荷兰三进决赛三获亚军（1974、1978、2010），克鲁伊夫影响深远。",
+    "rivalries": ["Germany", "Belgium", "Argentina"],
+    "tactical_profile": {"primary_style": "fluid_attack", "secondary_styles": ["possession_based"], "formation_flexibility": ["3-4-3", "4-3-3", "4-2-3-1"], "pressing_intensity": "high", "defensive_line": "high", "build_up_style": "short_passes", "transition_speed": "fast", "set_piece_threat": "medium", "key_tactical_patterns": ["全能型球员位置互换", "边翼卫主导进攻宽度", "范戴克式后防领袖"]}
+  },
+  {
+    "team": "Portugal", "confederation": "UEFA", "world_cup_titles": 0,
+    "playing_style": "技术流进攻", "strength": "攻击线人才济济，中场技术细腻，边路传中威胁大",
+    "weakness": "后防线稳定性不足，中场防守硬度需提升",
+    "key_formation": "4-3-3", "history": "葡萄牙2016年首夺欧洲杯，C罗是葡萄牙足球历史上最伟大的球员。",
+    "rivalries": ["Spain"],
+    "tactical_profile": {"primary_style": "wing_play", "secondary_styles": ["possession_based"], "formation_flexibility": ["4-3-3", "4-2-3-1", "3-4-3"], "pressing_intensity": "medium", "defensive_line": "medium", "build_up_style": "mixed", "transition_speed": "medium_fast", "set_piece_threat": "high", "key_tactical_patterns": ["莱奥左路爆点突破", "B费中场渗透传球", "双后腰保护防线"]}
+  },
+  {
+    "team": "Belgium", "confederation": "UEFA", "world_cup_titles": 0,
+    "playing_style": "快速转换", "strength": "德布劳内为核心的黄金一代，中场创造力顶级，反击速度快",
+    "weakness": "防线老化问题严重，黄金一代逐渐步入生涯晚期",
+    "key_formation": "3-4-2-1", "history": "比利时2018年获得世界杯季军创历史最佳。",
+    "rivalries": ["Netherlands", "France"],
+    "tactical_profile": {"primary_style": "counter_attack", "secondary_styles": ["possession_based"], "formation_flexibility": ["3-4-2-1", "4-3-3", "4-2-3-1"], "pressing_intensity": "medium", "defensive_line": "medium_high", "build_up_style": "mixed", "transition_speed": "very_fast", "set_piece_threat": "medium", "key_tactical_patterns": ["德布劳内创造力枢纽", "多库边路爆点", "卢卡库支点做球"]}
+  },
+  {
+    "team": "Croatia", "confederation": "UEFA", "world_cup_titles": 0,
+    "playing_style": "中场控制", "strength": "莫德里奇领衔的顶级中场，控球能力强，淘汰赛意志坚定",
+    "weakness": "锋线终结能力不足，阵容深度有限",
+    "key_formation": "4-3-3", "history": "克罗地亚2018年闯入决赛获亚军，2022年再获季军。",
+    "rivalries": ["Serbia"],
+    "tactical_profile": {"primary_style": "possession_based", "secondary_styles": ["tiki-taka"], "formation_flexibility": ["4-3-3", "4-2-3-1"], "pressing_intensity": "medium", "defensive_line": "medium", "build_up_style": "short_medium", "transition_speed": "medium", "set_piece_threat": "medium", "key_tactical_patterns": ["莫德里奇控制比赛节奏", "科瓦契奇+莫德里奇+布罗佐维奇（前）中场铁三角", "边后卫佩里希奇式前插"]}
+  },
+  {
+    "team": "Japan", "confederation": "AFC", "world_cup_titles": 0,
+    "playing_style": "技术传控", "strength": "战术纪律性强，脚下技术细腻，团队配合流畅",
+    "weakness": "身体对抗吃亏，高中锋位置人才匮乏",
+    "key_formation": "4-2-3-1", "history": "日本连续七届参加世界杯，四次闯入16强。",
+    "rivalries": ["South Korea"],
+    "tactical_profile": {"primary_style": "possession_based", "secondary_styles": ["gegenpressing"], "formation_flexibility": ["4-2-3-1", "3-4-2-1"], "pressing_intensity": "high", "defensive_line": "high", "build_up_style": "short_passes", "transition_speed": "fast", "set_piece_threat": "low", "key_tactical_patterns": ["久保建英式技术型核心", "高位压迫逼抢", "边路三角配合"]}
+  },
+  {
+    "team": "South Korea", "confederation": "AFC", "world_cup_titles": 0,
+    "playing_style": "快速反击", "strength": "孙兴慜为核心的速度型进攻，体能充沛，跑动积极",
+    "weakness": "防守硬度不足，面对技术流球队时中场控制力差",
+    "key_formation": "4-4-2", "history": "韩国2002年闯入四强创造亚洲球队最佳战绩。",
+    "rivalries": ["Japan"],
+    "tactical_profile": {"primary_style": "counter_attack", "secondary_styles": ["wing_play"], "formation_flexibility": ["4-4-2", "4-2-3-1"], "pressing_intensity": "high", "defensive_line": "medium", "build_up_style": "direct_fast", "transition_speed": "very_fast", "set_piece_threat": "medium", "key_tactical_patterns": ["孙兴慜反击速度", "边路快速转换", "李刚仁技术创造力"]}
+  },
+  {
+    "team": "Morocco", "confederation": "CAF", "world_cup_titles": 0,
+    "playing_style": "防守反击", "strength": "防守组织严密，边路速度快，球迷氛围极佳",
+    "weakness": "进攻端创造机会能力有限，过于依赖反击",
+    "key_formation": "4-3-3", "history": "摩洛哥2022年闯入半决赛创造非洲球队历史最佳战绩。",
+    "rivalries": [],
+    "tactical_profile": {"primary_style": "counter_attack", "secondary_styles": ["low_block"], "formation_flexibility": ["4-3-3", "5-4-1"], "pressing_intensity": "medium_low", "defensive_line": "low", "build_up_style": "direct_fast", "transition_speed": "very_fast", "set_piece_threat": "medium", "key_tactical_patterns": ["阿什拉夫右路突破", "齐耶什创造力", "四后卫收紧防守"]}
+  },
+  {
+    "team": "Senegal", "confederation": "CAF", "world_cup_titles": 0,
+    "playing_style": "力量对抗", "strength": "身体对抗能力强，速度型反击体系",
+    "weakness": "整体战术素养欠缺，大赛经验不足",
+    "key_formation": "4-3-3", "history": "塞内加尔2002年首次参赛便闯入八强。",
+    "rivalries": [],
+    "tactical_profile": {"primary_style": "direct_play", "secondary_styles": ["counter_attack"], "formation_flexibility": ["4-3-3", "4-4-2"], "pressing_intensity": "medium", "defensive_line": "medium", "build_up_style": "direct_fast", "transition_speed": "fast", "set_piece_threat": "medium", "key_tactical_patterns": ["边路速度优势", "身体对抗制胜", "杰克逊式锋线终结"]}
+  },
+  {
+    "team": "United States", "confederation": "CONCACAF", "world_cup_titles": 0,
+    "playing_style": "高强度逼抢", "strength": "体能充沛，年轻一代技术提升明显，中场跑动能力强",
+    "weakness": "大赛经验不足，关键比赛把握机会能力待提升",
+    "key_formation": "4-3-3", "history": "美国1930年首届世界杯就获季军，2026年将作为东道主参赛。",
+    "rivalries": ["Mexico"],
+    "tactical_profile": {"primary_style": "gegenpressing", "secondary_styles": ["direct_play"], "formation_flexibility": ["4-3-3", "4-2-3-1"], "pressing_intensity": "high", "defensive_line": "high", "build_up_style": "mixed", "transition_speed": "fast", "set_piece_threat": "medium", "key_tactical_patterns": ["普利希奇创造力核心", "麦肯尼式B2B覆盖", "边后卫+边锋联动压迫"]}
+  },
+  {
+    "team": "Mexico", "confederation": "CONCACAF", "world_cup_titles": 0,
+    "playing_style": "技术控制", "strength": "中场技术细腻，大赛表现神勇，球迷文化独特",
+    "weakness": "难以突破16强瓶颈，锋线终结能力不足",
+    "key_formation": "4-3-3", "history": "墨西哥连续七届闯入16强但均止步于此。",
+    "rivalries": ["United States"],
+    "tactical_profile": {"primary_style": "possession_based", "secondary_styles": ["wing_play"], "formation_flexibility": ["4-3-3", "4-2-3-1"], "pressing_intensity": "medium", "defensive_line": "medium", "build_up_style": "short_medium", "transition_speed": "medium", "set_piece_threat": "low", "key_tactical_patterns": ["中场技术传导", "边路快速包抄", "定位球防守漏洞"]}
+  },
+  {
+    "team": "Uruguay", "confederation": "CONMEBOL", "world_cup_titles": 2,
+    "playing_style": "坚韧防守", "strength": "防守硬朗，战斗精神旺盛，新老交替有成效",
+    "weakness": "中场创造力不足，阵容深度有限",
+    "key_formation": "4-4-2", "history": "乌拉圭1930和1950年两夺世界杯。",
+    "rivalries": ["Argentina", "Brazil"],
+    "tactical_profile": {"primary_style": "counter_attack", "secondary_styles": ["direct_play"], "formation_flexibility": ["4-4-2", "4-3-3"], "pressing_intensity": "medium_low", "defensive_line": "medium_low", "build_up_style": "direct_fast", "transition_speed": "fast", "set_piece_threat": "medium", "key_tactical_patterns": ["双前锋经典配合", "巴尔韦德B2B引擎", "防守纪律严明"]}
+  },
+  {
+    "team": "Denmark", "confederation": "UEFA", "world_cup_titles": 0,
+    "playing_style": "整体足球", "strength": "团队防守体系扎实，埃里克森核心中场组织",
+    "weakness": "进攻端缺少顶级终结者，阵地战破局能力有限",
+    "key_formation": "4-3-3", "history": "丹麦1992年欧洲杯童话夺冠。",
+    "rivalries": ["Sweden"],
+    "tactical_profile": {"primary_style": "possession_based", "secondary_styles": ["wing_play"], "formation_flexibility": ["4-3-3", "3-4-3"], "pressing_intensity": "medium", "defensive_line": "medium", "build_up_style": "short_medium", "transition_speed": "medium", "set_piece_threat": "high", "key_tactical_patterns": ["埃里克森创造力", "霍伊伦支点", "边路三角配合"]}
+  },
+  {
+    "team": "Switzerland", "confederation": "UEFA", "world_cup_titles": 0,
+    "playing_style": "防守反击", "strength": "防守体系稳固，大赛经验丰富",
+    "weakness": "进攻端过于保守，创造性和主动性不足",
+    "key_formation": "4-2-3-1", "history": "瑞士近年来连续参加世界杯，以稳健的防守著称。",
+    "rivalries": [],
+    "tactical_profile": {"primary_style": "counter_attack", "secondary_styles": ["low_block"], "formation_flexibility": ["4-2-3-1", "3-5-2"], "pressing_intensity": "medium_low", "defensive_line": "medium_low", "build_up_style": "mixed", "transition_speed": "medium_fast", "set_piece_threat": "medium", "key_tactical_patterns": ["扎卡中场调度", "恩博洛支点", "阿坎吉防守核心"]}
+  },
+  {
+    "team": "Serbia", "confederation": "UEFA", "world_cup_titles": 0,
+    "playing_style": "力量足球", "strength": "前场攻击手个人能力强，身体条件出色",
+    "weakness": "防守端经常失误，纪律性不足",
+    "key_formation": "3-4-1-2", "history": "塞尔维亚球员个人能力突出，前南斯拉夫足球传统深厚。",
+    "rivalries": ["Croatia"],
+    "tactical_profile": {"primary_style": "direct_play", "secondary_styles": ["wing_play"], "formation_flexibility": ["3-4-1-2", "3-5-2"], "pressing_intensity": "medium", "defensive_line": "medium", "build_up_style": "direct_fast", "transition_speed": "medium_fast", "set_piece_threat": "high", "key_tactical_patterns": ["米特罗维奇支点", "弗拉霍维奇终结", "塔迪奇创造力"]}
+  },
+  {
+    "team": "Poland", "confederation": "UEFA", "world_cup_titles": 0,
+    "playing_style": "中锋战术", "strength": "定位球威胁大，身体对抗不落下风",
+    "weakness": "整体战术单一，中场控制力不足",
+    "key_formation": "4-4-2", "history": "波兰1974和1982年两获世界杯季军。",
+    "rivalries": [],
+    "tactical_profile": {"primary_style": "direct_play", "secondary_styles": ["counter_attack"], "formation_flexibility": ["4-4-2", "3-5-2"], "pressing_intensity": "medium_low", "defensive_line": "medium_low", "build_up_style": "direct_fast", "transition_speed": "medium", "set_piece_threat": "high", "key_tactical_patterns": ["泽林斯基中场创造力", "定位球战术", "边路传中长传"]}
+  },
+  {
+    "team": "Wales", "confederation": "UEFA", "world_cup_titles": 0,
+    "playing_style": "防守反击", "strength": "团队战斗精神强，定位球有威胁",
+    "weakness": "阵容深度不足，核心球员年龄偏大",
+    "key_formation": "3-4-3", "history": "威尔士2022年时隔64年重返世界杯舞台。",
+    "rivalries": ["England"],
+    "tactical_profile": {"primary_style": "counter_attack", "secondary_styles": ["low_block"], "formation_flexibility": ["3-4-3", "5-4-1"], "pressing_intensity": "low", "defensive_line": "low_medium", "build_up_style": "direct_fast", "transition_speed": "fast", "set_piece_threat": "medium", "key_tactical_patterns": ["布伦南·约翰逊速度", "防守反击", "五后卫防守"]}
+  },
+  {
+    "team": "Ecuador", "confederation": "CONMEBOL", "world_cup_titles": 0,
+    "playing_style": "高原足球", "strength": "年轻一代崛起，凯塞多领衔中场",
+    "weakness": "客场表现远逊主场，大赛经验不足",
+    "key_formation": "4-4-2", "history": "厄瓜多尔2006年闯入16强创历史最佳。",
+    "rivalries": [],
+    "tactical_profile": {"primary_style": "counter_attack", "secondary_styles": ["wing_play"], "formation_flexibility": ["4-4-2", "4-2-3-1"], "pressing_intensity": "medium", "defensive_line": "medium", "build_up_style": "mixed", "transition_speed": "fast", "set_piece_threat": "medium", "key_tactical_patterns": ["凯塞多中场防守+推进", "边路速度优势", "埃斯图皮尼安助攻"]}
+  },
+  {
+    "team": "Cameroon", "confederation": "CAF", "world_cup_titles": 0,
+    "playing_style": "力量速度", "strength": "身体对抗能力强，非洲力量足球代表",
+    "weakness": "整体组织较差，进攻战术单一",
+    "key_formation": "4-3-3", "history": "喀麦隆1990年闯入八强创非洲足球里程碑。",
+    "rivalries": [],
+    "tactical_profile": {"primary_style": "direct_play", "secondary_styles": ["counter_attack"], "formation_flexibility": ["4-3-3", "4-4-2"], "pressing_intensity": "medium", "defensive_line": "medium", "build_up_style": "direct_fast", "transition_speed": "fast", "set_piece_threat": "medium", "key_tactical_patterns": ["身体对抗+速度", "边路传中", "个人能力破局"]}
+  },
+  {
+    "team": "Ghana", "confederation": "CAF", "world_cup_titles": 0,
+    "playing_style": "快速反击", "strength": "非洲传统强队，个人能力突出，年轻新秀不断涌现",
+    "weakness": "大赛心态不稳，关键判罚容易受影响",
+    "key_formation": "4-2-3-1", "history": "加纳2010年距离闯入四强只差门线手球。",
+    "rivalries": ["Uruguay"],
+    "tactical_profile": {"primary_style": "counter_attack", "secondary_styles": ["wing_play"], "formation_flexibility": ["4-2-3-1", "4-3-3"], "pressing_intensity": "medium", "defensive_line": "medium", "build_up_style": "mixed", "transition_speed": "very_fast", "set_piece_threat": "medium", "key_tactical_patterns": ["库杜斯创造力", "边路速度", "中场硬朗对抗"]}
+  },
+  {
+    "team": "Australia", "confederation": "AFC", "world_cup_titles": 0,
+    "playing_style": "身体对抗", "strength": "身体条件出色，防守顽强，定位球威胁大",
+    "weakness": "技术细腻程度不足，亚洲区域外竞争力有限",
+    "key_formation": "4-1-4-1", "history": "澳大利亚2006年闯入16强创最佳战绩。",
+    "rivalries": [],
+    "tactical_profile": {"primary_style": "direct_play", "secondary_styles": ["counter_attack"], "formation_flexibility": ["4-1-4-1", "4-4-2"], "pressing_intensity": "medium", "defensive_line": "medium_low", "build_up_style": "direct_fast", "transition_speed": "medium_fast", "set_piece_threat": "high", "key_tactical_patterns": ["定位球战术", "身体对抗优势", "边路传中"]}
+  },
+  {
+    "team": "Canada", "confederation": "CONCACAF", "world_cup_titles": 0,
+    "playing_style": "速度冲击", "strength": "阿方索·戴维斯领衔的年轻一代，速度快",
+    "weakness": "世界杯经验少，2022年首次参赛即小组出局",
+    "key_formation": "4-4-2", "history": "加拿大2026年将作为东道主参赛。",
+    "rivalries": ["United States"],
+    "tactical_profile": {"primary_style": "counter_attack", "secondary_styles": ["direct_play"], "formation_flexibility": ["4-4-2", "4-3-3"], "pressing_intensity": "medium", "defensive_line": "medium", "build_up_style": "direct_fast", "transition_speed": "very_fast", "set_piece_threat": "medium", "key_tactical_patterns": ["戴维斯速度优势", "乔纳森·戴维终结", "快速反击"]}
+  },
+  {
+    "team": "Costa Rica", "confederation": "CONCACAF", "world_cup_titles": 0,
+    "playing_style": "防守反击", "strength": "防守组织严密，团队战术执行到位",
+    "weakness": "攻击力薄弱，进球困难",
+    "key_formation": "5-4-1", "history": "哥斯达黎加2014年闯入八强惊艳世界。",
+    "rivalries": [],
+    "tactical_profile": {"primary_style": "low_block", "secondary_styles": ["counter_attack"], "formation_flexibility": ["5-4-1", "4-5-1"], "pressing_intensity": "low", "defensive_line": "low", "build_up_style": "long_balls", "transition_speed": "fast", "set_piece_threat": "low", "key_tactical_patterns": ["极限防守", "反击全靠前锋单打", "定位球"]}
+  },
+  {
+    "team": "Iran", "confederation": "AFC", "world_cup_titles": 0,
+    "playing_style": "防守反击", "strength": "防守组织严密，身体对抗好，亚洲范围统治力强",
+    "weakness": "进攻端与强队差距明显",
+    "key_formation": "4-3-3", "history": "伊朗多次参加世界杯但尚未小组出线。",
+    "rivalries": ["Saudi Arabia"],
+    "tactical_profile": {"primary_style": "low_block", "secondary_styles": ["counter_attack"], "formation_flexibility": ["4-3-3", "4-5-1"], "pressing_intensity": "low", "defensive_line": "low", "build_up_style": "long_balls", "transition_speed": "medium", "set_piece_threat": "medium", "key_tactical_patterns": ["阿兹蒙+塔雷米双核反击", "五后卫防守", "定位球"]}
+  },
+  {
+    "team": "Saudi Arabia", "confederation": "AFC", "world_cup_titles": 0,
+    "playing_style": "技术控球", "strength": "技术型球员在沙特联赛成长迅速",
+    "weakness": "防御转换速度不足，身体条件与欧美强队有差距",
+    "key_formation": "4-4-2", "history": "沙特2022年爆冷击败阿根廷令人难忘。",
+    "rivalries": ["Iran"],
+    "tactical_profile": {"primary_style": "possession_based", "secondary_styles": ["wing_play"], "formation_flexibility": ["4-4-2", "4-2-3-1"], "pressing_intensity": "medium", "defensive_line": "medium", "build_up_style": "short_medium", "transition_speed": "medium", "set_piece_threat": "low", "key_tactical_patterns": ["萨勒姆·达瓦萨里技术核心", "高位防线", "中场传导"]}
+  },
+  {
+    "team": "Qatar", "confederation": "AFC", "world_cup_titles": 0,
+    "playing_style": "技术流控球", "strength": "青训体系投入巨大，2019亚洲杯冠军",
+    "weakness": "2022年小组赛三战皆负，世界杯竞争力和经验严重不足",
+    "key_formation": "3-5-2", "history": "卡塔尔2022年作为东道主首次参加世界杯。",
+    "rivalries": [],
+    "tactical_profile": {"primary_style": "possession_based", "secondary_styles": ["counter_attack"], "formation_flexibility": ["3-5-2", "5-3-2"], "pressing_intensity": "low", "defensive_line": "low", "build_up_style": "mixed", "transition_speed": "slow", "set_piece_threat": "low", "key_tactical_patterns": ["阿费夫+阿里攻击组合", "西班牙式传控尝试", "实力差距明显"]}
+  },
+  {
+    "team": "Tunisia", "confederation": "CAF", "world_cup_titles": 0,
+    "playing_style": "均衡足球", "strength": "防守组织有纪律，边路传中有一定威胁",
+    "weakness": "整体能力在世界杯层面竞争力有限",
+    "key_formation": "4-3-3", "history": "突尼斯多次参加世界杯但从未小组出线。",
+    "rivalries": [],
+    "tactical_profile": {"primary_style": "counter_attack", "secondary_styles": ["wing_play"], "formation_flexibility": ["4-3-3", "4-4-2"], "pressing_intensity": "medium_low", "defensive_line": "medium_low", "build_up_style": "mixed", "transition_speed": "medium", "set_piece_threat": "medium", "key_tactical_patterns": ["边路传中", "稳固防守", "反击"]}
+  }
+]

@@ -1,0 +1,304 @@
+{
+  "team_en": "England",
+  "team_cn": "英格兰",
+  "fifa_code": "ENG",
+  "coach": "Thomas Tuchel",
+  "group": "L",
+  "players": [
+    {
+      "name_en": "Jordan Pickford",
+      "name_cn": "皮克福德",
+      "position": "GK",
+      "club": "Everton",
+      "age": 31,
+      "club_country": "England",
+      "transfermarkt_url": "https://www.transfermarkt.com/jordan-pickford/profil/spieler/135323",
+      "profile_url": "https://www.transfermarkt.com/jordan-pickford/profil/spieler/135323/statistik",
+      "basic_info": {},
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Dean Henderson",
+      "name_cn": "迪恩·亨德森",
+      "position": "GK",
+      "club": "Crystal Palace",
+      "age": 28,
+      "club_country": "England",
+      "transfermarkt_url": "https://www.transfermarkt.com/dean-henderson/profil/spieler/403665",
+      "profile_url": "https://www.transfermarkt.com/dean-henderson/profil/spieler/403665/statistik",
+      "basic_info": {},
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "James Trafford",
+      "name_cn": "特拉福德",
+      "position": "GK",
+      "club": "Manchester City",
+      "age": 22,
+      "club_country": "England",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "Reece James",
+      "name_cn": "里斯·詹姆斯",
+      "position": "DF",
+      "club": "Chelsea",
+      "age": 25,
+      "club_country": "England",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "Tino Livramento",
+      "name_cn": "利夫拉门托",
+      "position": "DF",
+      "club": "Newcastle United",
+      "age": 22,
+      "club_country": "England",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "John Stones",
+      "name_cn": "斯通斯",
+      "position": "DF",
+      "club": "Manchester City",
+      "age": 30,
+      "club_country": "England",
+      "transfermarkt_url": "https://www.transfermarkt.com/john-stones/profil/spieler/189566",
+      "profile_url": "https://www.transfermarkt.com/john-stones/profil/spieler/189566/statistik",
+      "basic_info": {
+        "date_of_birth": "22/11/1975 (50)"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Marc Guéhi",
+      "name_cn": "格希",
+      "position": "DF",
+      "club": "Manchester City",
+      "age": 24,
+      "club_country": "England",
+      "transfermarkt_url": "https://www.transfermarkt.com/marc-guehi/profil/spieler/533966",
+      "profile_url": "https://www.transfermarkt.com/marc-guehi/profil/spieler/533966/statistik",
+      "basic_info": {
+        "date_of_birth": "22/12/2000 (25)"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Ezri Konsa",
+      "name_cn": "孔萨",
+      "position": "DF",
+      "club": "Aston Villa",
+      "age": 27,
+      "club_country": "England",
+      "transfermarkt_url": "https://www.transfermarkt.com/ezri-konsa/profil/spieler/433177",
+      "profile_url": "https://www.transfermarkt.com/ezri-konsa/profil/spieler/433177/statistik",
+      "basic_info": {
+        "date_of_birth": "05/09/2001 (24)",
+        "height": "1,78 m",
+        "caps_goals": "48 / 14"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Jarell Quansah",
+      "name_cn": "匡萨",
+      "position": "DF",
+      "club": "Bayer Leverkusen",
+      "age": 22,
+      "club_country": "Germany",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "Dan Burn",
+      "name_cn": "丹·伯恩",
+      "position": "DF",
+      "club": "Newcastle United",
+      "age": 32,
+      "club_country": "England",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "Nico O'Reilly",
+      "name_cn": "奥莱利",
+      "position": "DF",
+      "club": "Manchester City",
+      "age": 19,
+      "club_country": "England",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "Djed Spence",
+      "name_cn": "斯彭斯",
+      "position": "DF",
+      "club": "Tottenham Hotspur",
+      "age": 24,
+      "club_country": "England",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "Declan Rice",
+      "name_cn": "赖斯",
+      "position": "MF",
+      "club": "Arsenal",
+      "age": 26,
+      "club_country": "England",
+      "transfermarkt_url": "https://www.transfermarkt.com/declan-rice/profil/spieler/197228",
+      "profile_url": "https://www.transfermarkt.com/declan-rice/profil/spieler/197228/statistik",
+      "basic_info": {
+        "date_of_birth": "05/10/1991 (34)"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Jude Bellingham",
+      "name_cn": "贝林厄姆",
+      "position": "MF",
+      "club": "Real Madrid",
+      "age": 22,
+      "club_country": "Spain",
+      "transfermarkt_url": "https://www.transfermarkt.com/jude-bellingham/profil/spieler/581678",
+      "profile_url": "https://www.transfermarkt.com/jude-bellingham/profil/spieler/581678/statistik",
+      "basic_info": {
+        "date_of_birth": "29/06/2003 (22)",
+        "height": "1,86 m",
+        "caps_goals": "46 / 6"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Kobbie Mainoo",
+      "name_cn": "梅努",
+      "position": "MF",
+      "club": "Manchester United",
+      "age": 20,
+      "club_country": "England",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "Jordan Henderson",
+      "name_cn": "乔丹·亨德森",
+      "position": "MF",
+      "club": "Brentford",
+      "age": 35,
+      "club_country": "England",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "Elliot Anderson",
+      "name_cn": "埃利奥特·安德森",
+      "position": "MF",
+      "club": "Nottingham Forest",
+      "age": 22,
+      "club_country": "England",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "Morgan Rogers",
+      "name_cn": "摩根·罗杰斯",
+      "position": "MF",
+      "club": "Aston Villa",
+      "age": 22,
+      "club_country": "England",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "Eberechi Eze",
+      "name_cn": "埃泽",
+      "position": "MF",
+      "club": "Arsenal",
+      "age": 26,
+      "club_country": "England",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "Harry Kane",
+      "name_cn": "凯恩",
+      "position": "FW",
+      "club": "Bayern Munich",
+      "age": 32,
+      "club_country": "Germany",
+      "transfermarkt_url": "https://www.transfermarkt.com/harry-kane/profil/spieler/118098",
+      "profile_url": "https://www.transfermarkt.com/harry-kane/profil/spieler/118098/statistik",
+      "basic_info": {},
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Bukayo Saka",
+      "name_cn": "萨卡",
+      "position": "FW",
+      "club": "Arsenal",
+      "age": 23,
+      "club_country": "England",
+      "transfermarkt_url": "https://www.transfermarkt.com/bukayo-saka/profil/spieler/433177",
+      "profile_url": "https://www.transfermarkt.com/bukayo-saka/profil/spieler/433177/statistik",
+      "basic_info": {
+        "date_of_birth": "05/09/2001 (24)",
+        "height": "1,78 m",
+        "caps_goals": "48 / 14"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Marcus Rashford",
+      "name_cn": "拉什福德",
+      "position": "FW",
+      "club": "Barcelona",
+      "age": 27,
+      "club_country": "Spain",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "Anthony Gordon",
+      "name_cn": "安东尼·戈登",
+      "position": "FW",
+      "club": "Newcastle United",
+      "age": 24,
+      "club_country": "England",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "Noni Madueke",
+      "name_cn": "马杜埃克",
+      "position": "FW",
+      "club": "Arsenal",
+      "age": 23,
+      "club_country": "England",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "Ollie Watkins",
+      "name_cn": "沃特金斯",
+      "position": "FW",
+      "club": "Aston Villa",
+      "age": 29,
+      "club_country": "England",
+      "transfermarkt_url": "https://www.transfermarkt.com/ollie-watkins/profil/spieler/423569",
+      "profile_url": "https://www.transfermarkt.com/ollie-watkins/profil/spieler/423569/statistik",
+      "basic_info": {
+        "date_of_birth": "04/02/1999 (27)",
+        "caps_goals": "1 / 0"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Ivan Toney",
+      "name_cn": "伊万·托尼",
+      "position": "FW",
+      "club": "Al-Ahli",
+      "age": 28,
+      "club_country": "Saudi Arabia",
+      "transfermarkt_url": null
+    }
+  ]
+}

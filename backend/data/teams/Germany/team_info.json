@@ -1,0 +1,171 @@
+{
+  "team_en": "Germany",
+  "team_cn": "德国",
+  "confederation": "UEFA",
+  "group": "E",
+  "stats": {
+    "total_matches": 267,
+    "wins": 164,
+    "draws": 55,
+    "losses": 48,
+    "goals_for": 630,
+    "goals_against": 277
+  },
+  "recent_matches": [
+    {
+      "date": "2026-06-25",
+      "home_team": "Ecuador",
+      "away_team": "Germany",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "East Rutherford",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-06-20",
+      "home_team": "Germany",
+      "away_team": "Ivory Coast",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Toronto",
+      "country": "Canada",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-06-14",
+      "home_team": "Germany",
+      "away_team": "Curaçao",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Houston",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-03-30",
+      "home_team": "Germany",
+      "away_team": "Ghana",
+      "home_score": "2",
+      "away_score": "1",
+      "tournament": "Friendly",
+      "city": "Stuttgart",
+      "country": "Germany",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2026-03-27",
+      "home_team": "Switzerland",
+      "away_team": "Germany",
+      "home_score": "3",
+      "away_score": "4",
+      "tournament": "Friendly",
+      "city": "Basel",
+      "country": "Switzerland",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-11-17",
+      "home_team": "Germany",
+      "away_team": "Slovakia",
+      "home_score": "6",
+      "away_score": "0",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Leipzig",
+      "country": "Germany",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-11-14",
+      "home_team": "Luxembourg",
+      "away_team": "Germany",
+      "home_score": "0",
+      "away_score": "2",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Luxembourg",
+      "country": "Luxembourg",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-10-13",
+      "home_team": "Northern Ireland",
+      "away_team": "Germany",
+      "home_score": "0",
+      "away_score": "1",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Belfast",
+      "country": "Northern Ireland",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-10-10",
+      "home_team": "Germany",
+      "away_team": "Luxembourg",
+      "home_score": "4",
+      "away_score": "0",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Sinsheim",
+      "country": "Germany",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-09-07",
+      "home_team": "Germany",
+      "away_team": "Northern Ireland",
+      "home_score": "3",
+      "away_score": "1",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Cologne",
+      "country": "Germany",
+      "neutral": "FALSE"
+    }
+  ],
+  "matches_by_year": {
+    "2026": 5,
+    "2025": 10,
+    "2024": 15,
+    "2023": 11,
+    "2022": 12,
+    "2021": 16,
+    "2020": 8,
+    "2019": 10,
+    "2018": 13,
+    "2017": 15,
+    "2016": 16,
+    "2015": 9,
+    "2014": 17,
+    "2013": 12,
+    "2012": 14,
+    "2011": 13,
+    "2010": 17,
+    "2009": 11,
+    "2008": 16,
+    "2007": 12,
+    "2006": 18
+  },
+  "tournament_breakdown": {
+    "Friendly": 97,
+    "FIFA World Cup qualification": 46,
+    "UEFA Euro qualification": 40,
+    "FIFA World Cup": 30,
+    "UEFA Nations League": 26,
+    "UEFA Euro": 26,
+    "Confederations Cup": 5
+  },
+  "total_matches_20y": 270,
+  "elo_rating": 1647,
+  "odds": {
+    "decimal_odds": 13.0,
+    "implied_probability": 6.7,
+    "rank": 7,
+    "platforms": {
+      "Bet365": 13.0,
+      "William Hill": 15.0,
+      "DraftKings": 13.0
+    }
+  },
+  "fifa_ranking": null
+}

@@ -1,0 +1,3070 @@
+[
+  {
+    "team_en": "South Korea",
+    "team_cn": "韩国",
+    "fifa_code": "KOR",
+    "coach": "洪明甫",
+    "group": "A",
+    "players": [
+      {
+        "name_en": "Kim Seong-gyu",
+        "name_cn": "金承奎",
+        "position": "GK",
+        "club": "FC Tokyo",
+        "age": 34,
+        "club_country": "Japan",
+        "transfermarkt_url": "https://www.transfermarkt.com/kim-seong-gyu/profil/spieler/124948",
+        "profile_url": "https://www.transfermarkt.com/kim-seong-gyu/profil/spieler/124948/statistik",
+        "basic_info": {},
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Jo Hyeon-woo",
+        "name_cn": "赵贤祐",
+        "position": "GK",
+        "club": "Ulsan HD",
+        "age": 33,
+        "club_country": "South Korea",
+        "transfermarkt_url": "https://www.transfermarkt.com/jo-hyeon-woo/profil/spieler/136548",
+        "profile_url": "https://www.transfermarkt.com/jo-hyeon-woo/profil/spieler/136548/statistik",
+        "basic_info": {
+          "date_of_birth": "23/11/1988 (37)"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Song Bum-keun",
+        "name_cn": "宋范根",
+        "position": "GK",
+        "club": "Jeonbuk Motors",
+        "age": 27,
+        "club_country": "South Korea",
+        "transfermarkt_url": "https://www.transfermarkt.com/song-bum-keun/profil/spieler/477351",
+        "profile_url": "https://www.transfermarkt.com/song-bum-keun/profil/spieler/477351/statistik",
+        "basic_info": {
+          "height": "1,84 m"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Kim Min-jae",
+        "name_cn": "金玟哉",
+        "position": "DF",
+        "club": "Bayern Munich",
+        "age": 28,
+        "club_country": "Germany",
+        "transfermarkt_url": "https://www.transfermarkt.com/kim-min-jae/profil/spieler/446466",
+        "profile_url": "https://www.transfermarkt.com/kim-min-jae/profil/spieler/446466/statistik",
+        "basic_info": {},
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Cho Yu-min",
+        "name_cn": "曹侑珉",
+        "position": "DF",
+        "club": "Sharjah",
+        "age": 28,
+        "club_country": "UAE",
+        "transfermarkt_url": "https://www.transfermarkt.com/cho-yu-min/profil/spieler/542603",
+        "profile_url": "https://www.transfermarkt.com/cho-yu-min/profil/spieler/542603/statistik",
+        "basic_info": {
+          "date_of_birth": "31/03/1997 (29)",
+          "height": "1,83 m"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Lee Han-been",
+        "name_cn": "李韩泛",
+        "position": "DF",
+        "club": "Midtjylland",
+        "age": 23,
+        "club_country": "Denmark",
+        "transfermarkt_url": "https://www.transfermarkt.com/lee-han-been/profil/spieler/1171201",
+        "profile_url": "https://www.transfermarkt.com/lee-han-been/profil/spieler/1171201/statistik",
+        "basic_info": {
+          "date_of_birth": "06/11/2005 (20)"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Lee Ki-hyuk",
+        "name_cn": "李期奕",
+        "position": "DF",
+        "club": "Gangwon FC",
+        "age": 24,
+        "club_country": "South Korea",
+        "transfermarkt_url": "https://www.transfermarkt.com/lee-ki-hyuk/profil/spieler/1093646",
+        "profile_url": "https://www.transfermarkt.com/lee-ki-hyuk/profil/spieler/1093646/statistik",
+        "basic_info": {
+          "date_of_birth": "02/10/2000 (25)",
+          "height": "1,73 m"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Kim Tae-hyun",
+        "name_cn": "金太铉",
+        "position": "DF",
+        "club": "Kashima Antlers",
+        "age": 24,
+        "club_country": "Japan",
+        "transfermarkt_url": "https://www.transfermarkt.com/kim-tae-hyun/profil/spieler/1011799",
+        "profile_url": "https://www.transfermarkt.com/kim-tae-hyun/profil/spieler/1011799/statistik",
+        "basic_info": {},
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Lee Tae-soo",
+        "name_cn": "李太锡",
+        "position": "DF",
+        "club": "Austria Wien",
+        "age": 23,
+        "club_country": "Austria",
+        "transfermarkt_url": "https://www.transfermarkt.com/lee-tae-soo/profil/spieler/821677",
+        "profile_url": "https://www.transfermarkt.com/lee-tae-soo/profil/spieler/821677/statistik",
+        "basic_info": {
+          "date_of_birth": "13/08/2004 (21)",
+          "height": "1,89 m"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Seol Young-woo",
+        "name_cn": "薛英佑",
+        "position": "DF",
+        "club": "Red Star Belgrade",
+        "age": 22,
+        "club_country": "Serbia",
+        "transfermarkt_url": "https://www.transfermarkt.com/seol-young-woo/profil/spieler/877237",
+        "profile_url": "https://www.transfermarkt.com/seol-young-woo/profil/spieler/877237/statistik",
+        "basic_info": {
+          "date_of_birth": "24/12/2004 (21)"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Yankuba Ceesay",
+        "name_cn": "延斯卡斯特罗普",
+        "position": "DF",
+        "club": "Mönchengladbach",
+        "age": 24,
+        "club_country": "Germany",
+        "transfermarkt_url": "https://www.transfermarkt.com/yankuba-ceesay/profil/spieler/1213794",
+        "profile_url": "https://www.transfermarkt.com/yankuba-ceesay/profil/spieler/1213794/statistik",
+        "basic_info": {
+          "date_of_birth": "1962"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Kim Moon-hwan",
+        "name_cn": "金纹焕",
+        "position": "DF",
+        "club": "Daejeon KOGAS",
+        "age": 29,
+        "club_country": "South Korea",
+        "transfermarkt_url": "https://www.transfermarkt.com/kim-moon-hwan/profil/spieler/390179",
+        "profile_url": "https://www.transfermarkt.com/kim-moon-hwan/profil/spieler/390179/statistik",
+        "basic_info": {
+          "date_of_birth": "24/06/1999 (26)",
+          "height": "1,74 m",
+          "caps_goals": "18 / 2"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Park Jin-seop",
+        "name_cn": "朴镇燮",
+        "position": "DF",
+        "club": "Zhejiang FC",
+        "age": 27,
+        "club_country": "China",
+        "transfermarkt_url": "https://www.transfermarkt.com/park-jin-seop/profil/spieler/391259",
+        "profile_url": "https://www.transfermarkt.com/park-jin-seop/profil/spieler/391259/statistik",
+        "basic_info": {},
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Yang Hyun-jun",
+        "name_cn": "梁铉俊",
+        "position": "MF",
+        "club": "Celtic",
+        "age": 22,
+        "club_country": "Scotland",
+        "transfermarkt_url": "https://www.transfermarkt.com/yang-hyun-jun/profil/spieler/866983",
+        "profile_url": "https://www.transfermarkt.com/yang-hyun-jun/profil/spieler/866983/statistik",
+        "basic_info": {
+          "date_of_birth": "16/09/1970 (55)"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Baek Sung-ho",
+        "name_cn": "白升浩",
+        "position": "MF",
+        "club": "Birmingham City",
+        "age": 24,
+        "club_country": "England",
+        "transfermarkt_url": "https://www.transfermarkt.com/baek-sung-ho/profil/spieler/1182908",
+        "profile_url": "https://www.transfermarkt.com/baek-sung-ho/profil/spieler/1182908/statistik",
+        "basic_info": {
+          "date_of_birth": "02/04/2006 (20)",
+          "height": "1,81 m"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Hwang In-beom",
+        "name_cn": "黄仁范",
+        "position": "MF",
+        "club": "Feyenoord",
+        "age": 28,
+        "club_country": "Netherlands",
+        "transfermarkt_url": "https://www.transfermarkt.com/hwang-in-beom/profil/spieler/391231",
+        "profile_url": "https://www.transfermarkt.com/hwang-in-beom/profil/spieler/391231/statistik",
+        "basic_info": {},
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Lee Dong-gyeong",
+        "name_cn": "李东炅",
+        "position": "MF",
+        "club": "Ulsan HD",
+        "age": 28,
+        "club_country": "South Korea",
+        "transfermarkt_url": "https://www.transfermarkt.com/lee-dong-gyeong/profil/spieler/391236",
+        "profile_url": "https://www.transfermarkt.com/lee-dong-gyeong/profil/spieler/391236/statistik",
+        "basic_info": {},
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Kim Jin-kyu",
+        "name_cn": "金镇圭",
+        "position": "MF",
+        "club": "Jeonbuk Motors",
+        "age": 26,
+        "club_country": "South Korea",
+        "transfermarkt_url": "https://www.transfermarkt.com/kim-jin-kyu/profil/spieler/977825",
+        "profile_url": "https://www.transfermarkt.com/kim-jin-kyu/profil/spieler/977825/statistik",
+        "basic_info": {
+          "date_of_birth": "1913"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Bae Jun-ho",
+        "name_cn": "裴俊浩",
+        "position": "MF",
+        "club": "Stoke City",
+        "age": 21,
+        "club_country": "England",
+        "transfermarkt_url": "https://www.transfermarkt.com/bae-jun-ho/profil/spieler/1067549",
+        "profile_url": "https://www.transfermarkt.com/bae-jun-ho/profil/spieler/1067549/statistik",
+        "basic_info": {
+          "date_of_birth": "19/01/2004 (22)"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Um Ji-sung",
+        "name_cn": "严智星",
+        "position": "MF",
+        "club": "Swansea City",
+        "age": 23,
+        "club_country": "Wales",
+        "transfermarkt_url": "https://www.transfermarkt.com/um-ji-sung/profil/spieler/1031239",
+        "profile_url": "https://www.transfermarkt.com/um-ji-sung/profil/spieler/1031239/statistik",
+        "basic_info": {},
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Hwang Hee-chan",
+        "name_cn": "黄喜灿",
+        "position": "MF",
+        "club": "Wolves",
+        "age": 28,
+        "club_country": "England",
+        "transfermarkt_url": "https://www.transfermarkt.com/hwang-hee-chan/profil/spieler/196948",
+        "profile_url": "https://www.transfermarkt.com/hwang-hee-chan/profil/spieler/196948/statistik",
+        "basic_info": {
+          "date_of_birth": "10/04/1996 (30)",
+          "height": "1,87 m",
+          "caps_goals": "80 / 4"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Lee Jae-sung",
+        "name_cn": "李在城",
+        "position": "MF",
+        "club": "Mainz 05",
+        "age": 31,
+        "club_country": "Germany",
+        "transfermarkt_url": "https://www.transfermarkt.com/lee-jae-sung/profil/spieler/196949",
+        "profile_url": "https://www.transfermarkt.com/lee-jae-sung/profil/spieler/196949/statistik",
+        "basic_info": {
+          "date_of_birth": "16/01/1993 (33)",
+          "height": "1,87 m"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Lee Kang-in",
+        "name_cn": "李刚仁",
+        "position": "MF",
+        "club": "Paris Saint-Germain",
+        "age": 24,
+        "club_country": "France",
+        "transfermarkt_url": "https://www.transfermarkt.com/lee-kang-in/profil/spieler/654552",
+        "profile_url": "https://www.transfermarkt.com/lee-kang-in/profil/spieler/654552/statistik",
+        "basic_info": {
+          "date_of_birth": "20/07/1979 (46)",
+          "caps_goals": "1 / 0"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Son Heung-min",
+        "name_cn": "孙兴慜",
+        "position": "FW",
+        "club": "Los Angeles FC",
+        "age": 33,
+        "club_country": "USA",
+        "transfermarkt_url": "https://www.transfermarkt.com/heung-min-son/profil/spieler/91845",
+        "profile_url": "https://www.transfermarkt.com/heung-min-son/profil/spieler/91845/statistik",
+        "basic_info": {
+          "date_of_birth": "08/07/1992 (33)",
+          "height": "1,84 m",
+          "caps_goals": "143 / 54"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Oh Hyun-kyu",
+        "name_cn": "吴贤揆",
+        "position": "FW",
+        "club": "Beşiktaş",
+        "age": 22,
+        "club_country": "Turkey",
+        "transfermarkt_url": "https://www.transfermarkt.com/oh-hyun-kyu/profil/spieler/1028912",
+        "profile_url": "https://www.transfermarkt.com/oh-hyun-kyu/profil/spieler/1028912/statistik",
+        "basic_info": {
+          "height": "1,77 m"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Cho Gue-sung",
+        "name_cn": "曹圭成",
+        "position": "FW",
+        "club": "Midtjylland",
+        "age": 27,
+        "club_country": "Denmark",
+        "transfermarkt_url": "https://www.transfermarkt.com/cho-gue-sung/profil/spieler/624658",
+        "profile_url": "https://www.transfermarkt.com/cho-gue-sung/profil/spieler/624658/statistik",
+        "basic_info": {},
+        "current_season": {},
+        "market_value": null
+      }
+    ]
+  },
+  {
+    "team_en": "Japan",
+    "team_cn": "日本",
+    "fifa_code": "JPN",
+    "coach": "森保一",
+    "group": "F",
+    "players": [
+      {
+        "name_en": "Hayakawa Yuki",
+        "name_cn": "早川友基",
+        "position": "GK",
+        "club": "Stoke City",
+        "age": 24,
+        "club_country": "England",
+        "transfermarkt_url": "https://www.transfermarkt.com/hayakawa-yuki/profil/spieler/960821",
+        "profile_url": "https://www.transfermarkt.com/hayakawa-yuki/profil/spieler/960821/statistik",
+        "basic_info": {
+          "date_of_birth": "20/07/1996 (29)",
+          "height": "1,78 m"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Suzuki Bart",
+        "name_cn": "铃木彩艳",
+        "position": "GK",
+        "club": "Stuttgart",
+        "age": 22,
+        "club_country": "Germany",
+        "transfermarkt_url": "https://www.transfermarkt.com/suzuki-bart/profil/spieler/1070698",
+        "profile_url": "https://www.transfermarkt.com/suzuki-bart/profil/spieler/1070698/statistik",
+        "basic_info": {
+          "date_of_birth": "26/03/1993 (33)"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Osako Kensei",
+        "name_cn": "大迫敬介",
+        "position": "GK",
+        "club": "Sanfrecce Hiroshima",
+        "age": 25,
+        "club_country": "Japan",
+        "transfermarkt_url": "https://www.transfermarkt.com/osako-kensei/profil/spieler/481165",
+        "profile_url": "https://www.transfermarkt.com/osako-kensei/profil/spieler/481165/statistik",
+        "basic_info": {
+          "date_of_birth": "18/04/1989 (37)"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Nagatomo Yuto",
+        "name_cn": "长友佑都",
+        "position": "DF",
+        "club": "FC Tokyo",
+        "age": 39,
+        "club_country": "Japan",
+        "transfermarkt_url": "https://www.transfermarkt.com/nagatomo-yuto/profil/spieler/74460",
+        "profile_url": "https://www.transfermarkt.com/nagatomo-yuto/profil/spieler/74460/statistik",
+        "basic_info": {},
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Taniguchi Shogo",
+        "name_cn": "谷口彰悟",
+        "position": "DF",
+        "club": "Kawasaki Frontale",
+        "age": 33,
+        "club_country": "Japan",
+        "transfermarkt_url": "https://www.transfermarkt.com/taniguchi-shogo/profil/spieler/275802",
+        "profile_url": "https://www.transfermarkt.com/taniguchi-shogo/profil/spieler/275802/statistik",
+        "basic_info": {
+          "date_of_birth": "31/08/1994 (31)"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Tomiyasu Takehiro",
+        "name_cn": "富安健洋",
+        "position": "DF",
+        "club": "Arsenal",
+        "age": 26,
+        "club_country": "England",
+        "transfermarkt_url": "https://www.transfermarkt.com/takehiro-tomiyasu/profil/spieler/394359",
+        "profile_url": "https://www.transfermarkt.com/takehiro-tomiyasu/profil/spieler/394359/statistik",
+        "basic_info": {
+          "date_of_birth": "28/05/2000 (25)",
+          "height": "1,87 m"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Itakura Ko",
+        "name_cn": "板仓滉",
+        "position": "DF",
+        "club": "Mönchengladbach",
+        "age": 27,
+        "club_country": "Germany",
+        "transfermarkt_url": "https://www.transfermarkt.com/itakura-ko/profil/spieler/383488",
+        "profile_url": "https://www.transfermarkt.com/itakura-ko/profil/spieler/383488/statistik",
+        "basic_info": {
+          "date_of_birth": "06/08/1995 (30)"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Watanabe Naoki",
+        "name_cn": "渡边刚",
+        "position": "DF",
+        "club": "KRC Genk",
+        "age": 27,
+        "club_country": "Belgium",
+        "transfermarkt_url": "https://www.transfermarkt.com/watanabe-naoki/profil/spieler/383489",
+        "profile_url": "https://www.transfermarkt.com/watanabe-naoki/profil/spieler/383489/statistik",
+        "basic_info": {
+          "date_of_birth": "24/03/1993 (33)"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Ito Hiroki",
+        "name_cn": "伊藤洋辉",
+        "position": "DF",
+        "club": "Bayern Munich",
+        "age": 25,
+        "club_country": "Germany",
+        "transfermarkt_url": "https://www.transfermarkt.com/ito-hiroki/profil/spieler/856612",
+        "profile_url": "https://www.transfermarkt.com/ito-hiroki/profil/spieler/856612/statistik",
+        "basic_info": {
+          "date_of_birth": "15/01/2000 (26)"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Suzuki Junnosuke",
+        "name_cn": "铃木淳之介",
+        "position": "DF",
+        "club": "Nagoya Grampus",
+        "age": 28,
+        "club_country": "Japan",
+        "transfermarkt_url": "https://www.transfermarkt.com/suzuki-junnosuke/profil/spieler/431296",
+        "profile_url": "https://www.transfermarkt.com/suzuki-junnosuke/profil/spieler/431296/statistik",
+        "basic_info": {
+          "date_of_birth": "17/10/1983 (42)"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Seko Ayumu",
+        "name_cn": "瀬古步梦",
+        "position": "DF",
+        "club": "Stuttgart",
+        "age": 24,
+        "club_country": "Germany",
+        "transfermarkt_url": "https://www.transfermarkt.com/seko-ayumu/profil/spieler/556769",
+        "profile_url": "https://www.transfermarkt.com/seko-ayumu/profil/spieler/556769/statistik",
+        "basic_info": {
+          "date_of_birth": "23/09/1956"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Sugawara Yukinari",
+        "name_cn": "菅原由势",
+        "position": "DF",
+        "club": "Southampton",
+        "age": 25,
+        "club_country": "England",
+        "transfermarkt_url": "https://www.transfermarkt.com/sugawara-yukinari/profil/spieler/570999",
+        "profile_url": "https://www.transfermarkt.com/sugawara-yukinari/profil/spieler/570999/statistik",
+        "basic_info": {
+          "date_of_birth": "24/03/2002 (24)"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Kamada Daichi",
+        "name_cn": "镰田大地",
+        "position": "MF",
+        "club": "Crystal Palace",
+        "age": 28,
+        "club_country": "England",
+        "transfermarkt_url": "https://www.transfermarkt.com/daichi-kamada/profil/spieler/274601",
+        "profile_url": "https://www.transfermarkt.com/daichi-kamada/profil/spieler/274601/statistik",
+        "basic_info": {
+          "date_of_birth": "28/05/1994 (31)"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Sano Kaina",
+        "name_cn": "佐野海舟",
+        "position": "MF",
+        "club": "Mainz 05",
+        "age": 23,
+        "club_country": "Germany",
+        "transfermarkt_url": "https://www.transfermarkt.com/sano-kaina/profil/spieler/1029346",
+        "profile_url": "https://www.transfermarkt.com/sano-kaina/profil/spieler/1029346/statistik",
+        "basic_info": {
+          "date_of_birth": "15/06/2004 (21)",
+          "caps_goals": "1 / 0"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Tanaka Ao",
+        "name_cn": "田中碧",
+        "position": "MF",
+        "club": "Leeds United",
+        "age": 25,
+        "club_country": "England",
+        "transfermarkt_url": "https://www.transfermarkt.com/tanaka-ao/profil/spieler/432900",
+        "profile_url": "https://www.transfermarkt.com/tanaka-ao/profil/spieler/432900/statistik",
+        "basic_info": {
+          "date_of_birth": "03/03/1972 (54)"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Endo Wataru",
+        "name_cn": "远藤航",
+        "position": "MF",
+        "club": "Liverpool",
+        "age": 31,
+        "club_country": "England",
+        "transfermarkt_url": "https://www.transfermarkt.com/wataru-endo/profil/spieler/122665",
+        "profile_url": "https://www.transfermarkt.com/wataru-endo/profil/spieler/122665/statistik",
+        "basic_info": {
+          "date_of_birth": "05/10/1981 (44)",
+          "height": "1,85 m"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Nakamura Kouta",
+        "name_cn": "中村敬斗",
+        "position": "MF",
+        "club": "LASK",
+        "age": 24,
+        "club_country": "Austria",
+        "transfermarkt_url": "https://www.transfermarkt.com/nakamura-kouta/profil/spieler/657815",
+        "profile_url": "https://www.transfermarkt.com/nakamura-kouta/profil/spieler/657815/statistik",
+        "basic_info": {
+          "date_of_birth": "14/10/2003 (22)",
+          "height": "1,96 m"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Doan Ritsu",
+        "name_cn": "堂安律",
+        "position": "MF",
+        "club": "Freiburg",
+        "age": 26,
+        "club_country": "Germany",
+        "transfermarkt_url": "https://www.transfermarkt.com/ritsu-doan/profil/spieler/414351",
+        "profile_url": "https://www.transfermarkt.com/ritsu-doan/profil/spieler/414351/statistik",
+        "basic_info": {},
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Ito Junya",
+        "name_cn": "伊东纯也",
+        "position": "MF",
+        "club": "Stade de Reims",
+        "age": 31,
+        "club_country": "France",
+        "transfermarkt_url": "https://www.transfermarkt.com/junya-ito/profil/spieler/337441",
+        "profile_url": "https://www.transfermarkt.com/junya-ito/profil/spieler/337441/statistik",
+        "basic_info": {
+          "date_of_birth": "16/12/1990 (35)"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Kubo Takefusa",
+        "name_cn": "久保建英",
+        "position": "MF",
+        "club": "Real Sociedad",
+        "age": 23,
+        "club_country": "Spain",
+        "transfermarkt_url": "https://www.transfermarkt.com/kubo-takefusa/profil/spieler/418658",
+        "profile_url": "https://www.transfermarkt.com/kubo-takefusa/profil/spieler/418658/statistik",
+        "basic_info": {
+          "date_of_birth": "12/04/2000 (26)",
+          "height": "1,89 m",
+          "caps_goals": "1 / 0"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Suzuki Yuri",
+        "name_cn": "铃木唯人",
+        "position": "MF",
+        "club": "Union Berlin",
+        "age": 23,
+        "club_country": "Germany",
+        "transfermarkt_url": "https://www.transfermarkt.com/suzuki-yuri/profil/spieler/976736",
+        "profile_url": "https://www.transfermarkt.com/suzuki-yuri/profil/spieler/976736/statistik",
+        "basic_info": {
+          "date_of_birth": "24/04/1998 (28)"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Ueda Koki",
+        "name_cn": "上田绮世",
+        "position": "FW",
+        "club": "Feyenoord",
+        "age": 26,
+        "club_country": "Netherlands",
+        "transfermarkt_url": "https://www.transfermarkt.com/koki-ueda/profil/spieler/396412",
+        "profile_url": "https://www.transfermarkt.com/koki-ueda/profil/spieler/396412/statistik",
+        "basic_info": {},
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Ogawa Ko",
+        "name_cn": "小川航基",
+        "position": "FW",
+        "club": "Nagoya Grampus",
+        "age": 27,
+        "club_country": "Japan",
+        "transfermarkt_url": "https://www.transfermarkt.com/ogawa-ko/profil/spieler/433062",
+        "profile_url": "https://www.transfermarkt.com/ogawa-ko/profil/spieler/433062/statistik",
+        "basic_info": {
+          "date_of_birth": "06/05/1998 (28)"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Maeda Daizen",
+        "name_cn": "前田大然",
+        "position": "FW",
+        "club": "Celtic",
+        "age": 26,
+        "club_country": "Scotland",
+        "transfermarkt_url": "https://www.transfermarkt.com/maeda-daizen/profil/spieler/440839",
+        "profile_url": "https://www.transfermarkt.com/maeda-daizen/profil/spieler/440839/statistik",
+        "basic_info": {
+          "height": "1,80 m"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Shiogama Kento",
+        "name_cn": "塩贝健人",
+        "position": "FW",
+        "club": "Kashima Antlers",
+        "age": 23,
+        "club_country": "Japan",
+        "transfermarkt_url": "https://www.transfermarkt.com/shiogama-kento/profil/spieler/1010264",
+        "profile_url": "https://www.transfermarkt.com/shiogama-kento/profil/spieler/1010264/statistik",
+        "basic_info": {
+          "caps_goals": "0 / 0"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Goto Keisuke",
+        "name_cn": "后藤启介",
+        "position": "FW",
+        "club": "Meiji University",
+        "age": 22,
+        "club_country": "Japan",
+        "transfermarkt_url": "https://www.transfermarkt.com/goto-keisuke/profil/spieler/1182012",
+        "profile_url": "https://www.transfermarkt.com/goto-keisuke/profil/spieler/1182012/statistik",
+        "basic_info": {
+          "date_of_birth": "01/01/2004 (22)",
+          "height": "1,77 m"
+        },
+        "current_season": {},
+        "market_value": null
+      }
+    ]
+  },
+  {
+    "team_en": "Brazil",
+    "team_cn": "巴西",
+    "fifa_code": "BRA",
+    "coach": "Carlo Ancelotti",
+    "group": "C",
+    "players": [
+      {
+        "name_en": "Alisson",
+        "name_cn": "阿利松",
+        "position": "GK",
+        "club": "Liverpool",
+        "age": 32,
+        "club_country": "England",
+        "transfermarkt_url": "https://www.transfermarkt.com/alisson/profil/spieler/92157",
+        "profile_url": "https://www.transfermarkt.com/alisson/profil/spieler/92157/statistik",
+        "basic_info": {
+          "date_of_birth": "21/01/1990 (36)"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Ederson",
+        "name_cn": "埃德森",
+        "position": "GK",
+        "club": "Fenerbahçe",
+        "age": 31,
+        "club_country": "Turkey",
+        "transfermarkt_url": "https://www.transfermarkt.com/ederson/profil/spieler/238451",
+        "profile_url": "https://www.transfermarkt.com/ederson/profil/spieler/238451/statistik",
+        "basic_info": {
+          "date_of_birth": "14/03/1996 (30)",
+          "height": "1,84 m"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Weverton",
+        "name_cn": "韦弗顿",
+        "position": "GK",
+        "club": "Grêmio",
+        "age": 37,
+        "club_country": "Brazil",
+        "transfermarkt_url": "https://www.transfermarkt.com/weverton/profil/spieler/148107",
+        "profile_url": "https://www.transfermarkt.com/weverton/profil/spieler/148107/statistik",
+        "basic_info": {
+          "date_of_birth": "09/05/1981 (45)",
+          "height": "1,87 m"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Alex Sandro",
+        "name_cn": "亚历克斯·桑德罗",
+        "position": "DF",
+        "club": "Flamengo",
+        "age": 33,
+        "club_country": "Brazil",
+        "transfermarkt_url": "https://www.transfermarkt.com/alex-sandro/profil/spieler/98203",
+        "profile_url": "https://www.transfermarkt.com/alex-sandro/profil/spieler/98203/statistik",
+        "basic_info": {
+          "date_of_birth": "27/09/1979 (46)",
+          "caps_goals": "3 / 0"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Bremer",
+        "name_cn": "布雷默",
+        "position": "DF",
+        "club": "Juventus",
+        "age": 27,
+        "club_country": "Italy",
+        "transfermarkt_url": "https://www.transfermarkt.com/bremer/profil/spieler/411687",
+        "profile_url": "https://www.transfermarkt.com/bremer/profil/spieler/411687/statistik",
+        "basic_info": {
+          "date_of_birth": "01/01/1994 (32)"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Danilo",
+        "name_cn": "达尼洛",
+        "position": "DF",
+        "club": "Flamengo",
+        "age": 33,
+        "club_country": "Brazil",
+        "transfermarkt_url": "https://www.transfermarkt.com/danilo/profil/spieler/126453",
+        "profile_url": "https://www.transfermarkt.com/danilo/profil/spieler/126453/statistik",
+        "basic_info": {
+          "height": "1,98 m"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Douglas Santos",
+        "name_cn": "道格拉斯·桑托斯",
+        "position": "DF",
+        "club": "Zenit",
+        "age": 30,
+        "club_country": "Russia",
+        "transfermarkt_url": "https://www.transfermarkt.com/douglas-santos/profil/spieler/172601",
+        "profile_url": "https://www.transfermarkt.com/douglas-santos/profil/spieler/172601/statistik",
+        "basic_info": {},
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Gabriel Magalhães",
+        "name_cn": "加布里埃尔",
+        "position": "DF",
+        "club": "Arsenal",
+        "age": 27,
+        "club_country": "England",
+        "transfermarkt_url": "https://www.transfermarkt.com/gabriel-magalhaes/profil/spieler/368193",
+        "profile_url": "https://www.transfermarkt.com/gabriel-magalhaes/profil/spieler/368193/statistik",
+        "basic_info": {},
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Rogério Ibañez",
+        "name_cn": "罗热·伊巴涅斯",
+        "position": "DF",
+        "club": "Al Ahli",
+        "age": 25,
+        "club_country": "Saudi Arabia",
+        "transfermarkt_url": "https://www.transfermarkt.com/rogerio-ibannez/profil/spieler/396105",
+        "profile_url": "https://www.transfermarkt.com/rogerio-ibannez/profil/spieler/396105/statistik",
+        "basic_info": {
+          "date_of_birth": "17/01/1998 (28)"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Léo Pereira",
+        "name_cn": "莱奥·佩雷拉",
+        "position": "DF",
+        "club": "Flamengo",
+        "age": 28,
+        "club_country": "Brazil",
+        "transfermarkt_url": "https://www.transfermarkt.com/leo-pereira/profil/spieler/291436",
+        "profile_url": "https://www.transfermarkt.com/leo-pereira/profil/spieler/291436/statistik",
+        "basic_info": {
+          "date_of_birth": "31/12/1995 (30)"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Marquinhos",
+        "name_cn": "马尔基尼奥斯",
+        "position": "DF",
+        "club": "Paris Saint-Germain",
+        "age": 30,
+        "club_country": "France",
+        "transfermarkt_url": "https://www.transfermarkt.com/marquinhos/profil/spieler/181365",
+        "profile_url": "https://www.transfermarkt.com/marquinhos/profil/spieler/181365/statistik",
+        "basic_info": {
+          "date_of_birth": "31/12/1961 (64)",
+          "caps_goals": "32 / 4"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Wesley Lima",
+        "name_cn": "韦斯利·利马",
+        "position": "DF",
+        "club": "Roma",
+        "age": 27,
+        "club_country": "Italy",
+        "transfermarkt_url": "https://www.transfermarkt.com/wesley-lima/profil/spieler/381695",
+        "profile_url": "https://www.transfermarkt.com/wesley-lima/profil/spieler/381695/statistik",
+        "basic_info": {
+          "date_of_birth": "06/11/1993 (32)"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Bruno Guimarães",
+        "name_cn": "布鲁诺·吉马良斯",
+        "position": "MF",
+        "club": "Newcastle United",
+        "age": 27,
+        "club_country": "England",
+        "transfermarkt_url": "https://www.transfermarkt.com/bruno-guimaraes/profil/spieler/383487",
+        "profile_url": "https://www.transfermarkt.com/bruno-guimaraes/profil/spieler/383487/statistik",
+        "basic_info": {
+          "date_of_birth": "23/04/1983 (43)"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Casemiro",
+        "name_cn": "卡塞米罗",
+        "position": "MF",
+        "club": "Manchester United",
+        "age": 32,
+        "club_country": "England",
+        "transfermarkt_url": "https://www.transfermarkt.com/casemiro/profil/spieler/125700",
+        "profile_url": "https://www.transfermarkt.com/casemiro/profil/spieler/125700/statistik",
+        "basic_info": {
+          "date_of_birth": "13/07/1989 (36)",
+          "height": "1,80 m",
+          "caps_goals": "3 / 0"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Danilo Santos",
+        "name_cn": "达尼洛·桑托斯",
+        "position": "MF",
+        "club": "Botafogo",
+        "age": 23,
+        "club_country": "Brazil",
+        "transfermarkt_url": "https://www.transfermarkt.com/danilo-santos/profil/spieler/629592",
+        "profile_url": "https://www.transfermarkt.com/danilo-santos/profil/spieler/629592/statistik",
+        "basic_info": {},
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Fabinho",
+        "name_cn": "法比尼奥",
+        "position": "MF",
+        "club": "Al-Ittihad",
+        "age": 31,
+        "club_country": "Saudi Arabia",
+        "transfermarkt_url": "https://www.transfermarkt.com/fabinho/profil/spieler/217699",
+        "profile_url": "https://www.transfermarkt.com/fabinho/profil/spieler/217699/statistik",
+        "basic_info": {
+          "date_of_birth": "22/11/1994 (31)"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Lucas Paquetá",
+        "name_cn": "卢卡斯·帕奎塔",
+        "position": "MF",
+        "club": "Flamengo",
+        "age": 27,
+        "club_country": "Brazil",
+        "transfermarkt_url": "https://www.transfermarkt.com/lucas-paqueta/profil/spieler/380694",
+        "profile_url": "https://www.transfermarkt.com/lucas-paqueta/profil/spieler/380694/statistik",
+        "basic_info": {
+          "date_of_birth": "10/05/1990 (36)"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Neymar Jr",
+        "name_cn": "内马尔",
+        "position": "FW",
+        "club": "Santos",
+        "age": 34,
+        "club_country": "Brazil",
+        "transfermarkt_url": "https://www.transfermarkt.com/neymar/profil/spieler/68290",
+        "profile_url": "https://www.transfermarkt.com/neymar/profil/spieler/68290/statistik",
+        "basic_info": {
+          "date_of_birth": "05/02/1992 (34)",
+          "height": "1,75 m",
+          "caps_goals": "128 / 79"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Vinícius Júnior",
+        "name_cn": "维尼修斯",
+        "position": "FW",
+        "club": "Real Madrid",
+        "age": 24,
+        "club_country": "Spain",
+        "transfermarkt_url": "https://www.transfermarkt.com/vinicius-junior/profil/spieler/643712",
+        "profile_url": "https://www.transfermarkt.com/vinicius-junior/profil/spieler/643712/statistik",
+        "basic_info": {
+          "date_of_birth": "23/08/1999 (26)"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Raphinha",
+        "name_cn": "拉菲尼亚",
+        "position": "FW",
+        "club": "Barcelona",
+        "age": 28,
+        "club_country": "Spain",
+        "transfermarkt_url": "https://www.transfermarkt.com/raphinha/profil/spieler/402629",
+        "profile_url": "https://www.transfermarkt.com/raphinha/profil/spieler/402629/statistik",
+        "basic_info": {
+          "date_of_birth": "06/03/2000 (26)",
+          "height": "1,85 m",
+          "caps_goals": "2 / 0"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Endrick",
+        "name_cn": "恩德里克",
+        "position": "FW",
+        "club": "Lyon",
+        "age": 19,
+        "club_country": "France",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "Gabriel Martinelli",
+        "name_cn": "加比·马丁内利",
+        "position": "FW",
+        "club": "Arsenal",
+        "age": 23,
+        "club_country": "England",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "Igor Thiago",
+        "name_cn": "伊戈尔·蒂亚戈",
+        "position": "FW",
+        "club": "Brentford",
+        "age": 23,
+        "club_country": "England",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "Luiz Henrique",
+        "name_cn": "路易斯·恩里克",
+        "position": "FW",
+        "club": "Zenit",
+        "age": 23,
+        "club_country": "Russia",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "Matheus Cunha",
+        "name_cn": "马特乌斯·库尼亚",
+        "position": "FW",
+        "club": "Manchester United",
+        "age": 25,
+        "club_country": "England",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "Rayan",
+        "name_cn": "拉扬",
+        "position": "FW",
+        "club": "Bournemouth",
+        "age": 21,
+        "club_country": "England",
+        "transfermarkt_url": null
+      }
+    ]
+  },
+  {
+    "team_en": "France",
+    "team_cn": "法国",
+    "fifa_code": "FRA",
+    "coach": "Didier Deschamps",
+    "group": "I",
+    "players": [
+      {
+        "name_en": "Mike Maignan",
+        "name_cn": "迈尼昂",
+        "position": "GK",
+        "club": "AC Milan",
+        "age": 29,
+        "club_country": "Italy",
+        "transfermarkt_url": "https://www.transfermarkt.com/mike-maignan/profil/spieler/215913",
+        "profile_url": "https://www.transfermarkt.com/mike-maignan/profil/spieler/215913/statistik",
+        "basic_info": {
+          "date_of_birth": "06/06/1966 (59)"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Robin Risser",
+        "name_cn": "罗宾·里瑟",
+        "position": "GK",
+        "club": "RC Lens",
+        "age": 21,
+        "club_country": "France",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "Brice Samba",
+        "name_cn": "布里斯·桑巴",
+        "position": "GK",
+        "club": "Stade Rennais",
+        "age": 30,
+        "club_country": "France",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "Lucas Digne",
+        "name_cn": "卢卡斯·迪涅",
+        "position": "DF",
+        "club": "Aston Villa",
+        "age": 31,
+        "club_country": "England",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "Malo Gusto",
+        "name_cn": "马洛·古斯托",
+        "position": "DF",
+        "club": "Chelsea",
+        "age": 21,
+        "club_country": "England",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "Lucas Hernandez",
+        "name_cn": "卢卡斯·埃尔南德斯",
+        "position": "DF",
+        "club": "Paris Saint-Germain",
+        "age": 29,
+        "club_country": "France",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "Théo Hernandez",
+        "name_cn": "特奥·埃尔南德斯",
+        "position": "DF",
+        "club": "Al-Hilal",
+        "age": 27,
+        "club_country": "Saudi Arabia",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "Ibrahima Konaté",
+        "name_cn": "易卜拉希马·科纳特",
+        "position": "DF",
+        "club": "Liverpool",
+        "age": 25,
+        "club_country": "England",
+        "transfermarkt_url": "https://www.transfermarkt.com/ibrahima-konate/profil/spieler/469738",
+        "profile_url": "https://www.transfermarkt.com/ibrahima-konate/profil/spieler/469738/statistik",
+        "basic_info": {
+          "date_of_birth": "14/04/1999 (27)"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Jules Koundé",
+        "name_cn": "于连·孔德",
+        "position": "DF",
+        "club": "Barcelona",
+        "age": 26,
+        "club_country": "Spain",
+        "transfermarkt_url": "https://www.transfermarkt.com/jules-kounde/profil/spieler/433489",
+        "profile_url": "https://www.transfermarkt.com/jules-kounde/profil/spieler/433489/statistik",
+        "basic_info": {
+          "date_of_birth": "30/01/1970 (56)",
+          "height": "1,76 m"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Maxence Lacroix",
+        "name_cn": "马克桑斯·拉克鲁瓦",
+        "position": "DF",
+        "club": "Crystal Palace",
+        "age": 24,
+        "club_country": "England",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "William Saliba",
+        "name_cn": "威廉·萨利巴",
+        "position": "DF",
+        "club": "Arsenal",
+        "age": 24,
+        "club_country": "England",
+        "transfermarkt_url": "https://www.transfermarkt.com/william-saliba/profil/spieler/405228",
+        "profile_url": "https://www.transfermarkt.com/william-saliba/profil/spieler/405228/statistik",
+        "basic_info": {},
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Dayot Upamecano",
+        "name_cn": "达约·乌帕梅卡诺",
+        "position": "DF",
+        "club": "Bayern Munich",
+        "age": 26,
+        "club_country": "Germany",
+        "transfermarkt_url": "https://www.transfermarkt.com/dayot-upamecano/profil/spieler/396627",
+        "profile_url": "https://www.transfermarkt.com/dayot-upamecano/profil/spieler/396627/statistik",
+        "basic_info": {
+          "height": "1,84 m"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "N'Golo Kanté",
+        "name_cn": "恩戈洛·坎特",
+        "position": "MF",
+        "club": "Fenerbahçe",
+        "age": 34,
+        "club_country": "Turkey",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "Manu Koné",
+        "name_cn": "马努·孔尼",
+        "position": "MF",
+        "club": "AS Roma",
+        "age": 23,
+        "club_country": "Italy",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "Adrien Rabiot",
+        "name_cn": "阿德里安·拉比奥",
+        "position": "MF",
+        "club": "AC Milan",
+        "age": 29,
+        "club_country": "Italy",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "Aurélien Tchouaméni",
+        "name_cn": "奥雷利安·楚阿梅尼",
+        "position": "MF",
+        "club": "Real Madrid",
+        "age": 24,
+        "club_country": "Spain",
+        "transfermarkt_url": "https://www.transfermarkt.com/aurelien-tchouameni/profil/spieler/444063",
+        "profile_url": "https://www.transfermarkt.com/aurelien-tchouameni/profil/spieler/444063/statistik",
+        "basic_info": {
+          "date_of_birth": "21/12/1996 (29)",
+          "height": "1,78 m"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Warren Zaïre-Emery",
+        "name_cn": "沃伦·扎伊尔-埃梅里",
+        "position": "MF",
+        "club": "Paris Saint-Germain",
+        "age": 19,
+        "club_country": "France",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "Maghnes Akliouche",
+        "name_cn": "马尼耶斯·阿克利尤什",
+        "position": "FW",
+        "club": "AS Monaco",
+        "age": 22,
+        "club_country": "France",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "Bradley Barcola",
+        "name_cn": "布拉德利·巴尔科拉",
+        "position": "FW",
+        "club": "Paris Saint-Germain",
+        "age": 22,
+        "club_country": "France",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "Rayan Cherki",
+        "name_cn": "雷恩·切尔基",
+        "position": "FW",
+        "club": "Manchester City",
+        "age": 21,
+        "club_country": "England",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "Ousmane Dembélé",
+        "name_cn": "奥斯曼·登贝莱",
+        "position": "FW",
+        "club": "Paris Saint-Germain",
+        "age": 28,
+        "club_country": "France",
+        "transfermarkt_url": "https://www.transfermarkt.com/ousmane-dembele/profil/spieler/414765",
+        "profile_url": "https://www.transfermarkt.com/ousmane-dembele/profil/spieler/414765/statistik",
+        "basic_info": {},
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Désiré Doué",
+        "name_cn": "德西雷·杜埃",
+        "position": "FW",
+        "club": "Paris Saint-Germain",
+        "age": 19,
+        "club_country": "France",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "Jean-Philippe Mateta",
+        "name_cn": "让-菲利普·马特塔",
+        "position": "FW",
+        "club": "Crystal Palace",
+        "age": 27,
+        "club_country": "England",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "Kylian Mbappé",
+        "name_cn": "基利安·姆巴佩",
+        "position": "FW",
+        "club": "Real Madrid",
+        "age": 27,
+        "club_country": "Spain",
+        "transfermarkt_url": "https://www.transfermarkt.com/kylian-mbappe/profil/spieler/278987",
+        "profile_url": "https://www.transfermarkt.com/kylian-mbappe/profil/spieler/278987/statistik",
+        "basic_info": {},
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Michael Olise",
+        "name_cn": "迈克尔·奥利塞",
+        "position": "FW",
+        "club": "Bayern Munich",
+        "age": 23,
+        "club_country": "Germany",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "Marcus Thuram",
+        "name_cn": "马库斯·图拉姆",
+        "position": "FW",
+        "club": "Inter Milan",
+        "age": 27,
+        "club_country": "Italy",
+        "transfermarkt_url": null
+      }
+    ]
+  },
+  {
+    "team_en": "Germany",
+    "team_cn": "德国",
+    "fifa_code": "GER",
+    "coach": "Julian Nagelsmann",
+    "group": "E",
+    "players": [
+      {
+        "name_en": "Manuel Neuer",
+        "name_cn": "诺伊尔",
+        "position": "GK",
+        "club": "Bayern Munich",
+        "age": 40,
+        "club_country": "Germany",
+        "transfermarkt_url": "https://www.transfermarkt.com/manuel-neuer/profil/spieler/172604",
+        "profile_url": "https://www.transfermarkt.com/manuel-neuer/profil/spieler/172604/statistik",
+        "basic_info": {},
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Oliver Baumann",
+        "name_cn": "奥利弗·鲍曼",
+        "position": "GK",
+        "club": "Hoffenheim",
+        "age": 34,
+        "club_country": "Germany",
+        "transfermarkt_url": "https://www.transfermarkt.com/oliver-baumann/profil/spieler/68411",
+        "profile_url": "https://www.transfermarkt.com/oliver-baumann/profil/spieler/68411/statistik",
+        "basic_info": {
+          "date_of_birth": "23/01/1975 (51)",
+          "caps_goals": "28 / 1"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Alexander Nübel",
+        "name_cn": "亚历山大·努贝尔",
+        "position": "GK",
+        "club": "Stuttgart",
+        "age": 28,
+        "club_country": "Germany",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "Joshua Kimmich",
+        "name_cn": "基米希",
+        "position": "DF",
+        "club": "Bayern Munich",
+        "age": 30,
+        "club_country": "Germany",
+        "transfermarkt_url": "https://www.transfermarkt.com/joshua-kimmich/profil/spieler/182452",
+        "profile_url": "https://www.transfermarkt.com/joshua-kimmich/profil/spieler/182452/statistik",
+        "basic_info": {
+          "date_of_birth": "01/01/1991 (35)",
+          "height": "1,73 m"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Antonio Rüdiger",
+        "name_cn": "吕迪格",
+        "position": "DF",
+        "club": "Real Madrid",
+        "age": 31,
+        "club_country": "Spain",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "Nico Schlotterbeck",
+        "name_cn": "施洛特贝克",
+        "position": "DF",
+        "club": "Borussia Dortmund",
+        "age": 25,
+        "club_country": "Germany",
+        "transfermarkt_url": "https://www.transfermarkt.com/nico-schlotterbeck/profil/spieler/614378",
+        "profile_url": "https://www.transfermarkt.com/nico-schlotterbeck/profil/spieler/614378/statistik",
+        "basic_info": {
+          "date_of_birth": "15/12/1995 (30)"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Jonathan Tah",
+        "name_cn": "若纳唐·塔",
+        "position": "DF",
+        "club": "Bayern Munich",
+        "age": 28,
+        "club_country": "Germany",
+        "transfermarkt_url": "https://www.transfermarkt.com/jonathan-tah/profil/spieler/279375",
+        "profile_url": "https://www.transfermarkt.com/jonathan-tah/profil/spieler/279375/statistik",
+        "basic_info": {
+          "date_of_birth": "10/07/1996 (29)"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Waldemar Anton",
+        "name_cn": "瓦尔德马尔·安东",
+        "position": "DF",
+        "club": "Borussia Dortmund",
+        "age": 28,
+        "club_country": "Germany",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "David Raum",
+        "name_cn": "劳姆",
+        "position": "DF",
+        "club": "RB Leipzig",
+        "age": 27,
+        "club_country": "Germany",
+        "transfermarkt_url": "https://www.transfermarkt.com/david-raum/profil/spieler/562371",
+        "profile_url": "https://www.transfermarkt.com/david-raum/profil/spieler/562371/statistik",
+        "basic_info": {
+          "date_of_birth": "23/07/1990 (35)"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Malick Thiaw",
+        "name_cn": "马利克·蒂亚乌",
+        "position": "DF",
+        "club": "Newcastle United",
+        "age": 23,
+        "club_country": "England",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "Nathaniel Brown",
+        "name_cn": "纳撒尼尔·布朗",
+        "position": "DF",
+        "club": "Eintracht Frankfurt",
+        "age": 21,
+        "club_country": "Germany",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "Jamal Musiala",
+        "name_cn": "穆西亚拉",
+        "position": "MF",
+        "club": "Bayern Munich",
+        "age": 22,
+        "club_country": "Germany",
+        "transfermarkt_url": "https://www.transfermarkt.com/jamal-musiala/profil/spieler/356317",
+        "profile_url": "https://www.transfermarkt.com/jamal-musiala/profil/spieler/356317/statistik",
+        "basic_info": {
+          "date_of_birth": "25/02/1997 (29)"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Florian Wirtz",
+        "name_cn": "维尔茨",
+        "position": "MF",
+        "club": "Liverpool",
+        "age": 22,
+        "club_country": "England",
+        "transfermarkt_url": "https://www.transfermarkt.com/florian-wirtz/profil/spieler/514103",
+        "profile_url": "https://www.transfermarkt.com/florian-wirtz/profil/spieler/514103/statistik",
+        "basic_info": {},
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Leon Goretzka",
+        "name_cn": "格雷茨卡",
+        "position": "MF",
+        "club": "Bayern Munich",
+        "age": 30,
+        "club_country": "Germany",
+        "transfermarkt_url": "https://www.transfermarkt.com/leon-goretzka/profil/spieler/182450",
+        "profile_url": "https://www.transfermarkt.com/leon-goretzka/profil/spieler/182450/statistik",
+        "basic_info": {
+          "date_of_birth": "08/03/1994 (32)",
+          "height": "1,80 m",
+          "caps_goals": "0 / 0"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Aleksandar Pavlović",
+        "name_cn": "帕夫洛维奇",
+        "position": "MF",
+        "club": "Bayern Munich",
+        "age": 21,
+        "club_country": "Germany",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "Pascal Groß",
+        "name_cn": "格罗斯",
+        "position": "MF",
+        "club": "Brighton & Hove Albion",
+        "age": 33,
+        "club_country": "England",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "Angelo Stiller",
+        "name_cn": "安杰洛·斯蒂勒",
+        "position": "MF",
+        "club": "Stuttgart",
+        "age": 23,
+        "club_country": "Germany",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "Felix Nmecha",
+        "name_cn": "费利克斯·恩梅加",
+        "position": "MF",
+        "club": "Borussia Dortmund",
+        "age": 24,
+        "club_country": "Germany",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "Nadiem Amiri",
+        "name_cn": "纳迪姆·阿米里",
+        "position": "MF",
+        "club": "Mainz 05",
+        "age": 28,
+        "club_country": "Germany",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "Leroy Sané",
+        "name_cn": "萨内",
+        "position": "MF",
+        "club": "Galatasaray",
+        "age": 28,
+        "club_country": "Turkey",
+        "transfermarkt_url": "https://www.transfermarkt.com/leroy-sane/profil/spieler/205012",
+        "profile_url": "https://www.transfermarkt.com/leroy-sane/profil/spieler/205012/statistik",
+        "basic_info": {
+          "date_of_birth": "17/07/1988 (37)"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Kai Havertz",
+        "name_cn": "哈弗茨",
+        "position": "FW",
+        "club": "Arsenal",
+        "age": 25,
+        "club_country": "England",
+        "transfermarkt_url": "https://www.transfermarkt.com/kai-havertz/profil/spieler/236537",
+        "profile_url": "https://www.transfermarkt.com/kai-havertz/profil/spieler/236537/statistik",
+        "basic_info": {
+          "date_of_birth": "08/01/1993 (33)",
+          "height": "1,82 m"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Deniz Undav",
+        "name_cn": "翁达夫",
+        "position": "FW",
+        "club": "Stuttgart",
+        "age": 23,
+        "club_country": "Germany",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "Jamie Leweling",
+        "name_cn": "杰米·勒韦林",
+        "position": "FW",
+        "club": "Stuttgart",
+        "age": 23,
+        "club_country": "Germany",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "Maximilian Beier",
+        "name_cn": "贝希尔",
+        "position": "FW",
+        "club": "Borussia Dortmund",
+        "age": 22,
+        "club_country": "Germany",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "Nick Woltemade",
+        "name_cn": "沃尔特马德",
+        "position": "FW",
+        "club": "Newcastle United",
+        "age": 22,
+        "club_country": "England",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "Lennart Karl",
+        "name_cn": "伦纳特·卡尔",
+        "position": "FW",
+        "club": "Bayern Munich",
+        "age": 20,
+        "club_country": "Germany",
+        "transfermarkt_url": null
+      }
+    ]
+  },
+  {
+    "team_en": "England",
+    "team_cn": "英格兰",
+    "fifa_code": "ENG",
+    "coach": "Thomas Tuchel",
+    "group": "L",
+    "players": [
+      {
+        "name_en": "Jordan Pickford",
+        "name_cn": "皮克福德",
+        "position": "GK",
+        "club": "Everton",
+        "age": 31,
+        "club_country": "England",
+        "transfermarkt_url": "https://www.transfermarkt.com/jordan-pickford/profil/spieler/135323",
+        "profile_url": "https://www.transfermarkt.com/jordan-pickford/profil/spieler/135323/statistik",
+        "basic_info": {},
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Dean Henderson",
+        "name_cn": "迪恩·亨德森",
+        "position": "GK",
+        "club": "Crystal Palace",
+        "age": 28,
+        "club_country": "England",
+        "transfermarkt_url": "https://www.transfermarkt.com/dean-henderson/profil/spieler/403665",
+        "profile_url": "https://www.transfermarkt.com/dean-henderson/profil/spieler/403665/statistik",
+        "basic_info": {},
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "James Trafford",
+        "name_cn": "特拉福德",
+        "position": "GK",
+        "club": "Manchester City",
+        "age": 22,
+        "club_country": "England",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "Reece James",
+        "name_cn": "里斯·詹姆斯",
+        "position": "DF",
+        "club": "Chelsea",
+        "age": 25,
+        "club_country": "England",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "Tino Livramento",
+        "name_cn": "利夫拉门托",
+        "position": "DF",
+        "club": "Newcastle United",
+        "age": 22,
+        "club_country": "England",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "John Stones",
+        "name_cn": "斯通斯",
+        "position": "DF",
+        "club": "Manchester City",
+        "age": 30,
+        "club_country": "England",
+        "transfermarkt_url": "https://www.transfermarkt.com/john-stones/profil/spieler/189566",
+        "profile_url": "https://www.transfermarkt.com/john-stones/profil/spieler/189566/statistik",
+        "basic_info": {
+          "date_of_birth": "22/11/1975 (50)"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Marc Guéhi",
+        "name_cn": "格希",
+        "position": "DF",
+        "club": "Manchester City",
+        "age": 24,
+        "club_country": "England",
+        "transfermarkt_url": "https://www.transfermarkt.com/marc-guehi/profil/spieler/533966",
+        "profile_url": "https://www.transfermarkt.com/marc-guehi/profil/spieler/533966/statistik",
+        "basic_info": {
+          "date_of_birth": "22/12/2000 (25)"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Ezri Konsa",
+        "name_cn": "孔萨",
+        "position": "DF",
+        "club": "Aston Villa",
+        "age": 27,
+        "club_country": "England",
+        "transfermarkt_url": "https://www.transfermarkt.com/ezri-konsa/profil/spieler/433177",
+        "profile_url": "https://www.transfermarkt.com/ezri-konsa/profil/spieler/433177/statistik",
+        "basic_info": {
+          "date_of_birth": "05/09/2001 (24)",
+          "height": "1,78 m",
+          "caps_goals": "48 / 14"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Jarell Quansah",
+        "name_cn": "匡萨",
+        "position": "DF",
+        "club": "Bayer Leverkusen",
+        "age": 22,
+        "club_country": "Germany",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "Dan Burn",
+        "name_cn": "丹·伯恩",
+        "position": "DF",
+        "club": "Newcastle United",
+        "age": 32,
+        "club_country": "England",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "Nico O'Reilly",
+        "name_cn": "奥莱利",
+        "position": "DF",
+        "club": "Manchester City",
+        "age": 19,
+        "club_country": "England",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "Djed Spence",
+        "name_cn": "斯彭斯",
+        "position": "DF",
+        "club": "Tottenham Hotspur",
+        "age": 24,
+        "club_country": "England",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "Declan Rice",
+        "name_cn": "赖斯",
+        "position": "MF",
+        "club": "Arsenal",
+        "age": 26,
+        "club_country": "England",
+        "transfermarkt_url": "https://www.transfermarkt.com/declan-rice/profil/spieler/197228",
+        "profile_url": "https://www.transfermarkt.com/declan-rice/profil/spieler/197228/statistik",
+        "basic_info": {
+          "date_of_birth": "05/10/1991 (34)"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Jude Bellingham",
+        "name_cn": "贝林厄姆",
+        "position": "MF",
+        "club": "Real Madrid",
+        "age": 22,
+        "club_country": "Spain",
+        "transfermarkt_url": "https://www.transfermarkt.com/jude-bellingham/profil/spieler/581678",
+        "profile_url": "https://www.transfermarkt.com/jude-bellingham/profil/spieler/581678/statistik",
+        "basic_info": {
+          "date_of_birth": "29/06/2003 (22)",
+          "height": "1,86 m",
+          "caps_goals": "46 / 6"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Kobbie Mainoo",
+        "name_cn": "梅努",
+        "position": "MF",
+        "club": "Manchester United",
+        "age": 20,
+        "club_country": "England",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "Jordan Henderson",
+        "name_cn": "乔丹·亨德森",
+        "position": "MF",
+        "club": "Brentford",
+        "age": 35,
+        "club_country": "England",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "Elliot Anderson",
+        "name_cn": "埃利奥特·安德森",
+        "position": "MF",
+        "club": "Nottingham Forest",
+        "age": 22,
+        "club_country": "England",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "Morgan Rogers",
+        "name_cn": "摩根·罗杰斯",
+        "position": "MF",
+        "club": "Aston Villa",
+        "age": 22,
+        "club_country": "England",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "Eberechi Eze",
+        "name_cn": "埃泽",
+        "position": "MF",
+        "club": "Arsenal",
+        "age": 26,
+        "club_country": "England",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "Harry Kane",
+        "name_cn": "凯恩",
+        "position": "FW",
+        "club": "Bayern Munich",
+        "age": 32,
+        "club_country": "Germany",
+        "transfermarkt_url": "https://www.transfermarkt.com/harry-kane/profil/spieler/118098",
+        "profile_url": "https://www.transfermarkt.com/harry-kane/profil/spieler/118098/statistik",
+        "basic_info": {},
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Bukayo Saka",
+        "name_cn": "萨卡",
+        "position": "FW",
+        "club": "Arsenal",
+        "age": 23,
+        "club_country": "England",
+        "transfermarkt_url": "https://www.transfermarkt.com/bukayo-saka/profil/spieler/433177",
+        "profile_url": "https://www.transfermarkt.com/bukayo-saka/profil/spieler/433177/statistik",
+        "basic_info": {
+          "date_of_birth": "05/09/2001 (24)",
+          "height": "1,78 m",
+          "caps_goals": "48 / 14"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Marcus Rashford",
+        "name_cn": "拉什福德",
+        "position": "FW",
+        "club": "Barcelona",
+        "age": 27,
+        "club_country": "Spain",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "Anthony Gordon",
+        "name_cn": "安东尼·戈登",
+        "position": "FW",
+        "club": "Newcastle United",
+        "age": 24,
+        "club_country": "England",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "Noni Madueke",
+        "name_cn": "马杜埃克",
+        "position": "FW",
+        "club": "Arsenal",
+        "age": 23,
+        "club_country": "England",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "Ollie Watkins",
+        "name_cn": "沃特金斯",
+        "position": "FW",
+        "club": "Aston Villa",
+        "age": 29,
+        "club_country": "England",
+        "transfermarkt_url": "https://www.transfermarkt.com/ollie-watkins/profil/spieler/423569",
+        "profile_url": "https://www.transfermarkt.com/ollie-watkins/profil/spieler/423569/statistik",
+        "basic_info": {
+          "date_of_birth": "04/02/1999 (27)",
+          "caps_goals": "1 / 0"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Ivan Toney",
+        "name_cn": "伊万·托尼",
+        "position": "FW",
+        "club": "Al-Ahli",
+        "age": 28,
+        "club_country": "Saudi Arabia",
+        "transfermarkt_url": null
+      }
+    ]
+  },
+  {
+    "team_en": "Portugal",
+    "team_cn": "葡萄牙",
+    "fifa_code": "POR",
+    "coach": "Roberto Martínez",
+    "group": "K",
+    "players": [
+      {
+        "name_en": "Diogo Costa",
+        "name_cn": "迪奥戈·科斯塔",
+        "position": "GK",
+        "club": "FC Porto",
+        "age": 26,
+        "club_country": "Portugal",
+        "transfermarkt_url": "https://www.transfermarkt.com/diogo-costa/profil/spieler/617384",
+        "profile_url": "https://www.transfermarkt.com/diogo-costa/profil/spieler/617384/statistik",
+        "basic_info": {
+          "date_of_birth": "13/05/1996 (30)",
+          "height": "1,79 m"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "José Sá",
+        "name_cn": "若泽·萨",
+        "position": "GK",
+        "club": "Wolverhampton",
+        "age": 33,
+        "club_country": "England",
+        "transfermarkt_url": "https://www.transfermarkt.com/jose-sa/profil/spieler/207883",
+        "profile_url": "https://www.transfermarkt.com/jose-sa/profil/spieler/207883/statistik",
+        "basic_info": {
+          "date_of_birth": "17/12/1993 (32)"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Rui Silva",
+        "name_cn": "鲁伊·席尔瓦",
+        "position": "GK",
+        "club": "Sporting CP",
+        "age": 32,
+        "club_country": "Portugal",
+        "transfermarkt_url": "https://www.transfermarkt.com/rui-silva/profil/spieler/128385",
+        "profile_url": "https://www.transfermarkt.com/rui-silva/profil/spieler/128385/statistik",
+        "basic_info": {},
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Rúben Dias",
+        "name_cn": "鲁本·迪亚斯",
+        "position": "DF",
+        "club": "Manchester City",
+        "age": 29,
+        "club_country": "England",
+        "transfermarkt_url": "https://www.transfermarkt.com/ruben-dias/profil/spieler/388270",
+        "profile_url": "https://www.transfermarkt.com/ruben-dias/profil/spieler/388270/statistik",
+        "basic_info": {
+          "date_of_birth": "30/07/1993 (32)",
+          "height": "1,85 m"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Gonçalo Inácio",
+        "name_cn": "贡萨洛·伊纳西奥",
+        "position": "DF",
+        "club": "Sporting CP",
+        "age": 24,
+        "club_country": "Portugal",
+        "transfermarkt_url": "https://www.transfermarkt.com/goncalo-inacio/profil/spieler/558889",
+        "profile_url": "https://www.transfermarkt.com/goncalo-inacio/profil/spieler/558889/statistik",
+        "basic_info": {},
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "João Cancelo",
+        "name_cn": "坎塞洛",
+        "position": "DF",
+        "club": "Barcelona",
+        "age": 32,
+        "club_country": "Spain",
+        "transfermarkt_url": "https://www.transfermarkt.com/joao-cancelo/profil/spieler/194980",
+        "profile_url": "https://www.transfermarkt.com/joao-cancelo/profil/spieler/194980/statistik",
+        "basic_info": {},
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Diogo Dalot",
+        "name_cn": "达洛特",
+        "position": "DF",
+        "club": "Manchester United",
+        "age": 27,
+        "club_country": "England",
+        "transfermarkt_url": "https://www.transfermarkt.com/diogo-dalot/profil/spieler/361339",
+        "profile_url": "https://www.transfermarkt.com/diogo-dalot/profil/spieler/361339/statistik",
+        "basic_info": {},
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Nuno Mendes",
+        "name_cn": "努诺·门德斯",
+        "position": "DF",
+        "club": "Paris Saint-Germain",
+        "age": 23,
+        "club_country": "France",
+        "transfermarkt_url": "https://www.transfermarkt.com/nuno-mendes/profil/spieler/564954",
+        "profile_url": "https://www.transfermarkt.com/nuno-mendes/profil/spieler/564954/statistik",
+        "basic_info": {
+          "date_of_birth": "27/07/1999 (26)",
+          "height": "1,73 m"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Nélson Semedo",
+        "name_cn": "塞梅多",
+        "position": "DF",
+        "club": "Fenerbahçe",
+        "age": 32,
+        "club_country": "Turkey",
+        "transfermarkt_url": "https://www.transfermarkt.com/nelson-semedo/profil/spieler/189651",
+        "profile_url": "https://www.transfermarkt.com/nelson-semedo/profil/spieler/189651/statistik",
+        "basic_info": {
+          "date_of_birth": "23/12/1990 (35)"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Renato Veiga",
+        "name_cn": "雷纳托·维加",
+        "position": "DF",
+        "club": "Villarreal",
+        "age": 22,
+        "club_country": "Spain",
+        "transfermarkt_url": "https://www.transfermarkt.com/renato-veiga/profil/spieler/1003146",
+        "profile_url": "https://www.transfermarkt.com/renato-veiga/profil/spieler/1003146/statistik",
+        "basic_info": {},
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Tomás Araújo",
+        "name_cn": "托马斯·阿拉乌霍",
+        "position": "DF",
+        "club": "Benfica",
+        "age": 24,
+        "club_country": "Portugal",
+        "transfermarkt_url": "https://www.transfermarkt.com/tomas-araujo/profil/spieler/1029044",
+        "profile_url": "https://www.transfermarkt.com/tomas-araujo/profil/spieler/1029044/statistik",
+        "basic_info": {
+          "date_of_birth": "26/07/2003 (22)",
+          "height": "1,80 m",
+          "caps_goals": "5 / 0"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Bruno Fernandes",
+        "name_cn": "B费",
+        "position": "MF",
+        "club": "Manchester United",
+        "age": 31,
+        "club_country": "England",
+        "transfermarkt_url": "https://www.transfermarkt.com/bruno-fernandes/profil/spieler/240671",
+        "profile_url": "https://www.transfermarkt.com/bruno-fernandes/profil/spieler/240671/statistik",
+        "basic_info": {
+          "date_of_birth": "12/02/1994 (32)"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Bernardo Silva",
+        "name_cn": "B席",
+        "position": "MF",
+        "club": "Manchester City",
+        "age": 31,
+        "club_country": "England",
+        "transfermarkt_url": "https://www.transfermarkt.com/bernardo-silva/profil/spieler/321233",
+        "profile_url": "https://www.transfermarkt.com/bernardo-silva/profil/spieler/321233/statistik",
+        "basic_info": {},
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Vitinha",
+        "name_cn": "维蒂尼亚",
+        "position": "MF",
+        "club": "Paris Saint-Germain",
+        "age": 26,
+        "club_country": "France",
+        "transfermarkt_url": "https://www.transfermarkt.com/vitinha/profil/spieler/600118",
+        "profile_url": "https://www.transfermarkt.com/vitinha/profil/spieler/600118/statistik",
+        "basic_info": {},
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "João Neves",
+        "name_cn": "若昂·内维斯",
+        "position": "MF",
+        "club": "Paris Saint-Germain",
+        "age": 21,
+        "club_country": "France",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "Rúben Neves",
+        "name_cn": "鲁本·内维斯",
+        "position": "MF",
+        "club": "Al-Hilal",
+        "age": 29,
+        "club_country": "Saudi Arabia",
+        "transfermarkt_url": "https://www.transfermarkt.com/ruben-neves/profil/spieler/321234",
+        "profile_url": "https://www.transfermarkt.com/ruben-neves/profil/spieler/321234/statistik",
+        "basic_info": {
+          "date_of_birth": "28/03/1999 (27)",
+          "height": "1,86 m",
+          "caps_goals": "3 / 0"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Samu Costa",
+        "name_cn": "萨姆·科斯塔",
+        "position": "MF",
+        "club": "Mallorca",
+        "age": 25,
+        "club_country": "Spain",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "Matheus Nunes",
+        "name_cn": "马特乌斯·努内斯",
+        "position": "MF",
+        "club": "Manchester City",
+        "age": 27,
+        "club_country": "England",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "Cristiano Ronaldo",
+        "name_cn": "C罗",
+        "position": "FW",
+        "club": "Al-Nassr",
+        "age": 41,
+        "club_country": "Saudi Arabia",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "Rafael Leão",
+        "name_cn": "拉斐尔·莱奥",
+        "position": "FW",
+        "club": "AC Milan",
+        "age": 26,
+        "club_country": "Italy",
+        "transfermarkt_url": "https://www.transfermarkt.com/rafael-leao/profil/spieler/472046",
+        "profile_url": "https://www.transfermarkt.com/rafael-leao/profil/spieler/472046/statistik",
+        "basic_info": {
+          "date_of_birth": "02/12/1999 (26)"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Gonçalo Ramos",
+        "name_cn": "贡萨洛·拉莫斯",
+        "position": "FW",
+        "club": "Paris Saint-Germain",
+        "age": 24,
+        "club_country": "France",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "João Félix",
+        "name_cn": "若昂·菲利克斯",
+        "position": "FW",
+        "club": "Al-Nassr",
+        "age": 26,
+        "club_country": "Saudi Arabia",
+        "transfermarkt_url": "https://www.transfermarkt.com/joao-felix/profil/spieler/462737",
+        "profile_url": "https://www.transfermarkt.com/joao-felix/profil/spieler/462737/statistik",
+        "basic_info": {
+          "date_of_birth": "24/02/1997 (29)",
+          "caps_goals": "0 / 0"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Pedro Neto",
+        "name_cn": "佩德罗·内托",
+        "position": "FW",
+        "club": "Chelsea",
+        "age": 26,
+        "club_country": "England",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "Francisco Trincão",
+        "name_cn": "弗朗西斯科·特林康",
+        "position": "FW",
+        "club": "Sporting CP",
+        "age": 26,
+        "club_country": "Portugal",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "Francisco Conceição",
+        "name_cn": "弗朗西斯科·孔塞桑",
+        "position": "FW",
+        "club": "Juventus",
+        "age": 23,
+        "club_country": "Italy",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "Gonçalo Guedes",
+        "name_cn": "贡萨洛·古埃德斯",
+        "position": "FW",
+        "club": "Real Sociedad",
+        "age": 29,
+        "club_country": "Spain",
+        "transfermarkt_url": null
+      }
+    ]
+  },
+  {
+    "team_en": "Croatia",
+    "team_cn": "克罗地亚",
+    "fifa_code": "CRO",
+    "coach": "Zlatko Dalić",
+    "group": "L",
+    "players": [
+      {
+        "name_en": "Dominik Livaković",
+        "name_cn": "利瓦科维奇",
+        "position": "GK",
+        "club": "Dinamo Zagreb",
+        "age": 29,
+        "club_country": "Croatia",
+        "transfermarkt_url": "https://www.transfermarkt.com/dominik-livakovic/profil/spieler/285808",
+        "profile_url": "https://www.transfermarkt.com/dominik-livakovic/profil/spieler/285808/statistik",
+        "basic_info": {
+          "date_of_birth": "27/03/1990 (36)"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Dominik Kotarski",
+        "name_cn": "科塔尔斯基",
+        "position": "GK",
+        "club": "Copenhagen",
+        "age": 24,
+        "club_country": "Denmark",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "Ivor Pandur",
+        "name_cn": "伊沃尔·潘杜尔",
+        "position": "GK",
+        "club": "Hull City",
+        "age": 20,
+        "club_country": "England",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "Joško Gvardiol",
+        "name_cn": "格瓦迪奥尔",
+        "position": "DF",
+        "club": "Manchester City",
+        "age": 23,
+        "club_country": "England",
+        "transfermarkt_url": "https://www.transfermarkt.com/josko-gvardiol/profil/spieler/649675",
+        "profile_url": "https://www.transfermarkt.com/josko-gvardiol/profil/spieler/649675/statistik",
+        "basic_info": {
+          "date_of_birth": "14/03/2002 (24)",
+          "height": "1,82 m"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Duje Ćaleta-Car",
+        "name_cn": "卡莱塔·卡尔",
+        "position": "DF",
+        "club": "Real Sociedad",
+        "age": 28,
+        "club_country": "Spain",
+        "transfermarkt_url": "https://www.transfermarkt.com/duje-caleta-car/profil/spieler/357696",
+        "profile_url": "https://www.transfermarkt.com/duje-caleta-car/profil/spieler/357696/statistik",
+        "basic_info": {},
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Josip Šutalo",
+        "name_cn": "舒塔洛",
+        "position": "DF",
+        "club": "Ajax",
+        "age": 24,
+        "club_country": "Netherlands",
+        "transfermarkt_url": "https://www.transfermarkt.com/josip-sutalo/profil/spieler/624657",
+        "profile_url": "https://www.transfermarkt.com/josip-sutalo/profil/spieler/624657/statistik",
+        "basic_info": {
+          "date_of_birth": "09/10/1944 (81)"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Josip Stanišić",
+        "name_cn": "斯塔尼西奇",
+        "position": "DF",
+        "club": "Bayern Munich",
+        "age": 24,
+        "club_country": "Germany",
+        "transfermarkt_url": "https://www.transfermarkt.com/josip-stanisic/profil/spieler/542596",
+        "profile_url": "https://www.transfermarkt.com/josip-stanisic/profil/spieler/542596/statistik",
+        "basic_info": {
+          "date_of_birth": "22/01/1996 (30)",
+          "height": "1,90 m"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Marin Pongračić",
+        "name_cn": "庞格拉契奇",
+        "position": "DF",
+        "club": "Fiorentina",
+        "age": 28,
+        "club_country": "Italy",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "Martin Erlić",
+        "name_cn": "埃尔利奇",
+        "position": "DF",
+        "club": "Midtjylland",
+        "age": 27,
+        "club_country": "Denmark",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "Luka Vušković",
+        "name_cn": "武什科维奇",
+        "position": "DF",
+        "club": "Hamburger SV",
+        "age": 22,
+        "club_country": "Germany",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "Luka Modrić",
+        "name_cn": "莫德里奇",
+        "position": "MF",
+        "club": "AC Milan",
+        "age": 40,
+        "club_country": "Italy",
+        "transfermarkt_url": "https://www.transfermarkt.com/luka-modric/profil/spieler/27904",
+        "profile_url": "https://www.transfermarkt.com/luka-modric/profil/spieler/27904/statistik",
+        "basic_info": {
+          "date_of_birth": "27/08/1984 (41)",
+          "height": "1,81 m"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Mateo Kovačić",
+        "name_cn": "科瓦契奇",
+        "position": "MF",
+        "club": "Manchester City",
+        "age": 31,
+        "club_country": "England",
+        "transfermarkt_url": "https://www.transfermarkt.com/mateo-kovacic/profil/spieler/178296",
+        "profile_url": "https://www.transfermarkt.com/mateo-kovacic/profil/spieler/178296/statistik",
+        "basic_info": {
+          "date_of_birth": "16/07/1991 (34)"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Mario Pašalić",
+        "name_cn": "帕萨里奇",
+        "position": "MF",
+        "club": "Atalanta",
+        "age": 29,
+        "club_country": "Italy",
+        "transfermarkt_url": "https://www.transfermarkt.com/mario-pasalic/profil/spieler/216900",
+        "profile_url": "https://www.transfermarkt.com/mario-pasalic/profil/spieler/216900/statistik",
+        "basic_info": {},
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Nikola Vlašić",
+        "name_cn": "弗拉西奇",
+        "position": "MF",
+        "club": "Torino",
+        "age": 27,
+        "club_country": "Italy",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "Luka Sučić",
+        "name_cn": "苏契奇",
+        "position": "MF",
+        "club": "Real Sociedad",
+        "age": 22,
+        "club_country": "Spain",
+        "transfermarkt_url": "https://www.transfermarkt.com/luka-sucic/profil/spieler/624661",
+        "profile_url": "https://www.transfermarkt.com/luka-sucic/profil/spieler/624661/statistik",
+        "basic_info": {
+          "date_of_birth": "15/12/1935"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Martin Baturina",
+        "name_cn": "巴图里纳",
+        "position": "MF",
+        "club": "Como",
+        "age": 22,
+        "club_country": "Italy",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "Kristijan Jakić",
+        "name_cn": "亚基奇",
+        "position": "MF",
+        "club": "Augsburg",
+        "age": 27,
+        "club_country": "Germany",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "Petar Sučić",
+        "name_cn": "佩塔尔·苏契奇",
+        "position": "MF",
+        "club": "Inter Milan",
+        "age": 23,
+        "club_country": "Italy",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "Nikola Moro",
+        "name_cn": "莫罗",
+        "position": "MF",
+        "club": "Bologna",
+        "age": 26,
+        "club_country": "Italy",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "Toni Fruk",
+        "name_cn": "托尼·弗鲁克",
+        "position": "MF",
+        "club": "Rijeka",
+        "age": 22,
+        "club_country": "Croatia",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "Ivan Perišić",
+        "name_cn": "佩里西奇",
+        "position": "FW",
+        "club": "PSV Eindhoven",
+        "age": 36,
+        "club_country": "Netherlands",
+        "transfermarkt_url": "https://www.transfermarkt.com/ivan-perisic/profil/spieler/47816",
+        "profile_url": "https://www.transfermarkt.com/ivan-perisic/profil/spieler/47816/statistik",
+        "basic_info": {
+          "date_of_birth": "02/02/1991 (35)",
+          "height": "1,83 m"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Andrej Kramarić",
+        "name_cn": "克拉马里奇",
+        "position": "FW",
+        "club": "Hoffenheim",
+        "age": 34,
+        "club_country": "Germany",
+        "transfermarkt_url": "https://www.transfermarkt.com/andrej-kramaric/profil/spieler/94271",
+        "profile_url": "https://www.transfermarkt.com/andrej-kramaric/profil/spieler/94271/statistik",
+        "basic_info": {
+          "date_of_birth": "12/02/1992 (34)"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Ante Budimir",
+        "name_cn": "布迪米尔",
+        "position": "FW",
+        "club": "Osasuna",
+        "age": 33,
+        "club_country": "Spain",
+        "transfermarkt_url": "https://www.transfermarkt.com/ante-budimir/profil/spieler/277900",
+        "profile_url": "https://www.transfermarkt.com/ante-budimir/profil/spieler/277900/statistik",
+        "basic_info": {},
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Marko Pašalić",
+        "name_cn": "马尔科·帕萨里奇",
+        "position": "FW",
+        "club": "Orlando City",
+        "age": 29,
+        "club_country": "USA",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "Petar Musa",
+        "name_cn": "佩塔尔·穆萨",
+        "position": "FW",
+        "club": "Dallas",
+        "age": 26,
+        "club_country": "USA",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "Igor Matanović",
+        "name_cn": "伊戈尔·马塔诺维奇",
+        "position": "FW",
+        "club": "Freiburg",
+        "age": 21,
+        "club_country": "Germany",
+        "transfermarkt_url": null
+      }
+    ]
+  },
+  {
+    "team_en": "Bosnia and Herzegovina",
+    "team_cn": "波黑",
+    "fifa_code": "BIH",
+    "coach": "Sergej Barbarez",
+    "group": "B",
+    "players": [
+      {
+        "name_en": "Nikola Vasilj",
+        "name_cn": "尼古拉·瓦西利",
+        "position": "GK",
+        "club": "FC St. Pauli",
+        "age": 29,
+        "club_country": "Germany",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "Martin Zlomislić",
+        "name_cn": "马丁·兹洛米斯利奇",
+        "position": "GK",
+        "club": "HNK Rijeka",
+        "age": 25,
+        "club_country": "Croatia",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "Osman Hadžikić",
+        "name_cn": "奥斯曼·哈吉基奇",
+        "position": "GK",
+        "club": "Slaven Belupo",
+        "age": 31,
+        "club_country": "Croatia",
+        "transfermarkt_url": "https://www.transfermarkt.com/osman-hadzikic/profil/spieler/1003489",
+        "profile_url": "https://www.transfermarkt.com/osman-hadzikic/profil/spieler/1003489/statistik",
+        "basic_info": {
+          "height": "1,82 m"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Sead Kolašinac",
+        "name_cn": "科拉希纳茨",
+        "position": "DF",
+        "club": "Atalanta",
+        "age": 32,
+        "club_country": "Italy",
+        "transfermarkt_url": "https://www.transfermarkt.com/sead-kolasinac/profil/spieler/139522",
+        "profile_url": "https://www.transfermarkt.com/sead-kolasinac/profil/spieler/139522/statistik",
+        "basic_info": {
+          "date_of_birth": "26/06/1991 (34)",
+          "height": "1,77 m"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Amar Dedić",
+        "name_cn": "阿马尔·德迪奇",
+        "position": "DF",
+        "club": "Benfica",
+        "age": 23,
+        "club_country": "Portugal",
+        "transfermarkt_url": "https://www.transfermarkt.com/amar-dedic/profil/spieler/419359",
+        "profile_url": "https://www.transfermarkt.com/amar-dedic/profil/spieler/419359/statistik",
+        "basic_info": {},
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Nihad Mujakić",
+        "name_cn": "尼哈德·穆亚基奇",
+        "position": "DF",
+        "club": "Gaziantep FK",
+        "age": 26,
+        "club_country": "Turkey",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "Nikola Katić",
+        "name_cn": "尼古拉·卡蒂奇",
+        "position": "DF",
+        "club": "Schalke 04",
+        "age": 28,
+        "club_country": "Germany",
+        "transfermarkt_url": "https://www.transfermarkt.com/nikola-katic/profil/spieler/277902",
+        "profile_url": "https://www.transfermarkt.com/nikola-katic/profil/spieler/277902/statistik",
+        "basic_info": {
+          "date_of_birth": "18/07/1987 (38)"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Tarik Muharemović",
+        "name_cn": "塔里克·穆哈梅罗维奇",
+        "position": "DF",
+        "club": "Sassuolo",
+        "age": 24,
+        "club_country": "Italy",
+        "transfermarkt_url": "https://www.transfermarkt.com/tarik-muharemovic/profil/spieler/624636",
+        "profile_url": "https://www.transfermarkt.com/tarik-muharemovic/profil/spieler/624636/statistik",
+        "basic_info": {},
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Stjepan Radeljić",
+        "name_cn": "斯特耶潘·拉德利奇",
+        "position": "DF",
+        "club": "HNK Rijeka",
+        "age": 24,
+        "club_country": "Croatia",
+        "transfermarkt_url": "https://www.transfermarkt.com/stjepan-radeljic/profil/spieler/419378",
+        "profile_url": "https://www.transfermarkt.com/stjepan-radeljic/profil/spieler/419378/statistik",
+        "basic_info": {
+          "date_of_birth": "15/12/1996 (29)",
+          "height": "1,89 m"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Dennis Hadžikadunić",
+        "name_cn": "丹尼斯·哈吉卡杜尼奇",
+        "position": "DF",
+        "club": "Sampdoria",
+        "age": 26,
+        "club_country": "Italy",
+        "transfermarkt_url": "https://www.transfermarkt.com/dennis-hadzikadunic/profil/spieler/557548",
+        "profile_url": "https://www.transfermarkt.com/dennis-hadzikadunic/profil/spieler/557548/statistik",
+        "basic_info": {
+          "date_of_birth": "31/01/1951"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Nidal Čelik",
+        "name_cn": "尼达尔·切利克",
+        "position": "DF",
+        "club": "RC Lens",
+        "age": 27,
+        "club_country": "France",
+        "transfermarkt_url": "https://www.transfermarkt.com/nidal-celik/profil/spieler/1006571",
+        "profile_url": "https://www.transfermarkt.com/nidal-celik/profil/spieler/1006571/statistik",
+        "basic_info": {
+          "date_of_birth": "1920"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Amir Hadžiahmetović",
+        "name_cn": "阿米尔·哈吉艾哈迈托维奇",
+        "position": "MF",
+        "club": "Hull City",
+        "age": 27,
+        "club_country": "England",
+        "transfermarkt_url": "https://www.transfermarkt.com/amir-hadziahmetovic/profil/spieler/558890",
+        "profile_url": "https://www.transfermarkt.com/amir-hadziahmetovic/profil/spieler/558890/statistik",
+        "basic_info": {
+          "date_of_birth": "25/02/1990 (36)",
+          "height": "1,77 m"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Ivan Šunjić",
+        "name_cn": "伊万·舒恩季奇",
+        "position": "MF",
+        "club": "Pafos FC",
+        "age": 28,
+        "club_country": "Cyprus",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "Ivan Bašić",
+        "name_cn": "伊万·巴希奇",
+        "position": "MF",
+        "club": "FC Astana",
+        "age": 24,
+        "club_country": "Kazakhstan",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "Dženis Burnić",
+        "name_cn": "杰尼斯·布尔尼奇",
+        "position": "MF",
+        "club": "Karlsruher SC",
+        "age": 26,
+        "club_country": "Germany",
+        "transfermarkt_url": null
+      },
+      {
+        "name_en": "Ermin Mahmić",
+        "name_cn": "埃尔敏·马赫米奇",
+        "position": "MF",
+        "club": "Slovan Liberec",
+        "age": 22,
+        "club_country": "Czech Republic",
+        "transfermarkt_url": "https://www.transfermarkt.com/ermin-mahmic/profil/spieler/600119",
+        "profile_url": "https://www.transfermarkt.com/ermin-mahmic/profil/spieler/600119/statistik",
+        "basic_info": {},
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Benjamin Tahirović",
+        "name_cn": "本杰明·塔希罗维奇",
+        "position": "MF",
+        "club": "Brøndby IF",
+        "age": 22,
+        "club_country": "Denmark",
+        "transfermarkt_url": "https://www.transfermarkt.com/benjamin-tahirovic/profil/spieler/1006575",
+        "profile_url": "https://www.transfermarkt.com/benjamin-tahirovic/profil/spieler/1006575/statistik",
+        "basic_info": {
+          "date_of_birth": "17/01/2005 (21)",
+          "height": "1,90 m"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Amar Memić",
+        "name_cn": "阿马尔·梅米奇",
+        "position": "MF",
+        "club": "Viktoria Plzeň",
+        "age": 25,
+        "club_country": "Czech Republic",
+        "transfermarkt_url": "https://www.transfermarkt.com/amar-memic/profil/spieler/419361",
+        "profile_url": "https://www.transfermarkt.com/amar-memic/profil/spieler/419361/statistik",
+        "basic_info": {
+          "date_of_birth": "1998"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Armin Gigović",
+        "name_cn": "阿尔明·吉科维奇",
+        "position": "MF",
+        "club": "BSC Young Boys",
+        "age": 24,
+        "club_country": "Switzerland",
+        "transfermarkt_url": "https://www.transfermarkt.com/armin-gigovic/profil/spieler/419354",
+        "profile_url": "https://www.transfermarkt.com/armin-gigovic/profil/spieler/419354/statistik",
+        "basic_info": {},
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Kerim Alajbegović",
+        "name_cn": "凯里姆·阿拉贝戈维奇",
+        "position": "MF",
+        "club": "RB Salzburg",
+        "age": 23,
+        "club_country": "Austria",
+        "transfermarkt_url": "https://www.transfermarkt.com/kerim-alajbegovic/profil/spieler/1006572",
+        "profile_url": "https://www.transfermarkt.com/kerim-alajbegovic/profil/spieler/1006572/statistik",
+        "basic_info": {
+          "date_of_birth": "22/02/1996 (30)"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Esmir Bajraktarević",
+        "name_cn": "埃斯米尔·拜拉克塔雷维奇",
+        "position": "FW",
+        "club": "PSV Eindhoven",
+        "age": 21,
+        "club_country": "Netherlands",
+        "transfermarkt_url": "https://www.transfermarkt.com/esmir-bajraktarevic/profil/spieler/1029168",
+        "profile_url": "https://www.transfermarkt.com/esmir-bajraktarevic/profil/spieler/1029168/statistik",
+        "basic_info": {},
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Ermedin Demirović",
+        "name_cn": "杰尔米丁·德米洛维奇",
+        "position": "FW",
+        "club": "VfB Stuttgart",
+        "age": 26,
+        "club_country": "Germany",
+        "transfermarkt_url": "https://www.transfermarkt.com/ermedin-demirovic/profil/spieler/419348",
+        "profile_url": "https://www.transfermarkt.com/ermedin-demirovic/profil/spieler/419348/statistik",
+        "basic_info": {},
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Jovo Lukić",
+        "name_cn": "约沃·卢基奇",
+        "position": "FW",
+        "club": "Universitatea Cluj",
+        "age": 25,
+        "club_country": "Romania",
+        "transfermarkt_url": "https://www.transfermarkt.com/jovo-lukic/profil/spieler/1050438",
+        "profile_url": "https://www.transfermarkt.com/jovo-lukic/profil/spieler/1050438/statistik",
+        "basic_info": {},
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Samed Baždar",
+        "name_cn": "萨梅德·巴日达尔",
+        "position": "FW",
+        "club": "Jagiellonia Białystok",
+        "age": 24,
+        "club_country": "Poland",
+        "transfermarkt_url": "https://www.transfermarkt.com/samed-bazdar/profil/spieler/1006638",
+        "profile_url": "https://www.transfermarkt.com/samed-bazdar/profil/spieler/1006638/statistik",
+        "basic_info": {},
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Haris Tabaković",
+        "name_cn": "哈里斯·塔巴科维奇",
+        "position": "FW",
+        "club": "Borussia Mönchengladbach",
+        "age": 31,
+        "club_country": "Germany",
+        "transfermarkt_url": "https://www.transfermarkt.com/haris-tabakovic/profil/spieler/419356",
+        "profile_url": "https://www.transfermarkt.com/haris-tabakovic/profil/spieler/419356/statistik",
+        "basic_info": {
+          "date_of_birth": "08/07/1993 (32)",
+          "height": "1,88 m"
+        },
+        "current_season": {},
+        "market_value": null
+      },
+      {
+        "name_en": "Edin Džeko",
+        "name_cn": "哲科",
+        "position": "FW",
+        "club": "Schalke 04",
+        "age": 40,
+        "club_country": "Germany",
+        "transfermarkt_url": "https://www.transfermarkt.com/edin-dzeko/profil/spieler/27819",
+        "profile_url": "https://www.transfermarkt.com/edin-dzeko/profil/spieler/27819/statistik",
+        "basic_info": {
+          "date_of_birth": "06/03/1980 (46)"
+        },
+        "current_season": {},
+        "market_value": null
+      }
+    ]
+  }
+]

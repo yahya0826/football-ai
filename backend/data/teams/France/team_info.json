@@ -1,0 +1,170 @@
+{
+  "team_en": "France",
+  "team_cn": "法国",
+  "confederation": "UEFA",
+  "group": "I",
+  "stats": {
+    "total_matches": 266,
+    "wins": 163,
+    "draws": 57,
+    "losses": 46,
+    "goals_for": 488,
+    "goals_against": 215
+  },
+  "recent_matches": [
+    {
+      "date": "2026-06-26",
+      "home_team": "Norway",
+      "away_team": "France",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Foxborough",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-06-22",
+      "home_team": "France",
+      "away_team": "Iraq",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Philadelphia",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-06-16",
+      "home_team": "France",
+      "away_team": "Senegal",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "East Rutherford",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-03-29",
+      "home_team": "Colombia",
+      "away_team": "France",
+      "home_score": "1",
+      "away_score": "3",
+      "tournament": "Friendly",
+      "city": "Landover",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-03-26",
+      "home_team": "Brazil",
+      "away_team": "France",
+      "home_score": "1",
+      "away_score": "2",
+      "tournament": "Friendly",
+      "city": "Foxborough",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2025-11-16",
+      "home_team": "Azerbaijan",
+      "away_team": "France",
+      "home_score": "1",
+      "away_score": "3",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Baku",
+      "country": "Azerbaijan",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-11-13",
+      "home_team": "France",
+      "away_team": "Ukraine",
+      "home_score": "4",
+      "away_score": "0",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Paris",
+      "country": "France",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-10-13",
+      "home_team": "Iceland",
+      "away_team": "France",
+      "home_score": "2",
+      "away_score": "2",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Reykjavík",
+      "country": "Iceland",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-10-10",
+      "home_team": "France",
+      "away_team": "Azerbaijan",
+      "home_score": "3",
+      "away_score": "0",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Paris",
+      "country": "France",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-09-09",
+      "home_team": "France",
+      "away_team": "Iceland",
+      "home_score": "2",
+      "away_score": "1",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Paris",
+      "country": "France",
+      "neutral": "FALSE"
+    }
+  ],
+  "matches_by_year": {
+    "2026": 5,
+    "2025": 10,
+    "2024": 16,
+    "2023": 10,
+    "2022": 15,
+    "2021": 16,
+    "2020": 8,
+    "2019": 11,
+    "2018": 18,
+    "2017": 11,
+    "2016": 17,
+    "2015": 10,
+    "2014": 15,
+    "2013": 12,
+    "2012": 14,
+    "2011": 13,
+    "2010": 13,
+    "2009": 12,
+    "2008": 14,
+    "2007": 12,
+    "2006": 17
+  },
+  "tournament_breakdown": {
+    "Friendly": 99,
+    "FIFA World Cup qualification": 46,
+    "UEFA Euro qualification": 40,
+    "FIFA World Cup": 32,
+    "UEFA Nations League": 28,
+    "UEFA Euro": 24
+  },
+  "total_matches_20y": 269,
+  "elo_rating": 1631,
+  "odds": {
+    "decimal_odds": 7.0,
+    "implied_probability": 14.0,
+    "rank": 3,
+    "platforms": {
+      "Bet365": 7.0,
+      "William Hill": 7.5,
+      "DraftKings": 6.5
+    }
+  },
+  "fifa_ranking": null
+}

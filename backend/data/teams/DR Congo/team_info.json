@@ -1,0 +1,171 @@
+{
+  "team_en": "DR Congo",
+  "team_cn": "刚果民主共和国",
+  "confederation": "CAF",
+  "group": "K",
+  "stats": {
+    "total_matches": 197,
+    "wins": 76,
+    "draws": 57,
+    "losses": 64,
+    "goals_for": 260,
+    "goals_against": 208
+  },
+  "recent_matches": [
+    {
+      "date": "2026-06-27",
+      "home_team": "DR Congo",
+      "away_team": "Uzbekistan",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Atlanta",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-06-23",
+      "home_team": "Colombia",
+      "away_team": "DR Congo",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Zapopan",
+      "country": "Mexico",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-06-17",
+      "home_team": "Portugal",
+      "away_team": "DR Congo",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Houston",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-03-31",
+      "home_team": "DR Congo",
+      "away_team": "Jamaica",
+      "home_score": "1",
+      "away_score": "0",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Zapopan",
+      "country": "Mexico",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-03-25",
+      "home_team": "Bermuda",
+      "away_team": "DR Congo",
+      "home_score": "0",
+      "away_score": "2",
+      "tournament": "Friendly",
+      "city": "Zapopan",
+      "country": "Mexico",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-01-06",
+      "home_team": "Algeria",
+      "away_team": "DR Congo",
+      "home_score": "1",
+      "away_score": "0",
+      "tournament": "African Cup of Nations",
+      "city": "Rabat",
+      "country": "Morocco",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2025-12-30",
+      "home_team": "Botswana",
+      "away_team": "DR Congo",
+      "home_score": "0",
+      "away_score": "3",
+      "tournament": "African Cup of Nations",
+      "city": "Rabat",
+      "country": "Morocco",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2025-12-27",
+      "home_team": "Senegal",
+      "away_team": "DR Congo",
+      "home_score": "1",
+      "away_score": "1",
+      "tournament": "African Cup of Nations",
+      "city": "Tangier",
+      "country": "Morocco",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2025-12-23",
+      "home_team": "DR Congo",
+      "away_team": "Benin",
+      "home_score": "1",
+      "away_score": "0",
+      "tournament": "African Cup of Nations",
+      "city": "Rabat",
+      "country": "Morocco",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2025-11-16",
+      "home_team": "Nigeria",
+      "away_team": "DR Congo",
+      "home_score": "1",
+      "away_score": "1",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Rabat",
+      "country": "Morocco",
+      "neutral": "TRUE"
+    }
+  ],
+  "matches_by_year": {
+    "2026": 6,
+    "2025": 13,
+    "2024": 17,
+    "2023": 10,
+    "2022": 7,
+    "2021": 10,
+    "2020": 4,
+    "2019": 12,
+    "2018": 6,
+    "2017": 12,
+    "2016": 12,
+    "2015": 18,
+    "2014": 6,
+    "2013": 7,
+    "2012": 10,
+    "2011": 14,
+    "2010": 6,
+    "2009": 4,
+    "2008": 9,
+    "2007": 7,
+    "2006": 10
+  },
+  "tournament_breakdown": {
+    "Friendly": 63,
+    "African Cup of Nations qualification": 52,
+    "FIFA World Cup qualification": 43,
+    "African Cup of Nations": 32,
+    "Nile Basin Tournament": 4,
+    "FIFA World Cup": 3,
+    "COSAFA Cup": 3
+  },
+  "total_matches_20y": 200,
+  "elo_rating": 1432,
+  "odds": {
+    "decimal_odds": 751.0,
+    "implied_probability": 0.1,
+    "rank": 37,
+    "platforms": {
+      "Bet365": 751.0,
+      "William Hill": 751.0,
+      "DraftKings": 701.0
+    }
+  },
+  "fifa_ranking": null
+}

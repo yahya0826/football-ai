@@ -1,0 +1,138 @@
+{
+  "announced": "2026-05-11",
+  "type": "preliminary_55",
+  "coach": "Luis de la Fuente",
+  "goalkeepers": [
+    {
+      "name": "Unai Simón",
+      "club": "Athletic Bilbao",
+      "caps": 40
+    },
+    {
+      "name": "David Raya",
+      "club": "Arsenal",
+      "caps": 12
+    },
+    {
+      "name": "Joan García",
+      "club": "Espanyol",
+      "caps": 0
+    }
+  ],
+  "defenders": [
+    {
+      "name": "Pedro Porro",
+      "club": "Tottenham",
+      "caps": 8
+    },
+    {
+      "name": "Marc Cucurella",
+      "club": "Chelsea",
+      "caps": 10
+    },
+    {
+      "name": "Alejandro Grimaldo",
+      "club": "Bayer Leverkusen",
+      "caps": 15
+    },
+    {
+      "name": "Pau Cubarsí",
+      "club": "Barcelona",
+      "caps": 5
+    },
+    {
+      "name": "Aymeric Laporte",
+      "club": "Al Nassr",
+      "caps": 40
+    },
+    {
+      "name": "Dean Huijsen",
+      "club": "Real Madrid",
+      "caps": 2
+    },
+    {
+      "name": "Pau Torres",
+      "club": "Aston Villa",
+      "caps": 28
+    },
+    {
+      "name": "Robin Le Normand",
+      "club": "Atlético Madrid",
+      "caps": 18
+    }
+  ],
+  "midfielders": [
+    {
+      "name": "Rodri",
+      "club": "Manchester City",
+      "caps": 55
+    },
+    {
+      "name": "Pedri",
+      "club": "Barcelona",
+      "caps": 25
+    },
+    {
+      "name": "Gavi",
+      "club": "Barcelona",
+      "caps": 22
+    },
+    {
+      "name": "Dani Olmo",
+      "club": "Barcelona",
+      "caps": 35
+    },
+    {
+      "name": "Fabián Ruiz",
+      "club": "PSG",
+      "caps": 30
+    },
+    {
+      "name": "Martín Zubimendi",
+      "club": "Real Sociedad",
+      "caps": 12
+    },
+    {
+      "name": "Mikel Merino",
+      "club": "Arsenal",
+      "caps": 28
+    }
+  ],
+  "forwards": [
+    {
+      "name": "Lamine Yamal",
+      "club": "Barcelona",
+      "caps": 15
+    },
+    {
+      "name": "Nico Williams",
+      "club": "Athletic Bilbao",
+      "caps": 22
+    },
+    {
+      "name": "Ferran Torres",
+      "club": "Barcelona",
+      "caps": 45
+    },
+    {
+      "name": "Mikel Oyarzabal",
+      "club": "Real Sociedad",
+      "caps": 35
+    },
+    {
+      "name": "Álex Baena",
+      "club": "Villarreal",
+      "caps": 8
+    },
+    {
+      "name": "Yeremy Pino",
+      "club": "Villarreal",
+      "caps": 12
+    }
+  ],
+  "notable_omissions": [
+    "Dani Carvajal",
+    "Álvaro Morata",
+    "Alejandro Balde"
+  ]
+}

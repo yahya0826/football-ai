@@ -1,0 +1,171 @@
+{
+  "team_en": "Mexico",
+  "team_cn": "墨西哥",
+  "confederation": "CONCACAF",
+  "group": "A",
+  "stats": {
+    "total_matches": 351,
+    "wins": 191,
+    "draws": 73,
+    "losses": 87,
+    "goals_for": 572,
+    "goals_against": 337
+  },
+  "recent_matches": [
+    {
+      "date": "2026-06-24",
+      "home_team": "Mexico",
+      "away_team": "Czech Republic",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Mexico City",
+      "country": "Mexico",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2026-06-18",
+      "home_team": "Mexico",
+      "away_team": "South Korea",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Zapopan",
+      "country": "Mexico",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2026-06-11",
+      "home_team": "Mexico",
+      "away_team": "South Africa",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Mexico City",
+      "country": "Mexico",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2026-03-31",
+      "home_team": "Mexico",
+      "away_team": "Belgium",
+      "home_score": "1",
+      "away_score": "1",
+      "tournament": "Friendly",
+      "city": "Chicago",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-03-28",
+      "home_team": "Mexico",
+      "away_team": "Portugal",
+      "home_score": "0",
+      "away_score": "0",
+      "tournament": "Friendly",
+      "city": "Mexico City",
+      "country": "Mexico",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2026-02-25",
+      "home_team": "Mexico",
+      "away_team": "Iceland",
+      "home_score": "4",
+      "away_score": "0",
+      "tournament": "Friendly",
+      "city": "Querétaro",
+      "country": "Mexico",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2026-01-25",
+      "home_team": "Bolivia",
+      "away_team": "Mexico",
+      "home_score": "0",
+      "away_score": "1",
+      "tournament": "Friendly",
+      "city": "Santa Cruz",
+      "country": "Bolivia",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2026-01-22",
+      "home_team": "Panama",
+      "away_team": "Mexico",
+      "home_score": "0",
+      "away_score": "1",
+      "tournament": "Friendly",
+      "city": "Panama City",
+      "country": "Panama",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-11-18",
+      "home_team": "Mexico",
+      "away_team": "Paraguay",
+      "home_score": "1",
+      "away_score": "2",
+      "tournament": "Friendly",
+      "city": "San Antonio",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2025-11-15",
+      "home_team": "Mexico",
+      "away_team": "Uruguay",
+      "home_score": "0",
+      "away_score": "0",
+      "tournament": "Friendly",
+      "city": "Torreón",
+      "country": "Mexico",
+      "neutral": "FALSE"
+    }
+  ],
+  "matches_by_year": {
+    "2026": 8,
+    "2025": 16,
+    "2024": 13,
+    "2023": 20,
+    "2022": 20,
+    "2021": 24,
+    "2020": 4,
+    "2019": 17,
+    "2018": 16,
+    "2017": 24,
+    "2016": 13,
+    "2015": 19,
+    "2014": 13,
+    "2013": 23,
+    "2012": 12,
+    "2011": 21,
+    "2010": 20,
+    "2009": 21,
+    "2008": 15,
+    "2007": 23,
+    "2006": 12
+  },
+  "tournament_breakdown": {
+    "Friendly": 161,
+    "FIFA World Cup qualification": 66,
+    "Gold Cup": 58,
+    "FIFA World Cup": 22,
+    "CONCACAF Nations League": 20,
+    "Copa América": 19,
+    "Confederations Cup": 8
+  },
+  "total_matches_20y": 354,
+  "elo_rating": 1564,
+  "odds": {
+    "decimal_odds": 81.0,
+    "implied_probability": 1.2,
+    "rank": 16,
+    "platforms": {
+      "Bet365": 81.0,
+      "William Hill": 81.0,
+      "DraftKings": 80.0
+    }
+  },
+  "fifa_ranking": null
+}

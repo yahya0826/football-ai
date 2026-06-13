@@ -1,0 +1,174 @@
+{
+  "team_en": "Uzbekistan",
+  "team_cn": "乌兹别克斯坦",
+  "confederation": "AFC",
+  "group": "K",
+  "stats": {
+    "total_matches": 229,
+    "wins": 109,
+    "draws": 50,
+    "losses": 70,
+    "goals_for": 351,
+    "goals_against": 221
+  },
+  "recent_matches": [
+    {
+      "date": "2026-06-27",
+      "home_team": "DR Congo",
+      "away_team": "Uzbekistan",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Atlanta",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-06-23",
+      "home_team": "Portugal",
+      "away_team": "Uzbekistan",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Houston",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-06-17",
+      "home_team": "Uzbekistan",
+      "away_team": "Colombia",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Mexico City",
+      "country": "Mexico",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-03-30",
+      "home_team": "Uzbekistan",
+      "away_team": "Venezuela",
+      "home_score": "0",
+      "away_score": "0",
+      "tournament": "FIFA Series",
+      "city": "Tashkent",
+      "country": "Uzbekistan",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2026-03-27",
+      "home_team": "Uzbekistan",
+      "away_team": "Gabon",
+      "home_score": "3",
+      "away_score": "1",
+      "tournament": "FIFA Series",
+      "city": "Tashkent",
+      "country": "Uzbekistan",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2026-01-26",
+      "home_team": "Uzbekistan",
+      "away_team": "China PR",
+      "home_score": "2",
+      "away_score": "2",
+      "tournament": "Friendly",
+      "city": "Dubai",
+      "country": "United Arab Emirates",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2025-11-18",
+      "home_team": "Iran",
+      "away_team": "Uzbekistan",
+      "home_score": "0",
+      "away_score": "0",
+      "tournament": "Al Ain International Cup",
+      "city": "Al Ain",
+      "country": "United Arab Emirates",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2025-11-14",
+      "home_team": "Uzbekistan",
+      "away_team": "Egypt",
+      "home_score": "2",
+      "away_score": "0",
+      "tournament": "Al Ain International Cup",
+      "city": "Al Ain",
+      "country": "United Arab Emirates",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2025-10-13",
+      "home_team": "Uzbekistan",
+      "away_team": "Uruguay",
+      "home_score": "1",
+      "away_score": "2",
+      "tournament": "Friendly",
+      "city": "Malacca City",
+      "country": "Malaysia",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2025-10-10",
+      "home_team": "Uzbekistan",
+      "away_team": "Kuwait",
+      "home_score": "2",
+      "away_score": "0",
+      "tournament": "Friendly",
+      "city": "Tashkent",
+      "country": "Uzbekistan",
+      "neutral": "FALSE"
+    }
+  ],
+  "matches_by_year": {
+    "2026": 6,
+    "2025": 9,
+    "2024": 16,
+    "2023": 12,
+    "2022": 10,
+    "2021": 9,
+    "2020": 4,
+    "2019": 14,
+    "2018": 10,
+    "2017": 8,
+    "2016": 12,
+    "2015": 13,
+    "2014": 13,
+    "2013": 12,
+    "2012": 13,
+    "2011": 17,
+    "2010": 7,
+    "2009": 11,
+    "2008": 13,
+    "2007": 17,
+    "2006": 6
+  },
+  "tournament_breakdown": {
+    "Friendly": 99,
+    "FIFA World Cup qualification": 76,
+    "AFC Asian Cup": 23,
+    "AFC Asian Cup qualification": 19,
+    "CAFA Nations Cup": 4,
+    "FIFA World Cup": 3,
+    "FIFA Series": 2,
+    "Al Ain International Cup": 2,
+    "Navruz Cup": 2,
+    "King's Cup": 2
+  },
+  "total_matches_20y": 232,
+  "elo_rating": 1512,
+  "odds": {
+    "decimal_odds": 2001.0,
+    "implied_probability": 0.05,
+    "rank": 44,
+    "platforms": {
+      "Bet365": 2001.0,
+      "William Hill": 2001.0,
+      "DraftKings": 2000.0
+    }
+  },
+  "fifa_ranking": null
+}

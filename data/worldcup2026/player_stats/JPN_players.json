@@ -1,0 +1,401 @@
+{
+  "team_en": "Japan",
+  "team_cn": "日本",
+  "fifa_code": "JPN",
+  "coach": "森保一",
+  "group": "F",
+  "players": [
+    {
+      "name_en": "Hayakawa Yuki",
+      "name_cn": "早川友基",
+      "position": "GK",
+      "club": "Stoke City",
+      "age": 24,
+      "club_country": "England",
+      "transfermarkt_url": "https://www.transfermarkt.com/hayakawa-yuki/profil/spieler/960821",
+      "profile_url": "https://www.transfermarkt.com/hayakawa-yuki/profil/spieler/960821/statistik",
+      "basic_info": {
+        "date_of_birth": "20/07/1996 (29)",
+        "height": "1,78 m"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Suzuki Bart",
+      "name_cn": "铃木彩艳",
+      "position": "GK",
+      "club": "Stuttgart",
+      "age": 22,
+      "club_country": "Germany",
+      "transfermarkt_url": "https://www.transfermarkt.com/suzuki-bart/profil/spieler/1070698",
+      "profile_url": "https://www.transfermarkt.com/suzuki-bart/profil/spieler/1070698/statistik",
+      "basic_info": {
+        "date_of_birth": "26/03/1993 (33)"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Osako Kensei",
+      "name_cn": "大迫敬介",
+      "position": "GK",
+      "club": "Sanfrecce Hiroshima",
+      "age": 25,
+      "club_country": "Japan",
+      "transfermarkt_url": "https://www.transfermarkt.com/osako-kensei/profil/spieler/481165",
+      "profile_url": "https://www.transfermarkt.com/osako-kensei/profil/spieler/481165/statistik",
+      "basic_info": {
+        "date_of_birth": "18/04/1989 (37)"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Nagatomo Yuto",
+      "name_cn": "长友佑都",
+      "position": "DF",
+      "club": "FC Tokyo",
+      "age": 39,
+      "club_country": "Japan",
+      "transfermarkt_url": "https://www.transfermarkt.com/nagatomo-yuto/profil/spieler/74460",
+      "profile_url": "https://www.transfermarkt.com/nagatomo-yuto/profil/spieler/74460/statistik",
+      "basic_info": {},
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Taniguchi Shogo",
+      "name_cn": "谷口彰悟",
+      "position": "DF",
+      "club": "Kawasaki Frontale",
+      "age": 33,
+      "club_country": "Japan",
+      "transfermarkt_url": "https://www.transfermarkt.com/taniguchi-shogo/profil/spieler/275802",
+      "profile_url": "https://www.transfermarkt.com/taniguchi-shogo/profil/spieler/275802/statistik",
+      "basic_info": {
+        "date_of_birth": "31/08/1994 (31)"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Tomiyasu Takehiro",
+      "name_cn": "富安健洋",
+      "position": "DF",
+      "club": "Arsenal",
+      "age": 26,
+      "club_country": "England",
+      "transfermarkt_url": "https://www.transfermarkt.com/takehiro-tomiyasu/profil/spieler/394359",
+      "profile_url": "https://www.transfermarkt.com/takehiro-tomiyasu/profil/spieler/394359/statistik",
+      "basic_info": {
+        "date_of_birth": "28/05/2000 (25)",
+        "height": "1,87 m"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Itakura Ko",
+      "name_cn": "板仓滉",
+      "position": "DF",
+      "club": "Mönchengladbach",
+      "age": 27,
+      "club_country": "Germany",
+      "transfermarkt_url": "https://www.transfermarkt.com/itakura-ko/profil/spieler/383488",
+      "profile_url": "https://www.transfermarkt.com/itakura-ko/profil/spieler/383488/statistik",
+      "basic_info": {
+        "date_of_birth": "06/08/1995 (30)"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Watanabe Naoki",
+      "name_cn": "渡边刚",
+      "position": "DF",
+      "club": "KRC Genk",
+      "age": 27,
+      "club_country": "Belgium",
+      "transfermarkt_url": "https://www.transfermarkt.com/watanabe-naoki/profil/spieler/383489",
+      "profile_url": "https://www.transfermarkt.com/watanabe-naoki/profil/spieler/383489/statistik",
+      "basic_info": {
+        "date_of_birth": "24/03/1993 (33)"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Ito Hiroki",
+      "name_cn": "伊藤洋辉",
+      "position": "DF",
+      "club": "Bayern Munich",
+      "age": 25,
+      "club_country": "Germany",
+      "transfermarkt_url": "https://www.transfermarkt.com/ito-hiroki/profil/spieler/856612",
+      "profile_url": "https://www.transfermarkt.com/ito-hiroki/profil/spieler/856612/statistik",
+      "basic_info": {
+        "date_of_birth": "15/01/2000 (26)"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Suzuki Junnosuke",
+      "name_cn": "铃木淳之介",
+      "position": "DF",
+      "club": "Nagoya Grampus",
+      "age": 28,
+      "club_country": "Japan",
+      "transfermarkt_url": "https://www.transfermarkt.com/suzuki-junnosuke/profil/spieler/431296",
+      "profile_url": "https://www.transfermarkt.com/suzuki-junnosuke/profil/spieler/431296/statistik",
+      "basic_info": {
+        "date_of_birth": "17/10/1983 (42)"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Seko Ayumu",
+      "name_cn": "瀬古步梦",
+      "position": "DF",
+      "club": "Stuttgart",
+      "age": 24,
+      "club_country": "Germany",
+      "transfermarkt_url": "https://www.transfermarkt.com/seko-ayumu/profil/spieler/556769",
+      "profile_url": "https://www.transfermarkt.com/seko-ayumu/profil/spieler/556769/statistik",
+      "basic_info": {
+        "date_of_birth": "23/09/1956"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Sugawara Yukinari",
+      "name_cn": "菅原由势",
+      "position": "DF",
+      "club": "Southampton",
+      "age": 25,
+      "club_country": "England",
+      "transfermarkt_url": "https://www.transfermarkt.com/sugawara-yukinari/profil/spieler/570999",
+      "profile_url": "https://www.transfermarkt.com/sugawara-yukinari/profil/spieler/570999/statistik",
+      "basic_info": {
+        "date_of_birth": "24/03/2002 (24)"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Kamada Daichi",
+      "name_cn": "镰田大地",
+      "position": "MF",
+      "club": "Crystal Palace",
+      "age": 28,
+      "club_country": "England",
+      "transfermarkt_url": "https://www.transfermarkt.com/daichi-kamada/profil/spieler/274601",
+      "profile_url": "https://www.transfermarkt.com/daichi-kamada/profil/spieler/274601/statistik",
+      "basic_info": {
+        "date_of_birth": "28/05/1994 (31)"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Sano Kaina",
+      "name_cn": "佐野海舟",
+      "position": "MF",
+      "club": "Mainz 05",
+      "age": 23,
+      "club_country": "Germany",
+      "transfermarkt_url": "https://www.transfermarkt.com/sano-kaina/profil/spieler/1029346",
+      "profile_url": "https://www.transfermarkt.com/sano-kaina/profil/spieler/1029346/statistik",
+      "basic_info": {
+        "date_of_birth": "15/06/2004 (21)",
+        "caps_goals": "1 / 0"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Tanaka Ao",
+      "name_cn": "田中碧",
+      "position": "MF",
+      "club": "Leeds United",
+      "age": 25,
+      "club_country": "England",
+      "transfermarkt_url": "https://www.transfermarkt.com/tanaka-ao/profil/spieler/432900",
+      "profile_url": "https://www.transfermarkt.com/tanaka-ao/profil/spieler/432900/statistik",
+      "basic_info": {
+        "date_of_birth": "03/03/1972 (54)"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Endo Wataru",
+      "name_cn": "远藤航",
+      "position": "MF",
+      "club": "Liverpool",
+      "age": 31,
+      "club_country": "England",
+      "transfermarkt_url": "https://www.transfermarkt.com/wataru-endo/profil/spieler/122665",
+      "profile_url": "https://www.transfermarkt.com/wataru-endo/profil/spieler/122665/statistik",
+      "basic_info": {
+        "date_of_birth": "05/10/1981 (44)",
+        "height": "1,85 m"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Nakamura Kouta",
+      "name_cn": "中村敬斗",
+      "position": "MF",
+      "club": "LASK",
+      "age": 24,
+      "club_country": "Austria",
+      "transfermarkt_url": "https://www.transfermarkt.com/nakamura-kouta/profil/spieler/657815",
+      "profile_url": "https://www.transfermarkt.com/nakamura-kouta/profil/spieler/657815/statistik",
+      "basic_info": {
+        "date_of_birth": "14/10/2003 (22)",
+        "height": "1,96 m"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Doan Ritsu",
+      "name_cn": "堂安律",
+      "position": "MF",
+      "club": "Freiburg",
+      "age": 26,
+      "club_country": "Germany",
+      "transfermarkt_url": "https://www.transfermarkt.com/ritsu-doan/profil/spieler/414351",
+      "profile_url": "https://www.transfermarkt.com/ritsu-doan/profil/spieler/414351/statistik",
+      "basic_info": {},
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Ito Junya",
+      "name_cn": "伊东纯也",
+      "position": "MF",
+      "club": "Stade de Reims",
+      "age": 31,
+      "club_country": "France",
+      "transfermarkt_url": "https://www.transfermarkt.com/junya-ito/profil/spieler/337441",
+      "profile_url": "https://www.transfermarkt.com/junya-ito/profil/spieler/337441/statistik",
+      "basic_info": {
+        "date_of_birth": "16/12/1990 (35)"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Kubo Takefusa",
+      "name_cn": "久保建英",
+      "position": "MF",
+      "club": "Real Sociedad",
+      "age": 23,
+      "club_country": "Spain",
+      "transfermarkt_url": "https://www.transfermarkt.com/kubo-takefusa/profil/spieler/418658",
+      "profile_url": "https://www.transfermarkt.com/kubo-takefusa/profil/spieler/418658/statistik",
+      "basic_info": {
+        "date_of_birth": "12/04/2000 (26)",
+        "height": "1,89 m",
+        "caps_goals": "1 / 0"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Suzuki Yuri",
+      "name_cn": "铃木唯人",
+      "position": "MF",
+      "club": "Union Berlin",
+      "age": 23,
+      "club_country": "Germany",
+      "transfermarkt_url": "https://www.transfermarkt.com/suzuki-yuri/profil/spieler/976736",
+      "profile_url": "https://www.transfermarkt.com/suzuki-yuri/profil/spieler/976736/statistik",
+      "basic_info": {
+        "date_of_birth": "24/04/1998 (28)"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Ueda Koki",
+      "name_cn": "上田绮世",
+      "position": "FW",
+      "club": "Feyenoord",
+      "age": 26,
+      "club_country": "Netherlands",
+      "transfermarkt_url": "https://www.transfermarkt.com/koki-ueda/profil/spieler/396412",
+      "profile_url": "https://www.transfermarkt.com/koki-ueda/profil/spieler/396412/statistik",
+      "basic_info": {},
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Ogawa Ko",
+      "name_cn": "小川航基",
+      "position": "FW",
+      "club": "Nagoya Grampus",
+      "age": 27,
+      "club_country": "Japan",
+      "transfermarkt_url": "https://www.transfermarkt.com/ogawa-ko/profil/spieler/433062",
+      "profile_url": "https://www.transfermarkt.com/ogawa-ko/profil/spieler/433062/statistik",
+      "basic_info": {
+        "date_of_birth": "06/05/1998 (28)"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Maeda Daizen",
+      "name_cn": "前田大然",
+      "position": "FW",
+      "club": "Celtic",
+      "age": 26,
+      "club_country": "Scotland",
+      "transfermarkt_url": "https://www.transfermarkt.com/maeda-daizen/profil/spieler/440839",
+      "profile_url": "https://www.transfermarkt.com/maeda-daizen/profil/spieler/440839/statistik",
+      "basic_info": {
+        "height": "1,80 m"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Shiogama Kento",
+      "name_cn": "塩贝健人",
+      "position": "FW",
+      "club": "Kashima Antlers",
+      "age": 23,
+      "club_country": "Japan",
+      "transfermarkt_url": "https://www.transfermarkt.com/shiogama-kento/profil/spieler/1010264",
+      "profile_url": "https://www.transfermarkt.com/shiogama-kento/profil/spieler/1010264/statistik",
+      "basic_info": {
+        "caps_goals": "0 / 0"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Goto Keisuke",
+      "name_cn": "后藤启介",
+      "position": "FW",
+      "club": "Meiji University",
+      "age": 22,
+      "club_country": "Japan",
+      "transfermarkt_url": "https://www.transfermarkt.com/goto-keisuke/profil/spieler/1182012",
+      "profile_url": "https://www.transfermarkt.com/goto-keisuke/profil/spieler/1182012/statistik",
+      "basic_info": {
+        "date_of_birth": "01/01/2004 (22)",
+        "height": "1,77 m"
+      },
+      "current_season": {},
+      "market_value": null
+    }
+  ]
+}

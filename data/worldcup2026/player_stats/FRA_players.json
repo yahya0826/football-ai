@@ -1,0 +1,287 @@
+{
+  "team_en": "France",
+  "team_cn": "法国",
+  "fifa_code": "FRA",
+  "coach": "Didier Deschamps",
+  "group": "I",
+  "players": [
+    {
+      "name_en": "Mike Maignan",
+      "name_cn": "迈尼昂",
+      "position": "GK",
+      "club": "AC Milan",
+      "age": 29,
+      "club_country": "Italy",
+      "transfermarkt_url": "https://www.transfermarkt.com/mike-maignan/profil/spieler/215913",
+      "profile_url": "https://www.transfermarkt.com/mike-maignan/profil/spieler/215913/statistik",
+      "basic_info": {
+        "date_of_birth": "06/06/1966 (59)"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Robin Risser",
+      "name_cn": "罗宾·里瑟",
+      "position": "GK",
+      "club": "RC Lens",
+      "age": 21,
+      "club_country": "France",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "Brice Samba",
+      "name_cn": "布里斯·桑巴",
+      "position": "GK",
+      "club": "Stade Rennais",
+      "age": 30,
+      "club_country": "France",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "Lucas Digne",
+      "name_cn": "卢卡斯·迪涅",
+      "position": "DF",
+      "club": "Aston Villa",
+      "age": 31,
+      "club_country": "England",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "Malo Gusto",
+      "name_cn": "马洛·古斯托",
+      "position": "DF",
+      "club": "Chelsea",
+      "age": 21,
+      "club_country": "England",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "Lucas Hernandez",
+      "name_cn": "卢卡斯·埃尔南德斯",
+      "position": "DF",
+      "club": "Paris Saint-Germain",
+      "age": 29,
+      "club_country": "France",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "Théo Hernandez",
+      "name_cn": "特奥·埃尔南德斯",
+      "position": "DF",
+      "club": "Al-Hilal",
+      "age": 27,
+      "club_country": "Saudi Arabia",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "Ibrahima Konaté",
+      "name_cn": "易卜拉希马·科纳特",
+      "position": "DF",
+      "club": "Liverpool",
+      "age": 25,
+      "club_country": "England",
+      "transfermarkt_url": "https://www.transfermarkt.com/ibrahima-konate/profil/spieler/469738",
+      "profile_url": "https://www.transfermarkt.com/ibrahima-konate/profil/spieler/469738/statistik",
+      "basic_info": {
+        "date_of_birth": "14/04/1999 (27)"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Jules Koundé",
+      "name_cn": "于连·孔德",
+      "position": "DF",
+      "club": "Barcelona",
+      "age": 26,
+      "club_country": "Spain",
+      "transfermarkt_url": "https://www.transfermarkt.com/jules-kounde/profil/spieler/433489",
+      "profile_url": "https://www.transfermarkt.com/jules-kounde/profil/spieler/433489/statistik",
+      "basic_info": {
+        "date_of_birth": "30/01/1970 (56)",
+        "height": "1,76 m"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Maxence Lacroix",
+      "name_cn": "马克桑斯·拉克鲁瓦",
+      "position": "DF",
+      "club": "Crystal Palace",
+      "age": 24,
+      "club_country": "England",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "William Saliba",
+      "name_cn": "威廉·萨利巴",
+      "position": "DF",
+      "club": "Arsenal",
+      "age": 24,
+      "club_country": "England",
+      "transfermarkt_url": "https://www.transfermarkt.com/william-saliba/profil/spieler/405228",
+      "profile_url": "https://www.transfermarkt.com/william-saliba/profil/spieler/405228/statistik",
+      "basic_info": {},
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Dayot Upamecano",
+      "name_cn": "达约·乌帕梅卡诺",
+      "position": "DF",
+      "club": "Bayern Munich",
+      "age": 26,
+      "club_country": "Germany",
+      "transfermarkt_url": "https://www.transfermarkt.com/dayot-upamecano/profil/spieler/396627",
+      "profile_url": "https://www.transfermarkt.com/dayot-upamecano/profil/spieler/396627/statistik",
+      "basic_info": {
+        "height": "1,84 m"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "N'Golo Kanté",
+      "name_cn": "恩戈洛·坎特",
+      "position": "MF",
+      "club": "Fenerbahçe",
+      "age": 34,
+      "club_country": "Turkey",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "Manu Koné",
+      "name_cn": "马努·孔尼",
+      "position": "MF",
+      "club": "AS Roma",
+      "age": 23,
+      "club_country": "Italy",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "Adrien Rabiot",
+      "name_cn": "阿德里安·拉比奥",
+      "position": "MF",
+      "club": "AC Milan",
+      "age": 29,
+      "club_country": "Italy",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "Aurélien Tchouaméni",
+      "name_cn": "奥雷利安·楚阿梅尼",
+      "position": "MF",
+      "club": "Real Madrid",
+      "age": 24,
+      "club_country": "Spain",
+      "transfermarkt_url": "https://www.transfermarkt.com/aurelien-tchouameni/profil/spieler/444063",
+      "profile_url": "https://www.transfermarkt.com/aurelien-tchouameni/profil/spieler/444063/statistik",
+      "basic_info": {
+        "date_of_birth": "21/12/1996 (29)",
+        "height": "1,78 m"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Warren Zaïre-Emery",
+      "name_cn": "沃伦·扎伊尔-埃梅里",
+      "position": "MF",
+      "club": "Paris Saint-Germain",
+      "age": 19,
+      "club_country": "France",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "Maghnes Akliouche",
+      "name_cn": "马尼耶斯·阿克利尤什",
+      "position": "FW",
+      "club": "AS Monaco",
+      "age": 22,
+      "club_country": "France",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "Bradley Barcola",
+      "name_cn": "布拉德利·巴尔科拉",
+      "position": "FW",
+      "club": "Paris Saint-Germain",
+      "age": 22,
+      "club_country": "France",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "Rayan Cherki",
+      "name_cn": "雷恩·切尔基",
+      "position": "FW",
+      "club": "Manchester City",
+      "age": 21,
+      "club_country": "England",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "Ousmane Dembélé",
+      "name_cn": "奥斯曼·登贝莱",
+      "position": "FW",
+      "club": "Paris Saint-Germain",
+      "age": 28,
+      "club_country": "France",
+      "transfermarkt_url": "https://www.transfermarkt.com/ousmane-dembele/profil/spieler/414765",
+      "profile_url": "https://www.transfermarkt.com/ousmane-dembele/profil/spieler/414765/statistik",
+      "basic_info": {},
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Désiré Doué",
+      "name_cn": "德西雷·杜埃",
+      "position": "FW",
+      "club": "Paris Saint-Germain",
+      "age": 19,
+      "club_country": "France",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "Jean-Philippe Mateta",
+      "name_cn": "让-菲利普·马特塔",
+      "position": "FW",
+      "club": "Crystal Palace",
+      "age": 27,
+      "club_country": "England",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "Kylian Mbappé",
+      "name_cn": "基利安·姆巴佩",
+      "position": "FW",
+      "club": "Real Madrid",
+      "age": 27,
+      "club_country": "Spain",
+      "transfermarkt_url": "https://www.transfermarkt.com/kylian-mbappe/profil/spieler/278987",
+      "profile_url": "https://www.transfermarkt.com/kylian-mbappe/profil/spieler/278987/statistik",
+      "basic_info": {},
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Michael Olise",
+      "name_cn": "迈克尔·奥利塞",
+      "position": "FW",
+      "club": "Bayern Munich",
+      "age": 23,
+      "club_country": "Germany",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "Marcus Thuram",
+      "name_cn": "马库斯·图拉姆",
+      "position": "FW",
+      "club": "Inter Milan",
+      "age": 27,
+      "club_country": "Italy",
+      "transfermarkt_url": null
+    }
+  ]
+}

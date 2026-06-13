@@ -1,0 +1,292 @@
+{
+  "team": "DR Congo",
+  "player_count": 26,
+  "players": [
+    {
+      "id": "lionel-mpasi",
+      "name": "Lionel Mpasi",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 1,
+      "club": "Le Havre",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "aaron-wan-bissaka",
+      "name": "Aaron Wan-Bissaka",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 2,
+      "club": "West Ham United",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "steve-kapuadi",
+      "name": "Steve Kapuadi",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 3,
+      "club": "Widzew Łódź",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "axel-tuanzebe",
+      "name": "Axel Tuanzebe",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 4,
+      "club": "Burnley",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "dylan-batubinsika",
+      "name": "Dylan Batubinsika",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 5,
+      "club": "AEL",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ngal-ayel-mukau",
+      "name": "Ngal'ayel Mukau",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 6,
+      "club": "Lille",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "nathana-l-mbuku",
+      "name": "Nathanaël Mbuku",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 7,
+      "club": "Montpellier",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "samuel-moutoussamy",
+      "name": "Samuel Moutoussamy",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 8,
+      "club": "Atromitos",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "brian-cipenga",
+      "name": "Brian Cipenga",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 9,
+      "club": "Castellón",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "th-o-bongonda",
+      "name": "Théo Bongonda",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 10,
+      "club": "Spartak Moscow",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ga-l-kakuta",
+      "name": "Gaël Kakuta",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 11,
+      "club": "AEL",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "joris-kayembe",
+      "name": "Joris Kayembe",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 12,
+      "club": "Genk",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "meschak-elia",
+      "name": "Meschak Elia",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 13,
+      "club": "Alanyaspor",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "noah-sadiki",
+      "name": "Noah Sadiki",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 14,
+      "club": "Sunderland",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "aaron-tshibola",
+      "name": "Aaron Tshibola",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 15,
+      "club": "Kilmarnock",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "timothy-fayulu",
+      "name": "Timothy Fayulu",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 16,
+      "club": "Noah",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "c-dric-bakambu",
+      "name": "Cédric Bakambu",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 17,
+      "club": "Real Betis",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "charles-pickel",
+      "name": "Charles Pickel",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 18,
+      "club": "Espanyol",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "fiston-mayele",
+      "name": "Fiston Mayele",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 19,
+      "club": "Pyramids",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "yoane-wissa",
+      "name": "Yoane Wissa",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 20,
+      "club": "Newcastle United",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "matthieu-epolo",
+      "name": "Matthieu Epolo",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 21,
+      "club": "Standard Liège",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "chancel-mbemba",
+      "name": "Chancel Mbemba",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 22,
+      "club": "Lille",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "simon-banza",
+      "name": "Simon Banza",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 23,
+      "club": "Al Jazira",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "g-d-on-kalulu",
+      "name": "Gédéon Kalulu",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 24,
+      "club": "Aris Limassol",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "edo-kayembe",
+      "name": "Edo Kayembe",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 25,
+      "club": "Watford",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "arthur-masuaku",
+      "name": "Arthur Masuaku",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 26,
+      "club": "Lens",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    }
+  ]
+}

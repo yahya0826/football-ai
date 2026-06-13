@@ -1,0 +1,292 @@
+{
+  "team": "Mexico",
+  "player_count": 26,
+  "players": [
+    {
+      "id": "ra-l-rangel",
+      "name": "Raúl Rangel",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 1,
+      "club": "Guadalajara",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "jorge-s-nchez",
+      "name": "Jorge Sánchez",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 2,
+      "club": "PAOK",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "c-sar-montes",
+      "name": "César Montes",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 3,
+      "club": "Lokomotiv Moscow",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "edson--lvarez",
+      "name": "Edson Álvarez",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 4,
+      "club": "Fenerbahçe",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "johan-v-squez",
+      "name": "Johan Vásquez",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 5,
+      "club": "Genoa",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "rik-lira",
+      "name": "Érik Lira",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 6,
+      "club": "Cruz Azul",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "luis-romo",
+      "name": "Luis Romo",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 7,
+      "club": "Guadalajara",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "lvaro-fidalgo",
+      "name": "Álvaro Fidalgo",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 8,
+      "club": "Real Betis",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ra-l-jim-nez",
+      "name": "Raúl Jiménez",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 9,
+      "club": "Fulham",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "alexis-vega",
+      "name": "Alexis Vega",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 10,
+      "club": "Toluca",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "santiago-gim-nez",
+      "name": "Santiago Giménez",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 11,
+      "club": "Milan",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "carlos-acevedo",
+      "name": "Carlos Acevedo",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 12,
+      "club": "Santos Laguna",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "guillermo-ochoa",
+      "name": "Guillermo Ochoa",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 13,
+      "club": "AEL Limassol",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "armando-gonz-lez",
+      "name": "Armando González",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 14,
+      "club": "Guadalajara",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "israel-reyes",
+      "name": "Israel Reyes",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 15,
+      "club": "América",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "juli-n-qui-ones",
+      "name": "Julián Quiñones",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 16,
+      "club": "Al-Qadsiah",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "orbel-n-pineda",
+      "name": "Orbelín Pineda",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 17,
+      "club": "AEK Athens",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "obed-vargas",
+      "name": "Obed Vargas",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 18,
+      "club": "Atlético Madrid",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "gilberto-mora",
+      "name": "Gilberto Mora",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 19,
+      "club": "Tijuana",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "mateo-ch-vez",
+      "name": "Mateo Chávez",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 20,
+      "club": "AZ",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "c-sar-huerta",
+      "name": "César Huerta",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 21,
+      "club": "Anderlecht",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "guillermo-mart-nez",
+      "name": "Guillermo Martínez",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 22,
+      "club": "Pumas UNAM",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "jes-s-gallardo",
+      "name": "Jesús Gallardo",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 23,
+      "club": "Toluca",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "luis-ch-vez",
+      "name": "Luis Chávez",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 24,
+      "club": "Dynamo Moscow",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "roberto-alvarado",
+      "name": "Roberto Alvarado",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 25,
+      "club": "Guadalajara",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "brian-guti-rrez",
+      "name": "Brian Gutiérrez",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 26,
+      "club": "Guadalajara",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    }
+  ]
+}

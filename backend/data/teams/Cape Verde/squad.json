@@ -1,0 +1,292 @@
+{
+  "team": "Cape Verde",
+  "player_count": 26,
+  "players": [
+    {
+      "id": "vozinha",
+      "name": "Vozinha",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 1,
+      "club": "Chaves",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "stopira",
+      "name": "Stopira",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 2,
+      "club": "Torreense",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "diney",
+      "name": "Diney",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 3,
+      "club": "Al Bataeh",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "roberto-lopes",
+      "name": "Roberto Lopes",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 4,
+      "club": "Shamrock Rovers",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "logan-costa",
+      "name": "Logan Costa",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 5,
+      "club": "Villarreal",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "kevin-pina",
+      "name": "Kevin Pina",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 6,
+      "club": "Krasnodar",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "jovane-cabral",
+      "name": "Jovane Cabral",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 7,
+      "club": "Estrela Amadora",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "jo-o-paulo",
+      "name": "João Paulo",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 8,
+      "club": "FCSB",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "gilson-benchimol",
+      "name": "Gilson Benchimol",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 9,
+      "club": "Akron Tolyatti",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "jamiro-monteiro",
+      "name": "Jamiro Monteiro",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 10,
+      "club": "PEC Zwolle",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "garry-rodrigues",
+      "name": "Garry Rodrigues",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 11,
+      "club": "Apollon Limassol",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "m-rcio-rosa",
+      "name": "Márcio Rosa",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 12,
+      "club": "Montana",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "sidny-lopes-cabral",
+      "name": "Sidny Lopes Cabral",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 13,
+      "club": "Benfica",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "deroy-duarte",
+      "name": "Deroy Duarte",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 14,
+      "club": "Ludogorets Razgrad",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "laros-duarte",
+      "name": "Laros Duarte",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 15,
+      "club": "Puskás Akadémia",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "yannick-semedo",
+      "name": "Yannick Semedo",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 16,
+      "club": "Farense",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "willy-semedo",
+      "name": "Willy Semedo",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 17,
+      "club": "Omonia",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "telmo-arcanjo",
+      "name": "Telmo Arcanjo",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 18,
+      "club": "Vitória de Guimarães",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "dailon-livramento",
+      "name": "Dailon Livramento",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 19,
+      "club": "Casa Pia",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ryan-mendes",
+      "name": "Ryan Mendes",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 20,
+      "club": "Iğdır",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "nuno-da-costa",
+      "name": "Nuno da Costa",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 21,
+      "club": "İstanbul Başakşehir",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "steven-moreira",
+      "name": "Steven Moreira",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 22,
+      "club": "Columbus Crew",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "cj-dos-santos",
+      "name": "CJ dos Santos",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 23,
+      "club": "San Diego FC",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "wagner-pina",
+      "name": "Wagner Pina",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 24,
+      "club": "Trabzonspor",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "kelvin-pires",
+      "name": "Kelvin Pires",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 25,
+      "club": "SJK",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "h-lio-varela",
+      "name": "Hélio Varela",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 26,
+      "club": "Maccabi Tel Aviv",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    }
+  ]
+}

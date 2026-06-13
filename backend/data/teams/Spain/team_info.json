@@ -1,0 +1,171 @@
+{
+  "team_en": "Spain",
+  "team_cn": "西班牙",
+  "confederation": "UEFA",
+  "group": "H",
+  "stats": {
+    "total_matches": 268,
+    "wins": 190,
+    "draws": 48,
+    "losses": 30,
+    "goals_for": 612,
+    "goals_against": 194
+  },
+  "recent_matches": [
+    {
+      "date": "2026-06-26",
+      "home_team": "Uruguay",
+      "away_team": "Spain",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Zapopan",
+      "country": "Mexico",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-06-21",
+      "home_team": "Spain",
+      "away_team": "Saudi Arabia",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Atlanta",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-06-15",
+      "home_team": "Spain",
+      "away_team": "Cape Verde",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Atlanta",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-03-31",
+      "home_team": "Spain",
+      "away_team": "Egypt",
+      "home_score": "0",
+      "away_score": "0",
+      "tournament": "Friendly",
+      "city": "Barcelona",
+      "country": "Spain",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2026-03-27",
+      "home_team": "Spain",
+      "away_team": "Serbia",
+      "home_score": "3",
+      "away_score": "0",
+      "tournament": "Friendly",
+      "city": "Villarreal",
+      "country": "Spain",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-11-18",
+      "home_team": "Spain",
+      "away_team": "Turkey",
+      "home_score": "2",
+      "away_score": "2",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Seville",
+      "country": "Spain",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-11-15",
+      "home_team": "Georgia",
+      "away_team": "Spain",
+      "home_score": "0",
+      "away_score": "4",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Tbilisi",
+      "country": "Georgia",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-10-14",
+      "home_team": "Spain",
+      "away_team": "Bulgaria",
+      "home_score": "4",
+      "away_score": "0",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Valladolid",
+      "country": "Spain",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-10-11",
+      "home_team": "Spain",
+      "away_team": "Georgia",
+      "home_score": "2",
+      "away_score": "0",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Elche",
+      "country": "Spain",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-09-07",
+      "home_team": "Turkey",
+      "away_team": "Spain",
+      "home_score": "0",
+      "away_score": "6",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Konya",
+      "country": "Turkey",
+      "neutral": "FALSE"
+    }
+  ],
+  "matches_by_year": {
+    "2026": 5,
+    "2025": 10,
+    "2024": 17,
+    "2023": 10,
+    "2022": 13,
+    "2021": 18,
+    "2020": 8,
+    "2019": 10,
+    "2018": 14,
+    "2017": 10,
+    "2016": 15,
+    "2015": 9,
+    "2014": 12,
+    "2013": 17,
+    "2012": 16,
+    "2011": 12,
+    "2010": 17,
+    "2009": 16,
+    "2008": 16,
+    "2007": 12,
+    "2006": 14
+  },
+  "tournament_breakdown": {
+    "Friendly": 87,
+    "UEFA Euro qualification": 48,
+    "FIFA World Cup qualification": 42,
+    "UEFA Nations League": 30,
+    "UEFA Euro": 29,
+    "FIFA World Cup": 25,
+    "Confederations Cup": 10
+  },
+  "total_matches_20y": 271,
+  "elo_rating": 1733,
+  "odds": {
+    "decimal_odds": 5.5,
+    "implied_probability": 18.0,
+    "rank": 1,
+    "platforms": {
+      "Bet365": 5.5,
+      "William Hill": 5.5,
+      "DraftKings": 6.0
+    }
+  },
+  "fifa_ranking": null
+}

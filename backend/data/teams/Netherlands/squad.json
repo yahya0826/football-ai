@@ -1,0 +1,292 @@
+{
+  "team": "Netherlands",
+  "player_count": 26,
+  "players": [
+    {
+      "id": "bart-verbruggen",
+      "name": "Bart Verbruggen",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 1,
+      "club": "Brighton & Hove Albion",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "jurri-n-timber",
+      "name": "Jurriën Timber",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 2,
+      "club": "Arsenal",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "marten-de-roon",
+      "name": "Marten de Roon",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 3,
+      "club": "Atalanta",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "virgil-van-dijk",
+      "name": "Virgil van Dijk",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 4,
+      "club": "Liverpool",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "nathan-ak",
+      "name": "Nathan Aké",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 5,
+      "club": "Manchester City",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "jan-paul-van-hecke",
+      "name": "Jan Paul van Hecke",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 6,
+      "club": "Brighton & Hove Albion",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "justin-kluivert",
+      "name": "Justin Kluivert",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 7,
+      "club": "Bournemouth",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ryan-gravenberch",
+      "name": "Ryan Gravenberch",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 8,
+      "club": "Liverpool",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "wout-weghorst",
+      "name": "Wout Weghorst",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 9,
+      "club": "Ajax",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "memphis-depay",
+      "name": "Memphis Depay",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 10,
+      "club": "Corinthians",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "cody-gakpo",
+      "name": "Cody Gakpo",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 11,
+      "club": "Liverpool",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "mats-wieffer",
+      "name": "Mats Wieffer",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 12,
+      "club": "Brighton & Hove Albion",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "robin-roefs",
+      "name": "Robin Roefs",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 13,
+      "club": "Sunderland",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "tijjani-reijnders",
+      "name": "Tijjani Reijnders",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 14,
+      "club": "Manchester City",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "micky-van-de-ven",
+      "name": "Micky van de Ven",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 15,
+      "club": "Tottenham Hotspur",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "guus-til",
+      "name": "Guus Til",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 16,
+      "club": "PSV Eindhoven",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "noa-lang",
+      "name": "Noa Lang",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 17,
+      "club": "Galatasaray",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "donyell-malen",
+      "name": "Donyell Malen",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 18,
+      "club": "Roma",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "brian-brobbey",
+      "name": "Brian Brobbey",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 19,
+      "club": "Sunderland",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "teun-koopmeiners",
+      "name": "Teun Koopmeiners",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 20,
+      "club": "Juventus",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "frenkie-de-jong",
+      "name": "Frenkie de Jong",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 21,
+      "club": "Barcelona",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "denzel-dumfries",
+      "name": "Denzel Dumfries",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 22,
+      "club": "Inter Milan",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "mark-flekken",
+      "name": "Mark Flekken",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 23,
+      "club": "Bayer Leverkusen",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "crysencio-summerville",
+      "name": "Crysencio Summerville",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 24,
+      "club": "West Ham United",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "jorrel-hato",
+      "name": "Jorrel Hato",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 25,
+      "club": "Chelsea",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "quinten-timber",
+      "name": "Quinten Timber",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 26,
+      "club": "Marseille",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    }
+  ]
+}

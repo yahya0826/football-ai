@@ -1,0 +1,292 @@
+{
+  "team": "Bosnia and Herzegovina",
+  "player_count": 26,
+  "players": [
+    {
+      "id": "nikola-vasilj",
+      "name": "Nikola Vasilj",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 1,
+      "club": "FC St. Pauli",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "nihad-mujaki",
+      "name": "Nihad Mujakić",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 2,
+      "club": "Gaziantep",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "dennis-had-ikaduni",
+      "name": "Dennis Hadžikadunić",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 3,
+      "club": "Sampdoria",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "tarik-muharemovi",
+      "name": "Tarik Muharemović",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 4,
+      "club": "Sassuolo",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "sead-kola-inac",
+      "name": "Sead Kolašinac",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 5,
+      "club": "Atalanta",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "benjamin-tahirovi",
+      "name": "Benjamin Tahirović",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 6,
+      "club": "Brøndby",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "amar-dedi",
+      "name": "Amar Dedić",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 7,
+      "club": "Benfica",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "armin-gigovi",
+      "name": "Armin Gigović",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 8,
+      "club": "Young Boys",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "samed-ba-dar",
+      "name": "Samed Baždar",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 9,
+      "club": "Jagiellonia Białystok",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ermedin-demirovi",
+      "name": "Ermedin Demirović",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 10,
+      "club": "VfB Stuttgart",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "edin-d-eko",
+      "name": "Edin Džeko",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 11,
+      "club": "Schalke 04",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "mladen-jurkas",
+      "name": "Mladen Jurkas",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 12,
+      "club": "Borac Banja Luka",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ivan-ba-i",
+      "name": "Ivan Bašić",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 13,
+      "club": "Astana",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ivan--unji",
+      "name": "Ivan Šunjić",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 14,
+      "club": "Pafos",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "amar-memi",
+      "name": "Amar Memić",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 15,
+      "club": "Viktoria Plzeň",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "amir-had-iahmetovi",
+      "name": "Amir Hadžiahmetović",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 16,
+      "club": "Hull City",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "d-enis-burni",
+      "name": "Dženis Burnić",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 17,
+      "club": "Karlsruher SC",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "nikola-kati",
+      "name": "Nikola Katić",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 18,
+      "club": "Schalke 04",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "kerim-alajbegovi",
+      "name": "Kerim Alajbegović",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 19,
+      "club": "Red Bull Salzburg",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "esmir-bajraktarevi",
+      "name": "Esmir Bajraktarević",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 20,
+      "club": "PSV Eindhoven",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "stjepan-radelji",
+      "name": "Stjepan Radeljić",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 21,
+      "club": "Rijeka",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "martin-zlomisli",
+      "name": "Martin Zlomislić",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 22,
+      "club": "Rijeka",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "haris-tabakovi",
+      "name": "Haris Tabaković",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 23,
+      "club": "Borussia Mönchengladbach",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "nidal--elik",
+      "name": "Nidal Čelik",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 24,
+      "club": "Lens",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "jovo-luki",
+      "name": "Jovo Lukić",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 25,
+      "club": "Universitatea Cluj",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ermin-mahmi",
+      "name": "Ermin Mahmić",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 26,
+      "club": "Slovan Liberec",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    }
+  ]
+}

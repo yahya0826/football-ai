@@ -1,0 +1,171 @@
+{
+  "team_en": "Belgium",
+  "team_cn": "比利时",
+  "confederation": "UEFA",
+  "group": "G",
+  "stats": {
+    "total_matches": 226,
+    "wins": 130,
+    "draws": 46,
+    "losses": 50,
+    "goals_for": 468,
+    "goals_against": 230
+  },
+  "recent_matches": [
+    {
+      "date": "2026-06-26",
+      "home_team": "New Zealand",
+      "away_team": "Belgium",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Vancouver",
+      "country": "Canada",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-06-21",
+      "home_team": "Belgium",
+      "away_team": "Iran",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Inglewood",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-06-15",
+      "home_team": "Belgium",
+      "away_team": "Egypt",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Seattle",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-03-31",
+      "home_team": "Mexico",
+      "away_team": "Belgium",
+      "home_score": "1",
+      "away_score": "1",
+      "tournament": "Friendly",
+      "city": "Chicago",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-03-28",
+      "home_team": "United States",
+      "away_team": "Belgium",
+      "home_score": "2",
+      "away_score": "5",
+      "tournament": "Friendly",
+      "city": "Atlanta",
+      "country": "United States",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-11-18",
+      "home_team": "Belgium",
+      "away_team": "Liechtenstein",
+      "home_score": "7",
+      "away_score": "0",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Liège",
+      "country": "Belgium",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-11-15",
+      "home_team": "Kazakhstan",
+      "away_team": "Belgium",
+      "home_score": "1",
+      "away_score": "1",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Astana",
+      "country": "Kazakhstan",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-10-13",
+      "home_team": "Wales",
+      "away_team": "Belgium",
+      "home_score": "2",
+      "away_score": "4",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Cardiff",
+      "country": "Wales",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-10-10",
+      "home_team": "Belgium",
+      "away_team": "North Macedonia",
+      "home_score": "0",
+      "away_score": "0",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Gent",
+      "country": "Belgium",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-09-07",
+      "home_team": "Belgium",
+      "away_team": "Kazakhstan",
+      "home_score": "6",
+      "away_score": "0",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Anderlecht",
+      "country": "Belgium",
+      "neutral": "FALSE"
+    }
+  ],
+  "matches_by_year": {
+    "2026": 5,
+    "2025": 10,
+    "2024": 14,
+    "2023": 10,
+    "2022": 12,
+    "2021": 17,
+    "2020": 8,
+    "2019": 10,
+    "2018": 17,
+    "2017": 10,
+    "2016": 15,
+    "2015": 9,
+    "2014": 14,
+    "2013": 11,
+    "2012": 9,
+    "2011": 11,
+    "2010": 8,
+    "2009": 12,
+    "2008": 8,
+    "2007": 10,
+    "2006": 9
+  },
+  "tournament_breakdown": {
+    "Friendly": 71,
+    "UEFA Euro qualification": 52,
+    "FIFA World Cup qualification": 46,
+    "UEFA Nations League": 26,
+    "FIFA World Cup": 18,
+    "UEFA Euro": 14,
+    "Kirin Cup": 2
+  },
+  "total_matches_20y": 229,
+  "elo_rating": 1605,
+  "odds": {
+    "decimal_odds": 34.0,
+    "implied_probability": 2.8,
+    "rank": 10,
+    "platforms": {
+      "Bet365": 34.0,
+      "William Hill": 34.0,
+      "DraftKings": 35.0
+    }
+  },
+  "fifa_ranking": null
+}

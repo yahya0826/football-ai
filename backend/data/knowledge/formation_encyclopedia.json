@@ -1,0 +1,473 @@
+[
+  {
+    "id": "4-3-3",
+    "name": "4-3-3",
+    "name_cn": "4-3-3阵型",
+    "category": "attacking",
+    "era": "modern",
+    "description": "四后卫、三中场、三前锋的攻击型阵型。中场三人组可以灵活配置（单后腰+双中前卫或双后腰+单前腰），边锋利用宽度拉开防线。是现代足球最流行的阵型之一，适合高位压迫和控球打法。",
+    "lines": [
+      {"line_name": "defense", "count": 4, "positions": ["GK", "LB", "CB", "CB", "RB"]},
+      {"line_name": "midfield", "count": 3, "positions": ["CM", "CM", "CM"]},
+      {"line_name": "attack", "count": 3, "positions": ["LW", "ST", "RW"]}
+    ],
+    "tactical_principles": {
+      "attack": "边锋内切制造射门机会，边后卫提供宽度。三名中场轮流前插，形成多点进攻。",
+      "defense": "三名前锋实施高位压迫。单后腰需要覆盖大量空间，边后卫压上后中卫需要补位。",
+      "transition": "攻转守时三中场迅速回追，边锋需回防协助边路。守转攻时快速分边或找支点中锋。"
+    },
+    "strengths": [
+      "中场三人天然对4-4-2有数量优势",
+      "边锋+边后卫形成边路2v1",
+      "前场三人压迫结构极佳",
+      "进攻层次丰富，得分点分散",
+      "适合控球和高位压迫两种打法"
+    ],
+    "weaknesses": [
+      "单后腰防守覆盖面积不足",
+      "边后卫身后空档是经典弱点",
+      "对中场三人全能性要求高",
+      "中锋容易陷入孤立",
+      "面对三中卫体系时边路人数劣势"
+    ],
+    "best_against": ["4-4-2", "4-2-3-1"],
+    "worst_against": ["3-5-2", "5-4-1"],
+    "player_requirements": {
+      "GK": {"sweeper_required": true, "distribution_required": true, "speed_min": 45, "passing_min": 55},
+      "CB": {"speed_min": 65, "passing_min": 65, "defending_min": 78, "description": "需要速度和出球能力应对高位防线"},
+      "LB": {"speed_min": 75, "passing_min": 65, "physical_min": 65, "description": "攻防两端都需要贡献，体能要求极高"},
+      "RB": {"speed_min": 75, "passing_min": 65, "physical_min": 65, "description": "职责与左后卫对称"},
+      "CDM": {"defending_min": 72, "physical_min": 72, "passing_min": 65, "description": "防守屏障+出球枢纽"},
+      "CM_box_to_box": {"physical_min": 72, "passing_min": 65, "speed_min": 62, "description": "覆盖两个禁区之间的全能中场"},
+      "CM_creative": {"passing_min": 78, "dribbling_min": 65, "shooting_min": 55, "description": "创造型中场，负责进攻组织"},
+      "LW": {"speed_min": 75, "dribbling_min": 72, "shooting_min": 60, "description": "内切型边锋，兼具突破和射门"},
+      "RW": {"speed_min": 75, "dribbling_min": 72, "shooting_min": 60, "description": "内切型边锋，兼具突破和射门"},
+      "ST": {"shooting_min": 72, "physical_min": 65, "speed_min": 65, "description": "全能中锋，能终结、能做球、能压迫"}
+    },
+    "position_ids": ["GK", "LB", "CB", "CB", "RB", "CM", "CM", "CM", "LW", "ST", "RW"],
+    "famous_examples": ["2010-11 Barcelona (瓜迪奥拉)", "2019-20 Liverpool (克洛普)", "2022-23 Real Madrid (安切洛蒂)"]
+  },
+  {
+    "id": "4-4-2",
+    "name": "4-4-2",
+    "name_cn": "4-4-2阵型",
+    "category": "balanced",
+    "era": "classic",
+    "description": "足球史上最经典的阵型。四后卫平行站位，中场四人可平行也可菱形排列，双前锋组合互补。结构清晰、分工明确，适合防守反击和直接进攻的打法。",
+    "lines": [
+      {"line_name": "defense", "count": 4, "positions": ["GK", "LB", "CB", "CB", "RB"]},
+      {"line_name": "midfield", "count": 4, "positions": ["LM", "CM", "CM", "RM"]},
+      {"line_name": "attack", "count": 2, "positions": ["ST", "ST"]}
+    ],
+    "tactical_principles": {
+      "attack": "双前锋一前一后搭配（一高一块），边前卫负责传中，中路中场适时后插上。进攻手段直接高效。",
+      "defense": "两条四人防线紧凑压缩空间，中路防守极为稳固。边前卫需回防到后卫线形成442防守块。",
+      "transition": "守转攻时双前锋提供纵向出球点，快速通过中场。攻转守时整体阵型后移，压缩空间。"
+    },
+    "strengths": [
+      "防守结构清晰，两条四人线极难被击穿",
+      "双前锋组合产生化学反应",
+      "边路攻防人数均衡",
+      "适合体能充沛的球队",
+      "反击转换速度极快"
+    ],
+    "weaknesses": [
+      "中路人少面对三中场处于劣势",
+      "边前卫攻防覆盖范围过大",
+      "对中场二人综合能力要求极高",
+      "创造力不足时进攻手段单一",
+      "面对三中卫体系中路渗透困难"
+    ],
+    "best_against": ["4-4-2", "5-4-1"],
+    "worst_against": ["4-3-3", "3-5-2", "4-2-3-1"],
+    "player_requirements": {
+      "GK": {"distribution_required": false, "physical_min": 70, "defending_min": 75},
+      "CB": {"defending_min": 78, "physical_min": 75, "heading_required": true, "description": "传统中卫，防空和对抗是核心"},
+      "LB": {"speed_min": 65, "defending_min": 65, "passing_min": 55, "description": "以防守为主的边后卫"},
+      "RB": {"speed_min": 65, "defending_min": 65, "passing_min": 55, "description": "以防守为主的边后卫"},
+      "LM": {"speed_min": 68, "passing_min": 60, "physical_min": 62, "description": "边路攻防一体，体能要求高"},
+      "RM": {"speed_min": 68, "passing_min": 60, "physical_min": 62, "description": "边路攻防一体，传中质量关键"},
+      "CM_defensive": {"defending_min": 72, "physical_min": 70, "description": "防守型中场，拦截和覆盖"},
+      "CM_attacking": {"passing_min": 68, "shooting_min": 55, "physical_min": 65, "description": "B2B中场，前后串联"},
+      "ST_target": {"physical_min": 75, "shooting_min": 68, "heading_required": true, "description": "支点中锋，头球和做球能力"},
+      "ST_poacher": {"speed_min": 70, "shooting_min": 75, "dribbling_min": 62, "description": "速度型前锋，跑身后空档"}
+    },
+    "position_ids": ["GK", "LB", "CB", "CB", "RB", "LM", "CM", "CM", "RM", "ST", "ST"],
+    "famous_examples": ["1999 Man United (弗格森)", "2016 Leicester City (拉涅利)", "2020-24 Atlético Madrid (西蒙尼)"]
+  },
+  {
+    "id": "4-2-3-1",
+    "name": "4-2-3-1",
+    "name_cn": "4-2-3-1阵型",
+    "category": "balanced",
+    "era": "modern",
+    "description": "目前欧洲五大联赛使用最多的阵型。双后腰提供坚固的中路防守，三名攻击中场在单前锋身后形成创造三角，边后卫提供进攻宽度。兼顾防守稳定性和进攻层次感。",
+    "lines": [
+      {"line_name": "defense", "count": 4, "positions": ["GK", "LB", "CB", "CB", "RB"]},
+      {"line_name": "midfield_def", "count": 2, "positions": ["CDM", "CDM"]},
+      {"line_name": "midfield_att", "count": 3, "positions": ["LW", "CAM", "RW"]},
+      {"line_name": "attack", "count": 1, "positions": ["ST"]}
+    ],
+    "tactical_principles": {
+      "attack": "三名攻击中场在对方防防线之间活动，前腰负责创造性传球，边路拉开宽度。边后卫压上形成2v1。",
+      "defense": "防守时变阵4-5-1，双后腰保护中路，边锋回撤协助防守。两名后腰轮流上抢，另一人保护。",
+      "transition": "攻转守时前腰和边锋迅速回位形成451。守转攻时双后腰之一前插参与进攻，边路快速推进。"
+    },
+    "strengths": [
+      "双后腰提供出色的中路防守",
+      "攻防平衡，适合多种比赛策略",
+      "前场四人组创造力丰富",
+      "防守时可轻松变为4-5-1",
+      "适应不同对手的调整空间大"
+    ],
+    "weaknesses": [
+      "单前锋容易孤立无援",
+      "前腰和边锋防守投入影响进攻",
+      "双后腰创造力不足则进攻受阻",
+      "边锋内切后边路空间利用率低",
+      "对前腰（10号位）个人能力依赖大"
+    ],
+    "best_against": ["4-4-2", "4-3-3"],
+    "worst_against": ["3-5-2", "3-4-3"],
+    "player_requirements": {
+      "GK": {"distribution_required": true, "defending_min": 72, "passing_min": 52},
+      "CB": {"defending_min": 78, "physical_min": 72, "speed_min": 62, "passing_min": 62, "description": "需要速度应对高位防线"},
+      "LB": {"speed_min": 72, "passing_min": 65, "defending_min": 65, "dribbling_min": 58, "description": "进攻型边后卫"},
+      "RB": {"speed_min": 72, "passing_min": 65, "defending_min": 65, "dribbling_min": 58, "description": "进攻型边后卫"},
+      "CDM_holder": {"defending_min": 75, "physical_min": 70, "passing_min": 65, "description": "位置感好的防守后腰"},
+      "CDM_deep_playmaker": {"passing_min": 75, "defending_min": 62, "dribbling_min": 55, "description": "拖后组织型后腰"},
+      "LW": {"speed_min": 72, "dribbling_min": 70, "shooting_min": 58, "passing_min": 60, "description": "边路攻击手"},
+      "CAM": {"passing_min": 78, "dribbling_min": 72, "shooting_min": 62, "speed_min": 62, "description": "创造核心，传射兼备"},
+      "RW": {"speed_min": 72, "dribbling_min": 70, "shooting_min": 58, "passing_min": 60, "description": "边路攻击手"},
+      "ST": {"shooting_min": 75, "physical_min": 68, "speed_min": 65, "dribbling_min": 58, "description": "全能中锋，能终结能做球"}
+    },
+    "position_ids": ["GK", "LB", "CB", "CB", "RB", "CDM", "CDM", "LW", "CAM", "RW", "ST"],
+    "famous_examples": ["2014 Germany (勒夫)", "2016-18 Real Madrid (齐达内)", "2022-23 Man City (瓜迪奥拉)"]
+  },
+  {
+    "id": "3-5-2",
+    "name": "3-5-2",
+    "name_cn": "3-5-2阵型",
+    "category": "defensive",
+    "era": "modern",
+    "description": "三中卫+五中场的阵型，通过中场人数优势和边翼卫的往返能力掌控比赛。防守时可变5-3-2，进攻时边翼卫提供全部宽度。安东尼奥·孔蒂将该阵型重新带回主流足坛。",
+    "lines": [
+      {"line_name": "defense", "count": 5, "positions": ["GK", "CB", "CB", "CB", "LWB", "RWB"]},
+      {"line_name": "midfield", "count": 3, "positions": ["CM", "CM", "CM"]},
+      {"line_name": "attack", "count": 2, "positions": ["ST", "ST"]}
+    ],
+    "tactical_principles": {
+      "attack": "边翼卫提供全部宽度，中场三人控制中路，双前锋一前一后配合。三中卫中的左右中卫可带球推进。",
+      "defense": "防守时边翼卫回撤形成5-3-2，三中卫+中场三人形成密集防守。中路极难被穿透。",
+      "transition": "攻转守时边翼卫迅速回追。守转攻时利用中场人数优势快速传导，双前锋提供纵向深度。"
+    },
+    "strengths": [
+      "中场5人天然有人数优势",
+      "三中卫体系防空能力极强",
+      "可灵活在532和352之间切换",
+      "双前锋保留锋线组合威力",
+      "中路防守几乎无法被正面击穿"
+    ],
+    "weaknesses": [
+      "边翼卫身后是致命弱点",
+      "对边翼卫体能和技术要求极高",
+      "对方边锋+边后卫可制造边路2v1",
+      "中场宽度依赖两名球员",
+      "攻防转换中边路容易被打穿"
+    ],
+    "best_against": ["4-3-3", "4-2-3-1", "4-4-2"],
+    "worst_against": ["3-4-3", "4-3-3"],
+    "player_requirements": {
+      "GK": {"distribution_required": true, "defending_min": 75, "passing_min": 55},
+      "CB_central": {"defending_min": 82, "physical_min": 78, "passing_min": 62, "description": "防守领袖，指挥整条防线"},
+      "CB_left": {"defending_min": 75, "speed_min": 65, "passing_min": 62, "description": "左中卫，需要一定的覆盖能力"},
+      "CB_right": {"defending_min": 75, "speed_min": 65, "passing_min": 62, "description": "右中卫，需要一定的覆盖能力"},
+      "LWB": {"speed_min": 80, "physical_min": 75, "dribbling_min": 65, "passing_min": 65, "description": "阵型最关键位置，攻防两端最大化"},
+      "RWB": {"speed_min": 80, "physical_min": 75, "dribbling_min": 65, "passing_min": 65, "description": "阵型最关键位置，攻防两端最大化"},
+      "CM_defensive": {"defending_min": 72, "physical_min": 72, "passing_min": 62, "description": "中场防守屏障"},
+      "CM_box_to_box": {"physical_min": 75, "speed_min": 62, "passing_min": 65, "description": "全能中场，覆盖攻防"},
+      "CM_creative": {"passing_min": 75, "dribbling_min": 65, "shooting_min": 55, "description": "中场创造者"},
+      "ST": {"shooting_min": 72, "physical_min": 68, "speed_min": 62, "description": "双前锋互补搭配"}
+    },
+    "position_ids": ["GK", "CB", "CB", "CB", "LWB", "CM", "CM", "CM", "RWB", "ST", "ST"],
+    "famous_examples": ["2016-17 Chelsea (孔蒂)", "2020-21 Inter Milan (孔蒂)", "2022-24 Bayer Leverkusen (阿隆索)"]
+  },
+  {
+    "id": "3-4-3",
+    "name": "3-4-3",
+    "name_cn": "3-4-3阵型",
+    "category": "attacking",
+    "era": "modern",
+    "description": "三中卫+四中场+三前锋的攻击型阵型。边翼卫提供宽度，前场三人组实施高压，是克鲁伊夫巴萨和阿贾克斯的传承阵型。需要三中卫有出色的个人防守和出球能力。",
+    "lines": [
+      {"line_name": "defense", "count": 3, "positions": ["GK", "CB", "CB", "CB"]},
+      {"line_name": "midfield", "count": 4, "positions": ["LWB", "CM", "CM", "RWB"]},
+      {"line_name": "attack", "count": 3, "positions": ["LW", "ST", "RW"]}
+    ],
+    "tactical_principles": {
+      "attack": "前场三人压迫+边翼卫拉开宽度+中场二人控制节奏。三中卫中有人可带球压上参与进攻。",
+      "defense": "防守时边翼卫回撤可形成5-4-1。三中卫各自负责防守区域。高位防线需要快速回追能力。",
+      "transition": "高位逼抢的天然阵型，丢球后前场五人立即反抢。守转攻边翼卫快速前插扩大场地。"
+    },
+    "strengths": [
+      "前场压迫体系最完整",
+      "进攻宽度和深度兼备",
+      "三中卫出球结构稳定",
+      "全场覆盖均衡",
+      "控球时阵型流动性强"
+    ],
+    "weaknesses": [
+      "三中卫个人防守能力要求极高",
+      "边翼卫身后是软肋",
+      "对球员战术理解要求高",
+      "面对快速反击三中卫可能被拉散",
+      "阵地防守时边路人数有时不足"
+    ],
+    "best_against": ["4-2-3-1", "4-3-3"],
+    "worst_against": ["4-4-2", "5-4-1"],
+    "player_requirements": {
+      "GK": {"sweeper_required": true, "distribution_required": true, "speed_min": 48, "passing_min": 58},
+      "CB": {"defending_min": 78, "speed_min": 68, "passing_min": 65, "description": "速度快、能出球的中卫"},
+      "LWB": {"speed_min": 78, "physical_min": 72, "dribbling_min": 68, "passing_min": 65, "description": "攻防双向翼卫"},
+      "RWB": {"speed_min": 78, "physical_min": 72, "dribbling_min": 68, "passing_min": 65, "description": "攻防双向翼卫"},
+      "CM": {"passing_min": 72, "physical_min": 68, "defending_min": 62, "description": "双中场负责控制+保护"},
+      "LW": {"speed_min": 72, "dribbling_min": 72, "shooting_min": 62, "description": "三前锋体系中的左路"},
+      "ST": {"shooting_min": 75, "physical_min": 68, "speed_min": 65, "dribbling_min": 58, "description": "中路支点+得分"},
+      "RW": {"speed_min": 72, "dribbling_min": 72, "shooting_min": 62, "description": "三前锋体系中的右路"}
+    },
+    "position_ids": ["GK", "CB", "CB", "CB", "LWB", "CM", "CM", "RWB", "LW", "ST", "RW"],
+    "famous_examples": ["2016-17 Chelsea (孔蒂)", "2022-23 Barcelona (哈维)", "2023-24 Bayer Leverkusen (阿隆索)"]
+  },
+  {
+    "id": "5-4-1",
+    "name": "5-4-1",
+    "name_cn": "5-4-1阵型",
+    "category": "defensive",
+    "era": "classic",
+    "description": "极致防守阵型。五后卫+四中场形成一个紧密的防守壁垒，单前锋在前场作为反击支点。典型的弱队对强队策略，放弃控球权换取防守稳固。",
+    "lines": [
+      {"line_name": "defense", "count": 5, "positions": ["GK", "LWB", "CB", "CB", "CB", "RWB"]},
+      {"line_name": "midfield", "count": 4, "positions": ["LM", "CM", "CDM", "RM"]},
+      {"line_name": "attack", "count": 1, "positions": ["ST"]}
+    ],
+    "tactical_principles": {
+      "attack": "极少投入进攻兵力，进攻手段主要是长传找单前锋+定位球。边翼卫偶尔前插反击。",
+      "defense": "9人防守（541），禁区前沿空间被完全封锁。两条防线紧凑，极难被渗透。",
+      "transition": "守转攻依赖快速长传找单前锋。攻转守时前场1人不参与，其余9人迅速回位。"
+    },
+    "strengths": [
+      "防守人数优势最大化",
+      "中路和禁区前沿空间被完全封锁",
+      "对球员个人防守能力要求相对低",
+      "适合限制强队的阵地进攻",
+      "体能消耗相对较小"
+    ],
+    "weaknesses": [
+      "进攻能力极度匮乏",
+      "控球率通常极低（<35%）",
+      "单前锋完全孤立",
+      "长期防守精神压力大",
+      "一旦丢球很难追回"
+    ],
+    "best_against": ["4-3-3", "4-2-3-1", "3-4-3"],
+    "worst_against": ["3-5-2", "4-4-2"],
+    "player_requirements": {
+      "GK": {"defending_min": 78, "physical_min": 72, "distribution_required": false},
+      "CB": {"defending_min": 78, "physical_min": 75, "heading_required": true, "description": "防空和禁区防守核心"},
+      "LWB": {"speed_min": 65, "defending_min": 68, "physical_min": 65, "description": "防守优先的边路球员"},
+      "RWB": {"speed_min": 65, "defending_min": 68, "physical_min": 65, "description": "防守优先的边路球员"},
+      "CDM": {"defending_min": 75, "physical_min": 72, "description": "禁区前沿的最后屏障"},
+      "CM": {"defending_min": 68, "physical_min": 70, "passing_min": 55, "description": "防守型中场"},
+      "LM": {"defending_min": 62, "speed_min": 60, "physical_min": 62, "description": "边路防守者"},
+      "RM": {"defending_min": 62, "speed_min": 60, "physical_min": 62, "description": "边路防守者"},
+      "ST": {"physical_min": 78, "speed_min": 68, "shooting_min": 60, "heading_required": true, "description": "孤军奋战型中锋，做球+头球+反击速度"}
+    },
+    "position_ids": ["GK", "LWB", "CB", "CB", "CB", "RWB", "LM", "CM", "CDM", "RM", "ST"],
+    "famous_examples": ["2004 Greece (雷哈格尔)", "2018 Iran (奎罗斯)", "2022 Costa Rica"]
+  },
+  {
+    "id": "4-1-4-1",
+    "name": "4-1-4-1",
+    "name_cn": "4-1-4-1阵型",
+    "category": "balanced",
+    "era": "modern",
+    "description": "四后卫+单后腰+四中场+单前锋的阵型。单后腰专门保护后卫线，四中场提供宽度和创造力。是4-3-3和4-2-3-1的混合变体，防守比4-3-3更稳固。",
+    "lines": [
+      {"line_name": "defense", "count": 4, "positions": ["GK", "LB", "CB", "CB", "RB"]},
+      {"line_name": "midfield_def", "count": 1, "positions": ["CDM"]},
+      {"line_name": "midfield", "count": 4, "positions": ["LM", "CM", "CM", "RM"]},
+      {"line_name": "attack", "count": 1, "positions": ["ST"]}
+    ],
+    "tactical_principles": {
+      "attack": "边路四人提供宽度，两名中前卫轮流前插支援单前锋。单后腰保持位置为防线提供保护。",
+      "defense": "防守时变为4-5-1，单后腰是防线前的最后屏障。边路球员回撤形成两条防线。",
+      "transition": "守转攻时单后腰是球权分配枢纽。攻转守时四中场快速回撤保持阵型。"
+    },
+    "strengths": [
+      "中路防守层次分明",
+      "单后腰专门保护防线",
+      "边路人数充足",
+      "攻守转换位置清晰",
+      "适合中场控制型打法"
+    ],
+    "weaknesses": [
+      "单前锋进攻压力大",
+      "中路创造力可能不足",
+      "单后腰被绕过则防线直接暴露",
+      "两个中前卫职责模糊",
+      "缺乏真正的10号位创造者"
+    ],
+    "best_against": ["4-4-2", "4-3-3"],
+    "worst_against": ["4-2-3-1", "3-5-2"],
+    "player_requirements": {
+      "GK": {"distribution_required": true, "defending_min": 72, "passing_min": 52},
+      "CB": {"defending_min": 78, "physical_min": 72, "speed_min": 62, "description": "需要速度和防守意识"},
+      "LB": {"speed_min": 68, "passing_min": 62, "defending_min": 62, "description": "均衡型边后卫"},
+      "RB": {"speed_min": 68, "passing_min": 62, "defending_min": 62, "description": "均衡型边后卫"},
+      "CDM": {"defending_min": 78, "physical_min": 72, "passing_min": 65, "description": "纯防守后腰+出球枢纽"},
+      "LM": {"speed_min": 68, "passing_min": 62, "dribbling_min": 60, "description": "边路多面手"},
+      "CM": {"passing_min": 70, "physical_min": 68, "speed_min": 60, "description": "攻守兼备的中前卫"},
+      "RM": {"speed_min": 68, "passing_min": 62, "dribbling_min": 60, "description": "边路多面手"},
+      "ST": {"shooting_min": 75, "physical_min": 72, "speed_min": 62, "description": "全能支点中锋"}
+    },
+    "position_ids": ["GK", "LB", "CB", "CB", "RB", "CDM", "LM", "CM", "CM", "RM", "ST"],
+    "famous_examples": ["2014 Germany (勒夫 - 部分比赛)", "Australia 2022"]
+  },
+  {
+    "id": "3-4-2-1",
+    "name": "3-4-2-1",
+    "name_cn": "3-4-2-1阵型",
+    "category": "attacking",
+    "era": "modern",
+    "description": "三中卫+四中场+两名10号位+单前锋的阵型。两名攻击型中场在单前锋身后形成双核驱动，边翼卫提供宽度。近年由鲁本·阿莫林和图赫尔发扬光大。",
+    "lines": [
+      {"line_name": "defense", "count": 3, "positions": ["GK", "CB", "CB", "CB"]},
+      {"line_name": "midfield", "count": 4, "positions": ["LWB", "CM", "CM", "RWB"]},
+      {"line_name": "attacking_mid", "count": 2, "positions": ["CAM", "CAM"]},
+      {"line_name": "attack", "count": 1, "positions": ["ST"]}
+    ],
+    "tactical_principles": {
+      "attack": "两名10号在对方后腰和中卫线之间活动，制造中路人数优势。边翼卫提供宽度，中场二人控制节奏。",
+      "defense": "防守时可变5-2-3或5-4-1。两名10号回撤参与中场防守。",
+      "transition": "攻转守时两名10号需快速回位。守转攻时可快速通过中路双核传导到前场。"
+    },
+    "strengths": [
+      "中路创造力爆炸（两名10号位）",
+      "进攻时中路人数优势明显",
+      "三中卫提供防守稳定性",
+      "边翼卫提供宽度",
+      "适合技术型球队"
+    ],
+    "weaknesses": [
+      "中场防守厚度不足（只有2人中场）",
+      "边路防守依赖翼卫个人能力",
+      "对两名10号的防守投入要求高",
+      "面对强队中场可能被压制",
+      "阵型整体流动性要求极高"
+    ],
+    "best_against": ["4-4-2", "4-3-3"],
+    "worst_against": ["4-2-3-1", "3-5-2"],
+    "player_requirements": {
+      "GK": {"sweeper_required": true, "passing_min": 58, "defending_min": 72},
+      "CB": {"defending_min": 78, "speed_min": 65, "passing_min": 62, "description": "出球型中卫"},
+      "LWB": {"speed_min": 78, "physical_min": 72, "dribbling_min": 65, "passing_min": 62, "description": "攻防双向翼卫"},
+      "RWB": {"speed_min": 78, "physical_min": 72, "dribbling_min": 65, "passing_min": 62, "description": "攻防双向翼卫"},
+      "CM": {"passing_min": 72, "physical_min": 70, "defending_min": 62, "description": "双中场控制+防守"},
+      "CAM": {"passing_min": 78, "dribbling_min": 75, "shooting_min": 62, "speed_min": 62, "description": "双核10号，创造+得分"},
+      "ST": {"shooting_min": 78, "speed_min": 68, "dribbling_min": 62, "description": "终结型中锋"}
+    },
+    "position_ids": ["GK", "CB", "CB", "CB", "LWB", "CM", "CM", "RWB", "CAM", "CAM", "ST"],
+    "famous_examples": ["2023-24 Sporting CP (阿莫林)", "2020-21 Chelsea (图赫尔)"]
+  },
+  {
+    "id": "4-3-2-1",
+    "name": "4-3-2-1",
+    "name_cn": "4-3-2-1阵型（圣诞树）",
+    "category": "creative",
+    "era": "classic",
+    "description": "安切洛蒂AC米兰时代的经典阵型，又称\"圣诞树阵型\"。四后卫+三后腰+两名攻击中场+单前锋。中路极度拥挤，适合技术型中场控制比赛。",
+    "lines": [
+      {"line_name": "defense", "count": 4, "positions": ["GK", "LB", "CB", "CB", "RB"]},
+      {"line_name": "midfield", "count": 3, "positions": ["CDM", "CM", "CM"]},
+      {"line_name": "attacking_mid", "count": 2, "positions": ["CAM", "CAM"]},
+      {"line_name": "attack", "count": 1, "positions": ["ST"]}
+    ],
+    "tactical_principles": {
+      "attack": "两名10号位和三名中场形成中路密集传导网，单前锋负责终结。边后卫是唯一宽度来源。",
+      "defense": "中场人数极多，中路几乎无法被突破。防守时两名前腰回收形成4-5-1。",
+      "transition": "中场人数优势确保控球，守转攻通过中路渗透。攻转守时前腰回收填补中场。"
+    },
+    "strengths": [
+      "中路控制力极强",
+      "中场人数碾压大多数阵型",
+      "两名10号创造力爆表",
+      "适合短传渗透打法",
+      "防守时中路人数充足"
+    ],
+    "weaknesses": [
+      "缺乏边路宽度",
+      "完全依赖边后卫提供进攻宽度",
+      "阵地战时容易被横向压缩",
+      "对两名10号的防守纪律要求高",
+      "边路防守有被2v1的风险"
+    ],
+    "best_against": ["4-4-2", "4-2-3-1"],
+    "worst_against": ["3-5-2", "3-4-3"],
+    "player_requirements": {
+      "GK": {"distribution_required": true, "passing_min": 55, "defending_min": 72},
+      "CB": {"defending_min": 78, "passing_min": 65, "speed_min": 60, "description": "出球中卫"},
+      "LB": {"speed_min": 72, "passing_min": 68, "dribbling_min": 62, "description": "承担全部边路进攻的边后卫"},
+      "RB": {"speed_min": 72, "passing_min": 68, "dribbling_min": 62, "description": "承担全部边路进攻的边后卫"},
+      "CDM": {"defending_min": 78, "passing_min": 70, "physical_min": 70, "description": "皮尔洛式的拖后组织者"},
+      "CM": {"passing_min": 75, "physical_min": 68, "dribbling_min": 62, "description": "技术型中场"},
+      "CAM": {"passing_min": 80, "dribbling_min": 75, "shooting_min": 60, "description": "卡卡式的双前腰"},
+      "ST": {"shooting_min": 80, "speed_min": 68, "dribbling_min": 65, "description": "因扎吉式机会主义射手"}
+    },
+    "position_ids": ["GK", "LB", "CB", "CB", "RB", "CDM", "CM", "CM", "CAM", "CAM", "ST"],
+    "famous_examples": ["2003-07 AC Milan (安切洛蒂)"]
+  },
+  {
+    "id": "5-3-2",
+    "name": "5-3-2",
+    "name_cn": "5-3-2阵型",
+    "category": "defensive",
+    "era": "classic",
+    "description": "五后卫+三中场+双前锋的防守反击阵型。是3-5-2的防守变体，边翼卫更注重防守。当翼卫被压制时形成纯五后卫，适合防守反击和保平争胜的场景。",
+    "lines": [
+      {"line_name": "defense", "count": 5, "positions": ["GK", "LWB", "CB", "CB", "CB", "RWB"]},
+      {"line_name": "midfield", "count": 3, "positions": ["CM", "CM", "CM"]},
+      {"line_name": "attack", "count": 2, "positions": ["ST", "ST"]}
+    ],
+    "tactical_principles": {
+      "attack": "进攻投入兵力有限，主要通过定位球和反击得分。双前锋利用身体对抗和速度制造机会。",
+      "defense": "极致防守阵型，五人防线+三中场组成密集防守网。仅留两名前锋在前场准备反击。",
+      "transition": "守转攻通过长传找双前锋。攻转守时三中场迅速回撤保护防线。"
+    },
+    "strengths": [
+      "防守人数最大化",
+      "禁区前沿严密封锁",
+      "适合杯赛淘汰赛",
+      "定位球攻防有优势",
+      "对球员个人防守能力要求相对低"
+    ],
+    "weaknesses": [
+      "进攻创造力匮乏",
+      "控球率极低",
+      "过于被动，难以反制",
+      "边路缺乏进攻输出",
+      "士气消耗大"
+    ],
+    "best_against": ["4-3-3", "3-4-3"],
+    "worst_against": ["4-4-2", "3-5-2"],
+    "player_requirements": {
+      "GK": {"defending_min": 78, "physical_min": 72},
+      "CB": {"defending_min": 80, "physical_min": 78, "heading_required": true, "description": "传统清道夫型中卫"},
+      "LWB": {"defending_min": 70, "speed_min": 65, "physical_min": 68, "description": "防守优先的边翼卫"},
+      "RWB": {"defending_min": 70, "speed_min": 65, "physical_min": 68, "description": "防守优先的边翼卫"},
+      "CM": {"defending_min": 68, "physical_min": 72, "passing_min": 55, "description": "工兵型中场"},
+      "ST": {"physical_min": 72, "speed_min": 68, "shooting_min": 62, "description": "反击型前锋组合"}
+    },
+    "position_ids": ["GK", "LWB", "CB", "CB", "CB", "RWB", "CM", "CM", "CM", "ST", "ST"],
+    "famous_examples": ["2018 Iran (奎罗斯)", "2022 Morocco (部分比赛)"]
+  }
+]

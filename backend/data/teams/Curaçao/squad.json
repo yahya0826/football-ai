@@ -1,0 +1,292 @@
+{
+  "team": "Curaçao",
+  "player_count": 26,
+  "players": [
+    {
+      "id": "eloy-room",
+      "name": "Eloy Room",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 1,
+      "club": "Miami FC",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "shurandy-sambo",
+      "name": "Shurandy Sambo",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 2,
+      "club": "Sparta Rotterdam",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "juri-n-gaari",
+      "name": "Juriën Gaari",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 3,
+      "club": "Abha",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "roshon-van-eijma",
+      "name": "Roshon van Eijma",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 4,
+      "club": "RKC Waalwijk",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "sherel-floranus",
+      "name": "Sherel Floranus",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 5,
+      "club": "PEC Zwolle",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "godfried-roemeratoe",
+      "name": "Godfried Roemeratoe",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 6,
+      "club": "RKC Waalwijk",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "juninho-bacuna",
+      "name": "Juninho Bacuna",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 7,
+      "club": "Volendam",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "livano-comenencia",
+      "name": "Livano Comenencia",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 8,
+      "club": "Zürich",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "j-rgen-locadia",
+      "name": "Jürgen Locadia",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 9,
+      "club": "Miami FC",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "leandro-bacuna",
+      "name": "Leandro Bacuna",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 10,
+      "club": "Iğdır",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "jeremy-antonisse",
+      "name": "Jeremy Antonisse",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 11,
+      "club": "Kifisia",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "sontje-hansen",
+      "name": "Sontje Hansen",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 12,
+      "club": "Middlesbrough",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "tyrese-noslin",
+      "name": "Tyrese Noslin",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 13,
+      "club": "Telstar",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "kenji-gorr",
+      "name": "Kenji Gorré",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 14,
+      "club": "Maccabi Haifa",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ar-jany-martha",
+      "name": "Ar'jany Martha",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 15,
+      "club": "Rotherham United",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "jearl-margaritha",
+      "name": "Jearl Margaritha",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 16,
+      "club": "Beveren",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "brandley-kuwas",
+      "name": "Brandley Kuwas",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 17,
+      "club": "Volendam",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "armando-obispo",
+      "name": "Armando Obispo",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 18,
+      "club": "PSV Eindhoven",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "gervane-kastaneer",
+      "name": "Gervane Kastaneer",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 19,
+      "club": "Terengganu",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "joshua-brenet",
+      "name": "Joshua Brenet",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 20,
+      "club": "Kayserispor",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "tahith-chong",
+      "name": "Tahith Chong",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 21,
+      "club": "Sheffield United",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "kevin-felida",
+      "name": "Kevin Felida",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 22,
+      "club": "Den Bosch",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "riechedly-bazoer",
+      "name": "Riechedly Bazoer",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 23,
+      "club": "Konyaspor",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "deveron-fonville",
+      "name": "Deveron Fonville",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 24,
+      "club": "NEC",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "tyrick-bodak",
+      "name": "Tyrick Bodak",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 25,
+      "club": "Telstar",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "trevor-doornbusch",
+      "name": "Trevor Doornbusch",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 26,
+      "club": "VVV-Venlo",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    }
+  ]
+}

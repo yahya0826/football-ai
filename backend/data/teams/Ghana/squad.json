@@ -1,0 +1,292 @@
+{
+  "team": "Ghana",
+  "player_count": 26,
+  "players": [
+    {
+      "id": "lawrence-ati-zigi",
+      "name": "Lawrence Ati-Zigi",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 1,
+      "club": "St. Gallen",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "alidu-seidu",
+      "name": "Alidu Seidu",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 2,
+      "club": "Rennes",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "caleb-yirenkyi",
+      "name": "Caleb Yirenkyi",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 3,
+      "club": "Nordsjælland",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "jonas-adjetey",
+      "name": "Jonas Adjetey",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 4,
+      "club": "VfL Wolfsburg",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "thomas-partey",
+      "name": "Thomas Partey",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 5,
+      "club": "Villarreal",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "abdul-mumin",
+      "name": "Abdul Mumin",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 6,
+      "club": "Rayo Vallecano",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "abdul-fatawu",
+      "name": "Abdul Fatawu",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 7,
+      "club": "Leicester City",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "kwasi-sibo",
+      "name": "Kwasi Sibo",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 8,
+      "club": "Oviedo",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "jordan-ayew",
+      "name": "Jordan Ayew",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 9,
+      "club": "Leicester City",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "brandon-thomas-asante",
+      "name": "Brandon Thomas-Asante",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 10,
+      "club": "Coventry City",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "antoine-semenyo",
+      "name": "Antoine Semenyo",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 11,
+      "club": "Manchester City",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "joseph-anang",
+      "name": "Joseph Anang",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 12,
+      "club": "St Patrick's Athletic",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "christopher-bonsu-baah",
+      "name": "Christopher Bonsu Baah",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 13,
+      "club": "Al-Qadsiah",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "gideon-mensah",
+      "name": "Gideon Mensah",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 14,
+      "club": "Auxerre",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "elisha-owusu",
+      "name": "Elisha Owusu",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 15,
+      "club": "Auxerre",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "benjamin-asare",
+      "name": "Benjamin Asare",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 16,
+      "club": "Hearts of Oak",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "abdul-rahman-baba",
+      "name": "Abdul Rahman Baba",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 17,
+      "club": "PAOK",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "jerome-opoku",
+      "name": "Jerome Opoku",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 18,
+      "club": "İstanbul Başakşehir",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "i-aki-williams",
+      "name": "Iñaki Williams",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 19,
+      "club": "Athletic Bilbao",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "augustine-boakye",
+      "name": "Augustine Boakye",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 20,
+      "club": "Saint-Étienne",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "kojo-peprah-oppong",
+      "name": "Kojo Peprah Oppong",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 21,
+      "club": "Nice",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "kamaldeen-sulemana",
+      "name": "Kamaldeen Sulemana",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 22,
+      "club": "Atalanta",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "derrick-luckassen",
+      "name": "Derrick Luckassen",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 23,
+      "club": "Pafos",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ernest-nuamah",
+      "name": "Ernest Nuamah",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 24,
+      "club": "Lyon",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "prince-kwabena-adu",
+      "name": "Prince Kwabena Adu",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 25,
+      "club": "Viktoria Plzeň",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "marvin-senaya",
+      "name": "Marvin Senaya",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 26,
+      "club": "Auxerre",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    }
+  ]
+}

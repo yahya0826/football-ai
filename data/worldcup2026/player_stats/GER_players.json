@@ -1,0 +1,310 @@
+{
+  "team_en": "Germany",
+  "team_cn": "德国",
+  "fifa_code": "GER",
+  "coach": "Julian Nagelsmann",
+  "group": "E",
+  "players": [
+    {
+      "name_en": "Manuel Neuer",
+      "name_cn": "诺伊尔",
+      "position": "GK",
+      "club": "Bayern Munich",
+      "age": 40,
+      "club_country": "Germany",
+      "transfermarkt_url": "https://www.transfermarkt.com/manuel-neuer/profil/spieler/172604",
+      "profile_url": "https://www.transfermarkt.com/manuel-neuer/profil/spieler/172604/statistik",
+      "basic_info": {},
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Oliver Baumann",
+      "name_cn": "奥利弗·鲍曼",
+      "position": "GK",
+      "club": "Hoffenheim",
+      "age": 34,
+      "club_country": "Germany",
+      "transfermarkt_url": "https://www.transfermarkt.com/oliver-baumann/profil/spieler/68411",
+      "profile_url": "https://www.transfermarkt.com/oliver-baumann/profil/spieler/68411/statistik",
+      "basic_info": {
+        "date_of_birth": "23/01/1975 (51)",
+        "caps_goals": "28 / 1"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Alexander Nübel",
+      "name_cn": "亚历山大·努贝尔",
+      "position": "GK",
+      "club": "Stuttgart",
+      "age": 28,
+      "club_country": "Germany",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "Joshua Kimmich",
+      "name_cn": "基米希",
+      "position": "DF",
+      "club": "Bayern Munich",
+      "age": 30,
+      "club_country": "Germany",
+      "transfermarkt_url": "https://www.transfermarkt.com/joshua-kimmich/profil/spieler/182452",
+      "profile_url": "https://www.transfermarkt.com/joshua-kimmich/profil/spieler/182452/statistik",
+      "basic_info": {
+        "date_of_birth": "01/01/1991 (35)",
+        "height": "1,73 m"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Antonio Rüdiger",
+      "name_cn": "吕迪格",
+      "position": "DF",
+      "club": "Real Madrid",
+      "age": 31,
+      "club_country": "Spain",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "Nico Schlotterbeck",
+      "name_cn": "施洛特贝克",
+      "position": "DF",
+      "club": "Borussia Dortmund",
+      "age": 25,
+      "club_country": "Germany",
+      "transfermarkt_url": "https://www.transfermarkt.com/nico-schlotterbeck/profil/spieler/614378",
+      "profile_url": "https://www.transfermarkt.com/nico-schlotterbeck/profil/spieler/614378/statistik",
+      "basic_info": {
+        "date_of_birth": "15/12/1995 (30)"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Jonathan Tah",
+      "name_cn": "若纳唐·塔",
+      "position": "DF",
+      "club": "Bayern Munich",
+      "age": 28,
+      "club_country": "Germany",
+      "transfermarkt_url": "https://www.transfermarkt.com/jonathan-tah/profil/spieler/279375",
+      "profile_url": "https://www.transfermarkt.com/jonathan-tah/profil/spieler/279375/statistik",
+      "basic_info": {
+        "date_of_birth": "10/07/1996 (29)"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Waldemar Anton",
+      "name_cn": "瓦尔德马尔·安东",
+      "position": "DF",
+      "club": "Borussia Dortmund",
+      "age": 28,
+      "club_country": "Germany",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "David Raum",
+      "name_cn": "劳姆",
+      "position": "DF",
+      "club": "RB Leipzig",
+      "age": 27,
+      "club_country": "Germany",
+      "transfermarkt_url": "https://www.transfermarkt.com/david-raum/profil/spieler/562371",
+      "profile_url": "https://www.transfermarkt.com/david-raum/profil/spieler/562371/statistik",
+      "basic_info": {
+        "date_of_birth": "23/07/1990 (35)"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Malick Thiaw",
+      "name_cn": "马利克·蒂亚乌",
+      "position": "DF",
+      "club": "Newcastle United",
+      "age": 23,
+      "club_country": "England",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "Nathaniel Brown",
+      "name_cn": "纳撒尼尔·布朗",
+      "position": "DF",
+      "club": "Eintracht Frankfurt",
+      "age": 21,
+      "club_country": "Germany",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "Jamal Musiala",
+      "name_cn": "穆西亚拉",
+      "position": "MF",
+      "club": "Bayern Munich",
+      "age": 22,
+      "club_country": "Germany",
+      "transfermarkt_url": "https://www.transfermarkt.com/jamal-musiala/profil/spieler/356317",
+      "profile_url": "https://www.transfermarkt.com/jamal-musiala/profil/spieler/356317/statistik",
+      "basic_info": {
+        "date_of_birth": "25/02/1997 (29)"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Florian Wirtz",
+      "name_cn": "维尔茨",
+      "position": "MF",
+      "club": "Liverpool",
+      "age": 22,
+      "club_country": "England",
+      "transfermarkt_url": "https://www.transfermarkt.com/florian-wirtz/profil/spieler/514103",
+      "profile_url": "https://www.transfermarkt.com/florian-wirtz/profil/spieler/514103/statistik",
+      "basic_info": {},
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Leon Goretzka",
+      "name_cn": "格雷茨卡",
+      "position": "MF",
+      "club": "Bayern Munich",
+      "age": 30,
+      "club_country": "Germany",
+      "transfermarkt_url": "https://www.transfermarkt.com/leon-goretzka/profil/spieler/182450",
+      "profile_url": "https://www.transfermarkt.com/leon-goretzka/profil/spieler/182450/statistik",
+      "basic_info": {
+        "date_of_birth": "08/03/1994 (32)",
+        "height": "1,80 m",
+        "caps_goals": "0 / 0"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Aleksandar Pavlović",
+      "name_cn": "帕夫洛维奇",
+      "position": "MF",
+      "club": "Bayern Munich",
+      "age": 21,
+      "club_country": "Germany",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "Pascal Groß",
+      "name_cn": "格罗斯",
+      "position": "MF",
+      "club": "Brighton & Hove Albion",
+      "age": 33,
+      "club_country": "England",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "Angelo Stiller",
+      "name_cn": "安杰洛·斯蒂勒",
+      "position": "MF",
+      "club": "Stuttgart",
+      "age": 23,
+      "club_country": "Germany",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "Felix Nmecha",
+      "name_cn": "费利克斯·恩梅加",
+      "position": "MF",
+      "club": "Borussia Dortmund",
+      "age": 24,
+      "club_country": "Germany",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "Nadiem Amiri",
+      "name_cn": "纳迪姆·阿米里",
+      "position": "MF",
+      "club": "Mainz 05",
+      "age": 28,
+      "club_country": "Germany",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "Leroy Sané",
+      "name_cn": "萨内",
+      "position": "MF",
+      "club": "Galatasaray",
+      "age": 28,
+      "club_country": "Turkey",
+      "transfermarkt_url": "https://www.transfermarkt.com/leroy-sane/profil/spieler/205012",
+      "profile_url": "https://www.transfermarkt.com/leroy-sane/profil/spieler/205012/statistik",
+      "basic_info": {
+        "date_of_birth": "17/07/1988 (37)"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Kai Havertz",
+      "name_cn": "哈弗茨",
+      "position": "FW",
+      "club": "Arsenal",
+      "age": 25,
+      "club_country": "England",
+      "transfermarkt_url": "https://www.transfermarkt.com/kai-havertz/profil/spieler/236537",
+      "profile_url": "https://www.transfermarkt.com/kai-havertz/profil/spieler/236537/statistik",
+      "basic_info": {
+        "date_of_birth": "08/01/1993 (33)",
+        "height": "1,82 m"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Deniz Undav",
+      "name_cn": "翁达夫",
+      "position": "FW",
+      "club": "Stuttgart",
+      "age": 23,
+      "club_country": "Germany",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "Jamie Leweling",
+      "name_cn": "杰米·勒韦林",
+      "position": "FW",
+      "club": "Stuttgart",
+      "age": 23,
+      "club_country": "Germany",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "Maximilian Beier",
+      "name_cn": "贝希尔",
+      "position": "FW",
+      "club": "Borussia Dortmund",
+      "age": 22,
+      "club_country": "Germany",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "Nick Woltemade",
+      "name_cn": "沃尔特马德",
+      "position": "FW",
+      "club": "Newcastle United",
+      "age": 22,
+      "club_country": "England",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "Lennart Karl",
+      "name_cn": "伦纳特·卡尔",
+      "position": "FW",
+      "club": "Bayern Munich",
+      "age": 20,
+      "club_country": "Germany",
+      "transfermarkt_url": null
+    }
+  ]
+}

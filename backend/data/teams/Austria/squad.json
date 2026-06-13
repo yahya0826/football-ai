@@ -1,0 +1,281 @@
+{
+  "team": "Austria",
+  "player_count": 25,
+  "players": [
+    {
+      "id": "alexander-schlager",
+      "name": "Alexander Schlager",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 1,
+      "club": "Red Bull Salzburg",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "david-affengruber",
+      "name": "David Affengruber",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 2,
+      "club": "Elche",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "kevin-danso",
+      "name": "Kevin Danso",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 3,
+      "club": "Tottenham Hotspur",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "xaver-schlager",
+      "name": "Xaver Schlager",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 4,
+      "club": "RB Leipzig",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "stefan-posch",
+      "name": "Stefan Posch",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 5,
+      "club": "Mainz 05",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "nicolas-seiwald",
+      "name": "Nicolas Seiwald",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 6,
+      "club": "RB Leipzig",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "marko-arnautovi",
+      "name": "Marko Arnautović",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 7,
+      "club": "Red Star Belgrade",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "david-alaba",
+      "name": "David Alaba",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 8,
+      "club": "Real Madrid",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "marcel-sabitzer",
+      "name": "Marcel Sabitzer",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 9,
+      "club": "Borussia Dortmund",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "florian-grillitsch",
+      "name": "Florian Grillitsch",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 10,
+      "club": "Braga",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "michael-gregoritsch",
+      "name": "Michael Gregoritsch",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 11,
+      "club": "FC Augsburg",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "florian-wiegele",
+      "name": "Florian Wiegele",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 12,
+      "club": "Viktoria Plzeň",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "patrick-pentz",
+      "name": "Patrick Pentz",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 13,
+      "club": "Brøndby",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "sa-a-kalajd-i",
+      "name": "Saša Kalajdžić",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 14,
+      "club": "LASK",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "philipp-lienhart",
+      "name": "Philipp Lienhart",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 15,
+      "club": "SC Freiburg",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "phillipp-mwene",
+      "name": "Phillipp Mwene",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 16,
+      "club": "Mainz 05",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "carney-chukwuemeka",
+      "name": "Carney Chukwuemeka",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 17,
+      "club": "Borussia Dortmund",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "romano-schmid",
+      "name": "Romano Schmid",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 18,
+      "club": "Werder Bremen",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "konrad-laimer",
+      "name": "Konrad Laimer",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 20,
+      "club": "Bayern Munich",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "patrick-wimmer",
+      "name": "Patrick Wimmer",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 21,
+      "club": "VfL Wolfsburg",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "alexander-prass",
+      "name": "Alexander Prass",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 22,
+      "club": "TSG Hoffenheim",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "marco-friedl",
+      "name": "Marco Friedl",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 23,
+      "club": "Werder Bremen",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "paul-wanner",
+      "name": "Paul Wanner",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 24,
+      "club": "PSV Eindhoven",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "michael-svoboda",
+      "name": "Michael Svoboda",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 25,
+      "club": "Venezia",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "alessandro-sch-pf",
+      "name": "Alessandro Schöpf",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 26,
+      "club": "Wolfsberger AC",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    }
+  ]
+}

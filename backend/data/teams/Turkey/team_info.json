@@ -1,0 +1,170 @@
+{
+  "team_en": "Turkey",
+  "team_cn": "土耳其",
+  "confederation": "UEFA",
+  "group": "D",
+  "stats": {
+    "total_matches": 232,
+    "wins": 113,
+    "draws": 57,
+    "losses": 62,
+    "goals_for": 372,
+    "goals_against": 269
+  },
+  "recent_matches": [
+    {
+      "date": "2026-06-25",
+      "home_team": "United States",
+      "away_team": "Turkey",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Inglewood",
+      "country": "United States",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2026-06-19",
+      "home_team": "Turkey",
+      "away_team": "Paraguay",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Santa Clara",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-06-13",
+      "home_team": "Australia",
+      "away_team": "Turkey",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Vancouver",
+      "country": "Canada",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-03-31",
+      "home_team": "Kosovo",
+      "away_team": "Turkey",
+      "home_score": "0",
+      "away_score": "1",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Pristina",
+      "country": "Kosovo",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2026-03-26",
+      "home_team": "Turkey",
+      "away_team": "Romania",
+      "home_score": "1",
+      "away_score": "0",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Istanbul",
+      "country": "Turkey",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-11-18",
+      "home_team": "Spain",
+      "away_team": "Turkey",
+      "home_score": "2",
+      "away_score": "2",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Seville",
+      "country": "Spain",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-11-15",
+      "home_team": "Turkey",
+      "away_team": "Bulgaria",
+      "home_score": "2",
+      "away_score": "0",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Bursa",
+      "country": "Turkey",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-10-14",
+      "home_team": "Turkey",
+      "away_team": "Georgia",
+      "home_score": "4",
+      "away_score": "1",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Izmit",
+      "country": "Turkey",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-10-11",
+      "home_team": "Bulgaria",
+      "away_team": "Turkey",
+      "home_score": "1",
+      "away_score": "6",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Sofia",
+      "country": "Bulgaria",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-09-07",
+      "home_team": "Turkey",
+      "away_team": "Spain",
+      "home_score": "0",
+      "away_score": "6",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Konya",
+      "country": "Turkey",
+      "neutral": "FALSE"
+    }
+  ],
+  "matches_by_year": {
+    "2026": 5,
+    "2025": 10,
+    "2024": 15,
+    "2023": 10,
+    "2022": 10,
+    "2021": 16,
+    "2020": 8,
+    "2019": 12,
+    "2018": 11,
+    "2017": 10,
+    "2016": 13,
+    "2015": 10,
+    "2014": 10,
+    "2013": 12,
+    "2012": 12,
+    "2011": 10,
+    "2010": 10,
+    "2009": 10,
+    "2008": 16,
+    "2007": 12,
+    "2006": 13
+  },
+  "tournament_breakdown": {
+    "Friendly": 91,
+    "UEFA Euro qualification": 52,
+    "FIFA World Cup qualification": 49,
+    "UEFA Nations League": 24,
+    "UEFA Euro": 16,
+    "FIFA World Cup": 3
+  },
+  "total_matches_20y": 235,
+  "elo_rating": 1513,
+  "odds": {
+    "decimal_odds": 101.0,
+    "implied_probability": 1.0,
+    "rank": 19,
+    "platforms": {
+      "Bet365": 101.0,
+      "William Hill": 101.0,
+      "DraftKings": 100.0
+    }
+  },
+  "fifa_ranking": null
+}

@@ -1,0 +1,200 @@
+[
+  {
+    "position": "GK",
+    "name": "Goalkeeper",
+    "name_cn": "守门员",
+    "line": "GK",
+    "description": "最后一道防线，也是进攻的第一发起点。现代门将需要脚下技术和出击能力。",
+    "primary_attributes": ["defending", "physical"],
+    "secondary_attributes": ["passing", "speed"],
+    "ideal_profile": {"speed": 50, "shooting": 20, "passing": 55, "dribbling": 30, "defending": 85, "physical": 75},
+    "weight_vector": {"speed": 0.08, "shooting": 0.00, "passing": 0.15, "dribbling": 0.05, "defending": 0.45, "physical": 0.27}
+  },
+  {
+    "position": "CB",
+    "name": "Center Back",
+    "name_cn": "中后卫",
+    "line": "DEF",
+    "description": "防守核心，负责组织后防线、赢得空中对抗、封堵射门。现代中卫还需出球能力。",
+    "primary_attributes": ["defending", "physical"],
+    "secondary_attributes": ["speed", "passing"],
+    "ideal_profile": {"speed": 65, "shooting": 30, "passing": 65, "dribbling": 35, "defending": 85, "physical": 80},
+    "weight_vector": {"speed": 0.12, "shooting": 0.00, "passing": 0.13, "dribbling": 0.05, "defending": 0.38, "physical": 0.32}
+  },
+  {
+    "position": "LB",
+    "name": "Left Back",
+    "name_cn": "左后卫",
+    "line": "DEF",
+    "description": "左边路防守者，同时需要参与进攻提供宽度。现代边后卫要求攻防兼备。",
+    "primary_attributes": ["speed", "defending"],
+    "secondary_attributes": ["passing", "physical"],
+    "ideal_profile": {"speed": 78, "shooting": 35, "passing": 68, "dribbling": 62, "defending": 72, "physical": 68},
+    "weight_vector": {"speed": 0.28, "shooting": 0.02, "passing": 0.18, "dribbling": 0.12, "defending": 0.25, "physical": 0.15}
+  },
+  {
+    "position": "RB",
+    "name": "Right Back",
+    "name_cn": "右后卫",
+    "line": "DEF",
+    "description": "右边路防守者，职责与左后卫对称。需要出色的往返能力和传中技术。",
+    "primary_attributes": ["speed", "defending"],
+    "secondary_attributes": ["passing", "physical"],
+    "ideal_profile": {"speed": 78, "shooting": 35, "passing": 68, "dribbling": 62, "defending": 72, "physical": 68},
+    "weight_vector": {"speed": 0.28, "shooting": 0.02, "passing": 0.18, "dribbling": 0.12, "defending": 0.25, "physical": 0.15}
+  },
+  {
+    "position": "LWB",
+    "name": "Left Wing-Back",
+    "name_cn": "左边翼卫",
+    "line": "DEF",
+    "description": "三中卫体系中的左边路球员，攻防覆盖范围比传统边后卫更大，是球队唯一的边路宽度来源。",
+    "primary_attributes": ["speed", "physical"],
+    "secondary_attributes": ["dribbling", "passing"],
+    "ideal_profile": {"speed": 82, "shooting": 40, "passing": 70, "dribbling": 68, "defending": 62, "physical": 78},
+    "weight_vector": {"speed": 0.25, "shooting": 0.05, "passing": 0.18, "dribbling": 0.15, "defending": 0.15, "physical": 0.22}
+  },
+  {
+    "position": "RWB",
+    "name": "Right Wing-Back",
+    "name_cn": "右边翼卫",
+    "line": "DEF",
+    "description": "三中卫体系中的右边路球员，职责与左边翼卫对称。是阵型成功与否最关键的环节。",
+    "primary_attributes": ["speed", "physical"],
+    "secondary_attributes": ["dribbling", "passing"],
+    "ideal_profile": {"speed": 82, "shooting": 40, "passing": 70, "dribbling": 68, "defending": 62, "physical": 78},
+    "weight_vector": {"speed": 0.25, "shooting": 0.05, "passing": 0.18, "dribbling": 0.15, "defending": 0.15, "physical": 0.22}
+  },
+  {
+    "position": "CDM",
+    "name": "Defensive Midfielder",
+    "name_cn": "后腰",
+    "line": "MID",
+    "description": "后卫线前的屏障，负责拦截、抢断、组织由守转攻。是球队的战术支点。",
+    "primary_attributes": ["defending", "physical"],
+    "secondary_attributes": ["passing", "speed"],
+    "ideal_profile": {"speed": 62, "shooting": 40, "passing": 72, "dribbling": 48, "defending": 80, "physical": 78},
+    "weight_vector": {"speed": 0.10, "shooting": 0.02, "passing": 0.20, "dribbling": 0.05, "defending": 0.35, "physical": 0.28}
+  },
+  {
+    "position": "CM",
+    "name": "Central Midfielder",
+    "name_cn": "中前卫",
+    "line": "MID",
+    "description": "球队引擎，攻防两端都需要贡献。需要出色的传球视野、跑动能力和比赛阅读。",
+    "primary_attributes": ["passing", "physical"],
+    "secondary_attributes": ["dribbling", "defending"],
+    "ideal_profile": {"speed": 65, "shooting": 55, "passing": 78, "dribbling": 65, "defending": 65, "physical": 72},
+    "weight_vector": {"speed": 0.12, "shooting": 0.10, "passing": 0.28, "dribbling": 0.15, "defending": 0.18, "physical": 0.17}
+  },
+  {
+    "position": "CAM",
+    "name": "Attacking Midfielder",
+    "name_cn": "前腰",
+    "line": "MID",
+    "description": "创造核心，在前锋身后寻找空间、送出关键传球、远射得分。需要有在小空间内处理球的能力。",
+    "primary_attributes": ["passing", "dribbling"],
+    "secondary_attributes": ["shooting", "speed"],
+    "ideal_profile": {"speed": 68, "shooting": 70, "passing": 82, "dribbling": 78, "defending": 30, "physical": 55},
+    "weight_vector": {"speed": 0.14, "shooting": 0.22, "passing": 0.28, "dribbling": 0.22, "defending": 0.02, "physical": 0.12}
+  },
+  {
+    "position": "LM",
+    "name": "Left Midfielder",
+    "name_cn": "左前卫",
+    "line": "MID",
+    "description": "4-4-2体系中的左边路球员，兼顾防守和进攻宽度。需要充沛体能覆盖整条边路。",
+    "primary_attributes": ["speed", "passing"],
+    "secondary_attributes": ["dribbling", "defending"],
+    "ideal_profile": {"speed": 72, "shooting": 50, "passing": 68, "dribbling": 65, "defending": 55, "physical": 65},
+    "weight_vector": {"speed": 0.24, "shooting": 0.10, "passing": 0.22, "dribbling": 0.14, "defending": 0.15, "physical": 0.15}
+  },
+  {
+    "position": "RM",
+    "name": "Right Midfielder",
+    "name_cn": "右前卫",
+    "line": "MID",
+    "description": "4-4-2体系中的右边路球员，职责与左前卫对称。需要传中能力和防守纪律。",
+    "primary_attributes": ["speed", "passing"],
+    "secondary_attributes": ["dribbling", "defending"],
+    "ideal_profile": {"speed": 72, "shooting": 50, "passing": 68, "dribbling": 65, "defending": 55, "physical": 65},
+    "weight_vector": {"speed": 0.24, "shooting": 0.10, "passing": 0.22, "dribbling": 0.14, "defending": 0.15, "physical": 0.15}
+  },
+  {
+    "position": "LW",
+    "name": "Left Winger",
+    "name_cn": "左边锋",
+    "line": "FWD",
+    "description": "左路攻击手，利用速度和盘带突破防线，内切射门或下底传中。现代边锋需兼具得分和组织能力。",
+    "primary_attributes": ["speed", "dribbling"],
+    "secondary_attributes": ["shooting", "passing"],
+    "ideal_profile": {"speed": 82, "shooting": 68, "passing": 65, "dribbling": 80, "defending": 25, "physical": 55},
+    "weight_vector": {"speed": 0.28, "shooting": 0.18, "passing": 0.12, "dribbling": 0.28, "defending": 0.02, "physical": 0.12}
+  },
+  {
+    "position": "RW",
+    "name": "Right Winger",
+    "name_cn": "右边锋",
+    "line": "FWD",
+    "description": "右路攻击手，职责与左边锋对称。逆足边锋内切射门是现代足球的常用战术。",
+    "primary_attributes": ["speed", "dribbling"],
+    "secondary_attributes": ["shooting", "passing"],
+    "ideal_profile": {"speed": 82, "shooting": 68, "passing": 65, "dribbling": 80, "defending": 25, "physical": 55},
+    "weight_vector": {"speed": 0.28, "shooting": 0.18, "passing": 0.12, "dribbling": 0.28, "defending": 0.02, "physical": 0.12}
+  },
+  {
+    "position": "ST",
+    "name": "Striker",
+    "name_cn": "中锋",
+    "line": "FWD",
+    "description": "球队的主要得分手，负责在禁区内终结进攻、背身做球、通过跑动拉扯防线。",
+    "primary_attributes": ["shooting", "physical"],
+    "secondary_attributes": ["speed", "dribbling"],
+    "ideal_profile": {"speed": 72, "shooting": 85, "passing": 50, "dribbling": 65, "defending": 15, "physical": 75},
+    "weight_vector": {"speed": 0.18, "shooting": 0.40, "passing": 0.05, "dribbling": 0.15, "defending": 0.00, "physical": 0.22}
+  },
+  {
+    "position": "CF",
+    "name": "Center Forward",
+    "name_cn": "影锋/拖后前锋",
+    "line": "FWD",
+    "description": "介于中锋和前腰之间的角色，回撤接球组织参与进攻，同时具备得分能力。伪九号即此位置的变体。",
+    "primary_attributes": ["dribbling", "shooting"],
+    "secondary_attributes": ["passing", "speed"],
+    "ideal_profile": {"speed": 70, "shooting": 75, "passing": 72, "dribbling": 78, "defending": 15, "physical": 58},
+    "weight_vector": {"speed": 0.15, "shooting": 0.25, "passing": 0.20, "dribbling": 0.25, "defending": 0.00, "physical": 0.15}
+  },
+  {
+    "position": "DF",
+    "name": "Defender (General)",
+    "name_cn": "后卫（通用）",
+    "line": "DEF",
+    "description": "通用防守球员，根据具体场上位置可能担任中卫或边卫。",
+    "primary_attributes": ["defending", "physical"],
+    "secondary_attributes": ["speed"],
+    "ideal_profile": {"speed": 68, "shooting": 30, "passing": 60, "dribbling": 45, "defending": 78, "physical": 74},
+    "weight_vector": {"speed": 0.18, "shooting": 0.00, "passing": 0.12, "dribbling": 0.08, "defending": 0.38, "physical": 0.24}
+  },
+  {
+    "position": "MF",
+    "name": "Midfielder (General)",
+    "name_cn": "中场（通用）",
+    "line": "MID",
+    "description": "通用中场球员，综合攻防能力。",
+    "primary_attributes": ["passing", "physical"],
+    "secondary_attributes": ["dribbling", "defending"],
+    "ideal_profile": {"speed": 65, "shooting": 55, "passing": 72, "dribbling": 62, "defending": 58, "physical": 68},
+    "weight_vector": {"speed": 0.14, "shooting": 0.10, "passing": 0.26, "dribbling": 0.15, "defending": 0.18, "physical": 0.17}
+  },
+  {
+    "position": "FW",
+    "name": "Forward (General)",
+    "name_cn": "前锋（通用）",
+    "line": "FWD",
+    "description": "通用攻击球员，具备速度、射门和盘带能力。",
+    "primary_attributes": ["speed", "shooting"],
+    "secondary_attributes": ["dribbling"],
+    "ideal_profile": {"speed": 75, "shooting": 72, "passing": 55, "dribbling": 68, "defending": 20, "physical": 60},
+    "weight_vector": {"speed": 0.25, "shooting": 0.30, "passing": 0.08, "dribbling": 0.20, "defending": 0.02, "physical": 0.15}
+  }
+]

@@ -1,0 +1,395 @@
+{
+  "team_en": "South Korea",
+  "team_cn": "韩国",
+  "fifa_code": "KOR",
+  "coach": "洪明甫",
+  "group": "A",
+  "players": [
+    {
+      "name_en": "Kim Seong-gyu",
+      "name_cn": "金承奎",
+      "position": "GK",
+      "club": "FC Tokyo",
+      "age": 34,
+      "club_country": "Japan",
+      "transfermarkt_url": "https://www.transfermarkt.com/kim-seong-gyu/profil/spieler/124948",
+      "profile_url": "https://www.transfermarkt.com/kim-seong-gyu/profil/spieler/124948/statistik",
+      "basic_info": {},
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Jo Hyeon-woo",
+      "name_cn": "赵贤祐",
+      "position": "GK",
+      "club": "Ulsan HD",
+      "age": 33,
+      "club_country": "South Korea",
+      "transfermarkt_url": "https://www.transfermarkt.com/jo-hyeon-woo/profil/spieler/136548",
+      "profile_url": "https://www.transfermarkt.com/jo-hyeon-woo/profil/spieler/136548/statistik",
+      "basic_info": {
+        "date_of_birth": "23/11/1988 (37)"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Song Bum-keun",
+      "name_cn": "宋范根",
+      "position": "GK",
+      "club": "Jeonbuk Motors",
+      "age": 27,
+      "club_country": "South Korea",
+      "transfermarkt_url": "https://www.transfermarkt.com/song-bum-keun/profil/spieler/477351",
+      "profile_url": "https://www.transfermarkt.com/song-bum-keun/profil/spieler/477351/statistik",
+      "basic_info": {
+        "height": "1,84 m"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Kim Min-jae",
+      "name_cn": "金玟哉",
+      "position": "DF",
+      "club": "Bayern Munich",
+      "age": 28,
+      "club_country": "Germany",
+      "transfermarkt_url": "https://www.transfermarkt.com/kim-min-jae/profil/spieler/446466",
+      "profile_url": "https://www.transfermarkt.com/kim-min-jae/profil/spieler/446466/statistik",
+      "basic_info": {},
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Cho Yu-min",
+      "name_cn": "曹侑珉",
+      "position": "DF",
+      "club": "Sharjah",
+      "age": 28,
+      "club_country": "UAE",
+      "transfermarkt_url": "https://www.transfermarkt.com/cho-yu-min/profil/spieler/542603",
+      "profile_url": "https://www.transfermarkt.com/cho-yu-min/profil/spieler/542603/statistik",
+      "basic_info": {
+        "date_of_birth": "31/03/1997 (29)",
+        "height": "1,83 m"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Lee Han-been",
+      "name_cn": "李韩泛",
+      "position": "DF",
+      "club": "Midtjylland",
+      "age": 23,
+      "club_country": "Denmark",
+      "transfermarkt_url": "https://www.transfermarkt.com/lee-han-been/profil/spieler/1171201",
+      "profile_url": "https://www.transfermarkt.com/lee-han-been/profil/spieler/1171201/statistik",
+      "basic_info": {
+        "date_of_birth": "06/11/2005 (20)"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Lee Ki-hyuk",
+      "name_cn": "李期奕",
+      "position": "DF",
+      "club": "Gangwon FC",
+      "age": 24,
+      "club_country": "South Korea",
+      "transfermarkt_url": "https://www.transfermarkt.com/lee-ki-hyuk/profil/spieler/1093646",
+      "profile_url": "https://www.transfermarkt.com/lee-ki-hyuk/profil/spieler/1093646/statistik",
+      "basic_info": {
+        "date_of_birth": "02/10/2000 (25)",
+        "height": "1,73 m"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Kim Tae-hyun",
+      "name_cn": "金太铉",
+      "position": "DF",
+      "club": "Kashima Antlers",
+      "age": 24,
+      "club_country": "Japan",
+      "transfermarkt_url": "https://www.transfermarkt.com/kim-tae-hyun/profil/spieler/1011799",
+      "profile_url": "https://www.transfermarkt.com/kim-tae-hyun/profil/spieler/1011799/statistik",
+      "basic_info": {},
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Lee Tae-soo",
+      "name_cn": "李太锡",
+      "position": "DF",
+      "club": "Austria Wien",
+      "age": 23,
+      "club_country": "Austria",
+      "transfermarkt_url": "https://www.transfermarkt.com/lee-tae-soo/profil/spieler/821677",
+      "profile_url": "https://www.transfermarkt.com/lee-tae-soo/profil/spieler/821677/statistik",
+      "basic_info": {
+        "date_of_birth": "13/08/2004 (21)",
+        "height": "1,89 m"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Seol Young-woo",
+      "name_cn": "薛英佑",
+      "position": "DF",
+      "club": "Red Star Belgrade",
+      "age": 22,
+      "club_country": "Serbia",
+      "transfermarkt_url": "https://www.transfermarkt.com/seol-young-woo/profil/spieler/877237",
+      "profile_url": "https://www.transfermarkt.com/seol-young-woo/profil/spieler/877237/statistik",
+      "basic_info": {
+        "date_of_birth": "24/12/2004 (21)"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Yankuba Ceesay",
+      "name_cn": "延斯卡斯特罗普",
+      "position": "DF",
+      "club": "Mönchengladbach",
+      "age": 24,
+      "club_country": "Germany",
+      "transfermarkt_url": "https://www.transfermarkt.com/yankuba-ceesay/profil/spieler/1213794",
+      "profile_url": "https://www.transfermarkt.com/yankuba-ceesay/profil/spieler/1213794/statistik",
+      "basic_info": {
+        "date_of_birth": "1962"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Kim Moon-hwan",
+      "name_cn": "金纹焕",
+      "position": "DF",
+      "club": "Daejeon KOGAS",
+      "age": 29,
+      "club_country": "South Korea",
+      "transfermarkt_url": "https://www.transfermarkt.com/kim-moon-hwan/profil/spieler/390179",
+      "profile_url": "https://www.transfermarkt.com/kim-moon-hwan/profil/spieler/390179/statistik",
+      "basic_info": {
+        "date_of_birth": "24/06/1999 (26)",
+        "height": "1,74 m",
+        "caps_goals": "18 / 2"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Park Jin-seop",
+      "name_cn": "朴镇燮",
+      "position": "DF",
+      "club": "Zhejiang FC",
+      "age": 27,
+      "club_country": "China",
+      "transfermarkt_url": "https://www.transfermarkt.com/park-jin-seop/profil/spieler/391259",
+      "profile_url": "https://www.transfermarkt.com/park-jin-seop/profil/spieler/391259/statistik",
+      "basic_info": {},
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Yang Hyun-jun",
+      "name_cn": "梁铉俊",
+      "position": "MF",
+      "club": "Celtic",
+      "age": 22,
+      "club_country": "Scotland",
+      "transfermarkt_url": "https://www.transfermarkt.com/yang-hyun-jun/profil/spieler/866983",
+      "profile_url": "https://www.transfermarkt.com/yang-hyun-jun/profil/spieler/866983/statistik",
+      "basic_info": {
+        "date_of_birth": "16/09/1970 (55)"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Baek Sung-ho",
+      "name_cn": "白升浩",
+      "position": "MF",
+      "club": "Birmingham City",
+      "age": 24,
+      "club_country": "England",
+      "transfermarkt_url": "https://www.transfermarkt.com/baek-sung-ho/profil/spieler/1182908",
+      "profile_url": "https://www.transfermarkt.com/baek-sung-ho/profil/spieler/1182908/statistik",
+      "basic_info": {
+        "date_of_birth": "02/04/2006 (20)",
+        "height": "1,81 m"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Hwang In-beom",
+      "name_cn": "黄仁范",
+      "position": "MF",
+      "club": "Feyenoord",
+      "age": 28,
+      "club_country": "Netherlands",
+      "transfermarkt_url": "https://www.transfermarkt.com/hwang-in-beom/profil/spieler/391231",
+      "profile_url": "https://www.transfermarkt.com/hwang-in-beom/profil/spieler/391231/statistik",
+      "basic_info": {},
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Lee Dong-gyeong",
+      "name_cn": "李东炅",
+      "position": "MF",
+      "club": "Ulsan HD",
+      "age": 28,
+      "club_country": "South Korea",
+      "transfermarkt_url": "https://www.transfermarkt.com/lee-dong-gyeong/profil/spieler/391236",
+      "profile_url": "https://www.transfermarkt.com/lee-dong-gyeong/profil/spieler/391236/statistik",
+      "basic_info": {},
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Kim Jin-kyu",
+      "name_cn": "金镇圭",
+      "position": "MF",
+      "club": "Jeonbuk Motors",
+      "age": 26,
+      "club_country": "South Korea",
+      "transfermarkt_url": "https://www.transfermarkt.com/kim-jin-kyu/profil/spieler/977825",
+      "profile_url": "https://www.transfermarkt.com/kim-jin-kyu/profil/spieler/977825/statistik",
+      "basic_info": {
+        "date_of_birth": "1913"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Bae Jun-ho",
+      "name_cn": "裴俊浩",
+      "position": "MF",
+      "club": "Stoke City",
+      "age": 21,
+      "club_country": "England",
+      "transfermarkt_url": "https://www.transfermarkt.com/bae-jun-ho/profil/spieler/1067549",
+      "profile_url": "https://www.transfermarkt.com/bae-jun-ho/profil/spieler/1067549/statistik",
+      "basic_info": {
+        "date_of_birth": "19/01/2004 (22)"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Um Ji-sung",
+      "name_cn": "严智星",
+      "position": "MF",
+      "club": "Swansea City",
+      "age": 23,
+      "club_country": "Wales",
+      "transfermarkt_url": "https://www.transfermarkt.com/um-ji-sung/profil/spieler/1031239",
+      "profile_url": "https://www.transfermarkt.com/um-ji-sung/profil/spieler/1031239/statistik",
+      "basic_info": {},
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Hwang Hee-chan",
+      "name_cn": "黄喜灿",
+      "position": "MF",
+      "club": "Wolves",
+      "age": 28,
+      "club_country": "England",
+      "transfermarkt_url": "https://www.transfermarkt.com/hwang-hee-chan/profil/spieler/196948",
+      "profile_url": "https://www.transfermarkt.com/hwang-hee-chan/profil/spieler/196948/statistik",
+      "basic_info": {
+        "date_of_birth": "10/04/1996 (30)",
+        "height": "1,87 m",
+        "caps_goals": "80 / 4"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Lee Jae-sung",
+      "name_cn": "李在城",
+      "position": "MF",
+      "club": "Mainz 05",
+      "age": 31,
+      "club_country": "Germany",
+      "transfermarkt_url": "https://www.transfermarkt.com/lee-jae-sung/profil/spieler/196949",
+      "profile_url": "https://www.transfermarkt.com/lee-jae-sung/profil/spieler/196949/statistik",
+      "basic_info": {
+        "date_of_birth": "16/01/1993 (33)",
+        "height": "1,87 m"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Lee Kang-in",
+      "name_cn": "李刚仁",
+      "position": "MF",
+      "club": "Paris Saint-Germain",
+      "age": 24,
+      "club_country": "France",
+      "transfermarkt_url": "https://www.transfermarkt.com/lee-kang-in/profil/spieler/654552",
+      "profile_url": "https://www.transfermarkt.com/lee-kang-in/profil/spieler/654552/statistik",
+      "basic_info": {
+        "date_of_birth": "20/07/1979 (46)",
+        "caps_goals": "1 / 0"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Son Heung-min",
+      "name_cn": "孙兴慜",
+      "position": "FW",
+      "club": "Los Angeles FC",
+      "age": 33,
+      "club_country": "USA",
+      "transfermarkt_url": "https://www.transfermarkt.com/heung-min-son/profil/spieler/91845",
+      "profile_url": "https://www.transfermarkt.com/heung-min-son/profil/spieler/91845/statistik",
+      "basic_info": {
+        "date_of_birth": "08/07/1992 (33)",
+        "height": "1,84 m",
+        "caps_goals": "143 / 54"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Oh Hyun-kyu",
+      "name_cn": "吴贤揆",
+      "position": "FW",
+      "club": "Beşiktaş",
+      "age": 22,
+      "club_country": "Turkey",
+      "transfermarkt_url": "https://www.transfermarkt.com/oh-hyun-kyu/profil/spieler/1028912",
+      "profile_url": "https://www.transfermarkt.com/oh-hyun-kyu/profil/spieler/1028912/statistik",
+      "basic_info": {
+        "height": "1,77 m"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Cho Gue-sung",
+      "name_cn": "曹圭成",
+      "position": "FW",
+      "club": "Midtjylland",
+      "age": 27,
+      "club_country": "Denmark",
+      "transfermarkt_url": "https://www.transfermarkt.com/cho-gue-sung/profil/spieler/624658",
+      "profile_url": "https://www.transfermarkt.com/cho-gue-sung/profil/spieler/624658/statistik",
+      "basic_info": {},
+      "current_season": {},
+      "market_value": null
+    }
+  ]
+}

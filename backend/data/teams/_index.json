@@ -1,0 +1,1028 @@
+{
+  "teams": {
+    "teams": {
+      "teams": {
+        "teams": {
+          "teams": {
+            "teams": {
+              "Czech Republic": 26,
+              "Mexico": 26,
+              "South Africa": 26,
+              "South Korea": 26,
+              "Bosnia and Herzegovina": 26,
+              "Canada": 25,
+              "Qatar": 26,
+              "Switzerland": 26,
+              "Brazil": 26,
+              "Haiti": 26,
+              "Morocco": 26,
+              "Scotland": 26,
+              "Australia": 26,
+              "Paraguay": 26,
+              "Turkey": 26,
+              "United States": 26,
+              "Curaçao": 26,
+              "Ecuador": 26,
+              "Germany": 26,
+              "Ivory Coast": 26,
+              "Japan": 26,
+              "Netherlands": 26,
+              "Sweden": 26,
+              "Tunisia": 26,
+              "Belgium": 26,
+              "Egypt": 26,
+              "Iran": 26,
+              "New Zealand": 26,
+              "Cape Verde": 26,
+              "Saudi Arabia": 26,
+              "Spain": 26,
+              "Uruguay": 26,
+              "France": 26,
+              "Iraq": 26,
+              "Norway": 26,
+              "Senegal": 26,
+              "Algeria": 26,
+              "Argentina": 26,
+              "Austria": 25,
+              "Jordan": 26,
+              "Colombia": 26,
+              "DR Congo": 26,
+              "Portugal": 26,
+              "Uzbekistan": 26,
+              "Croatia": 26,
+              "England": 26,
+              "Ghana": 26,
+              "Panama": 26
+            },
+            "total_teams": 48,
+            "Czech Republic": {
+              "total": 26,
+              "matched": 1
+            },
+            "Mexico": {
+              "total": 26,
+              "matched": 0
+            },
+            "South Africa": {
+              "total": 26,
+              "matched": 1
+            },
+            "South Korea": {
+              "total": 26,
+              "matched": 0
+            },
+            "Bosnia and Herzegovina": {
+              "total": 26,
+              "matched": 0
+            },
+            "Canada": {
+              "total": 25,
+              "matched": 0
+            },
+            "Qatar": {
+              "total": 26,
+              "matched": 0
+            },
+            "Switzerland": {
+              "total": 26,
+              "matched": 4
+            },
+            "Brazil": {
+              "total": 26,
+              "matched": 2
+            },
+            "Haiti": {
+              "total": 26,
+              "matched": 1
+            },
+            "Morocco": {
+              "total": 26,
+              "matched": 3
+            },
+            "Scotland": {
+              "total": 26,
+              "matched": 7
+            },
+            "Australia": {
+              "total": 26,
+              "matched": 0
+            },
+            "Paraguay": {
+              "total": 26,
+              "matched": 1
+            },
+            "Turkey": {
+              "total": 26,
+              "matched": 2
+            },
+            "United States": {
+              "total": 26,
+              "matched": 4
+            },
+            "Curaçao": {
+              "total": 26,
+              "matched": 0
+            },
+            "Ecuador": {
+              "total": 26,
+              "matched": 2
+            },
+            "Germany": {
+              "total": 26,
+              "matched": 5
+            },
+            "Ivory Coast": {
+              "total": 26,
+              "matched": 2
+            },
+            "Japan": {
+              "total": 26,
+              "matched": 1
+            },
+            "Netherlands": {
+              "total": 26,
+              "matched": 14
+            },
+            "Sweden": {
+              "total": 26,
+              "matched": 7
+            },
+            "Tunisia": {
+              "total": 26,
+              "matched": 1
+            },
+            "Belgium": {
+              "total": 26,
+              "matched": 7
+            },
+            "Egypt": {
+              "total": 26,
+              "matched": 2
+            },
+            "Iran": {
+              "total": 26,
+              "matched": 0
+            },
+            "New Zealand": {
+              "total": 26,
+              "matched": 0
+            },
+            "Cape Verde": {
+              "total": 26,
+              "matched": 0
+            },
+            "Saudi Arabia": {
+              "total": 26,
+              "matched": 0
+            },
+            "Spain": {
+              "total": 26,
+              "matched": 0
+            },
+            "Uruguay": {
+              "total": 26,
+              "matched": 0
+            },
+            "France": {
+              "total": 26,
+              "matched": 7
+            },
+            "Iraq": {
+              "total": 26,
+              "matched": 0
+            },
+            "Norway": {
+              "total": 26,
+              "matched": 6
+            },
+            "Senegal": {
+              "total": 26,
+              "matched": 7
+            },
+            "Algeria": {
+              "total": 26,
+              "matched": 1
+            },
+            "Argentina": {
+              "total": 26,
+              "matched": 3
+            },
+            "Austria": {
+              "total": 25,
+              "matched": 0
+            },
+            "Jordan": {
+              "total": 26,
+              "matched": 0
+            },
+            "Colombia": {
+              "total": 26,
+              "matched": 0
+            },
+            "DR Congo": {
+              "total": 26,
+              "matched": 4
+            },
+            "Portugal": {
+              "total": 26,
+              "matched": 5
+            },
+            "Uzbekistan": {
+              "total": 26,
+              "matched": 1
+            },
+            "Croatia": {
+              "total": 26,
+              "matched": 2
+            },
+            "England": {
+              "total": 26,
+              "matched": 19
+            },
+            "Ghana": {
+              "total": 26,
+              "matched": 1
+            },
+            "Panama": {
+              "total": 26,
+              "matched": 0
+            }
+          },
+          "total_teams": 50,
+          "Czech Republic": {
+            "total": 26,
+            "matched": 3
+          },
+          "Mexico": {
+            "total": 26,
+            "matched": 9
+          },
+          "South Africa": {
+            "total": 26,
+            "matched": 0
+          },
+          "South Korea": {
+            "total": 26,
+            "matched": 4
+          },
+          "Bosnia and Herzegovina": {
+            "total": 26,
+            "matched": 4
+          },
+          "Canada": {
+            "total": 25,
+            "matched": 3
+          },
+          "Qatar": {
+            "total": 26,
+            "matched": 12
+          },
+          "Switzerland": {
+            "total": 26,
+            "matched": 6
+          },
+          "Brazil": {
+            "total": 26,
+            "matched": 17
+          },
+          "Haiti": {
+            "total": 26,
+            "matched": 0
+          },
+          "Morocco": {
+            "total": 26,
+            "matched": 8
+          },
+          "Scotland": {
+            "total": 26,
+            "matched": 5
+          },
+          "Australia": {
+            "total": 26,
+            "matched": 5
+          },
+          "Paraguay": {
+            "total": 26,
+            "matched": 4
+          },
+          "Turkey": {
+            "total": 26,
+            "matched": 13
+          },
+          "United States": {
+            "total": 26,
+            "matched": 7
+          },
+          "Curaçao": {
+            "total": 26,
+            "matched": 0
+          },
+          "Ecuador": {
+            "total": 26,
+            "matched": 6
+          },
+          "Germany": {
+            "total": 26,
+            "matched": 16
+          },
+          "Ivory Coast": {
+            "total": 26,
+            "matched": 9
+          },
+          "Japan": {
+            "total": 26,
+            "matched": 6
+          },
+          "Netherlands": {
+            "total": 26,
+            "matched": 10
+          },
+          "Sweden": {
+            "total": 26,
+            "matched": 4
+          },
+          "Tunisia": {
+            "total": 26,
+            "matched": 1
+          },
+          "Belgium": {
+            "total": 26,
+            "matched": 13
+          },
+          "Egypt": {
+            "total": 26,
+            "matched": 1
+          },
+          "Iran": {
+            "total": 26,
+            "matched": 0
+          },
+          "New Zealand": {
+            "total": 26,
+            "matched": 3
+          },
+          "Cape Verde": {
+            "total": 26,
+            "matched": 2
+          },
+          "Saudi Arabia": {
+            "total": 26,
+            "matched": 7
+          },
+          "Spain": {
+            "total": 26,
+            "matched": 12
+          },
+          "Uruguay": {
+            "total": 26,
+            "matched": 8
+          },
+          "France": {
+            "total": 26,
+            "matched": 18
+          },
+          "Iraq": {
+            "total": 26,
+            "matched": 1
+          },
+          "Norway": {
+            "total": 26,
+            "matched": 9
+          },
+          "Senegal": {
+            "total": 26,
+            "matched": 8
+          },
+          "Algeria": {
+            "total": 26,
+            "matched": 11
+          },
+          "Argentina": {
+            "total": 26,
+            "matched": 15
+          },
+          "Austria": {
+            "total": 25,
+            "matched": 4
+          },
+          "Jordan": {
+            "total": 26,
+            "matched": 1
+          },
+          "Colombia": {
+            "total": 26,
+            "matched": 9
+          },
+          "DR Congo": {
+            "total": 26,
+            "matched": 2
+          },
+          "Portugal": {
+            "total": 26,
+            "matched": 18
+          },
+          "Uzbekistan": {
+            "total": 26,
+            "matched": 2
+          },
+          "Croatia": {
+            "total": 26,
+            "matched": 8
+          },
+          "England": {
+            "total": 26,
+            "matched": 13
+          },
+          "Ghana": {
+            "total": 26,
+            "matched": 2
+          },
+          "Panama": {
+            "total": 26,
+            "matched": 4
+          }
+        },
+        "total_teams": 50,
+        "Czech Republic": {
+          "total": 26,
+          "matched": 3
+        },
+        "Mexico": {
+          "total": 26,
+          "matched": 9
+        },
+        "South Africa": {
+          "total": 26,
+          "matched": 0
+        },
+        "South Korea": {
+          "total": 26,
+          "matched": 4
+        },
+        "Bosnia and Herzegovina": {
+          "total": 26,
+          "matched": 4
+        },
+        "Canada": {
+          "total": 25,
+          "matched": 3
+        },
+        "Qatar": {
+          "total": 26,
+          "matched": 12
+        },
+        "Switzerland": {
+          "total": 26,
+          "matched": 6
+        },
+        "Brazil": {
+          "total": 26,
+          "matched": 17
+        },
+        "Haiti": {
+          "total": 26,
+          "matched": 0
+        },
+        "Morocco": {
+          "total": 26,
+          "matched": 8
+        },
+        "Scotland": {
+          "total": 26,
+          "matched": 5
+        },
+        "Australia": {
+          "total": 26,
+          "matched": 5
+        },
+        "Paraguay": {
+          "total": 26,
+          "matched": 4
+        },
+        "Turkey": {
+          "total": 26,
+          "matched": 13
+        },
+        "United States": {
+          "total": 26,
+          "matched": 7
+        },
+        "Curaçao": {
+          "total": 26,
+          "matched": 0
+        },
+        "Ecuador": {
+          "total": 26,
+          "matched": 6
+        },
+        "Germany": {
+          "total": 26,
+          "matched": 16
+        },
+        "Ivory Coast": {
+          "total": 26,
+          "matched": 9
+        },
+        "Japan": {
+          "total": 26,
+          "matched": 6
+        },
+        "Netherlands": {
+          "total": 26,
+          "matched": 10
+        },
+        "Sweden": {
+          "total": 26,
+          "matched": 4
+        },
+        "Tunisia": {
+          "total": 26,
+          "matched": 1
+        },
+        "Belgium": {
+          "total": 26,
+          "matched": 13
+        },
+        "Egypt": {
+          "total": 26,
+          "matched": 1
+        },
+        "Iran": {
+          "total": 26,
+          "matched": 0
+        },
+        "New Zealand": {
+          "total": 26,
+          "matched": 3
+        },
+        "Cape Verde": {
+          "total": 26,
+          "matched": 2
+        },
+        "Saudi Arabia": {
+          "total": 26,
+          "matched": 7
+        },
+        "Spain": {
+          "total": 26,
+          "matched": 12
+        },
+        "Uruguay": {
+          "total": 26,
+          "matched": 8
+        },
+        "France": {
+          "total": 26,
+          "matched": 18
+        },
+        "Iraq": {
+          "total": 26,
+          "matched": 1
+        },
+        "Norway": {
+          "total": 26,
+          "matched": 9
+        },
+        "Senegal": {
+          "total": 26,
+          "matched": 8
+        },
+        "Algeria": {
+          "total": 26,
+          "matched": 11
+        },
+        "Argentina": {
+          "total": 26,
+          "matched": 15
+        },
+        "Austria": {
+          "total": 25,
+          "matched": 4
+        },
+        "Jordan": {
+          "total": 26,
+          "matched": 1
+        },
+        "Colombia": {
+          "total": 26,
+          "matched": 9
+        },
+        "DR Congo": {
+          "total": 26,
+          "matched": 2
+        },
+        "Portugal": {
+          "total": 26,
+          "matched": 18
+        },
+        "Uzbekistan": {
+          "total": 26,
+          "matched": 2
+        },
+        "Croatia": {
+          "total": 26,
+          "matched": 8
+        },
+        "England": {
+          "total": 26,
+          "matched": 13
+        },
+        "Ghana": {
+          "total": 26,
+          "matched": 2
+        },
+        "Panama": {
+          "total": 26,
+          "matched": 4
+        }
+      },
+      "total_teams": 50,
+      "Czech Republic": {
+        "total": 26,
+        "matched": 8
+      },
+      "Mexico": {
+        "total": 26,
+        "matched": 14
+      },
+      "South Africa": {
+        "total": 26,
+        "matched": 4
+      },
+      "South Korea": {
+        "total": 26,
+        "matched": 7
+      },
+      "Bosnia and Herzegovina": {
+        "total": 26,
+        "matched": 13
+      },
+      "Canada": {
+        "total": 25,
+        "matched": 14
+      },
+      "Qatar": {
+        "total": 26,
+        "matched": 19
+      },
+      "Switzerland": {
+        "total": 26,
+        "matched": 17
+      },
+      "Brazil": {
+        "total": 26,
+        "matched": 19
+      },
+      "Haiti": {
+        "total": 26,
+        "matched": 8
+      },
+      "Morocco": {
+        "total": 26,
+        "matched": 12
+      },
+      "Scotland": {
+        "total": 26,
+        "matched": 14
+      },
+      "Australia": {
+        "total": 26,
+        "matched": 9
+      },
+      "Paraguay": {
+        "total": 26,
+        "matched": 9
+      },
+      "Turkey": {
+        "total": 26,
+        "matched": 20
+      },
+      "United States": {
+        "total": 26,
+        "matched": 19
+      },
+      "Curaçao": {
+        "total": 26,
+        "matched": 7
+      },
+      "Ecuador": {
+        "total": 26,
+        "matched": 14
+      },
+      "Germany": {
+        "total": 26,
+        "matched": 23
+      },
+      "Ivory Coast": {
+        "total": 26,
+        "matched": 19
+      },
+      "Japan": {
+        "total": 26,
+        "matched": 13
+      },
+      "Netherlands": {
+        "total": 26,
+        "matched": 21
+      },
+      "Sweden": {
+        "total": 26,
+        "matched": 14
+      },
+      "Tunisia": {
+        "total": 26,
+        "matched": 10
+      },
+      "Belgium": {
+        "total": 26,
+        "matched": 21
+      },
+      "Egypt": {
+        "total": 26,
+        "matched": 4
+      },
+      "Iran": {
+        "total": 26,
+        "matched": 1
+      },
+      "New Zealand": {
+        "total": 26,
+        "matched": 4
+      },
+      "Cape Verde": {
+        "total": 26,
+        "matched": 10
+      },
+      "Saudi Arabia": {
+        "total": 26,
+        "matched": 24
+      },
+      "Spain": {
+        "total": 26,
+        "matched": 17
+      },
+      "Uruguay": {
+        "total": 26,
+        "matched": 17
+      },
+      "France": {
+        "total": 26,
+        "matched": 23
+      },
+      "Iraq": {
+        "total": 26,
+        "matched": 2
+      },
+      "Norway": {
+        "total": 26,
+        "matched": 17
+      },
+      "Senegal": {
+        "total": 26,
+        "matched": 21
+      },
+      "Algeria": {
+        "total": 26,
+        "matched": 15
+      },
+      "Argentina": {
+        "total": 26,
+        "matched": 19
+      },
+      "Austria": {
+        "total": 25,
+        "matched": 18
+      },
+      "Jordan": {
+        "total": 26,
+        "matched": 3
+      },
+      "Colombia": {
+        "total": 26,
+        "matched": 17
+      },
+      "DR Congo": {
+        "total": 26,
+        "matched": 9
+      },
+      "Portugal": {
+        "total": 26,
+        "matched": 25
+      },
+      "Uzbekistan": {
+        "total": 26,
+        "matched": 2
+      },
+      "Croatia": {
+        "total": 26,
+        "matched": 19
+      },
+      "England": {
+        "total": 26,
+        "matched": 24
+      },
+      "Ghana": {
+        "total": 26,
+        "matched": 10
+      },
+      "Panama": {
+        "total": 26,
+        "matched": 6
+      }
+    },
+    "total_teams": 50,
+    "Czech Republic": {
+      "total": 26,
+      "matched": 8
+    },
+    "Mexico": {
+      "total": 26,
+      "matched": 14
+    },
+    "South Africa": {
+      "total": 26,
+      "matched": 4
+    },
+    "South Korea": {
+      "total": 26,
+      "matched": 7
+    },
+    "Bosnia and Herzegovina": {
+      "total": 26,
+      "matched": 13
+    },
+    "Canada": {
+      "total": 25,
+      "matched": 14
+    },
+    "Qatar": {
+      "total": 26,
+      "matched": 19
+    },
+    "Switzerland": {
+      "total": 26,
+      "matched": 17
+    },
+    "Brazil": {
+      "total": 26,
+      "matched": 19
+    },
+    "Haiti": {
+      "total": 26,
+      "matched": 8
+    },
+    "Morocco": {
+      "total": 26,
+      "matched": 12
+    },
+    "Scotland": {
+      "total": 26,
+      "matched": 14
+    },
+    "Australia": {
+      "total": 26,
+      "matched": 9
+    },
+    "Paraguay": {
+      "total": 26,
+      "matched": 9
+    },
+    "Turkey": {
+      "total": 26,
+      "matched": 20
+    },
+    "United States": {
+      "total": 26,
+      "matched": 19
+    },
+    "Curaçao": {
+      "total": 26,
+      "matched": 7
+    },
+    "Ecuador": {
+      "total": 26,
+      "matched": 14
+    },
+    "Germany": {
+      "total": 26,
+      "matched": 23
+    },
+    "Ivory Coast": {
+      "total": 26,
+      "matched": 19
+    },
+    "Japan": {
+      "total": 26,
+      "matched": 13
+    },
+    "Netherlands": {
+      "total": 26,
+      "matched": 21
+    },
+    "Sweden": {
+      "total": 26,
+      "matched": 14
+    },
+    "Tunisia": {
+      "total": 26,
+      "matched": 10
+    },
+    "Belgium": {
+      "total": 26,
+      "matched": 21
+    },
+    "Egypt": {
+      "total": 26,
+      "matched": 4
+    },
+    "Iran": {
+      "total": 26,
+      "matched": 1
+    },
+    "New Zealand": {
+      "total": 26,
+      "matched": 4
+    },
+    "Cape Verde": {
+      "total": 26,
+      "matched": 10
+    },
+    "Saudi Arabia": {
+      "total": 26,
+      "matched": 24
+    },
+    "Spain": {
+      "total": 26,
+      "matched": 17
+    },
+    "Uruguay": {
+      "total": 26,
+      "matched": 17
+    },
+    "France": {
+      "total": 26,
+      "matched": 23
+    },
+    "Iraq": {
+      "total": 26,
+      "matched": 2
+    },
+    "Norway": {
+      "total": 26,
+      "matched": 17
+    },
+    "Senegal": {
+      "total": 26,
+      "matched": 21
+    },
+    "Algeria": {
+      "total": 26,
+      "matched": 15
+    },
+    "Argentina": {
+      "total": 26,
+      "matched": 19
+    },
+    "Austria": {
+      "total": 25,
+      "matched": 18
+    },
+    "Jordan": {
+      "total": 26,
+      "matched": 3
+    },
+    "Colombia": {
+      "total": 26,
+      "matched": 17
+    },
+    "DR Congo": {
+      "total": 26,
+      "matched": 9
+    },
+    "Portugal": {
+      "total": 26,
+      "matched": 25
+    },
+    "Uzbekistan": {
+      "total": 26,
+      "matched": 2
+    },
+    "Croatia": {
+      "total": 26,
+      "matched": 19
+    },
+    "England": {
+      "total": 26,
+      "matched": 24
+    },
+    "Ghana": {
+      "total": 26,
+      "matched": 10
+    },
+    "Panama": {
+      "total": 26,
+      "matched": 6
+    }
+  },
+  "total_teams": 50
+}

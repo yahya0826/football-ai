@@ -1,0 +1,292 @@
+{
+  "team": "South Africa",
+  "player_count": 26,
+  "players": [
+    {
+      "id": "ronwen-williams",
+      "name": "Ronwen Williams",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 1,
+      "club": "Mamelodi Sundowns",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "thabang-matuludi",
+      "name": "Thabang Matuludi",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 2,
+      "club": "Polokwane City",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "khulumani-ndamane",
+      "name": "Khulumani Ndamane",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 3,
+      "club": "Mamelodi Sundowns",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "teboho-mokoena",
+      "name": "Teboho Mokoena",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 4,
+      "club": "Mamelodi Sundowns",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "thalente-mbatha",
+      "name": "Thalente Mbatha",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 5,
+      "club": "Orlando Pirates",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "aubrey-modiba",
+      "name": "Aubrey Modiba",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 6,
+      "club": "Mamelodi Sundowns",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "oswin-appollis",
+      "name": "Oswin Appollis",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 7,
+      "club": "Orlando Pirates",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "tshepang-moremi",
+      "name": "Tshepang Moremi",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 8,
+      "club": "Orlando Pirates",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "lyle-foster",
+      "name": "Lyle Foster",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 9,
+      "club": "Burnley",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "relebohile-mofokeng",
+      "name": "Relebohile Mofokeng",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 10,
+      "club": "Orlando Pirates",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "themba-zwane",
+      "name": "Themba Zwane",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 11,
+      "club": "Mamelodi Sundowns",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "thapelo-maseko",
+      "name": "Thapelo Maseko",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 12,
+      "club": "AEL Limassol",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "sphephelo-sithole",
+      "name": "Sphephelo Sithole",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 13,
+      "club": "Tondela",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "mbekezeli-mbokazi",
+      "name": "Mbekezeli Mbokazi",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 14,
+      "club": "Chicago Fire FC",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "iqraam-rayners",
+      "name": "Iqraam Rayners",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 15,
+      "club": "Mamelodi Sundowns",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "sipho-chaine",
+      "name": "Sipho Chaine",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 16,
+      "club": "Orlando Pirates",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "evidence-makgopa",
+      "name": "Evidence Makgopa",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 17,
+      "club": "Orlando Pirates",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "samukele-kabini",
+      "name": "Samukele Kabini",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 18,
+      "club": "Molde",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "nkosinathi-sibisi",
+      "name": "Nkosinathi Sibisi",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 19,
+      "club": "Orlando Pirates",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "khuliso-mudau",
+      "name": "Khuliso Mudau",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 20,
+      "club": "Mamelodi Sundowns",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ime-okon",
+      "name": "Ime Okon",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 21,
+      "club": "Hannover 96",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ricardo-goss",
+      "name": "Ricardo Goss",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 22,
+      "club": "Siwelele",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "jayden-adams",
+      "name": "Jayden Adams",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 23,
+      "club": "Mamelodi Sundowns",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "olwethu-makhanya",
+      "name": "Olwethu Makhanya",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 24,
+      "club": "Philadelphia Union",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "kamogelo-sebelebele",
+      "name": "Kamogelo Sebelebele",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 25,
+      "club": "Orlando Pirates",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "bradley-cross",
+      "name": "Bradley Cross",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 26,
+      "club": "Kaizer Chiefs",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    }
+  ]
+}

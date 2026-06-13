@@ -1,0 +1,172 @@
+{
+  "team_en": "Cape Verde",
+  "team_cn": "佛得角",
+  "confederation": "CAF",
+  "group": "H",
+  "stats": {
+    "total_matches": 149,
+    "wins": 64,
+    "draws": 38,
+    "losses": 47,
+    "goals_for": 179,
+    "goals_against": 152
+  },
+  "recent_matches": [
+    {
+      "date": "2026-06-26",
+      "home_team": "Cape Verde",
+      "away_team": "Saudi Arabia",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Houston",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-06-21",
+      "home_team": "Uruguay",
+      "away_team": "Cape Verde",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Miami Gardens",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-06-15",
+      "home_team": "Spain",
+      "away_team": "Cape Verde",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Atlanta",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-03-30",
+      "home_team": "Cape Verde",
+      "away_team": "Finland",
+      "home_score": "1",
+      "away_score": "1",
+      "tournament": "FIFA Series",
+      "city": "Auckland",
+      "country": "New Zealand",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-03-27",
+      "home_team": "Chile",
+      "away_team": "Cape Verde",
+      "home_score": "4",
+      "away_score": "2",
+      "tournament": "FIFA Series",
+      "city": "Auckland",
+      "country": "New Zealand",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2025-11-17",
+      "home_team": "Cape Verde",
+      "away_team": "Egypt",
+      "home_score": "1",
+      "away_score": "1",
+      "tournament": "Al Ain International Cup",
+      "city": "Al Ain",
+      "country": "United Arab Emirates",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2025-11-13",
+      "home_team": "Iran",
+      "away_team": "Cape Verde",
+      "home_score": "0",
+      "away_score": "0",
+      "tournament": "Al Ain International Cup",
+      "city": "Al Ain",
+      "country": "United Arab Emirates",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2025-10-13",
+      "home_team": "Cape Verde",
+      "away_team": "Eswatini",
+      "home_score": "3",
+      "away_score": "0",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Praia",
+      "country": "Cape Verde",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-10-08",
+      "home_team": "Libya",
+      "away_team": "Cape Verde",
+      "home_score": "3",
+      "away_score": "3",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Tripoli",
+      "country": "Libya",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-09-09",
+      "home_team": "Cape Verde",
+      "away_team": "Cameroon",
+      "home_score": "1",
+      "away_score": "0",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Praia",
+      "country": "Cape Verde",
+      "neutral": "FALSE"
+    }
+  ],
+  "matches_by_year": {
+    "2026": 5,
+    "2025": 11,
+    "2024": 16,
+    "2023": 9,
+    "2022": 11,
+    "2021": 9,
+    "2020": 4,
+    "2019": 4,
+    "2018": 6,
+    "2017": 6,
+    "2016": 6,
+    "2015": 9,
+    "2014": 7,
+    "2013": 11,
+    "2012": 7,
+    "2011": 5,
+    "2010": 5,
+    "2009": 4,
+    "2008": 8,
+    "2007": 6,
+    "2006": 3
+  },
+  "tournament_breakdown": {
+    "African Cup of Nations qualification": 52,
+    "Friendly": 37,
+    "FIFA World Cup qualification": 36,
+    "African Cup of Nations": 16,
+    "FIFA Series": 4,
+    "FIFA World Cup": 3,
+    "Al Ain International Cup": 2,
+    "Amílcar Cabral Cup": 2
+  },
+  "total_matches_20y": 152,
+  "elo_rating": 1460,
+  "odds": {
+    "decimal_odds": 2001.0,
+    "implied_probability": 0.05,
+    "rank": 44,
+    "platforms": {
+      "Bet365": 2001.0,
+      "William Hill": 2001.0,
+      "DraftKings": 1500.0
+    }
+  },
+  "fifa_ranking": null
+}

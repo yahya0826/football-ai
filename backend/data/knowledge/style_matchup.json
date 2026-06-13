@@ -1,0 +1,36 @@
+[
+  {"style_a":"tiki-taka","style_b":"gegenpressing","advantage_for_a":-0.12,"dynamics":"高位压迫是传控足球的天敌。压迫方截断短传出球路线，传控方在后场就被迫失误。传控方需要完美的技术和冷静心态。","key_factors":["传控方后场出球能力","压迫方的体能持续性","关键球员受压时的决策","门将的脚下技术"]},
+  {"style_a":"tiki-taka","style_b":"counter_attack","advantage_for_a":0.15,"dynamics":"传控方掌控70%+控球率，反击方等待少数反击机会。传控方的耐心vs反击方的效率。谁先得分将决定比赛走向。","key_factors":["传控方防线高度","反击方前锋速度","传控方丢球后的反抢速度","反击方的终结效率"]},
+  {"style_a":"tiki-taka","style_b":"direct_play","advantage_for_a":0.10,"dynamics":"直接的足球vs耐心的足球。直接方绕过传控方的压迫体系，用长传找前锋。但传控方掌控球权时直接方难以获得球权。","key_factors":["传控方中后卫的空中对抗","第二落点的争夺","传控方的传球准确率","直接方的体能和对抗"]},
+  {"style_a":"tiki-taka","style_b":"possession_based","advantage_for_a":0.02,"dynamics":"两种控球流派的内部对决。tiki-taka更强调短传和安全球，possession_based更注重纵向推进。双方都追求控球。","key_factors":["谁更有效利用球权","纵向传球比例","高位防线管理","比赛节奏控制"]},
+  {"style_a":"tiki-taka","style_b":"wing_play","advantage_for_a":0.08,"dynamics":"边路进攻容易对付（传控方中路人多）。但传中球质量高时传控方中卫可能被对手中锋压制。","key_factors":["边路1v1防守能力","中后卫的防空","传控方边锋的回防","传中质量和抢点"]},
+  {"style_a":"tiki-taka","style_b":"low_block","advantage_for_a":0.10,"dynamics":"经典的矛vs盾。传控方拥有大量控球权但面对低位防守的密集防线，需要极致的耐心和创造力。","key_factors":["传控方在紧凑空间中的创造力","定位球效率","低位方的体力和纪律","远射能力"]},
+  {"style_a":"tiki-taka","style_b":"fluid_attack","advantage_for_a":-0.03,"dynamics":"全攻全守能打乱传控方的节奏。位置互换制造混乱，传控方的固定位置逻辑被打乱。克鲁伊夫式的足球对话。","key_factors":["位置互换的流畅度","传控方的适应性","防守结构的稳定性","双方体能"]},
+
+  {"style_a":"gegenpressing","style_b":"counter_attack","advantage_for_a":0.08,"dynamics":"压迫方逼抢反击方的后场出球。反击方的长传恰好被压迫方的强身体对抗所克制。但一旦反击突破第一道压迫将极危险。","key_factors":["压迫方第一道防线的效率","反击方前锋的速度","反击方后场球员的传球精度","压迫体能持续性"]},
+  {"style_a":"gegenpressing","style_b":"direct_play","advantage_for_a":0.05,"dynamics":"压迫vs直接——直接方的长传可以越过压迫区域直取防守后方。双方都追求快速进攻。比赛节奏极快。","key_factors":["直接方的长传精度","压迫方的防守回追","体能消耗","第二落点争夺"]},
+  {"style_a":"gegenpressing","style_b":"possession_based","advantage_for_a":0.06,"dynamics":"压迫方打乱了控球方的传导节奏。控球方需要极高的技术来应对高位紧逼。谁在压迫下不失误谁控场。","key_factors":["控球方的后场出球","压迫方的逼抢协调","关键球员的控球能力","体能和节奏"]},
+  {"style_a":"gegenpressing","style_b":"wing_play","advantage_for_a":0.04,"dynamics":"压迫方在中路紧逼，边路进攻被迫走外侧。压迫迫使边路长传可能变成不精确的传中。","key_factors":["压迫方的边路回收速度","边路球员的对抗能力","传中质量和抢点","防守反击"]},
+  {"style_a":"gegenpressing","style_b":"low_block","advantage_for_a":-0.06,"dynamics":"低位方不追求控球，压迫找不到明显目标。压迫方在前场反抢后被低位方快速长传打身后。低位方的耐心vs压迫方的冒进。","key_factors":["低位方的长传发起点","压迫方后卫线的速度","定位球","双方体能管理"]},
+  {"style_a":"gegenpressing","style_b":"fluid_attack","advantage_for_a":0.03,"dynamics":"两种高强度风格的碰撞。全攻全守vs系统化的压迫。双方球员持续在高压下做决策。谁的体能先崩谁先输。","key_factors":["体能储备","球员智商和适应性","压迫协调性","失误的频率"]},
+
+  {"style_a":"counter_attack","style_b":"direct_play","advantage_for_a":0.02,"dynamics":"两种不追求控球的风格。反击方等待时机，直接方不断长传。谁先得分谁在战术上占据绝对主动。","key_factors":["反击方前锋速度","直接方的空中优势","定位球","比赛节奏管理"]},
+  {"style_a":"counter_attack","style_b":"possession_based","advantage_for_a":-0.06,"dynamics":"反击方让出球权给控球方。控球方的防线高度决定了反击方的机会多寡。持久的猫鼠游戏。","key_factors":["控球方防线高度","反击方的转化率","控球方的耐心","关键反击机会的终结"]},
+  {"style_a":"counter_attack","style_b":"wing_play","advantage_for_a":0.00,"dynamics":"边路进攻留给反击方边路反击通道。谁更有效利用边路空间谁占优。双方都会利用对方的边路空间。","key_factors":["边路攻防转换速度","边后卫的防守能力","传中和反击传球的精度","体能"]},
+  {"style_a":"counter_attack","style_b":"low_block","advantage_for_a":-0.04,"dynamics":"两支防守型球队。谁先攻出来谁暴露空间。可能是一场极度谨慎的战术博弈。","key_factors":["比赛节奏","谁愿意承担风险","定位球","双前锋效率"]},
+  {"style_a":"counter_attack","style_b":"fluid_attack","advantage_for_a":0.04,"dynamics":"反击vs全面压上。全攻全守的防线高位给了反击方理想的反击空间。穆里尼奥式的经典胜利配方。","key_factors":["反击方前锋速度","全攻全守方的防线高度","反击的终结效率","体能差距"]},
+
+  {"style_a":"direct_play","style_b":"possession_based","advantage_for_a":-0.08,"dynamics":"直接的物理足球vs精细的传球足球。控球方将直接方的长传转化为快速二次进攻。直接方争夺第二落点的能力决定一切。","key_factors":["第二落点争夺","控球方的传球准确率","直接方的空中优势","控球方的中场控制"]},
+  {"style_a":"direct_play","style_b":"wing_play","advantage_for_a":-0.02,"dynamics":"两种注重身体对抗和传中的风格。直接方的中锋vs边路方的传中。定位球将是决定性因素。","key_factors":["中锋的空中对抗","传中质量","定位球战术","身体对抗"]},
+  {"style_a":"direct_play","style_b":"low_block","advantage_for_a":-0.06,"dynamics":"直接进攻不奏效（低位防守收紧空间），但传中和定位球仍可能制造威胁。一场硬碰硬的身体对抗。","key_factors":["传中和定位球质量","低位方的禁区防守","中锋的对抗能力","第二落点"]},
+  {"style_a":"direct_play","style_b":"fluid_attack","advantage_for_a":-0.04,"dynamics":"全攻全守的技术优势vs直接方的身体优势。荷兰vs英式的经典对比。谁的风格执行得更好谁赢。","key_factors":["技术vs身体对抗","全攻全守方的防线协调","直接方的长传精度","比赛节奏"]},
+
+  {"style_a":"possession_based","style_b":"wing_play","advantage_for_a":0.06,"dynamics":"控球方中路控制迫使边路方走外侧。但边路传中可让控球方的中卫暴露在空战中。","key_factors":["中后卫的防空能力","边路1v1防守","控球方的压迫","传中质量"]},
+  {"style_a":"possession_based","style_b":"low_block","advantage_for_a":0.08,"dynamics":"控球方控球率极高但面对低位防线，需持续创造机会。低位方待机反击。控球方的创造力和耐心是核心。","key_factors":["控球方在紧凑空间中的创造力","定位球","低位方的体能","远射"]},
+  {"style_a":"possession_based","style_b":"fluid_attack","advantage_for_a":-0.02,"dynamics":"控球vs流动性。全攻全守打乱了控球的固定模式。位置互换制造混乱，双方皆为技术型球队。","key_factors":["位置互换的效率","控球方的适应性","双方控球的效率","失误频率"]},
+
+  {"style_a":"wing_play","style_b":"low_block","advantage_for_a":-0.04,"dynamics":"边路进攻面对密集的中路和禁区防守。传中的落点被区域防守覆盖。需要边路个人能力来突破。","key_factors":["边路1v1突破能力","传中多样性","禁区内的抢点","定位球"]},
+  {"style_a":"wing_play","style_b":"fluid_attack","advantage_for_a":-0.03,"dynamics":"全攻全守的流动性可能打乱边路方的固定站位。但边路方的宽度同样是全攻全守方难以防守的。","key_factors":["边路传中vs流动性防守","体能","攻防转换速度","边后卫的助攻"]},
+
+  {"style_a":"low_block","style_b":"fluid_attack","advantage_for_a":0.02,"dynamics":"低位防守vs全面进攻。低位方等待全攻全守方的失误。全攻全守方高位防线给低位方留下反击空间。","key_factors":["低位方的反击效率","全攻全守方的防线脆弱点","定位球","体能差距"]}
+]

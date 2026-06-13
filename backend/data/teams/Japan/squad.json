@@ -1,0 +1,292 @@
+{
+  "team": "Japan",
+  "player_count": 26,
+  "players": [
+    {
+      "id": "zion-suzuki",
+      "name": "Zion Suzuki",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 1,
+      "club": "Parma",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "yukinari-sugawara",
+      "name": "Yukinari Sugawara",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 2,
+      "club": "Werder Bremen",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "sh-go-taniguchi",
+      "name": "Shōgo Taniguchi",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 3,
+      "club": "Sint-Truiden",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "k--itakura",
+      "name": "Kō Itakura",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 4,
+      "club": "Ajax",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "y-to-nagatomo",
+      "name": "Yūto Nagatomo",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 5,
+      "club": "FC Tokyo",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "wataru-endo",
+      "name": "Wataru Endo",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 6,
+      "club": "Liverpool",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ao-tanaka",
+      "name": "Ao Tanaka",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 7,
+      "club": "Leeds United",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "takefusa-kubo",
+      "name": "Takefusa Kubo",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 8,
+      "club": "Real Sociedad",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "keisuke-got",
+      "name": "Keisuke Gotō",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 9,
+      "club": "Sint-Truiden",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ritsu-d-an",
+      "name": "Ritsu Dōan",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 10,
+      "club": "Eintracht Frankfurt",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "daizen-maeda",
+      "name": "Daizen Maeda",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 11,
+      "club": "Celtic",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "keisuke--sako",
+      "name": "Keisuke Ōsako",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 12,
+      "club": "Sanfrecce Hiroshima",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "keito-nakamura",
+      "name": "Keito Nakamura",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 13,
+      "club": "Reims",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "junya-it",
+      "name": "Junya Itō",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 14,
+      "club": "Genk",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "daichi-kamada",
+      "name": "Daichi Kamada",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 15,
+      "club": "Crystal Palace",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "tsuyoshi-watanabe",
+      "name": "Tsuyoshi Watanabe",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 16,
+      "club": "Feyenoord",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "yuito-suzuki",
+      "name": "Yuito Suzuki",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 17,
+      "club": "SC Freiburg",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ayase-ueda",
+      "name": "Ayase Ueda",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 18,
+      "club": "Feyenoord",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "k-ki-ogawa",
+      "name": "Kōki Ogawa",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 19,
+      "club": "NEC",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ayumu-seko",
+      "name": "Ayumu Seko",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 20,
+      "club": "Le Havre",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "hiroki-it",
+      "name": "Hiroki Itō",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 21,
+      "club": "Bayern Munich",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "takehiro-tomiyasu",
+      "name": "Takehiro Tomiyasu",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 22,
+      "club": "Ajax",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "tomoki-hayakawa",
+      "name": "Tomoki Hayakawa",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 23,
+      "club": "Kashima Antlers",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "kaish--sano",
+      "name": "Kaishū Sano",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 24,
+      "club": "Mainz 05",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "junnosuke-suzuki",
+      "name": "Junnosuke Suzuki",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 25,
+      "club": "Copenhagen",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "kento-shiogai",
+      "name": "Kento Shiogai",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 26,
+      "club": "VfL Wolfsburg",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    }
+  ]
+}

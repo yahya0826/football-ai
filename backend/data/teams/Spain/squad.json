@@ -1,0 +1,292 @@
+{
+  "team": "Spain",
+  "player_count": 26,
+  "players": [
+    {
+      "id": "david-raya",
+      "name": "David Raya",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 1,
+      "club": "Arsenal",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "marc-pubill",
+      "name": "Marc Pubill",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 2,
+      "club": "Atlético Madrid",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "lex-grimaldo",
+      "name": "Álex Grimaldo",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 3,
+      "club": "Bayer Leverkusen",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "eric-garc-a",
+      "name": "Eric García",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 4,
+      "club": "Barcelona",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "marcos-llorente",
+      "name": "Marcos Llorente",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 5,
+      "club": "Atlético Madrid",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "mikel-merino",
+      "name": "Mikel Merino",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 6,
+      "club": "Arsenal",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ferran-torres",
+      "name": "Ferran Torres",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 7,
+      "club": "Barcelona",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "fabi-n-ruiz",
+      "name": "Fabián Ruiz",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 8,
+      "club": "Paris Saint-Germain",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "gavi",
+      "name": "Gavi",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 9,
+      "club": "Barcelona",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "dani-olmo",
+      "name": "Dani Olmo",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 10,
+      "club": "Barcelona",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "y-remy-pino",
+      "name": "Yéremy Pino",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 11,
+      "club": "Crystal Palace",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "pedro-porro",
+      "name": "Pedro Porro",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 12,
+      "club": "Tottenham Hotspur",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "joan-garcia",
+      "name": "Joan Garcia",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 13,
+      "club": "Barcelona",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "aymeric-laporte",
+      "name": "Aymeric Laporte",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 14,
+      "club": "Athletic Bilbao",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "lex-baena",
+      "name": "Álex Baena",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 15,
+      "club": "Atlético Madrid",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "rodri",
+      "name": "Rodri",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 16,
+      "club": "Manchester City",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "nico-williams",
+      "name": "Nico Williams",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 17,
+      "club": "Athletic Bilbao",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "mart-n-zubimendi",
+      "name": "Martín Zubimendi",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 18,
+      "club": "Arsenal",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "lamine-yamal",
+      "name": "Lamine Yamal",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 19,
+      "club": "Barcelona",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "pedri",
+      "name": "Pedri",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 20,
+      "club": "Barcelona",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "mikel-oyarzabal",
+      "name": "Mikel Oyarzabal",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 21,
+      "club": "Real Sociedad",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "pau-cubars",
+      "name": "Pau Cubarsí",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 22,
+      "club": "Barcelona",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "unai-sim-n",
+      "name": "Unai Simón",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 23,
+      "club": "Athletic Bilbao",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "marc-cucurella",
+      "name": "Marc Cucurella",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 24,
+      "club": "Chelsea",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "v-ctor-mu-oz",
+      "name": "Víctor Muñoz",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 25,
+      "club": "Osasuna",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "borja-iglesias",
+      "name": "Borja Iglesias",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 26,
+      "club": "Celta Vigo",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    }
+  ]
+}

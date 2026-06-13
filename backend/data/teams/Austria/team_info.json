@@ -1,0 +1,170 @@
+{
+  "team_en": "Austria",
+  "team_cn": "奥地利",
+  "confederation": "UEFA",
+  "group": "J",
+  "stats": {
+    "total_matches": 205,
+    "wins": 92,
+    "draws": 42,
+    "losses": 71,
+    "goals_for": 320,
+    "goals_against": 247
+  },
+  "recent_matches": [
+    {
+      "date": "2026-06-27",
+      "home_team": "Algeria",
+      "away_team": "Austria",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Kansas City",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-06-22",
+      "home_team": "Argentina",
+      "away_team": "Austria",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Arlington",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-06-16",
+      "home_team": "Austria",
+      "away_team": "Jordan",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Santa Clara",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-03-31",
+      "home_team": "Austria",
+      "away_team": "South Korea",
+      "home_score": "1",
+      "away_score": "0",
+      "tournament": "Friendly",
+      "city": "Vienna",
+      "country": "Austria",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2026-03-27",
+      "home_team": "Austria",
+      "away_team": "Ghana",
+      "home_score": "5",
+      "away_score": "1",
+      "tournament": "Friendly",
+      "city": "Vienna",
+      "country": "Austria",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-11-18",
+      "home_team": "Austria",
+      "away_team": "Bosnia and Herzegovina",
+      "home_score": "1",
+      "away_score": "1",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Vienna",
+      "country": "Austria",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-11-15",
+      "home_team": "Cyprus",
+      "away_team": "Austria",
+      "home_score": "0",
+      "away_score": "2",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Limassol",
+      "country": "Cyprus",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-10-12",
+      "home_team": "Romania",
+      "away_team": "Austria",
+      "home_score": "1",
+      "away_score": "0",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Bucharest",
+      "country": "Romania",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-10-09",
+      "home_team": "Austria",
+      "away_team": "San Marino",
+      "home_score": "10",
+      "away_score": "0",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Vienna",
+      "country": "Austria",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-09-09",
+      "home_team": "Bosnia and Herzegovina",
+      "away_team": "Austria",
+      "home_score": "1",
+      "away_score": "2",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Zenica",
+      "country": "Bosnia and Herzegovina",
+      "neutral": "FALSE"
+    }
+  ],
+  "matches_by_year": {
+    "2026": 5,
+    "2025": 10,
+    "2024": 14,
+    "2023": 10,
+    "2022": 10,
+    "2021": 16,
+    "2020": 8,
+    "2019": 10,
+    "2018": 11,
+    "2017": 8,
+    "2016": 12,
+    "2015": 8,
+    "2014": 8,
+    "2013": 10,
+    "2012": 8,
+    "2011": 11,
+    "2010": 7,
+    "2009": 9,
+    "2008": 13,
+    "2007": 12,
+    "2006": 8
+  },
+  "tournament_breakdown": {
+    "Friendly": 80,
+    "FIFA World Cup qualification": 49,
+    "UEFA Euro qualification": 38,
+    "UEFA Nations League": 24,
+    "UEFA Euro": 14,
+    "FIFA World Cup": 3
+  },
+  "total_matches_20y": 208,
+  "elo_rating": 1482,
+  "odds": {
+    "decimal_odds": 151.0,
+    "implied_probability": 0.7,
+    "rank": 23,
+    "platforms": {
+      "Bet365": 151.0,
+      "William Hill": 101.0,
+      "DraftKings": 150.0
+    }
+  },
+  "fifa_ranking": null
+}

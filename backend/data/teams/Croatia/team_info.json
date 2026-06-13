@@ -1,0 +1,172 @@
+{
+  "team_en": "Croatia",
+  "team_cn": "克罗地亚",
+  "confederation": "UEFA",
+  "group": "L",
+  "stats": {
+    "total_matches": 239,
+    "wins": 132,
+    "draws": 57,
+    "losses": 50,
+    "goals_for": 423,
+    "goals_against": 237
+  },
+  "recent_matches": [
+    {
+      "date": "2026-06-27",
+      "home_team": "Croatia",
+      "away_team": "Ghana",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Philadelphia",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-06-23",
+      "home_team": "Panama",
+      "away_team": "Croatia",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Toronto",
+      "country": "Canada",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-06-17",
+      "home_team": "England",
+      "away_team": "Croatia",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Arlington",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-03-31",
+      "home_team": "Brazil",
+      "away_team": "Croatia",
+      "home_score": "3",
+      "away_score": "1",
+      "tournament": "Friendly",
+      "city": "Orlando",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-03-26",
+      "home_team": "Colombia",
+      "away_team": "Croatia",
+      "home_score": "1",
+      "away_score": "2",
+      "tournament": "Friendly",
+      "city": "Orlando",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2025-11-17",
+      "home_team": "Montenegro",
+      "away_team": "Croatia",
+      "home_score": "2",
+      "away_score": "3",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Podgorica",
+      "country": "Montenegro",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-11-14",
+      "home_team": "Croatia",
+      "away_team": "Faroe Islands",
+      "home_score": "3",
+      "away_score": "1",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Rijeka",
+      "country": "Croatia",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-10-12",
+      "home_team": "Croatia",
+      "away_team": "Gibraltar",
+      "home_score": "3",
+      "away_score": "0",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Varaždin",
+      "country": "Croatia",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-10-09",
+      "home_team": "Czech Republic",
+      "away_team": "Croatia",
+      "home_score": "0",
+      "away_score": "0",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Prague",
+      "country": "Czech Republic",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-09-08",
+      "home_team": "Croatia",
+      "away_team": "Montenegro",
+      "home_score": "4",
+      "away_score": "0",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Zagreb",
+      "country": "Croatia",
+      "neutral": "FALSE"
+    }
+  ],
+  "matches_by_year": {
+    "2026": 5,
+    "2025": 10,
+    "2024": 13,
+    "2023": 10,
+    "2022": 16,
+    "2021": 16,
+    "2020": 8,
+    "2019": 10,
+    "2018": 17,
+    "2017": 12,
+    "2016": 13,
+    "2015": 8,
+    "2014": 12,
+    "2013": 12,
+    "2012": 11,
+    "2011": 11,
+    "2010": 10,
+    "2009": 9,
+    "2008": 13,
+    "2007": 11,
+    "2006": 15
+  },
+  "tournament_breakdown": {
+    "Friendly": 69,
+    "FIFA World Cup qualification": 52,
+    "UEFA Euro qualification": 50,
+    "UEFA Nations League": 26,
+    "FIFA World Cup": 23,
+    "UEFA Euro": 18,
+    "FIFA Series": 2,
+    "Lunar New Year Cup": 2
+  },
+  "total_matches_20y": 242,
+  "elo_rating": 1575,
+  "odds": {
+    "decimal_odds": 101.0,
+    "implied_probability": 1.0,
+    "rank": 19,
+    "platforms": {
+      "Bet365": 101.0,
+      "William Hill": 101.0,
+      "DraftKings": 100.0
+    }
+  },
+  "fifa_ranking": null
+}

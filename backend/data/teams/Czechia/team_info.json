@@ -1,0 +1,171 @@
+{
+  "team_en": "Czechia",
+  "team_cn": "捷克",
+  "confederation": "UEFA",
+  "group": "A",
+  "stats": {
+    "total_matches": 220,
+    "wins": 103,
+    "draws": 49,
+    "losses": 68,
+    "goals_for": 351,
+    "goals_against": 243
+  },
+  "recent_matches": [
+    {
+      "date": "2026-06-24",
+      "home_team": "Mexico",
+      "away_team": "Czech Republic",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Mexico City",
+      "country": "Mexico",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2026-06-18",
+      "home_team": "Czech Republic",
+      "away_team": "South Africa",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Atlanta",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-06-11",
+      "home_team": "South Korea",
+      "away_team": "Czech Republic",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Zapopan",
+      "country": "Mexico",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-03-31",
+      "home_team": "Czech Republic",
+      "away_team": "Denmark",
+      "home_score": "2",
+      "away_score": "2",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Prague",
+      "country": "Czech Republic",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2026-03-26",
+      "home_team": "Czech Republic",
+      "away_team": "Republic of Ireland",
+      "home_score": "2",
+      "away_score": "2",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Prague",
+      "country": "Czech Republic",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-11-17",
+      "home_team": "Czech Republic",
+      "away_team": "Gibraltar",
+      "home_score": "6",
+      "away_score": "0",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Olomouc",
+      "country": "Czech Republic",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-11-13",
+      "home_team": "Czech Republic",
+      "away_team": "San Marino",
+      "home_score": "1",
+      "away_score": "0",
+      "tournament": "Friendly",
+      "city": "Karviná",
+      "country": "Czech Republic",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-10-12",
+      "home_team": "Faroe Islands",
+      "away_team": "Czech Republic",
+      "home_score": "2",
+      "away_score": "1",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Tórshavn",
+      "country": "Faroe Islands",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-10-09",
+      "home_team": "Czech Republic",
+      "away_team": "Croatia",
+      "home_score": "0",
+      "away_score": "0",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Prague",
+      "country": "Czech Republic",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-09-08",
+      "home_team": "Czech Republic",
+      "away_team": "Saudi Arabia",
+      "home_score": "1",
+      "away_score": "1",
+      "tournament": "Friendly",
+      "city": "Hradec Králové",
+      "country": "Czech Republic",
+      "neutral": "FALSE"
+    }
+  ],
+  "matches_by_year": {
+    "2026": 5,
+    "2025": 10,
+    "2024": 13,
+    "2023": 10,
+    "2022": 10,
+    "2021": 17,
+    "2020": 8,
+    "2019": 10,
+    "2018": 10,
+    "2017": 10,
+    "2016": 14,
+    "2015": 9,
+    "2014": 8,
+    "2013": 10,
+    "2012": 13,
+    "2011": 12,
+    "2010": 8,
+    "2009": 11,
+    "2008": 12,
+    "2007": 10,
+    "2006": 13
+  },
+  "tournament_breakdown": {
+    "Friendly": 78,
+    "FIFA World Cup qualification": 49,
+    "UEFA Euro qualification": 48,
+    "UEFA Nations League": 22,
+    "UEFA Euro": 18,
+    "FIFA World Cup": 6,
+    "Kirin Cup": 2
+  },
+  "total_matches_20y": 223,
+  "elo_rating": 1502,
+  "odds": {
+    "decimal_odds": 301.0,
+    "implied_probability": 0.3,
+    "rank": 28,
+    "platforms": {
+      "Bet365": 251.0,
+      "William Hill": 151.0,
+      "DraftKings": 301.0
+    }
+  },
+  "fifa_ranking": null
+}

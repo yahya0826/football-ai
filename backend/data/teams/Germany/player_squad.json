@@ -1,0 +1,71 @@
+{
+  "announced": "2026-05-11",
+  "type": "provisional_55",
+  "coach": "Julian Nagelsmann",
+  "goalkeepers": [
+    {
+      "name": "Oliver Baumann",
+      "club": "Hoffenheim",
+      "caps": 10
+    },
+    {
+      "name": "Alexander Nübel",
+      "club": "Stuttgart",
+      "caps": 5
+    },
+    {
+      "name": "Manuel Neuer",
+      "club": "Bayern Munich",
+      "caps": 124
+    }
+  ],
+  "defenders": [
+    {
+      "name": "Nico Schlotterbeck",
+      "club": "Borussia Dortmund",
+      "caps": 18
+    },
+    {
+      "name": "Waldemar Anton",
+      "club": "Borussia Dortmund",
+      "caps": 8
+    }
+  ],
+  "midfielders": [
+    {
+      "name": "Jamal Musiala",
+      "club": "Bayern Munich",
+      "caps": 30
+    },
+    {
+      "name": "Florian Wirtz",
+      "club": "Bayer Leverkusen",
+      "caps": 25
+    },
+    {
+      "name": "Felix Nmecha",
+      "club": "Borussia Dortmund",
+      "caps": 5
+    },
+    {
+      "name": "Leroy Sané",
+      "club": "Galatasaray",
+      "caps": 65
+    }
+  ],
+  "forwards": [
+    {
+      "name": "Maximilian Beier",
+      "club": "Borussia Dortmund",
+      "caps": 5
+    },
+    {
+      "name": "Karim Adeyemi",
+      "club": "Borussia Dortmund",
+      "caps": 8
+    }
+  ],
+  "notable_omissions": [
+    "Serge Gnabry (injured)"
+  ]
+}

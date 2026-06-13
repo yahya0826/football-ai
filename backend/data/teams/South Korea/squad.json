@@ -1,0 +1,292 @@
+{
+  "team": "South Korea",
+  "player_count": 26,
+  "players": [
+    {
+      "id": "kim-seung-gyu",
+      "name": "Kim Seung-gyu",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 1,
+      "club": "FC Tokyo",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "lee-han-beom",
+      "name": "Lee Han-beom",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 2,
+      "club": "Midtjylland",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "lee-gi-hyuk",
+      "name": "Lee Gi-hyuk",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 3,
+      "club": "Gangwon FC",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "kim-min-jae",
+      "name": "Kim Min-jae",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 4,
+      "club": "Bayern Munich",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "kim-tae-hyeon",
+      "name": "Kim Tae-hyeon",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 5,
+      "club": "Kashima Antlers",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "hwang-in-beom",
+      "name": "Hwang In-beom",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 6,
+      "club": "Feyenoord",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "son-heung-min",
+      "name": "Son Heung-min",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 7,
+      "club": "Los Angeles FC",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "paik-seung-ho",
+      "name": "Paik Seung-ho",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 8,
+      "club": "Birmingham City",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "cho-gue-sung",
+      "name": "Cho Gue-sung",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 9,
+      "club": "Midtjylland",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "lee-jae-sung",
+      "name": "Lee Jae-sung",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 10,
+      "club": "Mainz 05",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "hwang-hee-chan",
+      "name": "Hwang Hee-chan",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 11,
+      "club": "Wolverhampton Wanderers",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "song-bum-keun",
+      "name": "Song Bum-keun",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 12,
+      "club": "Jeonbuk Hyundai Motors",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "lee-tae-seok",
+      "name": "Lee Tae-seok",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 13,
+      "club": "Austria Wien",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "cho-wi-je",
+      "name": "Cho Wi-je",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 14,
+      "club": "Jeonbuk Hyundai Motors",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "kim-moon-hwan",
+      "name": "Kim Moon-hwan",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 15,
+      "club": "Daejeon Hana Citizen",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "park-jin-seob",
+      "name": "Park Jin-seob",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 16,
+      "club": "Zhejiang",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "bae-jun-ho",
+      "name": "Bae Jun-ho",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 17,
+      "club": "Stoke City",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "oh-hyeon-gyu",
+      "name": "Oh Hyeon-gyu",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 18,
+      "club": "Beşiktaş",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "lee-kang-in",
+      "name": "Lee Kang-in",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 19,
+      "club": "Paris Saint-Germain",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "yang-hyun-jun",
+      "name": "Yang Hyun-jun",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 20,
+      "club": "Celtic",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "jo-hyeon-woo",
+      "name": "Jo Hyeon-woo",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 21,
+      "club": "Ulsan HD",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "seol-young-woo",
+      "name": "Seol Young-woo",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 22,
+      "club": "Red Star Belgrade",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "jens-castrop",
+      "name": "Jens Castrop",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 23,
+      "club": "Borussia Mönchengladbach",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "kim-jin-gyu",
+      "name": "Kim Jin-gyu",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 24,
+      "club": "Jeonbuk Hyundai Motors",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "eom-ji-sung",
+      "name": "Eom Ji-sung",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 25,
+      "club": "Swansea City",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "lee-dong-gyeong",
+      "name": "Lee Dong-gyeong",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 26,
+      "club": "Ulsan HD",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    }
+  ]
+}

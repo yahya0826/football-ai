@@ -1,0 +1,107 @@
+{
+  "announced": "2026-05-11",
+  "type": "provisional_55",
+  "coach": "Carlo Ancelotti",
+  "goalkeepers": [
+    {
+      "name": "Alisson",
+      "club": "Liverpool",
+      "caps": 65
+    },
+    {
+      "name": "Bento",
+      "club": "Al Nassr",
+      "caps": 12
+    },
+    {
+      "name": "Ederson",
+      "club": "Fenerbahçe",
+      "caps": 25
+    }
+  ],
+  "defenders": [
+    {
+      "name": "Marquinhos",
+      "club": "PSG",
+      "caps": 87
+    },
+    {
+      "name": "Gabriel Magalhães",
+      "club": "Arsenal",
+      "caps": 20
+    },
+    {
+      "name": "Bremer",
+      "club": "Juventus",
+      "caps": 15
+    },
+    {
+      "name": "Thiago Silva",
+      "club": "Porto",
+      "caps": 113
+    }
+  ],
+  "midfielders": [
+    {
+      "name": "Bruno Guimarães",
+      "club": "Newcastle",
+      "caps": 30
+    },
+    {
+      "name": "Casemiro",
+      "club": "Manchester United",
+      "caps": 75
+    },
+    {
+      "name": "Andrey Santos",
+      "club": "Chelsea",
+      "caps": 5
+    },
+    {
+      "name": "João Gomes",
+      "club": "Wolves",
+      "caps": 12
+    },
+    {
+      "name": "Lucas Paquetá",
+      "club": "Flamengo",
+      "caps": 48
+    }
+  ],
+  "forwards": [
+    {
+      "name": "Vinicius Jr",
+      "club": "Real Madrid",
+      "caps": 30
+    },
+    {
+      "name": "Raphinha",
+      "club": "Barcelona",
+      "caps": 28
+    },
+    {
+      "name": "Neymar",
+      "club": "Santos",
+      "caps": 124
+    },
+    {
+      "name": "Gabriel Martinelli",
+      "club": "Arsenal",
+      "caps": 15
+    },
+    {
+      "name": "Endrick",
+      "club": "Lyon",
+      "caps": 8
+    },
+    {
+      "name": "Matheus Cunha",
+      "club": "Manchester United",
+      "caps": 20
+    }
+  ],
+  "notable_omissions": [
+    "Rodrygo (injured)",
+    "Éder Militão (injured)"
+  ]
+}

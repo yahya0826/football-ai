@@ -1,0 +1,170 @@
+{
+  "team_en": "England",
+  "team_cn": "英格兰",
+  "confederation": "UEFA",
+  "group": "L",
+  "stats": {
+    "total_matches": 246,
+    "wins": 152,
+    "draws": 54,
+    "losses": 40,
+    "goals_for": 506,
+    "goals_against": 178
+  },
+  "recent_matches": [
+    {
+      "date": "2026-06-27",
+      "home_team": "Panama",
+      "away_team": "England",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "East Rutherford",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-06-23",
+      "home_team": "England",
+      "away_team": "Ghana",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Foxborough",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-06-17",
+      "home_team": "England",
+      "away_team": "Croatia",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Arlington",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-03-31",
+      "home_team": "England",
+      "away_team": "Japan",
+      "home_score": "0",
+      "away_score": "1",
+      "tournament": "Friendly",
+      "city": "London",
+      "country": "England",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2026-03-27",
+      "home_team": "England",
+      "away_team": "Uruguay",
+      "home_score": "1",
+      "away_score": "1",
+      "tournament": "Friendly",
+      "city": "London",
+      "country": "England",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-11-16",
+      "home_team": "Albania",
+      "away_team": "England",
+      "home_score": "0",
+      "away_score": "2",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Tirana",
+      "country": "Albania",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-11-13",
+      "home_team": "England",
+      "away_team": "Serbia",
+      "home_score": "2",
+      "away_score": "0",
+      "tournament": "FIFA World Cup qualification",
+      "city": "London",
+      "country": "England",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-10-14",
+      "home_team": "Latvia",
+      "away_team": "England",
+      "home_score": "0",
+      "away_score": "5",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Riga",
+      "country": "Latvia",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-10-09",
+      "home_team": "England",
+      "away_team": "Wales",
+      "home_score": "3",
+      "away_score": "0",
+      "tournament": "Friendly",
+      "city": "London",
+      "country": "England",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-09-09",
+      "home_team": "Serbia",
+      "away_team": "England",
+      "home_score": "0",
+      "away_score": "5",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Belgrade",
+      "country": "Serbia",
+      "neutral": "FALSE"
+    }
+  ],
+  "matches_by_year": {
+    "2026": 5,
+    "2025": 10,
+    "2024": 17,
+    "2023": 10,
+    "2022": 13,
+    "2021": 19,
+    "2020": 8,
+    "2019": 10,
+    "2018": 17,
+    "2017": 10,
+    "2016": 14,
+    "2015": 10,
+    "2014": 13,
+    "2013": 12,
+    "2012": 13,
+    "2011": 9,
+    "2010": 12,
+    "2009": 11,
+    "2008": 10,
+    "2007": 12,
+    "2006": 14
+  },
+  "tournament_breakdown": {
+    "Friendly": 82,
+    "FIFA World Cup qualification": 48,
+    "UEFA Euro qualification": 46,
+    "FIFA World Cup": 27,
+    "UEFA Nations League": 24,
+    "UEFA Euro": 22
+  },
+  "total_matches_20y": 249,
+  "elo_rating": 1650,
+  "odds": {
+    "decimal_odds": 6.5,
+    "implied_probability": 14.0,
+    "rank": 2,
+    "platforms": {
+      "Bet365": 6.5,
+      "William Hill": 6.0,
+      "DraftKings": 7.0
+    }
+  },
+  "fifa_ranking": null
+}

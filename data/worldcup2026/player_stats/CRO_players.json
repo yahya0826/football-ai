@@ -1,0 +1,313 @@
+{
+  "team_en": "Croatia",
+  "team_cn": "克罗地亚",
+  "fifa_code": "CRO",
+  "coach": "Zlatko Dalić",
+  "group": "L",
+  "players": [
+    {
+      "name_en": "Dominik Livaković",
+      "name_cn": "利瓦科维奇",
+      "position": "GK",
+      "club": "Dinamo Zagreb",
+      "age": 29,
+      "club_country": "Croatia",
+      "transfermarkt_url": "https://www.transfermarkt.com/dominik-livakovic/profil/spieler/285808",
+      "profile_url": "https://www.transfermarkt.com/dominik-livakovic/profil/spieler/285808/statistik",
+      "basic_info": {
+        "date_of_birth": "27/03/1990 (36)"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Dominik Kotarski",
+      "name_cn": "科塔尔斯基",
+      "position": "GK",
+      "club": "Copenhagen",
+      "age": 24,
+      "club_country": "Denmark",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "Ivor Pandur",
+      "name_cn": "伊沃尔·潘杜尔",
+      "position": "GK",
+      "club": "Hull City",
+      "age": 20,
+      "club_country": "England",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "Joško Gvardiol",
+      "name_cn": "格瓦迪奥尔",
+      "position": "DF",
+      "club": "Manchester City",
+      "age": 23,
+      "club_country": "England",
+      "transfermarkt_url": "https://www.transfermarkt.com/josko-gvardiol/profil/spieler/649675",
+      "profile_url": "https://www.transfermarkt.com/josko-gvardiol/profil/spieler/649675/statistik",
+      "basic_info": {
+        "date_of_birth": "14/03/2002 (24)",
+        "height": "1,82 m"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Duje Ćaleta-Car",
+      "name_cn": "卡莱塔·卡尔",
+      "position": "DF",
+      "club": "Real Sociedad",
+      "age": 28,
+      "club_country": "Spain",
+      "transfermarkt_url": "https://www.transfermarkt.com/duje-caleta-car/profil/spieler/357696",
+      "profile_url": "https://www.transfermarkt.com/duje-caleta-car/profil/spieler/357696/statistik",
+      "basic_info": {},
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Josip Šutalo",
+      "name_cn": "舒塔洛",
+      "position": "DF",
+      "club": "Ajax",
+      "age": 24,
+      "club_country": "Netherlands",
+      "transfermarkt_url": "https://www.transfermarkt.com/josip-sutalo/profil/spieler/624657",
+      "profile_url": "https://www.transfermarkt.com/josip-sutalo/profil/spieler/624657/statistik",
+      "basic_info": {
+        "date_of_birth": "09/10/1944 (81)"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Josip Stanišić",
+      "name_cn": "斯塔尼西奇",
+      "position": "DF",
+      "club": "Bayern Munich",
+      "age": 24,
+      "club_country": "Germany",
+      "transfermarkt_url": "https://www.transfermarkt.com/josip-stanisic/profil/spieler/542596",
+      "profile_url": "https://www.transfermarkt.com/josip-stanisic/profil/spieler/542596/statistik",
+      "basic_info": {
+        "date_of_birth": "22/01/1996 (30)",
+        "height": "1,90 m"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Marin Pongračić",
+      "name_cn": "庞格拉契奇",
+      "position": "DF",
+      "club": "Fiorentina",
+      "age": 28,
+      "club_country": "Italy",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "Martin Erlić",
+      "name_cn": "埃尔利奇",
+      "position": "DF",
+      "club": "Midtjylland",
+      "age": 27,
+      "club_country": "Denmark",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "Luka Vušković",
+      "name_cn": "武什科维奇",
+      "position": "DF",
+      "club": "Hamburger SV",
+      "age": 22,
+      "club_country": "Germany",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "Luka Modrić",
+      "name_cn": "莫德里奇",
+      "position": "MF",
+      "club": "AC Milan",
+      "age": 40,
+      "club_country": "Italy",
+      "transfermarkt_url": "https://www.transfermarkt.com/luka-modric/profil/spieler/27904",
+      "profile_url": "https://www.transfermarkt.com/luka-modric/profil/spieler/27904/statistik",
+      "basic_info": {
+        "date_of_birth": "27/08/1984 (41)",
+        "height": "1,81 m"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Mateo Kovačić",
+      "name_cn": "科瓦契奇",
+      "position": "MF",
+      "club": "Manchester City",
+      "age": 31,
+      "club_country": "England",
+      "transfermarkt_url": "https://www.transfermarkt.com/mateo-kovacic/profil/spieler/178296",
+      "profile_url": "https://www.transfermarkt.com/mateo-kovacic/profil/spieler/178296/statistik",
+      "basic_info": {
+        "date_of_birth": "16/07/1991 (34)"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Mario Pašalić",
+      "name_cn": "帕萨里奇",
+      "position": "MF",
+      "club": "Atalanta",
+      "age": 29,
+      "club_country": "Italy",
+      "transfermarkt_url": "https://www.transfermarkt.com/mario-pasalic/profil/spieler/216900",
+      "profile_url": "https://www.transfermarkt.com/mario-pasalic/profil/spieler/216900/statistik",
+      "basic_info": {},
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Nikola Vlašić",
+      "name_cn": "弗拉西奇",
+      "position": "MF",
+      "club": "Torino",
+      "age": 27,
+      "club_country": "Italy",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "Luka Sučić",
+      "name_cn": "苏契奇",
+      "position": "MF",
+      "club": "Real Sociedad",
+      "age": 22,
+      "club_country": "Spain",
+      "transfermarkt_url": "https://www.transfermarkt.com/luka-sucic/profil/spieler/624661",
+      "profile_url": "https://www.transfermarkt.com/luka-sucic/profil/spieler/624661/statistik",
+      "basic_info": {
+        "date_of_birth": "15/12/1935"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Martin Baturina",
+      "name_cn": "巴图里纳",
+      "position": "MF",
+      "club": "Como",
+      "age": 22,
+      "club_country": "Italy",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "Kristijan Jakić",
+      "name_cn": "亚基奇",
+      "position": "MF",
+      "club": "Augsburg",
+      "age": 27,
+      "club_country": "Germany",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "Petar Sučić",
+      "name_cn": "佩塔尔·苏契奇",
+      "position": "MF",
+      "club": "Inter Milan",
+      "age": 23,
+      "club_country": "Italy",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "Nikola Moro",
+      "name_cn": "莫罗",
+      "position": "MF",
+      "club": "Bologna",
+      "age": 26,
+      "club_country": "Italy",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "Toni Fruk",
+      "name_cn": "托尼·弗鲁克",
+      "position": "MF",
+      "club": "Rijeka",
+      "age": 22,
+      "club_country": "Croatia",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "Ivan Perišić",
+      "name_cn": "佩里西奇",
+      "position": "FW",
+      "club": "PSV Eindhoven",
+      "age": 36,
+      "club_country": "Netherlands",
+      "transfermarkt_url": "https://www.transfermarkt.com/ivan-perisic/profil/spieler/47816",
+      "profile_url": "https://www.transfermarkt.com/ivan-perisic/profil/spieler/47816/statistik",
+      "basic_info": {
+        "date_of_birth": "02/02/1991 (35)",
+        "height": "1,83 m"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Andrej Kramarić",
+      "name_cn": "克拉马里奇",
+      "position": "FW",
+      "club": "Hoffenheim",
+      "age": 34,
+      "club_country": "Germany",
+      "transfermarkt_url": "https://www.transfermarkt.com/andrej-kramaric/profil/spieler/94271",
+      "profile_url": "https://www.transfermarkt.com/andrej-kramaric/profil/spieler/94271/statistik",
+      "basic_info": {
+        "date_of_birth": "12/02/1992 (34)"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Ante Budimir",
+      "name_cn": "布迪米尔",
+      "position": "FW",
+      "club": "Osasuna",
+      "age": 33,
+      "club_country": "Spain",
+      "transfermarkt_url": "https://www.transfermarkt.com/ante-budimir/profil/spieler/277900",
+      "profile_url": "https://www.transfermarkt.com/ante-budimir/profil/spieler/277900/statistik",
+      "basic_info": {},
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Marko Pašalić",
+      "name_cn": "马尔科·帕萨里奇",
+      "position": "FW",
+      "club": "Orlando City",
+      "age": 29,
+      "club_country": "USA",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "Petar Musa",
+      "name_cn": "佩塔尔·穆萨",
+      "position": "FW",
+      "club": "Dallas",
+      "age": 26,
+      "club_country": "USA",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "Igor Matanović",
+      "name_cn": "伊戈尔·马塔诺维奇",
+      "position": "FW",
+      "club": "Freiburg",
+      "age": 21,
+      "club_country": "Germany",
+      "transfermarkt_url": null
+    }
+  ]
+}

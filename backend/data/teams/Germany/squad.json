@@ -1,0 +1,292 @@
+{
+  "team": "Germany",
+  "player_count": 26,
+  "players": [
+    {
+      "id": "manuel-neuer",
+      "name": "Manuel Neuer",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 1,
+      "club": "Bayern Munich",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "antonio-r-diger",
+      "name": "Antonio Rüdiger",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 2,
+      "club": "Real Madrid",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "waldemar-anton",
+      "name": "Waldemar Anton",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 3,
+      "club": "Borussia Dortmund",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "jonathan-tah",
+      "name": "Jonathan Tah",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 4,
+      "club": "Bayern Munich",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "aleksandar-pavlovi",
+      "name": "Aleksandar Pavlović",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 5,
+      "club": "Bayern Munich",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "joshua-kimmich",
+      "name": "Joshua Kimmich",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 6,
+      "club": "Bayern Munich",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "kai-havertz",
+      "name": "Kai Havertz",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 7,
+      "club": "Arsenal",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "leon-goretzka",
+      "name": "Leon Goretzka",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 8,
+      "club": "Bayern Munich",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "jamie-leweling",
+      "name": "Jamie Leweling",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 9,
+      "club": "VfB Stuttgart",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "jamal-musiala",
+      "name": "Jamal Musiala",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 10,
+      "club": "Bayern Munich",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "nick-woltemade",
+      "name": "Nick Woltemade",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 11,
+      "club": "Newcastle United",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "oliver-baumann",
+      "name": "Oliver Baumann",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 12,
+      "club": "TSG Hoffenheim",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "pascal-gro",
+      "name": "Pascal Groß",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 13,
+      "club": "Brighton & Hove Albion",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "maximilian-beier",
+      "name": "Maximilian Beier",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 14,
+      "club": "Borussia Dortmund",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "nico-schlotterbeck",
+      "name": "Nico Schlotterbeck",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 15,
+      "club": "Borussia Dortmund",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "angelo-stiller",
+      "name": "Angelo Stiller",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 16,
+      "club": "VfB Stuttgart",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "florian-wirtz",
+      "name": "Florian Wirtz",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 17,
+      "club": "Liverpool",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "nathaniel-brown",
+      "name": "Nathaniel Brown",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 18,
+      "club": "Eintracht Frankfurt",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "leroy-san",
+      "name": "Leroy Sané",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 19,
+      "club": "Galatasaray",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "nadiem-amiri",
+      "name": "Nadiem Amiri",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 20,
+      "club": "Mainz 05",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "alexander-n-bel",
+      "name": "Alexander Nübel",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 21,
+      "club": "VfB Stuttgart",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "david-raum",
+      "name": "David Raum",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 22,
+      "club": "RB Leipzig",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "felix-nmecha",
+      "name": "Felix Nmecha",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 23,
+      "club": "Borussia Dortmund",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "malick-thiaw",
+      "name": "Malick Thiaw",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 24,
+      "club": "Newcastle United",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "lennart-karl",
+      "name": "Lennart Karl",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 25,
+      "club": "Bayern Munich",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "deniz-undav",
+      "name": "Deniz Undav",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 26,
+      "club": "VfB Stuttgart",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    }
+  ]
+}

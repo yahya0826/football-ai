@@ -1,0 +1,292 @@
+{
+  "team": "Argentina",
+  "player_count": 26,
+  "players": [
+    {
+      "id": "juan-musso",
+      "name": "Juan Musso",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 1,
+      "club": "Atlético Madrid",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "leonardo-balerdi",
+      "name": "Leonardo Balerdi",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 2,
+      "club": "Marseille",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "nicol-s-tagliafico",
+      "name": "Nicolás Tagliafico",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 3,
+      "club": "Lyon",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "gonzalo-montiel",
+      "name": "Gonzalo Montiel",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 4,
+      "club": "River Plate",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "leandro-paredes",
+      "name": "Leandro Paredes",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 5,
+      "club": "Boca Juniors",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "lisandro-mart-nez",
+      "name": "Lisandro Martínez",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 6,
+      "club": "Manchester United",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "rodrigo-de-paul",
+      "name": "Rodrigo De Paul",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 7,
+      "club": "Inter Miami CF",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "valent-n-barco",
+      "name": "Valentín Barco",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 8,
+      "club": "Strasbourg",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "juli-n-alvarez",
+      "name": "Julián Alvarez",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 9,
+      "club": "Atlético Madrid",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "lionel-messi",
+      "name": "Lionel Messi",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 10,
+      "club": "Inter Miami CF",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "giovani-lo-celso",
+      "name": "Giovani Lo Celso",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 11,
+      "club": "Real Betis",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ger-nimo-rulli",
+      "name": "Gerónimo Rulli",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 12,
+      "club": "Marseille",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "cristian-romero",
+      "name": "Cristian Romero",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 13,
+      "club": "Tottenham Hotspur",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "exequiel-palacios",
+      "name": "Exequiel Palacios",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 14,
+      "club": "Bayer Leverkusen",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "nicol-s-gonz-lez",
+      "name": "Nicolás González",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 15,
+      "club": "Atlético Madrid",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "thiago-almada",
+      "name": "Thiago Almada",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 16,
+      "club": "Atlético Madrid",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "giuliano-simeone",
+      "name": "Giuliano Simeone",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 17,
+      "club": "Atlético Madrid",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "nico-paz",
+      "name": "Nico Paz",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 18,
+      "club": "Como",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "nicol-s-otamendi",
+      "name": "Nicolás Otamendi",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 19,
+      "club": "Benfica",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "alexis-mac-allister",
+      "name": "Alexis Mac Allister",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 20,
+      "club": "Liverpool",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "jos--manuel-l-pez",
+      "name": "José Manuel López",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 21,
+      "club": "Palmeiras",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "lautaro-mart-nez",
+      "name": "Lautaro Martínez",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 22,
+      "club": "Inter Milan",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "emiliano-mart-nez",
+      "name": "Emiliano Martínez",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 23,
+      "club": "Aston Villa",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "enzo-fern-ndez",
+      "name": "Enzo Fernández",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 24,
+      "club": "Chelsea",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "facundo-medina",
+      "name": "Facundo Medina",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 25,
+      "club": "Marseille",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "nahuel-molina",
+      "name": "Nahuel Molina",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 26,
+      "club": "Atlético Madrid",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    }
+  ]
+}

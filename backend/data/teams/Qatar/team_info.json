@@ -1,0 +1,174 @@
+{
+  "team_en": "Qatar",
+  "team_cn": "卡塔尔",
+  "confederation": "AFC",
+  "group": "B",
+  "stats": {
+    "total_matches": 314,
+    "wins": 137,
+    "draws": 73,
+    "losses": 104,
+    "goals_for": 464,
+    "goals_against": 365
+  },
+  "recent_matches": [
+    {
+      "date": "2026-06-24",
+      "home_team": "Bosnia and Herzegovina",
+      "away_team": "Qatar",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Seattle",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-06-18",
+      "home_team": "Canada",
+      "away_team": "Qatar",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Vancouver",
+      "country": "Canada",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2026-06-13",
+      "home_team": "Qatar",
+      "away_team": "Switzerland",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Santa Clara",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2025-12-07",
+      "home_team": "Qatar",
+      "away_team": "Tunisia",
+      "home_score": "0",
+      "away_score": "3",
+      "tournament": "Arab Cup",
+      "city": "Al Khor",
+      "country": "Qatar",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-12-04",
+      "home_team": "Qatar",
+      "away_team": "Syria",
+      "home_score": "1",
+      "away_score": "1",
+      "tournament": "Arab Cup",
+      "city": "Al Rayyan",
+      "country": "Qatar",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-12-01",
+      "home_team": "Qatar",
+      "away_team": "Palestine",
+      "home_score": "0",
+      "away_score": "1",
+      "tournament": "Arab Cup",
+      "city": "Al Khor",
+      "country": "Qatar",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-11-17",
+      "home_team": "Qatar",
+      "away_team": "Zimbabwe",
+      "home_score": "1",
+      "away_score": "2",
+      "tournament": "Friendly",
+      "city": "Ar-Rayyan",
+      "country": "Qatar",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-10-14",
+      "home_team": "Qatar",
+      "away_team": "United Arab Emirates",
+      "home_score": "2",
+      "away_score": "1",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Al Rayyan",
+      "country": "Qatar",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-10-08",
+      "home_team": "Qatar",
+      "away_team": "Oman",
+      "home_score": "0",
+      "away_score": "0",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Al Rayyan",
+      "country": "Qatar",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-09-07",
+      "home_team": "Qatar",
+      "away_team": "Russia",
+      "home_score": "1",
+      "away_score": "4",
+      "tournament": "Friendly",
+      "city": "Doha",
+      "country": "Qatar",
+      "neutral": "FALSE"
+    }
+  ],
+  "matches_by_year": {
+    "2026": 3,
+    "2025": 13,
+    "2024": 21,
+    "2023": 14,
+    "2022": 11,
+    "2021": 24,
+    "2020": 4,
+    "2019": 21,
+    "2018": 12,
+    "2017": 18,
+    "2016": 12,
+    "2015": 15,
+    "2014": 18,
+    "2013": 24,
+    "2012": 10,
+    "2011": 16,
+    "2010": 13,
+    "2009": 20,
+    "2008": 23,
+    "2007": 17,
+    "2006": 8
+  },
+  "tournament_breakdown": {
+    "Friendly": 139,
+    "FIFA World Cup qualification": 76,
+    "Gulf Cup": 32,
+    "AFC Asian Cup": 24,
+    "AFC Asian Cup qualification": 12,
+    "Arab Cup": 9,
+    "Gold Cup": 9,
+    "WAFF Championship": 7,
+    "FIFA World Cup": 6,
+    "Copa América": 3
+  },
+  "total_matches_20y": 317,
+  "elo_rating": 1471,
+  "odds": {
+    "decimal_odds": 1001.0,
+    "implied_probability": 0.1,
+    "rank": 38,
+    "platforms": {
+      "Bet365": 1001.0,
+      "William Hill": 1001.0,
+      "DraftKings": 1000.0
+    }
+  },
+  "fifa_ranking": null
+}

@@ -1,0 +1,292 @@
+{
+  "team": "Ivory Coast",
+  "player_count": 26,
+  "players": [
+    {
+      "id": "yahia-fofana",
+      "name": "Yahia Fofana",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 1,
+      "club": "Çaykur Rizespor",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ousmane-diomande",
+      "name": "Ousmane Diomande",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 2,
+      "club": "Sporting CP",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ghislain-konan",
+      "name": "Ghislain Konan",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 3,
+      "club": "Gil Vicente",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "jean-micha-l-seri",
+      "name": "Jean Michaël Seri",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 4,
+      "club": "Maribor",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "wilfried-singo",
+      "name": "Wilfried Singo",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 5,
+      "club": "Galatasaray",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "seko-fofana",
+      "name": "Seko Fofana",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 6,
+      "club": "Porto",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "odilon-kossounou",
+      "name": "Odilon Kossounou",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 7,
+      "club": "Atalanta",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "franck-kessi",
+      "name": "Franck Kessié",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 8,
+      "club": "Al-Ahli",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ange-yoan-bonny",
+      "name": "Ange-Yoan Bonny",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 9,
+      "club": "Inter Milan",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "simon-adingra",
+      "name": "Simon Adingra",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 10,
+      "club": "Monaco",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "yan-diomande",
+      "name": "Yan Diomande",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 11,
+      "club": "RB Leipzig",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "elye-wahi",
+      "name": "Elye Wahi",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 12,
+      "club": "Nice",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "christopher-op-ri",
+      "name": "Christopher Opéri",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 13,
+      "club": "İstanbul Başakşehir",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "oumar-diakit",
+      "name": "Oumar Diakité",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 14,
+      "club": "Cercle Brugge",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "amad-diallo",
+      "name": "Amad Diallo",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 15,
+      "club": "Manchester United",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "mohamed-kon",
+      "name": "Mohamed Koné",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 16,
+      "club": "Charleroi",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "gu-la-dou",
+      "name": "Guéla Doué",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 17,
+      "club": "Strasbourg",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ibrahim-sangar",
+      "name": "Ibrahim Sangaré",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 18,
+      "club": "Nottingham Forest",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "nicolas-p-p",
+      "name": "Nicolas Pépé",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 19,
+      "club": "Villarreal",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "emmanuel-agbadou",
+      "name": "Emmanuel Agbadou",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 20,
+      "club": "Beşiktaş",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "evan-ndicka",
+      "name": "Evan Ndicka",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 21,
+      "club": "Roma",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "evann-guessand",
+      "name": "Evann Guessand",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 22,
+      "club": "Crystal Palace",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "alban-lafont",
+      "name": "Alban Lafont",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 23,
+      "club": "Panathinaikos",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "bazoumana-tour",
+      "name": "Bazoumana Touré",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 24,
+      "club": "TSG Hoffenheim",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "parfait-guiagon",
+      "name": "Parfait Guiagon",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 25,
+      "club": "Charleroi",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "christ-inao-oula",
+      "name": "Christ Inao Oulaï",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 26,
+      "club": "Trabzonspor",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    }
+  ]
+}

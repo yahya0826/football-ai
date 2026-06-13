@@ -1,0 +1,292 @@
+{
+  "team": "Portugal",
+  "player_count": 26,
+  "players": [
+    {
+      "id": "diogo-costa",
+      "name": "Diogo Costa",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 1,
+      "club": "Porto",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "n-lson-semedo",
+      "name": "Nélson Semedo",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 2,
+      "club": "Fenerbahçe",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "r-ben-dias",
+      "name": "Rúben Dias",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 3,
+      "club": "Manchester City",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "tom-s-ara-jo",
+      "name": "Tomás Araújo",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 4,
+      "club": "Benfica",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "diogo-dalot",
+      "name": "Diogo Dalot",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 5,
+      "club": "Manchester United",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "matheus-nunes",
+      "name": "Matheus Nunes",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 6,
+      "club": "Manchester City",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "cristiano-ronaldo",
+      "name": "Cristiano Ronaldo",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 7,
+      "club": "Al-Nassr",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "bruno-fernandes",
+      "name": "Bruno Fernandes",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 8,
+      "club": "Manchester United",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "gon-alo-ramos",
+      "name": "Gonçalo Ramos",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 9,
+      "club": "Paris Saint-Germain",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "bernardo-silva",
+      "name": "Bernardo Silva",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 10,
+      "club": "Manchester City",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "jo-o-f-lix",
+      "name": "João Félix",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 11,
+      "club": "Al-Nassr",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "jos--s",
+      "name": "José Sá",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 12,
+      "club": "Wolverhampton Wanderers",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "renato-veiga",
+      "name": "Renato Veiga",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 13,
+      "club": "Villarreal",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "gon-alo-in-cio",
+      "name": "Gonçalo Inácio",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 14,
+      "club": "Sporting CP",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "jo-o-neves",
+      "name": "João Neves",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 15,
+      "club": "Paris Saint-Germain",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "francisco-trinc-o",
+      "name": "Francisco Trincão",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 16,
+      "club": "Sporting CP",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "rafael-le-o",
+      "name": "Rafael Leão",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 17,
+      "club": "Milan",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "pedro-neto",
+      "name": "Pedro Neto",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 18,
+      "club": "Chelsea",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "gon-alo-guedes",
+      "name": "Gonçalo Guedes",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 19,
+      "club": "Real Sociedad",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "jo-o-cancelo",
+      "name": "João Cancelo",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 20,
+      "club": "Barcelona",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "r-ben-neves",
+      "name": "Rúben Neves",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 21,
+      "club": "Al-Hilal",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "rui-silva",
+      "name": "Rui Silva",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 22,
+      "club": "Sporting CP",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "vitinha",
+      "name": "Vitinha",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 23,
+      "club": "Paris Saint-Germain",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "sam--costa",
+      "name": "Samú Costa",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 24,
+      "club": "Mallorca",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "nuno-mendes",
+      "name": "Nuno Mendes",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 25,
+      "club": "Paris Saint-Germain",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "francisco-concei--o",
+      "name": "Francisco Conceição",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 26,
+      "club": "Juventus",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    }
+  ]
+}

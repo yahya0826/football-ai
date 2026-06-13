@@ -1,0 +1,292 @@
+{
+  "team": "Scotland",
+  "player_count": 26,
+  "players": [
+    {
+      "id": "angus-gunn",
+      "name": "Angus Gunn",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 1,
+      "club": "Nottingham Forest",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "aaron-hickey",
+      "name": "Aaron Hickey",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 2,
+      "club": "Brentford",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "andy-robertson",
+      "name": "Andy Robertson",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 3,
+      "club": "Liverpool",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "scott-mctominay",
+      "name": "Scott McTominay",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 4,
+      "club": "Napoli",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "grant-hanley",
+      "name": "Grant Hanley",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 5,
+      "club": "Hibernian",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "kieran-tierney",
+      "name": "Kieran Tierney",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 6,
+      "club": "Celtic",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "john-mcginn",
+      "name": "John McGinn",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 7,
+      "club": "Aston Villa",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "tyler-fletcher",
+      "name": "Tyler Fletcher",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 8,
+      "club": "Manchester United",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "lyndon-dykes",
+      "name": "Lyndon Dykes",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 9,
+      "club": "Charlton Athletic",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ch--adams",
+      "name": "Ché Adams",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 10,
+      "club": "Torino",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ryan-christie",
+      "name": "Ryan Christie",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 11,
+      "club": "Bournemouth",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "liam-kelly",
+      "name": "Liam Kelly",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 12,
+      "club": "Rangers",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "jack-hendry",
+      "name": "Jack Hendry",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 13,
+      "club": "Al-Ettifaq",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ross-stewart",
+      "name": "Ross Stewart",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 14,
+      "club": "Southampton",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "john-souttar",
+      "name": "John Souttar",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 15,
+      "club": "Rangers",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "dominic-hyam",
+      "name": "Dominic Hyam",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 16,
+      "club": "Wrexham",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ben-gannon-doak",
+      "name": "Ben Gannon-Doak",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 17,
+      "club": "Bournemouth",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "george-hirst",
+      "name": "George Hirst",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 18,
+      "club": "Ipswich Town",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "lewis-ferguson",
+      "name": "Lewis Ferguson",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 19,
+      "club": "Bologna",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "lawrence-shankland",
+      "name": "Lawrence Shankland",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 20,
+      "club": "Heart of Midlothian",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "craig-gordon",
+      "name": "Craig Gordon",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 21,
+      "club": "Heart of Midlothian",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "nathan-patterson",
+      "name": "Nathan Patterson",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 22,
+      "club": "Everton",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "kenny-mclean",
+      "name": "Kenny McLean",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 23,
+      "club": "Norwich City",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "anthony-ralston",
+      "name": "Anthony Ralston",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 24,
+      "club": "Celtic",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "findlay-curtis",
+      "name": "Findlay Curtis",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 25,
+      "club": "Kilmarnock",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "scott-mckenna",
+      "name": "Scott McKenna",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 26,
+      "club": "Dinamo Zagreb",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    }
+  ]
+}

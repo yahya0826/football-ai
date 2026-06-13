@@ -1,0 +1,292 @@
+{
+  "team": "Haiti",
+  "player_count": 26,
+  "players": [
+    {
+      "id": "johny-placide",
+      "name": "Johny Placide",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 1,
+      "club": "Bastia",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "carlens-arcus",
+      "name": "Carlens Arcus",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 2,
+      "club": "Angers",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "keeto-thermoncy",
+      "name": "Keeto Thermoncy",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 3,
+      "club": "Young Boys",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ricardo-ad",
+      "name": "Ricardo Adé",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 4,
+      "club": "LDU Quito",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "hannes-delcroix",
+      "name": "Hannes Delcroix",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 5,
+      "club": "Lugano",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "carl-saint",
+      "name": "Carl Sainté",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 6,
+      "club": "El Paso Locomotive FC",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "derrick-etienne-jr",
+      "name": "Derrick Etienne Jr.",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 7,
+      "club": "Toronto FC",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "martin-exp-rience",
+      "name": "Martin Expérience",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 8,
+      "club": "Nancy",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "duckens-nazon",
+      "name": "Duckens Nazon",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 9,
+      "club": "Esteghlal",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "jean-ricner-bellegarde",
+      "name": "Jean-Ricner Bellegarde",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 10,
+      "club": "Wolverhampton Wanderers",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "louicius-deedson",
+      "name": "Louicius Deedson",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 11,
+      "club": "FC Dallas",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "alexandre-pierre",
+      "name": "Alexandre Pierre",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 12,
+      "club": "Sochaux",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "duke-lacroix",
+      "name": "Duke Lacroix",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 13,
+      "club": "Colorado Springs Switchbacks FC",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "leverton-pierre",
+      "name": "Leverton Pierre",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 14,
+      "club": "Vizela",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ruben-providence",
+      "name": "Ruben Providence",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 15,
+      "club": "Almere City",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "lenny-joseph",
+      "name": "Lenny Joseph",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 16,
+      "club": "Ferencváros",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "danley-jean-jacques",
+      "name": "Danley Jean Jacques",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 17,
+      "club": "Philadelphia Union",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "wilson-isidor",
+      "name": "Wilson Isidor",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 18,
+      "club": "Sunderland",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "yassin-fortun",
+      "name": "Yassin Fortuné",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 19,
+      "club": "Vizela",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "frantzdy-pierrot",
+      "name": "Frantzdy Pierrot",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 20,
+      "club": "Çaykur Rizespor",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "josu--casimir",
+      "name": "Josué Casimir",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 21,
+      "club": "Auxerre",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "jean-k-vin-duverne",
+      "name": "Jean-Kévin Duverne",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 22,
+      "club": "Gent",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "josu--duverger",
+      "name": "Josué Duverger",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 23,
+      "club": "Cosmos Koblenz",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "wilguens-paugain",
+      "name": "Wilguens Paugain",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 24,
+      "club": "Zulte Waregem",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "dominique-simon",
+      "name": "Dominique Simon",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 25,
+      "club": "Tatran Prešov",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "woodensky-pierre",
+      "name": "Woodensky Pierre",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 26,
+      "club": "Violette",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "announced": "2026-05-14",
+  "type": "final_26",
+  "coach": "Didier Deschamps",
+  "goalkeepers": [
+    {
+      "name": "Mike Maignan",
+      "club": "AC Milan",
+      "caps": 28
+    },
+    {
+      "name": "Brice Samba",
+      "club": "Rennes",
+      "caps": 5
+    },
+    {
+      "name": "Robin Risser",
+      "club": "Lens",
+      "caps": 0
+    }
+  ],
+  "defenders": [
+    {
+      "name": "Jules Koundé",
+      "club": "Barcelona",
+      "caps": 35
+    },
+    {
+      "name": "Malo Gusto",
+      "club": "Chelsea",
+      "caps": 8
+    },
+    {
+      "name": "Dayot Upamecano",
+      "club": "Bayern Munich",
+      "caps": 25
+    },
+    {
+      "name": "William Saliba",
+      "club": "Arsenal",
+      "caps": 22
+    },
+    {
+      "name": "Ibrahima Konaté",
+      "club": "Liverpool",
+      "caps": 18
+    },
+    {
+      "name": "Lucas Hernandez",
+      "club": "PSG",
+      "caps": 40
+    },
+    {
+      "name": "Theo Hernandez",
+      "club": "Al-Hilal",
+      "caps": 30
+    },
+    {
+      "name": "Lucas Digne",
+      "club": "Aston Villa",
+      "caps": 48
+    }
+  ],
+  "midfielders": [
+    {
+      "name": "Aurélien Tchouaméni",
+      "club": "Real Madrid",
+      "caps": 35
+    },
+    {
+      "name": "Eduardo Camavinga",
+      "club": "Real Madrid",
+      "caps": 22
+    },
+    {
+      "name": "N'Golo Kanté",
+      "club": "Al-Ittihad",
+      "caps": 55
+    },
+    {
+      "name": "Adrien Rabiot",
+      "club": "AC Milan",
+      "caps": 48
+    },
+    {
+      "name": "Manu Koné",
+      "club": "Roma",
+      "caps": 8
+    },
+    {
+      "name": "Warren Zaïre-Emery",
+      "club": "PSG",
+      "caps": 5
+    }
+  ],
+  "forwards": [
+    {
+      "name": "Kylian Mbappé",
+      "club": "Real Madrid",
+      "caps": 80
+    },
+    {
+      "name": "Ousmane Dembélé",
+      "club": "PSG",
+      "caps": 50
+    },
+    {
+      "name": "Michael Olise",
+      "club": "Bayern Munich",
+      "caps": 12
+    },
+    {
+      "name": "Marcus Thuram",
+      "club": "Inter Milan",
+      "caps": 25
+    },
+    {
+      "name": "Bradley Barcola",
+      "club": "PSG",
+      "caps": 15
+    },
+    {
+      "name": "Désiré Doué",
+      "club": "PSG",
+      "caps": 5
+    },
+    {
+      "name": "Rayan Cherki",
+      "club": "Manchester City",
+      "caps": 8
+    },
+    {
+      "name": "Maghnes Akliouche",
+      "club": "Monaco",
+      "caps": 3
+    },
+    {
+      "name": "Randal Kolo Muani",
+      "club": "Tottenham",
+      "caps": 30
+    }
+  ],
+  "notable_omissions": [
+    "Lucas Chevalier",
+    "Benjamin Pavard",
+    "Hugo Ekitike (injured)"
+  ]
+}

@@ -1,0 +1,292 @@
+{
+  "team": "Iraq",
+  "player_count": 26,
+  "players": [
+    {
+      "id": "fahad-talib",
+      "name": "Fahad Talib",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 1,
+      "club": "Al-Talaba",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "rebin-sulaka",
+      "name": "Rebin Sulaka",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 2,
+      "club": "Port",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "hussein-ali",
+      "name": "Hussein Ali",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 3,
+      "club": "Pogoń Szczecin",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "zaid-tahseen",
+      "name": "Zaid Tahseen",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 4,
+      "club": "Pakhtakor",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "akam-hashim",
+      "name": "Akam Hashim",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 5,
+      "club": "Al-Zawraa",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "manaf-younis",
+      "name": "Manaf Younis",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 6,
+      "club": "Al-Shorta",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "youssef-amyn",
+      "name": "Youssef Amyn",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 7,
+      "club": "AEK Larnaca",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ibrahim-bayesh",
+      "name": "Ibrahim Bayesh",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 8,
+      "club": "Al Dhafra",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ali-al-hamadi",
+      "name": "Ali Al-Hamadi",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 9,
+      "club": "Luton Town",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "mohanad-ali",
+      "name": "Mohanad Ali",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 10,
+      "club": "Dibba",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ahmed-qasem",
+      "name": "Ahmed Qasem",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 11,
+      "club": "Nashville SC",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "jalal-hassan",
+      "name": "Jalal Hassan",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 12,
+      "club": "Al-Zawraa",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ali-yousif",
+      "name": "Ali Yousif",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 13,
+      "club": "Al-Talaba",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "zidane-iqbal",
+      "name": "Zidane Iqbal",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 14,
+      "club": "Utrecht",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ahmed-yahya",
+      "name": "Ahmed Yahya",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 15,
+      "club": "Al-Shorta",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "amir-al-ammari",
+      "name": "Amir Al-Ammari",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 16,
+      "club": "Cracovia",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ali-jasim",
+      "name": "Ali Jasim",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 17,
+      "club": "Al-Najma",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "aymen-hussein",
+      "name": "Aymen Hussein",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 18,
+      "club": "Al-Karma",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "kevin-yakob",
+      "name": "Kevin Yakob",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 19,
+      "club": "AGF",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "aimar-sher",
+      "name": "Aimar Sher",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 20,
+      "club": "Sarpsborg 08",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "marko-farji",
+      "name": "Marko Farji",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 21,
+      "club": "Venezia",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ahmed-basil",
+      "name": "Ahmed Basil",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 22,
+      "club": "Al-Shorta",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "merchas-doski",
+      "name": "Merchas Doski",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 23,
+      "club": "Viktoria Plzeň",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "zaid-ismail",
+      "name": "Zaid Ismail",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 24,
+      "club": "Al-Talaba",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "mustafa-saadoon",
+      "name": "Mustafa Saadoon",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 25,
+      "club": "Al-Shorta",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "frans-putros",
+      "name": "Frans Putros",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 26,
+      "club": "Persib",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    }
+  ]
+}

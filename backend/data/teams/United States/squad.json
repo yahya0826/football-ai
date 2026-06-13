@@ -1,0 +1,292 @@
+{
+  "team": "United States",
+  "player_count": 26,
+  "players": [
+    {
+      "id": "matt-turner",
+      "name": "Matt Turner",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 1,
+      "club": "New England Revolution",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "sergi-o-dest",
+      "name": "Sergiño Dest",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 2,
+      "club": "PSV Eindhoven",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "chris-richards",
+      "name": "Chris Richards",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 3,
+      "club": "Crystal Palace",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "tyler-adams",
+      "name": "Tyler Adams",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 4,
+      "club": "Bournemouth",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "antonee-robinson",
+      "name": "Antonee Robinson",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 5,
+      "club": "Fulham",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "auston-trusty",
+      "name": "Auston Trusty",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 6,
+      "club": "Celtic",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "giovanni-reyna",
+      "name": "Giovanni Reyna",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 7,
+      "club": "Borussia Mönchengladbach",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "weston-mckennie",
+      "name": "Weston McKennie",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 8,
+      "club": "Juventus",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ricardo-pepi",
+      "name": "Ricardo Pepi",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 9,
+      "club": "PSV Eindhoven",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "christian-pulisic",
+      "name": "Christian Pulisic",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 10,
+      "club": "Milan",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "brenden-aaronson",
+      "name": "Brenden Aaronson",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 11,
+      "club": "Leeds United",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "miles-robinson",
+      "name": "Miles Robinson",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 12,
+      "club": "FC Cincinnati",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "tim-ream",
+      "name": "Tim Ream",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 13,
+      "club": "Charlotte FC",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "sebastian-berhalter",
+      "name": "Sebastian Berhalter",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 14,
+      "club": "Vancouver Whitecaps FC",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "cristian-roldan",
+      "name": "Cristian Roldan",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 15,
+      "club": "Seattle Sounders FC",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "alex-freeman",
+      "name": "Alex Freeman",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 16,
+      "club": "Villarreal",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "malik-tillman",
+      "name": "Malik Tillman",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 17,
+      "club": "Bayer Leverkusen",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "maximilian-arfsten",
+      "name": "Maximilian Arfsten",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 18,
+      "club": "Columbus Crew",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "haji-wright",
+      "name": "Haji Wright",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 19,
+      "club": "Coventry City",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "folarin-balogun",
+      "name": "Folarin Balogun",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 20,
+      "club": "Monaco",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "timothy-weah",
+      "name": "Timothy Weah",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 21,
+      "club": "Marseille",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "mark-mckenzie",
+      "name": "Mark McKenzie",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 22,
+      "club": "Toulouse",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "joe-scally",
+      "name": "Joe Scally",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 23,
+      "club": "Borussia Mönchengladbach",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "matt-freese",
+      "name": "Matt Freese",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 24,
+      "club": "New York City FC",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "chris-brady",
+      "name": "Chris Brady",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 25,
+      "club": "Chicago Fire FC",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "alejandro-zendejas",
+      "name": "Alejandro Zendejas",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 26,
+      "club": "América",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    }
+  ]
+}

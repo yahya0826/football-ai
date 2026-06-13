@@ -1,0 +1,281 @@
+{
+  "team": "Canada",
+  "player_count": 25,
+  "players": [
+    {
+      "id": "dayne-st--clair",
+      "name": "Dayne St. Clair",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 1,
+      "club": "Inter Miami CF",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "alistair-johnston",
+      "name": "Alistair Johnston",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 2,
+      "club": "Celtic",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "alfie-jones",
+      "name": "Alfie Jones",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 3,
+      "club": "Middlesbrough",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "luc-de-fougerolles",
+      "name": "Luc de Fougerolles",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 4,
+      "club": "Dender",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "joel-waterman",
+      "name": "Joel Waterman",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 5,
+      "club": "Chicago Fire FC",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "mathieu-choini-re",
+      "name": "Mathieu Choinière",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 6,
+      "club": "Los Angeles FC",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "stephen-eust-quio",
+      "name": "Stephen Eustáquio",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 7,
+      "club": "Los Angeles FC",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "isma-l-kon",
+      "name": "Ismaël Koné",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 8,
+      "club": "Sassuolo",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "cyle-larin",
+      "name": "Cyle Larin",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 9,
+      "club": "Southampton",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "jonathan-david",
+      "name": "Jonathan David",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 10,
+      "club": "Juventus",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "liam-millar",
+      "name": "Liam Millar",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 11,
+      "club": "Hull City",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "tani-oluwaseyi",
+      "name": "Tani Oluwaseyi",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 12,
+      "club": "Villarreal",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "derek-cornelius",
+      "name": "Derek Cornelius",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 13,
+      "club": "Rangers",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "jacob-shaffelburg",
+      "name": "Jacob Shaffelburg",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 14,
+      "club": "Los Angeles FC",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "mo-se-bombito",
+      "name": "Moïse Bombito",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 15,
+      "club": "Nice",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "maxime-cr-peau",
+      "name": "Maxime Crépeau",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 16,
+      "club": "Orlando City SC",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "tajon-buchanan",
+      "name": "Tajon Buchanan",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 17,
+      "club": "Villarreal",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "owen-goodman",
+      "name": "Owen Goodman",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 18,
+      "club": "Barnsley",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "alphonso-davies",
+      "name": "Alphonso Davies",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 19,
+      "club": "Bayern Munich",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ali-ahmed",
+      "name": "Ali Ahmed",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 20,
+      "club": "Norwich City",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "jonathan-osorio",
+      "name": "Jonathan Osorio",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 21,
+      "club": "Toronto FC",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "richie-laryea",
+      "name": "Richie Laryea",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 22,
+      "club": "Toronto FC",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "niko-sigur",
+      "name": "Niko Sigur",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 23,
+      "club": "Hajduk Split",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "promise-david",
+      "name": "Promise David",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 24,
+      "club": "Union Saint-Gilloise",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "nathan-saliba",
+      "name": "Nathan Saliba",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 25,
+      "club": "Anderlecht",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    }
+  ]
+}

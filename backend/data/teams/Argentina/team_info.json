@@ -1,0 +1,170 @@
+{
+  "team_en": "Argentina",
+  "team_cn": "阿根廷",
+  "confederation": "CONMEBOL",
+  "group": "J",
+  "stats": {
+    "total_matches": 264,
+    "wins": 166,
+    "draws": 57,
+    "losses": 41,
+    "goals_for": 509,
+    "goals_against": 210
+  },
+  "recent_matches": [
+    {
+      "date": "2026-06-27",
+      "home_team": "Jordan",
+      "away_team": "Argentina",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Arlington",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-06-22",
+      "home_team": "Argentina",
+      "away_team": "Austria",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Arlington",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-06-16",
+      "home_team": "Argentina",
+      "away_team": "Algeria",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Kansas City",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-03-31",
+      "home_team": "Argentina",
+      "away_team": "Zambia",
+      "home_score": "5",
+      "away_score": "0",
+      "tournament": "Friendly",
+      "city": "Buenos Aires",
+      "country": "Argentina",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2026-03-27",
+      "home_team": "Argentina",
+      "away_team": "Mauritania",
+      "home_score": "2",
+      "away_score": "1",
+      "tournament": "Friendly",
+      "city": "Buenos Aires",
+      "country": "Argentina",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-11-14",
+      "home_team": "Angola",
+      "away_team": "Argentina",
+      "home_score": "0",
+      "away_score": "2",
+      "tournament": "Friendly",
+      "city": "Luanda",
+      "country": "Angola",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-10-14",
+      "home_team": "Puerto Rico",
+      "away_team": "Argentina",
+      "home_score": "0",
+      "away_score": "6",
+      "tournament": "Friendly",
+      "city": "Fort Lauderdale",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2025-10-10",
+      "home_team": "Argentina",
+      "away_team": "Venezuela",
+      "home_score": "1",
+      "away_score": "0",
+      "tournament": "Friendly",
+      "city": "Miami Gardens",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2025-09-09",
+      "home_team": "Ecuador",
+      "away_team": "Argentina",
+      "home_score": "1",
+      "away_score": "0",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Guayaquil",
+      "country": "Ecuador",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-09-04",
+      "home_team": "Argentina",
+      "away_team": "Venezuela",
+      "home_score": "3",
+      "away_score": "0",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Buenos Aires",
+      "country": "Argentina",
+      "neutral": "FALSE"
+    }
+  ],
+  "matches_by_year": {
+    "2026": 5,
+    "2025": 9,
+    "2024": 16,
+    "2023": 10,
+    "2022": 16,
+    "2021": 16,
+    "2020": 4,
+    "2019": 15,
+    "2018": 13,
+    "2017": 10,
+    "2016": 14,
+    "2015": 15,
+    "2014": 15,
+    "2013": 12,
+    "2012": 11,
+    "2011": 21,
+    "2010": 14,
+    "2009": 14,
+    "2008": 12,
+    "2007": 16,
+    "2006": 9
+  },
+  "tournament_breakdown": {
+    "Friendly": 99,
+    "FIFA World Cup qualification": 87,
+    "Copa América": 41,
+    "FIFA World Cup": 31,
+    "Superclásico de las Américas": 8,
+    "CONMEBOL–UEFA Cup of Champions": 1
+  },
+  "total_matches_20y": 267,
+  "elo_rating": 1648,
+  "odds": {
+    "decimal_odds": 9.0,
+    "implied_probability": 10.5,
+    "rank": 5,
+    "platforms": {
+      "Bet365": 9.0,
+      "William Hill": 9.0,
+      "DraftKings": 8.5
+    }
+  },
+  "fifa_ranking": null
+}

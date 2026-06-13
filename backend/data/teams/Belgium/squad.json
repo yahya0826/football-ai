@@ -1,0 +1,292 @@
+{
+  "team": "Belgium",
+  "player_count": 26,
+  "players": [
+    {
+      "id": "thibaut-courtois",
+      "name": "Thibaut Courtois",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 1,
+      "club": "Real Madrid",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "zeno-debast",
+      "name": "Zeno Debast",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 2,
+      "club": "Sporting CP",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "arthur-theate",
+      "name": "Arthur Theate",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 3,
+      "club": "Eintracht Frankfurt",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "brandon-mechele",
+      "name": "Brandon Mechele",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 4,
+      "club": "Club Brugge",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "maxim-de-cuyper",
+      "name": "Maxim De Cuyper",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 5,
+      "club": "Brighton & Hove Albion",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "axel-witsel",
+      "name": "Axel Witsel",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 6,
+      "club": "Girona",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "kevin-de-bruyne",
+      "name": "Kevin De Bruyne",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 7,
+      "club": "Napoli",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "youri-tielemans",
+      "name": "Youri Tielemans",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 8,
+      "club": "Aston Villa",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "romelu-lukaku",
+      "name": "Romelu Lukaku",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 9,
+      "club": "Napoli",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "leandro-trossard",
+      "name": "Leandro Trossard",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 10,
+      "club": "Arsenal",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "j-r-my-doku",
+      "name": "Jérémy Doku",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 11,
+      "club": "Manchester City",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "senne-lammens",
+      "name": "Senne Lammens",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 12,
+      "club": "Manchester United",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "mike-penders",
+      "name": "Mike Penders",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 13,
+      "club": "Strasbourg",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "dodi-luk-bakio",
+      "name": "Dodi Lukébakio",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 14,
+      "club": "Benfica",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "thomas-meunier",
+      "name": "Thomas Meunier",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 15,
+      "club": "Lille",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "koni-de-winter",
+      "name": "Koni De Winter",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 16,
+      "club": "Milan",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "charles-de-ketelaere",
+      "name": "Charles De Ketelaere",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 17,
+      "club": "Atalanta",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "joaquin-seys",
+      "name": "Joaquin Seys",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 18,
+      "club": "Club Brugge",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "diego-moreira",
+      "name": "Diego Moreira",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 19,
+      "club": "Strasbourg",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "hans-vanaken",
+      "name": "Hans Vanaken",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 20,
+      "club": "Club Brugge",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "timothy-castagne",
+      "name": "Timothy Castagne",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 21,
+      "club": "Fulham",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "alexis-saelemaekers",
+      "name": "Alexis Saelemaekers",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 22,
+      "club": "Milan",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "nicolas-raskin",
+      "name": "Nicolas Raskin",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 23,
+      "club": "Rangers",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "amadou-onana",
+      "name": "Amadou Onana",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 24,
+      "club": "Aston Villa",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "nathan-ngoy",
+      "name": "Nathan Ngoy",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 25,
+      "club": "Lille",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "matias-fernandez-pardo",
+      "name": "Matias Fernandez-Pardo",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 26,
+      "club": "Lille",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    }
+  ]
+}

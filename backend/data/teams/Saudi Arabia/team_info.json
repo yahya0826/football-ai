@@ -1,0 +1,174 @@
+{
+  "team_en": "Saudi Arabia",
+  "team_cn": "沙特阿拉伯",
+  "confederation": "AFC",
+  "group": "H",
+  "stats": {
+    "total_matches": 306,
+    "wins": 136,
+    "draws": 74,
+    "losses": 96,
+    "goals_for": 430,
+    "goals_against": 313
+  },
+  "recent_matches": [
+    {
+      "date": "2026-06-26",
+      "home_team": "Cape Verde",
+      "away_team": "Saudi Arabia",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Houston",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-06-21",
+      "home_team": "Spain",
+      "away_team": "Saudi Arabia",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Atlanta",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-06-15",
+      "home_team": "Saudi Arabia",
+      "away_team": "Uruguay",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Miami Gardens",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-03-31",
+      "home_team": "Serbia",
+      "away_team": "Saudi Arabia",
+      "home_score": "2",
+      "away_score": "1",
+      "tournament": "Friendly",
+      "city": "Backa Topola",
+      "country": "Serbia",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2026-03-27",
+      "home_team": "Saudi Arabia",
+      "away_team": "Egypt",
+      "home_score": "0",
+      "away_score": "4",
+      "tournament": "Friendly",
+      "city": "Jeddah",
+      "country": "Saudi Arabia",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-12-15",
+      "home_team": "Saudi Arabia",
+      "away_team": "Jordan",
+      "home_score": "0",
+      "away_score": "1",
+      "tournament": "Arab Cup",
+      "city": "Al Khor",
+      "country": "Qatar",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2025-12-11",
+      "home_team": "Palestine",
+      "away_team": "Saudi Arabia",
+      "home_score": "1",
+      "away_score": "2",
+      "tournament": "Arab Cup",
+      "city": "Lusail",
+      "country": "Qatar",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2025-12-08",
+      "home_team": "Morocco",
+      "away_team": "Saudi Arabia",
+      "home_score": "1",
+      "away_score": "0",
+      "tournament": "Arab Cup",
+      "city": "Lusail",
+      "country": "Qatar",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2025-12-05",
+      "home_team": "Comoros",
+      "away_team": "Saudi Arabia",
+      "home_score": "1",
+      "away_score": "3",
+      "tournament": "Arab Cup",
+      "city": "Al Khor",
+      "country": "Qatar",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2025-12-02",
+      "home_team": "Saudi Arabia",
+      "away_team": "Oman",
+      "home_score": "2",
+      "away_score": "1",
+      "tournament": "Arab Cup",
+      "city": "Al Rayyan",
+      "country": "Qatar",
+      "neutral": "TRUE"
+    }
+  ],
+  "matches_by_year": {
+    "2026": 5,
+    "2025": 20,
+    "2024": 21,
+    "2023": 11,
+    "2022": 17,
+    "2021": 14,
+    "2020": 2,
+    "2019": 20,
+    "2018": 18,
+    "2017": 13,
+    "2016": 8,
+    "2015": 11,
+    "2014": 13,
+    "2013": 13,
+    "2012": 13,
+    "2011": 14,
+    "2010": 15,
+    "2009": 20,
+    "2008": 18,
+    "2007": 19,
+    "2006": 24
+  },
+  "tournament_breakdown": {
+    "Friendly": 124,
+    "FIFA World Cup qualification": 78,
+    "Gulf Cup": 37,
+    "AFC Asian Cup": 20,
+    "FIFA World Cup": 12,
+    "Arab Cup": 12,
+    "AFC Asian Cup qualification": 12,
+    "WAFF Championship": 8,
+    "Gold Cup": 4,
+    "OSN Cup": 2
+  },
+  "total_matches_20y": 309,
+  "elo_rating": 1480,
+  "odds": {
+    "decimal_odds": 1001.0,
+    "implied_probability": 0.1,
+    "rank": 38,
+    "platforms": {
+      "Bet365": 1001.0,
+      "William Hill": 1001.0,
+      "DraftKings": 1000.0
+    }
+  },
+  "fifa_ranking": null
+}

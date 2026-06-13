@@ -1,0 +1,174 @@
+{
+  "team_en": "Egypt",
+  "team_cn": "埃及",
+  "confederation": "CAF",
+  "group": "G",
+  "stats": {
+    "total_matches": 255,
+    "wins": 148,
+    "draws": 55,
+    "losses": 52,
+    "goals_for": 430,
+    "goals_against": 205
+  },
+  "recent_matches": [
+    {
+      "date": "2026-06-26",
+      "home_team": "Egypt",
+      "away_team": "Iran",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Seattle",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-06-21",
+      "home_team": "New Zealand",
+      "away_team": "Egypt",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Vancouver",
+      "country": "Canada",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-06-15",
+      "home_team": "Belgium",
+      "away_team": "Egypt",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Seattle",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-03-31",
+      "home_team": "Spain",
+      "away_team": "Egypt",
+      "home_score": "0",
+      "away_score": "0",
+      "tournament": "Friendly",
+      "city": "Barcelona",
+      "country": "Spain",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2026-03-27",
+      "home_team": "Saudi Arabia",
+      "away_team": "Egypt",
+      "home_score": "0",
+      "away_score": "4",
+      "tournament": "Friendly",
+      "city": "Jeddah",
+      "country": "Saudi Arabia",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2026-01-17",
+      "home_team": "Egypt",
+      "away_team": "Nigeria",
+      "home_score": "0",
+      "away_score": "0",
+      "tournament": "African Cup of Nations",
+      "city": "Casablanca",
+      "country": "Morocco",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-01-14",
+      "home_team": "Senegal",
+      "away_team": "Egypt",
+      "home_score": "1",
+      "away_score": "0",
+      "tournament": "African Cup of Nations",
+      "city": "Tangier",
+      "country": "Morocco",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-01-10",
+      "home_team": "Egypt",
+      "away_team": "Ivory Coast",
+      "home_score": "3",
+      "away_score": "2",
+      "tournament": "African Cup of Nations",
+      "city": "Agadir",
+      "country": "Morocco",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-01-05",
+      "home_team": "Egypt",
+      "away_team": "Benin",
+      "home_score": "3",
+      "away_score": "1",
+      "tournament": "African Cup of Nations",
+      "city": "Agadir",
+      "country": "Morocco",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2025-12-29",
+      "home_team": "Angola",
+      "away_team": "Egypt",
+      "home_score": "0",
+      "away_score": "0",
+      "tournament": "African Cup of Nations",
+      "city": "Agadir",
+      "country": "Morocco",
+      "neutral": "TRUE"
+    }
+  ],
+  "matches_by_year": {
+    "2026": 9,
+    "2025": 14,
+    "2024": 15,
+    "2023": 10,
+    "2022": 15,
+    "2021": 15,
+    "2020": 2,
+    "2019": 12,
+    "2018": 12,
+    "2017": 15,
+    "2016": 10,
+    "2015": 6,
+    "2014": 9,
+    "2013": 15,
+    "2012": 20,
+    "2011": 10,
+    "2010": 13,
+    "2009": 17,
+    "2008": 18,
+    "2007": 8,
+    "2006": 13
+  },
+  "tournament_breakdown": {
+    "Friendly": 90,
+    "African Cup of Nations qualification": 48,
+    "FIFA World Cup qualification": 47,
+    "African Cup of Nations": 46,
+    "Arab Cup": 9,
+    "FIFA World Cup": 6,
+    "Nile Basin Tournament": 5,
+    "Confederations Cup": 3,
+    "Al Ain International Cup": 2,
+    "FIFA Series": 2
+  },
+  "total_matches_20y": 258,
+  "elo_rating": 1600,
+  "odds": {
+    "decimal_odds": 301.0,
+    "implied_probability": 0.3,
+    "rank": 28,
+    "platforms": {
+      "Bet365": 301.0,
+      "William Hill": 301.0,
+      "DraftKings": 251.0
+    }
+  },
+  "fifa_ranking": null
+}

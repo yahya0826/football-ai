@@ -1,0 +1,292 @@
+{
+  "team": "Croatia",
+  "player_count": 26,
+  "players": [
+    {
+      "id": "dominik-livakovi",
+      "name": "Dominik Livaković",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 1,
+      "club": "Dinamo Zagreb",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "josip-stani-i",
+      "name": "Josip Stanišić",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 2,
+      "club": "Bayern Munich",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "marin-pongra-i",
+      "name": "Marin Pongračić",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 3,
+      "club": "Fiorentina",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "jo-ko-gvardiol",
+      "name": "Joško Gvardiol",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 4,
+      "club": "Manchester City",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "duje--aleta-car",
+      "name": "Duje Ćaleta-Car",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 5,
+      "club": "Real Sociedad",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "josip--utalo",
+      "name": "Josip Šutalo",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 6,
+      "club": "Ajax",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "nikola-moro",
+      "name": "Nikola Moro",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 7,
+      "club": "Bologna",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "mateo-kova-i",
+      "name": "Mateo Kovačić",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 8,
+      "club": "Manchester City",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "andrej-kramari",
+      "name": "Andrej Kramarić",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 9,
+      "club": "TSG Hoffenheim",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "luka-modri",
+      "name": "Luka Modrić",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 10,
+      "club": "Milan",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ante-budimir",
+      "name": "Ante Budimir",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 11,
+      "club": "Osasuna",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ivor-pandur",
+      "name": "Ivor Pandur",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 12,
+      "club": "Hull City",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "nikola-vla-i",
+      "name": "Nikola Vlašić",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 13,
+      "club": "Torino",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ivan-peri-i",
+      "name": "Ivan Perišić",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 14,
+      "club": "PSV Eindhoven",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "mario-pa-ali",
+      "name": "Mario Pašalić",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 15,
+      "club": "Atalanta",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "martin-baturina",
+      "name": "Martin Baturina",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 16,
+      "club": "Como",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "petar-su-i",
+      "name": "Petar Sučić",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 17,
+      "club": "Inter Milan",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "kristijan-jaki",
+      "name": "Kristijan Jakić",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 18,
+      "club": "FC Augsburg",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "toni-fruk",
+      "name": "Toni Fruk",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 19,
+      "club": "Rijeka",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "igor-matanovi",
+      "name": "Igor Matanović",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 20,
+      "club": "SC Freiburg",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "luka-su-i",
+      "name": "Luka Sučić",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 21,
+      "club": "Real Sociedad",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "luka-vu-kovi",
+      "name": "Luka Vušković",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 22,
+      "club": "Hamburger SV",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "dominik-kotarski",
+      "name": "Dominik Kotarski",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 23,
+      "club": "Copenhagen",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "marco-pa-ali",
+      "name": "Marco Pašalić",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 24,
+      "club": "Orlando City SC",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "martin-erli",
+      "name": "Martin Erlić",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 25,
+      "club": "Midtjylland",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "petar-musa",
+      "name": "Petar Musa",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 26,
+      "club": "FC Dallas",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    }
+  ]
+}

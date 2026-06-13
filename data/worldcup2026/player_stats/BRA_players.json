@@ -1,0 +1,367 @@
+{
+  "team_en": "Brazil",
+  "team_cn": "巴西",
+  "fifa_code": "BRA",
+  "coach": "Carlo Ancelotti",
+  "group": "C",
+  "players": [
+    {
+      "name_en": "Alisson",
+      "name_cn": "阿利松",
+      "position": "GK",
+      "club": "Liverpool",
+      "age": 32,
+      "club_country": "England",
+      "transfermarkt_url": "https://www.transfermarkt.com/alisson/profil/spieler/92157",
+      "profile_url": "https://www.transfermarkt.com/alisson/profil/spieler/92157/statistik",
+      "basic_info": {
+        "date_of_birth": "21/01/1990 (36)"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Ederson",
+      "name_cn": "埃德森",
+      "position": "GK",
+      "club": "Fenerbahçe",
+      "age": 31,
+      "club_country": "Turkey",
+      "transfermarkt_url": "https://www.transfermarkt.com/ederson/profil/spieler/238451",
+      "profile_url": "https://www.transfermarkt.com/ederson/profil/spieler/238451/statistik",
+      "basic_info": {
+        "date_of_birth": "14/03/1996 (30)",
+        "height": "1,84 m"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Weverton",
+      "name_cn": "韦弗顿",
+      "position": "GK",
+      "club": "Grêmio",
+      "age": 37,
+      "club_country": "Brazil",
+      "transfermarkt_url": "https://www.transfermarkt.com/weverton/profil/spieler/148107",
+      "profile_url": "https://www.transfermarkt.com/weverton/profil/spieler/148107/statistik",
+      "basic_info": {
+        "date_of_birth": "09/05/1981 (45)",
+        "height": "1,87 m"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Alex Sandro",
+      "name_cn": "亚历克斯·桑德罗",
+      "position": "DF",
+      "club": "Flamengo",
+      "age": 33,
+      "club_country": "Brazil",
+      "transfermarkt_url": "https://www.transfermarkt.com/alex-sandro/profil/spieler/98203",
+      "profile_url": "https://www.transfermarkt.com/alex-sandro/profil/spieler/98203/statistik",
+      "basic_info": {
+        "date_of_birth": "27/09/1979 (46)",
+        "caps_goals": "3 / 0"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Bremer",
+      "name_cn": "布雷默",
+      "position": "DF",
+      "club": "Juventus",
+      "age": 27,
+      "club_country": "Italy",
+      "transfermarkt_url": "https://www.transfermarkt.com/bremer/profil/spieler/411687",
+      "profile_url": "https://www.transfermarkt.com/bremer/profil/spieler/411687/statistik",
+      "basic_info": {
+        "date_of_birth": "01/01/1994 (32)"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Danilo",
+      "name_cn": "达尼洛",
+      "position": "DF",
+      "club": "Flamengo",
+      "age": 33,
+      "club_country": "Brazil",
+      "transfermarkt_url": "https://www.transfermarkt.com/danilo/profil/spieler/126453",
+      "profile_url": "https://www.transfermarkt.com/danilo/profil/spieler/126453/statistik",
+      "basic_info": {
+        "height": "1,98 m"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Douglas Santos",
+      "name_cn": "道格拉斯·桑托斯",
+      "position": "DF",
+      "club": "Zenit",
+      "age": 30,
+      "club_country": "Russia",
+      "transfermarkt_url": "https://www.transfermarkt.com/douglas-santos/profil/spieler/172601",
+      "profile_url": "https://www.transfermarkt.com/douglas-santos/profil/spieler/172601/statistik",
+      "basic_info": {},
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Gabriel Magalhães",
+      "name_cn": "加布里埃尔",
+      "position": "DF",
+      "club": "Arsenal",
+      "age": 27,
+      "club_country": "England",
+      "transfermarkt_url": "https://www.transfermarkt.com/gabriel-magalhaes/profil/spieler/368193",
+      "profile_url": "https://www.transfermarkt.com/gabriel-magalhaes/profil/spieler/368193/statistik",
+      "basic_info": {},
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Rogério Ibañez",
+      "name_cn": "罗热·伊巴涅斯",
+      "position": "DF",
+      "club": "Al Ahli",
+      "age": 25,
+      "club_country": "Saudi Arabia",
+      "transfermarkt_url": "https://www.transfermarkt.com/rogerio-ibannez/profil/spieler/396105",
+      "profile_url": "https://www.transfermarkt.com/rogerio-ibannez/profil/spieler/396105/statistik",
+      "basic_info": {
+        "date_of_birth": "17/01/1998 (28)"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Léo Pereira",
+      "name_cn": "莱奥·佩雷拉",
+      "position": "DF",
+      "club": "Flamengo",
+      "age": 28,
+      "club_country": "Brazil",
+      "transfermarkt_url": "https://www.transfermarkt.com/leo-pereira/profil/spieler/291436",
+      "profile_url": "https://www.transfermarkt.com/leo-pereira/profil/spieler/291436/statistik",
+      "basic_info": {
+        "date_of_birth": "31/12/1995 (30)"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Marquinhos",
+      "name_cn": "马尔基尼奥斯",
+      "position": "DF",
+      "club": "Paris Saint-Germain",
+      "age": 30,
+      "club_country": "France",
+      "transfermarkt_url": "https://www.transfermarkt.com/marquinhos/profil/spieler/181365",
+      "profile_url": "https://www.transfermarkt.com/marquinhos/profil/spieler/181365/statistik",
+      "basic_info": {
+        "date_of_birth": "31/12/1961 (64)",
+        "caps_goals": "32 / 4"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Wesley Lima",
+      "name_cn": "韦斯利·利马",
+      "position": "DF",
+      "club": "Roma",
+      "age": 27,
+      "club_country": "Italy",
+      "transfermarkt_url": "https://www.transfermarkt.com/wesley-lima/profil/spieler/381695",
+      "profile_url": "https://www.transfermarkt.com/wesley-lima/profil/spieler/381695/statistik",
+      "basic_info": {
+        "date_of_birth": "06/11/1993 (32)"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Bruno Guimarães",
+      "name_cn": "布鲁诺·吉马良斯",
+      "position": "MF",
+      "club": "Newcastle United",
+      "age": 27,
+      "club_country": "England",
+      "transfermarkt_url": "https://www.transfermarkt.com/bruno-guimaraes/profil/spieler/383487",
+      "profile_url": "https://www.transfermarkt.com/bruno-guimaraes/profil/spieler/383487/statistik",
+      "basic_info": {
+        "date_of_birth": "23/04/1983 (43)"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Casemiro",
+      "name_cn": "卡塞米罗",
+      "position": "MF",
+      "club": "Manchester United",
+      "age": 32,
+      "club_country": "England",
+      "transfermarkt_url": "https://www.transfermarkt.com/casemiro/profil/spieler/125700",
+      "profile_url": "https://www.transfermarkt.com/casemiro/profil/spieler/125700/statistik",
+      "basic_info": {
+        "date_of_birth": "13/07/1989 (36)",
+        "height": "1,80 m",
+        "caps_goals": "3 / 0"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Danilo Santos",
+      "name_cn": "达尼洛·桑托斯",
+      "position": "MF",
+      "club": "Botafogo",
+      "age": 23,
+      "club_country": "Brazil",
+      "transfermarkt_url": "https://www.transfermarkt.com/danilo-santos/profil/spieler/629592",
+      "profile_url": "https://www.transfermarkt.com/danilo-santos/profil/spieler/629592/statistik",
+      "basic_info": {},
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Fabinho",
+      "name_cn": "法比尼奥",
+      "position": "MF",
+      "club": "Al-Ittihad",
+      "age": 31,
+      "club_country": "Saudi Arabia",
+      "transfermarkt_url": "https://www.transfermarkt.com/fabinho/profil/spieler/217699",
+      "profile_url": "https://www.transfermarkt.com/fabinho/profil/spieler/217699/statistik",
+      "basic_info": {
+        "date_of_birth": "22/11/1994 (31)"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Lucas Paquetá",
+      "name_cn": "卢卡斯·帕奎塔",
+      "position": "MF",
+      "club": "Flamengo",
+      "age": 27,
+      "club_country": "Brazil",
+      "transfermarkt_url": "https://www.transfermarkt.com/lucas-paqueta/profil/spieler/380694",
+      "profile_url": "https://www.transfermarkt.com/lucas-paqueta/profil/spieler/380694/statistik",
+      "basic_info": {
+        "date_of_birth": "10/05/1990 (36)"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Neymar Jr",
+      "name_cn": "内马尔",
+      "position": "FW",
+      "club": "Santos",
+      "age": 34,
+      "club_country": "Brazil",
+      "transfermarkt_url": "https://www.transfermarkt.com/neymar/profil/spieler/68290",
+      "profile_url": "https://www.transfermarkt.com/neymar/profil/spieler/68290/statistik",
+      "basic_info": {
+        "date_of_birth": "05/02/1992 (34)",
+        "height": "1,75 m",
+        "caps_goals": "128 / 79"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Vinícius Júnior",
+      "name_cn": "维尼修斯",
+      "position": "FW",
+      "club": "Real Madrid",
+      "age": 24,
+      "club_country": "Spain",
+      "transfermarkt_url": "https://www.transfermarkt.com/vinicius-junior/profil/spieler/643712",
+      "profile_url": "https://www.transfermarkt.com/vinicius-junior/profil/spieler/643712/statistik",
+      "basic_info": {
+        "date_of_birth": "23/08/1999 (26)"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Raphinha",
+      "name_cn": "拉菲尼亚",
+      "position": "FW",
+      "club": "Barcelona",
+      "age": 28,
+      "club_country": "Spain",
+      "transfermarkt_url": "https://www.transfermarkt.com/raphinha/profil/spieler/402629",
+      "profile_url": "https://www.transfermarkt.com/raphinha/profil/spieler/402629/statistik",
+      "basic_info": {
+        "date_of_birth": "06/03/2000 (26)",
+        "height": "1,85 m",
+        "caps_goals": "2 / 0"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Endrick",
+      "name_cn": "恩德里克",
+      "position": "FW",
+      "club": "Lyon",
+      "age": 19,
+      "club_country": "France",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "Gabriel Martinelli",
+      "name_cn": "加比·马丁内利",
+      "position": "FW",
+      "club": "Arsenal",
+      "age": 23,
+      "club_country": "England",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "Igor Thiago",
+      "name_cn": "伊戈尔·蒂亚戈",
+      "position": "FW",
+      "club": "Brentford",
+      "age": 23,
+      "club_country": "England",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "Luiz Henrique",
+      "name_cn": "路易斯·恩里克",
+      "position": "FW",
+      "club": "Zenit",
+      "age": 23,
+      "club_country": "Russia",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "Matheus Cunha",
+      "name_cn": "马特乌斯·库尼亚",
+      "position": "FW",
+      "club": "Manchester United",
+      "age": 25,
+      "club_country": "England",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "Rayan",
+      "name_cn": "拉扬",
+      "position": "FW",
+      "club": "Bournemouth",
+      "age": 21,
+      "club_country": "England",
+      "transfermarkt_url": null
+    }
+  ]
+}

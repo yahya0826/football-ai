@@ -1,0 +1,172 @@
+{
+  "team_en": "Sweden",
+  "team_cn": "瑞典",
+  "confederation": "UEFA",
+  "group": "F",
+  "stats": {
+    "total_matches": 254,
+    "wins": 125,
+    "draws": 47,
+    "losses": 82,
+    "goals_for": 390,
+    "goals_against": 272
+  },
+  "recent_matches": [
+    {
+      "date": "2026-06-25",
+      "home_team": "Japan",
+      "away_team": "Sweden",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Arlington",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-06-20",
+      "home_team": "Netherlands",
+      "away_team": "Sweden",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Houston",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-06-14",
+      "home_team": "Sweden",
+      "away_team": "Tunisia",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Guadalupe",
+      "country": "Mexico",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-03-31",
+      "home_team": "Sweden",
+      "away_team": "Poland",
+      "home_score": "3",
+      "away_score": "2",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Solna",
+      "country": "Sweden",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2026-03-26",
+      "home_team": "Ukraine",
+      "away_team": "Sweden",
+      "home_score": "1",
+      "away_score": "3",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Valencia",
+      "country": "Spain",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2025-11-18",
+      "home_team": "Sweden",
+      "away_team": "Slovenia",
+      "home_score": "1",
+      "away_score": "1",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Solna",
+      "country": "Sweden",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-11-15",
+      "home_team": "Switzerland",
+      "away_team": "Sweden",
+      "home_score": "4",
+      "away_score": "1",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Geneva",
+      "country": "Switzerland",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-10-13",
+      "home_team": "Sweden",
+      "away_team": "Kosovo",
+      "home_score": "0",
+      "away_score": "1",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Gothenburg",
+      "country": "Sweden",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-10-10",
+      "home_team": "Sweden",
+      "away_team": "Switzerland",
+      "home_score": "0",
+      "away_score": "2",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Solna",
+      "country": "Sweden",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-09-08",
+      "home_team": "Kosovo",
+      "away_team": "Sweden",
+      "home_score": "2",
+      "away_score": "0",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Pristina",
+      "country": "Kosovo",
+      "neutral": "FALSE"
+    }
+  ],
+  "matches_by_year": {
+    "2026": 5,
+    "2025": 10,
+    "2024": 11,
+    "2023": 12,
+    "2022": 10,
+    "2021": 16,
+    "2020": 10,
+    "2019": 12,
+    "2018": 17,
+    "2017": 11,
+    "2016": 13,
+    "2015": 12,
+    "2014": 11,
+    "2013": 15,
+    "2012": 13,
+    "2011": 13,
+    "2010": 10,
+    "2009": 13,
+    "2008": 14,
+    "2007": 14,
+    "2006": 15
+  },
+  "tournament_breakdown": {
+    "Friendly": 102,
+    "FIFA World Cup qualification": 52,
+    "UEFA Euro qualification": 52,
+    "UEFA Nations League": 22,
+    "UEFA Euro": 13,
+    "FIFA World Cup": 12,
+    "King's Cup": 2,
+    "Cyprus International Tournament": 2
+  },
+  "total_matches_20y": 257,
+  "elo_rating": 1518,
+  "odds": {
+    "decimal_odds": 151.0,
+    "implied_probability": 0.7,
+    "rank": 23,
+    "platforms": {
+      "Bet365": 151.0,
+      "William Hill": 151.0,
+      "DraftKings": 150.0
+    }
+  },
+  "fifa_ranking": null
+}

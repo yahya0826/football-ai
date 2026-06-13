@@ -1,0 +1,292 @@
+{
+  "team": "England",
+  "player_count": 26,
+  "players": [
+    {
+      "id": "jordan-pickford",
+      "name": "Jordan Pickford",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 1,
+      "club": "Everton",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ezri-konsa",
+      "name": "Ezri Konsa",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 2,
+      "club": "Aston Villa",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "nico-o-reilly",
+      "name": "Nico O'Reilly",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 3,
+      "club": "Manchester City",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "declan-rice",
+      "name": "Declan Rice",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 4,
+      "club": "Arsenal",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "john-stones",
+      "name": "John Stones",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 5,
+      "club": "Manchester City",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "marc-gu-hi",
+      "name": "Marc Guéhi",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 6,
+      "club": "Manchester City",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "bukayo-saka",
+      "name": "Bukayo Saka",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 7,
+      "club": "Arsenal",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "elliot-anderson",
+      "name": "Elliot Anderson",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 8,
+      "club": "Nottingham Forest",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "harry-kane",
+      "name": "Harry Kane",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 9,
+      "club": "Bayern Munich",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "jude-bellingham",
+      "name": "Jude Bellingham",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 10,
+      "club": "Real Madrid",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "marcus-rashford",
+      "name": "Marcus Rashford",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 11,
+      "club": "Barcelona",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "tino-livramento",
+      "name": "Tino Livramento",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 12,
+      "club": "Newcastle United",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "dean-henderson",
+      "name": "Dean Henderson",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 13,
+      "club": "Crystal Palace",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "jordan-henderson",
+      "name": "Jordan Henderson",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 14,
+      "club": "Brentford",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "dan-burn",
+      "name": "Dan Burn",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 15,
+      "club": "Newcastle United",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "kobbie-mainoo",
+      "name": "Kobbie Mainoo",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 16,
+      "club": "Manchester United",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "morgan-rogers",
+      "name": "Morgan Rogers",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 17,
+      "club": "Aston Villa",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "anthony-gordon",
+      "name": "Anthony Gordon",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 18,
+      "club": "Newcastle United",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ollie-watkins",
+      "name": "Ollie Watkins",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 19,
+      "club": "Aston Villa",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "noni-madueke",
+      "name": "Noni Madueke",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 20,
+      "club": "Arsenal",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "eberechi-eze",
+      "name": "Eberechi Eze",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 21,
+      "club": "Arsenal",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ivan-toney",
+      "name": "Ivan Toney",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 22,
+      "club": "Al-Ahli",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "james-trafford",
+      "name": "James Trafford",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 23,
+      "club": "Manchester City",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "reece-james",
+      "name": "Reece James",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 24,
+      "club": "Chelsea",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "djed-spence",
+      "name": "Djed Spence",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 25,
+      "club": "Tottenham Hotspur",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "jarell-quansah",
+      "name": "Jarell Quansah",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 26,
+      "club": "Bayer Leverkusen",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    }
+  ]
+}

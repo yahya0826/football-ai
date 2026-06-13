@@ -1,0 +1,292 @@
+{
+  "team": "Panama",
+  "player_count": 26,
+  "players": [
+    {
+      "id": "luis-mej-a",
+      "name": "Luis Mejía",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 1,
+      "club": "Nacional",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "c-sar-blackman",
+      "name": "César Blackman",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 2,
+      "club": "Slovan Bratislava",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "jos--c-rdoba",
+      "name": "José Córdoba",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 3,
+      "club": "Norwich City",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "fidel-escobar",
+      "name": "Fidel Escobar",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 4,
+      "club": "Saprissa",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "edgardo-fari-a",
+      "name": "Edgardo Fariña",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 5,
+      "club": "Pari Nizhny Novgorod",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "cristian-mart-nez",
+      "name": "Cristian Martínez",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 6,
+      "club": "Ironi Kiryat Shmona",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "jos--luis-rodr-guez",
+      "name": "José Luis Rodríguez",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 7,
+      "club": "Juárez",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "adalberto-carrasquilla",
+      "name": "Adalberto Carrasquilla",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 8,
+      "club": "UNAM",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "tom-s-rodr-guez",
+      "name": "Tomás Rodríguez",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 9,
+      "club": "Saprissa",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ismael-d-az",
+      "name": "Ismael Díaz",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 10,
+      "club": "León",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "yoel-b-rcenas",
+      "name": "Yoel Bárcenas",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 11,
+      "club": "Mazatlán",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "c-sar-samudio",
+      "name": "César Samudio",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 12,
+      "club": "Marathón",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "jiovany-ramos",
+      "name": "Jiovany Ramos",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 13,
+      "club": "Puerto Cabello",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "carlos-harvey",
+      "name": "Carlos Harvey",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 14,
+      "club": "Minnesota United FC",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "eric-davis",
+      "name": "Eric Davis",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 15,
+      "club": "Plaza Amador",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "andr-s-andrade",
+      "name": "Andrés Andrade",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 16,
+      "club": "LASK",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "jos--fajardo",
+      "name": "José Fajardo",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 17,
+      "club": "Universidad Católica",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "cecilio-waterman",
+      "name": "Cecilio Waterman",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 18,
+      "club": "Universidad de Concepción",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "alberto-quintero",
+      "name": "Alberto Quintero",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 19,
+      "club": "Plaza Amador",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "an-bal-godoy",
+      "name": "Aníbal Godoy",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 20,
+      "club": "San Diego FC",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "c-sar-yanis",
+      "name": "César Yanis",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 21,
+      "club": "Cobresal",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "orlando-mosquera",
+      "name": "Orlando Mosquera",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 22,
+      "club": "Al-Fayha",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "michael-amir-murillo",
+      "name": "Michael Amir Murillo",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 23,
+      "club": "Beşiktaş",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "azarias-londo-o",
+      "name": "Azarias Londoño",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 24,
+      "club": "Universidad Católica",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "roderick-miller",
+      "name": "Roderick Miller",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 25,
+      "club": "Turan Tovuz",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "jorge-guti-rrez",
+      "name": "Jorge Gutiérrez",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 26,
+      "club": "Deportivo La Guaira",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    }
+  ]
+}

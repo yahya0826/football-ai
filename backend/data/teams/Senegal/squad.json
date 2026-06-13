@@ -1,0 +1,292 @@
+{
+  "team": "Senegal",
+  "player_count": 26,
+  "players": [
+    {
+      "id": "yehvann-diouf",
+      "name": "Yehvann Diouf",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 1,
+      "club": "Nice",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "mamadou-sarr",
+      "name": "Mamadou Sarr",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 2,
+      "club": "Chelsea",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "kalidou-koulibaly",
+      "name": "Kalidou Koulibaly",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 3,
+      "club": "Al-Hilal",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "abdoulaye-seck",
+      "name": "Abdoulaye Seck",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 4,
+      "club": "Maccabi Haifa",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "idrissa-gueye",
+      "name": "Idrissa Gueye",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 5,
+      "club": "Everton",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "path--ciss",
+      "name": "Pathé Ciss",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 6,
+      "club": "Rayo Vallecano",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "assane-diao",
+      "name": "Assane Diao",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 7,
+      "club": "Como",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "lamine-camara",
+      "name": "Lamine Camara",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 8,
+      "club": "Monaco",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "bamba-dieng",
+      "name": "Bamba Dieng",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 9,
+      "club": "Lorient",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "sadio-man",
+      "name": "Sadio Mané",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 10,
+      "club": "Al-Nassr",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "nicolas-jackson",
+      "name": "Nicolas Jackson",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 11,
+      "club": "Bayern Munich",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "cherif-ndiaye",
+      "name": "Cherif Ndiaye",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 12,
+      "club": "Samsunspor",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "iliman-ndiaye",
+      "name": "Iliman Ndiaye",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 13,
+      "club": "Everton",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ismail-jakobs",
+      "name": "Ismail Jakobs",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 14,
+      "club": "Galatasaray",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "kr-pin-diatta",
+      "name": "Krépin Diatta",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 15,
+      "club": "Monaco",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "douard-mendy",
+      "name": "Édouard Mendy",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 16,
+      "club": "Al-Ahli",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "pape-matar-sarr",
+      "name": "Pape Matar Sarr",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 17,
+      "club": "Tottenham Hotspur",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "isma-la-sarr",
+      "name": "Ismaïla Sarr",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 18,
+      "club": "Crystal Palace",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "moussa-niakhat",
+      "name": "Moussa Niakhaté",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 19,
+      "club": "Lyon",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ibrahim-mbaye",
+      "name": "Ibrahim Mbaye",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 20,
+      "club": "Paris Saint-Germain",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "habib-diarra",
+      "name": "Habib Diarra",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 21,
+      "club": "Sunderland",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "bara-sapoko-ndiaye",
+      "name": "Bara Sapoko Ndiaye",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 22,
+      "club": "Bayern Munich",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "mory-diaw",
+      "name": "Mory Diaw",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 23,
+      "club": "Le Havre",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "antoine-mendy",
+      "name": "Antoine Mendy",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 24,
+      "club": "Nice",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "el-hadji-malick-diouf",
+      "name": "El Hadji Malick Diouf",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 25,
+      "club": "West Ham United",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "pape-gueye",
+      "name": "Pape Gueye",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 26,
+      "club": "Villarreal",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    }
+  ]
+}

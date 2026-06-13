@@ -1,0 +1,170 @@
+{
+  "team_en": "Bosnia and Herzegovina",
+  "team_cn": "波黑",
+  "confederation": "UEFA",
+  "group": "B",
+  "stats": {
+    "total_matches": 193,
+    "wins": 74,
+    "draws": 42,
+    "losses": 77,
+    "goals_for": 287,
+    "goals_against": 270
+  },
+  "recent_matches": [
+    {
+      "date": "2026-06-24",
+      "home_team": "Bosnia and Herzegovina",
+      "away_team": "Qatar",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Seattle",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-06-18",
+      "home_team": "Switzerland",
+      "away_team": "Bosnia and Herzegovina",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Inglewood",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-06-12",
+      "home_team": "Canada",
+      "away_team": "Bosnia and Herzegovina",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Toronto",
+      "country": "Canada",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2026-03-31",
+      "home_team": "Bosnia and Herzegovina",
+      "away_team": "Italy",
+      "home_score": "1",
+      "away_score": "1",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Zenica",
+      "country": "Bosnia and Herzegovina",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2026-03-26",
+      "home_team": "Wales",
+      "away_team": "Bosnia and Herzegovina",
+      "home_score": "1",
+      "away_score": "1",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Cardiff",
+      "country": "Wales",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-11-18",
+      "home_team": "Austria",
+      "away_team": "Bosnia and Herzegovina",
+      "home_score": "1",
+      "away_score": "1",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Vienna",
+      "country": "Austria",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-11-15",
+      "home_team": "Bosnia and Herzegovina",
+      "away_team": "Romania",
+      "home_score": "3",
+      "away_score": "1",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Zenica",
+      "country": "Bosnia and Herzegovina",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-10-12",
+      "home_team": "Malta",
+      "away_team": "Bosnia and Herzegovina",
+      "home_score": "1",
+      "away_score": "4",
+      "tournament": "Friendly",
+      "city": "Ta' Qali",
+      "country": "Malta",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-10-09",
+      "home_team": "Cyprus",
+      "away_team": "Bosnia and Herzegovina",
+      "home_score": "2",
+      "away_score": "2",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Larnaca",
+      "country": "Cyprus",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-09-09",
+      "home_team": "Bosnia and Herzegovina",
+      "away_team": "Austria",
+      "home_score": "1",
+      "away_score": "2",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Zenica",
+      "country": "Bosnia and Herzegovina",
+      "neutral": "FALSE"
+    }
+  ],
+  "matches_by_year": {
+    "2026": 5,
+    "2025": 10,
+    "2024": 9,
+    "2023": 10,
+    "2022": 8,
+    "2021": 13,
+    "2020": 8,
+    "2019": 10,
+    "2018": 12,
+    "2017": 7,
+    "2016": 9,
+    "2015": 9,
+    "2014": 11,
+    "2013": 9,
+    "2012": 9,
+    "2011": 11,
+    "2010": 9,
+    "2009": 11,
+    "2008": 9,
+    "2007": 9,
+    "2006": 8
+  },
+  "tournament_breakdown": {
+    "Friendly": 58,
+    "UEFA Euro qualification": 58,
+    "FIFA World Cup qualification": 50,
+    "UEFA Nations League": 22,
+    "FIFA World Cup": 6,
+    "Kirin Cup": 2
+  },
+  "total_matches_20y": 196,
+  "elo_rating": 1422,
+  "odds": {
+    "decimal_odds": 251.0,
+    "implied_probability": 0.4,
+    "rank": 26,
+    "platforms": {
+      "Bet365": 251.0,
+      "William Hill": 251.0,
+      "DraftKings": 250.0
+    }
+  },
+  "fifa_ranking": null
+}

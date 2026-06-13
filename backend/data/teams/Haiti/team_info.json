@@ -1,0 +1,175 @@
+{
+  "team_en": "Haiti",
+  "team_cn": "海地",
+  "confederation": "CONCACAF",
+  "group": "C",
+  "stats": {
+    "total_matches": 188,
+    "wins": 77,
+    "draws": 44,
+    "losses": 67,
+    "goals_for": 302,
+    "goals_against": 236
+  },
+  "recent_matches": [
+    {
+      "date": "2026-06-24",
+      "home_team": "Morocco",
+      "away_team": "Haiti",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Atlanta",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-06-19",
+      "home_team": "Brazil",
+      "away_team": "Haiti",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Philadelphia",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-06-13",
+      "home_team": "Haiti",
+      "away_team": "Scotland",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Foxborough",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-03-31",
+      "home_team": "Haiti",
+      "away_team": "Iceland",
+      "home_score": "1",
+      "away_score": "1",
+      "tournament": "Friendly",
+      "city": "Toronto",
+      "country": "Canada",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-03-28",
+      "home_team": "Haiti",
+      "away_team": "Tunisia",
+      "home_score": "0",
+      "away_score": "1",
+      "tournament": "Friendly",
+      "city": "Toronto",
+      "country": "Canada",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2025-11-18",
+      "home_team": "Haiti",
+      "away_team": "Nicaragua",
+      "home_score": "2",
+      "away_score": "0",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Willemstad",
+      "country": "Curaçao",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2025-11-13",
+      "home_team": "Haiti",
+      "away_team": "Costa Rica",
+      "home_score": "1",
+      "away_score": "0",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Willemstad",
+      "country": "Curaçao",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2025-10-13",
+      "home_team": "Honduras",
+      "away_team": "Haiti",
+      "home_score": "3",
+      "away_score": "0",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Tegucigalpa",
+      "country": "Honduras",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-10-09",
+      "home_team": "Nicaragua",
+      "away_team": "Haiti",
+      "home_score": "0",
+      "away_score": "3",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Managua",
+      "country": "Nicaragua",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-09-09",
+      "home_team": "Costa Rica",
+      "away_team": "Haiti",
+      "home_score": "3",
+      "away_score": "3",
+      "tournament": "FIFA World Cup qualification",
+      "city": "San José",
+      "country": "Costa Rica",
+      "neutral": "FALSE"
+    }
+  ],
+  "matches_by_year": {
+    "2026": 5,
+    "2025": 12,
+    "2024": 8,
+    "2023": 10,
+    "2022": 5,
+    "2021": 12,
+    "2019": 13,
+    "2018": 5,
+    "2017": 3,
+    "2016": 10,
+    "2015": 9,
+    "2014": 7,
+    "2013": 9,
+    "2012": 11,
+    "2011": 7,
+    "2010": 5,
+    "2009": 11,
+    "2008": 22,
+    "2007": 17,
+    "2006": 10
+  },
+  "tournament_breakdown": {
+    "Friendly": 56,
+    "FIFA World Cup qualification": 37,
+    "Gold Cup": 28,
+    "CONCACAF Nations League": 20,
+    "CFU Caribbean Cup qualification": 20,
+    "CFU Caribbean Cup": 16,
+    "CONCACAF Nations League qualification": 4,
+    "FIFA World Cup": 3,
+    "Copa América": 3,
+    "Gold Cup qualification": 2,
+    "Kirin Challenge Cup": 1,
+    "Copa América qualification": 1
+  },
+  "total_matches_20y": 191,
+  "elo_rating": 1454,
+  "odds": {
+    "decimal_odds": 3001.0,
+    "implied_probability": 0.03,
+    "rank": 48,
+    "platforms": {
+      "Bet365": 3001.0,
+      "William Hill": 3001.0,
+      "DraftKings": 3000.0
+    }
+  },
+  "fifa_ranking": null
+}

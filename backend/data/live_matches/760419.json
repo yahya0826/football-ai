@@ -1,0 +1,41 @@
+{
+  "match_id": "760419",
+  "status": {
+    "state": "scheduled",
+    "detail": "Sat, June 13th at 6:00 PM EDT",
+    "period": 0,
+    "clock": "",
+    "completed": false,
+    "state_cn": "未开始"
+  },
+  "home": {
+    "name": "Brazil",
+    "abbrev": "BRA",
+    "logo": "",
+    "score": 0,
+    "team_id": "205",
+    "name_cn": "巴西"
+  },
+  "away": {
+    "name": "Morocco",
+    "abbrev": "MAR",
+    "logo": "",
+    "score": 0,
+    "team_id": "2869",
+    "name_cn": "摩洛哥"
+  },
+  "events": [],
+  "statistics": {
+    "home": {
+      "team_name": "Brazil",
+      "stats": {},
+      "team_name_cn": "巴西"
+    },
+    "away": {
+      "team_name": "Morocco",
+      "stats": {},
+      "team_name_cn": "摩洛哥"
+    }
+  },
+  "_saved_at": "2026-06-14T00:47:03.048377"
+}

@@ -1,0 +1,352 @@
+{
+  "team_en": "Bosnia and Herzegovina",
+  "team_cn": "波黑",
+  "fifa_code": "BIH",
+  "coach": "Sergej Barbarez",
+  "group": "B",
+  "players": [
+    {
+      "name_en": "Nikola Vasilj",
+      "name_cn": "尼古拉·瓦西利",
+      "position": "GK",
+      "club": "FC St. Pauli",
+      "age": 29,
+      "club_country": "Germany",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "Martin Zlomislić",
+      "name_cn": "马丁·兹洛米斯利奇",
+      "position": "GK",
+      "club": "HNK Rijeka",
+      "age": 25,
+      "club_country": "Croatia",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "Osman Hadžikić",
+      "name_cn": "奥斯曼·哈吉基奇",
+      "position": "GK",
+      "club": "Slaven Belupo",
+      "age": 31,
+      "club_country": "Croatia",
+      "transfermarkt_url": "https://www.transfermarkt.com/osman-hadzikic/profil/spieler/1003489",
+      "profile_url": "https://www.transfermarkt.com/osman-hadzikic/profil/spieler/1003489/statistik",
+      "basic_info": {
+        "height": "1,82 m"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Sead Kolašinac",
+      "name_cn": "科拉希纳茨",
+      "position": "DF",
+      "club": "Atalanta",
+      "age": 32,
+      "club_country": "Italy",
+      "transfermarkt_url": "https://www.transfermarkt.com/sead-kolasinac/profil/spieler/139522",
+      "profile_url": "https://www.transfermarkt.com/sead-kolasinac/profil/spieler/139522/statistik",
+      "basic_info": {
+        "date_of_birth": "26/06/1991 (34)",
+        "height": "1,77 m"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Amar Dedić",
+      "name_cn": "阿马尔·德迪奇",
+      "position": "DF",
+      "club": "Benfica",
+      "age": 23,
+      "club_country": "Portugal",
+      "transfermarkt_url": "https://www.transfermarkt.com/amar-dedic/profil/spieler/419359",
+      "profile_url": "https://www.transfermarkt.com/amar-dedic/profil/spieler/419359/statistik",
+      "basic_info": {},
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Nihad Mujakić",
+      "name_cn": "尼哈德·穆亚基奇",
+      "position": "DF",
+      "club": "Gaziantep FK",
+      "age": 26,
+      "club_country": "Turkey",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "Nikola Katić",
+      "name_cn": "尼古拉·卡蒂奇",
+      "position": "DF",
+      "club": "Schalke 04",
+      "age": 28,
+      "club_country": "Germany",
+      "transfermarkt_url": "https://www.transfermarkt.com/nikola-katic/profil/spieler/277902",
+      "profile_url": "https://www.transfermarkt.com/nikola-katic/profil/spieler/277902/statistik",
+      "basic_info": {
+        "date_of_birth": "18/07/1987 (38)"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Tarik Muharemović",
+      "name_cn": "塔里克·穆哈梅罗维奇",
+      "position": "DF",
+      "club": "Sassuolo",
+      "age": 24,
+      "club_country": "Italy",
+      "transfermarkt_url": "https://www.transfermarkt.com/tarik-muharemovic/profil/spieler/624636",
+      "profile_url": "https://www.transfermarkt.com/tarik-muharemovic/profil/spieler/624636/statistik",
+      "basic_info": {},
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Stjepan Radeljić",
+      "name_cn": "斯特耶潘·拉德利奇",
+      "position": "DF",
+      "club": "HNK Rijeka",
+      "age": 24,
+      "club_country": "Croatia",
+      "transfermarkt_url": "https://www.transfermarkt.com/stjepan-radeljic/profil/spieler/419378",
+      "profile_url": "https://www.transfermarkt.com/stjepan-radeljic/profil/spieler/419378/statistik",
+      "basic_info": {
+        "date_of_birth": "15/12/1996 (29)",
+        "height": "1,89 m"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Dennis Hadžikadunić",
+      "name_cn": "丹尼斯·哈吉卡杜尼奇",
+      "position": "DF",
+      "club": "Sampdoria",
+      "age": 26,
+      "club_country": "Italy",
+      "transfermarkt_url": "https://www.transfermarkt.com/dennis-hadzikadunic/profil/spieler/557548",
+      "profile_url": "https://www.transfermarkt.com/dennis-hadzikadunic/profil/spieler/557548/statistik",
+      "basic_info": {
+        "date_of_birth": "31/01/1951"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Nidal Čelik",
+      "name_cn": "尼达尔·切利克",
+      "position": "DF",
+      "club": "RC Lens",
+      "age": 27,
+      "club_country": "France",
+      "transfermarkt_url": "https://www.transfermarkt.com/nidal-celik/profil/spieler/1006571",
+      "profile_url": "https://www.transfermarkt.com/nidal-celik/profil/spieler/1006571/statistik",
+      "basic_info": {
+        "date_of_birth": "1920"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Amir Hadžiahmetović",
+      "name_cn": "阿米尔·哈吉艾哈迈托维奇",
+      "position": "MF",
+      "club": "Hull City",
+      "age": 27,
+      "club_country": "England",
+      "transfermarkt_url": "https://www.transfermarkt.com/amir-hadziahmetovic/profil/spieler/558890",
+      "profile_url": "https://www.transfermarkt.com/amir-hadziahmetovic/profil/spieler/558890/statistik",
+      "basic_info": {
+        "date_of_birth": "25/02/1990 (36)",
+        "height": "1,77 m"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Ivan Šunjić",
+      "name_cn": "伊万·舒恩季奇",
+      "position": "MF",
+      "club": "Pafos FC",
+      "age": 28,
+      "club_country": "Cyprus",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "Ivan Bašić",
+      "name_cn": "伊万·巴希奇",
+      "position": "MF",
+      "club": "FC Astana",
+      "age": 24,
+      "club_country": "Kazakhstan",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "Dženis Burnić",
+      "name_cn": "杰尼斯·布尔尼奇",
+      "position": "MF",
+      "club": "Karlsruher SC",
+      "age": 26,
+      "club_country": "Germany",
+      "transfermarkt_url": null
+    },
+    {
+      "name_en": "Ermin Mahmić",
+      "name_cn": "埃尔敏·马赫米奇",
+      "position": "MF",
+      "club": "Slovan Liberec",
+      "age": 22,
+      "club_country": "Czech Republic",
+      "transfermarkt_url": "https://www.transfermarkt.com/ermin-mahmic/profil/spieler/600119",
+      "profile_url": "https://www.transfermarkt.com/ermin-mahmic/profil/spieler/600119/statistik",
+      "basic_info": {},
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Benjamin Tahirović",
+      "name_cn": "本杰明·塔希罗维奇",
+      "position": "MF",
+      "club": "Brøndby IF",
+      "age": 22,
+      "club_country": "Denmark",
+      "transfermarkt_url": "https://www.transfermarkt.com/benjamin-tahirovic/profil/spieler/1006575",
+      "profile_url": "https://www.transfermarkt.com/benjamin-tahirovic/profil/spieler/1006575/statistik",
+      "basic_info": {
+        "date_of_birth": "17/01/2005 (21)",
+        "height": "1,90 m"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Amar Memić",
+      "name_cn": "阿马尔·梅米奇",
+      "position": "MF",
+      "club": "Viktoria Plzeň",
+      "age": 25,
+      "club_country": "Czech Republic",
+      "transfermarkt_url": "https://www.transfermarkt.com/amar-memic/profil/spieler/419361",
+      "profile_url": "https://www.transfermarkt.com/amar-memic/profil/spieler/419361/statistik",
+      "basic_info": {
+        "date_of_birth": "1998"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Armin Gigović",
+      "name_cn": "阿尔明·吉科维奇",
+      "position": "MF",
+      "club": "BSC Young Boys",
+      "age": 24,
+      "club_country": "Switzerland",
+      "transfermarkt_url": "https://www.transfermarkt.com/armin-gigovic/profil/spieler/419354",
+      "profile_url": "https://www.transfermarkt.com/armin-gigovic/profil/spieler/419354/statistik",
+      "basic_info": {},
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Kerim Alajbegović",
+      "name_cn": "凯里姆·阿拉贝戈维奇",
+      "position": "MF",
+      "club": "RB Salzburg",
+      "age": 23,
+      "club_country": "Austria",
+      "transfermarkt_url": "https://www.transfermarkt.com/kerim-alajbegovic/profil/spieler/1006572",
+      "profile_url": "https://www.transfermarkt.com/kerim-alajbegovic/profil/spieler/1006572/statistik",
+      "basic_info": {
+        "date_of_birth": "22/02/1996 (30)"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Esmir Bajraktarević",
+      "name_cn": "埃斯米尔·拜拉克塔雷维奇",
+      "position": "FW",
+      "club": "PSV Eindhoven",
+      "age": 21,
+      "club_country": "Netherlands",
+      "transfermarkt_url": "https://www.transfermarkt.com/esmir-bajraktarevic/profil/spieler/1029168",
+      "profile_url": "https://www.transfermarkt.com/esmir-bajraktarevic/profil/spieler/1029168/statistik",
+      "basic_info": {},
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Ermedin Demirović",
+      "name_cn": "杰尔米丁·德米洛维奇",
+      "position": "FW",
+      "club": "VfB Stuttgart",
+      "age": 26,
+      "club_country": "Germany",
+      "transfermarkt_url": "https://www.transfermarkt.com/ermedin-demirovic/profil/spieler/419348",
+      "profile_url": "https://www.transfermarkt.com/ermedin-demirovic/profil/spieler/419348/statistik",
+      "basic_info": {},
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Jovo Lukić",
+      "name_cn": "约沃·卢基奇",
+      "position": "FW",
+      "club": "Universitatea Cluj",
+      "age": 25,
+      "club_country": "Romania",
+      "transfermarkt_url": "https://www.transfermarkt.com/jovo-lukic/profil/spieler/1050438",
+      "profile_url": "https://www.transfermarkt.com/jovo-lukic/profil/spieler/1050438/statistik",
+      "basic_info": {},
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Samed Baždar",
+      "name_cn": "萨梅德·巴日达尔",
+      "position": "FW",
+      "club": "Jagiellonia Białystok",
+      "age": 24,
+      "club_country": "Poland",
+      "transfermarkt_url": "https://www.transfermarkt.com/samed-bazdar/profil/spieler/1006638",
+      "profile_url": "https://www.transfermarkt.com/samed-bazdar/profil/spieler/1006638/statistik",
+      "basic_info": {},
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Haris Tabaković",
+      "name_cn": "哈里斯·塔巴科维奇",
+      "position": "FW",
+      "club": "Borussia Mönchengladbach",
+      "age": 31,
+      "club_country": "Germany",
+      "transfermarkt_url": "https://www.transfermarkt.com/haris-tabakovic/profil/spieler/419356",
+      "profile_url": "https://www.transfermarkt.com/haris-tabakovic/profil/spieler/419356/statistik",
+      "basic_info": {
+        "date_of_birth": "08/07/1993 (32)",
+        "height": "1,88 m"
+      },
+      "current_season": {},
+      "market_value": null
+    },
+    {
+      "name_en": "Edin Džeko",
+      "name_cn": "哲科",
+      "position": "FW",
+      "club": "Schalke 04",
+      "age": 40,
+      "club_country": "Germany",
+      "transfermarkt_url": "https://www.transfermarkt.com/edin-dzeko/profil/spieler/27819",
+      "profile_url": "https://www.transfermarkt.com/edin-dzeko/profil/spieler/27819/statistik",
+      "basic_info": {
+        "date_of_birth": "06/03/1980 (46)"
+      },
+      "current_season": {},
+      "market_value": null
+    }
+  ]
+}

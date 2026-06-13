@@ -1,0 +1,292 @@
+{
+  "team": "Switzerland",
+  "player_count": 26,
+  "players": [
+    {
+      "id": "gregor-kobel",
+      "name": "Gregor Kobel",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 1,
+      "club": "Borussia Dortmund",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "miro-muheim",
+      "name": "Miro Muheim",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 2,
+      "club": "Hamburger SV",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "silvan-widmer",
+      "name": "Silvan Widmer",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 3,
+      "club": "Mainz 05",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "nico-elvedi",
+      "name": "Nico Elvedi",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 4,
+      "club": "Borussia Mönchengladbach",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "manuel-akanji",
+      "name": "Manuel Akanji",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 5,
+      "club": "Inter Milan",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "denis-zakaria",
+      "name": "Denis Zakaria",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 6,
+      "club": "Monaco",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "breel-embolo",
+      "name": "Breel Embolo",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 7,
+      "club": "Rennes",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "remo-freuler",
+      "name": "Remo Freuler",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 8,
+      "club": "Bologna",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "johan-manzambi",
+      "name": "Johan Manzambi",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 9,
+      "club": "SC Freiburg",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "granit-xhaka",
+      "name": "Granit Xhaka",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 10,
+      "club": "Sunderland",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "dan-ndoye",
+      "name": "Dan Ndoye",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 11,
+      "club": "Nottingham Forest",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "yvon-mvogo",
+      "name": "Yvon Mvogo",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 12,
+      "club": "Lorient",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ricardo-rodriguez",
+      "name": "Ricardo Rodriguez",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 13,
+      "club": "Real Betis",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ardon-jashari",
+      "name": "Ardon Jashari",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 14,
+      "club": "Milan",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "djibril-sow",
+      "name": "Djibril Sow",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 15,
+      "club": "Sevilla",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "christian-fassnacht",
+      "name": "Christian Fassnacht",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 16,
+      "club": "Young Boys",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "rub-n-vargas",
+      "name": "Rubén Vargas",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 17,
+      "club": "Sevilla",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "eray-c-mert",
+      "name": "Eray Cömert",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 18,
+      "club": "Valencia",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "noah-okafor",
+      "name": "Noah Okafor",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 19,
+      "club": "Leeds United",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "michel-aebischer",
+      "name": "Michel Aebischer",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 20,
+      "club": "Pisa",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "marvin-keller",
+      "name": "Marvin Keller",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 21,
+      "club": "Young Boys",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "fabian-rieder",
+      "name": "Fabian Rieder",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 22,
+      "club": "FC Augsburg",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "zeki-amdouni",
+      "name": "Zeki Amdouni",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 23,
+      "club": "Burnley",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "aur-le-amenda",
+      "name": "Aurèle Amenda",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 24,
+      "club": "Eintracht Frankfurt",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "luca-jaquez",
+      "name": "Luca Jaquez",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 25,
+      "club": "VfB Stuttgart",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "cedric-itten",
+      "name": "Cedric Itten",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 26,
+      "club": "Fortuna Düsseldorf",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    }
+  ]
+}

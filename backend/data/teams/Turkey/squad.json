@@ -1,0 +1,292 @@
+{
+  "team": "Turkey",
+  "player_count": 26,
+  "players": [
+    {
+      "id": "mert-g-nok",
+      "name": "Mert Günok",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 1,
+      "club": "Fenerbahçe",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "zeki--elik",
+      "name": "Zeki Çelik",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 2,
+      "club": "Roma",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "merih-demiral",
+      "name": "Merih Demiral",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 3,
+      "club": "Al-Ahli",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "a-lar-s-y-nc",
+      "name": "Çağlar Söyüncü",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 4,
+      "club": "Fenerbahçe",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "salih--zcan",
+      "name": "Salih Özcan",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 5,
+      "club": "Borussia Dortmund",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "orkun-k-k",
+      "name": "Orkun Kökçü",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 6,
+      "club": "Beşiktaş",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "kerem-akt-rko-lu",
+      "name": "Kerem Aktürkoğlu",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 7,
+      "club": "Fenerbahçe",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "arda-g-ler",
+      "name": "Arda Güler",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 8,
+      "club": "Real Madrid",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "deniz-g-l",
+      "name": "Deniz Gül",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 9,
+      "club": "Porto",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "hakan--alhano-lu",
+      "name": "Hakan Çalhanoğlu",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 10,
+      "club": "Inter Milan",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "kenan-y-ld-z",
+      "name": "Kenan Yıldız",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 11,
+      "club": "Juventus",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "altay-bay-nd-r",
+      "name": "Altay Bayındır",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 12,
+      "club": "Manchester United",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "eren-elmal",
+      "name": "Eren Elmalı",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 13,
+      "club": "Galatasaray",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "abd-lkerim-bardakc",
+      "name": "Abdülkerim Bardakcı",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 14,
+      "club": "Galatasaray",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ozan-kabak",
+      "name": "Ozan Kabak",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 15,
+      "club": "TSG Hoffenheim",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "i-smail-y-ksek",
+      "name": "İsmail Yüksek",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 16,
+      "club": "Fenerbahçe",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "i-rfan-can-kahveci",
+      "name": "İrfan Can Kahveci",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 17,
+      "club": "Kasımpaşa",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "mert-m-ld-r",
+      "name": "Mert Müldür",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 18,
+      "club": "Fenerbahçe",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "yunus-akg-n",
+      "name": "Yunus Akgün",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 19,
+      "club": "Galatasaray",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ferdi-kad-o-lu",
+      "name": "Ferdi Kadıoğlu",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 20,
+      "club": "Brighton & Hove Albion",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "bar---alper-y-lmaz",
+      "name": "Barış Alper Yılmaz",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 21,
+      "club": "Galatasaray",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "kaan-ayhan",
+      "name": "Kaan Ayhan",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 22,
+      "club": "Galatasaray",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "u-urcan--ak-r",
+      "name": "Uğurcan Çakır",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 23,
+      "club": "Galatasaray",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "o-uz-ayd-n",
+      "name": "Oğuz Aydın",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 24,
+      "club": "Fenerbahçe",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "samet-akaydin",
+      "name": "Samet Akaydin",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 25,
+      "club": "Çaykur Rizespor",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "can-uzun",
+      "name": "Can Uzun",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 26,
+      "club": "Eintracht Frankfurt",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    }
+  ]
+}

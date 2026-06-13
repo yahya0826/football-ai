@@ -1,0 +1,292 @@
+{
+  "team": "Czech Republic",
+  "player_count": 26,
+  "players": [
+    {
+      "id": "mat-j-kov",
+      "name": "Matěj Kovář",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 1,
+      "club": "PSV Eindhoven",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "david-zima",
+      "name": "David Zima",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 2,
+      "club": "Slavia Prague",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "tom---hole",
+      "name": "Tomáš Holeš",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 3,
+      "club": "Slavia Prague",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "robin-hran",
+      "name": "Robin Hranáč",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 4,
+      "club": "TSG Hoffenheim",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "vladim-r-coufal",
+      "name": "Vladimír Coufal",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 5,
+      "club": "TSG Hoffenheim",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "t-p-n-chaloupek",
+      "name": "Štěpán Chaloupek",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 6,
+      "club": "Slavia Prague",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ladislav-krej",
+      "name": "Ladislav Krejčí",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 7,
+      "club": "Wolverhampton Wanderers",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "vladim-r-darida",
+      "name": "Vladimír Darida",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 8,
+      "club": "Hradec Králové",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "adam-hlo-ek",
+      "name": "Adam Hložek",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 9,
+      "club": "TSG Hoffenheim",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "patrik-schick",
+      "name": "Patrik Schick",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 10,
+      "club": "Bayer Leverkusen",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "jan-kuchta",
+      "name": "Jan Kuchta",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 11,
+      "club": "Sparta Prague",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "luk----erv",
+      "name": "Lukáš Červ",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 12,
+      "club": "Viktoria Plzeň",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "mojm-r-chytil",
+      "name": "Mojmír Chytil",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 13,
+      "club": "Slavia Prague",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "david-jur-sek",
+      "name": "David Jurásek",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 14,
+      "club": "Slavia Prague",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "pavel--ulc",
+      "name": "Pavel Šulc",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 15,
+      "club": "Lyon",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "jind-ich-stan-k",
+      "name": "Jindřich Staněk",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 16,
+      "club": "Slavia Prague",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "luk---provod",
+      "name": "Lukáš Provod",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 17,
+      "club": "Slavia Prague",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "michal-sad-lek",
+      "name": "Michal Sadílek",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 18,
+      "club": "Slavia Prague",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "tom---chor",
+      "name": "Tomáš Chorý",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 19,
+      "club": "Slavia Prague",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "jaroslav-zelen",
+      "name": "Jaroslav Zelený",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 20,
+      "club": "Sparta Prague",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "david-doud-ra",
+      "name": "David Douděra",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 21,
+      "club": "Slavia Prague",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "tom---sou-ek",
+      "name": "Tomáš Souček",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 22,
+      "club": "West Ham United",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "luk---horn--ek",
+      "name": "Lukáš Horníček",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 23,
+      "club": "Braga",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "alexandr-sojka",
+      "name": "Alexandr Sojka",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 24,
+      "club": "Viktoria Plzeň",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "hugo-soch-rek",
+      "name": "Hugo Sochůrek",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 25,
+      "club": "Sparta Prague",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "denis-vi-insk",
+      "name": "Denis Višinský",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 26,
+      "club": "Viktoria Plzeň",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    }
+  ]
+}

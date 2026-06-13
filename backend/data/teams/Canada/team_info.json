@@ -1,0 +1,173 @@
+{
+  "team_en": "Canada",
+  "team_cn": "加拿大",
+  "confederation": "CONCACAF",
+  "group": "B",
+  "stats": {
+    "total_matches": 197,
+    "wins": 86,
+    "draws": 50,
+    "losses": 61,
+    "goals_for": 314,
+    "goals_against": 203
+  },
+  "recent_matches": [
+    {
+      "date": "2026-06-24",
+      "home_team": "Canada",
+      "away_team": "Switzerland",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Vancouver",
+      "country": "Canada",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2026-06-18",
+      "home_team": "Canada",
+      "away_team": "Qatar",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Vancouver",
+      "country": "Canada",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2026-06-12",
+      "home_team": "Canada",
+      "away_team": "Bosnia and Herzegovina",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Toronto",
+      "country": "Canada",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2026-03-31",
+      "home_team": "Canada",
+      "away_team": "Tunisia",
+      "home_score": "0",
+      "away_score": "0",
+      "tournament": "Friendly",
+      "city": "Toronto",
+      "country": "Canada",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2026-03-28",
+      "home_team": "Canada",
+      "away_team": "Iceland",
+      "home_score": "2",
+      "away_score": "2",
+      "tournament": "Friendly",
+      "city": "Toronto",
+      "country": "Canada",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-11-18",
+      "home_team": "Canada",
+      "away_team": "Venezuela",
+      "home_score": "2",
+      "away_score": "0",
+      "tournament": "Friendly",
+      "city": "Fort Lauderdale",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2025-11-13",
+      "home_team": "Canada",
+      "away_team": "Ecuador",
+      "home_score": "0",
+      "away_score": "0",
+      "tournament": "Friendly",
+      "city": "Toronto",
+      "country": "Canada",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-10-14",
+      "home_team": "Canada",
+      "away_team": "Colombia",
+      "home_score": "0",
+      "away_score": "0",
+      "tournament": "Friendly",
+      "city": "Harrison",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2025-10-10",
+      "home_team": "Canada",
+      "away_team": "Australia",
+      "home_score": "0",
+      "away_score": "1",
+      "tournament": "Friendly",
+      "city": "Montreal",
+      "country": "Canada",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-09-09",
+      "home_team": "Wales",
+      "away_team": "Canada",
+      "home_score": "0",
+      "away_score": "1",
+      "tournament": "Friendly",
+      "city": "Cardiff",
+      "country": "Wales",
+      "neutral": "FALSE"
+    }
+  ],
+  "matches_by_year": {
+    "2026": 5,
+    "2025": 14,
+    "2024": 14,
+    "2023": 11,
+    "2022": 15,
+    "2021": 19,
+    "2020": 3,
+    "2019": 9,
+    "2018": 4,
+    "2017": 9,
+    "2016": 9,
+    "2015": 11,
+    "2014": 3,
+    "2013": 12,
+    "2012": 9,
+    "2011": 12,
+    "2010": 6,
+    "2009": 8,
+    "2008": 12,
+    "2007": 10,
+    "2006": 5
+  },
+  "tournament_breakdown": {
+    "Friendly": 77,
+    "FIFA World Cup qualification": 49,
+    "Gold Cup": 39,
+    "CONCACAF Nations League": 16,
+    "FIFA World Cup": 6,
+    "Copa América": 6,
+    "CONCACAF Nations League qualification": 4,
+    "Canadian Shield": 2,
+    "Copa América qualification": 1
+  },
+  "total_matches_20y": 200,
+  "elo_rating": 1484,
+  "odds": {
+    "decimal_odds": 81.0,
+    "implied_probability": 1.2,
+    "rank": 18,
+    "platforms": {
+      "Bet365": 81.0,
+      "William Hill": 201.0,
+      "DraftKings": 200.0
+    }
+  },
+  "fifa_ranking": null
+}

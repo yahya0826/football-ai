@@ -1,0 +1,292 @@
+{
+  "team": "Norway",
+  "player_count": 26,
+  "players": [
+    {
+      "id": "rjan-nyland",
+      "name": "Ørjan Nyland",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 1,
+      "club": "Sevilla",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "morten-thorsby",
+      "name": "Morten Thorsby",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 2,
+      "club": "Cremonese",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "kristoffer-ajer",
+      "name": "Kristoffer Ajer",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 3,
+      "club": "Brentford",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "leo--stig-rd",
+      "name": "Leo Østigård",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 4,
+      "club": "Genoa",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "david-m-ller-wolfe",
+      "name": "David Møller Wolfe",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 5,
+      "club": "Wolverhampton Wanderers",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "patrick-berg",
+      "name": "Patrick Berg",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 6,
+      "club": "Bodø/Glimt",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "alexander-s-rloth",
+      "name": "Alexander Sørloth",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 7,
+      "club": "Atlético Madrid",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "sander-berge",
+      "name": "Sander Berge",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 8,
+      "club": "Fulham",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "erling-haaland",
+      "name": "Erling Haaland",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 9,
+      "club": "Manchester City",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "martin--degaard",
+      "name": "Martin Ødegaard",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 10,
+      "club": "Arsenal",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "j-rgen-strand-larsen",
+      "name": "Jørgen Strand Larsen",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 11,
+      "club": "Crystal Palace",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "sander-tangvik",
+      "name": "Sander Tangvik",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 12,
+      "club": "Hamburger SV",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "egil-selvik",
+      "name": "Egil Selvik",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 13,
+      "club": "Watford",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "fredrik-aursnes",
+      "name": "Fredrik Aursnes",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 14,
+      "club": "Benfica",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "fredrik-andr--bj-rkan",
+      "name": "Fredrik André Bjørkan",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 15,
+      "club": "Bodø/Glimt",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "marcus-holmgren-pedersen",
+      "name": "Marcus Holmgren Pedersen",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 16,
+      "club": "Torino",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "torbj-rn-heggem",
+      "name": "Torbjørn Heggem",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 17,
+      "club": "Bologna",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "kristian-thorstvedt",
+      "name": "Kristian Thorstvedt",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 18,
+      "club": "Sassuolo",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "thelo-aasgaard",
+      "name": "Thelo Aasgaard",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 19,
+      "club": "Rangers",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "antonio-nusa",
+      "name": "Antonio Nusa",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 20,
+      "club": "RB Leipzig",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "andreas-schjelderup",
+      "name": "Andreas Schjelderup",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 21,
+      "club": "Benfica",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "oscar-bobb",
+      "name": "Oscar Bobb",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 22,
+      "club": "Fulham",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "jens-petter-hauge",
+      "name": "Jens Petter Hauge",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 23,
+      "club": "Bodø/Glimt",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "sondre-lang-s",
+      "name": "Sondre Langås",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 24,
+      "club": "Derby County",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "henrik-falchener",
+      "name": "Henrik Falchener",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 25,
+      "club": "Viking",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "julian-ryerson",
+      "name": "Julian Ryerson",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 26,
+      "club": "Borussia Dortmund",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    }
+  ]
+}

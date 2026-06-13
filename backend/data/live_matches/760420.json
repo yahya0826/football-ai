@@ -1,0 +1,41 @@
+{
+  "match_id": "760420",
+  "status": {
+    "state": "scheduled",
+    "detail": "Sat, June 13th at 3:00 PM EDT",
+    "period": 0,
+    "clock": "",
+    "completed": false,
+    "state_cn": "未开始"
+  },
+  "home": {
+    "name": "Qatar",
+    "abbrev": "QAT",
+    "logo": "",
+    "score": 0,
+    "team_id": "4398",
+    "name_cn": "卡塔尔"
+  },
+  "away": {
+    "name": "Switzerland",
+    "abbrev": "SUI",
+    "logo": "",
+    "score": 0,
+    "team_id": "475",
+    "name_cn": "瑞士"
+  },
+  "events": [],
+  "statistics": {
+    "home": {
+      "team_name": "Qatar",
+      "stats": {},
+      "team_name_cn": "卡塔尔"
+    },
+    "away": {
+      "team_name": "Switzerland",
+      "stats": {},
+      "team_name_cn": "瑞士"
+    }
+  },
+  "_saved_at": "2026-06-13T23:25:30.189137"
+}

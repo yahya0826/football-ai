@@ -1,0 +1,292 @@
+{
+  "team": "Uzbekistan",
+  "player_count": 26,
+  "players": [
+    {
+      "id": "utkir-yusupov",
+      "name": "Utkir Yusupov",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 1,
+      "club": "Navbahor Namangan",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "abdukodir-khusanov",
+      "name": "Abdukodir Khusanov",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 2,
+      "club": "Manchester City",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "khojiakbar-alijonov",
+      "name": "Khojiakbar Alijonov",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 3,
+      "club": "Pakhtakor",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "farrukh-sayfiev",
+      "name": "Farrukh Sayfiev",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 4,
+      "club": "Neftchi Fergana",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "rustam-ashurmatov",
+      "name": "Rustam Ashurmatov",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 5,
+      "club": "Esteghlal",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "akmal-mozgovoy",
+      "name": "Akmal Mozgovoy",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 6,
+      "club": "Pakhtakor",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "otabek-shukurov",
+      "name": "Otabek Shukurov",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 7,
+      "club": "Baniyas",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "jamshid-iskanderov",
+      "name": "Jamshid Iskanderov",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 8,
+      "club": "Neftchi Fergana",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "odiljon-hamrobekov",
+      "name": "Odiljon Hamrobekov",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 9,
+      "club": "Tractor",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "jaloliddin-masharipov",
+      "name": "Jaloliddin Masharipov",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 10,
+      "club": "Esteghlal",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "oston-urunov",
+      "name": "Oston Urunov",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 11,
+      "club": "Persepolis",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "abduvohid-nematov",
+      "name": "Abduvohid Nematov",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 12,
+      "club": "Nasaf",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "sherzod-nasrullaev",
+      "name": "Sherzod Nasrullaev",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 13,
+      "club": "Nasaf",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "eldor-shomurodov",
+      "name": "Eldor Shomurodov",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 14,
+      "club": "İstanbul Başakşehir",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "umar-eshmurodov",
+      "name": "Umar Eshmurodov",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 15,
+      "club": "Nasaf",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "botirali-ergashev",
+      "name": "Botirali Ergashev",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 16,
+      "club": "Neftchi Fergana",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "dostonbek-khamdamov",
+      "name": "Dostonbek Khamdamov",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 17,
+      "club": "Pakhtakor",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "abdulla-abdullaev",
+      "name": "Abdulla Abdullaev",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 18,
+      "club": "Dibba",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "azizjon-ganiev",
+      "name": "Azizjon Ganiev",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 19,
+      "club": "Al Bataeh",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "azizbek-amonov",
+      "name": "Azizbek Amonov",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 20,
+      "club": "Dinamo Samarqand",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "igor-sergeev",
+      "name": "Igor Sergeev",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 21,
+      "club": "Persepolis",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "abbosbek-fayzullaev",
+      "name": "Abbosbek Fayzullaev",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 22,
+      "club": "İstanbul Başakşehir",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "sherzod-esanov",
+      "name": "Sherzod Esanov",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 23,
+      "club": "Bukhara",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "bekhruz-karimov",
+      "name": "Bekhruz Karimov",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 24,
+      "club": "Surkhon Termiz",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "avazbek-ulmasaliev",
+      "name": "Avazbek Ulmasaliev",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 25,
+      "club": "AGMK",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "jakhongir-urozov",
+      "name": "Jakhongir Urozov",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 26,
+      "club": "Dinamo Samarqand",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    }
+  ]
+}

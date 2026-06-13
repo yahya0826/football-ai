@@ -1,0 +1,170 @@
+{
+  "team_en": "Morocco",
+  "team_cn": "摩洛哥",
+  "confederation": "CAF",
+  "group": "C",
+  "stats": {
+    "total_matches": 229,
+    "wins": 129,
+    "draws": 57,
+    "losses": 43,
+    "goals_for": 376,
+    "goals_against": 152
+  },
+  "recent_matches": [
+    {
+      "date": "2026-06-24",
+      "home_team": "Morocco",
+      "away_team": "Haiti",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Atlanta",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-06-19",
+      "home_team": "Scotland",
+      "away_team": "Morocco",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Foxborough",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-06-13",
+      "home_team": "Brazil",
+      "away_team": "Morocco",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "East Rutherford",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-03-31",
+      "home_team": "Morocco",
+      "away_team": "Paraguay",
+      "home_score": "2",
+      "away_score": "1",
+      "tournament": "Friendly",
+      "city": "Lens",
+      "country": "France",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-03-27",
+      "home_team": "Morocco",
+      "away_team": "Ecuador",
+      "home_score": "1",
+      "away_score": "1",
+      "tournament": "Friendly",
+      "city": "Madrid",
+      "country": "Spain",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-01-18",
+      "home_team": "Morocco",
+      "away_team": "Senegal",
+      "home_score": "3",
+      "away_score": "0",
+      "tournament": "African Cup of Nations",
+      "city": "Rabat",
+      "country": "Morocco",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2026-01-14",
+      "home_team": "Morocco",
+      "away_team": "Nigeria",
+      "home_score": "0",
+      "away_score": "0",
+      "tournament": "African Cup of Nations",
+      "city": "Rabat",
+      "country": "Morocco",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2026-01-09",
+      "home_team": "Morocco",
+      "away_team": "Cameroon",
+      "home_score": "2",
+      "away_score": "0",
+      "tournament": "African Cup of Nations",
+      "city": "Rabat",
+      "country": "Morocco",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2026-01-04",
+      "home_team": "Morocco",
+      "away_team": "Tanzania",
+      "home_score": "1",
+      "away_score": "0",
+      "tournament": "African Cup of Nations",
+      "city": "Rabat",
+      "country": "Morocco",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-12-29",
+      "home_team": "Morocco",
+      "away_team": "Zambia",
+      "home_score": "3",
+      "away_score": "0",
+      "tournament": "African Cup of Nations",
+      "city": "Rabat",
+      "country": "Morocco",
+      "neutral": "FALSE"
+    }
+  ],
+  "matches_by_year": {
+    "2026": 9,
+    "2025": 19,
+    "2024": 15,
+    "2023": 8,
+    "2022": 20,
+    "2021": 14,
+    "2020": 4,
+    "2019": 14,
+    "2018": 13,
+    "2017": 14,
+    "2016": 10,
+    "2015": 7,
+    "2014": 9,
+    "2013": 11,
+    "2012": 12,
+    "2011": 8,
+    "2010": 4,
+    "2009": 9,
+    "2008": 13,
+    "2007": 8,
+    "2006": 11
+  },
+  "tournament_breakdown": {
+    "Friendly": 94,
+    "FIFA World Cup qualification": 40,
+    "African Cup of Nations qualification": 39,
+    "African Cup of Nations": 36,
+    "FIFA World Cup": 13,
+    "Arab Cup": 10
+  },
+  "total_matches_20y": 232,
+  "elo_rating": 1593,
+  "odds": {
+    "decimal_odds": 51.0,
+    "implied_probability": 1.9,
+    "rank": 13,
+    "platforms": {
+      "Bet365": 51.0,
+      "William Hill": 67.0,
+      "DraftKings": 51.0
+    }
+  },
+  "fifa_ranking": null
+}

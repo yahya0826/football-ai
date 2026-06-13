@@ -1,0 +1,292 @@
+{
+  "team": "Sweden",
+  "player_count": 26,
+  "players": [
+    {
+      "id": "jacob-widell-zetterstr-m",
+      "name": "Jacob Widell Zetterström",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 1,
+      "club": "Derby County",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "gustaf-lagerbielke",
+      "name": "Gustaf Lagerbielke",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 2,
+      "club": "Braga",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "victor-lindel-f",
+      "name": "Victor Lindelöf",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 3,
+      "club": "Aston Villa",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "isak-hien",
+      "name": "Isak Hien",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 4,
+      "club": "Atalanta",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "gabriel-gudmundsson",
+      "name": "Gabriel Gudmundsson",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 5,
+      "club": "Leeds United",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "herman-johansson",
+      "name": "Herman Johansson",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 6,
+      "club": "FC Dallas",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "lucas-bergvall",
+      "name": "Lucas Bergvall",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 7,
+      "club": "Tottenham Hotspur",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "daniel-svensson",
+      "name": "Daniel Svensson",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 8,
+      "club": "Borussia Dortmund",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "alexander-isak",
+      "name": "Alexander Isak",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 9,
+      "club": "Liverpool",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "benjamin-nygren",
+      "name": "Benjamin Nygren",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 10,
+      "club": "Celtic",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "anthony-elanga",
+      "name": "Anthony Elanga",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 11,
+      "club": "Newcastle United",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "viktor-johansson",
+      "name": "Viktor Johansson",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 12,
+      "club": "Stoke City",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ken-sema",
+      "name": "Ken Sema",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 13,
+      "club": "Pafos",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "hjalmar-ekdal",
+      "name": "Hjalmar Ekdal",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 14,
+      "club": "Burnley",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "carl-starfelt",
+      "name": "Carl Starfelt",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 15,
+      "club": "Celta Vigo",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "jesper-karlstr-m",
+      "name": "Jesper Karlström",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 16,
+      "club": "Udinese",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "viktor-gy-keres",
+      "name": "Viktor Gyökeres",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 17,
+      "club": "Arsenal",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "yasin-ayari",
+      "name": "Yasin Ayari",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 18,
+      "club": "Brighton & Hove Albion",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "mattias-svanberg",
+      "name": "Mattias Svanberg",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 19,
+      "club": "VfL Wolfsburg",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "eric-smith",
+      "name": "Eric Smith",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 20,
+      "club": "FC St. Pauli",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "alexander-bernhardsson",
+      "name": "Alexander Bernhardsson",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 21,
+      "club": "Holstein Kiel",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "besfort-zeneli",
+      "name": "Besfort Zeneli",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 22,
+      "club": "Union Saint-Gilloise",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "kristoffer-nordfeldt",
+      "name": "Kristoffer Nordfeldt",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 23,
+      "club": "AIK",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "elliot-stroud",
+      "name": "Elliot Stroud",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 24,
+      "club": "Mjällby AIF",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "gustaf-nilsson",
+      "name": "Gustaf Nilsson",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 25,
+      "club": "Club Brugge",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "taha-ali",
+      "name": "Taha Ali",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 26,
+      "club": "Malmö FF",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    }
+  ]
+}

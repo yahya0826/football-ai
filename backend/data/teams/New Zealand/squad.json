@@ -1,0 +1,292 @@
+{
+  "team": "New Zealand",
+  "player_count": 26,
+  "players": [
+    {
+      "id": "max-crocombe",
+      "name": "Max Crocombe",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 1,
+      "club": "Millwall",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "tim-payne",
+      "name": "Tim Payne",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 2,
+      "club": "Wellington Phoenix",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "francis-de-vries",
+      "name": "Francis de Vries",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 3,
+      "club": "Auckland FC",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "tyler-bindon",
+      "name": "Tyler Bindon",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 4,
+      "club": "Sheffield United",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "michael-boxall",
+      "name": "Michael Boxall",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 5,
+      "club": "Minnesota United FC",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "joe-bell",
+      "name": "Joe Bell",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 6,
+      "club": "Viking",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "matthew-garbett",
+      "name": "Matthew Garbett",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 7,
+      "club": "Peterborough United",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "marko-stameni",
+      "name": "Marko Stamenić",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 8,
+      "club": "Swansea City",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "chris-wood",
+      "name": "Chris Wood",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 9,
+      "club": "Nottingham Forest",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "sarpreet-singh",
+      "name": "Sarpreet Singh",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 10,
+      "club": "Wellington Phoenix",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "elijah-just",
+      "name": "Elijah Just",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 11,
+      "club": "Motherwell",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "alex-paulsen",
+      "name": "Alex Paulsen",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 12,
+      "club": "Lechia Gdańsk",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "liberato-cacace",
+      "name": "Liberato Cacace",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 13,
+      "club": "Wrexham",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "alex-rufer",
+      "name": "Alex Rufer",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 14,
+      "club": "Wellington Phoenix",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "nando-pijnaker",
+      "name": "Nando Pijnaker",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 15,
+      "club": "Auckland FC",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "finn-surman",
+      "name": "Finn Surman",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 16,
+      "club": "Portland Timbers",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "kosta-barbarouses",
+      "name": "Kosta Barbarouses",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 17,
+      "club": "Western Sydney Wanderers",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ben-waine",
+      "name": "Ben Waine",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 18,
+      "club": "Port Vale",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ben-old",
+      "name": "Ben Old",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 19,
+      "club": "Saint-Étienne",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "callum-mccowatt",
+      "name": "Callum McCowatt",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 20,
+      "club": "Silkeborg",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "jesse-randall",
+      "name": "Jesse Randall",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 21,
+      "club": "Auckland FC",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "michael-woud",
+      "name": "Michael Woud",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 22,
+      "club": "Auckland FC",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ryan-thomas",
+      "name": "Ryan Thomas",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 23,
+      "club": "PEC Zwolle",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "callan-elliot",
+      "name": "Callan Elliot",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 24,
+      "club": "Auckland FC",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "lachlan-bayliss",
+      "name": "Lachlan Bayliss",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 25,
+      "club": "Newcastle Jets",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "tommy-smith",
+      "name": "Tommy Smith",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 26,
+      "club": "Braintree Town",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    }
+  ]
+}

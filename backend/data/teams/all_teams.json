@@ -1,0 +1,818 @@
+[
+  {
+    "team_en": "England",
+    "team_cn": "英格兰",
+    "confederation": "UEFA",
+    "group": "L",
+    "stats": {
+      "total_matches": 246,
+      "wins": 152,
+      "draws": 54,
+      "losses": 40,
+      "goals_for": 506,
+      "goals_against": 178
+    },
+    "total_matches_20y": 249,
+    "elo_rating": 1650,
+    "odds_rank": 2
+  },
+  {
+    "team_en": "France",
+    "team_cn": "法国",
+    "confederation": "UEFA",
+    "group": "I",
+    "stats": {
+      "total_matches": 266,
+      "wins": 163,
+      "draws": 57,
+      "losses": 46,
+      "goals_for": 488,
+      "goals_against": 215
+    },
+    "total_matches_20y": 269,
+    "elo_rating": 1631,
+    "odds_rank": 3
+  },
+  {
+    "team_en": "Croatia",
+    "team_cn": "克罗地亚",
+    "confederation": "UEFA",
+    "group": "L",
+    "stats": {
+      "total_matches": 239,
+      "wins": 132,
+      "draws": 57,
+      "losses": 50,
+      "goals_for": 423,
+      "goals_against": 237
+    },
+    "total_matches_20y": 242,
+    "elo_rating": 1575,
+    "odds_rank": 19
+  },
+  {
+    "team_en": "Norway",
+    "team_cn": "挪威",
+    "confederation": "UEFA",
+    "group": "I",
+    "stats": {
+      "total_matches": 201,
+      "wins": 92,
+      "draws": 44,
+      "losses": 65,
+      "goals_for": 317,
+      "goals_against": 225
+    },
+    "total_matches_20y": 204,
+    "elo_rating": 1493,
+    "odds_rank": 9
+  },
+  {
+    "team_en": "Portugal",
+    "team_cn": "葡萄牙",
+    "confederation": "UEFA",
+    "group": "K",
+    "stats": {
+      "total_matches": 256,
+      "wins": 152,
+      "draws": 59,
+      "losses": 45,
+      "goals_for": 523,
+      "goals_against": 211
+    },
+    "total_matches_20y": 259,
+    "elo_rating": 1627,
+    "odds_rank": 6
+  },
+  {
+    "team_en": "Germany",
+    "team_cn": "德国",
+    "confederation": "UEFA",
+    "group": "E",
+    "stats": {
+      "total_matches": 267,
+      "wins": 164,
+      "draws": 55,
+      "losses": 48,
+      "goals_for": 630,
+      "goals_against": 277
+    },
+    "total_matches_20y": 270,
+    "elo_rating": 1647,
+    "odds_rank": 7
+  },
+  {
+    "team_en": "Netherlands",
+    "team_cn": "荷兰",
+    "confederation": "UEFA",
+    "group": "F",
+    "stats": {
+      "total_matches": 248,
+      "wins": 150,
+      "draws": 53,
+      "losses": 45,
+      "goals_for": 525,
+      "goals_against": 225
+    },
+    "total_matches_20y": 251,
+    "elo_rating": 1634,
+    "odds_rank": 8
+  },
+  {
+    "team_en": "Switzerland",
+    "team_cn": "瑞士",
+    "confederation": "UEFA",
+    "group": "B",
+    "stats": {
+      "total_matches": 226,
+      "wins": 109,
+      "draws": 61,
+      "losses": 56,
+      "goals_for": 379,
+      "goals_against": 232
+    },
+    "total_matches_20y": 229,
+    "elo_rating": 1520,
+    "odds_rank": 11
+  },
+  {
+    "team_en": "Scotland",
+    "team_cn": "苏格兰",
+    "confederation": "UEFA",
+    "group": "C",
+    "stats": {
+      "total_matches": 185,
+      "wins": 82,
+      "draws": 34,
+      "losses": 69,
+      "goals_for": 249,
+      "goals_against": 232
+    },
+    "total_matches_20y": 188,
+    "elo_rating": 1465,
+    "odds_rank": 26
+  },
+  {
+    "team_en": "Spain",
+    "team_cn": "西班牙",
+    "confederation": "UEFA",
+    "group": "H",
+    "stats": {
+      "total_matches": 268,
+      "wins": 190,
+      "draws": 48,
+      "losses": 30,
+      "goals_for": 612,
+      "goals_against": 194
+    },
+    "total_matches_20y": 271,
+    "elo_rating": 1733,
+    "odds_rank": 1
+  },
+  {
+    "team_en": "Austria",
+    "team_cn": "奥地利",
+    "confederation": "UEFA",
+    "group": "J",
+    "stats": {
+      "total_matches": 205,
+      "wins": 92,
+      "draws": 42,
+      "losses": 71,
+      "goals_for": 320,
+      "goals_against": 247
+    },
+    "total_matches_20y": 208,
+    "elo_rating": 1482,
+    "odds_rank": 23
+  },
+  {
+    "team_en": "Belgium",
+    "team_cn": "比利时",
+    "confederation": "UEFA",
+    "group": "G",
+    "stats": {
+      "total_matches": 226,
+      "wins": 130,
+      "draws": 46,
+      "losses": 50,
+      "goals_for": 468,
+      "goals_against": 230
+    },
+    "total_matches_20y": 229,
+    "elo_rating": 1605,
+    "odds_rank": 10
+  },
+  {
+    "team_en": "Bosnia and Herzegovina",
+    "team_cn": "波黑",
+    "confederation": "UEFA",
+    "group": "B",
+    "stats": {
+      "total_matches": 193,
+      "wins": 74,
+      "draws": 42,
+      "losses": 77,
+      "goals_for": 287,
+      "goals_against": 270
+    },
+    "total_matches_20y": 196,
+    "elo_rating": 1422,
+    "odds_rank": 26
+  },
+  {
+    "team_en": "Sweden",
+    "team_cn": "瑞典",
+    "confederation": "UEFA",
+    "group": "F",
+    "stats": {
+      "total_matches": 254,
+      "wins": 125,
+      "draws": 47,
+      "losses": 82,
+      "goals_for": 390,
+      "goals_against": 272
+    },
+    "total_matches_20y": 257,
+    "elo_rating": 1518,
+    "odds_rank": 23
+  },
+  {
+    "team_en": "Turkey",
+    "team_cn": "土耳其",
+    "confederation": "UEFA",
+    "group": "D",
+    "stats": {
+      "total_matches": 232,
+      "wins": 113,
+      "draws": 57,
+      "losses": 62,
+      "goals_for": 372,
+      "goals_against": 269
+    },
+    "total_matches_20y": 235,
+    "elo_rating": 1513,
+    "odds_rank": 19
+  },
+  {
+    "team_en": "Czechia",
+    "team_cn": "捷克",
+    "confederation": "UEFA",
+    "group": "A",
+    "stats": {
+      "total_matches": 220,
+      "wins": 103,
+      "draws": 49,
+      "losses": 68,
+      "goals_for": 351,
+      "goals_against": 243
+    },
+    "total_matches_20y": 223,
+    "elo_rating": 1502,
+    "odds_rank": 28
+  },
+  {
+    "team_en": "Argentina",
+    "team_cn": "阿根廷",
+    "confederation": "CONMEBOL",
+    "group": "J",
+    "stats": {
+      "total_matches": 264,
+      "wins": 166,
+      "draws": 57,
+      "losses": 41,
+      "goals_for": 509,
+      "goals_against": 210
+    },
+    "total_matches_20y": 267,
+    "elo_rating": 1648,
+    "odds_rank": 5
+  },
+  {
+    "team_en": "Brazil",
+    "team_cn": "巴西",
+    "confederation": "CONMEBOL",
+    "group": "C",
+    "stats": {
+      "total_matches": 268,
+      "wins": 178,
+      "draws": 54,
+      "losses": 36,
+      "goals_for": 554,
+      "goals_against": 181
+    },
+    "total_matches_20y": 271,
+    "elo_rating": 1688,
+    "odds_rank": 4
+  },
+  {
+    "team_en": "Colombia",
+    "team_cn": "哥伦比亚",
+    "confederation": "CONMEBOL",
+    "group": "K",
+    "stats": {
+      "total_matches": 233,
+      "wins": 114,
+      "draws": 64,
+      "losses": 55,
+      "goals_for": 332,
+      "goals_against": 204
+    },
+    "total_matches_20y": 236,
+    "elo_rating": 1520,
+    "odds_rank": 13
+  },
+  {
+    "team_en": "Ecuador",
+    "team_cn": "厄瓜多尔",
+    "confederation": "CONMEBOL",
+    "group": "E",
+    "stats": {
+      "total_matches": 227,
+      "wins": 83,
+      "draws": 68,
+      "losses": 76,
+      "goals_for": 300,
+      "goals_against": 262
+    },
+    "total_matches_20y": 230,
+    "elo_rating": 1413,
+    "odds_rank": 19
+  },
+  {
+    "team_en": "Paraguay",
+    "team_cn": "巴拉圭",
+    "confederation": "CONMEBOL",
+    "group": "D",
+    "stats": {
+      "total_matches": 226,
+      "wins": 67,
+      "draws": 69,
+      "losses": 90,
+      "goals_for": 235,
+      "goals_against": 282
+    },
+    "total_matches_20y": 229,
+    "elo_rating": 1339,
+    "odds_rank": 23
+  },
+  {
+    "team_en": "Uruguay",
+    "team_cn": "乌拉圭",
+    "confederation": "CONMEBOL",
+    "group": "H",
+    "stats": {
+      "total_matches": 241,
+      "wins": 114,
+      "draws": 67,
+      "losses": 60,
+      "goals_for": 378,
+      "goals_against": 239
+    },
+    "total_matches_20y": 244,
+    "elo_rating": 1510,
+    "odds_rank": 16
+  },
+  {
+    "team_en": "Australia",
+    "team_cn": "澳大利亚",
+    "confederation": "AFC",
+    "group": "D",
+    "stats": {
+      "total_matches": 231,
+      "wins": 121,
+      "draws": 51,
+      "losses": 59,
+      "goals_for": 400,
+      "goals_against": 218
+    },
+    "total_matches_20y": 234,
+    "elo_rating": 1556,
+    "odds_rank": 33
+  },
+  {
+    "team_en": "Iran",
+    "team_cn": "伊朗",
+    "confederation": "AFC",
+    "group": "G",
+    "stats": {
+      "total_matches": 255,
+      "wins": 153,
+      "draws": 63,
+      "losses": 39,
+      "goals_for": 471,
+      "goals_against": 182
+    },
+    "total_matches_20y": 258,
+    "elo_rating": 1627,
+    "odds_rank": 33
+  },
+  {
+    "team_en": "Japan",
+    "team_cn": "日本",
+    "confederation": "AFC",
+    "group": "F",
+    "stats": {
+      "total_matches": 293,
+      "wins": 171,
+      "draws": 60,
+      "losses": 62,
+      "goals_for": 599,
+      "goals_against": 261
+    },
+    "total_matches_20y": 296,
+    "elo_rating": 1616,
+    "odds_rank": 15
+  },
+  {
+    "team_en": "Jordan",
+    "team_cn": "约旦",
+    "confederation": "AFC",
+    "group": "J",
+    "stats": {
+      "total_matches": 285,
+      "wins": 114,
+      "draws": 79,
+      "losses": 92,
+      "goals_for": 397,
+      "goals_against": 297
+    },
+    "total_matches_20y": 288,
+    "elo_rating": 1447,
+    "odds_rank": 47
+  },
+  {
+    "team_en": "Uzbekistan",
+    "team_cn": "乌兹别克斯坦",
+    "confederation": "AFC",
+    "group": "K",
+    "stats": {
+      "total_matches": 229,
+      "wins": 109,
+      "draws": 50,
+      "losses": 70,
+      "goals_for": 351,
+      "goals_against": 221
+    },
+    "total_matches_20y": 232,
+    "elo_rating": 1512,
+    "odds_rank": 44
+  },
+  {
+    "team_en": "Qatar",
+    "team_cn": "卡塔尔",
+    "confederation": "AFC",
+    "group": "B",
+    "stats": {
+      "total_matches": 314,
+      "wins": 137,
+      "draws": 73,
+      "losses": 104,
+      "goals_for": 464,
+      "goals_against": 365
+    },
+    "total_matches_20y": 317,
+    "elo_rating": 1471,
+    "odds_rank": 38
+  },
+  {
+    "team_en": "Saudi Arabia",
+    "team_cn": "沙特阿拉伯",
+    "confederation": "AFC",
+    "group": "H",
+    "stats": {
+      "total_matches": 306,
+      "wins": 136,
+      "draws": 74,
+      "losses": 96,
+      "goals_for": 430,
+      "goals_against": 313
+    },
+    "total_matches_20y": 309,
+    "elo_rating": 1480,
+    "odds_rank": 38
+  },
+  {
+    "team_en": "South Korea",
+    "team_cn": "韩国",
+    "confederation": "AFC",
+    "group": "A",
+    "stats": {
+      "total_matches": 285,
+      "wins": 148,
+      "draws": 71,
+      "losses": 66,
+      "goals_for": 452,
+      "goals_against": 267
+    },
+    "total_matches_20y": 288,
+    "elo_rating": 1546,
+    "odds_rank": 33
+  },
+  {
+    "team_en": "Iraq",
+    "team_cn": "伊拉克",
+    "confederation": "AFC",
+    "group": "I",
+    "stats": {
+      "total_matches": 293,
+      "wins": 119,
+      "draws": 88,
+      "losses": 86,
+      "goals_for": 349,
+      "goals_against": 291
+    },
+    "total_matches_20y": 296,
+    "elo_rating": 1444,
+    "odds_rank": 41
+  },
+  {
+    "team_en": "Algeria",
+    "team_cn": "阿尔及利亚",
+    "confederation": "CAF",
+    "group": "J",
+    "stats": {
+      "total_matches": 227,
+      "wins": 131,
+      "draws": 47,
+      "losses": 49,
+      "goals_for": 416,
+      "goals_against": 207
+    },
+    "total_matches_20y": 230,
+    "elo_rating": 1600,
+    "odds_rank": 31
+  },
+  {
+    "team_en": "Cape Verde",
+    "team_cn": "佛得角",
+    "confederation": "CAF",
+    "group": "H",
+    "stats": {
+      "total_matches": 149,
+      "wins": 64,
+      "draws": 38,
+      "losses": 47,
+      "goals_for": 179,
+      "goals_against": 152
+    },
+    "total_matches_20y": 152,
+    "elo_rating": 1460,
+    "odds_rank": 44
+  },
+  {
+    "team_en": "DR Congo",
+    "team_cn": "刚果民主共和国",
+    "confederation": "CAF",
+    "group": "K",
+    "stats": {
+      "total_matches": 197,
+      "wins": 76,
+      "draws": 57,
+      "losses": 64,
+      "goals_for": 260,
+      "goals_against": 208
+    },
+    "total_matches_20y": 200,
+    "elo_rating": 1432,
+    "odds_rank": 37
+  },
+  {
+    "team_en": "Egypt",
+    "team_cn": "埃及",
+    "confederation": "CAF",
+    "group": "G",
+    "stats": {
+      "total_matches": 255,
+      "wins": 148,
+      "draws": 55,
+      "losses": 52,
+      "goals_for": 430,
+      "goals_against": 205
+    },
+    "total_matches_20y": 258,
+    "elo_rating": 1600,
+    "odds_rank": 28
+  },
+  {
+    "team_en": "Ghana",
+    "team_cn": "加纳",
+    "confederation": "CAF",
+    "group": "L",
+    "stats": {
+      "total_matches": 243,
+      "wins": 110,
+      "draws": 59,
+      "losses": 74,
+      "goals_for": 347,
+      "goals_against": 241
+    },
+    "total_matches_20y": 246,
+    "elo_rating": 1489,
+    "odds_rank": 31
+  },
+  {
+    "team_en": "Ivory Coast",
+    "team_cn": "科特迪瓦",
+    "confederation": "CAF",
+    "group": "E",
+    "stats": {
+      "total_matches": 247,
+      "wins": 134,
+      "draws": 66,
+      "losses": 47,
+      "goals_for": 427,
+      "goals_against": 216
+    },
+    "total_matches_20y": 250,
+    "elo_rating": 1572,
+    "odds_rank": 28
+  },
+  {
+    "team_en": "Morocco",
+    "team_cn": "摩洛哥",
+    "confederation": "CAF",
+    "group": "C",
+    "stats": {
+      "total_matches": 229,
+      "wins": 129,
+      "draws": 57,
+      "losses": 43,
+      "goals_for": 376,
+      "goals_against": 152
+    },
+    "total_matches_20y": 232,
+    "elo_rating": 1593,
+    "odds_rank": 13
+  },
+  {
+    "team_en": "Senegal",
+    "team_cn": "塞内加尔",
+    "confederation": "CAF",
+    "group": "I",
+    "stats": {
+      "total_matches": 224,
+      "wins": 125,
+      "draws": 60,
+      "losses": 39,
+      "goals_for": 357,
+      "goals_against": 178
+    },
+    "total_matches_20y": 227,
+    "elo_rating": 1580,
+    "odds_rank": 19
+  },
+  {
+    "team_en": "South Africa",
+    "team_cn": "南非",
+    "confederation": "CAF",
+    "group": "A",
+    "stats": {
+      "total_matches": 274,
+      "wins": 119,
+      "draws": 93,
+      "losses": 62,
+      "goals_for": 346,
+      "goals_against": 218
+    },
+    "total_matches_20y": 277,
+    "elo_rating": 1477,
+    "odds_rank": 38
+  },
+  {
+    "team_en": "Tunisia",
+    "team_cn": "突尼斯",
+    "confederation": "CAF",
+    "group": "F",
+    "stats": {
+      "total_matches": 256,
+      "wins": 122,
+      "draws": 74,
+      "losses": 60,
+      "goals_for": 375,
+      "goals_against": 221
+    },
+    "total_matches_20y": 259,
+    "elo_rating": 1514,
+    "odds_rank": 33
+  },
+  {
+    "team_en": "United States",
+    "team_cn": "美国",
+    "confederation": "CONCACAF",
+    "group": "D",
+    "stats": {
+      "total_matches": 320,
+      "wins": 172,
+      "draws": 58,
+      "losses": 90,
+      "goals_for": 569,
+      "goals_against": 342
+    },
+    "total_matches_20y": 323,
+    "elo_rating": 1562,
+    "odds_rank": 11
+  },
+  {
+    "team_en": "Mexico",
+    "team_cn": "墨西哥",
+    "confederation": "CONCACAF",
+    "group": "A",
+    "stats": {
+      "total_matches": 351,
+      "wins": 191,
+      "draws": 73,
+      "losses": 87,
+      "goals_for": 572,
+      "goals_against": 337
+    },
+    "total_matches_20y": 354,
+    "elo_rating": 1564,
+    "odds_rank": 16
+  },
+  {
+    "team_en": "Canada",
+    "team_cn": "加拿大",
+    "confederation": "CONCACAF",
+    "group": "B",
+    "stats": {
+      "total_matches": 197,
+      "wins": 86,
+      "draws": 50,
+      "losses": 61,
+      "goals_for": 314,
+      "goals_against": 203
+    },
+    "total_matches_20y": 200,
+    "elo_rating": 1484,
+    "odds_rank": 18
+  },
+  {
+    "team_en": "Panama",
+    "team_cn": "巴拿马",
+    "confederation": "CONCACAF",
+    "group": "L",
+    "stats": {
+      "total_matches": 274,
+      "wins": 111,
+      "draws": 70,
+      "losses": 93,
+      "goals_for": 367,
+      "goals_against": 331
+    },
+    "total_matches_20y": 277,
+    "elo_rating": 1440,
+    "odds_rank": 41
+  },
+  {
+    "team_en": "Haiti",
+    "team_cn": "海地",
+    "confederation": "CONCACAF",
+    "group": "C",
+    "stats": {
+      "total_matches": 188,
+      "wins": 77,
+      "draws": 44,
+      "losses": 67,
+      "goals_for": 302,
+      "goals_against": 236
+    },
+    "total_matches_20y": 191,
+    "elo_rating": 1454,
+    "odds_rank": 48
+  },
+  {
+    "team_en": "Curaçao",
+    "team_cn": "库拉索",
+    "confederation": "CONCACAF",
+    "group": "E",
+    "stats": {
+      "total_matches": 134,
+      "wins": 44,
+      "draws": 33,
+      "losses": 57,
+      "goals_for": 213,
+      "goals_against": 189
+    },
+    "total_matches_20y": 137,
+    "elo_rating": 1385,
+    "odds_rank": 44
+  },
+  {
+    "team_en": "New Zealand",
+    "team_cn": "新西兰",
+    "confederation": "OFC",
+    "group": "G",
+    "stats": {
+      "total_matches": 138,
+      "wins": 54,
+      "draws": 28,
+      "losses": 56,
+      "goals_for": 200,
+      "goals_against": 174
+    },
+    "total_matches_20y": 141,
+    "elo_rating": 1433,
+    "odds_rank": 41
+  }
+]

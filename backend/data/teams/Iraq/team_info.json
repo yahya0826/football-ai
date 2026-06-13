@@ -1,0 +1,176 @@
+{
+  "team_en": "Iraq",
+  "team_cn": "伊拉克",
+  "confederation": "AFC",
+  "group": "I",
+  "stats": {
+    "total_matches": 293,
+    "wins": 119,
+    "draws": 88,
+    "losses": 86,
+    "goals_for": 349,
+    "goals_against": 291
+  },
+  "recent_matches": [
+    {
+      "date": "2026-06-26",
+      "home_team": "Senegal",
+      "away_team": "Iraq",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Toronto",
+      "country": "Canada",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-06-22",
+      "home_team": "France",
+      "away_team": "Iraq",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Philadelphia",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-06-16",
+      "home_team": "Iraq",
+      "away_team": "Norway",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Foxborough",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-03-31",
+      "home_team": "Iraq",
+      "away_team": "Bolivia",
+      "home_score": "2",
+      "away_score": "1",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Guadalupe",
+      "country": "Mexico",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2025-12-12",
+      "home_team": "Jordan",
+      "away_team": "Iraq",
+      "home_score": "1",
+      "away_score": "0",
+      "tournament": "Arab Cup",
+      "city": "Al Rayyan",
+      "country": "Qatar",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2025-12-09",
+      "home_team": "Algeria",
+      "away_team": "Iraq",
+      "home_score": "2",
+      "away_score": "0",
+      "tournament": "Arab Cup",
+      "city": "Al Rayyan",
+      "country": "Qatar",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2025-12-06",
+      "home_team": "Sudan",
+      "away_team": "Iraq",
+      "home_score": "0",
+      "away_score": "2",
+      "tournament": "Arab Cup",
+      "city": "Doha",
+      "country": "Qatar",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2025-12-03",
+      "home_team": "Iraq",
+      "away_team": "Bahrain",
+      "home_score": "2",
+      "away_score": "1",
+      "tournament": "Arab Cup",
+      "city": "Doha",
+      "country": "Qatar",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2025-11-18",
+      "home_team": "Iraq",
+      "away_team": "United Arab Emirates",
+      "home_score": "2",
+      "away_score": "1",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Basra",
+      "country": "Iraq",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-11-13",
+      "home_team": "United Arab Emirates",
+      "away_team": "Iraq",
+      "home_score": "1",
+      "away_score": "1",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Abu Dhabi",
+      "country": "United Arab Emirates",
+      "neutral": "FALSE"
+    }
+  ],
+  "matches_by_year": {
+    "2026": 4,
+    "2025": 14,
+    "2024": 18,
+    "2023": 12,
+    "2022": 11,
+    "2021": 17,
+    "2020": 2,
+    "2019": 20,
+    "2018": 12,
+    "2017": 14,
+    "2016": 12,
+    "2015": 16,
+    "2014": 11,
+    "2013": 20,
+    "2012": 19,
+    "2011": 19,
+    "2010": 15,
+    "2009": 14,
+    "2008": 12,
+    "2007": 20,
+    "2006": 14
+  },
+  "tournament_breakdown": {
+    "Friendly": 106,
+    "FIFA World Cup qualification": 79,
+    "Gulf Cup": 34,
+    "AFC Asian Cup": 24,
+    "WAFF Championship": 18,
+    "AFC Asian Cup qualification": 12,
+    "Arab Cup": 10,
+    "King's Cup": 4,
+    "FIFA World Cup": 3,
+    "Confederations Cup": 3,
+    "Jordan International Tournament": 2,
+    "Kirin Challenge Cup": 1
+  },
+  "total_matches_20y": 296,
+  "elo_rating": 1444,
+  "odds": {
+    "decimal_odds": 1501.0,
+    "implied_probability": 0.07,
+    "rank": 41,
+    "platforms": {
+      "Bet365": 1501.0,
+      "William Hill": 1501.0,
+      "DraftKings": 1000.0
+    }
+  },
+  "fifa_ranking": null
+}

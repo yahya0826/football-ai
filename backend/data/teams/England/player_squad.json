@@ -1,0 +1,136 @@
+{
+  "announced": "2026-05-11",
+  "type": "provisional_55",
+  "coach": "Thomas Tuchel",
+  "goalkeepers": [
+    {
+      "name": "Jordan Pickford",
+      "club": "Everton",
+      "caps": 68
+    }
+  ],
+  "defenders": [
+    {
+      "name": "John Stones",
+      "club": "Manchester City",
+      "caps": 72
+    },
+    {
+      "name": "Marc Guéhi",
+      "club": "Crystal Palace",
+      "caps": 20
+    },
+    {
+      "name": "Reece James",
+      "club": "Chelsea",
+      "caps": 18
+    },
+    {
+      "name": "Ben White",
+      "club": "Arsenal",
+      "caps": 12
+    },
+    {
+      "name": "Myles Lewis-Skelly",
+      "club": "Arsenal",
+      "caps": 2
+    },
+    {
+      "name": "Trent Alexander-Arnold",
+      "club": "Real Madrid",
+      "caps": 30
+    },
+    {
+      "name": "Luke Shaw",
+      "club": "Manchester United",
+      "caps": 32
+    },
+    {
+      "name": "Jarrad Branthwaite",
+      "club": "Everton",
+      "caps": 2
+    }
+  ],
+  "midfielders": [
+    {
+      "name": "Jude Bellingham",
+      "club": "Real Madrid",
+      "caps": 40
+    },
+    {
+      "name": "Declan Rice",
+      "club": "Arsenal",
+      "caps": 58
+    },
+    {
+      "name": "Phil Foden",
+      "club": "Manchester City",
+      "caps": 38
+    },
+    {
+      "name": "Cole Palmer",
+      "club": "Chelsea",
+      "caps": 12
+    },
+    {
+      "name": "Kobbie Mainoo",
+      "club": "Manchester United",
+      "caps": 10
+    },
+    {
+      "name": "Conor Gallagher",
+      "club": "Atlético Madrid",
+      "caps": 20
+    },
+    {
+      "name": "Morgan Rogers",
+      "club": "Aston Villa",
+      "caps": 5
+    },
+    {
+      "name": "Eberechi Eze",
+      "club": "Arsenal",
+      "caps": 12
+    }
+  ],
+  "forwards": [
+    {
+      "name": "Harry Kane",
+      "club": "Bayern Munich",
+      "caps": 98
+    },
+    {
+      "name": "Bukayo Saka",
+      "club": "Arsenal",
+      "caps": 42
+    },
+    {
+      "name": "Marcus Rashford",
+      "club": "Barcelona",
+      "caps": 60
+    },
+    {
+      "name": "Anthony Gordon",
+      "club": "Newcastle",
+      "caps": 8
+    },
+    {
+      "name": "Ollie Watkins",
+      "club": "Aston Villa",
+      "caps": 15
+    },
+    {
+      "name": "Danny Welbeck",
+      "club": "Brighton",
+      "caps": 42
+    },
+    {
+      "name": "Alex Scott",
+      "club": "Bournemouth",
+      "caps": 2
+    }
+  ],
+  "notable_omissions": [
+    "Dominic Solanke (injured)"
+  ]
+}

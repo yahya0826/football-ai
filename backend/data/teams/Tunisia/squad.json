@@ -1,0 +1,292 @@
+{
+  "team": "Tunisia",
+  "player_count": 26,
+  "players": [
+    {
+      "id": "mouhib-chamakh",
+      "name": "Mouhib Chamakh",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 1,
+      "club": "Club Africain",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ali-abdi",
+      "name": "Ali Abdi",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 2,
+      "club": "Nice",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "montassar-talbi",
+      "name": "Montassar Talbi",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 3,
+      "club": "Lorient",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "omar-rekik",
+      "name": "Omar Rekik",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 4,
+      "club": "Maribor",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "adem-arous",
+      "name": "Adem Arous",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 5,
+      "club": "Kasımpaşa",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "dylan-bronn",
+      "name": "Dylan Bronn",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 6,
+      "club": "Servette",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "elias-achouri",
+      "name": "Elias Achouri",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 7,
+      "club": "Copenhagen",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "elias-saad",
+      "name": "Elias Saad",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 8,
+      "club": "Hannover 96",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "hazem-mastouri",
+      "name": "Hazem Mastouri",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 9,
+      "club": "Dynamo Makhachkala",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "hannibal-mejbri",
+      "name": "Hannibal Mejbri",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 10,
+      "club": "Burnley",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "isma-l-gharbi",
+      "name": "Ismaël Gharbi",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 11,
+      "club": "FC Augsburg",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "mortadha-ben-ouanes",
+      "name": "Mortadha Ben Ouanes",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 12,
+      "club": "Kasımpaşa",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "rani-khedira",
+      "name": "Rani Khedira",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 13,
+      "club": "Union Berlin",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "khalil-ayari",
+      "name": "Khalil Ayari",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 14,
+      "club": "Paris Saint-Germain",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "hadj-mahmoud",
+      "name": "Hadj Mahmoud",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 15,
+      "club": "Lugano",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "aymen-dahmen",
+      "name": "Aymen Dahmen",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 16,
+      "club": "CS Sfaxien",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ellyes-skhiri",
+      "name": "Ellyes Skhiri",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 17,
+      "club": "Eintracht Frankfurt",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "rayan-elloumi",
+      "name": "Rayan Elloumi",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 18,
+      "club": "Vancouver Whitecaps FC",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "firas-chaouat",
+      "name": "Firas Chaouat",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 19,
+      "club": "Club Africain",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "yan-valery",
+      "name": "Yan Valery",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 20,
+      "club": "Young Boys",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "mohamed-amine-ben-hamida",
+      "name": "Mohamed Amine Ben Hamida",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 21,
+      "club": "Espérance de Tunis",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "sabri-ben-hessen",
+      "name": "Sabri Ben Hessen",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 22,
+      "club": "Étoile du Sahel",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "moutaz-neffati",
+      "name": "Moutaz Neffati",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 23,
+      "club": "IFK Norrköping",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "raed-chikhaoui",
+      "name": "Raed Chikhaoui",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 24,
+      "club": "US Monastir",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "anis-ben-slimane",
+      "name": "Anis Ben Slimane",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 25,
+      "club": "Norwich City",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "sebastian-tounekti",
+      "name": "Sebastian Tounekti",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 26,
+      "club": "Celtic",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    }
+  ]
+}

@@ -1,0 +1,292 @@
+{
+  "team": "Algeria",
+  "player_count": 26,
+  "players": [
+    {
+      "id": "melvin-mastil",
+      "name": "Melvin Mastil",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 1,
+      "club": "Stade Nyonnais",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "a-ssa-mandi",
+      "name": "Aïssa Mandi",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 2,
+      "club": "Lille",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "achref-abada",
+      "name": "Achref Abada",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 3,
+      "club": "USM Alger",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "mohamed-amine-tougai",
+      "name": "Mohamed Amine Tougai",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 4,
+      "club": "Espérance de Tunis",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "zineddine-bela-d",
+      "name": "Zineddine Belaïd",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 5,
+      "club": "JS Kabylie",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ramiz-zerrouki",
+      "name": "Ramiz Zerrouki",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 6,
+      "club": "Twente",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "riyad-mahrez",
+      "name": "Riyad Mahrez",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 7,
+      "club": "Al-Ahli",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "houssem-aouar",
+      "name": "Houssem Aouar",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 8,
+      "club": "Al-Ittihad",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "amine-gouiri",
+      "name": "Amine Gouiri",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 9,
+      "club": "Marseille",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "far-s-cha-bi",
+      "name": "Farès Chaïbi",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 10,
+      "club": "Eintracht Frankfurt",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "anis-hadj-moussa",
+      "name": "Anis Hadj Moussa",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 11,
+      "club": "Feyenoord",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "nadhir-benbouali",
+      "name": "Nadhir Benbouali",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 12,
+      "club": "Győri ETO",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "jaouen-hadjam",
+      "name": "Jaouen Hadjam",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 13,
+      "club": "Young Boys",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "hicham-boudaoui",
+      "name": "Hicham Boudaoui",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 14,
+      "club": "Nice",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "rayan-a-t-nouri",
+      "name": "Rayan Aït-Nouri",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 15,
+      "club": "Manchester City",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "oussama-benbot",
+      "name": "Oussama Benbot",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 16,
+      "club": "USM Alger",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "rafik-belghali",
+      "name": "Rafik Belghali",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 17,
+      "club": "Hellas Verona",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "mohamed-amoura",
+      "name": "Mohamed Amoura",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 18,
+      "club": "VfL Wolfsburg",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "nabil-bentaleb",
+      "name": "Nabil Bentaleb",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 19,
+      "club": "Lille",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "adil-boulbina",
+      "name": "Adil Boulbina",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 20,
+      "club": "Al-Duhail",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ramy-bensebaini",
+      "name": "Ramy Bensebaini",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 21,
+      "club": "Borussia Dortmund",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ibrahim-maza",
+      "name": "Ibrahim Maza",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 22,
+      "club": "Bayer Leverkusen",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "luca-zidane",
+      "name": "Luca Zidane",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 23,
+      "club": "Granada",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "yacine-titraoui",
+      "name": "Yacine Titraoui",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 24,
+      "club": "Charleroi",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "far-s-ghedjemis",
+      "name": "Farès Ghedjemis",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 25,
+      "club": "Frosinone",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "samir-chergui",
+      "name": "Samir Chergui",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 26,
+      "club": "Paris FC",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    }
+  ]
+}

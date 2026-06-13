@@ -1,0 +1,170 @@
+{
+  "team_en": "Colombia",
+  "team_cn": "哥伦比亚",
+  "confederation": "CONMEBOL",
+  "group": "K",
+  "stats": {
+    "total_matches": 233,
+    "wins": 114,
+    "draws": 64,
+    "losses": 55,
+    "goals_for": 332,
+    "goals_against": 204
+  },
+  "recent_matches": [
+    {
+      "date": "2026-06-27",
+      "home_team": "Colombia",
+      "away_team": "Portugal",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Miami Gardens",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-06-23",
+      "home_team": "Colombia",
+      "away_team": "DR Congo",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Zapopan",
+      "country": "Mexico",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-06-17",
+      "home_team": "Uzbekistan",
+      "away_team": "Colombia",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Mexico City",
+      "country": "Mexico",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-03-29",
+      "home_team": "Colombia",
+      "away_team": "France",
+      "home_score": "1",
+      "away_score": "3",
+      "tournament": "Friendly",
+      "city": "Landover",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-03-26",
+      "home_team": "Colombia",
+      "away_team": "Croatia",
+      "home_score": "1",
+      "away_score": "2",
+      "tournament": "Friendly",
+      "city": "Orlando",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2025-11-18",
+      "home_team": "Colombia",
+      "away_team": "Australia",
+      "home_score": "3",
+      "away_score": "0",
+      "tournament": "Friendly",
+      "city": "New York",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2025-11-15",
+      "home_team": "Colombia",
+      "away_team": "New Zealand",
+      "home_score": "2",
+      "away_score": "1",
+      "tournament": "Friendly",
+      "city": "Fort Lauderdale",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2025-10-14",
+      "home_team": "Canada",
+      "away_team": "Colombia",
+      "home_score": "0",
+      "away_score": "0",
+      "tournament": "Friendly",
+      "city": "Harrison",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2025-10-11",
+      "home_team": "Mexico",
+      "away_team": "Colombia",
+      "home_score": "0",
+      "away_score": "4",
+      "tournament": "Friendly",
+      "city": "Arlington",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2025-09-09",
+      "home_team": "Venezuela",
+      "away_team": "Colombia",
+      "home_score": "3",
+      "away_score": "6",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Maturín",
+      "country": "Venezuela",
+      "neutral": "FALSE"
+    }
+  ],
+  "matches_by_year": {
+    "2026": 5,
+    "2025": 10,
+    "2024": 16,
+    "2023": 12,
+    "2022": 9,
+    "2021": 17,
+    "2020": 4,
+    "2019": 14,
+    "2018": 11,
+    "2017": 11,
+    "2016": 14,
+    "2015": 12,
+    "2014": 11,
+    "2013": 11,
+    "2012": 8,
+    "2011": 13,
+    "2010": 8,
+    "2009": 12,
+    "2008": 14,
+    "2007": 17,
+    "2006": 7
+  },
+  "tournament_breakdown": {
+    "Friendly": 99,
+    "FIFA World Cup qualification": 88,
+    "Copa América": 34,
+    "FIFA World Cup": 12,
+    "Kirin Cup": 2,
+    "Kirin Challenge Cup": 1
+  },
+  "total_matches_20y": 236,
+  "elo_rating": 1520,
+  "odds": {
+    "decimal_odds": 51.0,
+    "implied_probability": 1.9,
+    "rank": 13,
+    "platforms": {
+      "Bet365": 51.0,
+      "William Hill": 51.0,
+      "DraftKings": 50.0
+    }
+  },
+  "fifa_ranking": null
+}

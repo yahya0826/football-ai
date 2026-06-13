@@ -1,0 +1,171 @@
+{
+  "team_en": "South Korea",
+  "team_cn": "韩国",
+  "confederation": "AFC",
+  "group": "A",
+  "stats": {
+    "total_matches": 285,
+    "wins": 148,
+    "draws": 71,
+    "losses": 66,
+    "goals_for": 452,
+    "goals_against": 267
+  },
+  "recent_matches": [
+    {
+      "date": "2026-06-24",
+      "home_team": "South Africa",
+      "away_team": "South Korea",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Guadalupe",
+      "country": "Mexico",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-06-18",
+      "home_team": "Mexico",
+      "away_team": "South Korea",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Zapopan",
+      "country": "Mexico",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2026-06-11",
+      "home_team": "South Korea",
+      "away_team": "Czech Republic",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Zapopan",
+      "country": "Mexico",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-03-31",
+      "home_team": "Austria",
+      "away_team": "South Korea",
+      "home_score": "1",
+      "away_score": "0",
+      "tournament": "Friendly",
+      "city": "Vienna",
+      "country": "Austria",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2026-03-28",
+      "home_team": "Ivory Coast",
+      "away_team": "South Korea",
+      "home_score": "4",
+      "away_score": "0",
+      "tournament": "Friendly",
+      "city": "Milton Keynes",
+      "country": "England",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2025-11-18",
+      "home_team": "South Korea",
+      "away_team": "Ghana",
+      "home_score": "1",
+      "away_score": "0",
+      "tournament": "Friendly",
+      "city": "Seoul",
+      "country": "South Korea",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-11-14",
+      "home_team": "South Korea",
+      "away_team": "Bolivia",
+      "home_score": "2",
+      "away_score": "0",
+      "tournament": "Friendly",
+      "city": "Daejeon",
+      "country": "South Korea",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-10-14",
+      "home_team": "South Korea",
+      "away_team": "Paraguay",
+      "home_score": "2",
+      "away_score": "0",
+      "tournament": "Friendly",
+      "city": "Seoul",
+      "country": "South Korea",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-10-10",
+      "home_team": "South Korea",
+      "away_team": "Brazil",
+      "home_score": "0",
+      "away_score": "5",
+      "tournament": "Friendly",
+      "city": "Seoul",
+      "country": "South Korea",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-09-09",
+      "home_team": "Mexico",
+      "away_team": "South Korea",
+      "home_score": "2",
+      "away_score": "2",
+      "tournament": "Friendly",
+      "city": "Nashville",
+      "country": "United States",
+      "neutral": "TRUE"
+    }
+  ],
+  "matches_by_year": {
+    "2026": 5,
+    "2025": 10,
+    "2024": 17,
+    "2023": 10,
+    "2022": 20,
+    "2021": 10,
+    "2020": 2,
+    "2019": 18,
+    "2018": 19,
+    "2017": 13,
+    "2016": 10,
+    "2015": 20,
+    "2014": 15,
+    "2013": 15,
+    "2012": 9,
+    "2011": 17,
+    "2010": 19,
+    "2009": 13,
+    "2008": 15,
+    "2007": 11,
+    "2006": 20
+  },
+  "tournament_breakdown": {
+    "Friendly": 134,
+    "FIFA World Cup qualification": 78,
+    "AFC Asian Cup": 29,
+    "EAFF Championship": 21,
+    "FIFA World Cup": 20,
+    "AFC Asian Cup qualification": 5,
+    "Lunar New Year Cup": 1
+  },
+  "total_matches_20y": 288,
+  "elo_rating": 1546,
+  "odds": {
+    "decimal_odds": 501.0,
+    "implied_probability": 0.2,
+    "rank": 33,
+    "platforms": {
+      "Bet365": 501.0,
+      "William Hill": 501.0,
+      "DraftKings": 350.0
+    }
+  },
+  "fifa_ranking": null
+}

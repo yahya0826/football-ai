@@ -1,0 +1,170 @@
+{
+  "team_en": "Norway",
+  "team_cn": "挪威",
+  "confederation": "UEFA",
+  "group": "I",
+  "stats": {
+    "total_matches": 201,
+    "wins": 92,
+    "draws": 44,
+    "losses": 65,
+    "goals_for": 317,
+    "goals_against": 225
+  },
+  "recent_matches": [
+    {
+      "date": "2026-06-26",
+      "home_team": "Norway",
+      "away_team": "France",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Foxborough",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-06-22",
+      "home_team": "Norway",
+      "away_team": "Senegal",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "East Rutherford",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-06-16",
+      "home_team": "Iraq",
+      "away_team": "Norway",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Foxborough",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-03-31",
+      "home_team": "Norway",
+      "away_team": "Switzerland",
+      "home_score": "0",
+      "away_score": "0",
+      "tournament": "Friendly",
+      "city": "Oslo",
+      "country": "Norway",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2026-03-27",
+      "home_team": "Netherlands",
+      "away_team": "Norway",
+      "home_score": "2",
+      "away_score": "1",
+      "tournament": "Friendly",
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-11-16",
+      "home_team": "Italy",
+      "away_team": "Norway",
+      "home_score": "1",
+      "away_score": "4",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Milan",
+      "country": "Italy",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-11-13",
+      "home_team": "Norway",
+      "away_team": "Estonia",
+      "home_score": "4",
+      "away_score": "1",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Oslo",
+      "country": "Norway",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-10-14",
+      "home_team": "Norway",
+      "away_team": "New Zealand",
+      "home_score": "1",
+      "away_score": "1",
+      "tournament": "Friendly",
+      "city": "Oslo",
+      "country": "Norway",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-10-11",
+      "home_team": "Norway",
+      "away_team": "Israel",
+      "home_score": "5",
+      "away_score": "0",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Oslo",
+      "country": "Norway",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-09-09",
+      "home_team": "Norway",
+      "away_team": "Moldova",
+      "home_score": "11",
+      "away_score": "1",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Oslo",
+      "country": "Norway",
+      "neutral": "FALSE"
+    }
+  ],
+  "matches_by_year": {
+    "2026": 5,
+    "2025": 10,
+    "2024": 10,
+    "2023": 10,
+    "2022": 10,
+    "2021": 12,
+    "2020": 7,
+    "2019": 10,
+    "2018": 10,
+    "2017": 9,
+    "2016": 10,
+    "2015": 9,
+    "2014": 12,
+    "2013": 13,
+    "2012": 10,
+    "2011": 9,
+    "2010": 9,
+    "2009": 10,
+    "2008": 8,
+    "2007": 11,
+    "2006": 10
+  },
+  "tournament_breakdown": {
+    "Friendly": 79,
+    "UEFA Euro qualification": 51,
+    "FIFA World Cup qualification": 46,
+    "UEFA Nations League": 24,
+    "FIFA World Cup": 3,
+    "King's Cup": 1
+  },
+  "total_matches_20y": 204,
+  "elo_rating": 1493,
+  "odds": {
+    "decimal_odds": 26.0,
+    "implied_probability": 3.3,
+    "rank": 9,
+    "platforms": {
+      "Bet365": 26.0,
+      "William Hill": 29.0,
+      "DraftKings": 30.0
+    }
+  },
+  "fifa_ranking": null
+}

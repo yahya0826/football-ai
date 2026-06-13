@@ -1,0 +1,171 @@
+{
+  "team_en": "Netherlands",
+  "team_cn": "荷兰",
+  "confederation": "UEFA",
+  "group": "F",
+  "stats": {
+    "total_matches": 248,
+    "wins": 150,
+    "draws": 53,
+    "losses": 45,
+    "goals_for": 525,
+    "goals_against": 225
+  },
+  "recent_matches": [
+    {
+      "date": "2026-06-25",
+      "home_team": "Tunisia",
+      "away_team": "Netherlands",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Kansas City",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-06-20",
+      "home_team": "Netherlands",
+      "away_team": "Sweden",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Houston",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-06-14",
+      "home_team": "Netherlands",
+      "away_team": "Japan",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Arlington",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-03-31",
+      "home_team": "Netherlands",
+      "away_team": "Ecuador",
+      "home_score": "1",
+      "away_score": "1",
+      "tournament": "Friendly",
+      "city": "Eindhoven",
+      "country": "Netherlands",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2026-03-27",
+      "home_team": "Netherlands",
+      "away_team": "Norway",
+      "home_score": "2",
+      "away_score": "1",
+      "tournament": "Friendly",
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-11-17",
+      "home_team": "Netherlands",
+      "away_team": "Lithuania",
+      "home_score": "4",
+      "away_score": "0",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-11-14",
+      "home_team": "Poland",
+      "away_team": "Netherlands",
+      "home_score": "1",
+      "away_score": "1",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Warsaw",
+      "country": "Poland",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-10-12",
+      "home_team": "Netherlands",
+      "away_team": "Finland",
+      "home_score": "4",
+      "away_score": "0",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Amsterdam",
+      "country": "Netherlands",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-10-09",
+      "home_team": "Malta",
+      "away_team": "Netherlands",
+      "home_score": "0",
+      "away_score": "4",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Ta' Qali",
+      "country": "Malta",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-09-07",
+      "home_team": "Lithuania",
+      "away_team": "Netherlands",
+      "home_score": "2",
+      "away_score": "3",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Kaunas",
+      "country": "Lithuania",
+      "neutral": "FALSE"
+    }
+  ],
+  "matches_by_year": {
+    "2026": 5,
+    "2025": 10,
+    "2024": 16,
+    "2023": 10,
+    "2022": 13,
+    "2021": 16,
+    "2020": 8,
+    "2019": 10,
+    "2018": 10,
+    "2017": 11,
+    "2016": 11,
+    "2015": 9,
+    "2014": 17,
+    "2013": 12,
+    "2012": 13,
+    "2011": 11,
+    "2010": 17,
+    "2009": 11,
+    "2008": 15,
+    "2007": 12,
+    "2006": 14
+  },
+  "tournament_breakdown": {
+    "Friendly": 85,
+    "UEFA Euro qualification": 48,
+    "FIFA World Cup qualification": 46,
+    "UEFA Nations League": 28,
+    "FIFA World Cup": 26,
+    "UEFA Euro": 17,
+    "Copa Confraternidad": 1
+  },
+  "total_matches_20y": 251,
+  "elo_rating": 1634,
+  "odds": {
+    "decimal_odds": 21.0,
+    "implied_probability": 4.5,
+    "rank": 8,
+    "platforms": {
+      "Bet365": 21.0,
+      "William Hill": 21.0,
+      "DraftKings": 22.0
+    }
+  },
+  "fifa_ranking": null
+}

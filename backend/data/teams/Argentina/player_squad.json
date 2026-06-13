@@ -1,0 +1,141 @@
+{
+  "announced": "2026-05-11",
+  "type": "provisional_55",
+  "coach": "Lionel Scaloni",
+  "goalkeepers": [
+    {
+      "name": "Emiliano Martínez",
+      "club": "Aston Villa",
+      "caps": 45
+    },
+    {
+      "name": "Gerónimo Rulli",
+      "club": "Marseille",
+      "caps": 6
+    },
+    {
+      "name": "Juan Musso",
+      "club": "Atlético Madrid",
+      "caps": 2
+    },
+    {
+      "name": "Walter Benítez",
+      "club": "Crystal Palace",
+      "caps": 0
+    }
+  ],
+  "defenders": [
+    {
+      "name": "Cristian Romero",
+      "club": "Tottenham",
+      "caps": 38
+    },
+    {
+      "name": "Lisandro Martínez",
+      "club": "Manchester United",
+      "caps": 24
+    },
+    {
+      "name": "Nicolás Otamendi",
+      "club": "Benfica",
+      "caps": 115
+    },
+    {
+      "name": "Nahuel Molina",
+      "club": "Atlético Madrid",
+      "caps": 40
+    },
+    {
+      "name": "Gonzalo Montiel",
+      "club": "River Plate",
+      "caps": 28
+    },
+    {
+      "name": "Nicolás Tagliafico",
+      "club": "Lyon",
+      "caps": 55
+    },
+    {
+      "name": "Marcos Acuña",
+      "club": "River Plate",
+      "caps": 55
+    }
+  ],
+  "midfielders": [
+    {
+      "name": "Enzo Fernández",
+      "club": "Chelsea",
+      "caps": 28
+    },
+    {
+      "name": "Alexis Mac Allister",
+      "club": "Liverpool",
+      "caps": 30
+    },
+    {
+      "name": "Rodrigo De Paul",
+      "club": "Inter Miami",
+      "caps": 65
+    },
+    {
+      "name": "Exequiel Palacios",
+      "club": "Bayer Leverkusen",
+      "caps": 28
+    },
+    {
+      "name": "Leandro Paredes",
+      "club": "Boca Juniors",
+      "caps": 60
+    },
+    {
+      "name": "Giovani Lo Celso",
+      "club": "Real Betis",
+      "caps": 52
+    }
+  ],
+  "forwards": [
+    {
+      "name": "Lionel Messi",
+      "club": "Inter Miami",
+      "caps": 180
+    },
+    {
+      "name": "Lautaro Martínez",
+      "club": "Inter Milan",
+      "caps": 58
+    },
+    {
+      "name": "Julián Álvarez",
+      "club": "Atlético Madrid",
+      "caps": 35
+    },
+    {
+      "name": "Alejandro Garnacho",
+      "club": "Chelsea",
+      "caps": 12
+    },
+    {
+      "name": "Nicolás González",
+      "club": "Atlético Madrid",
+      "caps": 38
+    },
+    {
+      "name": "Thiago Almada",
+      "club": "Atlético Madrid",
+      "caps": 8
+    },
+    {
+      "name": "Nico Paz",
+      "club": "Como",
+      "caps": 2
+    },
+    {
+      "name": "Claudio Echeverri",
+      "club": "Girona",
+      "caps": 0
+    }
+  ],
+  "notable_omissions": [
+    "Paulo Dybala"
+  ]
+}

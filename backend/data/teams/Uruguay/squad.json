@@ -1,0 +1,292 @@
+{
+  "team": "Uruguay",
+  "player_count": 26,
+  "players": [
+    {
+      "id": "sergio-rochet",
+      "name": "Sergio Rochet",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 1,
+      "club": "Internacional",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "jos--mar-a-gim-nez",
+      "name": "José María Giménez",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 2,
+      "club": "Atlético Madrid",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "sebasti-n-c-ceres",
+      "name": "Sebastián Cáceres",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 3,
+      "club": "América",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ronald-ara-jo",
+      "name": "Ronald Araújo",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 4,
+      "club": "Barcelona",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "manuel-ugarte",
+      "name": "Manuel Ugarte",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 5,
+      "club": "Manchester United",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "rodrigo-bentancur",
+      "name": "Rodrigo Bentancur",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 6,
+      "club": "Tottenham Hotspur",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "nicol-s-de-la-cruz",
+      "name": "Nicolás de la Cruz",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 7,
+      "club": "Flamengo",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "federico-valverde",
+      "name": "Federico Valverde",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 8,
+      "club": "Real Madrid",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "darwin-n--ez",
+      "name": "Darwin Núñez",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 9,
+      "club": "Al-Hilal",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "giorgian-de-arrascaeta",
+      "name": "Giorgian de Arrascaeta",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 10,
+      "club": "Flamengo",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "facundo-pellistri",
+      "name": "Facundo Pellistri",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 11,
+      "club": "Panathinaikos",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "santiago-mele",
+      "name": "Santiago Mele",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 12,
+      "club": "Monterrey",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "guillermo-varela",
+      "name": "Guillermo Varela",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 13,
+      "club": "Flamengo",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "agust-n-canobbio",
+      "name": "Agustín Canobbio",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 14,
+      "club": "Fluminense",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "emiliano-mart-nez",
+      "name": "Emiliano Martínez",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 15,
+      "club": "Palmeiras",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "math-as-olivera",
+      "name": "Mathías Olivera",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 16,
+      "club": "Napoli",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "mat-as-vi-a",
+      "name": "Matías Viña",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 17,
+      "club": "River Plate",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "brian-rodr-guez",
+      "name": "Brian Rodríguez",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 18,
+      "club": "América",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "rodrigo-aguirre",
+      "name": "Rodrigo Aguirre",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 19,
+      "club": "UANL",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "maximiliano-ara-jo",
+      "name": "Maximiliano Araújo",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 20,
+      "club": "Sporting CP",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "federico-vi-as",
+      "name": "Federico Viñas",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 21,
+      "club": "Oviedo",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "joaqu-n-piquerez",
+      "name": "Joaquín Piquerez",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 22,
+      "club": "Palmeiras",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "fernando-muslera",
+      "name": "Fernando Muslera",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 23,
+      "club": "Estudiantes",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "santiago-bueno",
+      "name": "Santiago Bueno",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 24,
+      "club": "Wolverhampton Wanderers",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "juan-manuel-sanabria",
+      "name": "Juan Manuel Sanabria",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 25,
+      "club": "Real Salt Lake",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "rodrigo-zalazar",
+      "name": "Rodrigo Zalazar",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 26,
+      "club": "Braga",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    }
+  ]
+}

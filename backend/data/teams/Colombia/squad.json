@@ -1,0 +1,292 @@
+{
+  "team": "Colombia",
+  "player_count": 26,
+  "players": [
+    {
+      "id": "david-ospina",
+      "name": "David Ospina",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 1,
+      "club": "Atlético Nacional",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "daniel-mu-oz",
+      "name": "Daniel Muñoz",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 2,
+      "club": "Crystal Palace",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "jhon-lucum",
+      "name": "Jhon Lucumí",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 3,
+      "club": "Bologna",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "santiago-arias",
+      "name": "Santiago Arias",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 4,
+      "club": "Independiente",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "kevin-casta-o",
+      "name": "Kevin Castaño",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 5,
+      "club": "River Plate",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "richard-r-os",
+      "name": "Richard Ríos",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 6,
+      "club": "Benfica",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "luis-d-az",
+      "name": "Luis Díaz",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 7,
+      "club": "Bayern Munich",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "jorge-carrascal",
+      "name": "Jorge Carrascal",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 8,
+      "club": "Flamengo",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "jhon-c-rdoba",
+      "name": "Jhon Córdoba",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 9,
+      "club": "Krasnodar",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "james-rodr-guez",
+      "name": "James Rodríguez",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 10,
+      "club": "Minnesota United FC",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "jhon-arias",
+      "name": "Jhon Arias",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 11,
+      "club": "Palmeiras",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "camilo-vargas",
+      "name": "Camilo Vargas",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 12,
+      "club": "Atlas",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "yerry-mina",
+      "name": "Yerry Mina",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 13,
+      "club": "Cagliari",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "gustavo-puerta",
+      "name": "Gustavo Puerta",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 14,
+      "club": "Racing Santander",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "juan-portilla",
+      "name": "Juan Portilla",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 15,
+      "club": "Athletico Paranaense",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "jefferson-lerma",
+      "name": "Jefferson Lerma",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 16,
+      "club": "Crystal Palace",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "johan-mojica",
+      "name": "Johan Mojica",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 17,
+      "club": "Mallorca",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "willer-ditta",
+      "name": "Willer Ditta",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 18,
+      "club": "Cruz Azul",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "cucho-hern-ndez",
+      "name": "Cucho Hernández",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 19,
+      "club": "Real Betis",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "juan-fernando-quintero",
+      "name": "Juan Fernando Quintero",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 20,
+      "club": "River Plate",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "jaminton-campaz",
+      "name": "Jaminton Campaz",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 21,
+      "club": "Rosario Central",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "deiver-machado",
+      "name": "Deiver Machado",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 22,
+      "club": "Nantes",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "davinson-s-nchez",
+      "name": "Davinson Sánchez",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 23,
+      "club": "Galatasaray",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "lvaro-montero",
+      "name": "Álvaro Montero",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 24,
+      "club": "Vélez Sarsfield",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "luis-su-rez",
+      "name": "Luis Suárez",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 25,
+      "club": "Sporting CP",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "andr-s-g-mez",
+      "name": "Andrés Gómez",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 26,
+      "club": "Vasco da Gama",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    }
+  ]
+}

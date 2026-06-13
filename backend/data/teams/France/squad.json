@@ -1,0 +1,292 @@
+{
+  "team": "France",
+  "player_count": 26,
+  "players": [
+    {
+      "id": "brice-samba",
+      "name": "Brice Samba",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 1,
+      "club": "Rennes",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "malo-gusto",
+      "name": "Malo Gusto",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 2,
+      "club": "Chelsea",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "lucas-digne",
+      "name": "Lucas Digne",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 3,
+      "club": "Aston Villa",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "dayot-upamecano",
+      "name": "Dayot Upamecano",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 4,
+      "club": "Bayern Munich",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "jules-kound",
+      "name": "Jules Koundé",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 5,
+      "club": "Barcelona",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "manu-kon",
+      "name": "Manu Koné",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 6,
+      "club": "Roma",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ousmane-demb-l",
+      "name": "Ousmane Dembélé",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 7,
+      "club": "Paris Saint-Germain",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "aur-lien-tchouam-ni",
+      "name": "Aurélien Tchouaméni",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 8,
+      "club": "Real Madrid",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "marcus-thuram",
+      "name": "Marcus Thuram",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 9,
+      "club": "Inter Milan",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "kylian-mbapp",
+      "name": "Kylian Mbappé",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 10,
+      "club": "Real Madrid",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "michael-olise",
+      "name": "Michael Olise",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 11,
+      "club": "Bayern Munich",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "bradley-barcola",
+      "name": "Bradley Barcola",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 12,
+      "club": "Paris Saint-Germain",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "n-golo-kant",
+      "name": "N'Golo Kanté",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 13,
+      "club": "Fenerbahçe",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "adrien-rabiot",
+      "name": "Adrien Rabiot",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 14,
+      "club": "Milan",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ibrahima-konat",
+      "name": "Ibrahima Konaté",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 15,
+      "club": "Liverpool",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "mike-maignan",
+      "name": "Mike Maignan",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 16,
+      "club": "Milan",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "william-saliba",
+      "name": "William Saliba",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 17,
+      "club": "Arsenal",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "warren-za-re-emery",
+      "name": "Warren Zaïre-Emery",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 18,
+      "club": "Paris Saint-Germain",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "th-o-hernandez",
+      "name": "Théo Hernandez",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 19,
+      "club": "Al-Hilal",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "d-sir--dou",
+      "name": "Désiré Doué",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 20,
+      "club": "Paris Saint-Germain",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "lucas-hernandez",
+      "name": "Lucas Hernandez",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 21,
+      "club": "Paris Saint-Germain",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "jean-philippe-mateta",
+      "name": "Jean-Philippe Mateta",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 22,
+      "club": "Crystal Palace",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "robin-risser",
+      "name": "Robin Risser",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 23,
+      "club": "Lens",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "rayan-cherki",
+      "name": "Rayan Cherki",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 24,
+      "club": "Manchester City",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "maghnes-akliouche",
+      "name": "Maghnes Akliouche",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 25,
+      "club": "Monaco",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "maxence-lacroix",
+      "name": "Maxence Lacroix",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 26,
+      "club": "Crystal Palace",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    }
+  ]
+}

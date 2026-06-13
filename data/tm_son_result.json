@@ -1,0 +1,17 @@
+{
+  "basic_info": {
+    "date_of_birth": "08/07/1992",
+    "place_of_birth": "Chuncheon, Gangwon\nCitizenship",
+    "height": "1,84 m",
+    "citizenship": "Korea, South\nHeight",
+    "position": "Left Winger\nCurrent international",
+    "caps_goals": "143 / 54"
+  },
+  "current_season": {
+    "appearances": "13",
+    "goals": "0",
+    "assists": "9",
+    "yellow_cards": "1"
+  },
+  "market_value": null
+}

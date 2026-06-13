@@ -1,0 +1,292 @@
+{
+  "team": "Ecuador",
+  "player_count": 26,
+  "players": [
+    {
+      "id": "hern-n-gal-ndez",
+      "name": "Hernán Galíndez",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 1,
+      "club": "Huracán",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "f-lix-torres",
+      "name": "Félix Torres",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 2,
+      "club": "Internacional",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "piero-hincapi",
+      "name": "Piero Hincapié",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 3,
+      "club": "Arsenal",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "joel-ord--ez",
+      "name": "Joel Ordóñez",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 4,
+      "club": "Club Brugge",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "jordy-alc-var",
+      "name": "Jordy Alcívar",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 5,
+      "club": "Independiente del Valle",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "willian-pacho",
+      "name": "Willian Pacho",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 6,
+      "club": "Paris Saint-Germain",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "pervis-estupi--n",
+      "name": "Pervis Estupiñán",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 7,
+      "club": "Milan",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "anthony-valencia",
+      "name": "Anthony Valencia",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 8,
+      "club": "Antwerp",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "john-yeboah",
+      "name": "John Yeboah",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 9,
+      "club": "Venezia",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "kendry-p-ez",
+      "name": "Kendry Páez",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 10,
+      "club": "River Plate",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "kevin-rodr-guez",
+      "name": "Kevin Rodríguez",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 11,
+      "club": "Union Saint-Gilloise",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "mois-s-ram-rez",
+      "name": "Moisés Ramírez",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 12,
+      "club": "Kifisia",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "enner-valencia",
+      "name": "Enner Valencia",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 13,
+      "club": "Pachuca",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "alan-minda",
+      "name": "Alan Minda",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 14,
+      "club": "Atlético Mineiro",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "pedro-vite",
+      "name": "Pedro Vite",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 15,
+      "club": "UNAM",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "jordy-caicedo",
+      "name": "Jordy Caicedo",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 16,
+      "club": "Huracán",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ngelo-preciado",
+      "name": "Ángelo Preciado",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 17,
+      "club": "Atlético Mineiro",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "denil-castillo",
+      "name": "Denil Castillo",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 18,
+      "club": "Midtjylland",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "gonzalo-plata",
+      "name": "Gonzalo Plata",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 19,
+      "club": "Flamengo",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "nilson-angulo",
+      "name": "Nilson Angulo",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 20,
+      "club": "Sunderland",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "alan-franco",
+      "name": "Alan Franco",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 21,
+      "club": "Atlético Mineiro",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "gonzalo-valle",
+      "name": "Gonzalo Valle",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 22,
+      "club": "LDU Quito",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "mois-s-caicedo",
+      "name": "Moisés Caicedo",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 23,
+      "club": "Chelsea",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "jeremy-ar-valo",
+      "name": "Jeremy Arévalo",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 24,
+      "club": "VfB Stuttgart",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "jackson-porozo",
+      "name": "Jackson Porozo",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 25,
+      "club": "Tijuana",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "yaimar-medina",
+      "name": "Yaimar Medina",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 26,
+      "club": "Genk",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    }
+  ]
+}

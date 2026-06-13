@@ -1,0 +1,292 @@
+{
+  "team": "Brazil",
+  "player_count": 26,
+  "players": [
+    {
+      "id": "alisson",
+      "name": "Alisson",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 1,
+      "club": "Liverpool",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "wesley",
+      "name": "Wesley",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 2,
+      "club": "Roma",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "gabriel-magalh-es",
+      "name": "Gabriel Magalhães",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 3,
+      "club": "Arsenal",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "marquinhos",
+      "name": "Marquinhos",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 4,
+      "club": "Paris Saint-Germain",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "casemiro",
+      "name": "Casemiro",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 5,
+      "club": "Manchester United",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "alex-sandro",
+      "name": "Alex Sandro",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 6,
+      "club": "Flamengo",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "vin-cius-j-nior",
+      "name": "Vinícius Júnior",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 7,
+      "club": "Real Madrid",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "bruno-guimar-es",
+      "name": "Bruno Guimarães",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 8,
+      "club": "Newcastle United",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "matheus-cunha",
+      "name": "Matheus Cunha",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 9,
+      "club": "Manchester United",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "neymar",
+      "name": "Neymar",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 10,
+      "club": "Santos",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "raphinha",
+      "name": "Raphinha",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 11,
+      "club": "Barcelona",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "weverton",
+      "name": "Weverton",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 12,
+      "club": "Grêmio",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "danilo-luiz",
+      "name": "Danilo Luiz",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 13,
+      "club": "Flamengo",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "bremer",
+      "name": "Bremer",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 14,
+      "club": "Juventus",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "l-o-pereira",
+      "name": "Léo Pereira",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 15,
+      "club": "Flamengo",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "douglas-santos",
+      "name": "Douglas Santos",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 16,
+      "club": "Zenit Saint Petersburg",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "fabinho",
+      "name": "Fabinho",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 17,
+      "club": "Al-Ittihad",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "danilo-santos",
+      "name": "Danilo Santos",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 18,
+      "club": "Botafogo",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "endrick",
+      "name": "Endrick",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 19,
+      "club": "Lyon",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "lucas-paquet",
+      "name": "Lucas Paquetá",
+      "position": "CM",
+      "position_display": "中前卫",
+      "number": 20,
+      "club": "Flamengo",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "luiz-henrique",
+      "name": "Luiz Henrique",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 21,
+      "club": "Zenit Saint Petersburg",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "gabriel-martinelli",
+      "name": "Gabriel Martinelli",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 22,
+      "club": "Arsenal",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "ederson",
+      "name": "Ederson",
+      "position": "GK",
+      "position_display": "守门员",
+      "number": 23,
+      "club": "Fenerbahçe",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "roger-iba-ez",
+      "name": "Roger Ibañez",
+      "position": "CB",
+      "position_display": "中后卫",
+      "number": 24,
+      "club": "Al-Ahli",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "igor-thiago",
+      "name": "Igor Thiago",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 25,
+      "club": "Brentford",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    },
+    {
+      "id": "rayan",
+      "name": "Rayan",
+      "position": "ST",
+      "position_display": "中锋",
+      "number": 26,
+      "club": "Bournemouth",
+      "age": 0,
+      "national_caps": 0,
+      "national_goals": 0
+    }
+  ]
+}

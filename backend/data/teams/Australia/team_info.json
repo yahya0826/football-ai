@@ -1,0 +1,172 @@
+{
+  "team_en": "Australia",
+  "team_cn": "澳大利亚",
+  "confederation": "AFC",
+  "group": "D",
+  "stats": {
+    "total_matches": 231,
+    "wins": 121,
+    "draws": 51,
+    "losses": 59,
+    "goals_for": 400,
+    "goals_against": 218
+  },
+  "recent_matches": [
+    {
+      "date": "2026-06-25",
+      "home_team": "Paraguay",
+      "away_team": "Australia",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Santa Clara",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-06-19",
+      "home_team": "United States",
+      "away_team": "Australia",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Seattle",
+      "country": "United States",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2026-06-13",
+      "home_team": "Australia",
+      "away_team": "Turkey",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Vancouver",
+      "country": "Canada",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-03-31",
+      "home_team": "Australia",
+      "away_team": "Curaçao",
+      "home_score": "5",
+      "away_score": "1",
+      "tournament": "FIFA Series",
+      "city": "Melbourne",
+      "country": "Australia",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2026-03-27",
+      "home_team": "Australia",
+      "away_team": "Cameroon",
+      "home_score": "1",
+      "away_score": "0",
+      "tournament": "FIFA Series",
+      "city": "Sydney",
+      "country": "Australia",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-11-18",
+      "home_team": "Colombia",
+      "away_team": "Australia",
+      "home_score": "3",
+      "away_score": "0",
+      "tournament": "Friendly",
+      "city": "New York",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2025-11-14",
+      "home_team": "Australia",
+      "away_team": "Venezuela",
+      "home_score": "0",
+      "away_score": "1",
+      "tournament": "Friendly",
+      "city": "Houston",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2025-10-14",
+      "home_team": "United States",
+      "away_team": "Australia",
+      "home_score": "2",
+      "away_score": "1",
+      "tournament": "Friendly",
+      "city": "Denver",
+      "country": "United States",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-10-10",
+      "home_team": "Canada",
+      "away_team": "Australia",
+      "home_score": "0",
+      "away_score": "1",
+      "tournament": "Friendly",
+      "city": "Montreal",
+      "country": "Canada",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-09-09",
+      "home_team": "New Zealand",
+      "away_team": "Australia",
+      "home_score": "1",
+      "away_score": "3",
+      "tournament": "Soccer Ashes",
+      "city": "Auckland",
+      "country": "New Zealand",
+      "neutral": "FALSE"
+    }
+  ],
+  "matches_by_year": {
+    "2026": 5,
+    "2025": 10,
+    "2024": 16,
+    "2023": 8,
+    "2022": 13,
+    "2021": 10,
+    "2019": 10,
+    "2018": 11,
+    "2017": 13,
+    "2016": 10,
+    "2015": 14,
+    "2014": 11,
+    "2013": 12,
+    "2012": 13,
+    "2011": 17,
+    "2010": 13,
+    "2009": 12,
+    "2008": 13,
+    "2007": 10,
+    "2006": 13
+  },
+  "tournament_breakdown": {
+    "FIFA World Cup qualification": 86,
+    "Friendly": 77,
+    "AFC Asian Cup": 26,
+    "FIFA World Cup": 20,
+    "AFC Asian Cup qualification": 10,
+    "EAFF Championship": 7,
+    "Soccer Ashes": 3,
+    "Confederations Cup": 3,
+    "FIFA Series": 2
+  },
+  "total_matches_20y": 234,
+  "elo_rating": 1556,
+  "odds": {
+    "decimal_odds": 501.0,
+    "implied_probability": 0.2,
+    "rank": 33,
+    "platforms": {
+      "Bet365": 501.0,
+      "William Hill": 501.0,
+      "DraftKings": 450.0
+    }
+  },
+  "fifa_ranking": null
+}

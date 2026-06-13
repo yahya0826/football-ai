@@ -1,0 +1,1219 @@
+[Algeria] (25 players)
+  Melvin Mastil                  | # 1 | GK   | Stade Nyonnais
+  Aïssa Mandi                    | # 2 | CB   | Lille
+  Achref Abada                   | # 3 | CB   | USM Alger
+  Mohamed Amine Tougai           | # 4 | CB   | Espérance de Tunis
+  Zineddine Belaïd               | # 5 | CB   | JS Kabylie
+  Ramiz Zerrouki                 | # 6 | CM   | Twente
+  Riyad Mahrez                   | # 7 | ST   | Al-Ahli
+  Houssem Aouar                  | # 8 | CM   | Al-Ittihad
+  Amine Gouiri                   | # 9 | ST   | Marseille
+  Farès Chaïbi                   | #10 | CM   | Eintracht Frankfurt
+  Anis Hadj Moussa               | #11 | ST   | Feyenoord
+  Nadhir Benbouali               | #12 | ST   | Győri ETO
+  Jaouen Hadjam                  | #13 | CB   | Young Boys
+  Hicham Boudaoui                | #14 | CM   | Nice
+  Oussama Benbot                 | #16 | GK   | USM Alger
+  Rafik Belghali                 | #17 | CB   | Hellas Verona
+  Mohamed Amoura                 | #18 | ST   | VfL Wolfsburg
+  Nabil Bentaleb                 | #19 | CM   | Lille
+  Adil Boulbina                  | #20 | ST   | Al-Duhail
+  Ramy Bensebaini                | #21 | CB   | Borussia Dortmund
+  Ibrahim Maza                   | #22 | CM   | Bayer Leverkusen
+  Luca Zidane                    | #23 | GK   | Granada
+  Yacine Titraoui                | #24 | CM   | Charleroi
+  Farès Ghedjemis                | #25 | ST   | Frosinone
+  Samir Chergui                  | #26 | CB   | Paris FC
+
+[Argentina] (23 players)
+  Juan Musso                     | # 1 | GK   | Atlético Madrid
+  Leonardo Balerdi               | # 2 | CB   | Marseille
+  Nicolás Tagliafico             | # 3 | CB   | Lyon
+  Gonzalo Montiel                | # 4 | CB   | River Plate
+  Leandro Paredes                | # 5 | CM   | Boca Juniors
+  Rodrigo De Paul                | # 7 | CM   | Inter Miami CF
+  Valentín Barco                 | # 8 | CM   | Strasbourg
+  Julián Alvarez                 | # 9 | ST   | Atlético Madrid
+  Lionel Messi                   | #10 | ST   | Inter Miami CF
+  Giovani Lo Celso               | #11 | CM   | Real Betis
+  Gerónimo Rulli                 | #12 | GK   | Marseille
+  Cristian Romero                | #13 | CB   | Tottenham Hotspur
+  Exequiel Palacios              | #14 | CM   | Bayer Leverkusen
+  Nicolás González               | #15 | CM   | Atlético Madrid
+  Thiago Almada                  | #16 | ST   | Atlético Madrid
+  Giuliano Simeone               | #17 | ST   | Atlético Madrid
+  Nico Paz                       | #18 | ST   | Como
+  Nicolás Otamendi               | #19 | CB   | Benfica
+  José Manuel López              | #21 | ST   | Palmeiras
+  Lautaro Martínez               | #22 | ST   | Inter Milan
+  Emiliano Martínez              | #23 | GK   | Aston Villa
+  Facundo Medina                 | #25 | CB   | Marseille
+  Nahuel Molina                  | #26 | CB   | Atlético Madrid
+
+[Australia] (26 players)
+  Mathew Ryan                    | # 1 | GK   | Levante
+  Miloš Degenek                  | # 2 | CB   | APOEL
+  Alessandro Circati             | # 3 | CB   | Parma
+  Jacob Italiano                 | # 4 | CB   | GAK
+  Jordan Bos                     | # 5 | CB   | Feyenoord
+  Jason Geria                    | # 6 | CB   | Albirex Niigata
+  Mathew Leckie                  | # 7 | ST   | Melbourne City
+  Connor Metcalfe                | # 8 | CM   | FC St. Pauli
+  Mohamed Touré                  | # 9 | ST   | Norwich City
+  Ajdin Hrustic                  | #10 | ST   | Heracles Almelo
+  Awer Mabil                     | #11 | ST   | Castellón
+  Paul Izzo                      | #12 | GK   | Randers
+  Aiden O'Neill                  | #13 | CM   | New York City FC
+  Cammy Devlin                   | #14 | CM   | Heart of Midlothian
+  Kai Trewin                     | #15 | CB   | New York City FC
+  Aziz Behich                    | #16 | CB   | Melbourne City
+  Nestory Irankunda              | #17 | ST   | Watford
+  Patrick Beach                  | #18 | GK   | Melbourne City
+  Harry Souttar                  | #19 | CB   | Leicester City
+  Cristian Volpato               | #20 | ST   | Sassuolo
+  Cameron Burgess                | #21 | CB   | Swansea City
+  Jackson Irvine                 | #22 | CM   | FC St. Pauli
+  Nishan Velupillay              | #23 | ST   | Melbourne Victory
+  Paul Okon-Engstler             | #24 | CM   | Sydney FC
+  Lucas Herrington               | #25 | CB   | Colorado Rapids
+  Tete Yengi                     | #26 | ST   | Machida Zelvia
+
+[Austria] (25 players)
+  Alexander Schlager             | # 1 | GK   | Red Bull Salzburg
+  David Affengruber              | # 2 | CB   | Elche
+  Kevin Danso                    | # 3 | CB   | Tottenham Hotspur
+  Xaver Schlager                 | # 4 | CM   | RB Leipzig
+  Stefan Posch                   | # 5 | CB   | Mainz 05
+  Nicolas Seiwald                | # 6 | CM   | RB Leipzig
+  Marko Arnautović               | # 7 | ST   | Red Star Belgrade
+  David Alaba                    | # 8 | CB   | Real Madrid
+  Marcel Sabitzer                | # 9 | CM   | Borussia Dortmund
+  Florian Grillitsch             | #10 | CM   | Braga
+  Michael Gregoritsch            | #11 | ST   | FC Augsburg
+  Florian Wiegele                | #12 | GK   | Viktoria Plzeň
+  Patrick Pentz                  | #13 | GK   | Brøndby
+  Saša Kalajdžić                 | #14 | ST   | LASK
+  Philipp Lienhart               | #15 | CB   | SC Freiburg
+  Phillipp Mwene                 | #16 | CB   | Mainz 05
+  Carney Chukwuemeka             | #17 | CM   | Borussia Dortmund
+  Romano Schmid                  | #18 | CM   | Werder Bremen
+  Konrad Laimer                  | #20 | CM   | Bayern Munich
+  Patrick Wimmer                 | #21 | ST   | VfL Wolfsburg
+  Alexander Prass                | #22 | CM   | TSG Hoffenheim
+  Marco Friedl                   | #23 | CB   | Werder Bremen
+  Paul Wanner                    | #24 | CM   | PSV Eindhoven
+  Michael Svoboda                | #25 | CB   | Venezia
+  Alessandro Schöpf              | #26 | CM   | Wolfsberger AC
+
+[Belgium] (19 players)
+  Thibaut Courtois               | # 1 | GK   | Real Madrid
+  Zeno Debast                    | # 2 | CB   | Sporting CP
+  Arthur Theate                  | # 3 | CB   | Eintracht Frankfurt
+  Brandon Mechele                | # 4 | CB   | Club Brugge
+  Axel Witsel                    | # 6 | CM   | Girona
+  Kevin De Bruyne                | # 7 | CM   | Napoli
+  Romelu Lukaku                  | # 9 | ST   | Napoli
+  Mike Penders                   | #13 | GK   | Strasbourg
+  Dodi Lukébakio                 | #14 | ST   | Benfica
+  Thomas Meunier                 | #15 | CB   | Lille
+  Koni De Winter                 | #16 | CB   | Milan
+  Charles De Ketelaere           | #17 | ST   | Atalanta
+  Joaquin Seys                   | #18 | CB   | Club Brugge
+  Diego Moreira                  | #19 | CM   | Strasbourg
+  Hans Vanaken                   | #20 | CM   | Club Brugge
+  Alexis Saelemaekers            | #22 | CM   | Milan
+  Nicolas Raskin                 | #23 | CM   | Rangers
+  Nathan Ngoy                    | #25 | CB   | Lille
+  Matias Fernandez-Pardo         | #26 | ST   | Lille
+
+[Bosnia and Herzegovina] (26 players)
+  Nikola Vasilj                  | # 1 | GK   | FC St. Pauli
+  Nihad Mujakić                  | # 2 | CB   | Gaziantep
+  Dennis Hadžikadunić            | # 3 | CB   | Sampdoria
+  Tarik Muharemović              | # 4 | CB   | Sassuolo
+  Sead Kolašinac                 | # 5 | CB   | Atalanta
+  Benjamin Tahirović             | # 6 | CM   | Brøndby
+  Amar Dedić                     | # 7 | CB   | Benfica
+  Armin Gigović                  | # 8 | CM   | Young Boys
+  Samed Baždar                   | # 9 | ST   | Jagiellonia Białystok
+  Ermedin Demirović              | #10 | ST   | VfB Stuttgart
+  Edin Džeko                     | #11 | ST   | Schalke 04
+  Mladen Jurkas                  | #12 | GK   | Borac Banja Luka
+  Ivan Bašić                     | #13 | CM   | Astana
+  Ivan Šunjić                    | #14 | CM   | Pafos
+  Amar Memić                     | #15 | CM   | Viktoria Plzeň
+  Amir Hadžiahmetović            | #16 | CM   | Hull City
+  Dženis Burnić                  | #17 | CM   | Karlsruher SC
+  Nikola Katić                   | #18 | CB   | Schalke 04
+  Kerim Alajbegović              | #19 | ST   | Red Bull Salzburg
+  Esmir Bajraktarević            | #20 | ST   | PSV Eindhoven
+  Stjepan Radeljić               | #21 | CB   | Rijeka
+  Martin Zlomislić               | #22 | GK   | Rijeka
+  Haris Tabaković                | #23 | ST   | Borussia Mönchengladbach
+  Nidal Čelik                    | #24 | CB   | Lens
+  Jovo Lukić                     | #25 | ST   | Universitatea Cluj
+  Ermin Mahmić                   | #26 | CM   | Slovan Liberec
+
+[Brazil] (24 players)
+  Alisson                        | # 1 | GK   | Liverpool
+  Wesley                         | # 2 | CB   | Roma
+  Marquinhos                     | # 4 | CB   | Paris Saint-Germain
+  Casemiro                       | # 5 | CM   | Manchester United
+  Alex Sandro                    | # 6 | CB   | Flamengo
+  Vinícius Júnior                | # 7 | ST   | Real Madrid
+  Bruno Guimarães                | # 8 | CM   | Newcastle United
+  Neymar                         | #10 | ST   | Santos
+  Raphinha                       | #11 | ST   | Barcelona
+  Weverton                       | #12 | GK   | Grêmio
+  Danilo Luiz                    | #13 | CB   | Flamengo
+  Bremer                         | #14 | CB   | Juventus
+  Léo Pereira                    | #15 | CB   | Flamengo
+  Douglas Santos                 | #16 | CB   | Zenit Saint Petersburg
+  Fabinho                        | #17 | CM   | Al-Ittihad
+  Danilo Santos                  | #18 | CM   | Botafogo
+  Endrick                        | #19 | ST   | Lyon
+  Lucas Paquetá                  | #20 | CM   | Flamengo
+  Luiz Henrique                  | #21 | ST   | Zenit Saint Petersburg
+  Gabriel Martinelli             | #22 | ST   | Arsenal
+  Ederson                        | #23 | GK   | Fenerbahçe
+  Roger Ibañez                   | #24 | CB   | Al-Ahli
+  Igor Thiago                    | #25 | ST   | Brentford
+  Rayan                          | #26 | ST   | Bournemouth
+
+[Canada] (25 players)
+  Dayne St. Clair                | # 1 | GK   | Inter Miami CF
+  Alistair Johnston              | # 2 | CB   | Celtic
+  Alfie Jones                    | # 3 | CB   | Middlesbrough
+  Luc de Fougerolles             | # 4 | CB   | Dender
+  Joel Waterman                  | # 5 | CB   | Chicago Fire FC
+  Mathieu Choinière              | # 6 | CM   | Los Angeles FC
+  Stephen Eustáquio              | # 7 | CM   | Los Angeles FC
+  Ismaël Koné                    | # 8 | CM   | Sassuolo
+  Cyle Larin                     | # 9 | ST   | Southampton
+  Jonathan David                 | #10 | ST   | Juventus
+  Liam Millar                    | #11 | CM   | Hull City
+  Tani Oluwaseyi                 | #12 | ST   | Villarreal
+  Derek Cornelius                | #13 | CB   | Rangers
+  Jacob Shaffelburg              | #14 | CM   | Los Angeles FC
+  Moïse Bombito                  | #15 | CB   | Nice
+  Maxime Crépeau                 | #16 | GK   | Orlando City SC
+  Tajon Buchanan                 | #17 | ST   | Villarreal
+  Owen Goodman                   | #18 | GK   | Barnsley
+  Alphonso Davies                | #19 | CB   | Bayern Munich
+  Ali Ahmed                      | #20 | ST   | Norwich City
+  Jonathan Osorio                | #21 | CM   | Toronto FC
+  Richie Laryea                  | #22 | CB   | Toronto FC
+  Niko Sigur                     | #23 | CB   | Hajduk Split
+  Promise David                  | #24 | ST   | Union Saint-Gilloise
+  Nathan Saliba                  | #25 | CM   | Anderlecht
+
+[Cape Verde] (26 players)
+  Vozinha                        | # 1 | GK   | Chaves
+  Stopira                        | # 2 | CB   | Torreense
+  Diney                          | # 3 | CB   | Al Bataeh
+  Roberto Lopes                  | # 4 | CB   | Shamrock Rovers
+  Logan Costa                    | # 5 | CB   | Villarreal
+  Kevin Pina                     | # 6 | CM   | Krasnodar
+  Jovane Cabral                  | # 7 | CM   | Estrela Amadora
+  João Paulo                     | # 8 | CM   | FCSB
+  Gilson Benchimol               | # 9 | ST   | Akron Tolyatti
+  Jamiro Monteiro                | #10 | CM   | PEC Zwolle
+  Garry Rodrigues                | #11 | CM   | Apollon Limassol
+  Márcio Rosa                    | #12 | GK   | Montana
+  Sidny Lopes Cabral             | #13 | CB   | Benfica
+  Deroy Duarte                   | #14 | CM   | Ludogorets Razgrad
+  Laros Duarte                   | #15 | CM   | Puskás Akadémia
+  Yannick Semedo                 | #16 | CM   | Farense
+  Willy Semedo                   | #17 | CM   | Omonia
+  Telmo Arcanjo                  | #18 | CM   | Vitória de Guimarães
+  Dailon Livramento              | #19 | ST   | Casa Pia
+  Ryan Mendes                    | #20 | ST   | Iğdır
+  Nuno da Costa                  | #21 | CM   | İstanbul Başakşehir
+  Steven Moreira                 | #22 | CB   | Columbus Crew
+  CJ dos Santos                  | #23 | GK   | San Diego FC
+  Wagner Pina                    | #24 | CB   | Trabzonspor
+  Kelvin Pires                   | #25 | CB   | SJK
+  Hélio Varela                   | #26 | CM   | Maccabi Tel Aviv
+
+[Colombia] (26 players)
+  David Ospina                   | # 1 | GK   | Atlético Nacional
+  Daniel Muñoz                   | # 2 | CB   | Crystal Palace
+  Jhon Lucumí                    | # 3 | CB   | Bologna
+  Santiago Arias                 | # 4 | CB   | Independiente
+  Kevin Castaño                  | # 5 | CM   | River Plate
+  Richard Ríos                   | # 6 | CM   | Benfica
+  Luis Díaz                      | # 7 | ST   | Bayern Munich
+  Jorge Carrascal                | # 8 | CM   | Flamengo
+  Jhon Córdoba                   | # 9 | ST   | Krasnodar
+  James Rodríguez                | #10 | CM   | Minnesota United FC
+  Jhon Arias                     | #11 | CM   | Palmeiras
+  Camilo Vargas                  | #12 | GK   | Atlas
+  Yerry Mina                     | #13 | CB   | Cagliari
+  Gustavo Puerta                 | #14 | CB   | Racing Santander
+  Juan Portilla                  | #15 | CM   | Athletico Paranaense
+  Jefferson Lerma                | #16 | CM   | Crystal Palace
+  Johan Mojica                   | #17 | CB   | Mallorca
+  Willer Ditta                   | #18 | CB   | Cruz Azul
+  Cucho Hernández                | #19 | ST   | Real Betis
+  Juan Fernando Quintero         | #20 | CM   | River Plate
+  Jaminton Campaz                | #21 | ST   | Rosario Central
+  Deiver Machado                 | #22 | CB   | Nantes
+  Davinson Sánchez               | #23 | CB   | Galatasaray
+  Álvaro Montero                 | #24 | GK   | Vélez Sarsfield
+  Luis Suárez                    | #25 | ST   | Sporting CP
+  Andrés Gómez                   | #26 | ST   | Vasco da Gama
+
+[Croatia] (24 players)
+  Dominik Livaković              | # 1 | GK   | Dinamo Zagreb
+  Josip Stanišić                 | # 2 | CB   | Bayern Munich
+  Marin Pongračić                | # 3 | CB   | Fiorentina
+  Duje Ćaleta-Car                | # 5 | CB   | Real Sociedad
+  Josip Šutalo                   | # 6 | CB   | Ajax
+  Nikola Moro                    | # 7 | CM   | Bologna
+  Andrej Kramarić                | # 9 | ST   | TSG Hoffenheim
+  Luka Modrić                    | #10 | CM   | Milan
+  Ante Budimir                   | #11 | ST   | Osasuna
+  Ivor Pandur                    | #12 | GK   | Hull City
+  Nikola Vlašić                  | #13 | CM   | Torino
+  Ivan Perišić                   | #14 | ST   | PSV Eindhoven
+  Mario Pašalić                  | #15 | CM   | Atalanta
+  Martin Baturina                | #16 | CM   | Como
+  Petar Sučić                    | #17 | CM   | Inter Milan
+  Kristijan Jakić                | #18 | CB   | FC Augsburg
+  Toni Fruk                      | #19 | CM   | Rijeka
+  Igor Matanović                 | #20 | ST   | SC Freiburg
+  Luka Sučić                     | #21 | CM   | Real Sociedad
+  Luka Vušković                  | #22 | CB   | Hamburger SV
+  Dominik Kotarski               | #23 | GK   | Copenhagen
+  Marco Pašalić                  | #24 | ST   | Orlando City SC
+  Martin Erlić                   | #25 | CB   | Midtjylland
+  Petar Musa                     | #26 | ST   | FC Dallas
+
+[Curaçao] (26 players)
+  Eloy Room                      | # 1 | GK   | Miami FC
+  Shurandy Sambo                 | # 2 | CB   | Sparta Rotterdam
+  Juriën Gaari                   | # 3 | CB   | Abha
+  Roshon van Eijma               | # 4 | CB   | RKC Waalwijk
+  Sherel Floranus                | # 5 | CB   | PEC Zwolle
+  Godfried Roemeratoe            | # 6 | CM   | RKC Waalwijk
+  Juninho Bacuna                 | # 7 | CM   | Volendam
+  Livano Comenencia              | # 8 | CM   | Zürich
+  Jürgen Locadia                 | # 9 | ST   | Miami FC
+  Leandro Bacuna                 | #10 | CM   | Iğdır
+  Jeremy Antonisse               | #11 | ST   | Kifisia
+  Sontje Hansen                  | #12 | ST   | Middlesbrough
+  Tyrese Noslin                  | #13 | ST   | Telstar
+  Kenji Gorré                    | #14 | ST   | Maccabi Haifa
+  Ar'jany Martha                 | #15 | CM   | Rotherham United
+  Jearl Margaritha               | #16 | ST   | Beveren
+  Brandley Kuwas                 | #17 | ST   | Volendam
+  Armando Obispo                 | #18 | CB   | PSV Eindhoven
+  Gervane Kastaneer              | #19 | ST   | Terengganu
+  Joshua Brenet                  | #20 | CB   | Kayserispor
+  Tahith Chong                   | #21 | CM   | Sheffield United
+  Kevin Felida                   | #22 | CM   | Den Bosch
+  Riechedly Bazoer               | #23 | CB   | Konyaspor
+  Deveron Fonville               | #24 | CB   | NEC
+  Tyrick Bodak                   | #25 | GK   | Telstar
+  Trevor Doornbusch              | #26 | GK   | VVV-Venlo
+
+[Czech Republic] (25 players)
+  Matěj Kovář                    | # 1 | GK   | PSV Eindhoven
+  David Zima                     | # 2 | CB   | Slavia Prague
+  Tomáš Holeš                    | # 3 | CB   | Slavia Prague
+  Robin Hranáč                   | # 4 | CB   | TSG Hoffenheim
+  Vladimír Coufal                | # 5 | CB   | TSG Hoffenheim
+  Štěpán Chaloupek               | # 6 | CB   | Slavia Prague
+  Ladislav Krejčí                | # 7 | CB   | Wolverhampton Wanderers
+  Vladimír Darida                | # 8 | CM   | Hradec Králové
+  Adam Hložek                    | # 9 | ST   | TSG Hoffenheim
+  Patrik Schick                  | #10 | ST   | Bayer Leverkusen
+  Jan Kuchta                     | #11 | ST   | Sparta Prague
+  Lukáš Červ                     | #12 | CM   | Viktoria Plzeň
+  Mojmír Chytil                  | #13 | ST   | Slavia Prague
+  David Jurásek                  | #14 | CB   | Slavia Prague
+  Pavel Šulc                     | #15 | ST   | Lyon
+  Jindřich Staněk                | #16 | GK   | Slavia Prague
+  Lukáš Provod                   | #17 | CM   | Slavia Prague
+  Michal Sadílek                 | #18 | CM   | Slavia Prague
+  Tomáš Chorý                    | #19 | ST   | Slavia Prague
+  Jaroslav Zelený                | #20 | CB   | Sparta Prague
+  David Douděra                  | #21 | CB   | Slavia Prague
+  Lukáš Horníček                 | #23 | GK   | Braga
+  Alexandr Sojka                 | #24 | CM   | Viktoria Plzeň
+  Hugo Sochůrek                  | #25 | CM   | Sparta Prague
+  Denis Višinský                 | #26 | ST   | Viktoria Plzeň
+
+[DR Congo] (22 players)
+  Lionel Mpasi                   | # 1 | GK   | Le Havre
+  Steve Kapuadi                  | # 3 | CB   | Widzew Łódź
+  Dylan Batubinsika              | # 5 | CB   | AEL
+  Ngal'ayel Mukau                | # 6 | CM   | Lille
+  Nathanaël Mbuku                | # 7 | CM   | Montpellier
+  Samuel Moutoussamy             | # 8 | CM   | Atromitos
+  Brian Cipenga                  | # 9 | ST   | Castellón
+  Théo Bongonda                  | #10 | CM   | Spartak Moscow
+  Gaël Kakuta                    | #11 | ST   | AEL
+  Joris Kayembe                  | #12 | CB   | Genk
+  Meschak Elia                   | #13 | ST   | Alanyaspor
+  Aaron Tshibola                 | #15 | CM   | Kilmarnock
+  Timothy Fayulu                 | #16 | GK   | Noah
+  Cédric Bakambu                 | #17 | ST   | Real Betis
+  Charles Pickel                 | #18 | CM   | Espanyol
+  Fiston Mayele                  | #19 | ST   | Pyramids
+  Matthieu Epolo                 | #21 | GK   | Standard Liège
+  Chancel Mbemba                 | #22 | CB   | Lille
+  Simon Banza                    | #23 | ST   | Al Jazira
+  Gédéon Kalulu                  | #24 | CB   | Aris Limassol
+  Edo Kayembe                    | #25 | CM   | Watford
+  Arthur Masuaku                 | #26 | CB   | Lens
+
+[Ecuador] (24 players)
+  Hernán Galíndez                | # 1 | GK   | Huracán
+  Félix Torres                   | # 2 | CB   | Internacional
+  Joel Ordóñez                   | # 4 | CB   | Club Brugge
+  Jordy Alcívar                  | # 5 | CM   | Independiente del Valle
+  Willian Pacho                  | # 6 | CB   | Paris Saint-Germain
+  Pervis Estupiñán               | # 7 | CB   | Milan
+  Anthony Valencia               | # 8 | CM   | Antwerp
+  John Yeboah                    | # 9 | ST   | Venezia
+  Kendry Páez                    | #10 | CM   | River Plate
+  Kevin Rodríguez                | #11 | ST   | Union Saint-Gilloise
+  Moisés Ramírez                 | #12 | GK   | Kifisia
+  Enner Valencia                 | #13 | ST   | Pachuca
+  Alan Minda                     | #14 | CM   | Atlético Mineiro
+  Pedro Vite                     | #15 | CM   | UNAM
+  Jordy Caicedo                  | #16 | ST   | Huracán
+  Ángelo Preciado                | #17 | CB   | Atlético Mineiro
+  Denil Castillo                 | #18 | CM   | Midtjylland
+  Gonzalo Plata                  | #19 | ST   | Flamengo
+  Alan Franco                    | #21 | CM   | Atlético Mineiro
+  Gonzalo Valle                  | #22 | GK   | LDU Quito
+  Moisés Caicedo                 | #23 | CM   | Chelsea
+  Jeremy Arévalo                 | #24 | ST   | VfB Stuttgart
+  Jackson Porozo                 | #25 | CB   | Tijuana
+  Yaimar Medina                  | #26 | CB   | Genk
+
+[Egypt] (24 players)
+  Mohamed El Shenawy             | # 1 | GK   | Al Ahly
+  Yasser Ibrahim                 | # 2 | CB   | Al Ahly
+  Mohamed Hany                   | # 3 | CB   | Al Ahly
+  Hossam Abdelmaguid             | # 4 | CB   | Zamalek
+  Ramy Rabia                     | # 5 | CB   | Al Ain
+  Mohamed Abdelmonem             | # 6 | CB   | Nice
+  Trézéguet                      | # 7 | ST   | Al Ahly
+  Emam Ashour                    | # 8 | CM   | Al Ahly
+  Hamza Abdelkarim               | # 9 | ST   | Barcelona
+  Mostafa Ziko                   | #11 | CM   | Pyramids
+  Haissem Hassan                 | #12 | ST   | Oviedo
+  Ahmed Fatouh                   | #13 | CB   | Zamalek
+  Hamdy Fathy                    | #14 | CM   | Al-Wakrah
+  Karim Hafez                    | #15 | CB   | Pyramids
+  El Mahdy Soliman               | #16 | GK   | Zamalek
+  Mohanad Lasheen                | #17 | CM   | Pyramids
+  Nabil Emad                     | #18 | CM   | Al-Najma
+  Marwan Attia                   | #19 | CM   | Al Ahly
+  Ibrahim Adel                   | #20 | ST   | Nordsjælland
+  Mahmoud Saber                  | #21 | CM   | ZED
+  Mostafa Shobeir                | #23 | GK   | Al Ahly
+  Tarek Alaa                     | #24 | CB   | ZED
+  Zizo                           | #25 | ST   | Al Ahly
+  Mohamed Alaa                   | #26 | GK   | El Gouna
+
+[England] (7 players)
+  Ezri Konsa                     | # 2 | CB   | Aston Villa
+  Elliot Anderson                | # 8 | CM   | Nottingham Forest
+  Harry Kane                     | # 9 | ST   | Bayern Munich
+  Jude Bellingham                | #10 | CM   | Real Madrid
+  Ivan Toney                     | #22 | ST   | Al-Ahli
+  Djed Spence                    | #25 | CB   | Tottenham Hotspur
+  Jarell Quansah                 | #26 | CB   | Bayer Leverkusen
+
+[France] (19 players)
+  Brice Samba                    | # 1 | GK   | Rennes
+  Dayot Upamecano                | # 4 | CB   | Bayern Munich
+  Jules Koundé                   | # 5 | CB   | Barcelona
+  Manu Koné                      | # 6 | CM   | Roma
+  Ousmane Dembélé                | # 7 | ST   | Paris Saint-Germain
+  Aurélien Tchouaméni            | # 8 | CM   | Real Madrid
+  Marcus Thuram                  | # 9 | ST   | Inter Milan
+  Kylian Mbappé                  | #10 | ST   | Real Madrid
+  Michael Olise                  | #11 | ST   | Bayern Munich
+  Bradley Barcola                | #12 | ST   | Paris Saint-Germain
+  N'Golo Kanté                   | #13 | CM   | Fenerbahçe
+  Adrien Rabiot                  | #14 | CM   | Milan
+  Mike Maignan                   | #16 | GK   | Milan
+  Warren Zaïre-Emery             | #18 | CM   | Paris Saint-Germain
+  Théo Hernandez                 | #19 | CB   | Al-Hilal
+  Désiré Doué                    | #20 | ST   | Paris Saint-Germain
+  Lucas Hernandez                | #21 | CB   | Paris Saint-Germain
+  Robin Risser                   | #23 | GK   | Lens
+  Maghnes Akliouche              | #25 | CM   | Monaco
+
+[Germany] (21 players)
+  Manuel Neuer                   | # 1 | GK   | Bayern Munich
+  Antonio Rüdiger                | # 2 | CB   | Real Madrid
+  Waldemar Anton                 | # 3 | CB   | Borussia Dortmund
+  Jonathan Tah                   | # 4 | CB   | Bayern Munich
+  Aleksandar Pavlović            | # 5 | CM   | Bayern Munich
+  Joshua Kimmich                 | # 6 | CB   | Bayern Munich
+  Leon Goretzka                  | # 8 | CM   | Bayern Munich
+  Jamie Leweling                 | # 9 | CM   | VfB Stuttgart
+  Jamal Musiala                  | #10 | CM   | Bayern Munich
+  Oliver Baumann                 | #12 | GK   | TSG Hoffenheim
+  Maximilian Beier               | #14 | ST   | Borussia Dortmund
+  Nico Schlotterbeck             | #15 | CB   | Borussia Dortmund
+  Angelo Stiller                 | #16 | CM   | VfB Stuttgart
+  Nathaniel Brown                | #18 | CB   | Eintracht Frankfurt
+  Leroy Sané                     | #19 | CM   | Galatasaray
+  Nadiem Amiri                   | #20 | CM   | Mainz 05
+  Alexander Nübel                | #21 | GK   | VfB Stuttgart
+  David Raum                     | #22 | CB   | RB Leipzig
+  Felix Nmecha                   | #23 | CM   | Borussia Dortmund
+  Lennart Karl                   | #25 | CM   | Bayern Munich
+  Deniz Undav                    | #26 | ST   | VfB Stuttgart
+
+[Ghana] (25 players)
+  Lawrence Ati-Zigi              | # 1 | GK   | St. Gallen
+  Alidu Seidu                    | # 2 | CB   | Rennes
+  Caleb Yirenkyi                 | # 3 | CM   | Nordsjælland
+  Jonas Adjetey                  | # 4 | CB   | VfL Wolfsburg
+  Thomas Partey                  | # 5 | CM   | Villarreal
+  Abdul Mumin                    | # 6 | CB   | Rayo Vallecano
+  Abdul Fatawu                   | # 7 | ST   | Leicester City
+  Kwasi Sibo                     | # 8 | CM   | Oviedo
+  Jordan Ayew                    | # 9 | ST   | Leicester City
+  Brandon Thomas-Asante          | #10 | ST   | Coventry City
+  Joseph Anang                   | #12 | GK   | St Patrick's Athletic
+  Christopher Bonsu Baah         | #13 | ST   | Al-Qadsiah
+  Gideon Mensah                  | #14 | CB   | Auxerre
+  Elisha Owusu                   | #15 | CM   | Auxerre
+  Benjamin Asare                 | #16 | GK   | Hearts of Oak
+  Abdul Rahman Baba              | #17 | CB   | PAOK
+  Jerome Opoku                   | #18 | CB   | İstanbul Başakşehir
+  Iñaki Williams                 | #19 | ST   | Athletic Bilbao
+  Augustine Boakye               | #20 | CM   | Saint-Étienne
+  Kojo Peprah Oppong             | #21 | CB   | Nice
+  Kamaldeen Sulemana             | #22 | ST   | Atalanta
+  Derrick Luckassen              | #23 | CB   | Pafos
+  Ernest Nuamah                  | #24 | ST   | Lyon
+  Prince Kwabena Adu             | #25 | ST   | Viktoria Plzeň
+  Marvin Senaya                  | #26 | CB   | Auxerre
+
+[Haiti] (25 players)
+  Johny Placide                  | # 1 | GK   | Bastia
+  Carlens Arcus                  | # 2 | CB   | Angers
+  Keeto Thermoncy                | # 3 | CB   | Young Boys
+  Ricardo Adé                    | # 4 | CB   | LDU Quito
+  Hannes Delcroix                | # 5 | CB   | Lugano
+  Carl Sainté                    | # 6 | CM   | El Paso Locomotive FC
+  Derrick Etienne Jr.            | # 7 | ST   | Toronto FC
+  Martin Expérience              | # 8 | CB   | Nancy
+  Duckens Nazon                  | # 9 | ST   | Esteghlal
+  Jean-Ricner Bellegarde         | #10 | CM   | Wolverhampton Wanderers
+  Louicius Deedson               | #11 | ST   | FC Dallas
+  Alexandre Pierre               | #12 | GK   | Sochaux
+  Duke Lacroix                   | #13 | CB   | Colorado Springs Switchbacks FC
+  Leverton Pierre                | #14 | CM   | Vizela
+  Ruben Providence               | #15 | ST   | Almere City
+  Lenny Joseph                   | #16 | ST   | Ferencváros
+  Danley Jean Jacques            | #17 | CM   | Philadelphia Union
+  Yassin Fortuné                 | #19 | ST   | Vizela
+  Frantzdy Pierrot               | #20 | ST   | Çaykur Rizespor
+  Josué Casimir                  | #21 | ST   | Auxerre
+  Jean-Kévin Duverne             | #22 | CB   | Gent
+  Josué Duverger                 | #23 | GK   | Cosmos Koblenz
+  Wilguens Paugain               | #24 | CB   | Zulte Waregem
+  Dominique Simon                | #25 | CM   | Tatran Prešov
+  Woodensky Pierre               | #26 | CM   | Violette
+
+[Iran] (26 players)
+  Alireza Beiranvand             | # 1 | GK   | Tractor
+  Saleh Hardani                  | # 2 | CB   | Esteghlal
+  Ehsan Hajsafi                  | # 3 | CB   | Sepahan
+  Shojae Khalilzadeh             | # 4 | CB   | Tractor
+  Milad Mohammadi                | # 5 | CB   | Persepolis
+  Saeid Ezatolahi                | # 6 | CM   | Shabab Al Ahli
+  Alireza Jahanbakhsh            | # 7 | CM   | Dender
+  Mohammad Mohebi                | # 8 | CM   | Rostov
+  Mehdi Taremi                   | # 9 | ST   | Olympiacos
+  Mehdi Ghayedi                  | #10 | ST   | Al Nasr
+  Ali Alipour                    | #11 | ST   | Persepolis
+  Payam Niazmand                 | #12 | GK   | Persepolis
+  Hossein Kanaanizadegan         | #13 | CB   | Persepolis
+  Saman Ghoddos                  | #14 | CM   | Kalba
+  Rouzbeh Cheshmi                | #15 | CM   | Esteghlal
+  Mehdi Torabi                   | #16 | CM   | Tractor
+  Aria Yousefi                   | #17 | CB   | Sepahan
+  Amirhossein Hosseinzadeh       | #18 | ST   | Tractor
+  Ali Nemati                     | #19 | CB   | Foolad
+  Shahriyar Moghanlou            | #20 | ST   | Kalba
+  Mohammad Ghorbani              | #21 | CM   | Al Wahda
+  Hossein Hosseini               | #22 | GK   | Sepahan
+  Ramin Rezaeian                 | #23 | CB   | Foolad
+  Dennis Eckert                  | #24 | ST   | Standard Liège
+  Danial Eiri                    | #25 | CB   | Malavan
+  Amirmohammad Razzaghinia       | #26 | CM   | Esteghlal
+
+[Iraq] (26 players)
+  Fahad Talib                    | # 1 | GK   | Al-Talaba
+  Rebin Sulaka                   | # 2 | CB   | Port
+  Hussein Ali                    | # 3 | CB   | Pogoń Szczecin
+  Zaid Tahseen                   | # 4 | CB   | Pakhtakor
+  Akam Hashim                    | # 5 | CB   | Al-Zawraa
+  Manaf Younis                   | # 6 | CB   | Al-Shorta
+  Youssef Amyn                   | # 7 | CM   | AEK Larnaca
+  Ibrahim Bayesh                 | # 8 | CM   | Al Dhafra
+  Ali Al-Hamadi                  | # 9 | ST   | Luton Town
+  Mohanad Ali                    | #10 | ST   | Dibba
+  Ahmed Qasem                    | #11 | ST   | Nashville SC
+  Jalal Hassan                   | #12 | GK   | Al-Zawraa
+  Ali Yousif                     | #13 | ST   | Al-Talaba
+  Zidane Iqbal                   | #14 | CM   | Utrecht
+  Ahmed Yahya                    | #15 | CB   | Al-Shorta
+  Amir Al-Ammari                 | #16 | CM   | Cracovia
+  Ali Jasim                      | #17 | ST   | Al-Najma
+  Aymen Hussein                  | #18 | ST   | Al-Karma
+  Kevin Yakob                    | #19 | CM   | AGF
+  Aimar Sher                     | #20 | CM   | Sarpsborg 08
+  Marko Farji                    | #21 | ST   | Venezia
+  Ahmed Basil                    | #22 | GK   | Al-Shorta
+  Merchas Doski                  | #23 | CB   | Viktoria Plzeň
+  Zaid Ismail                    | #24 | CM   | Al-Talaba
+  Mustafa Saadoon                | #25 | CB   | Al-Shorta
+  Frans Putros                   | #26 | CB   | Persib
+
+[Ivory Coast] (24 players)
+  Yahia Fofana                   | # 1 | GK   | Çaykur Rizespor
+  Ousmane Diomande               | # 2 | CB   | Sporting CP
+  Ghislain Konan                 | # 3 | CB   | Gil Vicente
+  Jean Michaël Seri              | # 4 | CM   | Maribor
+  Wilfried Singo                 | # 5 | CB   | Galatasaray
+  Seko Fofana                    | # 6 | CM   | Porto
+  Odilon Kossounou               | # 7 | CB   | Atalanta
+  Franck Kessié                  | # 8 | CM   | Al-Ahli
+  Ange-Yoan Bonny                | # 9 | ST   | Inter Milan
+  Simon Adingra                  | #10 | ST   | Monaco
+  Yan Diomande                   | #11 | ST   | RB Leipzig
+  Elye Wahi                      | #12 | ST   | Nice
+  Christopher Opéri              | #13 | CB   | İstanbul Başakşehir
+  Oumar Diakité                  | #14 | ST   | Cercle Brugge
+  Mohamed Koné                   | #16 | GK   | Charleroi
+  Guéla Doué                     | #17 | CB   | Strasbourg
+  Ibrahim Sangaré                | #18 | CM   | Nottingham Forest
+  Nicolas Pépé                   | #19 | ST   | Villarreal
+  Emmanuel Agbadou               | #20 | CB   | Beşiktaş
+  Evan Ndicka                    | #21 | CB   | Roma
+  Alban Lafont                   | #23 | GK   | Panathinaikos
+  Bazoumana Touré                | #24 | ST   | TSG Hoffenheim
+  Parfait Guiagon                | #25 | CM   | Charleroi
+  Christ Inao Oulaï              | #26 | CM   | Trabzonspor
+
+[Japan] (25 players)
+  Zion Suzuki                    | # 1 | GK   | Parma
+  Yukinari Sugawara              | # 2 | CB   | Werder Bremen
+  Shōgo Taniguchi                | # 3 | CB   | Sint-Truiden
+  Kō Itakura                     | # 4 | CB   | Ajax
+  Yūto Nagatomo                  | # 5 | CB   | FC Tokyo
+  Wataru Endo                    | # 6 | CM   | Liverpool
+  Ao Tanaka                      | # 7 | CM   | Leeds United
+  Takefusa Kubo                  | # 8 | CM   | Real Sociedad
+  Keisuke Gotō                   | # 9 | ST   | Sint-Truiden
+  Ritsu Dōan                     | #10 | CM   | Eintracht Frankfurt
+  Daizen Maeda                   | #11 | CM   | Celtic
+  Keisuke Ōsako                  | #12 | GK   | Sanfrecce Hiroshima
+  Keito Nakamura                 | #13 | CM   | Reims
+  Junya Itō                      | #14 | CM   | Genk
+  Tsuyoshi Watanabe              | #16 | CB   | Feyenoord
+  Yuito Suzuki                   | #17 | CM   | SC Freiburg
+  Ayase Ueda                     | #18 | ST   | Feyenoord
+  Kōki Ogawa                     | #19 | ST   | NEC
+  Ayumu Seko                     | #20 | CB   | Le Havre
+  Hiroki Itō                     | #21 | CB   | Bayern Munich
+  Takehiro Tomiyasu              | #22 | CB   | Ajax
+  Tomoki Hayakawa                | #23 | GK   | Kashima Antlers
+  Kaishū Sano                    | #24 | CM   | Mainz 05
+  Junnosuke Suzuki               | #25 | CB   | Copenhagen
+  Kento Shiogai                  | #26 | ST   | VfL Wolfsburg
+
+[Jordan] (26 players)
+  Yazeed Abulaila                | # 1 | GK   | Al-Hussein
+  Mohammad Abu Hashish           | # 2 | CB   | Al-Karma
+  Abdallah Nasib                 | # 3 | CB   | Al-Zawraa
+  Husam Abu Dahab                | # 4 | CB   | Al-Faisaly
+  Yazan Al-Arab                  | # 5 | CB   | FC Seoul
+  Amer Jamous                    | # 6 | CM   | Al-Zawraa
+  Mohammad Abu Zrayq             | # 7 | ST   | Raja Casablanca
+  Noor Al-Rawabdeh               | # 8 | CM   | Selangor
+  Ali Olwan                      | # 9 | ST   | Al-Sailiya
+  Musa Al-Taamari                | #10 | ST   | Rennes
+  Odeh Al-Fakhouri               | #11 | ST   | Pyramids
+  Nour Bani Attiah               | #12 | GK   | Al-Faisaly
+  Mahmoud Al-Mardi               | #13 | ST   | Al-Hussein
+  Rajaei Ayed                    | #14 | CM   | Al-Hussein
+  Ibrahim Sadeh                  | #15 | CM   | Al-Karma
+  Mo Abualnadi                   | #16 | CB   | Selangor
+  Salim Obaid                    | #17 | CB   | Al-Hussein
+  Ibrahim Sabra                  | #18 | ST   | Lokomotiva Zagreb
+  Saed Al-Rosan                  | #19 | CB   | Al-Hussein
+  Mohannad Abu Taha              | #20 | CM   | Al-Quwa Al-Jawiya
+  Nizar Al-Rashdan               | #21 | CM   | Qatar SC
+  Abdallah Al-Fakhouri           | #22 | GK   | Al-Wehdat
+  Ihsan Haddad                   | #23 | CB   | Al-Hussein
+  Ali Azaizeh                    | #24 | ST   | Al-Shabab
+  Mohammad Al-Dawoud             | #25 | CM   | Al-Wehdat
+  Anas Badawi                    | #26 | CB   | Al-Faisaly
+
+[Mexico] (26 players)
+  Raúl Rangel                    | # 1 | GK   | Guadalajara
+  Jorge Sánchez                  | # 2 | CB   | PAOK
+  César Montes                   | # 3 | CB   | Lokomotiv Moscow
+  Edson Álvarez                  | # 4 | CB   | Fenerbahçe
+  Johan Vásquez                  | # 5 | CB   | Genoa
+  Érik Lira                      | # 6 | CM   | Cruz Azul
+  Luis Romo                      | # 7 | CM   | Guadalajara
+  Álvaro Fidalgo                 | # 8 | CM   | Real Betis
+  Raúl Jiménez                   | # 9 | ST   | Fulham
+  Alexis Vega                    | #10 | ST   | Toluca
+  Santiago Giménez               | #11 | ST   | Milan
+  Carlos Acevedo                 | #12 | GK   | Santos Laguna
+  Guillermo Ochoa                | #13 | GK   | AEL Limassol
+  Armando González               | #14 | ST   | Guadalajara
+  Israel Reyes                   | #15 | CB   | América
+  Julián Quiñones                | #16 | ST   | Al-Qadsiah
+  Orbelín Pineda                 | #17 | CM   | AEK Athens
+  Obed Vargas                    | #18 | CM   | Atlético Madrid
+  Gilberto Mora                  | #19 | CM   | Tijuana
+  Mateo Chávez                   | #20 | CB   | AZ
+  César Huerta                   | #21 | ST   | Anderlecht
+  Guillermo Martínez             | #22 | ST   | Pumas UNAM
+  Jesús Gallardo                 | #23 | CB   | Toluca
+  Luis Chávez                    | #24 | CM   | Dynamo Moscow
+  Roberto Alvarado               | #25 | ST   | Guadalajara
+  Brian Gutiérrez                | #26 | CM   | Guadalajara
+
+[Morocco] (23 players)
+  Yassine Bounou                 | # 1 | GK   | Al-Hilal
+  Achraf Hakimi                  | # 2 | CB   | Paris Saint-Germain
+  Sofyan Amrabat                 | # 4 | CM   | Real Betis
+  Nayef Aguerd                   | # 5 | CB   | Marseille
+  Ayyoub Bouaddi                 | # 6 | CM   | Lille
+  Azzedine Ounahi                | # 8 | CM   | Girona
+  Soufiane Rahimi                | # 9 | ST   | Al Ain
+  Brahim Díaz                    | #10 | ST   | Real Madrid
+  Ismael Saibari                 | #11 | CM   | PSV Eindhoven
+  Munir Mohamedi                 | #12 | GK   | RS Berkane
+  Zakaria El Ouahdi              | #13 | CB   | Genk
+  Samir El Mourabet              | #15 | CM   | Strasbourg
+  Gessime Yassine                | #16 | CM   | Strasbourg
+  Abde Ezzalzouli                | #17 | ST   | Real Betis
+  Chadi Riad                     | #18 | CB   | Crystal Palace
+  Youssef Belammari              | #19 | CB   | Al Ahly
+  Ayoub El Kaabi                 | #20 | ST   | Olympiacos
+  Ayoube Amaimouni               | #21 | ST   | Eintracht Frankfurt
+  Ahmed Reda Tagnaouti           | #22 | GK   | AS FAR
+  Bilal El Khannouss             | #23 | CM   | VfB Stuttgart
+  Neil El Aynaoui                | #24 | CM   | Roma
+  Redouane Halhal                | #25 | CB   | Mechelen
+  Anass Salah-Eddine             | #26 | CB   | PSV Eindhoven
+
+[Netherlands] (12 players)
+  Marten de Roon                 | # 3 | CM   | Atalanta
+  Wout Weghorst                  | # 9 | ST   | Ajax
+  Memphis Depay                  | #10 | ST   | Corinthians
+  Micky van de Ven               | #15 | CB   | Tottenham Hotspur
+  Guus Til                       | #16 | CM   | PSV Eindhoven
+  Noa Lang                       | #17 | ST   | Galatasaray
+  Donyell Malen                  | #18 | ST   | Roma
+  Teun Koopmeiners               | #20 | CM   | Juventus
+  Frenkie de Jong                | #21 | CM   | Barcelona
+  Denzel Dumfries                | #22 | CB   | Inter Milan
+  Mark Flekken                   | #23 | GK   | Bayer Leverkusen
+  Quinten Timber                 | #26 | CM   | Marseille
+
+[New Zealand] (26 players)
+  Max Crocombe                   | # 1 | GK   | Millwall
+  Tim Payne                      | # 2 | CB   | Wellington Phoenix
+  Francis de Vries               | # 3 | CB   | Auckland FC
+  Tyler Bindon                   | # 4 | CB   | Sheffield United
+  Michael Boxall                 | # 5 | CB   | Minnesota United FC
+  Joe Bell                       | # 6 | CM   | Viking
+  Matthew Garbett                | # 7 | CM   | Peterborough United
+  Marko Stamenić                 | # 8 | CM   | Swansea City
+  Chris Wood                     | # 9 | ST   | Nottingham Forest
+  Sarpreet Singh                 | #10 | CM   | Wellington Phoenix
+  Elijah Just                    | #11 | CM   | Motherwell
+  Alex Paulsen                   | #12 | GK   | Lechia Gdańsk
+  Liberato Cacace                | #13 | CB   | Wrexham
+  Alex Rufer                     | #14 | CM   | Wellington Phoenix
+  Nando Pijnaker                 | #15 | CB   | Auckland FC
+  Finn Surman                    | #16 | CB   | Portland Timbers
+  Kosta Barbarouses              | #17 | ST   | Western Sydney Wanderers
+  Ben Waine                      | #18 | ST   | Port Vale
+  Ben Old                        | #19 | CM   | Saint-Étienne
+  Callum McCowatt                | #20 | CM   | Silkeborg
+  Jesse Randall                  | #21 | ST   | Auckland FC
+  Michael Woud                   | #22 | GK   | Auckland FC
+  Ryan Thomas                    | #23 | CM   | PEC Zwolle
+  Callan Elliot                  | #24 | CB   | Auckland FC
+  Lachlan Bayliss                | #25 | CM   | Newcastle Jets
+  Tommy Smith                    | #26 | CB   | Braintree Town
+
+[Norway] (20 players)
+  Ørjan Nyland                   | # 1 | GK   | Sevilla
+  Morten Thorsby                 | # 2 | CM   | Cremonese
+  Leo Østigård                   | # 4 | CB   | Genoa
+  David Møller Wolfe             | # 5 | CB   | Wolverhampton Wanderers
+  Patrick Berg                   | # 6 | CM   | Bodø/Glimt
+  Alexander Sørloth              | # 7 | ST   | Atlético Madrid
+  Sander Tangvik                 | #12 | GK   | Hamburger SV
+  Egil Selvik                    | #13 | GK   | Watford
+  Fredrik Aursnes                | #14 | CM   | Benfica
+  Fredrik André Bjørkan          | #15 | CB   | Bodø/Glimt
+  Marcus Holmgren Pedersen       | #16 | CB   | Torino
+  Torbjørn Heggem                | #17 | CB   | Bologna
+  Kristian Thorstvedt            | #18 | CM   | Sassuolo
+  Thelo Aasgaard                 | #19 | CM   | Rangers
+  Antonio Nusa                   | #20 | ST   | RB Leipzig
+  Andreas Schjelderup            | #21 | CM   | Benfica
+  Jens Petter Hauge              | #23 | CM   | Bodø/Glimt
+  Sondre Langås                  | #24 | CB   | Derby County
+  Henrik Falchener               | #25 | CB   | Viking
+  Julian Ryerson                 | #26 | ST   | Borussia Dortmund
+
+[Panama] (26 players)
+  Luis Mejía                     | # 1 | GK   | Nacional
+  César Blackman                 | # 2 | CB   | Slovan Bratislava
+  José Córdoba                   | # 3 | CB   | Norwich City
+  Fidel Escobar                  | # 4 | CB   | Saprissa
+  Edgardo Fariña                 | # 5 | CB   | Pari Nizhny Novgorod
+  Cristian Martínez              | # 6 | CM   | Ironi Kiryat Shmona
+  José Luis Rodríguez            | # 7 | CM   | Juárez
+  Adalberto Carrasquilla         | # 8 | CM   | UNAM
+  Tomás Rodríguez                | # 9 | ST   | Saprissa
+  Ismael Díaz                    | #10 | CM   | León
+  Yoel Bárcenas                  | #11 | CM   | Mazatlán
+  César Samudio                  | #12 | GK   | Marathón
+  Jiovany Ramos                  | #13 | CB   | Puerto Cabello
+  Carlos Harvey                  | #14 | CB   | Minnesota United FC
+  Eric Davis                     | #15 | CB   | Plaza Amador
+  Andrés Andrade                 | #16 | CB   | LASK
+  José Fajardo                   | #17 | ST   | Universidad Católica
+  Cecilio Waterman               | #18 | ST   | Universidad de Concepción
+  Alberto Quintero               | #19 | CM   | Plaza Amador
+  Aníbal Godoy                   | #20 | CM   | San Diego FC
+  César Yanis                    | #21 | CM   | Cobresal
+  Orlando Mosquera               | #22 | GK   | Al-Fayha
+  Michael Amir Murillo           | #23 | CB   | Beşiktaş
+  Azarias Londoño                | #24 | ST   | Universidad Católica
+  Roderick Miller                | #25 | CB   | Turan Tovuz
+  Jorge Gutiérrez                | #26 | CB   | Deportivo La Guaira
+
+[Paraguay] (25 players)
+  Gatito Fernández               | # 1 | GK   | Cerro Porteño
+  Gustavo Velázquez              | # 2 | CB   | Cerro Porteño
+  Juan José Cáceres              | # 4 | CB   | Dynamo Moscow
+  Fabián Balbuena                | # 5 | CB   | Grêmio
+  Júnior Alonso                  | # 6 | CB   | Atlético Mineiro
+  Ramón Sosa                     | # 7 | CM   | Palmeiras
+  Diego Gómez                    | # 8 | CM   | Brighton & Hove Albion
+  Antonio Sanabria               | # 9 | ST   | Cremonese
+  Miguel Almirón                 | #10 | CM   | Atlanta United FC
+  Maurício                       | #11 | CM   | Palmeiras
+  Orlando Gill                   | #12 | GK   | San Lorenzo
+  José Canale                    | #13 | CB   | Lanús
+  Andrés Cubas                   | #14 | CM   | Vancouver Whitecaps FC
+  Gustavo Gómez                  | #15 | CB   | Palmeiras
+  Damián Bobadilla               | #16 | CM   | São Paulo
+  Kaku                           | #17 | ST   | Al Ain
+  Álex Arce                      | #18 | ST   | Independiente Rivadavia
+  Julio Enciso                   | #19 | ST   | Strasbourg
+  Braian Ojeda                   | #20 | CM   | Orlando City SC
+  Gabriel Ávalos                 | #21 | ST   | Independiente
+  Gastón Olveira                 | #22 | GK   | Olimpia
+  Matías Galarza                 | #23 | CM   | Atlanta United FC
+  Gustavo Caballero              | #24 | CM   | Portsmouth
+  Isidro Pitta                   | #25 | ST   | Red Bull Bragantino
+  Alexandro Maidana              | #26 | CB   | Talleres
+
+[Portugal] (21 players)
+  Diogo Costa                    | # 1 | GK   | Porto
+  Nélson Semedo                  | # 2 | CB   | Fenerbahçe
+  Tomás Araújo                   | # 4 | CB   | Benfica
+  Diogo Dalot                    | # 5 | CB   | Manchester United
+  Cristiano Ronaldo              | # 7 | ST   | Al-Nassr
+  Gonçalo Ramos                  | # 9 | ST   | Paris Saint-Germain
+  João Félix                     | #11 | ST   | Al-Nassr
+  José Sá                        | #12 | GK   | Wolverhampton Wanderers
+  Renato Veiga                   | #13 | CB   | Villarreal
+  Gonçalo Inácio                 | #14 | CB   | Sporting CP
+  João Neves                     | #15 | CM   | Paris Saint-Germain
+  Francisco Trincão              | #16 | ST   | Sporting CP
+  Rafael Leão                    | #17 | ST   | Milan
+  Gonçalo Guedes                 | #19 | ST   | Real Sociedad
+  João Cancelo                   | #20 | CB   | Barcelona
+  Rúben Neves                    | #21 | CM   | Al-Hilal
+  Rui Silva                      | #22 | GK   | Sporting CP
+  Vitinha                        | #23 | CM   | Paris Saint-Germain
+  Samú Costa                     | #24 | CB   | Mallorca
+  Nuno Mendes                    | #25 | CB   | Paris Saint-Germain
+  Francisco Conceição            | #26 | ST   | Juventus
+
+[Qatar] (26 players)
+  Mahmud Abunada                 | # 1 | GK   | Al-Rayyan
+  Pedro Miguel                   | # 2 | CB   | Al-Sadd
+  Lucas Mendes                   | # 3 | CB   | Al-Wakrah
+  Issa Laye                      | # 4 | CB   | Al-Arabi
+  Jassem Gaber                   | # 5 | CB   | Al-Rayyan
+  Abdulaziz Hatem                | # 6 | CM   | Al-Rayyan
+  Ahmed Alaaeldin                | # 7 | ST   | Al-Rayyan
+  Edmilson Junior                | # 8 | ST   | Al-Duhail
+  Mohammed Muntari               | # 9 | ST   | Al-Gharafa
+  Hassan Al-Haydos               | #10 | ST   | Al-Sadd
+  Akram Afif                     | #11 | ST   | Al-Sadd
+  Karim Boudiaf                  | #12 | CM   | Al-Duhail
+  Ayoub Al-Oui                   | #13 | CB   | Al-Gharafa
+  Homam Ahmed                    | #14 | CB   | Cultural Leonesa
+  Yusuf Abdurisag                | #15 | ST   | Al-Wakrah
+  Boualem Khoukhi                | #16 | CB   | Al-Sadd
+  Ahmed Al-Ganehi                | #17 | CM   | Al-Gharafa
+  Sultan Al-Brake                | #18 | CB   | Al-Duhail
+  Almoez Ali                     | #19 | ST   | Al-Duhail
+  Ahmed Fathy                    | #20 | CM   | Al-Arabi
+  Salah Zakaria                  | #21 | GK   | Al-Duhail
+  Meshaal Barsham                | #22 | GK   | Al-Sadd
+  Assim Madibo                   | #23 | CM   | Al-Wakrah
+  Tahsin Jamshid                 | #24 | ST   | Al-Duhail
+  Al-Hashmi Al-Hussain           | #25 | CB   | Al-Arabi
+  Mohamed Manai                  | #26 | ST   | Al-Shamal
+
+[Saudi Arabia] (26 players)
+  Nawaf Al-Aqidi                 | # 1 | GK   | Al-Nassr
+  Ali Majrashi                   | # 2 | CB   | Al-Ahli
+  Ali Lajami                     | # 3 | CB   | Al-Hilal
+  Abdulelah Al-Amri              | # 4 | CB   | Al-Nassr
+  Hassan Al-Tambakti             | # 5 | CB   | Al-Hilal
+  Nasser Al-Dawsari              | # 6 | CM   | Al-Hilal
+  Musab Al-Juwayr                | # 7 | CM   | Al-Qadsiah
+  Ayman Yahya                    | # 8 | ST   | Al-Nassr
+  Firas Al-Buraikan              | # 9 | ST   | Al-Ahli
+  Salem Al-Dawsari               | #10 | ST   | Al-Hilal
+  Saleh Al-Shehri                | #11 | ST   | Al-Ittihad
+  Saud Abdulhamid                | #12 | CB   | Lens
+  Nawaf Boushal                  | #13 | CB   | Al-Nassr
+  Hassan Kadesh                  | #14 | CB   | Al-Ittihad
+  Abdullah Al-Khaibari           | #15 | CM   | Al-Nassr
+  Ziyad Al-Johani                | #16 | CM   | Al-Ahli
+  Khalid Al-Ghannam              | #17 | ST   | Al-Ettifaq
+  Alaa Al-Hejji                  | #18 | CM   | Neom
+  Abdullah Al-Hamdan             | #19 | ST   | Al-Nassr
+  Sultan Mandash                 | #20 | ST   | Al-Hilal
+  Mohammed Al-Owais              | #21 | GK   | Al-Ula
+  Ahmed Al-Kassar                | #22 | GK   | Al-Qadsiah
+  Mohamed Kanno                  | #23 | CM   | Al-Hilal
+  Moteb Al-Harbi                 | #24 | CB   | Al-Hilal
+  Jehad Thakri                   | #25 | CB   | Al-Qadsiah
+  Mohammed Abu Al-Shamat         | #26 | CB   | Al-Qadsiah
+
+[Scotland] (19 players)
+  Angus Gunn                     | # 1 | GK   | Nottingham Forest
+  Scott McTominay                | # 4 | CM   | Napoli
+  Grant Hanley                   | # 5 | CB   | Hibernian
+  Kieran Tierney                 | # 6 | CB   | Celtic
+  Lyndon Dykes                   | # 9 | ST   | Charlton Athletic
+  Ché Adams                      | #10 | ST   | Torino
+  Liam Kelly                     | #12 | GK   | Rangers
+  Jack Hendry                    | #13 | CB   | Al-Ettifaq
+  Ross Stewart                   | #14 | ST   | Southampton
+  John Souttar                   | #15 | CB   | Rangers
+  Dominic Hyam                   | #16 | CB   | Wrexham
+  George Hirst                   | #18 | ST   | Ipswich Town
+  Lewis Ferguson                 | #19 | CM   | Bologna
+  Lawrence Shankland             | #20 | ST   | Heart of Midlothian
+  Craig Gordon                   | #21 | GK   | Heart of Midlothian
+  Kenny McLean                   | #23 | CM   | Norwich City
+  Anthony Ralston                | #24 | CB   | Celtic
+  Findlay Curtis                 | #25 | ST   | Kilmarnock
+  Scott McKenna                  | #26 | CB   | Dinamo Zagreb
+
+[Senegal] (19 players)
+  Yehvann Diouf                  | # 1 | GK   | Nice
+  Kalidou Koulibaly              | # 3 | CB   | Al-Hilal
+  Abdoulaye Seck                 | # 4 | CB   | Maccabi Haifa
+  Pathé Ciss                     | # 6 | CM   | Rayo Vallecano
+  Assane Diao                    | # 7 | ST   | Como
+  Lamine Camara                  | # 8 | CM   | Monaco
+  Bamba Dieng                    | # 9 | ST   | Lorient
+  Sadio Mané                     | #10 | ST   | Al-Nassr
+  Cherif Ndiaye                  | #12 | ST   | Samsunspor
+  Ismail Jakobs                  | #14 | CB   | Galatasaray
+  Krépin Diatta                  | #15 | CB   | Monaco
+  Édouard Mendy                  | #16 | GK   | Al-Ahli
+  Pape Matar Sarr                | #17 | CM   | Tottenham Hotspur
+  Moussa Niakhaté                | #19 | CB   | Lyon
+  Ibrahim Mbaye                  | #20 | ST   | Paris Saint-Germain
+  Bara Sapoko Ndiaye             | #22 | CM   | Bayern Munich
+  Mory Diaw                      | #23 | GK   | Le Havre
+  Antoine Mendy                  | #24 | CB   | Nice
+  Pape Gueye                     | #26 | CM   | Villarreal
+
+[South Africa] (25 players)
+  Ronwen Williams                | # 1 | GK   | Mamelodi Sundowns
+  Thabang Matuludi               | # 2 | CB   | Polokwane City
+  Khulumani Ndamane              | # 3 | CB   | Mamelodi Sundowns
+  Teboho Mokoena                 | # 4 | CM   | Mamelodi Sundowns
+  Thalente Mbatha                | # 5 | CM   | Orlando Pirates
+  Aubrey Modiba                  | # 6 | CB   | Mamelodi Sundowns
+  Oswin Appollis                 | # 7 | ST   | Orlando Pirates
+  Tshepang Moremi                | # 8 | ST   | Orlando Pirates
+  Relebohile Mofokeng            | #10 | ST   | Orlando Pirates
+  Themba Zwane                   | #11 | CM   | Mamelodi Sundowns
+  Thapelo Maseko                 | #12 | ST   | AEL Limassol
+  Sphephelo Sithole              | #13 | CM   | Tondela
+  Mbekezeli Mbokazi              | #14 | CB   | Chicago Fire FC
+  Iqraam Rayners                 | #15 | ST   | Mamelodi Sundowns
+  Sipho Chaine                   | #16 | GK   | Orlando Pirates
+  Evidence Makgopa               | #17 | ST   | Orlando Pirates
+  Samukele Kabini                | #18 | CB   | Molde
+  Nkosinathi Sibisi              | #19 | CB   | Orlando Pirates
+  Khuliso Mudau                  | #20 | CB   | Mamelodi Sundowns
+  Ime Okon                       | #21 | CB   | Hannover 96
+  Ricardo Goss                   | #22 | GK   | Siwelele
+  Jayden Adams                   | #23 | CM   | Mamelodi Sundowns
+  Olwethu Makhanya               | #24 | CB   | Philadelphia Union
+  Kamogelo Sebelebele            | #25 | ST   | Orlando Pirates
+  Bradley Cross                  | #26 | CB   | Kaizer Chiefs
+
+[South Korea] (26 players)
+  Kim Seung-gyu                  | # 1 | GK   | FC Tokyo
+  Lee Han-beom                   | # 2 | CB   | Midtjylland
+  Lee Gi-hyuk                    | # 3 | CM   | Gangwon FC
+  Kim Min-jae                    | # 4 | CB   | Bayern Munich
+  Kim Tae-hyeon                  | # 5 | CB   | Kashima Antlers
+  Hwang In-beom                  | # 6 | CM   | Feyenoord
+  Son Heung-min                  | # 7 | ST   | Los Angeles FC
+  Paik Seung-ho                  | # 8 | CM   | Birmingham City
+  Cho Gue-sung                   | # 9 | ST   | Midtjylland
+  Lee Jae-sung                   | #10 | CM   | Mainz 05
+  Hwang Hee-chan                 | #11 | CM   | Wolverhampton Wanderers
+  Song Bum-keun                  | #12 | GK   | Jeonbuk Hyundai Motors
+  Lee Tae-seok                   | #13 | CB   | Austria Wien
+  Cho Wi-je                      | #14 | CB   | Jeonbuk Hyundai Motors
+  Kim Moon-hwan                  | #15 | CB   | Daejeon Hana Citizen
+  Park Jin-seob                  | #16 | CB   | Zhejiang
+  Bae Jun-ho                     | #17 | CM   | Stoke City
+  Oh Hyeon-gyu                   | #18 | ST   | Beşiktaş
+  Lee Kang-in                    | #19 | CM   | Paris Saint-Germain
+  Yang Hyun-jun                  | #20 | CM   | Celtic
+  Jo Hyeon-woo                   | #21 | GK   | Ulsan HD
+  Seol Young-woo                 | #22 | CB   | Red Star Belgrade
+  Jens Castrop                   | #23 | CB   | Borussia Mönchengladbach
+  Kim Jin-gyu                    | #24 | CM   | Jeonbuk Hyundai Motors
+  Eom Ji-sung                    | #25 | CM   | Swansea City
+  Lee Dong-gyeong                | #26 | CM   | Ulsan HD
+
+[Spain] (26 players)
+  David Raya                     | # 1 | GK   | Arsenal
+  Marc Pubill                    | # 2 | CB   | Atlético Madrid
+  Álex Grimaldo                  | # 3 | CB   | Bayer Leverkusen
+  Eric García                    | # 4 | CB   | Barcelona
+  Marcos Llorente                | # 5 | CB   | Atlético Madrid
+  Mikel Merino                   | # 6 | CM   | Arsenal
+  Ferran Torres                  | # 7 | ST   | Barcelona
+  Fabián Ruiz                    | # 8 | CM   | Paris Saint-Germain
+  Gavi                           | # 9 | CM   | Barcelona
+  Dani Olmo                      | #10 | ST   | Barcelona
+  Yéremy Pino                    | #11 | ST   | Crystal Palace
+  Pedro Porro                    | #12 | CB   | Tottenham Hotspur
+  Joan Garcia                    | #13 | GK   | Barcelona
+  Aymeric Laporte                | #14 | CB   | Athletic Bilbao
+  Álex Baena                     | #15 | CM   | Atlético Madrid
+  Rodri                          | #16 | CM   | Manchester City
+  Nico Williams                  | #17 | ST   | Athletic Bilbao
+  Martín Zubimendi               | #18 | CM   | Arsenal
+  Lamine Yamal                   | #19 | ST   | Barcelona
+  Pedri                          | #20 | CM   | Barcelona
+  Mikel Oyarzabal                | #21 | ST   | Real Sociedad
+  Pau Cubarsí                    | #22 | CB   | Barcelona
+  Unai Simón                     | #23 | GK   | Athletic Bilbao
+  Marc Cucurella                 | #24 | CB   | Chelsea
+  Víctor Muñoz                   | #25 | ST   | Osasuna
+  Borja Iglesias                 | #26 | ST   | Celta Vigo
+
+[Sweden] (19 players)
+  Jacob Widell Zetterström       | # 1 | GK   | Derby County
+  Gustaf Lagerbielke             | # 2 | CB   | Braga
+  Isak Hien                      | # 4 | CB   | Atalanta
+  Herman Johansson               | # 6 | CB   | FC Dallas
+  Lucas Bergvall                 | # 7 | CM   | Tottenham Hotspur
+  Daniel Svensson                | # 8 | CB   | Borussia Dortmund
+  Benjamin Nygren                | #10 | CM   | Celtic
+  Viktor Johansson               | #12 | GK   | Stoke City
+  Ken Sema                       | #13 | CM   | Pafos
+  Carl Starfelt                  | #15 | CB   | Celta Vigo
+  Jesper Karlström               | #16 | CM   | Udinese
+  Mattias Svanberg               | #19 | CM   | VfL Wolfsburg
+  Eric Smith                     | #20 | CB   | FC St. Pauli
+  Alexander Bernhardsson         | #21 | CB   | Holstein Kiel
+  Besfort Zeneli                 | #22 | CM   | Union Saint-Gilloise
+  Kristoffer Nordfeldt           | #23 | GK   | AIK
+  Elliot Stroud                  | #24 | CB   | Mjällby AIF
+  Gustaf Nilsson                 | #25 | ST   | Club Brugge
+  Taha Ali                       | #26 | ST   | Malmö FF
+
+[Switzerland] (22 players)
+  Gregor Kobel                   | # 1 | GK   | Borussia Dortmund
+  Miro Muheim                    | # 2 | CB   | Hamburger SV
+  Silvan Widmer                  | # 3 | CB   | Mainz 05
+  Nico Elvedi                    | # 4 | CB   | Borussia Mönchengladbach
+  Denis Zakaria                  | # 6 | CM   | Monaco
+  Breel Embolo                   | # 7 | ST   | Rennes
+  Remo Freuler                   | # 8 | CM   | Bologna
+  Johan Manzambi                 | # 9 | CM   | SC Freiburg
+  Dan Ndoye                      | #11 | ST   | Nottingham Forest
+  Yvon Mvogo                     | #12 | GK   | Lorient
+  Ricardo Rodriguez              | #13 | CB   | Real Betis
+  Ardon Jashari                  | #14 | CM   | Milan
+  Djibril Sow                    | #15 | CM   | Sevilla
+  Christian Fassnacht            | #16 | ST   | Young Boys
+  Rubén Vargas                   | #17 | ST   | Sevilla
+  Eray Cömert                    | #18 | CB   | Valencia
+  Michel Aebischer               | #20 | CM   | Pisa
+  Marvin Keller                  | #21 | GK   | Young Boys
+  Fabian Rieder                  | #22 | CM   | FC Augsburg
+  Aurèle Amenda                  | #24 | CB   | Eintracht Frankfurt
+  Luca Jaquez                    | #25 | CB   | VfB Stuttgart
+  Cedric Itten                   | #26 | ST   | Fortuna Düsseldorf
+
+[Tunisia] (25 players)
+  Mouhib Chamakh                 | # 1 | GK   | Club Africain
+  Ali Abdi                       | # 2 | CB   | Nice
+  Montassar Talbi                | # 3 | CB   | Lorient
+  Omar Rekik                     | # 4 | CB   | Maribor
+  Adem Arous                     | # 5 | CB   | Kasımpaşa
+  Dylan Bronn                    | # 6 | CB   | Servette
+  Elias Achouri                  | # 7 | ST   | Copenhagen
+  Elias Saad                     | # 8 | ST   | Hannover 96
+  Hazem Mastouri                 | # 9 | ST   | Dynamo Makhachkala
+  Ismaël Gharbi                  | #11 | CM   | FC Augsburg
+  Mortadha Ben Ouanes            | #12 | CB   | Kasımpaşa
+  Rani Khedira                   | #13 | CM   | Union Berlin
+  Khalil Ayari                   | #14 | CM   | Paris Saint-Germain
+  Hadj Mahmoud                   | #15 | CM   | Lugano
+  Aymen Dahmen                   | #16 | GK   | CS Sfaxien
+  Ellyes Skhiri                  | #17 | CM   | Eintracht Frankfurt
+  Rayan Elloumi                  | #18 | ST   | Vancouver Whitecaps FC
+  Firas Chaouat                  | #19 | ST   | Club Africain
+  Yan Valery                     | #20 | CB   | Young Boys
+  Mohamed Amine Ben Hamida       | #21 | CB   | Espérance de Tunis
+  Sabri Ben Hessen               | #22 | GK   | Étoile du Sahel
+  Moutaz Neffati                 | #23 | CB   | IFK Norrköping
+  Raed Chikhaoui                 | #24 | CB   | US Monastir
+  Anis Ben Slimane               | #25 | CM   | Norwich City
+  Sebastian Tounekti             | #26 | CM   | Celtic
+
+[Turkey] (24 players)
+  Mert Günok                     | # 1 | GK   | Fenerbahçe
+  Zeki Çelik                     | # 2 | CB   | Roma
+  Merih Demiral                  | # 3 | CB   | Al-Ahli
+  Çağlar Söyüncü                 | # 4 | CB   | Fenerbahçe
+  Salih Özcan                    | # 5 | CM   | Borussia Dortmund
+  Orkun Kökçü                    | # 6 | CM   | Beşiktaş
+  Kerem Aktürkoğlu               | # 7 | ST   | Fenerbahçe
+  Arda Güler                     | # 8 | ST   | Real Madrid
+  Deniz Gül                      | # 9 | ST   | Porto
+  Hakan Çalhanoğlu               | #10 | CM   | Inter Milan
+  Kenan Yıldız                   | #11 | ST   | Juventus
+  Eren Elmalı                    | #13 | CB   | Galatasaray
+  Abdülkerim Bardakcı            | #14 | CB   | Galatasaray
+  Ozan Kabak                     | #15 | CB   | TSG Hoffenheim
+  İsmail Yüksek                  | #16 | CM   | Fenerbahçe
+  İrfan Can Kahveci              | #17 | ST   | Kasımpaşa
+  Mert Müldür                    | #18 | CB   | Fenerbahçe
+  Yunus Akgün                    | #19 | ST   | Galatasaray
+  Barış Alper Yılmaz             | #21 | ST   | Galatasaray
+  Kaan Ayhan                     | #22 | CM   | Galatasaray
+  Uğurcan Çakır                  | #23 | GK   | Galatasaray
+  Oğuz Aydın                     | #24 | ST   | Fenerbahçe
+  Samet Akaydin                  | #25 | CB   | Çaykur Rizespor
+  Can Uzun                       | #26 | ST   | Eintracht Frankfurt
+
+[United States] (22 players)
+  Matt Turner                    | # 1 | GK   | New England Revolution
+  Sergiño Dest                   | # 2 | CB   | PSV Eindhoven
+  Auston Trusty                  | # 6 | CB   | Celtic
+  Giovanni Reyna                 | # 7 | CM   | Borussia Mönchengladbach
+  Weston McKennie                | # 8 | CM   | Juventus
+  Ricardo Pepi                   | # 9 | ST   | PSV Eindhoven
+  Christian Pulisic              | #10 | ST   | Milan
+  Miles Robinson                 | #12 | CB   | FC Cincinnati
+  Tim Ream                       | #13 | CB   | Charlotte FC
+  Sebastian Berhalter            | #14 | CM   | Vancouver Whitecaps FC
+  Cristian Roldan                | #15 | CM   | Seattle Sounders FC
+  Alex Freeman                   | #16 | CB   | Villarreal
+  Malik Tillman                  | #17 | CM   | Bayer Leverkusen
+  Maximilian Arfsten             | #18 | CB   | Columbus Crew
+  Haji Wright                    | #19 | ST   | Coventry City
+  Folarin Balogun                | #20 | ST   | Monaco
+  Timothy Weah                   | #21 | ST   | Marseille
+  Mark McKenzie                  | #22 | CB   | Toulouse
+  Joe Scally                     | #23 | CB   | Borussia Mönchengladbach
+  Matt Freese                    | #24 | GK   | New York City FC
+  Chris Brady                    | #25 | GK   | Chicago Fire FC
+  Alejandro Zendejas             | #26 | ST   | América
+
+[Uruguay] (26 players)
+  Sergio Rochet                  | # 1 | GK   | Internacional
+  José María Giménez             | # 2 | CB   | Atlético Madrid
+  Sebastián Cáceres              | # 3 | CB   | América
+  Ronald Araújo                  | # 4 | CB   | Barcelona
+  Manuel Ugarte                  | # 5 | CM   | Manchester United
+  Rodrigo Bentancur              | # 6 | CM   | Tottenham Hotspur
+  Nicolás de la Cruz             | # 7 | CM   | Flamengo
+  Federico Valverde              | # 8 | CM   | Real Madrid
+  Darwin Núñez                   | # 9 | ST   | Al-Hilal
+  Giorgian de Arrascaeta         | #10 | CM   | Flamengo
+  Facundo Pellistri              | #11 | ST   | Panathinaikos
+  Santiago Mele                  | #12 | GK   | Monterrey
+  Guillermo Varela               | #13 | CB   | Flamengo
+  Agustín Canobbio               | #14 | CM   | Fluminense
+  Emiliano Martínez              | #15 | CM   | Palmeiras
+  Mathías Olivera                | #16 | CB   | Napoli
+  Matías Viña                    | #17 | CB   | River Plate
+  Brian Rodríguez                | #18 | ST   | América
+  Rodrigo Aguirre                | #19 | ST   | UANL
+  Maximiliano Araújo             | #20 | CM   | Sporting CP
+  Federico Viñas                 | #21 | ST   | Oviedo
+  Joaquín Piquerez               | #22 | CM   | Palmeiras
+  Fernando Muslera               | #23 | GK   | Estudiantes
+  Santiago Bueno                 | #24 | CB   | Wolverhampton Wanderers
+  Juan Manuel Sanabria           | #25 | CM   | Real Salt Lake
+  Rodrigo Zalazar                | #26 | CM   | Braga
+
+[Uzbekistan] (25 players)
+  Utkir Yusupov                  | # 1 | GK   | Navbahor Namangan
+  Khojiakbar Alijonov            | # 3 | CB   | Pakhtakor
+  Farrukh Sayfiev                | # 4 | CB   | Neftchi Fergana
+  Rustam Ashurmatov              | # 5 | CB   | Esteghlal
+  Akmal Mozgovoy                 | # 6 | CM   | Pakhtakor
+  Otabek Shukurov                | # 7 | CM   | Baniyas
+  Jamshid Iskanderov             | # 8 | CM   | Neftchi Fergana
+  Odiljon Hamrobekov             | # 9 | CM   | Tractor
+  Jaloliddin Masharipov          | #10 | CM   | Esteghlal
+  Oston Urunov                   | #11 | CM   | Persepolis
+  Abduvohid Nematov              | #12 | GK   | Nasaf
+  Sherzod Nasrullaev             | #13 | CB   | Nasaf
+  Eldor Shomurodov               | #14 | ST   | İstanbul Başakşehir
+  Umar Eshmurodov                | #15 | CB   | Nasaf
+  Botirali Ergashev              | #16 | GK   | Neftchi Fergana
+  Dostonbek Khamdamov            | #17 | CM   | Pakhtakor
+  Abdulla Abdullaev              | #18 | CB   | Dibba
+  Azizjon Ganiev                 | #19 | CM   | Al Bataeh
+  Azizbek Amonov                 | #20 | ST   | Dinamo Samarqand
+  Igor Sergeev                   | #21 | ST   | Persepolis
+  Abbosbek Fayzullaev            | #22 | CM   | İstanbul Başakşehir
+  Sherzod Esanov                 | #23 | CM   | Bukhara
+  Bekhruz Karimov                | #24 | CB   | Surkhon Termiz
+  Avazbek Ulmasaliev             | #25 | CB   | AGMK
+  Jakhongir Urozov               | #26 | CB   | Dinamo Samarqand
+

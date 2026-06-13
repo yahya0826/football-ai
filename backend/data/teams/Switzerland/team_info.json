@@ -1,0 +1,170 @@
+{
+  "team_en": "Switzerland",
+  "team_cn": "瑞士",
+  "confederation": "UEFA",
+  "group": "B",
+  "stats": {
+    "total_matches": 226,
+    "wins": 109,
+    "draws": 61,
+    "losses": 56,
+    "goals_for": 379,
+    "goals_against": 232
+  },
+  "recent_matches": [
+    {
+      "date": "2026-06-24",
+      "home_team": "Canada",
+      "away_team": "Switzerland",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Vancouver",
+      "country": "Canada",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2026-06-18",
+      "home_team": "Switzerland",
+      "away_team": "Bosnia and Herzegovina",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Inglewood",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-06-13",
+      "home_team": "Qatar",
+      "away_team": "Switzerland",
+      "home_score": "NA",
+      "away_score": "NA",
+      "tournament": "FIFA World Cup",
+      "city": "Santa Clara",
+      "country": "United States",
+      "neutral": "TRUE"
+    },
+    {
+      "date": "2026-03-31",
+      "home_team": "Norway",
+      "away_team": "Switzerland",
+      "home_score": "0",
+      "away_score": "0",
+      "tournament": "Friendly",
+      "city": "Oslo",
+      "country": "Norway",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2026-03-27",
+      "home_team": "Switzerland",
+      "away_team": "Germany",
+      "home_score": "3",
+      "away_score": "4",
+      "tournament": "Friendly",
+      "city": "Basel",
+      "country": "Switzerland",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-11-18",
+      "home_team": "Kosovo",
+      "away_team": "Switzerland",
+      "home_score": "1",
+      "away_score": "1",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Pristina",
+      "country": "Kosovo",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-11-15",
+      "home_team": "Switzerland",
+      "away_team": "Sweden",
+      "home_score": "4",
+      "away_score": "1",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Geneva",
+      "country": "Switzerland",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-10-13",
+      "home_team": "Slovenia",
+      "away_team": "Switzerland",
+      "home_score": "0",
+      "away_score": "0",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Ljubljana",
+      "country": "Slovenia",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-10-10",
+      "home_team": "Sweden",
+      "away_team": "Switzerland",
+      "home_score": "0",
+      "away_score": "2",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Solna",
+      "country": "Sweden",
+      "neutral": "FALSE"
+    },
+    {
+      "date": "2025-09-08",
+      "home_team": "Switzerland",
+      "away_team": "Slovenia",
+      "home_score": "3",
+      "away_score": "0",
+      "tournament": "FIFA World Cup qualification",
+      "city": "Basel",
+      "country": "Switzerland",
+      "neutral": "FALSE"
+    }
+  ],
+  "matches_by_year": {
+    "2026": 5,
+    "2025": 10,
+    "2024": 15,
+    "2023": 10,
+    "2022": 13,
+    "2021": 17,
+    "2020": 8,
+    "2019": 10,
+    "2018": 14,
+    "2017": 9,
+    "2016": 12,
+    "2015": 10,
+    "2014": 12,
+    "2013": 9,
+    "2012": 9,
+    "2011": 9,
+    "2010": 12,
+    "2009": 9,
+    "2008": 13,
+    "2007": 10,
+    "2006": 13
+  },
+  "tournament_breakdown": {
+    "Friendly": 84,
+    "FIFA World Cup qualification": 46,
+    "UEFA Euro qualification": 36,
+    "UEFA Nations League": 24,
+    "FIFA World Cup": 22,
+    "UEFA Euro": 17
+  },
+  "total_matches_20y": 229,
+  "elo_rating": 1520,
+  "odds": {
+    "decimal_odds": 41.0,
+    "implied_probability": 2.3,
+    "rank": 11,
+    "platforms": {
+      "Bet365": 81.0,
+      "William Hill": 101.0,
+      "DraftKings": 41.0
+    }
+  },
+  "fifa_ranking": null
+}
