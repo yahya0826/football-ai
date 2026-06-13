@@ -343,9 +343,7 @@
       "venue": "Estadio Azteca",
       "city": "Mexico City",
       "country": "Mexico",
-      "note": "揭幕战",
-      "home_score": 3,
-      "away_score": 1
+      "note": "揭幕战"
     },
     {
       "match_id": 2,
@@ -361,9 +359,7 @@
       "venue": "Estadio Akron",
       "city": "Guadalajara",
       "country": "Mexico",
-      "note": "",
-      "home_score": 1,
-      "away_score": 1
+      "note": ""
     },
     {
       "match_id": 3,
@@ -379,9 +375,7 @@
       "venue": "BMO Field",
       "city": "Toronto",
       "country": "Canada",
-      "note": "",
-      "home_score": 2,
-      "away_score": 0
+      "note": ""
     },
     {
       "match_id": 4,
@@ -397,9 +391,7 @@
       "venue": "SoFi Stadium",
       "city": "Inglewood",
       "country": "USA",
-      "note": "",
-      "home_score": 2,
-      "away_score": 1
+      "note": ""
     },
     {
       "match_id": 5,
@@ -415,9 +407,7 @@
       "venue": "Levi's Stadium",
       "city": "Santa Clara",
       "country": "USA",
-      "note": "",
-      "home_score": 1,
-      "away_score": 3
+      "note": ""
     },
     {
       "match_id": 6,
@@ -433,9 +423,7 @@
       "venue": "MetLife Stadium",
       "city": "East Rutherford",
       "country": "USA",
-      "note": "",
-      "home_score": 4,
-      "away_score": 1
+      "note": ""
     },
     {
       "match_id": 7,
@@ -451,9 +439,7 @@
       "venue": "Gillette Stadium",
       "city": "Foxborough",
       "country": "USA",
-      "note": "",
-      "home_score": 0,
-      "away_score": 3
+      "note": ""
     },
     {
       "match_id": 8,
@@ -469,9 +455,7 @@
       "venue": "BC Place",
       "city": "Vancouver",
       "country": "Canada",
-      "note": "",
-      "home_score": 2,
-      "away_score": 2
+      "note": ""
     },
     {
       "match_id": 9,
