@@ -6,7 +6,6 @@ import { usePathname } from 'next/navigation';
 
 const NAV_ITEMS = [
   { href: '/', label: '首页' },
-  { href: '/teams', label: '球队' },
   { href: '/tactics', label: '战术分析' },
   { href: '/intelligence', label: '哨前情报' },
   { href: '/matches', label: '比赛' },
