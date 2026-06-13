@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
+import FeedbackModal from './FeedbackModal';
 
 const NAV_ITEMS = [
   { href: '/', label: '首页' },
@@ -16,6 +17,7 @@ const NAV_ITEMS = [
 export default function NavBar() {
   const pathname = usePathname();
   const [menuOpen, setMenuOpen] = useState(false);
+  const [feedbackOpen, setFeedbackOpen] = useState(false);
 
   useEffect(() => {
     setMenuOpen(false);
@@ -64,6 +66,31 @@ export default function NavBar() {
 
           <div className="flex items-center gap-4">
             <span className="badge badge-primary">2026 世界杯</span>
+
+            <button
+              onClick={() => setFeedbackOpen(true)}
+              title="产品反馈"
+              style={{
+                background: 'rgba(129, 140, 248, 0.15)',
+                color: 'var(--secondary)',
+                border: '1px solid rgba(129, 140, 248, 0.3)',
+                padding: '0.4rem 0.9rem',
+                borderRadius: '0.5rem',
+                fontSize: 'var(--text-sm)',
+                fontWeight: 600,
+                cursor: 'pointer',
+                whiteSpace: 'nowrap',
+                transition: 'all 0.2s',
+              }}
+              onMouseEnter={e => {
+                e.currentTarget.style.background = 'rgba(129, 140, 248, 0.25)';
+              }}
+              onMouseLeave={e => {
+                e.currentTarget.style.background = 'rgba(129, 140, 248, 0.15)';
+              }}
+            >
+              💬 反馈
+            </button>
 
             <button
               className="md:hidden flex flex-col justify-center items-center w-10 h-10 rounded-lg"
@@ -135,6 +162,8 @@ export default function NavBar() {
           </div>
         </>
       )}
+
+      <FeedbackModal open={feedbackOpen} onClose={() => setFeedbackOpen(false)} />
     </nav>
   );
 }

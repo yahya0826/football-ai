@@ -1957,6 +1957,42 @@ async def get_player_analysis(team_name: str, player_name: str):
         raise HTTPException(status_code=500, detail=str(e))
 
 
+class FeedbackRequest(BaseModel):
+    text: str = Field(..., description="用户反馈文字")
+    rating: int = Field(..., ge=1, le=5, description="满意度评分 1-5颗星")
+    page: Optional[str] = Field(default=None, description="用户当前所在页面")
+
+@app.post("/api/feedback")
+async def submit_feedback(request: FeedbackRequest):
+    """提交用户反馈"""
+    try:
+        import json
+        from datetime import datetime
+        feedback_dir = Path("data/feedback")
+        feedback_dir.mkdir(parents=True, exist_ok=True)
+        feedback_file = feedback_dir / "entries.json"
+
+        entries = []
+        if feedback_file.exists():
+            with open(feedback_file, "r", encoding="utf-8") as f:
+                entries = json.load(f)
+
+        entries.append({
+            "id": len(entries) + 1,
+            "text": request.text,
+            "rating": request.rating,
+            "page": request.page,
+            "created_at": datetime.now().isoformat(),
+        })
+
+        with open(feedback_file, "w", encoding="utf-8") as f:
+            json.dump(entries, f, ensure_ascii=False, indent=2)
+
+        return {"success": True, "message": "感谢您的反馈！"}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+
 # ==================== 启动应用 ====================
 
 if __name__ == "__main__":

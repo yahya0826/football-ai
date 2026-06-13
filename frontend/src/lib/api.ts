@@ -795,6 +795,15 @@ export const api = {
   async findScheduleMatch(homeTeam: string, awayTeam: string, date?: string): Promise<{ match_id: number | null; found: boolean }> {
     return fetchAPI('/api/live/schedule-match', { params: { home_team: homeTeam, away_team: awayTeam, date } });
   },
+
+  // ── 反馈 (Feedback) ──────────────────
+
+  async submitFeedback(data: { text: string; rating: number; page?: string }): Promise<{ success: boolean; message: string }> {
+    return fetchAPI('/api/feedback', {
+      method: 'POST',
+      body: JSON.stringify(data),
+    });
+  },
 };
 
 // 球员数据类型
