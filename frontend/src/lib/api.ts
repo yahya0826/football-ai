@@ -96,33 +96,6 @@ export interface KnowledgeItem {
   relevance?: number;
 }
 
-// WhistleIntel types
-export interface ConfidenceInterval {
-  home: [number, number];
-  draw: [number, number];
-  away: [number, number];
-}
-
-export interface FeatureContribution {
-  feature: string;
-  value: number;
-  importance: number;
-  contribution: number;
-}
-
-export interface PredictResponse {
-  home_team: string;
-  away_team: string;
-  home_win_prob: number;
-  draw_prob: number;
-  away_win_prob: number;
-  home_elo: number;
-  away_elo: number;
-  confidence_interval?: ConfidenceInterval;
-  data_quality?: string;
-  top_features?: FeatureContribution[];
-}
-
 export interface DailyReport {
   date: string;
   generated_at: string;
@@ -525,14 +498,6 @@ export const api = {
     return fetchAPI(`/api/matches/${matchId}`);
   },
 
-  // 预测相关
-  async predict(homeTeam: string, awayTeam: string): Promise<PredictResponse> {
-    return fetchAPI('/api/predict', {
-      method: 'POST',
-      body: JSON.stringify({ home_team: homeTeam, away_team: awayTeam }),
-    });
-  },
-
   // 可视化相关
   async getVisualization(matchId: number): Promise<{
     match_id: number;
@@ -570,19 +535,6 @@ export const api = {
     });
   },
 
-  async getPrematchPreview(homeTeam: string, awayTeam: string): Promise<{
-    home_team: string;
-    away_team: string;
-    home_elo: number;
-    away_elo: number;
-    preview: string;
-  }> {
-    return fetchAPI('/api/commentary/preview', {
-      method: 'POST',
-      body: JSON.stringify({ home_team: homeTeam, away_team: awayTeam }),
-    });
-  },
-
   // 知识库相关
   async askKnowledge(question: string): Promise<{ question: string; answer: string }> {
     return fetchAPI('/api/knowledge/ask', {
@@ -606,10 +558,6 @@ export const api = {
   // 哨前情报 (WhistleIntel)
   async getDailyReport(date?: string): Promise<DailyReport> {
     return fetchAPI('/api/intelligence/daily-report', { params: { date } });
-  },
-
-  async getIntelCardByTeams(homeTeam: string, awayTeam: string): Promise<IntelCard> {
-    return fetchAPI('/api/intelligence/intel-card', { params: { home_team: homeTeam, away_team: awayTeam } });
   },
 
   async getIntelCard(matchId: number): Promise<IntelCard> {
@@ -796,6 +744,10 @@ export const api = {
 
   async findScheduleMatch(homeTeam: string, awayTeam: string, date?: string): Promise<{ match_id: number | null; found: boolean }> {
     return fetchAPI('/api/live/schedule-match', { params: { home_team: homeTeam, away_team: awayTeam, date } });
+  },
+
+  async getTeamRoster(teamId: string): Promise<TeamRoster> {
+    return fetchAPI(`/api/live/roster/${teamId}`);
   },
 
   // ── 反馈 (Feedback) ──────────────────
@@ -1121,12 +1073,14 @@ export interface LiveMatchSummary {
   clock: string;
   home_team: string;
   away_team: string;
+  home_team_id?: string;
+  away_team_id?: string;
   home_team_cn?: string;
   away_team_cn?: string;
   home_score: number;
   away_score: number;
   venue: string;
-  broadcast: string;
+  broadcast?: string;
 }
 
 export interface LiveScoreboardResponse {
@@ -1228,6 +1182,61 @@ export interface MatchAnalysisResponse {
     stats: Record<string, { label: string; label_cn?: string; value: string }>;
   }>;
   analysis: MatchAnalysis;
+  lineups?: MatchLineups;
+}
+
+// ── 阵容类型 (Roster) ──────────────────
+
+export interface LineupPlayer {
+  id: string;
+  name: string;
+  short_name: string;
+  jersey: string;
+  position: string;
+  position_name: string;
+  starter: boolean;
+  formation_place: number;
+  active: boolean;
+}
+
+export interface TeamLineup {
+  formation: string;
+  starters: LineupPlayer[];
+  substitutes: LineupPlayer[];
+}
+
+export interface MatchLineups {
+  home?: TeamLineup;
+  away?: TeamLineup;
+}
+
+export interface RosterPlayer {
+  id: string;
+  name: string;
+  short_name: string;
+  jersey: string;
+  position: string;
+  position_name: string;
+  headshot: string;
+  height: string;
+  weight: string;
+  age: number;
+}
+
+export interface TeamRoster {
+  team_id: string;
+  team_name: string;
+  team_name_cn: string;
+  coach: string;
+  players: {
+    G: RosterPlayer[];
+    D: RosterPlayer[];
+    M: RosterPlayer[];
+    F: RosterPlayer[];
+    U: RosterPlayer[];
+  };
+  total_players: number;
+  position_labels: Record<string, string>;
 }
 
 export default api;

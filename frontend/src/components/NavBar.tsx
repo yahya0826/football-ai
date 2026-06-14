@@ -10,7 +10,6 @@ const NAV_ITEMS = [
   { href: '/tactics', label: '战术分析' },
   { href: '/intelligence', label: '哨前情报' },
   { href: '/matches', label: '比赛' },
-  { href: '/predict', label: '预测' },
   { href: '/knowledge', label: '知识库' },
 ];
 

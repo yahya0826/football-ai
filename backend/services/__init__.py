@@ -7,7 +7,6 @@ from .visualization_service import VisualizationService, visualization_service
 from .commentary_service import CommentaryService, commentary_service
 from .knowledge_service import KnowledgeBaseService, knowledge_service
 from .tactics_service import TacticsService, tactics_service
-from .feature_engineering import FeatureEngineering
 from .intelligence_service import IntelligenceService, intelligence_service
 from .intelligence_data_service import IntelligenceDataService, intelligence_data_service
 from .daily_report_service import DailyReportService, daily_report_service
@@ -27,7 +26,6 @@ __all__ = [
     'CommentaryService', 'commentary_service',
     'KnowledgeBaseService', 'knowledge_service',
     'TacticsService', 'tactics_service',
-    'FeatureEngineering',
     'IntelligenceService', 'intelligence_service',
     'IntelligenceDataService', 'intelligence_data_service',
     'DailyReportService', 'daily_report_service',

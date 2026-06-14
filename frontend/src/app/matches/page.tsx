@@ -3,6 +3,7 @@
 import { useState, useEffect, useMemo } from 'react';
 import api, { ScheduleMatch, MatchScheduleResponse, MatchDetailResponse, MatchHighlightsResponse, H2HData, RecentMatch, LiveScoreboardResponse, LiveMatchSummary, MatchAnalysisResponse, MatchAnalysis, LiveEvent } from '@/lib/api';
 import LiveMatchPanel from '@/components/LiveMatchPanel';
+import FormationView from '@/components/FormationView';
 
 const STAGE_TABS: Record<string, { label: string; key: string }> = {
   all: { label: '全部比赛', key: 'all' },
@@ -65,7 +66,8 @@ export default function SchedulePage() {
 
   // Today view state
   const [viewMode, setViewMode] = useState<'all' | 'today'>('all');
-  const [todayDate, setTodayDate] = useState('2026-06-13');
+  const realToday = new Date().toISOString().slice(0, 10);
+  const [todayDate, setTodayDate] = useState(realToday);
   const [liveScoreboard, setLiveScoreboard] = useState<LiveScoreboardResponse | null>(null);
 
   useEffect(() => {
@@ -108,15 +110,22 @@ export default function SchedulePage() {
     return () => { mounted = false; clearInterval(t); };
   }, [viewMode]);
 
-  // Set initial today date from schedule
+  // Set initial today date from schedule (use real today, snap to nearest match date if needed)
   useEffect(() => {
     if (!schedule) return;
-    const today = '2026-06-13';
     const dates = [...new Set(schedule.matches.map(m => m.date))].sort();
-    if (dates.includes(today)) {
-      setTodayDate(today);
+    if (dates.includes(realToday)) {
+      setTodayDate(realToday);
     } else if (dates.length > 0) {
-      setTodayDate(dates[0]);
+      // Find the closest date to today
+      const todayTs = new Date(realToday).getTime();
+      let closest = dates[0];
+      let minDiff = Math.abs(new Date(dates[0]).getTime() - todayTs);
+      for (const d of dates) {
+        const diff = Math.abs(new Date(d).getTime() - todayTs);
+        if (diff < minDiff) { minDiff = diff; closest = d; }
+      }
+      setTodayDate(closest);
     }
   }, [schedule]);
 
@@ -143,7 +152,6 @@ export default function SchedulePage() {
 
   const handleMatchClick = async (match: ScheduleMatch) => {
     if (isKnockoutPlaceholder(match)) return;
-    setViewMode('all');
     setSelectedMatch(match);
     setMatchDetail(null);
     setAiHighlights(null);
@@ -226,7 +234,7 @@ export default function SchedulePage() {
         {(['all', 'today'] as const).map(mode => (
           <button
             key={mode}
-            onClick={() => setViewMode(mode)}
+            onClick={() => { setViewMode(mode); if (mode === 'today') setSelectedMatch(null); }}
             style={{
               padding: '0.55rem 1.5rem',
               borderRadius: '0.6rem',
@@ -246,13 +254,63 @@ export default function SchedulePage() {
 
       {/* ── Today View ── */}
       {viewMode === 'today' ? (
-        <TodayView
-          schedule={schedule}
-          liveScoreboard={liveScoreboard}
-          todayDate={todayDate}
-          onDateChange={setTodayDate}
-          onMatchClick={handleMatchClick}
-        />
+        selectedMatch ? (
+          <div style={{ display: 'flex', gap: '1.25rem', alignItems: 'flex-start' }}>
+            <div style={{
+              flex: '0 0 40%',
+              maxHeight: 'calc(100vh - 200px)',
+              overflowY: 'auto',
+              paddingRight: '0.5rem',
+            }}>
+              <TodayView
+                schedule={schedule}
+                liveScoreboard={liveScoreboard}
+                todayDate={todayDate}
+                onDateChange={setTodayDate}
+                onMatchClick={handleMatchClick}
+              />
+            </div>
+            <div style={{
+              flex: '1',
+              maxHeight: 'calc(100vh - 200px)',
+              overflowY: 'auto',
+            }}>
+              <div style={{ marginBottom: '0.75rem' }}>
+                <button
+                  onClick={() => setSelectedMatch(null)}
+                  style={{
+                    padding: '0.3rem 0.75rem',
+                    borderRadius: '0.5rem',
+                    border: '1px solid #333',
+                    background: 'rgba(255,255,255,0.03)',
+                    color: 'var(--text-muted)',
+                    fontSize: 'var(--text-xs)',
+                    cursor: 'pointer',
+                  }}
+                >
+                  ← 返回完整视图
+                </button>
+              </div>
+              <MatchDetailPanel
+                match={selectedMatch}
+                detail={matchDetail}
+                aiHighlights={aiHighlights}
+                detailLoading={detailLoading}
+                highlightsLoading={highlightsLoading}
+                liveMatchId={liveMatchId}
+                liveLookupDone={liveLookupDone}
+              />
+            </div>
+          </div>
+        ) : (
+          <TodayView
+            schedule={schedule}
+            liveScoreboard={liveScoreboard}
+            todayDate={todayDate}
+            onDateChange={setTodayDate}
+            onMatchClick={handleMatchClick}
+          />
+        )
       ) : (
         <>
 
@@ -446,6 +504,12 @@ function TodayView({
   onMatchClick: (m: ScheduleMatch) => void;
 }) {
   const [heroAnalysis, setHeroAnalysis] = useState<MatchAnalysisResponse | null>(null);
+  const [featuredMatchId, setFeaturedMatchId] = useState<number | null>(null);
+
+  // Reset featured match when date changes
+  useEffect(() => {
+    setFeaturedMatchId(null);
+  }, [todayDate]);
 
   if (!schedule) {
     return <div style={{ textAlign: 'center', padding: '3rem', color: 'var(--text-muted)' }}>加载中…</div>;
@@ -495,26 +559,25 @@ function TodayView({
     return undefined;
   };
 
-  // Find featured match: live first, then first match of day
-  let heroMatch = dayMatches[0];
+  // Determine hero match: featured > live > first match
+  let heroMatch: ScheduleMatch;
   let heroLive: LiveMatchSummary | undefined;
   let heroEspnId: string | undefined;
-  for (const m of dayMatches) {
-    const live = getLiveFor(m);
-    if (live && (live.state === 'live' || live.state === 'halftime')) {
-      heroMatch = m;
-      heroLive = live;
-      heroEspnId = live.match_id;
-      break;
+
+  if (featuredMatchId) {
+    heroMatch = dayMatches.find(m => m.match_id === featuredMatchId) || dayMatches[0];
+  } else {
+    heroMatch = dayMatches[0];
+    for (const m of dayMatches) {
+      const live = getLiveFor(m);
+      if (live && (live.state === 'live' || live.state === 'halftime')) {
+        heroMatch = m;
+        break;
+      }
     }
   }
-  if (!heroLive) {
-    const fallback = getLiveFor(heroMatch);
-    if (fallback) {
-      heroLive = fallback;
-      heroEspnId = fallback.match_id;
-    }
-  }
+  heroLive = getLiveFor(heroMatch);
+  heroEspnId = heroLive?.match_id;
 
   // Fetch ESPN match ID via direct lookup if not found in scoreboard
   const [lookedUpEspnId, setLookedUpEspnId] = useState<string | null>(null);
@@ -550,11 +613,42 @@ function TodayView({
       <DateNav dates={displayDates} selected={todayDate} onChange={onDateChange} />
 
       {/* Hero Card */}
+      {featuredMatchId && (
+        <div style={{ display: 'flex', justifyContent: 'flex-end', marginBottom: '0.3rem' }}>
+          <button
+            onClick={() => setFeaturedMatchId(null)}
+            style={{
+              padding: '0.2rem 0.6rem',
+              borderRadius: '0.4rem',
+              border: '1px solid #333',
+              background: 'rgba(255,255,255,0.03)',
+              color: 'var(--text-muted)',
+              fontSize: '10px',
+              cursor: 'pointer',
+            }}
+          >
+            📌 已置顶 · 点击恢复默认
+          </button>
+        </div>
+      )}
       <HeroCard match={heroMatch} live={heroLive} analysis={heroAnalysis} onClick={() => onMatchClick(heroMatch)} />
 
       {/* Analysis Panel */}
       {heroAnalysis?.analysis && (heroAnalysis.analysis.type === 'halftime' || heroAnalysis.analysis.type === 'fulltime') && (
         <AnalysisPanel analysis={heroAnalysis.analysis} homeName={heroMatch.home_team_cn} awayName={heroMatch.away_team_cn} />
+      )}
+
+      {/* Formation View */}
+      {heroLive?.home_team_id && heroLive?.away_team_id && (
+        <FormationView
+          homeTeamId={heroLive.home_team_id}
+          awayTeamId={heroLive.away_team_id}
+          homeName={heroMatch.home_team}
+          awayName={heroMatch.away_team}
+          homeNameCn={heroMatch.home_team_cn}
+          awayNameCn={heroMatch.away_team_cn}
+          lineups={heroAnalysis?.lineups ?? null}
+        />
       )}
 
       {/* Timeline */}
@@ -569,12 +663,14 @@ function TodayView({
           <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
             {timelineMatches.map(m => {
               const live = getLiveFor(m);
+              const isFeatured = m.match_id === featuredMatchId;
               return (
                 <TimelineCard
                   key={m.match_id}
                   match={m}
                   live={live}
-                  onClick={() => onMatchClick(m)}
+                  isFeatured={isFeatured}
+                  onClick={() => setFeaturedMatchId(m.match_id)}
                 />
               );
             })}
@@ -586,6 +682,7 @@ function TodayView({
 }
 
 function DateNav({ dates, selected, onChange }: { dates: string[]; selected: string; onChange: (d: string) => void }) {
+  const realToday = new Date().toISOString().slice(0, 10);
   return (
     <div style={{
       display: 'flex', gap: '0.35rem', overflowX: 'auto',
@@ -597,7 +694,7 @@ function DateNav({ dates, selected, onChange }: { dates: string[]; selected: str
         const day = dateObj.getDate();
         const weekdays = ['周日', '周一', '周二', '周三', '周四', '周五', '周六'];
         const wd = weekdays[dateObj.getDay()];
-        const isToday = d === '2026-06-13';
+        const isToday = d === realToday;
         const isSelected = d === selected;
         return (
           <button
@@ -687,11 +784,11 @@ function HeroCard({ match, live, analysis, onClick }: { match: ScheduleMatch; li
             </span>
           ) : (
             <span style={{
-              background: 'rgba(240,192,89,0.15)', color: '#f0c059',
-              padding: '0.15rem 0.6rem', borderRadius: '1rem',
-              fontSize: '11px', fontWeight: 700,
+              background: 'rgba(100,116,139,0.15)', color: '#94a3b8',
+              padding: '0.1rem 0.5rem', borderRadius: '0.25rem',
+              fontSize: '10px', fontWeight: 600,
             }}>
-              📋 即将开始
+              未开始
             </span>
           )}
           {isLive && clockDisplay && (
@@ -705,8 +802,9 @@ function HeroCard({ match, live, analysis, onClick }: { match: ScheduleMatch; li
             </span>
           )}
         </div>
-        <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)' }}>
-          {match.venue}
+        <div style={{ fontSize: 'var(--text-xs)', color: 'var(--text-muted)', display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
+          <span>📍 {match.venue}</span>
+          {live?.broadcast && <span>📺 {live.broadcast}</span>}
         </div>
       </div>
 
@@ -895,7 +993,7 @@ function AnalysisPanel({ analysis, homeName, awayName }: { analysis: MatchAnalys
   );
 }
 
-function TimelineCard({ match, live, onClick }: { match: ScheduleMatch; live?: LiveMatchSummary; onClick: () => void }) {
+function TimelineCard({ match, live, onClick, isFeatured }: { match: ScheduleMatch; live?: LiveMatchSummary; onClick: () => void; isFeatured?: boolean }) {
   const isLive = live && (live.state === 'live' || live.state === 'halftime');
   const isFinished = live && live.state === 'finished';
   const hasEspn = !!live;
@@ -906,9 +1004,10 @@ function TimelineCard({ match, live, onClick }: { match: ScheduleMatch; live?: L
       style={{
         display: 'flex', alignItems: 'center', gap: '1rem',
         padding: '0.75rem 1rem',
-        background: isFinished ? 'rgba(100,116,139,0.04)' : 'rgba(255,255,255,0.02)',
+        background: isFeatured ? 'rgba(59,130,246,0.08)' : isFinished ? 'rgba(100,116,139,0.04)' : 'rgba(255,255,255,0.02)',
         borderRadius: '0.6rem',
-        border: isLive ? '1px solid rgba(239,68,68,0.25)'
+        border: isFeatured ? '1px solid rgba(59,130,246,0.35)'
+          : isLive ? '1px solid rgba(239,68,68,0.25)'
           : isFinished ? '1px solid rgba(100,116,139,0.2)'
           : '1px solid rgba(255,255,255,0.04)',
         cursor: 'pointer',
@@ -941,9 +1040,17 @@ function TimelineCard({ match, live, onClick }: { match: ScheduleMatch; live?: L
             </span>
           </div>
         ) : (
-          <span style={{ fontSize: 'var(--text-xs)', fontWeight: 700, color: '#fff' }}>
-            {match.time_bj}
-          </span>
+          <div>
+            <span style={{
+              fontSize: '9px', color: '#94a3b8', fontWeight: 600,
+              display: 'block',
+            }}>
+              未开始
+            </span>
+            <span style={{ fontSize: 'var(--text-xs)', fontWeight: 700, color: '#fff' }}>
+              {match.time_bj}
+            </span>
+          </div>
         )}
         {isLive && live?.clock && (
           <div style={{ fontSize: '10px', color: '#ef4444', marginTop: '0.15rem', fontWeight: 600 }}>
@@ -976,7 +1083,12 @@ function TimelineCard({ match, live, onClick }: { match: ScheduleMatch; live?: L
 
         {/* Right side info */}
         <div style={{ marginLeft: 'auto', display: 'flex', alignItems: 'center', gap: '0.4rem', flexShrink: 0 }}>
-          {hasEspn && isFinished && (
+          {hasEspn && live?.broadcast && (
+            <span style={{ fontSize: '9px', color: 'var(--text-muted)', fontWeight: 500 }}>
+              📺 {live.broadcast}
+            </span>
+          )}
+          {hasEspn && isFinished && !live?.broadcast && (
             <span style={{
               fontSize: '9px', color: '#64748b', fontWeight: 500,
               padding: '0.1rem 0.3rem', borderRadius: '0.2rem',

@@ -107,7 +107,7 @@ TEAM_NAMES_CN: Dict[str, str] = {
     "Portugal": "葡萄牙", "Germany": "德国", "Netherlands": "荷兰", "Switzerland": "瑞士",
     "Scotland": "苏格兰", "Spain": "西班牙", "Austria": "奥地利", "Belgium": "比利时",
     "Bosnia and Herzegovina": "波黑", "Bosnia-Herzegovina": "波黑", "Sweden": "瑞典",
-    "Turkey": "土耳其", "Czech Republic": "捷克", "Czechia": "捷克",
+    "Turkey": "土耳其", "Türkiye": "土耳其", "Czech Republic": "捷克", "Czechia": "捷克",
     "Argentina": "阿根廷", "Brazil": "巴西", "Colombia": "哥伦比亚", "Ecuador": "厄瓜多尔",
     "Paraguay": "巴拉圭", "Uruguay": "乌拉圭",
     "Australia": "澳大利亚", "Iran": "伊朗", "Japan": "日本", "Jordan": "约旦",
@@ -118,6 +118,13 @@ TEAM_NAMES_CN: Dict[str, str] = {
     "Senegal": "塞内加尔", "South Africa": "南非", "Tunisia": "突尼斯",
     "United States": "美国", "Mexico": "墨西哥", "Canada": "加拿大",
     "Panama": "巴拿马", "Haiti": "海地", "Curaçao": "库拉索", "New Zealand": "新西兰",
+}
+
+# ESPN display name -> schedule name overrides
+ESPN_NAME_OVERRIDE: Dict[str, str] = {
+    "Türkiye": "Turkey",
+    "Bosnia-Herzegovina": "Bosnia and Herzegovina",
+    "Czechia": "Czech Republic",
 }
 
 
@@ -153,9 +160,21 @@ class LiveMatchService:
         return live
 
     def get_today_matches(self) -> List[Dict]:
-        """Return today's matches (all statuses) for the schedule page."""
+        """Return today's matches (all statuses). Merges ESPN scoreboard with local persisted data."""
         sb = self.get_scoreboard()
-        return [self._simplify_match(ev) for ev in sb.get("events", [])]
+        espn_ids = set()
+        results = []
+        for ev in sb.get("events", []):
+            m = self._simplify_match(ev)
+            espn_ids.add(m["match_id"])
+            results.append(m)
+
+        # Supplement with locally persisted matches not in ESPN scoreboard
+        for local in self._scan_local_matches():
+            if local["match_id"] not in espn_ids:
+                results.append(local)
+
+        return results
 
     def get_match_detail(self, match_id: str) -> Optional[Dict]:
         """Get full match detail with Chinese labels. Checks local persistence first."""
@@ -184,21 +203,30 @@ class LiveMatchService:
         return re.sub(r'\s+', ' ', n).strip()
 
     def find_match_by_teams(self, home_team: str, away_team: str, date: str = None) -> Optional[str]:
-        """Find an ESPN match_id by matching home/away team names. Returns match_id or None."""
+        """Find an ESPN match_id by matching home/away team names. Returns match_id or None.
+        Searches ESPN scoreboard first, then falls back to locally persisted match files."""
+        # Search ESPN scoreboard (simplify raw events for consistent search)
         sb = self.get_scoreboard()
+        sb_simplified = [self._simplify_match(ev) for ev in sb.get("events", [])]
+        result = self._search_events_by_teams(sb_simplified, home_team, away_team, date)
+        if result:
+            return result
+
+        # Fallback: search local persisted match files
+        local_matches = self._scan_local_matches()
+        return self._search_events_by_teams(local_matches, home_team, away_team, date)
+
+    def _search_events_by_teams(self, events: List[Dict], home_team: str, away_team: str, date: str = None) -> Optional[str]:
+        """Search a list of simplified match events for matching team names."""
         h_norm = self._normalize_team(home_team)
         a_norm = self._normalize_team(away_team)
-        for ev in sb.get("events", []):
-            comps = ev.get("competitions", [])
-            teams = {}
-            for comp in comps:
-                for team in comp.get("competitors", []):
-                    side = team.get("homeAway", "unknown")
-                    t = team.get("team", {})
-                    teams[side] = t.get("displayName", t.get("abbreviation", ""))
-            h = self._normalize_team(teams.get("home", ""))
-            a = self._normalize_team(teams.get("away", ""))
-            ev_date = ev.get("date", "")[:10]
+        for ev in events:
+            h = self._normalize_team(ev.get("home_team", ""))
+            a = self._normalize_team(ev.get("away_team", ""))
+            # Skip events with empty team names (not yet populated)
+            if not h or not a:
+                continue
+            ev_date = (ev.get("date", "") or "")[:10]
             if (h == h_norm or h_norm in h or h in h_norm) and (a == a_norm or a_norm in a or a in a_norm):
                 if date and ev_date:
                     try:
@@ -209,13 +237,106 @@ class LiveMatchService:
                     except ValueError:
                         if ev_date != date:
                             continue
-                return str(ev.get("id", ""))
+                return str(ev.get("match_id", ev.get("id", "")))
         return None
 
     def get_team_roster(self, team_id: str) -> Optional[Dict]:
-        """Get full roster for a national team."""
+        """Get full roster for a national team, with Chinese labels and position grouping.
+        Uses local disk persistence as primary source, fetches from ESPN when stale."""
+        # Try local persistence first
+        local = self._load_roster(team_id)
+        if local and not self._roster_stale(team_id):
+            return local
+
+        # Fetch from ESPN
         key = f"roster_{team_id}"
-        return self._cached(key, ROSTER_TTL, lambda: self._fetch_roster(team_id))
+        raw = self._cached(key, ROSTER_TTL, lambda: self._fetch_roster(team_id))
+        if raw:
+            formatted = self._format_roster(raw)
+            self._save_roster(team_id, formatted)
+            return formatted
+
+        # Fallback to stale local data
+        if local:
+            return local
+        return None
+
+    def _roster_stale(self, team_id: str) -> bool:
+        path = DATA_DIR / f"roster_{team_id}.json"
+        if not path.exists():
+            return True
+        age = time.time() - path.stat().st_mtime
+        return age > ROSTER_TTL
+
+    def _load_roster(self, team_id: str) -> Optional[Dict]:
+        path = DATA_DIR / f"roster_{team_id}.json"
+        if not path.exists():
+            return None
+        try:
+            return json.loads(path.read_text(encoding="utf-8"))
+        except Exception as e:
+            logger.warning(f"Failed to load local roster {team_id}: {e}")
+            return None
+
+    def _save_roster(self, team_id: str, data: Dict):
+        path = DATA_DIR / f"roster_{team_id}.json"
+        try:
+            data["_saved_at"] = datetime.now().isoformat()
+            path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+        except Exception as e:
+            logger.warning(f"Failed to save roster {team_id}: {e}")
+
+    def _format_roster(self, raw: Dict) -> Dict:
+        """Format raw ESPN roster into structured data with Chinese labels."""
+        athletes = raw.get("athletes", [])
+
+        # Group by position category
+        position_groups = {"G": "门将", "D": "后卫", "M": "中场", "F": "前锋", "U": "未知"}
+        grouped = {"G": [], "D": [], "M": [], "F": [], "U": []}
+
+        for a in athletes:
+            pos = a.get("position", {})
+            abbr = pos.get("abbreviation", "U")
+            cat = abbr[0] if abbr and abbr[0] in "GDMF" else "U"
+            player = {
+                "id": str(a.get("id", "")),
+                "name": a.get("displayName", a.get("fullName", "")),
+                "short_name": a.get("shortName", ""),
+                "jersey": str(a.get("jersey", "")) if a.get("jersey") else "",
+                "position": abbr,
+                "position_name": pos.get("displayName", pos.get("name", "")),
+                "headshot": a.get("headshot", {}).get("href", "") if isinstance(a.get("headshot"), dict) else "",
+                "height": a.get("displayHeight", ""),
+                "weight": a.get("displayWeight", ""),
+                "age": a.get("age", 0),
+            }
+            grouped[cat].append(player)
+
+        # Sort each group by jersey number
+        for cat in grouped:
+            grouped[cat].sort(key=lambda p: int(p["jersey"]) if p["jersey"].isdigit() else 999)
+
+        # Coach
+        coach_raw = raw.get("coach", [])
+        coach_name = ""
+        if isinstance(coach_raw, list) and len(coach_raw) > 0:
+            c = coach_raw[0]
+            coach_name = c.get("displayName", c.get("fullName", ""))
+
+        # Team name
+        team_info = raw.get("team", {})
+        team_name = team_info.get("displayName", "")
+        team_name_cn = self._team_cn(team_name)
+
+        return {
+            "team_id": team_info.get("id", ""),
+            "team_name": team_name,
+            "team_name_cn": team_name_cn,
+            "coach": coach_name or f"{team_name_cn}主教练",
+            "players": grouped,
+            "total_players": len(athletes),
+            "position_labels": position_groups,
+        }
 
     # ── cache layer ───────────────────────────────────────────
 
@@ -253,6 +374,55 @@ class LiveMatchService:
             path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
         except Exception as e:
             logger.warning(f"Failed to save local match {match_id}: {e}")
+
+    # ── local match scanning ────────────────────────────────────
+
+    def _scan_local_matches(self) -> List[Dict]:
+        """Scan all persisted match files and return simplified summaries."""
+        matches = []
+        for path in sorted(DATA_DIR.glob("*.json")):
+            name = path.stem
+            if name.startswith("roster_"):
+                continue
+            try:
+                data = json.loads(path.read_text(encoding="utf-8"))
+                simplified = self._local_to_simplified(data)
+                if simplified:
+                    matches.append(simplified)
+            except Exception as e:
+                logger.warning(f"Failed to scan local match {name}: {e}")
+        return matches
+
+    def _local_to_simplified(self, local: Dict) -> Optional[Dict]:
+        """Convert a locally persisted match detail into simplified scoreboard format."""
+        status = local.get("status", {})
+        home = local.get("home", {})
+        away = local.get("away", {})
+        state = status.get("state", "scheduled")
+
+        home_name = ESPN_NAME_OVERRIDE.get(home.get("name", ""), home.get("name", ""))
+        away_name = ESPN_NAME_OVERRIDE.get(away.get("name", ""), away.get("name", ""))
+
+        return {
+            "match_id": str(local.get("match_id", "")),
+            "name": f"{home_name} vs {away_name}",
+            "date": local.get("date", ""),
+            "state": state,
+            "state_cn": STATUS_CN.get(state, state),
+            "status_detail": status.get("detail", ""),
+            "period": status.get("period", 0),
+            "clock": status.get("clock", ""),
+            "home_team": home_name,
+            "away_team": away_name,
+            "home_team_cn": self._team_cn(home_name),
+            "away_team_cn": self._team_cn(away_name),
+            "home_team_id": home.get("team_id", ""),
+            "away_team_id": away.get("team_id", ""),
+            "home_score": int(home.get("score", 0) or 0),
+            "away_score": int(away.get("score", 0) or 0),
+            "venue": local.get("venue", ""),
+            "broadcast": local.get("broadcast", ""),
+        }
 
     # ── ESPN fetchers ─────────────────────────────────────────
 
@@ -359,12 +529,14 @@ class LiveMatchService:
         teams = {}
         scores = {}
 
+        team_ids = {}
         for comp in comps:
             for team in comp.get("competitors", []):
                 side = team.get("homeAway", "unknown")
                 t = team.get("team", {})
                 teams[side] = t.get("displayName", t.get("abbreviation", "?"))
                 scores[side] = int(team.get("score", 0) or 0)
+                team_ids[side] = str(t.get("id", ""))
 
         detail = status.get("detail", "")
         status_name = status.get("name", "STATUS_SCHEDULED")
@@ -378,8 +550,8 @@ class LiveMatchService:
         elif status_name == "STATUS_END_OF_PERIOD":
             state = "live"
 
-        home_name = teams.get("home", "")
-        away_name = teams.get("away", "")
+        home_name = ESPN_NAME_OVERRIDE.get(teams.get("home", ""), teams.get("home", ""))
+        away_name = ESPN_NAME_OVERRIDE.get(teams.get("away", ""), teams.get("away", ""))
 
         return {
             "match_id": str(event.get("id", "")),
@@ -394,6 +566,8 @@ class LiveMatchService:
             "away_team": away_name,
             "home_team_cn": self._team_cn(home_name),
             "away_team_cn": self._team_cn(away_name),
+            "home_team_id": team_ids.get("home", ""),
+            "away_team_id": team_ids.get("away", ""),
             "home_score": scores.get("home", 0),
             "away_score": scores.get("away", 0),
             "venue": event.get("venue", {}).get("fullName", ""),
@@ -435,13 +609,26 @@ class LiveMatchService:
 
         stats = self._parse_stats(raw.get("boxscore", {}))
 
+        # Parse starting lineups from rosters
+        lineups = self._parse_rosters(raw.get("rosters", []))
+
+        # Extract match date from header
+        date = ""
+        for comp in header.get("competitions", []):
+            d = comp.get("date", "")
+            if d:
+                date = d[:10] if "T" in d else d[:10]
+                break
+
         return {
             "match_id": match_id,
+            "date": date,
             "status": status_info,
             "home": teams_info.get("home", {}),
             "away": teams_info.get("away", {}),
             "events": events,
             "statistics": stats,
+            "lineups": lineups,
         }
 
     def _state_name(self, name: str) -> str:
@@ -513,6 +700,49 @@ class LiveMatchService:
             "assist": assist_name,
             "text": ev_text,
         }
+
+    def _parse_rosters(self, rosters_raw: List[Dict]) -> Dict[str, Dict]:
+        """Parse ESPN rosters data into structured lineups with formation and starters."""
+        result: Dict[str, Dict] = {}
+        if not rosters_raw:
+            return result
+
+        for team_roster in rosters_raw:
+            side = team_roster.get("homeAway", "")
+            if side not in ("home", "away"):
+                continue
+
+            formation = team_roster.get("formation", "")
+            players = []
+            for entry in team_roster.get("roster", []):
+                athlete = entry.get("athlete", {})
+                pos = entry.get("position", {})
+                player = {
+                    "id": str(athlete.get("id", "")),
+                    "name": athlete.get("displayName", athlete.get("fullName", "")),
+                    "short_name": athlete.get("shortName", ""),
+                    "jersey": str(entry.get("jersey", "")) if entry.get("jersey") else "",
+                    "position": pos.get("abbreviation", ""),
+                    "position_name": pos.get("displayName", pos.get("name", "")),
+                    "starter": entry.get("starter", False),
+                    "formation_place": entry.get("formationPlace", 0),
+                    "active": entry.get("active", False),
+                }
+                players.append(player)
+
+            starters = sorted(
+                [p for p in players if p["starter"]],
+                key=lambda p: p.get("formation_place", 99) or 99,
+            )
+            substitutes = [p for p in players if not p["starter"] and p["active"]]
+
+            result[side] = {
+                "formation": formation,
+                "starters": starters,
+                "substitutes": substitutes,
+            }
+
+        return result
 
     def _parse_stats(self, boxscore: Dict) -> Dict[str, Dict[str, Any]]:
         """Parse boxscore statistics into home/away dicts."""

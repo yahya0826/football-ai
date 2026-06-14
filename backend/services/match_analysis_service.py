@@ -33,18 +33,18 @@ def _safe_num(val, default=0):
         return default
 
 
-def analyze_match(match_detail: Dict) -> Dict:
+def analyze_match(match_detail: Dict, home_team_id: str = "", away_team_id: str = "") -> Dict:
     """
-    Generate halftime or fulltime analysis.
+    Generate halftime or fulltime analysis, enriched with local roster and knowledge data.
 
     Returns:
         {
             "type": "halftime" | "fulltime" | "live",
-            "summary": str,           # 1-2 sentence overview
-            "analysis": str,          # Main analysis text (2-3 paragraphs)
-            "key_stats": List[str],   # 3-5 key stat highlights
-            "momentum": str,          # Current momentum assessment
-            "star_performers": List[str],  # Key players mentioned in events
+            "summary": str,
+            "analysis": str,
+            "key_stats": List[str],
+            "momentum": str,
+            "star_performers": List[str],
         }
     """
     status = match_detail.get("status", {})
@@ -59,12 +59,15 @@ def analyze_match(match_detail: Dict) -> Dict:
     home_score = home.get("score", 0)
     away_score = away.get("score", 0)
 
+    # Load local enrichment data
+    enrichment = _load_enrichment(home_team_id, away_team_id, home_name, away_name)
+
     if state == "halftime":
-        return _halftime_analysis(events, stats, home_name, away_name, home_score, away_score)
+        result = _halftime_analysis(events, stats, home_name, away_name, home_score, away_score)
     elif state == "finished":
-        return _fulltime_analysis(events, stats, home_name, away_name, home_score, away_score)
+        result = _fulltime_analysis(events, stats, home_name, away_name, home_score, away_score)
     elif state == "live":
-        return _live_analysis(events, stats, home_name, away_name, home_score, away_score)
+        result = _live_analysis(events, stats, home_name, away_name, home_score, away_score)
     else:
         return {
             "type": "scheduled",
@@ -74,6 +77,75 @@ def analyze_match(match_detail: Dict) -> Dict:
             "momentum": "",
             "star_performers": [],
         }
+
+    # Enrich with local data
+    if enrichment:
+        result = _enrich_analysis(result, enrichment, home_name, away_name)
+
+    return result
+
+
+def _load_enrichment(home_team_id: str, away_team_id: str, home_name: str, away_name: str) -> Optional[Dict]:
+    """Load local roster and knowledge data for analysis enrichment."""
+    enrichment = {"home_players": {}, "away_players": {}, "home_tactics": "", "away_tactics": ""}
+    try:
+        import json
+        from pathlib import Path
+        data_dir = Path(__file__).parent.parent / "data" / "live_matches"
+
+        # Load rosters
+        for tid, side in [(home_team_id, "home_players"), (away_team_id, "away_players")]:
+            if tid:
+                path = data_dir / f"roster_{tid}.json"
+                if path.exists():
+                    roster = json.loads(path.read_text(encoding="utf-8"))
+                    for cat in roster.get("players", {}).values():
+                        for p in cat:
+                            enrichment[side][p["name"].lower()] = p
+
+        # Load knowledge base team profiles
+        try:
+            from .knowledge_service import knowledge_service
+            for team_name, side in [(home_name, "home_tactics"), (away_name, "away_tactics")]:
+                profile = knowledge_service.get_team_profile(team_name)
+                if profile:
+                    style = profile.get("playing_style", "")
+                    form = profile.get("formation", profile.get("key_formation", ""))
+                    strength = ", ".join(profile.get("strengths", profile.get("strength", []))[:2]) if isinstance(profile.get("strengths"), list) else profile.get("strength", "")
+                    enrichment[side] = f"风格：{style}，常用阵型：{form}，优势：{strength}" if style else ""
+        except Exception:
+            pass
+
+        return enrichment if (enrichment["home_players"] or enrichment["away_players"]) else None
+    except Exception:
+        return None
+
+
+def _enrich_analysis(result: Dict, enrichment: Dict, home_name: str, away_name: str) -> Dict:
+    """Add local player context and tactical insight to analysis."""
+    analysis = result.get("analysis", "")
+
+    # Add tactical context if available
+    tactical_lines = []
+    if enrichment.get("home_tactics"):
+        tactical_lines.append(f"📊 {home_name}：{enrichment['home_tactics']}")
+    if enrichment.get("away_tactics"):
+        tactical_lines.append(f"📊 {away_name}：{enrichment['away_tactics']}")
+    if tactical_lines:
+        analysis = "\n\n".join(tactical_lines) + "\n\n" + analysis
+
+    # Enrich star performers with player details from roster
+    enriched_stars = []
+    for name in result.get("star_performers", []):
+        found = enrichment.get("home_players", {}).get(name.lower()) or enrichment.get("away_players", {}).get(name.lower())
+        if found:
+            enriched_stars.append(f"{found.get('short_name', name)} (#{found.get('jersey', '')} {found.get('position', '')})")
+        else:
+            enriched_stars.append(name)
+
+    result["analysis"] = analysis
+    result["star_performers"] = enriched_stars
+    return result
 
 
 def _get_event_summary(events: List[Dict], max_minute: float = 200) -> Dict:

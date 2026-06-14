@@ -24,6 +24,8 @@ const STAT_KEYS = [
   'possessionPct',
   'totalShots',
   'shotsOnTarget',
+  'shotPct',
+  'blockedShots',
   'wonCorners',
   'foulsCommitted',
   'yellowCards',
@@ -32,7 +34,10 @@ const STAT_KEYS = [
   'saves',
   'totalPasses',
   'passingPct',
-  'passPct',
+  'totalCrosses',
+  'totalTackles',
+  'interceptions',
+  'totalClearance',
 ];
 
 function EventItem({ ev }: { ev: LiveEvent }) {

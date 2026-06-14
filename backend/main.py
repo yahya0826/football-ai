@@ -61,33 +61,6 @@ app.mount("/static", StaticFiles(directory=str(static_dir)), name="static")
 
 # ==================== 请求/响应模型 ====================
 
-class PredictRequest(BaseModel):
-    home_team: str = Field(..., description="主队名称")
-    away_team: str = Field(..., description="客队名称")
-
-class ConfidenceInterval(BaseModel):
-    home: List[float]
-    draw: List[float]
-    away: List[float]
-
-class FeatureContribution(BaseModel):
-    feature: str
-    value: float
-    importance: float
-    contribution: float
-
-class PredictResponse(BaseModel):
-    home_team: str
-    away_team: str
-    home_win_prob: float
-    draw_prob: float
-    away_win_prob: float
-    home_elo: float
-    away_elo: float
-    confidence_interval: Optional[ConfidenceInterval] = None
-    data_quality: Optional[str] = None
-    top_features: Optional[List[FeatureContribution]] = None
-
 class MatchStats(BaseModel):
     match_id: int
     home_team: str
@@ -134,11 +107,6 @@ class CommentaryPreviewRequest(BaseModel):
     home_team: str = Field(..., description="主队名称")
     away_team: str = Field(..., description="客队名称")
 
-class PredictUpdateRequest(BaseModel):
-    home_team: str = Field(..., description="主队名称")
-    away_team: str = Field(..., description="客队名称")
-    home_score: int = Field(..., description="主队得分")
-    away_score: int = Field(..., description="客队得分")
 
 # ── 战术分析模型 ────────────────────────────────
 
@@ -335,45 +303,6 @@ async def get_match_detail(match_id: int):
 
     except HTTPException:
         raise
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
-
-# ==================== 预测路由 ====================
-
-@app.post("/api/predict", response_model=PredictResponse)
-async def predict_match(request: PredictRequest):
-    """预测比赛结果 V2 — 集成模型 + 置信区间 + 特征解释"""
-    try:
-        result = prediction_service.predict(request.home_team, request.away_team)
-
-        ci = result.get("confidence_interval", {})
-        top_feat = result.get("top_features", [])
-
-        return PredictResponse(
-            home_team=request.home_team,
-            away_team=request.away_team,
-            home_win_prob=result['home_win'],
-            draw_prob=result['draw'],
-            away_win_prob=result['away_win'],
-            home_elo=result['home_elo'],
-            away_elo=result['away_elo'],
-            confidence_interval=ConfidenceInterval(
-                home=ci.get("home", [0, 1]),
-                draw=ci.get("draw", [0, 1]),
-                away=ci.get("away", [0, 1]),
-            ) if ci else None,
-            data_quality=result.get("data_quality", "low"),
-            top_features=[FeatureContribution(**f) for f in top_feat] if top_feat else None,
-        )
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
-
-@app.post("/api/predict/update")
-async def update_prediction(request: PredictUpdateRequest):
-    """根据实际结果更新预测模型"""
-    try:
-        prediction_service.update_with_result(request.home_team, request.away_team, request.home_score, request.away_score)
-        return {"message": "预测模型已更新", "home_team": request.home_team, "away_team": request.away_team}
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
@@ -923,7 +852,9 @@ async def get_live_match_analysis(match_id: str):
         if not detail:
             raise HTTPException(status_code=404, detail=f"Match {match_id} not found")
 
-        analysis = analyze_match(detail)
+        home_team_id = detail.get("home", {}).get("team_id", "")
+        away_team_id = detail.get("away", {}).get("team_id", "")
+        analysis = analyze_match(detail, home_team_id, away_team_id)
         return {
             "match_id": match_id,
             "status": detail.get("status", {}),
@@ -931,8 +862,23 @@ async def get_live_match_analysis(match_id: str):
             "away": detail.get("away", {}),
             "events": detail.get("events", []),
             "statistics": detail.get("statistics", {}),
+            "lineups": detail.get("lineups", {}),
             "analysis": analysis,
         }
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.get("/api/live/roster/{team_id}")
+async def get_team_roster(team_id: str):
+    """获取球队完整阵容（按位置分组，含中文标签）"""
+    try:
+        roster = live_match_service.get_team_roster(team_id)
+        if not roster:
+            raise HTTPException(status_code=404, detail=f"Team {team_id} roster not found")
+        return roster
     except HTTPException:
         raise
     except Exception as e:
@@ -1725,7 +1671,7 @@ async def health_check():
         "status": "healthy",
         "services": {
             "data": "ok",
-            "prediction": "ok" if prediction_service.model else "no model",
+            "prediction": "disabled",
             "visualization": "ok",
             "knowledge": "ok" if knowledge_service.knowledge_data else "empty"
         }
@@ -1739,8 +1685,7 @@ async def get_stats():
         "total_matches": len(matches),
         "knowledge_count": len(knowledge_service.knowledge_data),
         "categories_count": len(knowledge_service.get_categories()),
-        "elo_teams": len(prediction_service.elo_ratings),
-        "model_loaded": prediction_service.model is not None
+        "elo_teams": len(prediction_service.elo_ratings)
     }
 
 # ==================== 球队板块路由 ====================

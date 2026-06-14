@@ -1,7 +1,7 @@
 {
   "team": "Panama",
   "total_players": 26,
-  "matched_count": 16,
+  "matched_count": 17,
   "players": [
     {
       "id": "luis-mej-a",
@@ -683,7 +683,41 @@
       "age": 0,
       "national_caps": 0,
       "national_goals": 0,
-      "stats": null
+      "stats": {
+        "appearances": 14,
+        "starts": 13,
+        "minutes": 1089,
+        "goals": 1,
+        "assists": 2,
+        "pk_scored": 0,
+        "pk_attempted": 0,
+        "shots": 5,
+        "shots_on_target": 2,
+        "yellow_cards": 1,
+        "red_cards": 0,
+        "fouls": 8,
+        "fouled": 3,
+        "offsides": 0,
+        "crosses": 62,
+        "tackles_won": 9,
+        "interceptions": 8,
+        "own_goals": 0,
+        "pk_won": 0,
+        "pk_conceded": 0,
+        "wins": 8,
+        "draws": 1,
+        "losses": 5,
+        "goals_p90": 0.08,
+        "assists_p90": 0.17,
+        "shots_p90": 0.41,
+        "tackles_p90": 0.74,
+        "shot_conversion": 20.0,
+        "shot_accuracy": 40.0,
+        "start_rate": 92.9,
+        "data_source": "desktop",
+        "has_real_data": true
+      },
+      "avatar": "/headshots/eric-davis.jpg"
     },
     {
       "id": "andr-s-andrade",

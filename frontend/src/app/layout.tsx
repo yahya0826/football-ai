@@ -4,7 +4,7 @@ import NavBar from "@/components/NavBar";
 
 export const metadata: Metadata = {
   title: "世界杯AI助手",
-  description: "足球比赛预测、AI解说、可视化分析与世界杯知识百库",
+  description: "AI解说、可视化分析与世界杯知识库",
 };
 
 function Footer() {
@@ -18,7 +18,6 @@ function Footer() {
             </p>
           </div>
           <div className="flex items-center gap-6">
-            <span className="badge badge-secondary">预测</span>
             <span className="badge badge-primary">解说</span>
             <span className="badge badge-accent">可视化</span>
           </div>
