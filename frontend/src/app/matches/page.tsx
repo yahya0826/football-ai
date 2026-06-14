@@ -157,22 +157,13 @@ export default function SchedulePage() {
     setAiHighlights(null);
     setLiveMatchId(null);
     setLiveLookupDone(false);
-
-    // Load schedule detail
     setDetailLoading(true);
-    try {
-      const detail = await api.getScheduleMatch(match.match_id);
-      setMatchDetail(detail);
-    } catch (err) {
-      console.error('Failed to load match detail:', err);
-    } finally {
-      setDetailLoading(false);
-    }
-
-    // Load AI highlights
     setHighlightsLoading(true);
-    try {
-      const hl = await api.getMatchHighlights(match.match_id, {
+
+    // Parallelize all 3 API calls — avoid sequential blocking
+    const [detailRes, hlRes, liveRes] = await Promise.allSettled([
+      api.getScheduleMatch(match.match_id),
+      api.getMatchHighlights(match.match_id, {
         home_team: match.home_team,
         away_team: match.away_team,
         home_team_cn: match.home_team_cn,
@@ -180,25 +171,24 @@ export default function SchedulePage() {
         group: match.group,
         stage: match.stage,
         venue: match.venue,
-      });
-      setAiHighlights(hl.highlights);
-    } catch (err) {
-      console.error('Failed to load highlights:', err);
-    } finally {
-      setHighlightsLoading(false);
-    }
+      }),
+      api.getLiveMatchLookup(match.home_team, match.away_team, match.date),
+    ]);
 
-    // Look up ESPN live match
-    try {
-      const res = await api.getLiveMatchLookup(match.home_team, match.away_team, match.date);
-      if (res.found && res.match_id) {
-        setLiveMatchId(res.match_id);
-      }
-    } catch (err) {
-      console.error('Live lookup failed:', err);
-    } finally {
-      setLiveLookupDone(true);
+    if (detailRes.status === 'fulfilled') {
+      setMatchDetail(detailRes.value);
     }
+    setDetailLoading(false);
+
+    if (hlRes.status === 'fulfilled') {
+      setAiHighlights(hlRes.value.highlights);
+    }
+    setHighlightsLoading(false);
+
+    if (liveRes.status === 'fulfilled' && liveRes.value.found && liveRes.value.match_id) {
+      setLiveMatchId(liveRes.value.match_id);
+    }
+    setLiveLookupDone(true);
   };
 
   if (loading) {

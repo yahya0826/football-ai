@@ -42,3 +42,6 @@ archive/
 # Raw data - not used by backend at runtime
 football-data/
 .netlify/
+
+# AI highlights cache
+backend/data/highlights_cache/

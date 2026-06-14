@@ -421,6 +421,7 @@ import json as json_lib
 
 # Load schedule data at startup
 _schedule_data = None
+HIGHLIGHTS_CACHE_DIR = Path(__file__).parent / "data" / "highlights_cache"
 
 def _load_schedule():
     global _schedule_data
@@ -430,6 +431,19 @@ def _load_schedule():
             with open(schedule_path, 'r', encoding='utf-8') as f:
                 _schedule_data = json_lib.load(f)
     return _schedule_data
+
+def _load_cached_highlights(match_id: int) -> Optional[str]:
+    """Load cached AI highlights for a match."""
+    cache_path = HIGHLIGHTS_CACHE_DIR / f"{match_id}.txt"
+    if cache_path.exists():
+        return cache_path.read_text(encoding="utf-8")
+    return None
+
+def _save_cached_highlights(match_id: int, highlights: str):
+    """Save AI highlights to local cache."""
+    HIGHLIGHTS_CACHE_DIR.mkdir(parents=True, exist_ok=True)
+    cache_path = HIGHLIGHTS_CACHE_DIR / f"{match_id}.txt"
+    cache_path.write_text(highlights, encoding="utf-8")
 
 class ScheduleMatchDetail(BaseModel):
     """赛程比赛详情模型"""
@@ -579,22 +593,27 @@ async def get_match_highlights(match_id: int, request: MatchHighlightsRequest):
     home_recent_summary = _format_recent_summary(home, home_recent)
     away_recent_summary = _format_recent_summary(away, away_recent)
 
-    home_style = home_profile.get('playing_style', '未知') if home_profile else '未知'
-    away_style = away_profile.get('playing_style', '未知') if away_profile else '未知'
-    home_strength = home_profile.get('strength', '') if home_profile else ''
-    away_strength = away_profile.get('strength', '') if away_profile else ''
+    # Check cache first — highlights don't change for a given match
+    ai_highlights = _load_cached_highlights(match_id)
 
-    # Try DeepSeek AI
-    ai_highlights = None
-    try:
-        import os
-        from openai import OpenAI
-        api_key = os.environ.get("DEEPSEEK_API_KEY", os.environ.get("OPENAI_API_KEY", ""))
-        if api_key:
-            client = OpenAI(api_key=api_key, base_url=os.environ.get("DEEPSEEK_BASE_URL", "https://api.deepseek.com"))
-            model = os.environ.get("AI_MODEL", "deepseek-chat")
+    if ai_highlights:
+        print(f"[Highlights] Cache hit for match #{match_id}")
+    else:
+        home_style = home_profile.get('playing_style', '未知') if home_profile else '未知'
+        away_style = away_profile.get('playing_style', '未知') if away_profile else '未知'
+        home_strength = home_profile.get('strength', '') if home_profile else ''
+        away_strength = away_profile.get('strength', '') if away_profile else ''
 
-            prompt = f"""你是2026世界杯的专业分析师。请为以下比赛生成3-5个赛前看点和关注点（用中文，每个看点1-2句话）：
+        # Try DeepSeek AI
+        try:
+            import os
+            from openai import OpenAI
+            api_key = os.environ.get("DEEPSEEK_API_KEY", os.environ.get("OPENAI_API_KEY", ""))
+            if api_key:
+                client = OpenAI(api_key=api_key, base_url=os.environ.get("DEEPSEEK_BASE_URL", "https://api.deepseek.com"))
+                model = os.environ.get("AI_MODEL", "deepseek-chat")
+
+                prompt = f"""你是2026世界杯的专业分析师。请为以下比赛生成3-5个赛前看点和关注点（用中文，每个看点1-2句话）：
 
 比赛：{home_cn}({home}) vs {away_cn}({away})
 阶段：{match.get('stage', '')} {'第'+str(match.get('round', ''))+'轮' if match.get('round') else ''}
@@ -618,19 +637,22 @@ async def get_match_highlights(match_id: int, request: MatchHighlightsRequest):
 
 直接以"比赛看点"开头，用中文数字编号，每个看点2-3句话，总字数300-400字。"""
 
-            response = client.chat.completions.create(
-                model=model,
-                messages=[{"role": "user", "content": prompt}],
-                temperature=0.7,
-                max_tokens=800
-            )
-            ai_highlights = response.choices[0].message.content
-    except Exception as e:
-        print(f"AI highlights generation failed: {e}")
+                response = client.chat.completions.create(
+                    model=model,
+                    messages=[{"role": "user", "content": prompt}],
+                    temperature=0.7,
+                    max_tokens=800
+                )
+                ai_highlights = response.choices[0].message.content
+                if ai_highlights:
+                    _save_cached_highlights(match_id, ai_highlights)
+                    print(f"[Highlights] Generated and cached for match #{match_id}")
+        except Exception as e:
+            print(f"AI highlights generation failed: {e}")
 
-    # Fallback
-    if not ai_highlights:
-        ai_highlights = _generate_fallback_highlights(home_cn, away_cn, h2h_data, home_recent, away_recent)
+        # Fallback
+        if not ai_highlights:
+            ai_highlights = _generate_fallback_highlights(home_cn, away_cn, h2h_data, home_recent, away_recent)
 
     return {
         "match_id": match_id,
@@ -647,6 +669,92 @@ async def get_match_highlights(match_id: int, request: MatchHighlightsRequest):
             "away": away_profile
         }
     }
+
+
+@app.get("/api/admin/pre-generate-highlights")
+async def pre_generate_highlights():
+    """后台批量预生成所有比赛的AI看点缓存。访问一次即可缓存全部比赛。"""
+    schedule = _load_schedule()
+    if not schedule:
+        raise HTTPException(status_code=500, detail="赛程数据未加载")
+
+    import os
+    from openai import OpenAI
+    api_key = os.environ.get("DEEPSEEK_API_KEY", os.environ.get("OPENAI_API_KEY", ""))
+    if not api_key:
+        raise HTTPException(status_code=500, detail="AI API key not configured")
+
+    client = OpenAI(api_key=api_key, base_url=os.environ.get("DEEPSEEK_BASE_URL", "https://api.deepseek.com"))
+    model = os.environ.get("AI_MODEL", "deepseek-chat")
+
+    matches = schedule['matches']
+    results = {"total": len(matches), "cached": 0, "generated": 0, "failed": 0, "details": []}
+
+    for match in matches:
+        mid = match['match_id']
+        home = match['home_team']
+        away = match['away_team']
+        home_cn = match.get('home_team_cn', home)
+        away_cn = match.get('away_team_cn', away)
+
+        # Skip if already cached
+        if _load_cached_highlights(mid):
+            results["cached"] += 1
+            continue
+
+        # Build context
+        h2h_data = _get_h2h_data(home, away)
+        home_recent = _get_recent_form(home)
+        away_recent = _get_recent_form(away)
+        home_profile = knowledge_service.get_team_profile(home)
+        away_profile = knowledge_service.get_team_profile(away)
+
+        h2h_summary = ""
+        if h2h_data:
+            h2h_summary = f"历史交锋{h2h_data.get('total_matches', 0)}场，{home}胜{h2h_data.get('home_wins', 0)}场，{away}胜{h2h_data.get('away_wins', 0)}场"
+
+        home_style = home_profile.get('playing_style', '未知') if home_profile else '未知'
+        away_style = away_profile.get('playing_style', '未知') if away_profile else '未知'
+
+        prompt = f"""你是2026世界杯的专业分析师。请为以下比赛生成3-5个赛前看点和关注点（用中文，每个看点1-2句话）：
+
+比赛：{home_cn}({home}) vs {away_cn}({away})
+阶段：{match.get('stage', '')} {'第'+str(match.get('round', ''))+'轮' if match.get('round') else ''}
+场地：{match.get('venue', '')}，{match.get('city', '')}
+小组：{match.get('group', 'N/A')}
+
+{h2h_summary}
+主队风格：{home_style}
+客队风格：{away_style}
+
+直接以"比赛看点"开头，用中文数字编号，每个看点2-3句话，总字数200-300字。"""
+
+        try:
+            response = client.chat.completions.create(
+                model=model,
+                messages=[{"role": "user", "content": prompt}],
+                temperature=0.7,
+                max_tokens=600
+            )
+            highlights = response.choices[0].message.content
+            if highlights:
+                _save_cached_highlights(mid, highlights)
+                results["generated"] += 1
+                results["details"].append({"match_id": mid, "status": "generated"})
+                print(f"[PreGen] #{mid} {home} vs {away} — done")
+            else:
+                results["failed"] += 1
+                results["details"].append({"match_id": mid, "status": "empty_response"})
+        except Exception as e:
+            results["failed"] += 1
+            results["details"].append({"match_id": mid, "status": str(e)[:100]})
+            print(f"[PreGen] #{mid} failed: {e}")
+
+        # Rate limit: 1 request per 2 seconds to avoid API throttling
+        import time
+        time.sleep(2)
+
+    return results
 
 def _get_h2h_data(home: str, away: str) -> Optional[Dict]:
     """从match_history.json获取两队历史对决"""
