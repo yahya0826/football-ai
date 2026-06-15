@@ -2,9 +2,15 @@
 AI解说服务 - 使用OpenAI API生成比赛解说
 """
 import os
-from typing import Dict, List, Optional
-from openai import OpenAI
 import json
+import time
+from typing import Dict, List, Optional
+from pathlib import Path
+from openai import OpenAI
+
+COMMENTARY_DIR = Path(__file__).parent.parent / "data" / "commentary"
+COMMENTARY_DIR.mkdir(parents=True, exist_ok=True)
+
 
 class CommentaryService:
     """AI比赛解说服务"""
@@ -44,6 +50,28 @@ class CommentaryService:
             self.client.base_url = os.environ.get("DEEPSEEK_BASE_URL", "https://api.deepseek.com")
         self.model = os.environ.get("AI_MODEL", "deepseek-chat")
 
+    # ── 持久化辅助 ────────────────────────────────────────────
+
+    def _load_commentary(self, match_id: str, ctype: str) -> Optional[str]:
+        """从文件加载已缓存的解说"""
+        path = COMMENTARY_DIR / f"{match_id}_{ctype}.txt"
+        if path.exists():
+            try:
+                return path.read_text(encoding="utf-8")
+            except Exception:
+                pass
+        return None
+
+    def _save_commentary(self, match_id: str, ctype: str, text: str):
+        """持久化解说文本到文件"""
+        if not match_id or not text:
+            return
+        path = COMMENTARY_DIR / f"{match_id}_{ctype}.txt"
+        try:
+            path.write_text(text, encoding="utf-8")
+        except Exception:
+            pass
+
     def _format_match_stats(self, stats: Dict) -> str:
         """格式化比赛统计数据"""
         formatted = []
@@ -78,10 +106,19 @@ class CommentaryService:
 
         return "\n".join(formatted)
 
-    def generate_match_commentary(self, stats: Dict, events: List[Dict], focus_team: Optional[str] = None) -> str:
+    def generate_match_commentary(self, stats: Dict, events: List[Dict], focus_team: Optional[str] = None,
+                                  match_id: str = "") -> str:
         """生成完整比赛解说"""
+        # 已结束比赛优先从缓存加载
+        if match_id and stats.get("is_finished"):
+            cached = self._load_commentary(match_id, "commentary")
+            if cached:
+                return cached
+
         if not self.client:
-            return self._generate_fallback_commentary(stats)
+            fallback = self._generate_fallback_commentary(stats)
+            if match_id: self._save_commentary(match_id, "commentary", fallback)
+            return fallback
 
         try:
             stats_text = self._format_match_stats(stats)
@@ -118,16 +155,27 @@ class CommentaryService:
                 max_tokens=1500
             )
 
-            return response.choices[0].message.content
+            result = response.choices[0].message.content
+            if match_id: self._save_commentary(match_id, "commentary", result)
+            return result
 
         except Exception as e:
             print(f"生成解说失败: {e}")
-            return self._generate_fallback_commentary(stats)
+            fallback = self._generate_fallback_commentary(stats)
+            if match_id: self._save_commentary(match_id, "commentary", fallback)
+            return fallback
 
-    def generate_tactical_analysis(self, stats: Dict) -> str:
+    def generate_tactical_analysis(self, stats: Dict, match_id: str = "") -> str:
         """生成战术分析"""
+        if match_id and stats.get("is_finished"):
+            cached = self._load_commentary(match_id, "tactical")
+            if cached:
+                return cached
+
         if not self.client:
-            return self._generate_fallback_tactical(stats)
+            fallback = self._generate_fallback_tactical(stats)
+            if match_id: self._save_commentary(match_id, "tactical", fallback)
+            return fallback
 
         try:
             stats_text = self._format_match_stats(stats)
@@ -157,16 +205,27 @@ class CommentaryService:
                 max_tokens=800
             )
 
-            return response.choices[0].message.content
+            result = response.choices[0].message.content
+            if match_id: self._save_commentary(match_id, "tactical", result)
+            return result
 
         except Exception as e:
             print(f"生成战术分析失败: {e}")
-            return self._generate_fallback_tactical(stats)
+            fallback = self._generate_fallback_tactical(stats)
+            if match_id: self._save_commentary(match_id, "tactical", fallback)
+            return fallback
 
-    def generate_player_ratings(self, stats: Dict) -> str:
+    def generate_player_ratings(self, stats: Dict, match_id: str = "") -> str:
         """生成球员评分和评语"""
+        if match_id and stats.get("is_finished"):
+            cached = self._load_commentary(match_id, "ratings")
+            if cached:
+                return cached
+
         if not self.client:
-            return self._generate_fallback_ratings(stats)
+            fallback = self._generate_fallback_ratings(stats)
+            if match_id: self._save_commentary(match_id, "ratings", fallback)
+            return fallback
 
         try:
             stats_text = self._format_match_stats(stats)
@@ -195,17 +254,30 @@ class CommentaryService:
                 max_tokens=600
             )
 
-            return response.choices[0].message.content
+            result = response.choices[0].message.content
+            if match_id: self._save_commentary(match_id, "ratings", result)
+            return result
 
         except Exception as e:
             print(f"生成球员评分失败: {e}")
-            return self._generate_fallback_ratings(stats)
+            fallback = self._generate_fallback_ratings(stats)
+            if match_id: self._save_commentary(match_id, "ratings", fallback)
+            return fallback
 
     def generate_prematch_preview(self, home_team: str, away_team: str, home_elo: float, away_elo: float,
-                                   home_recent: List[str], away_recent: List[str]) -> str:
+                                   home_recent: List[str], away_recent: List[str],
+                                   match_id: str = "") -> str:
         """生成赛前前瞻"""
+        # 赛前前瞻可缓存（赛前数据不变）
+        if match_id:
+            cached = self._load_commentary(match_id, "preview")
+            if cached:
+                return cached
+
         if not self.client:
-            return self._generate_fallback_preview(home_team, away_team, home_elo, away_elo)
+            fallback = self._generate_fallback_preview(home_team, away_team, home_elo, away_elo)
+            if match_id: self._save_commentary(match_id, "preview", fallback)
+            return fallback
 
         try:
             user_prompt = f"""
@@ -237,11 +309,15 @@ class CommentaryService:
                 max_tokens=800
             )
 
-            return response.choices[0].message.content
+            result = response.choices[0].message.content
+            if match_id: self._save_commentary(match_id, "preview", result)
+            return result
 
         except Exception as e:
             print(f"生成赛前前瞻失败: {e}")
-            return self._generate_fallback_preview(home_team, away_team, home_elo, away_elo)
+            fallback = self._generate_fallback_preview(home_team, away_team, home_elo, away_elo)
+            if match_id: self._save_commentary(match_id, "preview", fallback)
+            return fallback
 
     def _generate_fallback_commentary(self, stats: Dict) -> str:
         """备用解说（当API不可用时）"""

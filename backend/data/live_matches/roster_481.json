@@ -1,0 +1,338 @@
+{
+  "team_id": "481",
+  "team_name": "Germany",
+  "team_name_cn": "德国",
+  "coach": "德国主教练",
+  "players": {
+    "G": [
+      {
+        "id": "84774",
+        "name": "Manuel Neuer",
+        "short_name": "M. Neuer",
+        "jersey": "1",
+        "position": "G",
+        "position_name": "Goalkeeper",
+        "headshot": "",
+        "height": "6' 4\"",
+        "weight": "203 lbs",
+        "age": 40
+      },
+      {
+        "id": "138213",
+        "name": "Oliver Baumann",
+        "short_name": "O. Baumann",
+        "jersey": "12",
+        "position": "G",
+        "position_name": "Goalkeeper",
+        "headshot": "",
+        "height": "6' 2\"",
+        "weight": "181 lbs",
+        "age": 36
+      },
+      {
+        "id": "205750",
+        "name": "Alexander Nübel",
+        "short_name": "A. Nübel",
+        "jersey": "21",
+        "position": "G",
+        "position_name": "Goalkeeper",
+        "headshot": "",
+        "height": "6' 4\"",
+        "weight": "190 lbs",
+        "age": 29
+      }
+    ],
+    "D": [
+      {
+        "id": "169438",
+        "name": "Antonio Rüdiger",
+        "short_name": "A. Rüdiger",
+        "jersey": "2",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 3\"",
+        "weight": "185 lbs",
+        "age": 33
+      },
+      {
+        "id": "220714",
+        "name": "Waldemar Anton",
+        "short_name": "W. Anton",
+        "jersey": "3",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 2\"",
+        "weight": "190 lbs",
+        "age": 29
+      },
+      {
+        "id": "188052",
+        "name": "Jonathan Tah",
+        "short_name": "J. Tah",
+        "jersey": "4",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 5\"",
+        "weight": "205 lbs",
+        "age": 30
+      },
+      {
+        "id": "286828",
+        "name": "Nico Schlotterbeck",
+        "short_name": "N. Schlotterbeck",
+        "jersey": "15",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 3\"",
+        "weight": "190 lbs",
+        "age": 26
+      },
+      {
+        "id": "120829",
+        "name": "Nathaniel Brown",
+        "short_name": "N. Brown",
+        "jersey": "18",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "5' 9\"",
+        "weight": "148 lbs",
+        "age": 22
+      },
+      {
+        "id": "249548",
+        "name": "David Raum",
+        "short_name": "D. Raum",
+        "jersey": "22",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "5' 11\"",
+        "weight": "163 lbs",
+        "age": 28
+      },
+      {
+        "id": "303444",
+        "name": "Malick Thiaw",
+        "short_name": "M. Thiaw",
+        "jersey": "24",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 4\"",
+        "weight": "190 lbs",
+        "age": 24
+      }
+    ],
+    "M": [
+      {
+        "id": "359370",
+        "name": "Aleksandar Pavlovic",
+        "short_name": "A. Pavlovic",
+        "jersey": "5",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "6' 2\"",
+        "weight": "172 lbs",
+        "age": 22
+      },
+      {
+        "id": "190161",
+        "name": "Joshua Kimmich",
+        "short_name": "J. Kimmich",
+        "jersey": "6",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "5' 10\"",
+        "weight": "163 lbs",
+        "age": 31
+      },
+      {
+        "id": "174550",
+        "name": "Leon Goretzka",
+        "short_name": "L. Goretzka",
+        "jersey": "8",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "6' 2\"",
+        "weight": "181 lbs",
+        "age": 31
+      },
+      {
+        "id": "303821",
+        "name": "Jamal Musiala",
+        "short_name": "J. Musiala",
+        "jersey": "10",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "6' 1\"",
+        "weight": "163 lbs",
+        "age": 23
+      },
+      {
+        "id": "132659",
+        "name": "Pascal Gross",
+        "short_name": "P. Gross",
+        "jersey": "13",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "5' 11\"",
+        "weight": "172 lbs",
+        "age": 35
+      },
+      {
+        "id": "290232",
+        "name": "Angelo Stiller",
+        "short_name": "A. Stiller",
+        "jersey": "16",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "6' 0\"",
+        "weight": "170 lbs",
+        "age": 25
+      },
+      {
+        "id": "303748",
+        "name": "Florian Wirtz",
+        "short_name": "F. Wirtz",
+        "jersey": "17",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "5' 9\"",
+        "weight": "161 lbs",
+        "age": 23
+      },
+      {
+        "id": "210818",
+        "name": "Nadiem Amiri",
+        "short_name": "N. Amiri",
+        "jersey": "20",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "5' 11\"",
+        "weight": "163 lbs",
+        "age": 29
+      },
+      {
+        "id": "281122",
+        "name": "Felix Nmecha",
+        "short_name": "F. Nmecha",
+        "jersey": "23",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "6' 3\"",
+        "weight": "161 lbs",
+        "age": 25
+      },
+      {
+        "id": "364897",
+        "name": "Assan Ouédraogo",
+        "short_name": "A. Ouédraogo",
+        "jersey": "25",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "6' 3\"",
+        "weight": "183 lbs",
+        "age": 20
+      }
+    ],
+    "F": [
+      {
+        "id": "231182",
+        "name": "Kai Havertz",
+        "short_name": "K. Havertz",
+        "jersey": "7",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "6' 4\"",
+        "weight": "183 lbs",
+        "age": 27
+      },
+      {
+        "id": "290811",
+        "name": "Jamie Leweling",
+        "short_name": "J. Leweling",
+        "jersey": "9",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "6' 1\"",
+        "weight": "190 lbs",
+        "age": 25
+      },
+      {
+        "id": "298349",
+        "name": "Nick Woltemade",
+        "short_name": "N. Woltemade",
+        "jersey": "11",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "6' 6\"",
+        "weight": "196 lbs",
+        "age": 24
+      },
+      {
+        "id": "290639",
+        "name": "Maximilian Beier",
+        "short_name": "M. Beier",
+        "jersey": "14",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "6' 0\"",
+        "weight": "159 lbs",
+        "age": 23
+      },
+      {
+        "id": "202641",
+        "name": "Leroy Sané",
+        "short_name": "L. Sané",
+        "jersey": "19",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "6' 0\"",
+        "weight": "174 lbs",
+        "age": 30
+      },
+      {
+        "id": "273300",
+        "name": "Deniz Undav",
+        "short_name": "D. Undav",
+        "jersey": "26",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "5' 10\"",
+        "weight": "190 lbs",
+        "age": 29
+      }
+    ],
+    "U": []
+  },
+  "total_players": 26,
+  "position_labels": {
+    "G": "门将",
+    "D": "后卫",
+    "M": "中场",
+    "F": "前锋",
+    "U": "未知"
+  },
+  "_saved_at": "2026-06-15T22:47:49.259698"
+}

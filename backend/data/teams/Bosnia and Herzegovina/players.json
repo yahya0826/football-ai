@@ -65,7 +65,8 @@
         "xa_p90": 0.0,
         "key_passes_p90": 0.0
       },
-      "avatar": "/headshots/nikola-vasilj.jpg"
+      "avatar": "/headshots/nikola-vasilj.jpg",
+      "name_cn": "尼古拉·瓦西里"
     },
     {
       "id": "nihad-mujaki",
@@ -126,7 +127,8 @@
         "xa_p90": 0.02,
         "key_passes_p90": 0.24
       },
-      "avatar": "/headshots/nihad-mujaki.jpg"
+      "avatar": "/headshots/nihad-mujaki.jpg",
+      "name_cn": "尼哈德·穆亚基奇"
     },
     {
       "id": "dennis-had-ikaduni",
@@ -187,7 +189,8 @@
         "xa_p90": 0.03,
         "key_passes_p90": 0.45
       },
-      "avatar": "/headshots/dennis-had-ikaduni.jpg"
+      "avatar": "/headshots/dennis-had-ikaduni.jpg",
+      "name_cn": "丹尼斯·哈迪卡杜尼克"
     },
     {
       "id": "tarik-muharemovi",
@@ -248,7 +251,8 @@
         "xa_p90": 0.01,
         "key_passes_p90": 0.16
       },
-      "avatar": "/headshots/tarik-muharemovi.jpg"
+      "avatar": "/headshots/tarik-muharemovi.jpg",
+      "name_cn": "塔里克·穆哈雷莫维奇"
     },
     {
       "id": "sead-kola-inac",
@@ -309,7 +313,8 @@
         "xa_p90": 0.02,
         "key_passes_p90": 0.0
       },
-      "avatar": "/headshots/sead-kola-inac.jpg"
+      "avatar": "/headshots/sead-kola-inac.jpg",
+      "name_cn": "塞亚德·科拉希纳茨"
     },
     {
       "id": "benjamin-tahirovi",
@@ -355,7 +360,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/benjamin-tahirovi.jpg"
+      "avatar": "/headshots/benjamin-tahirovi.jpg",
+      "name_cn": "本亚明·塔希罗维奇"
     },
     {
       "id": "amar-dedi",
@@ -416,7 +422,8 @@
         "xa_p90": 0.17,
         "key_passes_p90": 1.13
       },
-      "avatar": "/headshots/amar-dedi.jpg"
+      "avatar": "/headshots/amar-dedi.jpg",
+      "name_cn": "阿马尔·德蒂奇"
     },
     {
       "id": "armin-gigovi",
@@ -462,7 +469,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/armin-gigovi.jpg"
+      "avatar": "/headshots/armin-gigovi.jpg",
+      "name_cn": "阿尔明·吉戈维奇"
     },
     {
       "id": "samed-ba-dar",
@@ -508,7 +516,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/samed-ba-dar.jpg"
+      "avatar": "/headshots/samed-ba-dar.jpg",
+      "name_cn": "萨梅德·巴日达尔"
     },
     {
       "id": "ermedin-demirovi",
@@ -569,7 +578,8 @@
         "xa_p90": 0.12,
         "key_passes_p90": 1.02
       },
-      "avatar": "/headshots/ermedin-demirovi.jpg"
+      "avatar": "/headshots/ermedin-demirovi.jpg",
+      "name_cn": "埃尔梅丁·德米罗维奇"
     },
     {
       "id": "edin-d-eko",
@@ -630,7 +640,8 @@
         "xa_p90": 0.3,
         "key_passes_p90": 2.4
       },
-      "avatar": "/headshots/edin-d-eko.jpg"
+      "avatar": "/headshots/edin-d-eko.jpg",
+      "name_cn": "埃丁·哲科"
     },
     {
       "id": "mladen-jurkas",
@@ -688,7 +699,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/ivan-ba-i.jpg"
+      "avatar": "/headshots/ivan-ba-i.jpg",
+      "name_cn": "伊万·巴希奇"
     },
     {
       "id": "ivan--unji",
@@ -734,7 +746,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/ivan--unji.jpg"
+      "avatar": "/headshots/ivan--unji.jpg",
+      "name_cn": "伊万·舒尼奇"
     },
     {
       "id": "amar-memi",
@@ -780,7 +793,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/amar-memi.jpg"
+      "avatar": "/headshots/amar-memi.jpg",
+      "name_cn": "阿马尔·梅米奇"
     },
     {
       "id": "amir-had-iahmetovi",
@@ -826,7 +840,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/amir-had-iahmetovi.jpg"
+      "avatar": "/headshots/amir-had-iahmetovi.jpg",
+      "name_cn": "阿米尔·哈吉艾哈迈托维奇"
     },
     {
       "id": "d-enis-burni",
@@ -887,7 +902,8 @@
         "xa_p90": 0.07,
         "key_passes_p90": 0.52
       },
-      "avatar": "/headshots/d-enis-burni.jpg"
+      "avatar": "/headshots/d-enis-burni.jpg",
+      "name_cn": "泽尼斯·布尔尼奇"
     },
     {
       "id": "nikola-kati",
@@ -948,7 +964,8 @@
         "xa_p90": 0.05,
         "key_passes_p90": 0.24
       },
-      "avatar": "/headshots/nikola-kati.jpg"
+      "avatar": "/headshots/nikola-kati.jpg",
+      "name_cn": "尼克拉·卡蒂奇"
     },
     {
       "id": "kerim-alajbegovi",
@@ -994,7 +1011,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/kerim-alajbegovi.jpg"
+      "avatar": "/headshots/kerim-alajbegovi.jpg",
+      "name_cn": "克里姆·阿拉伊贝戈维奇"
     },
     {
       "id": "esmir-bajraktarevi",
@@ -1055,7 +1073,8 @@
         "xa_p90": 0.28,
         "key_passes_p90": 1.86
       },
-      "avatar": "/headshots/esmir-bajraktarevi.jpg"
+      "avatar": "/headshots/esmir-bajraktarevi.jpg",
+      "name_cn": "埃斯米尔·巴里亚克塔雷维奇"
     },
     {
       "id": "stjepan-radelji",
@@ -1101,7 +1120,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/stjepan-radelji.jpg"
+      "avatar": "/headshots/stjepan-radelji.jpg",
+      "name_cn": "斯捷潘·拉德里季奇"
     },
     {
       "id": "martin-zlomisli",
@@ -1152,7 +1172,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/martin-zlomisli.jpg"
+      "avatar": "/headshots/martin-zlomisli.jpg",
+      "name_cn": "马丁·兹洛米斯利奇"
     },
     {
       "id": "haris-tabakovi",
@@ -1213,7 +1234,8 @@
         "xa_p90": 0.03,
         "key_passes_p90": 0.6
       },
-      "avatar": "/headshots/haris-tabakovi.jpg"
+      "avatar": "/headshots/haris-tabakovi.jpg",
+      "name_cn": "哈里斯·塔巴科维奇"
     },
     {
       "id": "nidal--elik",
@@ -1259,7 +1281,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/nidal--elik.jpg"
+      "avatar": "/headshots/nidal--elik.jpg",
+      "name_cn": "尼达尔·切利克"
     },
     {
       "id": "jovo-luki",
@@ -1320,7 +1343,8 @@
         "xa_p90": 0.08,
         "key_passes_p90": 1.38
       },
-      "avatar": "/headshots/jovo-luki.jpg"
+      "avatar": "/headshots/jovo-luki.jpg",
+      "name_cn": "约沃·卢基奇"
     },
     {
       "id": "ermin-mahmi",
@@ -1366,7 +1390,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/ermin-mahmi.jpg"
+      "avatar": "/headshots/ermin-mahmi.jpg",
+      "name_cn": "埃尔明·马赫米奇"
     }
   ]
 }

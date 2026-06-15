@@ -11,7 +11,8 @@
       "club": "Guadalajara",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "劳尔·兰赫尔"
     },
     {
       "id": "jorge-s-nchez",
@@ -22,7 +23,8 @@
       "club": "PAOK",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "豪尔赫·桑切斯"
     },
     {
       "id": "c-sar-montes",
@@ -33,7 +35,8 @@
       "club": "Lokomotiv Moscow",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "塞萨尔·蒙特斯"
     },
     {
       "id": "edson--lvarez",
@@ -44,7 +47,8 @@
       "club": "Fenerbahçe",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "埃德松·阿尔瓦雷斯"
     },
     {
       "id": "johan-v-squez",
@@ -55,7 +59,8 @@
       "club": "Genoa",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "约翰·巴斯克斯"
     },
     {
       "id": "rik-lira",
@@ -66,7 +71,8 @@
       "club": "Cruz Azul",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "埃里克·利拉"
     },
     {
       "id": "luis-romo",
@@ -77,7 +83,8 @@
       "club": "Guadalajara",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "路易斯·罗莫"
     },
     {
       "id": "lvaro-fidalgo",
@@ -88,7 +95,8 @@
       "club": "Real Betis",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "阿尔瓦罗·菲达尔戈"
     },
     {
       "id": "ra-l-jim-nez",
@@ -99,7 +107,8 @@
       "club": "Fulham",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "劳尔·希门尼斯"
     },
     {
       "id": "alexis-vega",
@@ -110,7 +119,8 @@
       "club": "Toluca",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "亚历克西斯·维加"
     },
     {
       "id": "santiago-gim-nez",
@@ -121,7 +131,8 @@
       "club": "Milan",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "圣地亚哥·希门尼斯"
     },
     {
       "id": "carlos-acevedo",
@@ -132,7 +143,8 @@
       "club": "Santos Laguna",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "卡洛斯·阿塞韦多"
     },
     {
       "id": "guillermo-ochoa",
@@ -143,7 +155,8 @@
       "club": "AEL Limassol",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "吉列尔莫·奥乔亚"
     },
     {
       "id": "armando-gonz-lez",
@@ -154,7 +167,8 @@
       "club": "Guadalajara",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "阿曼多·冈萨雷斯"
     },
     {
       "id": "israel-reyes",
@@ -165,7 +179,8 @@
       "club": "América",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "伊斯雷尔·雷耶斯"
     },
     {
       "id": "juli-n-qui-ones",
@@ -176,7 +191,8 @@
       "club": "Al-Qadsiah",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "胡利安·基尼奥内斯"
     },
     {
       "id": "orbel-n-pineda",
@@ -187,7 +203,8 @@
       "club": "AEK Athens",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "奥韦林·皮内达"
     },
     {
       "id": "obed-vargas",
@@ -198,7 +215,8 @@
       "club": "Atlético Madrid",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "奥贝德·巴尔加斯"
     },
     {
       "id": "gilberto-mora",
@@ -209,7 +227,8 @@
       "club": "Tijuana",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "吉尔伯托·莫拉"
     },
     {
       "id": "mateo-ch-vez",
@@ -220,7 +239,8 @@
       "club": "AZ",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "马特奥·查韦斯"
     },
     {
       "id": "c-sar-huerta",
@@ -231,7 +251,8 @@
       "club": "Anderlecht",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "塞萨尔·韦尔塔"
     },
     {
       "id": "guillermo-mart-nez",
@@ -242,7 +263,8 @@
       "club": "Pumas UNAM",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "吉列尔莫·马丁内斯"
     },
     {
       "id": "jes-s-gallardo",
@@ -253,7 +275,8 @@
       "club": "Toluca",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "赫苏斯·加利亚多"
     },
     {
       "id": "luis-ch-vez",
@@ -264,7 +287,8 @@
       "club": "Dynamo Moscow",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "路易斯·查韦斯"
     },
     {
       "id": "roberto-alvarado",
@@ -275,7 +299,8 @@
       "club": "Guadalajara",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "罗伯托·阿尔瓦拉多"
     },
     {
       "id": "brian-guti-rrez",
@@ -286,7 +311,8 @@
       "club": "Guadalajara",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "布莱恩·古铁雷斯"
     }
   ]
 }

@@ -1,0 +1,338 @@
+{
+  "team_id": "465",
+  "team_name": "Türkiye",
+  "team_name_cn": "土耳其",
+  "coach": "土耳其主教练",
+  "players": {
+    "G": [
+      {
+        "id": "124880",
+        "name": "Mert Günok",
+        "short_name": "M. Günok",
+        "jersey": "1",
+        "position": "G",
+        "position_name": "Goalkeeper",
+        "headshot": "",
+        "height": "6' 5\"",
+        "weight": "203 lbs",
+        "age": 37
+      },
+      {
+        "id": "274272",
+        "name": "Altay Bayindir",
+        "short_name": "A. Bayindir",
+        "jersey": "12",
+        "position": "G",
+        "position_name": "Goalkeeper",
+        "headshot": "",
+        "height": "6' 6\"",
+        "weight": "192 lbs",
+        "age": 28
+      },
+      {
+        "id": "222922",
+        "name": "Ugurcan Çakir",
+        "short_name": "U. Çakir",
+        "jersey": "23",
+        "position": "G",
+        "position_name": "Goalkeeper",
+        "headshot": "",
+        "height": "6' 3\"",
+        "weight": "185 lbs",
+        "age": 30
+      }
+    ],
+    "D": [
+      {
+        "id": "271873",
+        "name": "Zeki Çelik",
+        "short_name": "Z. Çelik",
+        "jersey": "2",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "5' 11\"",
+        "weight": "172 lbs",
+        "age": 29
+      },
+      {
+        "id": "267178",
+        "name": "Merih Demiral",
+        "short_name": "M. Demiral",
+        "jersey": "3",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 3\"",
+        "weight": "190 lbs",
+        "age": 28
+      },
+      {
+        "id": "230757",
+        "name": "Çaglar Söyüncü",
+        "short_name": "Ç. Söyüncü",
+        "jersey": "4",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 1\"",
+        "weight": "192 lbs",
+        "age": 30
+      },
+      {
+        "id": "287678",
+        "name": "Eren Elmali",
+        "short_name": "E. Elmali",
+        "jersey": "13",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "5' 11\"",
+        "weight": "170 lbs",
+        "age": 25
+      },
+      {
+        "id": "193149",
+        "name": "Abdülkerim Bardakçi",
+        "short_name": "A. Bardakçi",
+        "jersey": "14",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 1\"",
+        "weight": "201 lbs",
+        "age": 31
+      },
+      {
+        "id": "266565",
+        "name": "Ozan Kabak",
+        "short_name": "O. Kabak",
+        "jersey": "15",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 2\"",
+        "weight": "190 lbs",
+        "age": 26
+      },
+      {
+        "id": "266002",
+        "name": "Mert Müldür",
+        "short_name": "M. Müldür",
+        "jersey": "18",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 0\"",
+        "weight": "161 lbs",
+        "age": 27
+      },
+      {
+        "id": "238318",
+        "name": "Ferdi Kadioglu",
+        "short_name": "F. Kadioglu",
+        "jersey": "20",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "5' 9\"",
+        "weight": "150 lbs",
+        "age": 26
+      },
+      {
+        "id": "159146",
+        "name": "Kaan Ayhan",
+        "short_name": "K. Ayhan",
+        "jersey": "22",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 1\"",
+        "weight": "192 lbs",
+        "age": 31
+      },
+      {
+        "id": "322807",
+        "name": "Samet Akaydin",
+        "short_name": "S. Akaydin",
+        "jersey": "25",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 3\"",
+        "weight": "183 lbs",
+        "age": 32
+      }
+    ],
+    "M": [
+      {
+        "id": "225563",
+        "name": "Salih Özcan",
+        "short_name": "S. Özcan",
+        "jersey": "5",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "6' 0\"",
+        "weight": "179 lbs",
+        "age": 28
+      },
+      {
+        "id": "272700",
+        "name": "Orkun Kökçü",
+        "short_name": "O. Kökçü",
+        "jersey": "6",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/272700.png",
+        "height": "5' 9\"",
+        "weight": "181 lbs",
+        "age": 25
+      },
+      {
+        "id": "310452",
+        "name": "Arda Güler",
+        "short_name": "A. Güler",
+        "jersey": "8",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "5' 9\"",
+        "weight": "148 lbs",
+        "age": 21
+      },
+      {
+        "id": "170785",
+        "name": "Hakan Çalhanoglu",
+        "short_name": "H. Çalhanoglu",
+        "jersey": "10",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "5' 10\"",
+        "weight": "168 lbs",
+        "age": 32
+      },
+      {
+        "id": "305629",
+        "name": "Ismail Yüksek",
+        "short_name": "I. Yüksek",
+        "jersey": "16",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "6' 0\"",
+        "weight": "163 lbs",
+        "age": 27
+      },
+      {
+        "id": "211923",
+        "name": "Irfan Can Kahveci",
+        "short_name": "I. Kahveci",
+        "jersey": "17",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "5' 11\"",
+        "weight": "172 lbs",
+        "age": 30
+      },
+      {
+        "id": "355369",
+        "name": "Can Uzun",
+        "short_name": "C. Uzun",
+        "jersey": "26",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "6' 1\"",
+        "weight": "183 lbs",
+        "age": 20
+      }
+    ],
+    "F": [
+      {
+        "id": "306789",
+        "name": "Kerem Aktürkoglu",
+        "short_name": "K. Aktürkoglu",
+        "jersey": "7",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "5' 8\"",
+        "weight": "150 lbs",
+        "age": 27
+      },
+      {
+        "id": "350513",
+        "name": "Deniz Gül",
+        "short_name": "D. Gül",
+        "jersey": "9",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "6' 3\"",
+        "weight": "181 lbs",
+        "age": 21
+      },
+      {
+        "id": "366509",
+        "name": "Kenan Yildiz",
+        "short_name": "K. Yildiz",
+        "jersey": "11",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "6' 2\"",
+        "weight": "170 lbs",
+        "age": 21
+      },
+      {
+        "id": "266575",
+        "name": "Yunus Akgün",
+        "short_name": "Y. Akgün",
+        "jersey": "19",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "5' 8\"",
+        "weight": "159 lbs",
+        "age": 25
+      },
+      {
+        "id": "322538",
+        "name": "Baris Alper Yilmaz",
+        "short_name": "B. Yilmaz",
+        "jersey": "21",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "6' 1\"",
+        "weight": "190 lbs",
+        "age": 26
+      },
+      {
+        "id": "322813",
+        "name": "Oguz Aydin",
+        "short_name": "O. Aydin",
+        "jersey": "24",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "6' 0\"",
+        "weight": "168 lbs",
+        "age": 25
+      }
+    ],
+    "U": []
+  },
+  "total_players": 26,
+  "position_labels": {
+    "G": "门将",
+    "D": "后卫",
+    "M": "中场",
+    "F": "前锋",
+    "U": "未知"
+  },
+  "_saved_at": "2026-06-15T14:26:19.400255"
+}

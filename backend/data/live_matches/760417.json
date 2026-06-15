@@ -1,18 +1,19 @@
 {
   "match_id": "760417",
+  "date": "2026-06-13",
   "status": {
-    "state": "scheduled",
-    "detail": "21'",
+    "state": "finished",
+    "detail": "FT",
     "period": 0,
     "clock": "",
-    "completed": false,
-    "state_cn": "未开始"
+    "completed": true,
+    "state_cn": "已结束"
   },
   "home": {
     "name": "United States",
     "abbrev": "USA",
     "logo": "",
-    "score": 1,
+    "score": 4,
     "team_id": "660",
     "name_cn": "美国"
   },
@@ -20,7 +21,7 @@
     "name": "Paraguay",
     "abbrev": "PAR",
     "logo": "",
-    "score": 0,
+    "score": 1,
     "team_id": "210",
     "name_cn": "巴拉圭"
   },
@@ -55,14 +56,287 @@
       "type": "yellow_card",
       "minute": "10'",
       "team": "Paraguay",
-      "player": "Juan Cáceres Yellow Card",
+      "player": "Juan Jose Cáceres Yellow Card",
       "player_in": "",
       "player_out": "",
       "assist": "",
       "text": "Juan José Cáceres (Paraguay) is shown the yellow card for a bad foul.",
       "type_cn": "黄牌",
       "team_cn": "巴拉圭",
-      "description_cn": "10'' Juan Cáceres Yellow Card（巴拉圭）吃到黄牌 🟨"
+      "description_cn": "10'' Juan Jose Cáceres Yellow Card（巴拉圭）吃到黄牌 🟨"
+    },
+    {
+      "type": "goal",
+      "minute": "31'",
+      "team": "United States",
+      "player": "Folarin Balogun Goal",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Goal! USA 2, Paraguay 0. Folarin Balogun (USA) right footed shot from the centre of the box to the bottom right corner. Assisted by Christian Pulisic.",
+      "type_cn": "进球",
+      "team_cn": "美国",
+      "description_cn": "31'' Folarin Balogun Goal 为美国进球！"
+    },
+    {
+      "type": "goal",
+      "minute": "45'+5'",
+      "team": "United States",
+      "player": "Folarin Balogun Goal",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Goal! USA 3, Paraguay 0. Folarin Balogun (USA) left footed shot from the centre of the box to the top left corner. Assisted by Malik Tillman.",
+      "type_cn": "进球",
+      "team_cn": "美国",
+      "description_cn": "45'+5'' Folarin Balogun Goal 为美国进球！"
+    },
+    {
+      "type": "halftime",
+      "minute": "45'+6'",
+      "team": "",
+      "player": "",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "",
+      "type_cn": "中场休息",
+      "team_cn": "",
+      "description_cn": "中场休息 ⏸️"
+    },
+    {
+      "type": "substitution",
+      "minute": "45'",
+      "team": "Paraguay",
+      "player": "Maurício Substitution",
+      "player_in": "Maurício",
+      "player_out": "Damián Bobadilla",
+      "assist": "",
+      "text": "Substitution, Paraguay. Mauricio replaces Damián Bobadilla.",
+      "type_cn": "换人",
+      "team_cn": "巴拉圭",
+      "description_cn": "45'' Maurício ↑ 替补登场，Damián Bobadilla ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "45'",
+      "team": "United States",
+      "player": "Sebastian Berhalter Substitution",
+      "player_in": "Sebastian Berhalter",
+      "player_out": "Christian Pulisic",
+      "assist": "",
+      "text": "Substitution, USA. Sebastian Berhalter replaces Christian Pulisic.",
+      "type_cn": "换人",
+      "team_cn": "美国",
+      "description_cn": "45'' Sebastian Berhalter ↑ 替补登场，Christian Pulisic ↓ 被换下"
+    },
+    {
+      "type": "fulltime",
+      "minute": "45'",
+      "team": "",
+      "player": "",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Second Half begins USA 3, Paraguay 0.",
+      "type_cn": "全场结束",
+      "team_cn": "",
+      "description_cn": "全场比赛结束 🏁"
+    },
+    {
+      "type": "yellow_card",
+      "minute": "53'",
+      "team": "Paraguay",
+      "player": "Miguel Almirón Yellow Card",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Miguel Almirón (Paraguay) is shown the yellow card.",
+      "type_cn": "黄牌",
+      "team_cn": "巴拉圭",
+      "description_cn": "53'' Miguel Almirón Yellow Card（巴拉圭）吃到黄牌 🟨"
+    },
+    {
+      "type": "yellow_card",
+      "minute": "59'",
+      "team": "United States",
+      "player": "Tyler Adams Yellow Card",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Tyler Adams (USA) is shown the yellow card for a bad foul.",
+      "type_cn": "黄牌",
+      "team_cn": "美国",
+      "description_cn": "59'' Tyler Adams Yellow Card（美国）吃到黄牌 🟨"
+    },
+    {
+      "type": "substitution",
+      "minute": "62'",
+      "team": "Paraguay",
+      "player": "Alex Arce Substitution",
+      "player_in": "Alex Arce",
+      "player_out": "Antonio Sanabria",
+      "assist": "",
+      "text": "Substitution, Paraguay. Álex Arce replaces Antonio Sanabria.",
+      "type_cn": "换人",
+      "team_cn": "巴拉圭",
+      "description_cn": "62'' Alex Arce ↑ 替补登场，Antonio Sanabria ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "72'",
+      "team": "United States",
+      "player": "Timothy Weah Substitution",
+      "player_in": "Timothy Weah",
+      "player_out": "Sergiño Dest",
+      "assist": "",
+      "text": "Substitution, USA. Timothy Weah replaces Sergiño Dest.",
+      "type_cn": "换人",
+      "team_cn": "美国",
+      "description_cn": "72'' Timothy Weah ↑ 替补登场，Sergiño Dest ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "72'",
+      "team": "United States",
+      "player": "Ricardo Pepi Substitution",
+      "player_in": "Ricardo Pepi",
+      "player_out": "Folarin Balogun",
+      "assist": "",
+      "text": "Substitution, USA. Ricardo Pepi replaces Folarin Balogun.",
+      "type_cn": "换人",
+      "team_cn": "美国",
+      "description_cn": "72'' Ricardo Pepi ↑ 替补登场，Folarin Balogun ↓ 被换下"
+    },
+    {
+      "type": "goal",
+      "minute": "73'",
+      "team": "Paraguay",
+      "player": "Maurício Goal",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Goal! USA 3, Paraguay 1. Mauricio (Paraguay) left footed shot from the centre of the box to the bottom right corner. Assisted by Julio Enciso following a set piece situation.",
+      "type_cn": "进球",
+      "team_cn": "巴拉圭",
+      "description_cn": "73'' Maurício Goal 为巴拉圭进球！"
+    },
+    {
+      "type": "yellow_card",
+      "minute": "79'",
+      "team": "Paraguay",
+      "player": "Diego Gómez Yellow Card",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Diego Gómez (Paraguay) is shown the yellow card for a bad foul.",
+      "type_cn": "黄牌",
+      "team_cn": "巴拉圭",
+      "description_cn": "79'' Diego Gómez Yellow Card（巴拉圭）吃到黄牌 🟨"
+    },
+    {
+      "type": "substitution",
+      "minute": "79'",
+      "team": "Paraguay",
+      "player": "Ramón Sosa Substitution",
+      "player_in": "Ramón Sosa",
+      "player_out": "Miguel Almirón",
+      "assist": "",
+      "text": "Substitution, Paraguay. Ramón Sosa replaces Miguel Almirón.",
+      "type_cn": "换人",
+      "team_cn": "巴拉圭",
+      "description_cn": "79'' Ramón Sosa ↑ 替补登场，Miguel Almirón ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "79'",
+      "team": "Paraguay",
+      "player": "Gustavo Velázquez Substitution",
+      "player_in": "Gustavo Velázquez",
+      "player_out": "Juan Jose Cáceres",
+      "assist": "",
+      "text": "Substitution, Paraguay. Gustavo Velázquez replaces Juan José Cáceres.",
+      "type_cn": "换人",
+      "team_cn": "巴拉圭",
+      "description_cn": "79'' Gustavo Velázquez ↑ 替补登场，Juan Jose Cáceres ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "80'",
+      "team": "Paraguay",
+      "player": "Alejandro Romero Gamarra Substit",
+      "player_in": "Alejandro Romero Gamarra",
+      "player_out": "Diego Gómez",
+      "assist": "",
+      "text": "Substitution, Paraguay. Alejandro Romero replaces Diego Gómez.",
+      "type_cn": "换人",
+      "team_cn": "巴拉圭",
+      "description_cn": "80'' Alejandro Romero Gamarra ↑ 替补登场，Diego Gómez ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "82'",
+      "team": "United States",
+      "player": "Giovanni Reyna Substitution",
+      "player_in": "Giovanni Reyna",
+      "player_out": "Malik Tillman",
+      "assist": "",
+      "text": "Substitution, USA. Giovanni Reyna replaces Malik Tillman.",
+      "type_cn": "换人",
+      "team_cn": "美国",
+      "description_cn": "82'' Giovanni Reyna ↑ 替补登场，Malik Tillman ↓ 被换下"
+    },
+    {
+      "type": "yellow_card",
+      "minute": "88'",
+      "team": "Paraguay",
+      "player": "Alex Arce Yellow Card",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Álex Arce (Paraguay) is shown the yellow card for a bad foul.",
+      "type_cn": "黄牌",
+      "team_cn": "巴拉圭",
+      "description_cn": "88'' Alex Arce Yellow Card（巴拉圭）吃到黄牌 🟨"
+    },
+    {
+      "type": "yellow_card",
+      "minute": "90'+3'",
+      "team": "Paraguay",
+      "player": "Júnior Alonso Yellow Card",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Júnior Alonso (Paraguay) is shown the yellow card for a bad foul.",
+      "type_cn": "黄牌",
+      "team_cn": "巴拉圭",
+      "description_cn": "90'+3'' Júnior Alonso Yellow Card（巴拉圭）吃到黄牌 🟨"
+    },
+    {
+      "type": "goal",
+      "minute": "90'+8'",
+      "team": "United States",
+      "player": "Giovanni Reyna Goal",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Goal! USA 4, Paraguay 1. Giovanni Reyna (USA) right footed shot from the centre of the box to the bottom left corner. Assisted by Alex Freeman.",
+      "type_cn": "进球",
+      "team_cn": "美国",
+      "description_cn": "90'+8'' Giovanni Reyna Goal 为美国进球！"
+    },
+    {
+      "type": "83",
+      "minute": "90'+9'",
+      "team": "",
+      "player": "",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "",
+      "type_cn": "83",
+      "team_cn": "",
+      "description_cn": ""
     }
   ],
   "statistics": {
@@ -71,12 +345,12 @@
       "stats": {
         "foulsCommitted": {
           "label": "Fouls",
-          "value": "2",
+          "value": "13",
           "label_cn": "犯规"
         },
         "yellowCards": {
           "label": "Yellow Cards",
-          "value": "0",
+          "value": "1",
           "label_cn": "黄牌"
         },
         "redCards": {
@@ -86,12 +360,12 @@
         },
         "offsides": {
           "label": "Offsides",
-          "value": "1",
+          "value": "2",
           "label_cn": "越位"
         },
         "wonCorners": {
           "label": "Corner Kicks",
-          "value": "1",
+          "value": "3",
           "label_cn": "角球"
         },
         "saves": {
@@ -100,23 +374,23 @@
           "label_cn": "扑救"
         },
         "possessionPct": {
-          "label": "POSSESSION",
-          "value": "69.8",
+          "label": "Possession",
+          "value": "65.3",
           "label_cn": "控球率"
         },
         "totalShots": {
           "label": "SHOTS",
-          "value": "1",
+          "value": "16",
           "label_cn": "总射门"
         },
         "shotsOnTarget": {
           "label": "ON GOAL",
-          "value": "1",
+          "value": "6",
           "label_cn": "射正"
         },
         "shotPct": {
           "label": "On Target %",
-          "value": "1.0",
+          "value": "0.4",
           "label_cn": "射正率"
         },
         "penaltyKickGoals": {
@@ -131,12 +405,12 @@
         },
         "accuratePasses": {
           "label": "Accurate Passes",
-          "value": "100",
+          "value": "509",
           "label_cn": "精准传球"
         },
         "totalPasses": {
           "label": "Passes",
-          "value": "114",
+          "value": "598",
           "label_cn": "传球"
         },
         "passPct": {
@@ -146,67 +420,67 @@
         },
         "accurateCrosses": {
           "label": "Accurate Crosses",
-          "value": "1",
+          "value": "3",
           "label_cn": "精准传中"
         },
         "totalCrosses": {
           "label": "Crosses",
-          "value": "4",
+          "value": "19",
           "label_cn": "传中"
         },
         "crossPct": {
           "label": "Cross %",
-          "value": "0.0",
+          "value": "0.2",
           "label_cn": "传中成功率"
         },
         "totalLongBalls": {
           "label": "Long Balls",
-          "value": "5",
+          "value": "48",
           "label_cn": "长传"
         },
         "accurateLongBalls": {
           "label": "Accurate Long Balls",
-          "value": "4",
+          "value": "26",
           "label_cn": "精准长传"
         },
         "longballPct": {
           "label": "Long Balls %",
-          "value": "0.8",
+          "value": "0.5",
           "label_cn": "长传成功率"
         },
         "blockedShots": {
           "label": "Blocked Shots",
-          "value": "0",
+          "value": "4",
           "label_cn": "封堵射门"
         },
         "effectiveTackles": {
           "label": "Effective Tackles",
-          "value": "2",
+          "value": "7",
           "label_cn": "有效抢断"
         },
         "totalTackles": {
           "label": "Tackles",
-          "value": "2",
+          "value": "9",
           "label_cn": "抢断"
         },
         "tacklePct": {
           "label": "Tackle %",
-          "value": "1.0",
+          "value": "0.8",
           "label_cn": "抢断成功率"
         },
         "interceptions": {
           "label": "Interceptions",
-          "value": "3",
+          "value": "9",
           "label_cn": "拦截"
         },
         "effectiveClearance": {
           "label": "Effective Clearances",
-          "value": "10",
+          "value": "15",
           "label_cn": "有效解围"
         },
         "totalClearance": {
           "label": "Clearances",
-          "value": "10",
+          "value": "15",
           "label_cn": "解围"
         }
       },
@@ -217,12 +491,12 @@
       "stats": {
         "foulsCommitted": {
           "label": "Fouls",
-          "value": "4",
+          "value": "17",
           "label_cn": "犯规"
         },
         "yellowCards": {
           "label": "Yellow Cards",
-          "value": "1",
+          "value": "5",
           "label_cn": "黄牌"
         },
         "redCards": {
@@ -232,27 +506,27 @@
         },
         "offsides": {
           "label": "Offsides",
-          "value": "0",
+          "value": "1",
           "label_cn": "越位"
         },
         "wonCorners": {
           "label": "Corner Kicks",
-          "value": "0",
+          "value": "1",
           "label_cn": "角球"
         },
         "saves": {
           "label": "Saves",
-          "value": "1",
+          "value": "3",
           "label_cn": "扑救"
         },
         "possessionPct": {
-          "label": "POSSESSION",
-          "value": "30.2",
+          "label": "Possession",
+          "value": "34.7",
           "label_cn": "控球率"
         },
         "totalShots": {
           "label": "SHOTS",
-          "value": "2",
+          "value": "9",
           "label_cn": "总射门"
         },
         "shotsOnTarget": {
@@ -262,7 +536,7 @@
         },
         "shotPct": {
           "label": "On Target %",
-          "value": "0.5",
+          "value": "0.1",
           "label_cn": "射正率"
         },
         "penaltyKickGoals": {
@@ -277,12 +551,12 @@
         },
         "accuratePasses": {
           "label": "Accurate Passes",
-          "value": "32",
+          "value": "232",
           "label_cn": "精准传球"
         },
         "totalPasses": {
           "label": "Passes",
-          "value": "47",
+          "value": "319",
           "label_cn": "传球"
         },
         "passPct": {
@@ -292,12 +566,12 @@
         },
         "accurateCrosses": {
           "label": "Accurate Crosses",
-          "value": "0",
+          "value": "1",
           "label_cn": "精准传中"
         },
         "totalCrosses": {
           "label": "Crosses",
-          "value": "3",
+          "value": "5",
           "label_cn": "传中"
         },
         "crossPct": {
@@ -307,57 +581,646 @@
         },
         "totalLongBalls": {
           "label": "Long Balls",
-          "value": "11",
+          "value": "59",
           "label_cn": "长传"
         },
         "accurateLongBalls": {
           "label": "Accurate Long Balls",
-          "value": "6",
+          "value": "20",
           "label_cn": "精准长传"
         },
         "longballPct": {
           "label": "Long Balls %",
-          "value": "0.5",
+          "value": "0.3",
           "label_cn": "长传成功率"
         },
         "blockedShots": {
           "label": "Blocked Shots",
-          "value": "0",
+          "value": "5",
           "label_cn": "封堵射门"
         },
         "effectiveTackles": {
           "label": "Effective Tackles",
-          "value": "3",
+          "value": "16",
           "label_cn": "有效抢断"
         },
         "totalTackles": {
           "label": "Tackles",
-          "value": "7",
+          "value": "21",
           "label_cn": "抢断"
         },
         "tacklePct": {
           "label": "Tackle %",
-          "value": "0.4",
+          "value": "0.8",
           "label_cn": "抢断成功率"
         },
         "interceptions": {
           "label": "Interceptions",
-          "value": "1",
+          "value": "10",
           "label_cn": "拦截"
         },
         "effectiveClearance": {
           "label": "Effective Clearances",
-          "value": "6",
+          "value": "33",
           "label_cn": "有效解围"
         },
         "totalClearance": {
           "label": "Clearances",
-          "value": "6",
+          "value": "33",
           "label_cn": "解围"
         }
       },
       "team_name_cn": "巴拉圭"
     }
   },
-  "_saved_at": "2026-06-13T09:26:07.451321"
+  "lineups": {
+    "home": {
+      "formation": "4-2-3-1",
+      "starters": [
+        {
+          "id": "252974",
+          "name": "Matt Freese",
+          "short_name": "M. Freese",
+          "jersey": "24",
+          "position": "G",
+          "position_name": "Goalkeeper",
+          "starter": true,
+          "formation_place": "1",
+          "active": true
+        },
+        {
+          "id": "256715",
+          "name": "Weston McKennie",
+          "short_name": "W. McKennie",
+          "jersey": "8",
+          "position": "M",
+          "position_name": "Attacking Midfielder",
+          "starter": true,
+          "formation_place": "10",
+          "active": true
+        },
+        {
+          "id": "225607",
+          "name": "Christian Pulisic",
+          "short_name": "C. Pulisic",
+          "jersey": "10",
+          "position": "M",
+          "position_name": "Attacking Midfielder Left",
+          "starter": true,
+          "formation_place": "11",
+          "active": true
+        },
+        {
+          "id": "248276",
+          "name": "Alex Freeman",
+          "short_name": "A. Freeman",
+          "jersey": "16",
+          "position": "D",
+          "position_name": "Right Back",
+          "starter": true,
+          "formation_place": "2",
+          "active": true
+        },
+        {
+          "id": "222396",
+          "name": "Antonee Robinson",
+          "short_name": "A. Robinson",
+          "jersey": "5",
+          "position": "D",
+          "position_name": "Left Back",
+          "starter": true,
+          "formation_place": "3",
+          "active": true
+        },
+        {
+          "id": "301416",
+          "name": "Malik Tillman",
+          "short_name": "M. Tillman",
+          "jersey": "17",
+          "position": "M",
+          "position_name": "Left Midfielder",
+          "starter": true,
+          "formation_place": "4",
+          "active": true
+        },
+        {
+          "id": "272585",
+          "name": "Chris Richards",
+          "short_name": "C. Richards",
+          "jersey": "3",
+          "position": "D",
+          "position_name": "Center Right Defender",
+          "starter": true,
+          "formation_place": "5",
+          "active": true
+        },
+        {
+          "id": "146290",
+          "name": "Tim Ream",
+          "short_name": "T. Ream",
+          "jersey": "13",
+          "position": "D",
+          "position_name": "Center Left Defender",
+          "starter": true,
+          "formation_place": "6",
+          "active": true
+        },
+        {
+          "id": "266291",
+          "name": "Sergiño Dest",
+          "short_name": "S. Dest",
+          "jersey": "2",
+          "position": "M",
+          "position_name": "Attacking Midfielder Right",
+          "starter": true,
+          "formation_place": "7",
+          "active": true
+        },
+        {
+          "id": "222776",
+          "name": "Tyler Adams",
+          "short_name": "T. Adams",
+          "jersey": "4",
+          "position": "M",
+          "position_name": "Right Midfielder",
+          "starter": true,
+          "formation_place": "8",
+          "active": true
+        },
+        {
+          "id": "282643",
+          "name": "Folarin Balogun",
+          "short_name": "F. Balogun",
+          "jersey": "20",
+          "position": "F",
+          "position_name": "Forward",
+          "starter": true,
+          "formation_place": "9",
+          "active": true
+        }
+      ],
+      "substitutes": [
+        {
+          "id": "212824",
+          "name": "Alejandro Zendejas",
+          "short_name": "A. Zendejas",
+          "jersey": "26",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "295771",
+          "name": "Sebastian Berhalter",
+          "short_name": "S. Berhalter",
+          "jersey": "14",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "289120",
+          "name": "Ricardo Pepi",
+          "short_name": "R. Pepi",
+          "jersey": "9",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "216617",
+          "name": "Cristian Roldan",
+          "short_name": "C. Roldan",
+          "jersey": "15",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "77072",
+          "name": "Mark McKenzie",
+          "short_name": "M. McKenzie",
+          "jersey": "22",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "272135",
+          "name": "Joe Scally",
+          "short_name": "J. Scally",
+          "jersey": "23",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "359542",
+          "name": "Max Arfsten",
+          "short_name": "M. Arfsten",
+          "jersey": "18",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "303794",
+          "name": "Matt Turner",
+          "short_name": "M. Turner",
+          "jersey": "1",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "220474",
+          "name": "Haji Wright",
+          "short_name": "H. Wright",
+          "jersey": "19",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "303693",
+          "name": "Chris Brady",
+          "short_name": "C. Brady",
+          "jersey": "25",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "259653",
+          "name": "Brenden Aaronson",
+          "short_name": "B. Aaronson",
+          "jersey": "11",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "290230",
+          "name": "Giovanni Reyna",
+          "short_name": "G. Reyna",
+          "jersey": "7",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "266027",
+          "name": "Timothy Weah",
+          "short_name": "T. Weah",
+          "jersey": "21",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "249768",
+          "name": "Miles Robinson",
+          "short_name": "M. Robinson",
+          "jersey": "12",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "228619",
+          "name": "Auston Trusty",
+          "short_name": "A. Trusty",
+          "jersey": "6",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-4-2",
+      "starters": [
+        {
+          "id": "301648",
+          "name": "Orlando Gil",
+          "short_name": "O. Gil",
+          "jersey": "12",
+          "position": "G",
+          "position_name": "Goalkeeper",
+          "starter": true,
+          "formation_place": "1",
+          "active": true
+        },
+        {
+          "id": "192162",
+          "name": "Antonio Sanabria",
+          "short_name": "A. Sanabria",
+          "jersey": "9",
+          "position": "F",
+          "position_name": "Center Right Forward",
+          "starter": true,
+          "formation_place": "10",
+          "active": true
+        },
+        {
+          "id": "48128",
+          "name": "Miguel Almirón",
+          "short_name": "M. Almirón",
+          "jersey": "10",
+          "position": "M",
+          "position_name": "Left Midfielder",
+          "starter": true,
+          "formation_place": "11",
+          "active": true
+        },
+        {
+          "id": "84295",
+          "name": "Juan Jose Cáceres",
+          "short_name": "J. Cáceres",
+          "jersey": "4",
+          "position": "D",
+          "position_name": "Right Back",
+          "starter": true,
+          "formation_place": "2",
+          "active": true
+        },
+        {
+          "id": "181657",
+          "name": "Júnior Alonso",
+          "short_name": "J. Alonso",
+          "jersey": "6",
+          "position": "D",
+          "position_name": "Left Back",
+          "starter": true,
+          "formation_place": "3",
+          "active": true
+        },
+        {
+          "id": "202501",
+          "name": "Andrés Cubas",
+          "short_name": "A. Cubas",
+          "jersey": "14",
+          "position": "M",
+          "position_name": "Center Right Midfielder",
+          "starter": true,
+          "formation_place": "4",
+          "active": true
+        },
+        {
+          "id": "118395",
+          "name": "Gustavo Gómez",
+          "short_name": "G. Gómez",
+          "jersey": "15",
+          "position": "D",
+          "position_name": "Center Right Defender",
+          "starter": true,
+          "formation_place": "5",
+          "active": true
+        },
+        {
+          "id": "215401",
+          "name": "Omar Alderete",
+          "short_name": "O. Alderete",
+          "jersey": "3",
+          "position": "D",
+          "position_name": "Center Left Defender",
+          "starter": true,
+          "formation_place": "6",
+          "active": true
+        },
+        {
+          "id": "192278",
+          "name": "Diego Gómez",
+          "short_name": "D. Gómez",
+          "jersey": "8",
+          "position": "M",
+          "position_name": "Right Midfielder",
+          "starter": true,
+          "formation_place": "7",
+          "active": true
+        },
+        {
+          "id": "301516",
+          "name": "Damián Bobadilla",
+          "short_name": "D. Bobadilla",
+          "jersey": "16",
+          "position": "M",
+          "position_name": "Center Left Midfielder",
+          "starter": true,
+          "formation_place": "8",
+          "active": true
+        },
+        {
+          "id": "20975",
+          "name": "Julio Enciso",
+          "short_name": "J. Enciso",
+          "jersey": "19",
+          "position": "F",
+          "position_name": "Center Left Forward",
+          "starter": true,
+          "formation_place": "9",
+          "active": true
+        }
+      ],
+      "substitutes": [
+        {
+          "id": "257754",
+          "name": "Alex Arce",
+          "short_name": "A. Arce",
+          "jersey": "18",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "227682",
+          "name": "José Canale",
+          "short_name": "J. Canale",
+          "jersey": "13",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "208421",
+          "name": "Gabriel Ávalos",
+          "short_name": "G. Ávalos",
+          "jersey": "21",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "399687",
+          "name": "Alexandro Maidana",
+          "short_name": "A. Maidana",
+          "jersey": "26",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "154853",
+          "name": "Gustavo Caballero",
+          "short_name": "G. Caballero",
+          "jersey": "24",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "188160",
+          "name": "Alejandro Romero Gamarra",
+          "short_name": "A. Romero Gamarra",
+          "jersey": "17",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "265977",
+          "name": "Braian Ojeda",
+          "short_name": "B. Ojeda",
+          "jersey": "20",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "190375",
+          "name": "Gastón Olveira",
+          "short_name": "G. Olveira",
+          "jersey": "22",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "164262",
+          "name": "Gatito Fernández",
+          "short_name": "G. Fernández",
+          "jersey": "1",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "287035",
+          "name": "Isidro Pitta",
+          "short_name": "I. Pitta",
+          "jersey": "25",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "199101",
+          "name": "Fabián Balbuena",
+          "short_name": "F. Balbuena",
+          "jersey": "5",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "297328",
+          "name": "Matías Galarza",
+          "short_name": "M. Galarza",
+          "jersey": "23",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "301653",
+          "name": "Ramón Sosa",
+          "short_name": "R. Sosa",
+          "jersey": "7",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "289046",
+          "name": "Maurício",
+          "short_name": "Maurício",
+          "jersey": "11",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "119413",
+          "name": "Gustavo Velázquez",
+          "short_name": "G. Velázquez",
+          "jersey": "2",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        }
+      ]
+    }
+  },
+  "competition_id": "760417",
+  "_saved_at": "2026-06-15T16:49:24.907860"
 }

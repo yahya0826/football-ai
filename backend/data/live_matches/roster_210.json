@@ -1,0 +1,338 @@
+{
+  "team_id": "210",
+  "team_name": "Paraguay",
+  "team_name_cn": "巴拉圭",
+  "coach": "巴拉圭主教练",
+  "players": {
+    "G": [
+      {
+        "id": "164262",
+        "name": "Gatito Fernández",
+        "short_name": "G. Fernández",
+        "jersey": "1",
+        "position": "G",
+        "position_name": "Goalkeeper",
+        "headshot": "",
+        "height": "6' 3\"",
+        "weight": "190 lbs",
+        "age": 38
+      },
+      {
+        "id": "301648",
+        "name": "Orlando Gil",
+        "short_name": "O. Gil",
+        "jersey": "12",
+        "position": "G",
+        "position_name": "Goalkeeper",
+        "headshot": "",
+        "height": "6' 6\"",
+        "weight": "179 lbs",
+        "age": 26
+      },
+      {
+        "id": "190375",
+        "name": "Gastón Olveira",
+        "short_name": "G. Olveira",
+        "jersey": "22",
+        "position": "G",
+        "position_name": "Goalkeeper",
+        "headshot": "",
+        "height": "6' 3\"",
+        "weight": "179 lbs",
+        "age": 33
+      }
+    ],
+    "D": [
+      {
+        "id": "119413",
+        "name": "Gustavo Velázquez",
+        "short_name": "G. Velázquez",
+        "jersey": "2",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "5' 10\"",
+        "weight": "168 lbs",
+        "age": 35
+      },
+      {
+        "id": "215401",
+        "name": "Omar Alderete",
+        "short_name": "O. Alderete",
+        "jersey": "3",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 2\"",
+        "weight": "170 lbs",
+        "age": 29
+      },
+      {
+        "id": "84295",
+        "name": "Juan Jose Cáceres",
+        "short_name": "J. Cáceres",
+        "jersey": "4",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "5' 10\"",
+        "weight": "174 lbs",
+        "age": 26
+      },
+      {
+        "id": "199101",
+        "name": "Fabián Balbuena",
+        "short_name": "F. Balbuena",
+        "jersey": "5",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 2\"",
+        "weight": "183 lbs",
+        "age": 34
+      },
+      {
+        "id": "181657",
+        "name": "Júnior Alonso",
+        "short_name": "J. Alonso",
+        "jersey": "6",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 1\"",
+        "weight": "183 lbs",
+        "age": 33
+      },
+      {
+        "id": "227682",
+        "name": "José Canale",
+        "short_name": "J. Canale",
+        "jersey": "13",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 2\"",
+        "weight": "174 lbs",
+        "age": 29
+      },
+      {
+        "id": "118395",
+        "name": "Gustavo Gómez",
+        "short_name": "G. Gómez",
+        "jersey": "15",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 1\"",
+        "weight": "150 lbs",
+        "age": 33
+      },
+      {
+        "id": "399687",
+        "name": "Alexandro Maidana",
+        "short_name": "A. Maidana",
+        "jersey": "26",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "5' 10\"",
+        "weight": "161 lbs",
+        "age": 20
+      }
+    ],
+    "M": [
+      {
+        "id": "192278",
+        "name": "Diego Gómez",
+        "short_name": "D. Gómez",
+        "jersey": "8",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "6' 1\"",
+        "weight": "170 lbs",
+        "age": 23
+      },
+      {
+        "id": "289046",
+        "name": "Maurício",
+        "short_name": "Maurício",
+        "jersey": "11",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "5' 9\"",
+        "weight": "170 lbs",
+        "age": 24
+      },
+      {
+        "id": "202501",
+        "name": "Andrés Cubas",
+        "short_name": "A. Cubas",
+        "jersey": "14",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/202501.png",
+        "height": "5' 6\"",
+        "weight": "146 lbs",
+        "age": 30
+      },
+      {
+        "id": "301516",
+        "name": "Damián Bobadilla",
+        "short_name": "D. Bobadilla",
+        "jersey": "16",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "5' 11\"",
+        "weight": "168 lbs",
+        "age": 24
+      },
+      {
+        "id": "188160",
+        "name": "Alejandro Romero Gamarra",
+        "short_name": "A. Romero Gamarra",
+        "jersey": "17",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/188160.png",
+        "height": "5' 7\"",
+        "weight": "146 lbs",
+        "age": 31
+      },
+      {
+        "id": "20975",
+        "name": "Julio Enciso",
+        "short_name": "J. Enciso",
+        "jersey": "19",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "5' 8\"",
+        "weight": "139 lbs",
+        "age": 22
+      },
+      {
+        "id": "265977",
+        "name": "Braian Ojeda",
+        "short_name": "B. Ojeda",
+        "jersey": "20",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/265977.png",
+        "height": "5' 8\"",
+        "weight": "150 lbs",
+        "age": 25
+      },
+      {
+        "id": "297328",
+        "name": "Matías Galarza",
+        "short_name": "M. Galarza",
+        "jersey": "23",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "5' 9\"",
+        "weight": "148 lbs",
+        "age": 24
+      }
+    ],
+    "F": [
+      {
+        "id": "301653",
+        "name": "Ramón Sosa",
+        "short_name": "R. Sosa",
+        "jersey": "7",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "5' 10\"",
+        "weight": "163 lbs",
+        "age": 26
+      },
+      {
+        "id": "192162",
+        "name": "Antonio Sanabria",
+        "short_name": "A. Sanabria",
+        "jersey": "9",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "5' 11\"",
+        "weight": "152 lbs",
+        "age": 30
+      },
+      {
+        "id": "48128",
+        "name": "Miguel Almirón",
+        "short_name": "M. Almirón",
+        "jersey": "10",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/48128.png",
+        "height": "5' 9\"",
+        "weight": "152 lbs",
+        "age": 32
+      },
+      {
+        "id": "257754",
+        "name": "Alex Arce",
+        "short_name": "A. Arce",
+        "jersey": "18",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "6' 2\"",
+        "weight": "174 lbs",
+        "age": 30
+      },
+      {
+        "id": "208421",
+        "name": "Gabriel Ávalos",
+        "short_name": "G. Ávalos",
+        "jersey": "21",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "6' 3\"",
+        "weight": "203 lbs",
+        "age": 35
+      },
+      {
+        "id": "154853",
+        "name": "Gustavo Caballero",
+        "short_name": "G. Caballero",
+        "jersey": "24",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "6' 1\"",
+        "weight": "161 lbs",
+        "age": 24
+      },
+      {
+        "id": "287035",
+        "name": "Isidro Pitta",
+        "short_name": "I. Pitta",
+        "jersey": "25",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "6' 0\"",
+        "weight": "172 lbs",
+        "age": 26
+      }
+    ],
+    "U": []
+  },
+  "total_players": 26,
+  "position_labels": {
+    "G": "门将",
+    "D": "后卫",
+    "M": "中场",
+    "F": "前锋",
+    "U": "未知"
+  },
+  "_saved_at": "2026-06-15T16:49:22.823865"
+}

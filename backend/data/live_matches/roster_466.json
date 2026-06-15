@@ -1,0 +1,338 @@
+{
+  "team_id": "466",
+  "team_name": "Sweden",
+  "team_name_cn": "瑞典",
+  "coach": "瑞典主教练",
+  "players": {
+    "G": [
+      {
+        "id": "286810",
+        "name": "Jacob Widell Zetterström",
+        "short_name": "J. Widell Zetterström",
+        "jersey": "1",
+        "position": "G",
+        "position_name": "Goalkeeper",
+        "headshot": "",
+        "height": "6' 6\"",
+        "weight": "192 lbs",
+        "age": 27
+      },
+      {
+        "id": "258902",
+        "name": "Viktor Johansson",
+        "short_name": "V. Johansson",
+        "jersey": "12",
+        "position": "G",
+        "position_name": "Goalkeeper",
+        "headshot": "",
+        "height": "6' 2\"",
+        "weight": "174 lbs",
+        "age": 27
+      },
+      {
+        "id": "133993",
+        "name": "Kristoffer Nordfeldt",
+        "short_name": "K. Nordfeldt",
+        "jersey": "23",
+        "position": "G",
+        "position_name": "Goalkeeper",
+        "headshot": "",
+        "height": "6' 3\"",
+        "weight": "185 lbs",
+        "age": 36
+      }
+    ],
+    "D": [
+      {
+        "id": "324930",
+        "name": "Gustaf Lagerbielke",
+        "short_name": "G. Lagerbielke",
+        "jersey": "2",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 4\"",
+        "weight": "174 lbs",
+        "age": 26
+      },
+      {
+        "id": "204679",
+        "name": "Victor Lindelöf",
+        "short_name": "V. Lindelöf",
+        "jersey": "3",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 2\"",
+        "weight": "181 lbs",
+        "age": 31
+      },
+      {
+        "id": "312862",
+        "name": "Isak Hien",
+        "short_name": "I. Hien",
+        "jersey": "4",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 3\"",
+        "weight": "192 lbs",
+        "age": 27
+      },
+      {
+        "id": "250166",
+        "name": "Gabriel Gudmundsson",
+        "short_name": "G. Gudmundsson",
+        "jersey": "5",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/250166.png",
+        "height": "5' 11\"",
+        "weight": "163 lbs",
+        "age": 27
+      },
+      {
+        "id": "310709",
+        "name": "Daniel Svensson",
+        "short_name": "D. Svensson",
+        "jersey": "8",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 0\"",
+        "weight": "159 lbs",
+        "age": 24
+      },
+      {
+        "id": "290413",
+        "name": "Hjalmar Ekdal",
+        "short_name": "H. Ekdal",
+        "jersey": "14",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 2\"",
+        "weight": "168 lbs",
+        "age": 27
+      },
+      {
+        "id": "195790",
+        "name": "Carl Starfelt",
+        "short_name": "C. Starfelt",
+        "jersey": "15",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 1\"",
+        "weight": "183 lbs",
+        "age": 31
+      },
+      {
+        "id": "204115",
+        "name": "Eric Smith",
+        "short_name": "E. Smith",
+        "jersey": "20",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 4\"",
+        "weight": "190 lbs",
+        "age": 29
+      }
+    ],
+    "M": [
+      {
+        "id": "312876",
+        "name": "Herman Johansson",
+        "short_name": "H. Johansson",
+        "jersey": "6",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "6' 3\"",
+        "weight": "183 lbs",
+        "age": 28
+      },
+      {
+        "id": "356379",
+        "name": "Lucas Bergvall",
+        "short_name": "L. Bergvall",
+        "jersey": "7",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "6' 2\"",
+        "weight": "163 lbs",
+        "age": 20
+      },
+      {
+        "id": "186004",
+        "name": "Ken Sema",
+        "short_name": "K. Sema",
+        "jersey": "13",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "5' 11\"",
+        "weight": "181 lbs",
+        "age": 32
+      },
+      {
+        "id": "237055",
+        "name": "Jesper Karlström",
+        "short_name": "J. Karlström",
+        "jersey": "16",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "6' 0\"",
+        "weight": "179 lbs",
+        "age": 30
+      },
+      {
+        "id": "304242",
+        "name": "Yasin Ayari",
+        "short_name": "Y. Ayari",
+        "jersey": "18",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "5' 8\"",
+        "weight": "150 lbs",
+        "age": 22
+      },
+      {
+        "id": "220120",
+        "name": "Mattias Svanberg",
+        "short_name": "M. Svanberg",
+        "jersey": "19",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "6' 1\"",
+        "weight": "170 lbs",
+        "age": 27
+      },
+      {
+        "id": "334024",
+        "name": "Besfort Zeneli",
+        "short_name": "B. Zeneli",
+        "jersey": "22",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "6' 2\"",
+        "weight": "157 lbs",
+        "age": 23
+      },
+      {
+        "id": "357145",
+        "name": "Elliot Stroud",
+        "short_name": "E. Stroud",
+        "jersey": "24",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "6' 1\"",
+        "weight": "163 lbs",
+        "age": 23
+      },
+      {
+        "id": "314164",
+        "name": "Taha Ali",
+        "short_name": "T. Ali",
+        "jersey": "26",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "5' 9\"",
+        "weight": "139 lbs",
+        "age": 27
+      }
+    ],
+    "F": [
+      {
+        "id": "235662",
+        "name": "Alexander Isak",
+        "short_name": "A. Isak",
+        "jersey": "9",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "6' 3\"",
+        "weight": "161 lbs",
+        "age": 26
+      },
+      {
+        "id": "274522",
+        "name": "Benjamin Nygren",
+        "short_name": "B. Nygren",
+        "jersey": "10",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/274522.png",
+        "height": "6' 2\"",
+        "weight": "168 lbs",
+        "age": 24
+      },
+      {
+        "id": "296622",
+        "name": "Anthony Elanga",
+        "short_name": "A. Elanga",
+        "jersey": "11",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "5' 10\"",
+        "weight": "163 lbs",
+        "age": 24
+      },
+      {
+        "id": "258906",
+        "name": "Viktor Gyökeres",
+        "short_name": "V. Gyökeres",
+        "jersey": "17",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "6' 2\"",
+        "weight": "196 lbs",
+        "age": 28
+      },
+      {
+        "id": "301370",
+        "name": "Alexander Bernhardsson",
+        "short_name": "A. Bernhardsson",
+        "jersey": "21",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "6' 0\"",
+        "weight": "152 lbs",
+        "age": 27
+      },
+      {
+        "id": "238183",
+        "name": "Gustaf Nilsson",
+        "short_name": "G. Nilsson",
+        "jersey": "25",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "6' 6\"",
+        "weight": "192 lbs",
+        "age": 29
+      }
+    ],
+    "U": []
+  },
+  "total_players": 26,
+  "position_labels": {
+    "G": "门将",
+    "D": "后卫",
+    "M": "中场",
+    "F": "前锋",
+    "U": "未知"
+  },
+  "_saved_at": "2026-06-14T20:26:56.334589"
+}

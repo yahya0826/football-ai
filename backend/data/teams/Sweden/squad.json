@@ -11,7 +11,8 @@
       "club": "Derby County",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "雅各布·维德尔·塞特斯特伦"
     },
     {
       "id": "gustaf-lagerbielke",
@@ -22,7 +23,8 @@
       "club": "Braga",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "古斯塔夫·拉格比尔克"
     },
     {
       "id": "victor-lindel-f",
@@ -33,7 +35,8 @@
       "club": "Aston Villa",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "维克托·林德洛夫"
     },
     {
       "id": "isak-hien",
@@ -44,7 +47,8 @@
       "club": "Atalanta",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "伊萨克·希恩"
     },
     {
       "id": "gabriel-gudmundsson",
@@ -55,7 +59,8 @@
       "club": "Leeds United",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "加布里埃尔·古德蒙松"
     },
     {
       "id": "herman-johansson",
@@ -77,7 +82,8 @@
       "club": "Tottenham Hotspur",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "卢卡斯·贝里瓦尔"
     },
     {
       "id": "daniel-svensson",
@@ -88,7 +94,8 @@
       "club": "Borussia Dortmund",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "丹尼尔·斯文松"
     },
     {
       "id": "alexander-isak",
@@ -99,7 +106,8 @@
       "club": "Liverpool",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "亚历山大·伊萨克"
     },
     {
       "id": "benjamin-nygren",
@@ -110,7 +118,8 @@
       "club": "Celtic",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "本杰明·尼格伦"
     },
     {
       "id": "anthony-elanga",
@@ -121,7 +130,8 @@
       "club": "Newcastle United",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "安东尼·埃兰加"
     },
     {
       "id": "viktor-johansson",
@@ -132,7 +142,8 @@
       "club": "Stoke City",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "维克托·约翰松"
     },
     {
       "id": "ken-sema",
@@ -143,7 +154,8 @@
       "club": "Pafos",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "肯·塞马"
     },
     {
       "id": "hjalmar-ekdal",
@@ -154,7 +166,8 @@
       "club": "Burnley",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "亚尔马·埃克达尔"
     },
     {
       "id": "carl-starfelt",
@@ -165,7 +178,8 @@
       "club": "Celta Vigo",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "卡尔·斯塔费尔特"
     },
     {
       "id": "jesper-karlstr-m",
@@ -176,7 +190,8 @@
       "club": "Udinese",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "耶斯佩尔·卡尔斯特伦"
     },
     {
       "id": "viktor-gy-keres",
@@ -187,7 +202,8 @@
       "club": "Arsenal",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "维克托·于厄克雷斯"
     },
     {
       "id": "yasin-ayari",
@@ -198,7 +214,8 @@
       "club": "Brighton & Hove Albion",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "亚辛·阿亚里"
     },
     {
       "id": "mattias-svanberg",
@@ -209,7 +226,8 @@
       "club": "VfL Wolfsburg",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "马蒂亚斯·斯万贝里"
     },
     {
       "id": "eric-smith",
@@ -220,7 +238,8 @@
       "club": "FC St. Pauli",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "埃里克·史密斯"
     },
     {
       "id": "alexander-bernhardsson",
@@ -231,7 +250,8 @@
       "club": "Holstein Kiel",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "亚历山大·伯恩哈德松"
     },
     {
       "id": "besfort-zeneli",
@@ -242,7 +262,8 @@
       "club": "Union Saint-Gilloise",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "贝斯福特·泽内利"
     },
     {
       "id": "kristoffer-nordfeldt",
@@ -253,7 +274,8 @@
       "club": "AIK",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "克里斯托弗·诺德费尔特"
     },
     {
       "id": "elliot-stroud",
@@ -264,7 +286,8 @@
       "club": "Mjällby AIF",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "埃利奥特·斯特劳德"
     },
     {
       "id": "gustaf-nilsson",
@@ -275,7 +298,8 @@
       "club": "Club Brugge",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "古斯塔夫·尼尔松"
     },
     {
       "id": "taha-ali",
@@ -286,7 +310,8 @@
       "club": "Malmö FF",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "塔哈·阿里"
     }
   ]
 }

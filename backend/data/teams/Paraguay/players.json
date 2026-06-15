@@ -59,7 +59,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/gustavo-vel-zquez.jpg"
+      "avatar": "/headshots/gustavo-vel-zquez.jpg",
+      "name_cn": "古斯塔沃·贝拉斯克斯"
     },
     {
       "id": "omar-alderete",
@@ -120,7 +121,8 @@
         "xa_p90": 0.03,
         "key_passes_p90": 0.29
       },
-      "avatar": "/headshots/omar-alderete.jpg"
+      "avatar": "/headshots/omar-alderete.jpg",
+      "name_cn": "奥马尔·阿尔德雷特"
     },
     {
       "id": "juan-jos--c-ceres",
@@ -165,7 +167,8 @@
         "start_rate": 100.0,
         "data_source": "desktop",
         "has_real_data": true
-      }
+      },
+      "name_cn": "胡安·卡塞雷斯"
     },
     {
       "id": "fabi-n-balbuena",
@@ -178,7 +181,8 @@
       "national_caps": 0,
       "national_goals": 0,
       "stats": null,
-      "avatar": "/headshots/fabi-n-balbuena.jpg"
+      "avatar": "/headshots/fabi-n-balbuena.jpg",
+      "name_cn": "法比安·巴尔武埃纳"
     },
     {
       "id": "j-nior-alonso",
@@ -224,7 +228,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/j-nior-alonso.jpg"
+      "avatar": "/headshots/j-nior-alonso.jpg",
+      "name_cn": "儒尼奥尔·阿隆索"
     },
     {
       "id": "ram-n-sosa",
@@ -284,7 +289,8 @@
         "xg_p90": 0.1,
         "xa_p90": 0.07,
         "key_passes_p90": 1.57
-      }
+      },
+      "name_cn": "拉蒙·索萨"
     },
     {
       "id": "diego-g-mez",
@@ -345,7 +351,8 @@
         "xa_p90": 0.07,
         "key_passes_p90": 0.88
       },
-      "avatar": "/headshots/diego-g-mez.jpg"
+      "avatar": "/headshots/diego-g-mez.jpg",
+      "name_cn": "迭戈·戈麦斯"
     },
     {
       "id": "antonio-sanabria",
@@ -406,7 +413,8 @@
         "xa_p90": 0.02,
         "key_passes_p90": 0.57
       },
-      "avatar": "/headshots/antonio-sanabria.jpg"
+      "avatar": "/headshots/antonio-sanabria.jpg",
+      "name_cn": "安东尼奥·萨纳夫里亚"
     },
     {
       "id": "miguel-almir-n",
@@ -452,7 +460,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/miguel-almir-n.jpg"
+      "avatar": "/headshots/miguel-almir-n.jpg",
+      "name_cn": "米格尔·阿尔米隆"
     },
     {
       "id": "maur-cio",
@@ -498,7 +507,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/maur-cio.jpg"
+      "avatar": "/headshots/maur-cio.jpg",
+      "name_cn": "毛里西奥"
     },
     {
       "id": "orlando-gill",
@@ -510,7 +520,8 @@
       "age": 0,
       "national_caps": 0,
       "national_goals": 0,
-      "stats": null
+      "stats": null,
+      "name_cn": "奥兰多·吉尔"
     },
     {
       "id": "jos--canale",
@@ -522,7 +533,8 @@
       "age": 0,
       "national_caps": 0,
       "national_goals": 0,
-      "stats": null
+      "stats": null,
+      "name_cn": "何塞·卡纳莱"
     },
     {
       "id": "andr-s-cubas",
@@ -568,7 +580,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/andr-s-cubas.jpg"
+      "avatar": "/headshots/andr-s-cubas.jpg",
+      "name_cn": "安德烈斯·库瓦斯"
     },
     {
       "id": "gustavo-g-mez",
@@ -629,7 +642,8 @@
         "xa_p90": 0.06,
         "key_passes_p90": 0.38
       },
-      "avatar": "/headshots/gustavo-g-mez.jpg"
+      "avatar": "/headshots/gustavo-g-mez.jpg",
+      "name_cn": "古斯塔沃·戈麦斯"
     },
     {
       "id": "dami-n-bobadilla",
@@ -677,7 +691,8 @@
           "defending": 62,
           "physical": 84
         }
-      }
+      },
+      "name_cn": "达米安·博瓦迪利亚"
     },
     {
       "id": "kaku",
@@ -723,7 +738,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/kaku.jpg"
+      "avatar": "/headshots/kaku.jpg",
+      "name_cn": "卡库"
     },
     {
       "id": "lex-arce",
@@ -768,7 +784,8 @@
         "start_rate": 50.0,
         "data_source": "desktop",
         "has_real_data": true
-      }
+      },
+      "name_cn": "阿莱克斯·阿尔塞"
     },
     {
       "id": "julio-enciso",
@@ -829,7 +846,8 @@
         "xa_p90": 0.25,
         "key_passes_p90": 1.38
       },
-      "avatar": "/headshots/julio-enciso.jpg"
+      "avatar": "/headshots/julio-enciso.jpg",
+      "name_cn": "胡利奥·恩西索"
     },
     {
       "id": "braian-ojeda",
@@ -890,7 +908,8 @@
         "xa_p90": 0.04,
         "key_passes_p90": 0.61
       },
-      "avatar": "/headshots/braian-ojeda.jpg"
+      "avatar": "/headshots/braian-ojeda.jpg",
+      "name_cn": "布赖安·奥赫达"
     },
     {
       "id": "gabriel--valos",
@@ -935,7 +954,8 @@
         "start_rate": 73.3,
         "data_source": "desktop",
         "has_real_data": true
-      }
+      },
+      "name_cn": "加布里埃尔·阿瓦洛斯"
     },
     {
       "id": "gast-n-olveira",
@@ -985,7 +1005,8 @@
         "pk_saved": 3,
         "data_source": "desktop",
         "has_real_data": true
-      }
+      },
+      "name_cn": "加斯东·奥尔韦拉"
     },
     {
       "id": "mat-as-galarza",
@@ -1031,7 +1052,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/mat-as-galarza.jpg"
+      "avatar": "/headshots/mat-as-galarza.jpg",
+      "name_cn": "马蒂亚斯·加拉尔萨"
     },
     {
       "id": "gustavo-caballero",
@@ -1076,7 +1098,8 @@
         "start_rate": 66.7,
         "data_source": "desktop",
         "has_real_data": true
-      }
+      },
+      "name_cn": "古斯塔沃·卡瓦列罗"
     },
     {
       "id": "isidro-pitta",
@@ -1124,7 +1147,8 @@
           "defending": 46,
           "physical": 81
         }
-      }
+      },
+      "name_cn": "伊西德罗·皮塔"
     },
     {
       "id": "alexandro-maidana",
@@ -1137,7 +1161,8 @@
       "national_caps": 0,
       "national_goals": 0,
       "stats": null,
-      "avatar": "/headshots/alexandro-maidana.jpg"
+      "avatar": "/headshots/alexandro-maidana.jpg",
+      "name_cn": "亚历山德罗·迈达纳"
     }
   ]
 }

@@ -52,7 +52,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/jacob-widell-zetterstr-m.jpg"
+      "avatar": "/headshots/jacob-widell-zetterstr-m.jpg",
+      "name_cn": "雅各布·维德尔·塞特斯特伦"
     },
     {
       "id": "gustaf-lagerbielke",
@@ -113,7 +114,8 @@
         "xa_p90": 0.05,
         "key_passes_p90": 0.3
       },
-      "avatar": "/headshots/gustaf-lagerbielke.jpg"
+      "avatar": "/headshots/gustaf-lagerbielke.jpg",
+      "name_cn": "古斯塔夫·拉格比尔克"
     },
     {
       "id": "victor-lindel-f",
@@ -159,7 +161,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/victor-lindel-f.jpg"
+      "avatar": "/headshots/victor-lindel-f.jpg",
+      "name_cn": "维克托·林德洛夫"
     },
     {
       "id": "isak-hien",
@@ -220,7 +223,8 @@
         "xa_p90": 0.01,
         "key_passes_p90": 0.09
       },
-      "avatar": "/headshots/isak-hien.jpg"
+      "avatar": "/headshots/isak-hien.jpg",
+      "name_cn": "伊萨克·希恩"
     },
     {
       "id": "gabriel-gudmundsson",
@@ -281,7 +285,8 @@
         "xa_p90": 0.09,
         "key_passes_p90": 0.72
       },
-      "avatar": "/headshots/gabriel-gudmundsson.jpg"
+      "avatar": "/headshots/gabriel-gudmundsson.jpg",
+      "name_cn": "加布里埃尔·古德蒙松"
     },
     {
       "id": "herman-johansson",
@@ -375,7 +380,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/lucas-bergvall.jpg"
+      "avatar": "/headshots/lucas-bergvall.jpg",
+      "name_cn": "卢卡斯·贝里瓦尔"
     },
     {
       "id": "daniel-svensson",
@@ -436,7 +442,8 @@
         "xa_p90": 0.2,
         "key_passes_p90": 1.28
       },
-      "avatar": "/headshots/daniel-svensson.jpg"
+      "avatar": "/headshots/daniel-svensson.jpg",
+      "name_cn": "丹尼尔·斯文松"
     },
     {
       "id": "alexander-isak",
@@ -497,7 +504,8 @@
         "xa_p90": 0.01,
         "key_passes_p90": 0.25
       },
-      "avatar": "/headshots/alexander-isak.jpg"
+      "avatar": "/headshots/alexander-isak.jpg",
+      "name_cn": "亚历山大·伊萨克"
     },
     {
       "id": "benjamin-nygren",
@@ -558,7 +566,8 @@
         "xa_p90": 0.27,
         "key_passes_p90": 2.12
       },
-      "avatar": "/headshots/benjamin-nygren.jpg"
+      "avatar": "/headshots/benjamin-nygren.jpg",
+      "name_cn": "本杰明·尼格伦"
     },
     {
       "id": "anthony-elanga",
@@ -619,7 +628,8 @@
         "xa_p90": 0.12,
         "key_passes_p90": 1.01
       },
-      "avatar": "/headshots/anthony-elanga.jpg"
+      "avatar": "/headshots/anthony-elanga.jpg",
+      "name_cn": "安东尼·埃兰加"
     },
     {
       "id": "viktor-johansson",
@@ -670,7 +680,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/viktor-johansson.jpg"
+      "avatar": "/headshots/viktor-johansson.jpg",
+      "name_cn": "维克托·约翰松"
     },
     {
       "id": "ken-sema",
@@ -716,7 +727,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/ken-sema.jpg"
+      "avatar": "/headshots/ken-sema.jpg",
+      "name_cn": "肯·塞马"
     },
     {
       "id": "hjalmar-ekdal",
@@ -762,7 +774,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/hjalmar-ekdal.jpg"
+      "avatar": "/headshots/hjalmar-ekdal.jpg",
+      "name_cn": "亚尔马·埃克达尔"
     },
     {
       "id": "carl-starfelt",
@@ -808,7 +821,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/carl-starfelt.jpg"
+      "avatar": "/headshots/carl-starfelt.jpg",
+      "name_cn": "卡尔·斯塔费尔特"
     },
     {
       "id": "jesper-karlstr-m",
@@ -869,7 +883,8 @@
         "xa_p90": 0.03,
         "key_passes_p90": 0.46
       },
-      "avatar": "/headshots/jesper-karlstr-m.jpg"
+      "avatar": "/headshots/jesper-karlstr-m.jpg",
+      "name_cn": "耶斯佩尔·卡尔斯特伦"
     },
     {
       "id": "viktor-gy-keres",
@@ -930,7 +945,8 @@
         "xa_p90": 0.08,
         "key_passes_p90": 0.8
       },
-      "avatar": "/headshots/viktor-gy-keres.jpg"
+      "avatar": "/headshots/viktor-gy-keres.jpg",
+      "name_cn": "维克托·于厄克雷斯"
     },
     {
       "id": "yasin-ayari",
@@ -991,7 +1007,8 @@
         "xa_p90": 0.05,
         "key_passes_p90": 0.74
       },
-      "avatar": "/headshots/yasin-ayari.jpg"
+      "avatar": "/headshots/yasin-ayari.jpg",
+      "name_cn": "亚辛·阿亚里"
     },
     {
       "id": "mattias-svanberg",
@@ -1037,7 +1054,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/mattias-svanberg.jpg"
+      "avatar": "/headshots/mattias-svanberg.jpg",
+      "name_cn": "马蒂亚斯·斯万贝里"
     },
     {
       "id": "eric-smith",
@@ -1098,7 +1116,8 @@
         "xa_p90": 0.05,
         "key_passes_p90": 0.7
       },
-      "avatar": "/headshots/eric-smith.jpg"
+      "avatar": "/headshots/eric-smith.jpg",
+      "name_cn": "埃里克·史密斯"
     },
     {
       "id": "alexander-bernhardsson",
@@ -1159,7 +1178,8 @@
         "xa_p90": 0.18,
         "key_passes_p90": 1.79
       },
-      "avatar": "/headshots/alexander-bernhardsson.jpg"
+      "avatar": "/headshots/alexander-bernhardsson.jpg",
+      "name_cn": "亚历山大·伯恩哈德松"
     },
     {
       "id": "besfort-zeneli",
@@ -1205,7 +1225,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/besfort-zeneli.jpg"
+      "avatar": "/headshots/besfort-zeneli.jpg",
+      "name_cn": "贝斯福特·泽内利"
     },
     {
       "id": "kristoffer-nordfeldt",
@@ -1256,7 +1277,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/kristoffer-nordfeldt.jpg"
+      "avatar": "/headshots/kristoffer-nordfeldt.jpg",
+      "name_cn": "克里斯托弗·诺德费尔特"
     },
     {
       "id": "elliot-stroud",
@@ -1302,7 +1324,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/elliot-stroud.jpg"
+      "avatar": "/headshots/elliot-stroud.jpg",
+      "name_cn": "埃利奥特·斯特劳德"
     },
     {
       "id": "gustaf-nilsson",
@@ -1363,7 +1386,8 @@
         "xa_p90": 0.2,
         "key_passes_p90": 0.0
       },
-      "avatar": "/headshots/gustaf-nilsson.jpg"
+      "avatar": "/headshots/gustaf-nilsson.jpg",
+      "name_cn": "古斯塔夫·尼尔松"
     },
     {
       "id": "taha-ali",
@@ -1409,7 +1433,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/taha-ali.jpg"
+      "avatar": "/headshots/taha-ali.jpg",
+      "name_cn": "塔哈·阿里"
     }
   ]
 }

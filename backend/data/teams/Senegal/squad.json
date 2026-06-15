@@ -11,7 +11,8 @@
       "club": "Nice",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "耶万·迪乌夫"
     },
     {
       "id": "mamadou-sarr",
@@ -22,7 +23,8 @@
       "club": "Chelsea",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "马马杜·萨尔"
     },
     {
       "id": "kalidou-koulibaly",
@@ -33,7 +35,8 @@
       "club": "Al-Hilal",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "卡利杜·库利巴利"
     },
     {
       "id": "abdoulaye-seck",
@@ -44,7 +47,8 @@
       "club": "Maccabi Haifa",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "阿卜杜拉耶·塞克"
     },
     {
       "id": "idrissa-gueye",
@@ -66,7 +70,8 @@
       "club": "Rayo Vallecano",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "帕特·西斯"
     },
     {
       "id": "assane-diao",
@@ -77,7 +82,8 @@
       "club": "Como",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "阿萨内·迪奥"
     },
     {
       "id": "lamine-camara",
@@ -88,7 +94,8 @@
       "club": "Monaco",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "拉明·卡马拉"
     },
     {
       "id": "bamba-dieng",
@@ -99,7 +106,8 @@
       "club": "Lorient",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "班巴·迪昂"
     },
     {
       "id": "sadio-man",
@@ -110,7 +118,8 @@
       "club": "Al-Nassr",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "萨迪奥·马内"
     },
     {
       "id": "nicolas-jackson",
@@ -121,7 +130,8 @@
       "club": "Bayern Munich",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "尼古拉·杰克逊"
     },
     {
       "id": "cherif-ndiaye",
@@ -132,7 +142,8 @@
       "club": "Samsunspor",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "谢里夫·恩迪亚耶"
     },
     {
       "id": "iliman-ndiaye",
@@ -143,7 +154,8 @@
       "club": "Everton",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "伊利曼·恩迪亚耶"
     },
     {
       "id": "ismail-jakobs",
@@ -154,7 +166,8 @@
       "club": "Galatasaray",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "伊斯梅尔·雅各布斯"
     },
     {
       "id": "kr-pin-diatta",
@@ -165,7 +178,8 @@
       "club": "Monaco",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "克雷平·迪亚塔"
     },
     {
       "id": "douard-mendy",
@@ -176,7 +190,8 @@
       "club": "Al-Ahli",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "爱德华·门迪"
     },
     {
       "id": "pape-matar-sarr",
@@ -187,7 +202,8 @@
       "club": "Tottenham Hotspur",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "帕普·马塔尔·萨尔"
     },
     {
       "id": "isma-la-sarr",
@@ -198,7 +214,8 @@
       "club": "Crystal Palace",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "伊斯梅拉·萨尔"
     },
     {
       "id": "moussa-niakhat",
@@ -209,7 +226,8 @@
       "club": "Lyon",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "穆萨·尼亚卡特"
     },
     {
       "id": "ibrahim-mbaye",
@@ -220,7 +238,8 @@
       "club": "Paris Saint-Germain",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "易卜拉欣·姆巴耶"
     },
     {
       "id": "habib-diarra",
@@ -231,7 +250,8 @@
       "club": "Sunderland",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "哈比卜·迪亚拉"
     },
     {
       "id": "bara-sapoko-ndiaye",
@@ -242,7 +262,8 @@
       "club": "Bayern Munich",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "巴拉·萨波科·恩迪亚耶"
     },
     {
       "id": "mory-diaw",
@@ -253,7 +274,8 @@
       "club": "Le Havre",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "莫里·迪奥"
     },
     {
       "id": "antoine-mendy",
@@ -264,7 +286,8 @@
       "club": "Nice",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "安托万·门迪"
     },
     {
       "id": "el-hadji-malick-diouf",
@@ -275,7 +298,8 @@
       "club": "West Ham United",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "埃尔哈吉·马利克·迪乌夫"
     },
     {
       "id": "pape-gueye",
@@ -286,7 +310,8 @@
       "club": "Villarreal",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "帕普·盖耶"
     }
   ]
 }

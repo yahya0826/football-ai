@@ -65,7 +65,8 @@
         "xa_p90": 0.0,
         "key_passes_p90": 0.0
       },
-      "avatar": "/headshots/gregor-kobel.jpg"
+      "avatar": "/headshots/gregor-kobel.jpg",
+      "name_cn": "格雷戈·科贝尔"
     },
     {
       "id": "miro-muheim",
@@ -126,7 +127,8 @@
         "xa_p90": 0.16,
         "key_passes_p90": 1.51
       },
-      "avatar": "/headshots/miro-muheim.jpg"
+      "avatar": "/headshots/miro-muheim.jpg",
+      "name_cn": "米罗·穆海姆"
     },
     {
       "id": "silvan-widmer",
@@ -187,7 +189,8 @@
         "xa_p90": 0.15,
         "key_passes_p90": 0.4
       },
-      "avatar": "/headshots/silvan-widmer.jpg"
+      "avatar": "/headshots/silvan-widmer.jpg",
+      "name_cn": "西尔万·维德默"
     },
     {
       "id": "nico-elvedi",
@@ -248,7 +251,8 @@
         "xa_p90": 0.04,
         "key_passes_p90": 0.39
       },
-      "avatar": "/headshots/nico-elvedi.jpg"
+      "avatar": "/headshots/nico-elvedi.jpg",
+      "name_cn": "尼科·埃尔韦迪"
     },
     {
       "id": "manuel-akanji",
@@ -309,7 +313,8 @@
         "xa_p90": 0.04,
         "key_passes_p90": 0.22
       },
-      "avatar": "/headshots/manuel-akanji.jpg"
+      "avatar": "/headshots/manuel-akanji.jpg",
+      "name_cn": "曼努埃尔·阿坎吉"
     },
     {
       "id": "denis-zakaria",
@@ -370,7 +375,8 @@
         "xa_p90": 0.04,
         "key_passes_p90": 0.27
       },
-      "avatar": "/headshots/denis-zakaria.jpg"
+      "avatar": "/headshots/denis-zakaria.jpg",
+      "name_cn": "德尼斯·扎卡里亚"
     },
     {
       "id": "breel-embolo",
@@ -431,7 +437,8 @@
         "xa_p90": 0.06,
         "key_passes_p90": 0.72
       },
-      "avatar": "/headshots/breel-embolo.jpg"
+      "avatar": "/headshots/breel-embolo.jpg",
+      "name_cn": "布雷尔·恩博洛"
     },
     {
       "id": "remo-freuler",
@@ -492,7 +499,8 @@
         "xa_p90": 0.05,
         "key_passes_p90": 0.89
       },
-      "avatar": "/headshots/remo-freuler.jpg"
+      "avatar": "/headshots/remo-freuler.jpg",
+      "name_cn": "雷莫·弗罗伊勒"
     },
     {
       "id": "johan-manzambi",
@@ -553,7 +561,8 @@
         "xa_p90": 0.22,
         "key_passes_p90": 0.86
       },
-      "avatar": "/headshots/johan-manzambi.jpg"
+      "avatar": "/headshots/johan-manzambi.jpg",
+      "name_cn": "约翰·曼赞比"
     },
     {
       "id": "granit-xhaka",
@@ -614,7 +623,8 @@
         "xa_p90": 0.12,
         "key_passes_p90": 1.05
       },
-      "avatar": "/headshots/granit-xhaka.jpg"
+      "avatar": "/headshots/granit-xhaka.jpg",
+      "name_cn": "格拉尼特·扎卡"
     },
     {
       "id": "dan-ndoye",
@@ -660,7 +670,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/dan-ndoye.jpg"
+      "avatar": "/headshots/dan-ndoye.jpg",
+      "name_cn": "丹·恩多耶"
     },
     {
       "id": "yvon-mvogo",
@@ -724,7 +735,8 @@
         "xa_p90": 0.0,
         "key_passes_p90": 0.0
       },
-      "avatar": "/headshots/yvon-mvogo.jpg"
+      "avatar": "/headshots/yvon-mvogo.jpg",
+      "name_cn": "伊冯·姆沃戈"
     },
     {
       "id": "ricardo-rodriguez",
@@ -770,7 +782,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/ricardo-rodriguez.jpg"
+      "avatar": "/headshots/ricardo-rodriguez.jpg",
+      "name_cn": "里卡多·罗德里格斯"
     },
     {
       "id": "ardon-jashari",
@@ -816,7 +829,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/ardon-jashari.jpg"
+      "avatar": "/headshots/ardon-jashari.jpg",
+      "name_cn": "阿尔东·亚沙里"
     },
     {
       "id": "djibril-sow",
@@ -877,7 +891,8 @@
         "xa_p90": 0.07,
         "key_passes_p90": 0.98
       },
-      "avatar": "/headshots/djibril-sow.jpg"
+      "avatar": "/headshots/djibril-sow.jpg",
+      "name_cn": "吉布里尔·索乌"
     },
     {
       "id": "christian-fassnacht",
@@ -923,7 +938,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/christian-fassnacht.jpg"
+      "avatar": "/headshots/christian-fassnacht.jpg",
+      "name_cn": "克里斯蒂安·法斯纳赫特"
     },
     {
       "id": "rub-n-vargas",
@@ -969,7 +985,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/rub-n-vargas.jpg"
+      "avatar": "/headshots/rub-n-vargas.jpg",
+      "name_cn": "鲁文·巴尔加斯"
     },
     {
       "id": "eray-c-mert",
@@ -1015,7 +1032,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/eray-c-mert.jpg"
+      "avatar": "/headshots/eray-c-mert.jpg",
+      "name_cn": "埃拉伊·居梅尔特"
     },
     {
       "id": "noah-okafor",
@@ -1076,7 +1094,8 @@
         "xa_p90": 0.08,
         "key_passes_p90": 1.14
       },
-      "avatar": "/headshots/noah-okafor.jpg"
+      "avatar": "/headshots/noah-okafor.jpg",
+      "name_cn": "诺亚·奥卡福"
     },
     {
       "id": "michel-aebischer",
@@ -1137,7 +1156,8 @@
         "xa_p90": 0.08,
         "key_passes_p90": 1.06
       },
-      "avatar": "/headshots/michel-aebischer.jpg"
+      "avatar": "/headshots/michel-aebischer.jpg",
+      "name_cn": "米歇尔·埃比舍尔"
     },
     {
       "id": "marvin-keller",
@@ -1188,7 +1208,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/marvin-keller.jpg"
+      "avatar": "/headshots/marvin-keller.jpg",
+      "name_cn": "马尔文·凯勒"
     },
     {
       "id": "fabian-rieder",
@@ -1249,7 +1270,8 @@
         "xa_p90": 0.18,
         "key_passes_p90": 1.68
       },
-      "avatar": "/headshots/fabian-rieder.jpg"
+      "avatar": "/headshots/fabian-rieder.jpg",
+      "name_cn": "法比安·里德"
     },
     {
       "id": "zeki-amdouni",
@@ -1310,7 +1332,8 @@
         "xa_p90": 0.03,
         "key_passes_p90": 0.0
       },
-      "avatar": "/headshots/zeki-amdouni.jpg"
+      "avatar": "/headshots/zeki-amdouni.jpg",
+      "name_cn": "泽基·阿姆杜尼"
     },
     {
       "id": "aur-le-amenda",
@@ -1371,7 +1394,8 @@
         "xa_p90": 0.05,
         "key_passes_p90": 0.32
       },
-      "avatar": "/headshots/aur-le-amenda.jpg"
+      "avatar": "/headshots/aur-le-amenda.jpg",
+      "name_cn": "奥雷勒·阿门达"
     },
     {
       "id": "luca-jaquez",
@@ -1417,7 +1441,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/luca-jaquez.jpg"
+      "avatar": "/headshots/luca-jaquez.jpg",
+      "name_cn": "卢卡·雅克斯"
     },
     {
       "id": "cedric-itten",
@@ -1463,7 +1488,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/cedric-itten.jpg"
+      "avatar": "/headshots/cedric-itten.jpg",
+      "name_cn": "塞德里克·伊滕"
     }
   ]
 }

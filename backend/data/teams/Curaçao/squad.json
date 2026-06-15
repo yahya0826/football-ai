@@ -11,7 +11,8 @@
       "club": "Miami FC",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "埃洛伊·罗姆"
     },
     {
       "id": "shurandy-sambo",
@@ -22,7 +23,8 @@
       "club": "Sparta Rotterdam",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "舒兰迪·桑博"
     },
     {
       "id": "juri-n-gaari",
@@ -33,7 +35,8 @@
       "club": "Abha",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "于里恩·加里"
     },
     {
       "id": "roshon-van-eijma",
@@ -44,7 +47,8 @@
       "club": "RKC Waalwijk",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "罗申·范艾马"
     },
     {
       "id": "sherel-floranus",
@@ -55,7 +59,8 @@
       "club": "PEC Zwolle",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "谢雷尔·弗洛拉努斯"
     },
     {
       "id": "godfried-roemeratoe",
@@ -66,7 +71,8 @@
       "club": "RKC Waalwijk",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "戈弗雷德·鲁梅拉图"
     },
     {
       "id": "juninho-bacuna",
@@ -77,7 +83,8 @@
       "club": "Volendam",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "尤尼尼奥·巴库纳"
     },
     {
       "id": "livano-comenencia",
@@ -88,7 +95,8 @@
       "club": "Zürich",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "利瓦诺·科门恩西亚"
     },
     {
       "id": "j-rgen-locadia",
@@ -99,7 +107,8 @@
       "club": "Miami FC",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "于尔根·洛卡迪亚"
     },
     {
       "id": "leandro-bacuna",
@@ -110,7 +119,8 @@
       "club": "Iğdır",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "莱安德罗·巴库纳"
     },
     {
       "id": "jeremy-antonisse",
@@ -121,7 +131,8 @@
       "club": "Kifisia",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "杰雷米·安东尼斯"
     },
     {
       "id": "sontje-hansen",
@@ -132,7 +143,8 @@
       "club": "Middlesbrough",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "松切·汉森"
     },
     {
       "id": "tyrese-noslin",
@@ -143,7 +155,8 @@
       "club": "Telstar",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "泰雷斯·诺斯林"
     },
     {
       "id": "kenji-gorr",
@@ -154,7 +167,8 @@
       "club": "Maccabi Haifa",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "肯吉·戈雷"
     },
     {
       "id": "ar-jany-martha",
@@ -165,7 +179,8 @@
       "club": "Rotherham United",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "阿尔贾尼·马塔"
     },
     {
       "id": "jearl-margaritha",
@@ -176,7 +191,8 @@
       "club": "Beveren",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "杰尔·马加里塔"
     },
     {
       "id": "brandley-kuwas",
@@ -187,7 +203,8 @@
       "club": "Volendam",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "布兰德利·库瓦斯"
     },
     {
       "id": "armando-obispo",
@@ -198,7 +215,8 @@
       "club": "PSV Eindhoven",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "阿曼多·奥比斯波"
     },
     {
       "id": "gervane-kastaneer",
@@ -209,7 +227,8 @@
       "club": "Terengganu",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "热尔万·卡斯塔内尔"
     },
     {
       "id": "joshua-brenet",
@@ -220,7 +239,8 @@
       "club": "Kayserispor",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "约书亚·布勒内"
     },
     {
       "id": "tahith-chong",
@@ -231,7 +251,8 @@
       "club": "Sheffield United",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "塔希特·钟"
     },
     {
       "id": "kevin-felida",
@@ -242,7 +263,8 @@
       "club": "Den Bosch",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "凯文·费利达"
     },
     {
       "id": "riechedly-bazoer",
@@ -253,7 +275,8 @@
       "club": "Konyaspor",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "里切德利·巴祖尔"
     },
     {
       "id": "deveron-fonville",
@@ -264,7 +287,8 @@
       "club": "NEC",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "德弗龙·方维尔"
     },
     {
       "id": "tyrick-bodak",
@@ -275,7 +299,8 @@
       "club": "Telstar",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "泰里克·博达克"
     },
     {
       "id": "trevor-doornbusch",
@@ -286,7 +311,8 @@
       "club": "VVV-Venlo",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "特雷弗·多恩布施"
     }
   ]
 }

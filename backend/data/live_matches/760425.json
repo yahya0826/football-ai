@@ -1,0 +1,1186 @@
+{
+  "match_id": "760425",
+  "date": "2026-06-14",
+  "status": {
+    "state": "finished",
+    "detail": "FT",
+    "period": 0,
+    "clock": "",
+    "completed": true,
+    "state_cn": "已结束"
+  },
+  "home": {
+    "name": "Netherlands",
+    "abbrev": "NED",
+    "logo": "",
+    "score": 2,
+    "team_id": "449",
+    "name_cn": "荷兰"
+  },
+  "away": {
+    "name": "Japan",
+    "abbrev": "JPN",
+    "logo": "",
+    "score": 2,
+    "team_id": "627",
+    "name_cn": "日本"
+  },
+  "events": [
+    {
+      "type": "kickoff",
+      "minute": "",
+      "team": "",
+      "player": "",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "",
+      "type_cn": "开球",
+      "team_cn": "",
+      "description_cn": "比赛开始！"
+    },
+    {
+      "type": "halftime",
+      "minute": "45'+3'",
+      "team": "",
+      "player": "",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "First Half ends, Netherlands 0, Japan 0.",
+      "type_cn": "中场休息",
+      "team_cn": "",
+      "description_cn": "中场休息 ⏸️"
+    },
+    {
+      "type": "fulltime",
+      "minute": "45'",
+      "team": "",
+      "player": "",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Second Half begins Netherlands 0, Japan 0.",
+      "type_cn": "全场结束",
+      "team_cn": "",
+      "description_cn": "全场比赛结束 🏁"
+    },
+    {
+      "type": "goal",
+      "minute": "51'",
+      "team": "Netherlands",
+      "player": "Virgil van Dijk Goal - Header",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Goal! Netherlands 1, Japan 0. Virgil van Dijk (Netherlands) header from the centre of the box to the bottom right corner. Assisted by Ryan Gravenberch with a cross following a set piece situation.",
+      "type_cn": "进球",
+      "team_cn": "荷兰",
+      "description_cn": "51'' Virgil van Dijk Goal - Header 为荷兰进球！"
+    },
+    {
+      "type": "goal",
+      "minute": "57'",
+      "team": "Japan",
+      "player": "Keito Nakamura Goal",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Goal! Netherlands 1, Japan 1. Keito Nakamura (Japan) right footed shot from outside the box to the bottom left corner. Assisted by Takefusa Kubo.",
+      "type_cn": "进球",
+      "team_cn": "日本",
+      "description_cn": "57'' Keito Nakamura Goal 为日本进球！"
+    },
+    {
+      "type": "yellow_card",
+      "minute": "61'",
+      "team": "Netherlands",
+      "player": "Crysencio Summerville Yellow Car",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Crysencio Summerville (Netherlands) is shown the yellow card for a bad foul.",
+      "type_cn": "黄牌",
+      "team_cn": "荷兰",
+      "description_cn": "61'' Crysencio Summerville Yellow Car（荷兰）吃到黄牌 🟨"
+    },
+    {
+      "type": "goal",
+      "minute": "64'",
+      "team": "Netherlands",
+      "player": "Crysencio Summerville Goal",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Goal! Netherlands 2, Japan 1. Crysencio Summerville (Netherlands) left footed shot from the right side of the box to the bottom left corner. Assisted by Ryan Gravenberch.",
+      "type_cn": "进球",
+      "team_cn": "荷兰",
+      "description_cn": "64'' Crysencio Summerville Goal 为荷兰进球！"
+    },
+    {
+      "type": "substitution",
+      "minute": "66'",
+      "team": "Japan",
+      "player": "Junya Ito Substitution",
+      "player_in": "Junya Ito",
+      "player_out": "Daizen Maeda",
+      "assist": "",
+      "text": "Substitution, Japan. Junya Ito replaces Daizen Maeda.",
+      "type_cn": "换人",
+      "team_cn": "日本",
+      "description_cn": "66'' Junya Ito ↑ 替补登场，Daizen Maeda ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "70'",
+      "team": "Netherlands",
+      "player": "Memphis Depay Substitution",
+      "player_in": "Memphis Depay",
+      "player_out": "Donyell Malen",
+      "assist": "",
+      "text": "Substitution, Netherlands. Memphis Depay replaces Donyell Malen.",
+      "type_cn": "换人",
+      "team_cn": "荷兰",
+      "description_cn": "70'' Memphis Depay ↑ 替补登场，Donyell Malen ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "70'",
+      "team": "Netherlands",
+      "player": "Teun Koopmeiners Substitution",
+      "player_in": "Teun Koopmeiners",
+      "player_out": "Crysencio Summerville",
+      "assist": "",
+      "text": "Substitution, Netherlands. Teun Koopmeiners replaces Crysencio Summerville.",
+      "type_cn": "换人",
+      "team_cn": "荷兰",
+      "description_cn": "70'' Teun Koopmeiners ↑ 替补登场，Crysencio Summerville ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "70'",
+      "team": "Netherlands",
+      "player": "Quinten Timber Substitution",
+      "player_in": "Quinten Timber",
+      "player_out": "Tijjani Reijnders",
+      "assist": "",
+      "text": "Substitution, Netherlands. Quinten Timber replaces Tijjani Reijnders.",
+      "type_cn": "换人",
+      "team_cn": "荷兰",
+      "description_cn": "70'' Quinten Timber ↑ 替补登场，Tijjani Reijnders ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "75'",
+      "team": "Japan",
+      "player": "Yukinari Sugawara Substitution",
+      "player_in": "Yukinari Sugawara",
+      "player_out": "Ritsu Doan",
+      "assist": "",
+      "text": "Substitution, Japan. Yukinari Sugawara replaces Ritsu Doan.",
+      "type_cn": "换人",
+      "team_cn": "日本",
+      "description_cn": "75'' Yukinari Sugawara ↑ 替补登场，Ritsu Doan ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "75'",
+      "team": "Japan",
+      "player": "Takehiro Tomiyasu Substitution",
+      "player_in": "Takehiro Tomiyasu",
+      "player_out": "Tsuyoshi Watanabe",
+      "assist": "",
+      "text": "Substitution, Japan. Takehiro Tomiyasu replaces Tsuyoshi Watanabe.",
+      "type_cn": "换人",
+      "team_cn": "日本",
+      "description_cn": "75'' Takehiro Tomiyasu ↑ 替补登场，Tsuyoshi Watanabe ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "75'",
+      "team": "Japan",
+      "player": "Koki Ogawa Substitution",
+      "player_in": "Koki Ogawa",
+      "player_out": "Takefusa Kubo",
+      "assist": "",
+      "text": "Substitution, Japan. Koki Ogawa replaces Takefusa Kubo because of an injury.",
+      "type_cn": "换人",
+      "team_cn": "日本",
+      "description_cn": "75'' Koki Ogawa ↑ 替补登场，Takefusa Kubo ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "81'",
+      "team": "Netherlands",
+      "player": "Nathan Aké Substitution",
+      "player_in": "Nathan Aké",
+      "player_out": "Ryan Gravenberch",
+      "assist": "",
+      "text": "Substitution, Netherlands. Nathan Aké replaces Ryan Gravenberch.",
+      "type_cn": "换人",
+      "team_cn": "荷兰",
+      "description_cn": "81'' Nathan Aké ↑ 替补登场，Ryan Gravenberch ↓ 被换下"
+    },
+    {
+      "type": "yellow_card",
+      "minute": "83'",
+      "team": "Netherlands",
+      "player": "Memphis Depay Yellow Card",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Memphis Depay (Netherlands) is shown the yellow card for a bad foul.",
+      "type_cn": "黄牌",
+      "team_cn": "荷兰",
+      "description_cn": "83'' Memphis Depay Yellow Card（荷兰）吃到黄牌 🟨"
+    },
+    {
+      "type": "substitution",
+      "minute": "84'",
+      "team": "Japan",
+      "player": "Kento Shiogai Substitution",
+      "player_in": "Kento Shiogai",
+      "player_out": "Ayase Ueda",
+      "assist": "",
+      "text": "Substitution, Japan. Kento Shiogai replaces Ayase Ueda.",
+      "type_cn": "换人",
+      "team_cn": "日本",
+      "description_cn": "84'' Kento Shiogai ↑ 替补登场，Ayase Ueda ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "85'",
+      "team": "Netherlands",
+      "player": "Brian Brobbey Substitution",
+      "player_in": "Brian Brobbey",
+      "player_out": "Cody Gakpo",
+      "assist": "",
+      "text": "Substitution, Netherlands. Brian Brobbey replaces Cody Gakpo.",
+      "type_cn": "换人",
+      "team_cn": "荷兰",
+      "description_cn": "85'' Brian Brobbey ↑ 替补登场，Cody Gakpo ↓ 被换下"
+    },
+    {
+      "type": "goal",
+      "minute": "89'",
+      "team": "Japan",
+      "player": "Daichi Kamada Goal - Header",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Goal! Netherlands 2, Japan 2. Daichi Kamada (Japan) header from the centre of the box to the top right corner. Assisted by Koki Ogawa following a corner.",
+      "type_cn": "进球",
+      "team_cn": "日本",
+      "description_cn": "89'' Daichi Kamada Goal - Header 为日本进球！"
+    },
+    {
+      "type": "yellow_card",
+      "minute": "90'+1'",
+      "team": "Netherlands",
+      "player": "Micky van de Ven Yellow Card",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Micky van de Ven (Netherlands) is shown the yellow card for a bad foul.",
+      "type_cn": "黄牌",
+      "team_cn": "荷兰",
+      "description_cn": "90'+1'' Micky van de Ven Yellow Card（荷兰）吃到黄牌 🟨"
+    },
+    {
+      "type": "83",
+      "minute": "90'+7'",
+      "team": "",
+      "player": "",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "",
+      "type_cn": "83",
+      "team_cn": "",
+      "description_cn": ""
+    }
+  ],
+  "statistics": {
+    "home": {
+      "team_name": "Netherlands",
+      "stats": {
+        "foulsCommitted": {
+          "label": "Fouls",
+          "value": "7",
+          "label_cn": "犯规"
+        },
+        "yellowCards": {
+          "label": "Yellow Cards",
+          "value": "3",
+          "label_cn": "黄牌"
+        },
+        "redCards": {
+          "label": "Red Cards",
+          "value": "0",
+          "label_cn": "红牌"
+        },
+        "offsides": {
+          "label": "Offsides",
+          "value": "1",
+          "label_cn": "越位"
+        },
+        "wonCorners": {
+          "label": "Corner Kicks",
+          "value": "5",
+          "label_cn": "角球"
+        },
+        "saves": {
+          "label": "Saves",
+          "value": "1",
+          "label_cn": "扑救"
+        },
+        "possessionPct": {
+          "label": "Possession",
+          "value": "59.8",
+          "label_cn": "控球率"
+        },
+        "totalShots": {
+          "label": "SHOTS",
+          "value": "10",
+          "label_cn": "总射门"
+        },
+        "shotsOnTarget": {
+          "label": "ON GOAL",
+          "value": "6",
+          "label_cn": "射正"
+        },
+        "shotPct": {
+          "label": "On Target %",
+          "value": "0.6",
+          "label_cn": "射正率"
+        },
+        "penaltyKickGoals": {
+          "label": "Penalty Goals",
+          "value": "0",
+          "label_cn": "点球进球"
+        },
+        "penaltyKickShots": {
+          "label": "Penalty Kicks Taken",
+          "value": "0",
+          "label_cn": "点球次数"
+        },
+        "accuratePasses": {
+          "label": "Accurate Passes",
+          "value": "463",
+          "label_cn": "精准传球"
+        },
+        "totalPasses": {
+          "label": "Passes",
+          "value": "524",
+          "label_cn": "传球"
+        },
+        "passPct": {
+          "label": "Pass Completion %",
+          "value": "0.9",
+          "label_cn": "传球成功率"
+        },
+        "accurateCrosses": {
+          "label": "Accurate Crosses",
+          "value": "8",
+          "label_cn": "精准传中"
+        },
+        "totalCrosses": {
+          "label": "Crosses",
+          "value": "21",
+          "label_cn": "传中"
+        },
+        "crossPct": {
+          "label": "Cross %",
+          "value": "0.4",
+          "label_cn": "传中成功率"
+        },
+        "totalLongBalls": {
+          "label": "Long Balls",
+          "value": "35",
+          "label_cn": "长传"
+        },
+        "accurateLongBalls": {
+          "label": "Accurate Long Balls",
+          "value": "16",
+          "label_cn": "精准长传"
+        },
+        "longballPct": {
+          "label": "Long Balls %",
+          "value": "0.5",
+          "label_cn": "长传成功率"
+        },
+        "blockedShots": {
+          "label": "Blocked Shots",
+          "value": "1",
+          "label_cn": "封堵射门"
+        },
+        "effectiveTackles": {
+          "label": "Effective Tackles",
+          "value": "5",
+          "label_cn": "有效抢断"
+        },
+        "totalTackles": {
+          "label": "Tackles",
+          "value": "11",
+          "label_cn": "抢断"
+        },
+        "tacklePct": {
+          "label": "Tackle %",
+          "value": "0.5",
+          "label_cn": "抢断成功率"
+        },
+        "interceptions": {
+          "label": "Interceptions",
+          "value": "7",
+          "label_cn": "拦截"
+        },
+        "effectiveClearance": {
+          "label": "Effective Clearances",
+          "value": "23",
+          "label_cn": "有效解围"
+        },
+        "totalClearance": {
+          "label": "Clearances",
+          "value": "23",
+          "label_cn": "解围"
+        }
+      },
+      "team_name_cn": "荷兰"
+    },
+    "away": {
+      "team_name": "Japan",
+      "stats": {
+        "foulsCommitted": {
+          "label": "Fouls",
+          "value": "7",
+          "label_cn": "犯规"
+        },
+        "yellowCards": {
+          "label": "Yellow Cards",
+          "value": "0",
+          "label_cn": "黄牌"
+        },
+        "redCards": {
+          "label": "Red Cards",
+          "value": "0",
+          "label_cn": "红牌"
+        },
+        "offsides": {
+          "label": "Offsides",
+          "value": "0",
+          "label_cn": "越位"
+        },
+        "wonCorners": {
+          "label": "Corner Kicks",
+          "value": "4",
+          "label_cn": "角球"
+        },
+        "saves": {
+          "label": "Saves",
+          "value": "4",
+          "label_cn": "扑救"
+        },
+        "possessionPct": {
+          "label": "Possession",
+          "value": "40.2",
+          "label_cn": "控球率"
+        },
+        "totalShots": {
+          "label": "SHOTS",
+          "value": "10",
+          "label_cn": "总射门"
+        },
+        "shotsOnTarget": {
+          "label": "ON GOAL",
+          "value": "3",
+          "label_cn": "射正"
+        },
+        "shotPct": {
+          "label": "On Target %",
+          "value": "0.3",
+          "label_cn": "射正率"
+        },
+        "penaltyKickGoals": {
+          "label": "Penalty Goals",
+          "value": "0",
+          "label_cn": "点球进球"
+        },
+        "penaltyKickShots": {
+          "label": "Penalty Kicks Taken",
+          "value": "0",
+          "label_cn": "点球次数"
+        },
+        "accuratePasses": {
+          "label": "Accurate Passes",
+          "value": "286",
+          "label_cn": "精准传球"
+        },
+        "totalPasses": {
+          "label": "Passes",
+          "value": "341",
+          "label_cn": "传球"
+        },
+        "passPct": {
+          "label": "Pass Completion %",
+          "value": "0.8",
+          "label_cn": "传球成功率"
+        },
+        "accurateCrosses": {
+          "label": "Accurate Crosses",
+          "value": "6",
+          "label_cn": "精准传中"
+        },
+        "totalCrosses": {
+          "label": "Crosses",
+          "value": "23",
+          "label_cn": "传中"
+        },
+        "crossPct": {
+          "label": "Cross %",
+          "value": "0.3",
+          "label_cn": "传中成功率"
+        },
+        "totalLongBalls": {
+          "label": "Long Balls",
+          "value": "36",
+          "label_cn": "长传"
+        },
+        "accurateLongBalls": {
+          "label": "Accurate Long Balls",
+          "value": "13",
+          "label_cn": "精准长传"
+        },
+        "longballPct": {
+          "label": "Long Balls %",
+          "value": "0.4",
+          "label_cn": "长传成功率"
+        },
+        "blockedShots": {
+          "label": "Blocked Shots",
+          "value": "1",
+          "label_cn": "封堵射门"
+        },
+        "effectiveTackles": {
+          "label": "Effective Tackles",
+          "value": "10",
+          "label_cn": "有效抢断"
+        },
+        "totalTackles": {
+          "label": "Tackles",
+          "value": "11",
+          "label_cn": "抢断"
+        },
+        "tacklePct": {
+          "label": "Tackle %",
+          "value": "0.9",
+          "label_cn": "抢断成功率"
+        },
+        "interceptions": {
+          "label": "Interceptions",
+          "value": "4",
+          "label_cn": "拦截"
+        },
+        "effectiveClearance": {
+          "label": "Effective Clearances",
+          "value": "32",
+          "label_cn": "有效解围"
+        },
+        "totalClearance": {
+          "label": "Clearances",
+          "value": "32",
+          "label_cn": "解围"
+        }
+      },
+      "team_name_cn": "日本"
+    }
+  },
+  "lineups": {
+    "home": {
+      "formation": "4-3-3",
+      "starters": [
+        {
+          "id": "291609",
+          "name": "Bart Verbruggen",
+          "short_name": "B. Verbruggen",
+          "jersey": "1",
+          "position": "G",
+          "position_name": "Goalkeeper",
+          "starter": true,
+          "formation_place": "1",
+          "active": true
+        },
+        {
+          "id": "284792",
+          "name": "Crysencio Summerville",
+          "short_name": "C. Summerville",
+          "jersey": "24",
+          "position": "RF",
+          "position_name": "Right Forward",
+          "starter": true,
+          "formation_place": "10",
+          "active": true
+        },
+        {
+          "id": "249524",
+          "name": "Cody Gakpo",
+          "short_name": "C. Gakpo",
+          "jersey": "11",
+          "position": "LF",
+          "position_name": "Left Forward",
+          "starter": true,
+          "formation_place": "11",
+          "active": true
+        },
+        {
+          "id": "213248",
+          "name": "Denzel Dumfries",
+          "short_name": "D. Dumfries",
+          "jersey": "22",
+          "position": "RB",
+          "position_name": "Right Back",
+          "starter": true,
+          "formation_place": "2",
+          "active": true
+        },
+        {
+          "id": "296512",
+          "name": "Micky van de Ven",
+          "short_name": "M. van de Ven",
+          "jersey": "15",
+          "position": "LB",
+          "position_name": "Left Back",
+          "starter": true,
+          "formation_place": "3",
+          "active": true
+        },
+        {
+          "id": "219022",
+          "name": "Frenkie de Jong",
+          "short_name": "F. de Jong",
+          "jersey": "21",
+          "position": "CM",
+          "position_name": "Center Midfielder",
+          "starter": true,
+          "formation_place": "4",
+          "active": true
+        },
+        {
+          "id": "282583",
+          "name": "Jan Paul van Hecke",
+          "short_name": "J. van Hecke",
+          "jersey": "6",
+          "position": "CD-R",
+          "position_name": "Center Right Defender",
+          "starter": true,
+          "formation_place": "5",
+          "active": true
+        },
+        {
+          "id": "157892",
+          "name": "Virgil van Dijk",
+          "short_name": "V. van Dijk",
+          "jersey": "4",
+          "position": "CD-L",
+          "position_name": "Center Left Defender",
+          "starter": true,
+          "formation_place": "6",
+          "active": true
+        },
+        {
+          "id": "274632",
+          "name": "Ryan Gravenberch",
+          "short_name": "R. Gravenberch",
+          "jersey": "8",
+          "position": "RM",
+          "position_name": "Right Midfielder",
+          "starter": true,
+          "formation_place": "7",
+          "active": true
+        },
+        {
+          "id": "261328",
+          "name": "Tijjani Reijnders",
+          "short_name": "T. Reijnders",
+          "jersey": "14",
+          "position": "LM",
+          "position_name": "Left Midfielder",
+          "starter": true,
+          "formation_place": "8",
+          "active": true
+        },
+        {
+          "id": "259481",
+          "name": "Donyell Malen",
+          "short_name": "D. Malen",
+          "jersey": "18",
+          "position": "F",
+          "position_name": "Forward",
+          "starter": true,
+          "formation_place": "9",
+          "active": true
+        }
+      ],
+      "substitutes": [
+        {
+          "id": "282186",
+          "name": "Mats Wieffer",
+          "short_name": "M. Wieffer",
+          "jersey": "12",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "264828",
+          "name": "Lutsharel Geertruida",
+          "short_name": "L. Geertruida",
+          "jersey": "2",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "245916",
+          "name": "Justin Kluivert",
+          "short_name": "J. Kluivert",
+          "jersey": "7",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "258968",
+          "name": "Teun Koopmeiners",
+          "short_name": "T. Koopmeiners",
+          "jersey": "20",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "240965",
+          "name": "Guus Til",
+          "short_name": "G. Til",
+          "jersey": "16",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "301449",
+          "name": "Robin Roefs",
+          "short_name": "R. Roefs",
+          "jersey": "13",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "282230",
+          "name": "Quinten Timber",
+          "short_name": "Q. Timber",
+          "jersey": "26",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "159248",
+          "name": "Nathan Aké",
+          "short_name": "N. Aké",
+          "jersey": "5",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "177042",
+          "name": "Wout Weghorst",
+          "short_name": "W. Weghorst",
+          "jersey": "9",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "177821",
+          "name": "Mark Flekken",
+          "short_name": "M. Flekken",
+          "jersey": "23",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "159255",
+          "name": "Memphis Depay",
+          "short_name": "M. Depay",
+          "jersey": "10",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "255344",
+          "name": "Noa Lang",
+          "short_name": "N. Lang",
+          "jersey": "17",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "146335",
+          "name": "Marten de Roon",
+          "short_name": "M. de Roon",
+          "jersey": "3",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "353951",
+          "name": "Jorrel Hato",
+          "short_name": "J. Hato",
+          "jersey": "25",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "282229",
+          "name": "Brian Brobbey",
+          "short_name": "B. Brobbey",
+          "jersey": "19",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        }
+      ]
+    },
+    "away": {
+      "formation": "3-4-2-1",
+      "starters": [
+        {
+          "id": "265958",
+          "name": "Zion Suzuki",
+          "short_name": "Z. Suzuki",
+          "jersey": "1",
+          "position": "G",
+          "position_name": "Goalkeeper",
+          "starter": true,
+          "formation_place": "1",
+          "active": true
+        },
+        {
+          "id": "256587",
+          "name": "Takefusa Kubo",
+          "short_name": "T. Kubo",
+          "jersey": "8",
+          "position": "CF-R",
+          "position_name": "Center Right Forward",
+          "starter": true,
+          "formation_place": "10",
+          "active": true
+        },
+        {
+          "id": "286347",
+          "name": "Daizen Maeda",
+          "short_name": "D. Maeda",
+          "jersey": "11",
+          "position": "CF-L",
+          "position_name": "Center Left Forward",
+          "starter": true,
+          "formation_place": "11",
+          "active": true
+        },
+        {
+          "id": "219627",
+          "name": "Ritsu Doan",
+          "short_name": "R. Doan",
+          "jersey": "10",
+          "position": "RM",
+          "position_name": "Right Midfielder",
+          "starter": true,
+          "formation_place": "2",
+          "active": true
+        },
+        {
+          "id": "265953",
+          "name": "Keito Nakamura",
+          "short_name": "K. Nakamura",
+          "jersey": "13",
+          "position": "LM",
+          "position_name": "Left Midfielder",
+          "starter": true,
+          "formation_place": "3",
+          "active": true
+        },
+        {
+          "id": "97111",
+          "name": "Hiroki Ito",
+          "short_name": "H. Ito",
+          "jersey": "21",
+          "position": "CD-L",
+          "position_name": "Center Left Defender",
+          "starter": true,
+          "formation_place": "4",
+          "active": true
+        },
+        {
+          "id": "202728",
+          "name": "Shogo Taniguchi",
+          "short_name": "S. Taniguchi",
+          "jersey": "3",
+          "position": "CD",
+          "position_name": "Center Defender",
+          "starter": true,
+          "formation_place": "5",
+          "active": true
+        },
+        {
+          "id": "276279",
+          "name": "Tsuyoshi Watanabe",
+          "short_name": "T. Watanabe",
+          "jersey": "16",
+          "position": "CD-R",
+          "position_name": "Center Right Defender",
+          "starter": true,
+          "formation_place": "6",
+          "active": true
+        },
+        {
+          "id": "357030",
+          "name": "Kaishu Sano",
+          "short_name": "K. Sano",
+          "jersey": "24",
+          "position": "CM-R",
+          "position_name": "Center Right Midfielder",
+          "starter": true,
+          "formation_place": "7",
+          "active": true
+        },
+        {
+          "id": "219362",
+          "name": "Daichi Kamada",
+          "short_name": "D. Kamada",
+          "jersey": "15",
+          "position": "CM-L",
+          "position_name": "Center Left Midfielder",
+          "starter": true,
+          "formation_place": "8",
+          "active": true
+        },
+        {
+          "id": "274277",
+          "name": "Ayase Ueda",
+          "short_name": "A. Ueda",
+          "jersey": "18",
+          "position": "F",
+          "position_name": "Forward",
+          "starter": true,
+          "formation_place": "9",
+          "active": true
+        }
+      ],
+      "substitutes": [
+        {
+          "id": "219350",
+          "name": "Junya Ito",
+          "short_name": "J. Ito",
+          "jersey": "14",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "238016",
+          "name": "Koki Ogawa",
+          "short_name": "K. Ogawa",
+          "jersey": "19",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "119082",
+          "name": "Yuto Nagatomo",
+          "short_name": "Y. Nagatomo",
+          "jersey": "5",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "362959",
+          "name": "Kento Shiogai",
+          "short_name": "K. Shiogai",
+          "jersey": "26",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "346208",
+          "name": "Keisuke Goto",
+          "short_name": "K. Goto",
+          "jersey": "9",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "303031",
+          "name": "Yuito Suzuki",
+          "short_name": "Y. Suzuki",
+          "jersey": "17",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "258270",
+          "name": "Ayumu Seko",
+          "short_name": "A. Seko",
+          "jersey": "20",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "312924",
+          "name": "Tomoki Hayakawa",
+          "short_name": "T. Hayakawa",
+          "jersey": "23",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "271352",
+          "name": "Shuto Machino",
+          "short_name": "S. Machino",
+          "jersey": "6",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "238033",
+          "name": "Kou Itakura",
+          "short_name": "K. Itakura",
+          "jersey": "4",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "333663",
+          "name": "Junnosuke Suzuki",
+          "short_name": "J. Suzuki",
+          "jersey": "25",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "255723",
+          "name": "Keisuke Osako",
+          "short_name": "K. Osako",
+          "jersey": "12",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "253173",
+          "name": "Ao Tanaka",
+          "short_name": "A. Tanaka",
+          "jersey": "7",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "265965",
+          "name": "Yukinari Sugawara",
+          "short_name": "Y. Sugawara",
+          "jersey": "2",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "238004",
+          "name": "Takehiro Tomiyasu",
+          "short_name": "T. Tomiyasu",
+          "jersey": "22",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        }
+      ]
+    }
+  },
+  "_saved_at": "2026-06-15T14:01:20.454569"
+}

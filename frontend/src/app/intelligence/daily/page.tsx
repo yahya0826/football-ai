@@ -2,19 +2,27 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import api, { DailyReport } from '@/lib/api';
+import api, { DailySummaryResponse } from '@/lib/api';
 
-export default function DailyReportPage() {
-  const [report, setReport] = useState<DailyReport | null>(null);
+function formatTimestamp(iso: string): string {
+  try {
+    return new Date(iso).toLocaleString('zh-CN', { month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit' });
+  } catch {
+    return iso;
+  }
+}
+
+export default function DailySummarySubPage() {
+  const [data, setData] = useState<DailySummaryResponse | null>(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     async function load() {
       try {
-        const data = await api.getDailyReport();
-        setReport(data);
+        const result = await api.getDailySummary();
+        setData(result);
       } catch (err) {
-        console.error('Failed to load daily report:', err);
+        console.error('Failed to load daily summary:', err);
       } finally {
         setLoading(false);
       }
@@ -30,10 +38,10 @@ export default function DailyReportPage() {
     );
   }
 
-  if (!report) {
+  if (!data) {
     return (
       <div className="min-h-screen flex items-center justify-center">
-        <p style={{ color: 'var(--text-muted)' }}>暂无日报数据</p>
+        <p style={{ color: 'var(--text-muted)' }}>暂无数据</p>
       </div>
     );
   }
@@ -49,46 +57,28 @@ export default function DailyReportPage() {
         </Link>
 
         <div className="card mb-8 text-center">
-          <h1 className="page-title text-3xl mb-2">哨前日报</h1>
-          <p className="text-sm" style={{ color: 'var(--text-muted)' }}>{report.date}</p>
-          <div className="flex justify-center gap-4 mt-4">
-            <span className="badge badge-primary">{report.total_matches}场比赛</span>
-            {report.key_match_focus && <span className="badge badge-accent">焦点: {report.key_match_focus}</span>}
+          <h1 className="page-title text-3xl mb-2">赛程情报</h1>
+          <p className="text-sm" style={{ color: 'var(--text-muted)' }}>
+            {data.generated_at ? `生成于 ${formatTimestamp(data.generated_at)}` : data.date || ''}
+          </p>
+        </div>
+
+        {data.generated && data.article ? (
+          <div className="card">
+            <div style={{ whiteSpace: 'pre-wrap', lineHeight: 1.9 }}>
+              {data.article}
+            </div>
           </div>
-        </div>
-
-        <div className="card mb-6">
-          <h2 className="font-bold text-lg mb-3">今日摘要</h2>
-          <p style={{ whiteSpace: 'pre-wrap' }}>{report.summary}</p>
-        </div>
-
-        {report.sections.map((section, idx) => (
-          <div key={idx} className="card mb-4">
-            <h3 className="font-bold text-lg mb-3">
-              {section.icon === 'schedule' ? '📋 ' :
-               section.icon === 'variables' ? '📊 ' :
-               section.icon === 'alerts' ? '🔔 ' : ''}
-              {section.title}
-            </h3>
-            <p style={{ whiteSpace: 'pre-wrap', color: 'var(--text-muted)' }}>
-              {section.content}
+        ) : (
+          <div className="card text-center py-8">
+            <p style={{ color: 'var(--text-muted)' }}>
+              比赛尚未全部结束，总结将在所有比赛完成后自动生成
             </p>
-            {section.items && (
-              <div className="mt-3 space-y-2">
-                {section.items.map((item, i) => (
-                  <div key={i} className="flex items-center gap-3 p-2 rounded" style={{ background: 'var(--card-bg)' }}>
-                    <span style={{ color: 'var(--primary)' }}>•</span>
-                    <span className="font-medium">{item.name || item.description}</span>
-                    {item.status && <span className="badge badge-secondary text-xs">{item.status}</span>}
-                  </div>
-                ))}
-              </div>
-            )}
           </div>
-        ))}
+        )}
 
         <p className="text-center text-sm mt-6" style={{ color: 'var(--text-muted)' }}>
-          {report.disclaimer}
+          本文由 AI 自动生成，仅供参考
         </p>
       </div>
     </div>

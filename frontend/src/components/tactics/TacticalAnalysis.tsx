@@ -58,7 +58,7 @@ export default function TacticalAnalysis({ lineup, formation, teamName }: Props)
           pos,
           formation
         );
-        return { ...result, playerName: player.name, position: pos };
+        return { ...result, playerName: player.nameCn || player.name, position: pos };
       });
       const playerFits = await Promise.all(fitPromises);
 

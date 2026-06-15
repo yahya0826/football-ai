@@ -52,7 +52,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/eloy-room.jpg"
+      "avatar": "/headshots/eloy-room.jpg",
+      "name_cn": "埃洛伊·罗姆"
     },
     {
       "id": "shurandy-sambo",
@@ -113,7 +114,8 @@
         "xa_p90": 0.04,
         "key_passes_p90": 0.39
       },
-      "avatar": "/headshots/shurandy-sambo.jpg"
+      "avatar": "/headshots/shurandy-sambo.jpg",
+      "name_cn": "舒兰迪·桑博"
     },
     {
       "id": "juri-n-gaari",
@@ -159,7 +161,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/juri-n-gaari.jpg"
+      "avatar": "/headshots/juri-n-gaari.jpg",
+      "name_cn": "于里恩·加里"
     },
     {
       "id": "roshon-van-eijma",
@@ -205,7 +208,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/roshon-van-eijma.jpg"
+      "avatar": "/headshots/roshon-van-eijma.jpg",
+      "name_cn": "罗申·范艾马"
     },
     {
       "id": "sherel-floranus",
@@ -266,7 +270,8 @@
         "xa_p90": 0.07,
         "key_passes_p90": 0.45
       },
-      "avatar": "/headshots/sherel-floranus.jpg"
+      "avatar": "/headshots/sherel-floranus.jpg",
+      "name_cn": "谢雷尔·弗洛拉努斯"
     },
     {
       "id": "godfried-roemeratoe",
@@ -312,7 +317,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/godfried-roemeratoe.jpg"
+      "avatar": "/headshots/godfried-roemeratoe.jpg",
+      "name_cn": "戈弗雷德·鲁梅拉图"
     },
     {
       "id": "juninho-bacuna",
@@ -358,7 +364,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/juninho-bacuna.jpg"
+      "avatar": "/headshots/juninho-bacuna.jpg",
+      "name_cn": "尤尼尼奥·巴库纳"
     },
     {
       "id": "livano-comenencia",
@@ -404,7 +411,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/livano-comenencia.jpg"
+      "avatar": "/headshots/livano-comenencia.jpg",
+      "name_cn": "利瓦诺·科门恩西亚"
     },
     {
       "id": "j-rgen-locadia",
@@ -450,7 +458,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/j-rgen-locadia.jpg"
+      "avatar": "/headshots/j-rgen-locadia.jpg",
+      "name_cn": "于尔根·洛卡迪亚"
     },
     {
       "id": "leandro-bacuna",
@@ -496,7 +505,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/leandro-bacuna.jpg"
+      "avatar": "/headshots/leandro-bacuna.jpg",
+      "name_cn": "莱安德罗·巴库纳"
     },
     {
       "id": "jeremy-antonisse",
@@ -542,7 +552,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/jeremy-antonisse.jpg"
+      "avatar": "/headshots/jeremy-antonisse.jpg",
+      "name_cn": "杰雷米·安东尼斯"
     },
     {
       "id": "sontje-hansen",
@@ -588,7 +599,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/sontje-hansen.jpg"
+      "avatar": "/headshots/sontje-hansen.jpg",
+      "name_cn": "松切·汉森"
     },
     {
       "id": "tyrese-noslin",
@@ -649,7 +661,8 @@
         "xa_p90": 0.1,
         "key_passes_p90": 0.7
       },
-      "avatar": "/headshots/tyrese-noslin.jpg"
+      "avatar": "/headshots/tyrese-noslin.jpg",
+      "name_cn": "泰雷斯·诺斯林"
     },
     {
       "id": "kenji-gorr",
@@ -695,7 +708,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/kenji-gorr.jpg"
+      "avatar": "/headshots/kenji-gorr.jpg",
+      "name_cn": "肯吉·戈雷"
     },
     {
       "id": "ar-jany-martha",
@@ -741,7 +755,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/ar-jany-martha.jpg"
+      "avatar": "/headshots/ar-jany-martha.jpg",
+      "name_cn": "阿尔贾尼·马塔"
     },
     {
       "id": "jearl-margaritha",
@@ -787,7 +802,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/jearl-margaritha.jpg"
+      "avatar": "/headshots/jearl-margaritha.jpg",
+      "name_cn": "杰尔·马加里塔"
     },
     {
       "id": "brandley-kuwas",
@@ -848,7 +864,8 @@
         "xa_p90": 0.15,
         "key_passes_p90": 1.6
       },
-      "avatar": "/headshots/brandley-kuwas.jpg"
+      "avatar": "/headshots/brandley-kuwas.jpg",
+      "name_cn": "布兰德利·库瓦斯"
     },
     {
       "id": "armando-obispo",
@@ -909,7 +926,8 @@
         "xa_p90": 0.03,
         "key_passes_p90": 0.0
       },
-      "avatar": "/headshots/armando-obispo.jpg"
+      "avatar": "/headshots/armando-obispo.jpg",
+      "name_cn": "阿曼多·奥比斯波"
     },
     {
       "id": "gervane-kastaneer",
@@ -955,7 +973,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/gervane-kastaneer.jpg"
+      "avatar": "/headshots/gervane-kastaneer.jpg",
+      "name_cn": "热尔万·卡斯塔内尔"
     },
     {
       "id": "joshua-brenet",
@@ -1016,7 +1035,8 @@
         "xa_p90": 0.08,
         "key_passes_p90": 0.2
       },
-      "avatar": "/headshots/joshua-brenet.jpg"
+      "avatar": "/headshots/joshua-brenet.jpg",
+      "name_cn": "约书亚·布勒内"
     },
     {
       "id": "tahith-chong",
@@ -1062,7 +1082,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/tahith-chong.jpg"
+      "avatar": "/headshots/tahith-chong.jpg",
+      "name_cn": "塔希特·钟"
     },
     {
       "id": "kevin-felida",
@@ -1108,7 +1129,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/kevin-felida.jpg"
+      "avatar": "/headshots/kevin-felida.jpg",
+      "name_cn": "凯文·费利达"
     },
     {
       "id": "riechedly-bazoer",
@@ -1154,7 +1176,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/riechedly-bazoer.jpg"
+      "avatar": "/headshots/riechedly-bazoer.jpg",
+      "name_cn": "里切德利·巴祖尔"
     },
     {
       "id": "deveron-fonville",
@@ -1215,7 +1238,8 @@
         "xa_p90": 0.11,
         "key_passes_p90": 0.49
       },
-      "avatar": "/headshots/deveron-fonville.jpg"
+      "avatar": "/headshots/deveron-fonville.jpg",
+      "name_cn": "德弗龙·方维尔"
     },
     {
       "id": "tyrick-bodak",
@@ -1266,7 +1290,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/tyrick-bodak.jpg"
+      "avatar": "/headshots/tyrick-bodak.jpg",
+      "name_cn": "泰里克·博达克"
     },
     {
       "id": "trevor-doornbusch",
@@ -1317,7 +1342,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/trevor-doornbusch.jpg"
+      "avatar": "/headshots/trevor-doornbusch.jpg",
+      "name_cn": "特雷弗·多恩布施"
     }
   ]
 }

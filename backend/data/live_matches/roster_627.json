@@ -1,0 +1,338 @@
+{
+  "team_id": "627",
+  "team_name": "Japan",
+  "team_name_cn": "日本",
+  "coach": "日本主教练",
+  "players": {
+    "G": [
+      {
+        "id": "265958",
+        "name": "Zion Suzuki",
+        "short_name": "Z. Suzuki",
+        "jersey": "1",
+        "position": "G",
+        "position_name": "Goalkeeper",
+        "headshot": "",
+        "height": "6' 3\"",
+        "weight": "218 lbs",
+        "age": 23
+      },
+      {
+        "id": "255723",
+        "name": "Keisuke Osako",
+        "short_name": "K. Osako",
+        "jersey": "12",
+        "position": "G",
+        "position_name": "Goalkeeper",
+        "headshot": "",
+        "height": "6' 2\"",
+        "weight": "192 lbs",
+        "age": 26
+      },
+      {
+        "id": "312924",
+        "name": "Tomoki Hayakawa",
+        "short_name": "T. Hayakawa",
+        "jersey": "23",
+        "position": "G",
+        "position_name": "Goalkeeper",
+        "headshot": "",
+        "height": "6' 2\"",
+        "weight": "179 lbs",
+        "age": 27
+      }
+    ],
+    "D": [
+      {
+        "id": "265965",
+        "name": "Yukinari Sugawara",
+        "short_name": "Y. Sugawara",
+        "jersey": "2",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/265965.png",
+        "height": "5' 10\"",
+        "weight": "157 lbs",
+        "age": 25
+      },
+      {
+        "id": "202728",
+        "name": "Shogo Taniguchi",
+        "short_name": "S. Taniguchi",
+        "jersey": "3",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 1\"",
+        "weight": "163 lbs",
+        "age": 34
+      },
+      {
+        "id": "238033",
+        "name": "Kou Itakura",
+        "short_name": "K. Itakura",
+        "jersey": "4",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/238033.png",
+        "height": "6' 2\"",
+        "weight": "174 lbs",
+        "age": 29
+      },
+      {
+        "id": "119082",
+        "name": "Yuto Nagatomo",
+        "short_name": "Y. Nagatomo",
+        "jersey": "5",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "5' 7\"",
+        "weight": "150 lbs",
+        "age": 39
+      },
+      {
+        "id": "276279",
+        "name": "Tsuyoshi Watanabe",
+        "short_name": "T. Watanabe",
+        "jersey": "16",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 0\"",
+        "weight": "168 lbs",
+        "age": 29
+      },
+      {
+        "id": "258270",
+        "name": "Ayumu Seko",
+        "short_name": "A. Seko",
+        "jersey": "20",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 1\"",
+        "weight": "179 lbs",
+        "age": 26
+      },
+      {
+        "id": "97111",
+        "name": "Hiroki Ito",
+        "short_name": "H. Ito",
+        "jersey": "21",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 2\"",
+        "weight": "183 lbs",
+        "age": 27
+      },
+      {
+        "id": "238004",
+        "name": "Takehiro Tomiyasu",
+        "short_name": "T. Tomiyasu",
+        "jersey": "22",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 2\"",
+        "weight": "183 lbs",
+        "age": 27
+      },
+      {
+        "id": "333663",
+        "name": "Junnosuke Suzuki",
+        "short_name": "J. Suzuki",
+        "jersey": "25",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "5' 11\"",
+        "weight": "157 lbs",
+        "age": 22
+      }
+    ],
+    "M": [
+      {
+        "id": "152479",
+        "name": "Wataru Endo",
+        "short_name": "W. Endo",
+        "jersey": "6",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "5' 10\"",
+        "weight": "170 lbs",
+        "age": 33
+      },
+      {
+        "id": "253173",
+        "name": "Ao Tanaka",
+        "short_name": "A. Tanaka",
+        "jersey": "7",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "5' 11\"",
+        "weight": "163 lbs",
+        "age": 27
+      },
+      {
+        "id": "219627",
+        "name": "Ritsu Doan",
+        "short_name": "R. Doan",
+        "jersey": "10",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/219627.png",
+        "height": "5' 8\"",
+        "weight": "152 lbs",
+        "age": 27
+      },
+      {
+        "id": "219362",
+        "name": "Daichi Kamada",
+        "short_name": "D. Kamada",
+        "jersey": "15",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "5' 11\"",
+        "weight": "159 lbs",
+        "age": 29
+      },
+      {
+        "id": "303031",
+        "name": "Yuito Suzuki",
+        "short_name": "Y. Suzuki",
+        "jersey": "17",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "5' 9\"",
+        "weight": "157 lbs",
+        "age": 24
+      },
+      {
+        "id": "357030",
+        "name": "Kaishu Sano",
+        "short_name": "K. Sano",
+        "jersey": "24",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "5' 9\"",
+        "weight": "148 lbs",
+        "age": 25
+      }
+    ],
+    "F": [
+      {
+        "id": "256587",
+        "name": "Takefusa Kubo",
+        "short_name": "T. Kubo",
+        "jersey": "8",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "5' 8\"",
+        "weight": "148 lbs",
+        "age": 25
+      },
+      {
+        "id": "346208",
+        "name": "Keisuke Goto",
+        "short_name": "K. Goto",
+        "jersey": "9",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "6' 3\"",
+        "weight": "152 lbs",
+        "age": 21
+      },
+      {
+        "id": "286347",
+        "name": "Daizen Maeda",
+        "short_name": "D. Maeda",
+        "jersey": "11",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "5' 8\"",
+        "weight": "148 lbs",
+        "age": 28
+      },
+      {
+        "id": "265953",
+        "name": "Keito Nakamura",
+        "short_name": "K. Nakamura",
+        "jersey": "13",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "5' 11\"",
+        "weight": "161 lbs",
+        "age": 25
+      },
+      {
+        "id": "219350",
+        "name": "Junya Ito",
+        "short_name": "J. Ito",
+        "jersey": "14",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "5' 10\"",
+        "weight": "150 lbs",
+        "age": 33
+      },
+      {
+        "id": "274277",
+        "name": "Ayase Ueda",
+        "short_name": "A. Ueda",
+        "jersey": "18",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "6' 0\"",
+        "weight": "168 lbs",
+        "age": 27
+      },
+      {
+        "id": "238016",
+        "name": "Koki Ogawa",
+        "short_name": "K. Ogawa",
+        "jersey": "19",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/238016.png",
+        "height": "6' 1\"",
+        "weight": "172 lbs",
+        "age": 28
+      },
+      {
+        "id": "362959",
+        "name": "Kento Shiogai",
+        "short_name": "K. Shiogai",
+        "jersey": "26",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "5' 11\"",
+        "weight": "170 lbs",
+        "age": 21
+      }
+    ],
+    "U": []
+  },
+  "total_players": 26,
+  "position_labels": {
+    "G": "门将",
+    "D": "后卫",
+    "M": "中场",
+    "F": "前锋",
+    "U": "未知"
+  },
+  "_saved_at": "2026-06-14T20:26:41.636217"
+}

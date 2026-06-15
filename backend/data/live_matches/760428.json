@@ -1,0 +1,55 @@
+{
+  "match_id": "760428",
+  "date": "2026-06-15",
+  "status": {
+    "state": "scheduled",
+    "detail": "Mon, June 15th at 12:00 PM EDT",
+    "period": 0,
+    "clock": "",
+    "completed": false,
+    "state_cn": "未开始"
+  },
+  "home": {
+    "name": "Spain",
+    "abbrev": "ESP",
+    "logo": "",
+    "score": 0,
+    "team_id": "164",
+    "name_cn": "西班牙"
+  },
+  "away": {
+    "name": "Cape Verde",
+    "abbrev": "CPV",
+    "logo": "",
+    "score": 0,
+    "team_id": "2597",
+    "name_cn": "佛得角"
+  },
+  "events": [],
+  "statistics": {
+    "home": {
+      "team_name": "Spain",
+      "stats": {},
+      "team_name_cn": "西班牙"
+    },
+    "away": {
+      "team_name": "Cape Verde",
+      "stats": {},
+      "team_name_cn": "佛得角"
+    }
+  },
+  "lineups": {
+    "home": {
+      "formation": "",
+      "starters": [],
+      "substitutes": []
+    },
+    "away": {
+      "formation": "",
+      "starters": [],
+      "substitutes": []
+    }
+  },
+  "competition_id": "760428",
+  "_saved_at": "2026-06-15T22:47:47.550096"
+}

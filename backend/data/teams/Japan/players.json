@@ -65,7 +65,8 @@
         "xa_p90": 0.01,
         "key_passes_p90": 0.05
       },
-      "avatar": "/headshots/zion-suzuki.jpg"
+      "avatar": "/headshots/zion-suzuki.jpg",
+      "name_cn": "铃木彩艳"
     },
     {
       "id": "yukinari-sugawara",
@@ -126,7 +127,8 @@
         "xa_p90": 0.11,
         "key_passes_p90": 0.74
       },
-      "avatar": "/headshots/yukinari-sugawara.jpg"
+      "avatar": "/headshots/yukinari-sugawara.jpg",
+      "name_cn": "菅原由势"
     },
     {
       "id": "sh-go-taniguchi",
@@ -172,7 +174,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/sh-go-taniguchi.jpg"
+      "avatar": "/headshots/sh-go-taniguchi.jpg",
+      "name_cn": "谷口彰悟"
     },
     {
       "id": "k--itakura",
@@ -218,7 +221,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/k--itakura.jpg"
+      "avatar": "/headshots/k--itakura.jpg",
+      "name_cn": "板仓滉"
     },
     {
       "id": "y-to-nagatomo",
@@ -264,7 +268,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/y-to-nagatomo.jpg"
+      "avatar": "/headshots/y-to-nagatomo.jpg",
+      "name_cn": "长友佑都"
     },
     {
       "id": "wataru-endo",
@@ -310,7 +315,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/wataru-endo.jpg"
+      "avatar": "/headshots/wataru-endo.jpg",
+      "name_cn": "远藤航"
     },
     {
       "id": "ao-tanaka",
@@ -371,7 +377,8 @@
         "xa_p90": 0.1,
         "key_passes_p90": 1.22
       },
-      "avatar": "/headshots/ao-tanaka.jpg"
+      "avatar": "/headshots/ao-tanaka.jpg",
+      "name_cn": "田中碧"
     },
     {
       "id": "takefusa-kubo",
@@ -417,7 +424,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/takefusa-kubo.jpg"
+      "avatar": "/headshots/takefusa-kubo.jpg",
+      "name_cn": "久保建英"
     },
     {
       "id": "keisuke-got",
@@ -463,7 +471,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/keisuke-got.jpg"
+      "avatar": "/headshots/keisuke-got.jpg",
+      "name_cn": "后藤启介"
     },
     {
       "id": "ritsu-d-an",
@@ -509,7 +518,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/ritsu-d-an.jpg"
+      "avatar": "/headshots/ritsu-d-an.jpg",
+      "name_cn": "堂安律"
     },
     {
       "id": "daizen-maeda",
@@ -570,7 +580,8 @@
         "xa_p90": 0.13,
         "key_passes_p90": 1.08
       },
-      "avatar": "/headshots/daizen-maeda.jpg"
+      "avatar": "/headshots/daizen-maeda.jpg",
+      "name_cn": "前田大然"
     },
     {
       "id": "keisuke--sako",
@@ -621,7 +632,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/keisuke--sako.jpg"
+      "avatar": "/headshots/keisuke--sako.jpg",
+      "name_cn": "大迫敬介"
     },
     {
       "id": "keito-nakamura",
@@ -667,7 +679,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/keito-nakamura.jpg"
+      "avatar": "/headshots/keito-nakamura.jpg",
+      "name_cn": "中村敬斗"
     },
     {
       "id": "junya-it",
@@ -713,7 +726,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/junya-it.jpg"
+      "avatar": "/headshots/junya-it.jpg",
+      "name_cn": "伊东纯也"
     },
     {
       "id": "daichi-kamada",
@@ -774,7 +788,8 @@
         "xa_p90": 0.15,
         "key_passes_p90": 0.94
       },
-      "avatar": "/headshots/daichi-kamada.jpg"
+      "avatar": "/headshots/daichi-kamada.jpg",
+      "name_cn": "镰田大地"
     },
     {
       "id": "tsuyoshi-watanabe",
@@ -835,7 +850,8 @@
         "xa_p90": 0.07,
         "key_passes_p90": 0.44
       },
-      "avatar": "/headshots/tsuyoshi-watanabe.jpg"
+      "avatar": "/headshots/tsuyoshi-watanabe.jpg",
+      "name_cn": "渡边刚"
     },
     {
       "id": "yuito-suzuki",
@@ -944,7 +960,8 @@
         "xa_p90": 0.06,
         "key_passes_p90": 0.75
       },
-      "avatar": "/headshots/ayase-ueda.jpg"
+      "avatar": "/headshots/ayase-ueda.jpg",
+      "name_cn": "上田绮世"
     },
     {
       "id": "k-ki-ogawa",
@@ -990,7 +1007,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/k-ki-ogawa.jpg"
+      "avatar": "/headshots/k-ki-ogawa.jpg",
+      "name_cn": "小川航基"
     },
     {
       "id": "ayumu-seko",
@@ -1051,7 +1069,8 @@
         "xa_p90": 0.04,
         "key_passes_p90": 0.34
       },
-      "avatar": "/headshots/ayumu-seko.jpg"
+      "avatar": "/headshots/ayumu-seko.jpg",
+      "name_cn": "濑古步梦"
     },
     {
       "id": "hiroki-it",
@@ -1112,7 +1131,8 @@
         "xa_p90": 0.1,
         "key_passes_p90": 0.58
       },
-      "avatar": "/headshots/hiroki-it.jpg"
+      "avatar": "/headshots/hiroki-it.jpg",
+      "name_cn": "伊藤洋辉"
     },
     {
       "id": "takehiro-tomiyasu",
@@ -1158,7 +1178,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/takehiro-tomiyasu.jpg"
+      "avatar": "/headshots/takehiro-tomiyasu.jpg",
+      "name_cn": "冨安健洋"
     },
     {
       "id": "tomoki-hayakawa",
@@ -1221,7 +1242,8 @@
         },
         "key_passes_p90": 0.06
       },
-      "avatar": "/headshots/tomoki-hayakawa.jpg"
+      "avatar": "/headshots/tomoki-hayakawa.jpg",
+      "name_cn": "早川友基"
     },
     {
       "id": "kaish--sano",
@@ -1282,7 +1304,8 @@
         "xa_p90": 0.1,
         "key_passes_p90": 0.74
       },
-      "avatar": "/headshots/kaish--sano.jpg"
+      "avatar": "/headshots/kaish--sano.jpg",
+      "name_cn": "佐野海舟"
     },
     {
       "id": "junnosuke-suzuki",
@@ -1328,7 +1351,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/junnosuke-suzuki.jpg"
+      "avatar": "/headshots/junnosuke-suzuki.jpg",
+      "name_cn": "铃木准之介"
     },
     {
       "id": "kento-shiogai",
@@ -1389,7 +1413,8 @@
         "xa_p90": 0.08,
         "key_passes_p90": 0.55
       },
-      "avatar": "/headshots/kento-shiogai.jpg"
+      "avatar": "/headshots/kento-shiogai.jpg",
+      "name_cn": "塩貝健人"
     }
   ]
 }

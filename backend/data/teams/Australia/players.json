@@ -67,7 +67,8 @@
         "xa_p90": 0.0,
         "key_passes_p90": 0.0
       },
-      "avatar": "/headshots/mathew-ryan.jpg"
+      "avatar": "/headshots/mathew-ryan.jpg",
+      "name_cn": "马修·瑞安"
     },
     {
       "id": "milo--degenek",
@@ -113,7 +114,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/milo--degenek.jpg"
+      "avatar": "/headshots/milo--degenek.jpg",
+      "name_cn": "米洛什·德格内克"
     },
     {
       "id": "alessandro-circati",
@@ -174,7 +176,8 @@
         "xa_p90": 0.02,
         "key_passes_p90": 0.3
       },
-      "avatar": "/headshots/alessandro-circati.jpg"
+      "avatar": "/headshots/alessandro-circati.jpg",
+      "name_cn": "亚历山德罗·奇尔卡蒂"
     },
     {
       "id": "jacob-italiano",
@@ -220,7 +223,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/jacob-italiano.jpg"
+      "avatar": "/headshots/jacob-italiano.jpg",
+      "name_cn": "雅各布·伊塔利亚诺"
     },
     {
       "id": "jordan-bos",
@@ -281,7 +285,8 @@
         "xa_p90": 0.17,
         "key_passes_p90": 1.62
       },
-      "avatar": "/headshots/jordan-bos.jpg"
+      "avatar": "/headshots/jordan-bos.jpg",
+      "name_cn": "乔丹·博斯"
     },
     {
       "id": "jason-geria",
@@ -327,7 +332,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/jason-geria.jpg"
+      "avatar": "/headshots/jason-geria.jpg",
+      "name_cn": "杰森·格里亚"
     },
     {
       "id": "mathew-leckie",
@@ -373,7 +379,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/mathew-leckie.jpg"
+      "avatar": "/headshots/mathew-leckie.jpg",
+      "name_cn": "马修·莱基"
     },
     {
       "id": "connor-metcalfe",
@@ -434,7 +441,8 @@
         "xa_p90": 0.23,
         "key_passes_p90": 1.5
       },
-      "avatar": "/headshots/connor-metcalfe.jpg"
+      "avatar": "/headshots/connor-metcalfe.jpg",
+      "name_cn": "康纳·梅特卡夫"
     },
     {
       "id": "mohamed-tour",
@@ -479,7 +487,8 @@
         "start_rate": 71.4,
         "data_source": "desktop",
         "has_real_data": true
-      }
+      },
+      "name_cn": "穆罕默德·图雷"
     },
     {
       "id": "ajdin-hrustic",
@@ -492,7 +501,8 @@
       "national_caps": 0,
       "national_goals": 0,
       "stats": null,
-      "avatar": "/headshots/ajdin-hrustic.jpg"
+      "avatar": "/headshots/ajdin-hrustic.jpg",
+      "name_cn": "艾丁·赫鲁斯蒂奇"
     },
     {
       "id": "awer-mabil",
@@ -538,7 +548,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/awer-mabil.jpg"
+      "avatar": "/headshots/awer-mabil.jpg",
+      "name_cn": "阿韦尔·马比尔"
     },
     {
       "id": "paul-izzo",
@@ -589,7 +600,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/paul-izzo.jpg"
+      "avatar": "/headshots/paul-izzo.jpg",
+      "name_cn": "保罗·伊佐"
     },
     {
       "id": "aiden-o-neill",
@@ -634,7 +646,8 @@
         "start_rate": 83.3,
         "data_source": "desktop",
         "has_real_data": true
-      }
+      },
+      "name_cn": "艾登·奥尼尔"
     },
     {
       "id": "cammy-devlin",
@@ -743,7 +756,8 @@
         "xa_p90": 0.07,
         "key_passes_p90": 0.57
       },
-      "avatar": "/headshots/kai-trewin.jpg"
+      "avatar": "/headshots/kai-trewin.jpg",
+      "name_cn": "凯·特雷温"
     },
     {
       "id": "aziz-behich",
@@ -789,7 +803,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/aziz-behich.jpg"
+      "avatar": "/headshots/aziz-behich.jpg",
+      "name_cn": "阿齐兹·贝希奇"
     },
     {
       "id": "nestory-irankunda",
@@ -835,7 +850,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/nestory-irankunda.jpg"
+      "avatar": "/headshots/nestory-irankunda.jpg",
+      "name_cn": "内斯托里·伊兰昆达"
     },
     {
       "id": "patrick-beach",
@@ -847,7 +863,8 @@
       "age": 0,
       "national_caps": 0,
       "national_goals": 0,
-      "stats": null
+      "stats": null,
+      "name_cn": "帕特里克·比奇"
     },
     {
       "id": "harry-souttar",
@@ -893,7 +910,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/harry-souttar.jpg"
+      "avatar": "/headshots/harry-souttar.jpg",
+      "name_cn": "哈里·苏塔"
     },
     {
       "id": "cristian-volpato",
@@ -939,7 +957,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/cristian-volpato.jpg"
+      "avatar": "/headshots/cristian-volpato.jpg",
+      "name_cn": "克里斯蒂安·沃尔帕托"
     },
     {
       "id": "cameron-burgess",
@@ -985,7 +1004,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/cameron-burgess.jpg"
+      "avatar": "/headshots/cameron-burgess.jpg",
+      "name_cn": "卡梅伦·伯吉斯"
     },
     {
       "id": "jackson-irvine",
@@ -1046,7 +1066,8 @@
         "xa_p90": 0.07,
         "key_passes_p90": 0.61
       },
-      "avatar": "/headshots/jackson-irvine.jpg"
+      "avatar": "/headshots/jackson-irvine.jpg",
+      "name_cn": "杰克逊·欧文"
     },
     {
       "id": "nishan-velupillay",
@@ -1091,7 +1112,8 @@
         "start_rate": 78.3,
         "data_source": "desktop",
         "has_real_data": true
-      }
+      },
+      "name_cn": "尼尚·维卢皮莱"
     },
     {
       "id": "paul-okon-engstler",
@@ -1164,7 +1186,8 @@
         "xa_p90": 0.04,
         "key_passes_p90": 0.27
       },
-      "avatar": "/headshots/lucas-herrington.jpg"
+      "avatar": "/headshots/lucas-herrington.jpg",
+      "name_cn": "卢卡斯·赫林顿"
     },
     {
       "id": "tete-yengi",
@@ -1222,7 +1245,8 @@
         },
         "key_passes_p90": 0.75
       },
-      "avatar": "/headshots/tete-yengi.jpg"
+      "avatar": "/headshots/tete-yengi.jpg",
+      "name_cn": "特特·延吉"
     }
   ]
 }

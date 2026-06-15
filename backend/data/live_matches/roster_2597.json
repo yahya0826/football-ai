@@ -1,0 +1,338 @@
+{
+  "team_id": "2597",
+  "team_name": "Cape Verde",
+  "team_name_cn": "佛得角",
+  "coach": "佛得角主教练",
+  "players": {
+    "G": [
+      {
+        "id": "181330",
+        "name": "Vozinha",
+        "short_name": "Vozinha",
+        "jersey": "1",
+        "position": "G",
+        "position_name": "Goalkeeper",
+        "headshot": "",
+        "height": "6' 2\"",
+        "weight": "161 lbs",
+        "age": 40
+      },
+      {
+        "id": "260758",
+        "name": "Márcio Rosa",
+        "short_name": "M. Rosa",
+        "jersey": "12",
+        "position": "G",
+        "position_name": "Goalkeeper",
+        "headshot": "",
+        "height": "6' 1\"",
+        "weight": "181 lbs",
+        "age": 29
+      },
+      {
+        "id": "265874",
+        "name": "CJ dos Santos",
+        "short_name": "C. dos Santos",
+        "jersey": "23",
+        "position": "G",
+        "position_name": "Goalkeeper",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/265874.png",
+        "height": "6' 3\"",
+        "weight": "168 lbs",
+        "age": 25
+      }
+    ],
+    "D": [
+      {
+        "id": "148146",
+        "name": "Stopira",
+        "short_name": "Stopira",
+        "jersey": "2",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "5' 10\"",
+        "weight": "159 lbs",
+        "age": 38
+      },
+      {
+        "id": "214683",
+        "name": "Diney Borges",
+        "short_name": "D. Borges",
+        "jersey": "3",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 1\"",
+        "weight": "172 lbs",
+        "age": 31
+      },
+      {
+        "id": "257716",
+        "name": "Pico Lopes",
+        "short_name": "P. Lopes",
+        "jersey": "4",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 1\"",
+        "weight": "183 lbs",
+        "age": 33
+      },
+      {
+        "id": "271129",
+        "name": "Logan Costa",
+        "short_name": "L. Costa",
+        "jersey": "5",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 3\"",
+        "weight": "201 lbs",
+        "age": 25
+      },
+      {
+        "id": "332394",
+        "name": "Sidny Lopes Cabral",
+        "short_name": "S. Lopes Cabral",
+        "jersey": "13",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "5' 9\"",
+        "weight": "161 lbs",
+        "age": 23
+      },
+      {
+        "id": "180113",
+        "name": "Steven Moreira",
+        "short_name": "S. Moreira",
+        "jersey": "22",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/180113.png",
+        "height": "5' 10\"",
+        "weight": "159 lbs",
+        "age": 31
+      },
+      {
+        "id": "365810",
+        "name": "Wagner Pina",
+        "short_name": "W. Pina",
+        "jersey": "24",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "5' 11\"",
+        "weight": "159 lbs",
+        "age": 23
+      },
+      {
+        "id": "378479",
+        "name": "Kelvin Pires",
+        "short_name": "K. Pires",
+        "jersey": "25",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 4\"",
+        "weight": "185 lbs",
+        "age": 26
+      }
+    ],
+    "M": [
+      {
+        "id": "327173",
+        "name": "Kevin Pina",
+        "short_name": "K. Pina",
+        "jersey": "6",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "5' 11\"",
+        "weight": "174 lbs",
+        "age": 29
+      },
+      {
+        "id": "318631",
+        "name": "João Paulo",
+        "short_name": "J. Paulo",
+        "jersey": "8",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "5' 11\"",
+        "weight": "163 lbs",
+        "age": 28
+      },
+      {
+        "id": "227441",
+        "name": "Jamiro Monteiro",
+        "short_name": "J. Monteiro",
+        "jersey": "10",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/227441.png",
+        "height": "5' 9\"",
+        "weight": "150 lbs",
+        "age": 32
+      },
+      {
+        "id": "246442",
+        "name": "Deroy Duarte",
+        "short_name": "D. Duarte",
+        "jersey": "14",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/246442.png",
+        "height": "5' 10\"",
+        "weight": "152 lbs",
+        "age": 26
+      },
+      {
+        "id": "222236",
+        "name": "Laros Duarte",
+        "short_name": "L. Duarte",
+        "jersey": "15",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/222236.png",
+        "height": "5' 11\"",
+        "weight": "159 lbs",
+        "age": 29
+      },
+      {
+        "id": "101251",
+        "name": "Yannick Semedo",
+        "short_name": "Y. Semedo",
+        "jersey": "16",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "5' 9\"",
+        "weight": "130 lbs",
+        "age": 30
+      },
+      {
+        "id": "304076",
+        "name": "Telmo Arcanjo",
+        "short_name": "T. Arcanjo",
+        "jersey": "18",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "5' 11\"",
+        "weight": "172 lbs",
+        "age": 24
+      }
+    ],
+    "F": [
+      {
+        "id": "250059",
+        "name": "Jovane Cabral",
+        "short_name": "J. Cabral",
+        "jersey": "7",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "5' 9\"",
+        "weight": "159 lbs",
+        "age": 28
+      },
+      {
+        "id": "310261",
+        "name": "Gilson Benchimol",
+        "short_name": "G. Benchimol",
+        "jersey": "9",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "6' 2\"",
+        "weight": "172 lbs",
+        "age": 24
+      },
+      {
+        "id": "175012",
+        "name": "Garry Rodrigues",
+        "short_name": "G. Rodrigues",
+        "jersey": "11",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "5' 8\"",
+        "weight": "150 lbs",
+        "age": 35
+      },
+      {
+        "id": "271675",
+        "name": "Willy Semedo",
+        "short_name": "W. Semedo",
+        "jersey": "17",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "6' 1\"",
+        "weight": "150 lbs",
+        "age": 32
+      },
+      {
+        "id": "330211",
+        "name": "Dailon Livramento",
+        "short_name": "D. Livramento",
+        "jersey": "19",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "6' 1\"",
+        "weight": "161 lbs",
+        "age": 25
+      },
+      {
+        "id": "135216",
+        "name": "Ryan Mendes",
+        "short_name": "R. Mendes",
+        "jersey": "20",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "5' 10\"",
+        "weight": "152 lbs",
+        "age": 36
+      },
+      {
+        "id": "224798",
+        "name": "Nuno da Costa",
+        "short_name": "N. da Costa",
+        "jersey": "21",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "6' 0\"",
+        "weight": "150 lbs",
+        "age": 35
+      },
+      {
+        "id": "366092",
+        "name": "Hélio Varela",
+        "short_name": "H. Varela",
+        "jersey": "26",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "5' 9\"",
+        "weight": "159 lbs",
+        "age": 24
+      }
+    ],
+    "U": []
+  },
+  "total_players": 26,
+  "position_labels": {
+    "G": "门将",
+    "D": "后卫",
+    "M": "中场",
+    "F": "前锋",
+    "U": "未知"
+  },
+  "_saved_at": "2026-06-15T22:47:45.040619"
+}

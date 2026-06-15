@@ -62,7 +62,8 @@
           "physical": 90
         }
       },
-      "avatar": "/headshots/lawrence-ati-zigi.jpg"
+      "avatar": "/headshots/lawrence-ati-zigi.jpg",
+      "name_cn": "劳伦斯·阿蒂"
     },
     {
       "id": "joseph-anang",
@@ -123,7 +124,8 @@
           "physical": 90
         }
       },
-      "avatar": "/headshots/joseph-anang.jpg"
+      "avatar": "/headshots/joseph-anang.jpg",
+      "name_cn": "约瑟夫·阿南"
     },
     {
       "id": "benjamin-asare",
@@ -178,7 +180,8 @@
         "clean_sheets": 2,
         "penalties_saved": 0
       },
-      "avatar": "/headshots/benjamin-asare.jpg"
+      "avatar": "/headshots/benjamin-asare.jpg",
+      "name_cn": "本杰明·阿萨雷"
     },
     {
       "id": "alidu-seidu",
@@ -228,7 +231,8 @@
           "physical": 79
         }
       },
-      "avatar": "/headshots/alidu-seidu.jpg"
+      "avatar": "/headshots/alidu-seidu.jpg",
+      "name_cn": "阿利杜·塞杜"
     },
     {
       "id": "caleb-yirenkyi",
@@ -284,7 +288,8 @@
           "physical": 88
         }
       },
-      "avatar": "/headshots/caleb-yirenkyi.jpg"
+      "avatar": "/headshots/caleb-yirenkyi.jpg",
+      "name_cn": "卡莱布·伊伦基"
     },
     {
       "id": "jonas-adjetey",
@@ -340,7 +345,8 @@
           "physical": 86
         }
       },
-      "avatar": "/headshots/jonas-adjetey.jpg"
+      "avatar": "/headshots/jonas-adjetey.jpg",
+      "name_cn": "乔纳斯·阿杰泰"
     },
     {
       "id": "abdul-mumin",
@@ -390,7 +396,8 @@
           "physical": 68
         }
       },
-      "avatar": "/headshots/abdul-mumin.jpg"
+      "avatar": "/headshots/abdul-mumin.jpg",
+      "name_cn": "阿卜杜勒·穆明"
     },
     {
       "id": "gideon-mensah",
@@ -451,7 +458,8 @@
         "xa_p90": 0.06,
         "key_passes_p90": 0.66
       },
-      "avatar": "/headshots/gideon-mensah.jpg"
+      "avatar": "/headshots/gideon-mensah.jpg",
+      "name_cn": "吉迪恩·门萨"
     },
     {
       "id": "baba-rahman",
@@ -507,7 +515,8 @@
           "physical": 86
         }
       },
-      "avatar": "/headshots/baba-rahman.jpg"
+      "avatar": "/headshots/baba-rahman.jpg",
+      "name_cn": "巴巴·拉赫曼"
     },
     {
       "id": "jerome-opoku",
@@ -568,7 +577,8 @@
         "xa_p90": 0.03,
         "key_passes_p90": 0.16
       },
-      "avatar": "/headshots/jerome-opoku.jpg"
+      "avatar": "/headshots/jerome-opoku.jpg",
+      "name_cn": "杰罗姆·奥波库"
     },
     {
       "id": "kojo-oppong-peprah",
@@ -624,7 +634,8 @@
           "physical": 86
         }
       },
-      "avatar": "/headshots/kojo-oppong-peprah.jpg"
+      "avatar": "/headshots/kojo-oppong-peprah.jpg",
+      "name_cn": "科乔·奥蓬·佩普拉"
     },
     {
       "id": "derrick-luckassen",
@@ -680,7 +691,8 @@
           "physical": 89
         }
       },
-      "avatar": "/headshots/derrick-luckassen.jpg"
+      "avatar": "/headshots/derrick-luckassen.jpg",
+      "name_cn": "德里克·卢卡森"
     },
     {
       "id": "marvin-senaya",
@@ -741,7 +753,8 @@
         "xa_p90": 0.03,
         "key_passes_p90": 0.3
       },
-      "avatar": "/headshots/marvin-senaya.jpg"
+      "avatar": "/headshots/marvin-senaya.jpg",
+      "name_cn": "马文·塞纳亚"
     },
     {
       "id": "thomas-partey",
@@ -797,7 +810,8 @@
           "physical": 76
         }
       },
-      "avatar": "/headshots/thomas-partey.jpg"
+      "avatar": "/headshots/thomas-partey.jpg",
+      "name_cn": "托马斯·帕尔特伊"
     },
     {
       "id": "kwasi-sibo",
@@ -853,7 +867,8 @@
           "physical": 83
         }
       },
-      "avatar": "/headshots/kwasi-sibo.jpg"
+      "avatar": "/headshots/kwasi-sibo.jpg",
+      "name_cn": "夸西·西博"
     },
     {
       "id": "elisha-owusu",
@@ -914,7 +929,8 @@
         "xa_p90": 0.02,
         "key_passes_p90": 0.46
       },
-      "avatar": "/headshots/elisha-owusu.jpg"
+      "avatar": "/headshots/elisha-owusu.jpg",
+      "name_cn": "埃利沙·奥乌苏"
     },
     {
       "id": "augustine-boakye",
@@ -964,7 +980,8 @@
           "physical": 87
         }
       },
-      "avatar": "/headshots/augustine-boakye.jpg"
+      "avatar": "/headshots/augustine-boakye.jpg",
+      "name_cn": "奥古斯丁·博阿基耶"
     },
     {
       "id": "fatawu-issahaku",
@@ -1020,7 +1037,8 @@
           "physical": 87
         }
       },
-      "avatar": "/headshots/fatawu-issahaku.jpg"
+      "avatar": "/headshots/fatawu-issahaku.jpg",
+      "name_cn": "法塔武·伊萨哈库"
     },
     {
       "id": "jordan-ayew",
@@ -1076,7 +1094,8 @@
           "physical": 79
         }
       },
-      "avatar": "/headshots/jordan-ayew.jpg"
+      "avatar": "/headshots/jordan-ayew.jpg",
+      "name_cn": "乔丹·阿尤"
     },
     {
       "id": "brandon-thomas-asante",
@@ -1126,7 +1145,8 @@
           "physical": 79
         }
       },
-      "avatar": "/headshots/brandon-thomas-asante.jpg"
+      "avatar": "/headshots/brandon-thomas-asante.jpg",
+      "name_cn": "布兰登·托马斯"
     },
     {
       "id": "antoine-semenyo",
@@ -1187,7 +1207,8 @@
         "xa_p90": 0.09,
         "key_passes_p90": 1.1
       },
-      "avatar": "/headshots/antoine-semenyo.jpg"
+      "avatar": "/headshots/antoine-semenyo.jpg",
+      "name_cn": "安托万·塞梅尼奥"
     },
     {
       "id": "christopher-bonsu-baah",
@@ -1243,7 +1264,8 @@
           "physical": 84
         }
       },
-      "avatar": "/headshots/christopher-bonsu-baah.jpg"
+      "avatar": "/headshots/christopher-bonsu-baah.jpg",
+      "name_cn": "克里斯托弗·邦苏·巴"
     },
     {
       "id": "inaki-williams",
@@ -1299,7 +1321,8 @@
           "physical": 82
         }
       },
-      "avatar": "/headshots/inaki-williams.jpg"
+      "avatar": "/headshots/inaki-williams.jpg",
+      "name_cn": "伊尼亚基·威廉姆斯"
     },
     {
       "id": "kamaldeen-sulemana",
@@ -1360,7 +1383,8 @@
         "xa_p90": 0.19,
         "key_passes_p90": 1.16
       },
-      "avatar": "/headshots/kamaldeen-sulemana.jpg"
+      "avatar": "/headshots/kamaldeen-sulemana.jpg",
+      "name_cn": "卡马尔丁·苏莱马纳"
     },
     {
       "id": "ernest-nuamah",
@@ -1416,7 +1440,8 @@
           "physical": 67
         }
       },
-      "avatar": "/headshots/ernest-nuamah.jpg"
+      "avatar": "/headshots/ernest-nuamah.jpg",
+      "name_cn": "欧内斯特·努阿马"
     },
     {
       "id": "prince-kwabena-adu",
@@ -1472,7 +1497,9 @@
           "physical": 78
         }
       },
-      "avatar": "/headshots/prince-kwabena-adu.jpg"
+      "avatar": "/headshots/prince-kwabena-adu.jpg",
+      "name_cn": "普林斯·夸贝纳·阿杜"
     }
-  ]
+  ],
+  "team_cn": "加纳"
 }

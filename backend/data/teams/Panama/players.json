@@ -47,7 +47,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/luis-mej-a.jpg"
+      "avatar": "/headshots/luis-mej-a.jpg",
+      "name_cn": "路易斯·梅希亚"
     },
     {
       "id": "c-sar-blackman",
@@ -93,7 +94,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/c-sar-blackman.jpg"
+      "avatar": "/headshots/c-sar-blackman.jpg",
+      "name_cn": "塞萨尔·布莱克曼"
     },
     {
       "id": "jos--c-rdoba",
@@ -139,7 +141,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/jos--c-rdoba.jpg"
+      "avatar": "/headshots/jos--c-rdoba.jpg",
+      "name_cn": "何塞·科尔多瓦"
     },
     {
       "id": "fidel-escobar",
@@ -185,7 +188,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/fidel-escobar.jpg"
+      "avatar": "/headshots/fidel-escobar.jpg",
+      "name_cn": "菲德尔·埃斯科瓦尔"
     },
     {
       "id": "edgardo-fari-a",
@@ -231,7 +235,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/edgardo-fari-a.jpg"
+      "avatar": "/headshots/edgardo-fari-a.jpg",
+      "name_cn": "埃德加多·法里尼亚"
     },
     {
       "id": "cristian-mart-nez",
@@ -277,7 +282,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/cristian-mart-nez.jpg"
+      "avatar": "/headshots/cristian-mart-nez.jpg",
+      "name_cn": "克里斯蒂安·马丁内斯"
     },
     {
       "id": "jos--luis-rodr-guez",
@@ -338,7 +344,8 @@
         "xa_p90": 0.21,
         "key_passes_p90": 2.49
       },
-      "avatar": "/headshots/jos--luis-rodr-guez.jpg"
+      "avatar": "/headshots/jos--luis-rodr-guez.jpg",
+      "name_cn": "何塞·路易斯·罗德里格斯"
     },
     {
       "id": "adalberto-carrasquilla",
@@ -399,7 +406,8 @@
         "xa_p90": 0.12,
         "key_passes_p90": 1.41
       },
-      "avatar": "/headshots/adalberto-carrasquilla.jpg"
+      "avatar": "/headshots/adalberto-carrasquilla.jpg",
+      "name_cn": "阿达尔贝托·卡拉斯基亚"
     },
     {
       "id": "tom-s-rodr-guez",
@@ -445,7 +453,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/tom-s-rodr-guez.jpg"
+      "avatar": "/headshots/tom-s-rodr-guez.jpg",
+      "name_cn": "托马斯·罗德里格斯"
     },
     {
       "id": "ismael-d-az",
@@ -506,7 +515,8 @@
         "xa_p90": 0.08,
         "key_passes_p90": 1.94
       },
-      "avatar": "/headshots/ismael-d-az.jpg"
+      "avatar": "/headshots/ismael-d-az.jpg",
+      "name_cn": "伊斯梅尔·迪亚斯"
     },
     {
       "id": "yoel-b-rcenas",
@@ -567,7 +577,8 @@
         "xa_p90": 0.14,
         "key_passes_p90": 2.12
       },
-      "avatar": "/headshots/yoel-b-rcenas.jpg"
+      "avatar": "/headshots/yoel-b-rcenas.jpg",
+      "name_cn": "约埃尔·巴尔塞纳斯"
     },
     {
       "id": "c-sar-samudio",
@@ -579,7 +590,8 @@
       "age": 0,
       "national_caps": 0,
       "national_goals": 0,
-      "stats": null
+      "stats": null,
+      "name_cn": "塞萨尔·萨穆迪奥"
     },
     {
       "id": "jiovany-ramos",
@@ -625,7 +637,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/jiovany-ramos.jpg"
+      "avatar": "/headshots/jiovany-ramos.jpg",
+      "name_cn": "吉奥瓦尼·拉莫斯"
     },
     {
       "id": "carlos-harvey",
@@ -671,7 +684,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/carlos-harvey.jpg"
+      "avatar": "/headshots/carlos-harvey.jpg",
+      "name_cn": "卡洛斯·哈维"
     },
     {
       "id": "eric-davis",
@@ -717,7 +731,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/eric-davis.jpg"
+      "avatar": "/headshots/eric-davis.jpg",
+      "name_cn": "埃里克·戴维斯"
     },
     {
       "id": "andr-s-andrade",
@@ -763,7 +778,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/andr-s-andrade.jpg"
+      "avatar": "/headshots/andr-s-andrade.jpg",
+      "name_cn": "安德烈斯·安德拉德"
     },
     {
       "id": "jos--fajardo",
@@ -809,7 +825,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/jos--fajardo.jpg"
+      "avatar": "/headshots/jos--fajardo.jpg",
+      "name_cn": "何塞·法哈多"
     },
     {
       "id": "cecilio-waterman",
@@ -855,7 +872,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/cecilio-waterman.jpg"
+      "avatar": "/headshots/cecilio-waterman.jpg",
+      "name_cn": "塞西利奥·沃特曼"
     },
     {
       "id": "alberto-quintero",
@@ -901,7 +919,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/alberto-quintero.jpg"
+      "avatar": "/headshots/alberto-quintero.jpg",
+      "name_cn": "阿尔贝托·金特罗"
     },
     {
       "id": "an-bal-godoy",
@@ -962,7 +981,8 @@
         "xa_p90": 0.08,
         "key_passes_p90": 0.45
       },
-      "avatar": "/headshots/an-bal-godoy.jpg"
+      "avatar": "/headshots/an-bal-godoy.jpg",
+      "name_cn": "阿尼巴尔·戈多伊"
     },
     {
       "id": "c-sar-yanis",
@@ -1008,7 +1028,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/c-sar-yanis.jpg"
+      "avatar": "/headshots/c-sar-yanis.jpg",
+      "name_cn": "塞萨尔·亚尼斯"
     },
     {
       "id": "orlando-mosquera",
@@ -1072,7 +1093,8 @@
         "xa_p90": 0.0,
         "key_passes_p90": 0.06
       },
-      "avatar": "/headshots/orlando-mosquera.jpg"
+      "avatar": "/headshots/orlando-mosquera.jpg",
+      "name_cn": "奥兰多·莫斯克拉"
     },
     {
       "id": "michael-amir-murillo",
@@ -1118,7 +1140,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/michael-amir-murillo.jpg"
+      "avatar": "/headshots/michael-amir-murillo.jpg",
+      "name_cn": "迈克尔·阿米尔·穆里略"
     },
     {
       "id": "azarias-londo-o",
@@ -1164,7 +1187,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/azarias-londo-o.jpg"
+      "avatar": "/headshots/azarias-londo-o.jpg",
+      "name_cn": "阿萨里亚斯·隆多尼奥"
     },
     {
       "id": "roderick-miller",
@@ -1210,7 +1234,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/roderick-miller.jpg"
+      "avatar": "/headshots/roderick-miller.jpg",
+      "name_cn": "罗德里克·米勒"
     },
     {
       "id": "jorge-guti-rrez",
@@ -1256,7 +1281,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/jorge-guti-rrez.jpg"
+      "avatar": "/headshots/jorge-guti-rrez.jpg",
+      "name_cn": "豪尔赫·古铁雷斯"
     }
   ]
 }

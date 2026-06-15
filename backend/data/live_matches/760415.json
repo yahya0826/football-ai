@@ -1,0 +1,1186 @@
+{
+  "match_id": "760415",
+  "date": "2026-06-11",
+  "status": {
+    "state": "finished",
+    "detail": "FT",
+    "period": 0,
+    "clock": "",
+    "completed": true,
+    "state_cn": "已结束"
+  },
+  "home": {
+    "name": "Mexico",
+    "abbrev": "MEX",
+    "logo": "",
+    "score": 2,
+    "team_id": "203",
+    "name_cn": "墨西哥"
+  },
+  "away": {
+    "name": "South Africa",
+    "abbrev": "RSA",
+    "logo": "",
+    "score": 0,
+    "team_id": "467",
+    "name_cn": "南非"
+  },
+  "events": [
+    {
+      "type": "kickoff",
+      "minute": "",
+      "team": "",
+      "player": "",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "",
+      "type_cn": "开球",
+      "team_cn": "",
+      "description_cn": "比赛开始！"
+    },
+    {
+      "type": "goal",
+      "minute": "9'",
+      "team": "Mexico",
+      "player": "Julián Quiñones Goal",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Goal! Mexico 1, South Africa 0. Julián Quiñones (Mexico) right footed shot from the centre of the box to the centre of the goal. Assisted by Érik Lira.",
+      "type_cn": "进球",
+      "team_cn": "墨西哥",
+      "description_cn": "9'' Julián Quiñones Goal 为墨西哥进球！"
+    },
+    {
+      "type": "yellow_card",
+      "minute": "17'",
+      "team": "South Africa",
+      "player": "Teboho Mokoena Yellow Card",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Teboho Mokoena (South Africa) is shown the yellow card for a bad foul.",
+      "type_cn": "黄牌",
+      "team_cn": "南非",
+      "description_cn": "17'' Teboho Mokoena Yellow Card（南非）吃到黄牌 🟨"
+    },
+    {
+      "type": "yellow_card",
+      "minute": "23'",
+      "team": "Mexico",
+      "player": "Brian Gutiérrez Yellow Card",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Brian Gutiérrez (Mexico) is shown the yellow card for a bad foul.",
+      "type_cn": "黄牌",
+      "team_cn": "墨西哥",
+      "description_cn": "23'' Brian Gutiérrez Yellow Card（墨西哥）吃到黄牌 🟨"
+    },
+    {
+      "type": "halftime",
+      "minute": "45'+4'",
+      "team": "",
+      "player": "",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "First Half ends, Mexico 1, South Africa 0.",
+      "type_cn": "中场休息",
+      "team_cn": "",
+      "description_cn": "中场休息 ⏸️"
+    },
+    {
+      "type": "fulltime",
+      "minute": "45'",
+      "team": "",
+      "player": "",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Second Half begins Mexico 1, South Africa 0.",
+      "type_cn": "全场结束",
+      "team_cn": "",
+      "description_cn": "全场比赛结束 🏁"
+    },
+    {
+      "type": "red_card",
+      "minute": "49'",
+      "team": "South Africa",
+      "player": "Sphephelo Sithole Red Card",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Yaya Sithole (South Africa) is shown the red card.",
+      "type_cn": "红牌",
+      "team_cn": "南非",
+      "description_cn": "49'' Sphephelo Sithole Red Card（南非）被红牌罚下 🟥"
+    },
+    {
+      "type": "substitution",
+      "minute": "56'",
+      "team": "South Africa",
+      "player": "Thalente Mbatha Substitution",
+      "player_in": "Thalente Mbatha",
+      "player_out": "Lyle Foster",
+      "assist": "",
+      "text": "Substitution, South Africa. Thalente Mbatha replaces Lyle Foster.",
+      "type_cn": "换人",
+      "team_cn": "南非",
+      "description_cn": "56'' Thalente Mbatha ↑ 替补登场，Lyle Foster ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "61'",
+      "team": "South Africa",
+      "player": "Themba Zwane Substitution",
+      "player_in": "Themba Zwane",
+      "player_out": "Jayden Adams",
+      "assist": "",
+      "text": "Substitution, South Africa. Themba Zwane replaces Jayden Adams.",
+      "type_cn": "换人",
+      "team_cn": "南非",
+      "description_cn": "61'' Themba Zwane ↑ 替补登场，Jayden Adams ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "66'",
+      "team": "Mexico",
+      "player": "Luis Chávez Substitution",
+      "player_in": "Luis Chávez",
+      "player_out": "Brian Gutiérrez",
+      "assist": "",
+      "text": "Substitution, Mexico. Luis Chávez replaces Brian Gutiérrez.",
+      "type_cn": "换人",
+      "team_cn": "墨西哥",
+      "description_cn": "66'' Luis Chávez ↑ 替补登场，Brian Gutiérrez ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "66'",
+      "team": "Mexico",
+      "player": "Gilberto Mora Substitution",
+      "player_in": "Gilberto Mora",
+      "player_out": "Álvaro Fidalgo",
+      "assist": "",
+      "text": "Substitution, Mexico. Gilberto Mora replaces Álvaro Fidalgo.",
+      "type_cn": "换人",
+      "team_cn": "墨西哥",
+      "description_cn": "66'' Gilberto Mora ↑ 替补登场，Álvaro Fidalgo ↓ 被换下"
+    },
+    {
+      "type": "goal",
+      "minute": "67'",
+      "team": "Mexico",
+      "player": "Raúl Jiménez Goal - Header",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Goal! Mexico 2, South Africa 0. Raúl Jiménez (Mexico) header from very close range to the bottom left corner. Assisted by Roberto Alvarado with a cross.",
+      "type_cn": "进球",
+      "team_cn": "墨西哥",
+      "description_cn": "67'' Raúl Jiménez Goal - Header 为墨西哥进球！"
+    },
+    {
+      "type": "yellow_card",
+      "minute": "74'",
+      "team": "South Africa",
+      "player": "Nkosinathi Sibisi Yellow Card",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Nkosinathi Sibisi (South Africa) is shown the yellow card for a bad foul.",
+      "type_cn": "黄牌",
+      "team_cn": "南非",
+      "description_cn": "74'' Nkosinathi Sibisi Yellow Card（南非）吃到黄牌 🟨"
+    },
+    {
+      "type": "substitution",
+      "minute": "76'",
+      "team": "Mexico",
+      "player": "Edson Álvarez Substitution",
+      "player_in": "Edson Álvarez",
+      "player_out": "Érik Lira",
+      "assist": "",
+      "text": "Substitution, Mexico. Edson Álvarez replaces Érik Lira.",
+      "type_cn": "换人",
+      "team_cn": "墨西哥",
+      "description_cn": "76'' Edson Álvarez ↑ 替补登场，Érik Lira ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "76'",
+      "team": "Mexico",
+      "player": "Armando González Substitution",
+      "player_in": "Armando González",
+      "player_out": "Raúl Jiménez",
+      "assist": "",
+      "text": "Substitution, Mexico. Armando González replaces Raúl Jiménez.",
+      "type_cn": "换人",
+      "team_cn": "墨西哥",
+      "description_cn": "76'' Armando González ↑ 替补登场，Raúl Jiménez ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "76'",
+      "team": "South Africa",
+      "player": "Evidence Makgopa Substitution",
+      "player_in": "Evidence Makgopa",
+      "player_out": "Iqraam Rayners",
+      "assist": "",
+      "text": "Substitution, South Africa. Evidence Makgopa replaces Iqraam Rayners.",
+      "type_cn": "换人",
+      "team_cn": "南非",
+      "description_cn": "76'' Evidence Makgopa ↑ 替补登场，Iqraam Rayners ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "77'",
+      "team": "South Africa",
+      "player": "Oswin Appollis Substitution",
+      "player_in": "Oswin Appollis",
+      "player_out": "Aubrey Modiba",
+      "assist": "",
+      "text": "Substitution, South Africa. Oswin Appollis replaces Aubrey Modiba.",
+      "type_cn": "换人",
+      "team_cn": "南非",
+      "description_cn": "77'' Oswin Appollis ↑ 替补登场，Aubrey Modiba ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "79'",
+      "team": "Mexico",
+      "player": "Alexis Vega Substitution",
+      "player_in": "Alexis Vega",
+      "player_out": "Julián Quiñones",
+      "assist": "",
+      "text": "Substitution, Mexico. Alexis Vega replaces Julián Quiñones.",
+      "type_cn": "换人",
+      "team_cn": "墨西哥",
+      "description_cn": "79'' Alexis Vega ↑ 替补登场，Julián Quiñones ↓ 被换下"
+    },
+    {
+      "type": "red_card",
+      "minute": "84'",
+      "team": "South Africa",
+      "player": "Themba Zwane Red Card",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Themba Zwane (South Africa) is shown the red card for violent conduct.",
+      "type_cn": "红牌",
+      "team_cn": "南非",
+      "description_cn": "84'' Themba Zwane Red Card（南非）被红牌罚下 🟥"
+    },
+    {
+      "type": "red_card",
+      "minute": "90'+2'",
+      "team": "Mexico",
+      "player": "César Montes Red Card",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "César Montes (Mexico) is shown the red card.",
+      "type_cn": "红牌",
+      "team_cn": "墨西哥",
+      "description_cn": "90'+2'' César Montes Red Card（墨西哥）被红牌罚下 🟥"
+    },
+    {
+      "type": "83",
+      "minute": "90'+8'",
+      "team": "",
+      "player": "",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "",
+      "type_cn": "83",
+      "team_cn": "",
+      "description_cn": ""
+    }
+  ],
+  "statistics": {
+    "home": {
+      "team_name": "Mexico",
+      "stats": {
+        "foulsCommitted": {
+          "label": "Fouls",
+          "value": "12",
+          "label_cn": "犯规"
+        },
+        "yellowCards": {
+          "label": "Yellow Cards",
+          "value": "1",
+          "label_cn": "黄牌"
+        },
+        "redCards": {
+          "label": "Red Cards",
+          "value": "1",
+          "label_cn": "红牌"
+        },
+        "offsides": {
+          "label": "Offsides",
+          "value": "1",
+          "label_cn": "越位"
+        },
+        "wonCorners": {
+          "label": "Corner Kicks",
+          "value": "3",
+          "label_cn": "角球"
+        },
+        "saves": {
+          "label": "Saves",
+          "value": "2",
+          "label_cn": "扑救"
+        },
+        "possessionPct": {
+          "label": "Possession",
+          "value": "60.5",
+          "label_cn": "控球率"
+        },
+        "totalShots": {
+          "label": "SHOTS",
+          "value": "16",
+          "label_cn": "总射门"
+        },
+        "shotsOnTarget": {
+          "label": "ON GOAL",
+          "value": "4",
+          "label_cn": "射正"
+        },
+        "shotPct": {
+          "label": "On Target %",
+          "value": "0.3",
+          "label_cn": "射正率"
+        },
+        "penaltyKickGoals": {
+          "label": "Penalty Goals",
+          "value": "0",
+          "label_cn": "点球进球"
+        },
+        "penaltyKickShots": {
+          "label": "Penalty Kicks Taken",
+          "value": "0",
+          "label_cn": "点球次数"
+        },
+        "accuratePasses": {
+          "label": "Accurate Passes",
+          "value": "467",
+          "label_cn": "精准传球"
+        },
+        "totalPasses": {
+          "label": "Passes",
+          "value": "520",
+          "label_cn": "传球"
+        },
+        "passPct": {
+          "label": "Pass Completion %",
+          "value": "0.9",
+          "label_cn": "传球成功率"
+        },
+        "accurateCrosses": {
+          "label": "Accurate Crosses",
+          "value": "4",
+          "label_cn": "精准传中"
+        },
+        "totalCrosses": {
+          "label": "Crosses",
+          "value": "12",
+          "label_cn": "传中"
+        },
+        "crossPct": {
+          "label": "Cross %",
+          "value": "0.3",
+          "label_cn": "传中成功率"
+        },
+        "totalLongBalls": {
+          "label": "Long Balls",
+          "value": "48",
+          "label_cn": "长传"
+        },
+        "accurateLongBalls": {
+          "label": "Accurate Long Balls",
+          "value": "31",
+          "label_cn": "精准长传"
+        },
+        "longballPct": {
+          "label": "Long Balls %",
+          "value": "0.6",
+          "label_cn": "长传成功率"
+        },
+        "blockedShots": {
+          "label": "Blocked Shots",
+          "value": "5",
+          "label_cn": "封堵射门"
+        },
+        "effectiveTackles": {
+          "label": "Effective Tackles",
+          "value": "6",
+          "label_cn": "有效抢断"
+        },
+        "totalTackles": {
+          "label": "Tackles",
+          "value": "12",
+          "label_cn": "抢断"
+        },
+        "tacklePct": {
+          "label": "Tackle %",
+          "value": "0.5",
+          "label_cn": "抢断成功率"
+        },
+        "interceptions": {
+          "label": "Interceptions",
+          "value": "8",
+          "label_cn": "拦截"
+        },
+        "effectiveClearance": {
+          "label": "Effective Clearances",
+          "value": "15",
+          "label_cn": "有效解围"
+        },
+        "totalClearance": {
+          "label": "Clearances",
+          "value": "15",
+          "label_cn": "解围"
+        }
+      },
+      "team_name_cn": "墨西哥"
+    },
+    "away": {
+      "team_name": "South Africa",
+      "stats": {
+        "foulsCommitted": {
+          "label": "Fouls",
+          "value": "11",
+          "label_cn": "犯规"
+        },
+        "yellowCards": {
+          "label": "Yellow Cards",
+          "value": "2",
+          "label_cn": "黄牌"
+        },
+        "redCards": {
+          "label": "Red Cards",
+          "value": "2",
+          "label_cn": "红牌"
+        },
+        "offsides": {
+          "label": "Offsides",
+          "value": "1",
+          "label_cn": "越位"
+        },
+        "wonCorners": {
+          "label": "Corner Kicks",
+          "value": "1",
+          "label_cn": "角球"
+        },
+        "saves": {
+          "label": "Saves",
+          "value": "2",
+          "label_cn": "扑救"
+        },
+        "possessionPct": {
+          "label": "Possession",
+          "value": "39.5",
+          "label_cn": "控球率"
+        },
+        "totalShots": {
+          "label": "SHOTS",
+          "value": "3",
+          "label_cn": "总射门"
+        },
+        "shotsOnTarget": {
+          "label": "ON GOAL",
+          "value": "2",
+          "label_cn": "射正"
+        },
+        "shotPct": {
+          "label": "On Target %",
+          "value": "0.7",
+          "label_cn": "射正率"
+        },
+        "penaltyKickGoals": {
+          "label": "Penalty Goals",
+          "value": "0",
+          "label_cn": "点球进球"
+        },
+        "penaltyKickShots": {
+          "label": "Penalty Kicks Taken",
+          "value": "0",
+          "label_cn": "点球次数"
+        },
+        "accuratePasses": {
+          "label": "Accurate Passes",
+          "value": "272",
+          "label_cn": "精准传球"
+        },
+        "totalPasses": {
+          "label": "Passes",
+          "value": "334",
+          "label_cn": "传球"
+        },
+        "passPct": {
+          "label": "Pass Completion %",
+          "value": "0.8",
+          "label_cn": "传球成功率"
+        },
+        "accurateCrosses": {
+          "label": "Accurate Crosses",
+          "value": "1",
+          "label_cn": "精准传中"
+        },
+        "totalCrosses": {
+          "label": "Crosses",
+          "value": "8",
+          "label_cn": "传中"
+        },
+        "crossPct": {
+          "label": "Cross %",
+          "value": "0.1",
+          "label_cn": "传中成功率"
+        },
+        "totalLongBalls": {
+          "label": "Long Balls",
+          "value": "46",
+          "label_cn": "长传"
+        },
+        "accurateLongBalls": {
+          "label": "Accurate Long Balls",
+          "value": "17",
+          "label_cn": "精准长传"
+        },
+        "longballPct": {
+          "label": "Long Balls %",
+          "value": "0.4",
+          "label_cn": "长传成功率"
+        },
+        "blockedShots": {
+          "label": "Blocked Shots",
+          "value": "0",
+          "label_cn": "封堵射门"
+        },
+        "effectiveTackles": {
+          "label": "Effective Tackles",
+          "value": "7",
+          "label_cn": "有效抢断"
+        },
+        "totalTackles": {
+          "label": "Tackles",
+          "value": "14",
+          "label_cn": "抢断"
+        },
+        "tacklePct": {
+          "label": "Tackle %",
+          "value": "0.5",
+          "label_cn": "抢断成功率"
+        },
+        "interceptions": {
+          "label": "Interceptions",
+          "value": "7",
+          "label_cn": "拦截"
+        },
+        "effectiveClearance": {
+          "label": "Effective Clearances",
+          "value": "17",
+          "label_cn": "有效解围"
+        },
+        "totalClearance": {
+          "label": "Clearances",
+          "value": "17",
+          "label_cn": "解围"
+        }
+      },
+      "team_name_cn": "南非"
+    }
+  },
+  "lineups": {
+    "home": {
+      "formation": "4-1-4-1",
+      "starters": [
+        {
+          "id": "290899",
+          "name": "Raúl Rangel",
+          "short_name": "R. Rangel",
+          "jersey": "1",
+          "position": "G",
+          "position_name": "Goalkeeper",
+          "starter": true,
+          "formation_place": "1",
+          "active": true
+        },
+        {
+          "id": "283827",
+          "name": "Álvaro Fidalgo",
+          "short_name": "Á. Fidalgo",
+          "jersey": "8",
+          "position": "CM-L",
+          "position_name": "Center Left Midfielder",
+          "starter": true,
+          "formation_place": "10",
+          "active": true
+        },
+        {
+          "id": "233075",
+          "name": "Julián Quiñones",
+          "short_name": "J. Quiñones",
+          "jersey": "16",
+          "position": "LM",
+          "position_name": "Left Midfielder",
+          "starter": true,
+          "formation_place": "11",
+          "active": true
+        },
+        {
+          "id": "290414",
+          "name": "Israel Reyes",
+          "short_name": "I. Reyes",
+          "jersey": "15",
+          "position": "RB",
+          "position_name": "Right Back",
+          "starter": true,
+          "formation_place": "2",
+          "active": true
+        },
+        {
+          "id": "132098",
+          "name": "Jesús Gallardo",
+          "short_name": "J. Gallardo",
+          "jersey": "23",
+          "position": "LB",
+          "position_name": "Left Back",
+          "starter": true,
+          "formation_place": "3",
+          "active": true
+        },
+        {
+          "id": "276942",
+          "name": "Érik Lira",
+          "short_name": "É. Lira",
+          "jersey": "6",
+          "position": "DM",
+          "position_name": "Defensive Midfielder",
+          "starter": true,
+          "formation_place": "4",
+          "active": true
+        },
+        {
+          "id": "224323",
+          "name": "César Montes",
+          "short_name": "C. Montes",
+          "jersey": "3",
+          "position": "CD-R",
+          "position_name": "Center Right Defender",
+          "starter": true,
+          "formation_place": "5",
+          "active": true
+        },
+        {
+          "id": "259975",
+          "name": "Johan Vásquez",
+          "short_name": "J. Vásquez",
+          "jersey": "5",
+          "position": "CD-L",
+          "position_name": "Center Left Defender",
+          "starter": true,
+          "formation_place": "6",
+          "active": true
+        },
+        {
+          "id": "194308",
+          "name": "Roberto Alvarado",
+          "short_name": "R. Alvarado",
+          "jersey": "25",
+          "position": "RM",
+          "position_name": "Right Midfielder",
+          "starter": true,
+          "formation_place": "7",
+          "active": true
+        },
+        {
+          "id": "303577",
+          "name": "Brian Gutiérrez",
+          "short_name": "B. Gutiérrez",
+          "jersey": "26",
+          "position": "CM-R",
+          "position_name": "Center Right Midfielder",
+          "starter": true,
+          "formation_place": "8",
+          "active": true
+        },
+        {
+          "id": "167060",
+          "name": "Raúl Jiménez",
+          "short_name": "R. Jiménez",
+          "jersey": "9",
+          "position": "F",
+          "position_name": "Forward",
+          "starter": true,
+          "formation_place": "9",
+          "active": true
+        }
+      ],
+      "substitutes": [
+        {
+          "id": "242614",
+          "name": "Luis Romo",
+          "short_name": "L. Romo",
+          "jersey": "7",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "265969",
+          "name": "César Huerta",
+          "short_name": "C. Huerta",
+          "jersey": "21",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "137038",
+          "name": "Guillermo Ochoa",
+          "short_name": "G. Ochoa",
+          "jersey": "13",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "236368",
+          "name": "Carlos Acevedo",
+          "short_name": "C. Acevedo",
+          "jersey": "12",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "104497",
+          "name": "Luis Chávez",
+          "short_name": "L. Chávez",
+          "jersey": "24",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "379193",
+          "name": "Mateo Chávez",
+          "short_name": "M. Chávez",
+          "jersey": "20",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "260775",
+          "name": "Santiago Gimenez",
+          "short_name": "S. Gimenez",
+          "jersey": "11",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "318554",
+          "name": "Obed Vargas",
+          "short_name": "O. Vargas",
+          "jersey": "18",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "229487",
+          "name": "Alexis Vega",
+          "short_name": "A. Vega",
+          "jersey": "10",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "193566",
+          "name": "Guillermo Martínez",
+          "short_name": "G. Martínez",
+          "jersey": "22",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "376110",
+          "name": "Armando González",
+          "short_name": "A. González",
+          "jersey": "14",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "389575",
+          "name": "Gilberto Mora",
+          "short_name": "G. Mora",
+          "jersey": "19",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "241627",
+          "name": "Edson Álvarez",
+          "short_name": "E. Álvarez",
+          "jersey": "4",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "178746",
+          "name": "Jorge Sánchez",
+          "short_name": "J. Sánchez",
+          "jersey": "2",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "207011",
+          "name": "Orbelín Pineda",
+          "short_name": "O. Pineda",
+          "jersey": "17",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        }
+      ]
+    },
+    "away": {
+      "formation": "5-3-2",
+      "starters": [
+        {
+          "id": "196230",
+          "name": "Ronwen Williams",
+          "short_name": "R. Williams",
+          "jersey": "1",
+          "position": "G",
+          "position_name": "Goalkeeper",
+          "starter": true,
+          "formation_place": "1",
+          "active": true
+        },
+        {
+          "id": "291141",
+          "name": "Iqraam Rayners",
+          "short_name": "I. Rayners",
+          "jersey": "15",
+          "position": "CF-R",
+          "position_name": "Center Right Forward",
+          "starter": true,
+          "formation_place": "10",
+          "active": true
+        },
+        {
+          "id": "304736",
+          "name": "Jayden Adams",
+          "short_name": "J. Adams",
+          "jersey": "23",
+          "position": "CM-L",
+          "position_name": "Center Left Midfielder",
+          "starter": true,
+          "formation_place": "11",
+          "active": true
+        },
+        {
+          "id": "276767",
+          "name": "Khuliso Mudau",
+          "short_name": "K. Mudau",
+          "jersey": "20",
+          "position": "RB",
+          "position_name": "Right Back",
+          "starter": true,
+          "formation_place": "2",
+          "active": true
+        },
+        {
+          "id": "223818",
+          "name": "Aubrey Modiba",
+          "short_name": "A. Modiba",
+          "jersey": "6",
+          "position": "LB",
+          "position_name": "Left Back",
+          "starter": true,
+          "formation_place": "3",
+          "active": true
+        },
+        {
+          "id": "400594",
+          "name": "Mbekezeli Mbokazi",
+          "short_name": "M. Mbokazi",
+          "jersey": "14",
+          "position": "CD-L",
+          "position_name": "Center Left Defender",
+          "starter": true,
+          "formation_place": "4",
+          "active": true
+        },
+        {
+          "id": "358744",
+          "name": "Ime Okon",
+          "short_name": "I. Okon",
+          "jersey": "21",
+          "position": "CD",
+          "position_name": "Center Defender",
+          "starter": true,
+          "formation_place": "5",
+          "active": true
+        },
+        {
+          "id": "266125",
+          "name": "Nkosinathi Sibisi",
+          "short_name": "N. Sibisi",
+          "jersey": "19",
+          "position": "CD-R",
+          "position_name": "Center Right Defender",
+          "starter": true,
+          "formation_place": "6",
+          "active": true
+        },
+        {
+          "id": "256691",
+          "name": "Teboho Mokoena",
+          "short_name": "T. Mokoena",
+          "jersey": "4",
+          "position": "CM-R",
+          "position_name": "Center Right Midfielder",
+          "starter": true,
+          "formation_place": "7",
+          "active": true
+        },
+        {
+          "id": "228595",
+          "name": "Sphephelo Sithole",
+          "short_name": "S. Sithole",
+          "jersey": "13",
+          "position": "CM",
+          "position_name": "Center Midfielder",
+          "starter": true,
+          "formation_place": "8",
+          "active": true
+        },
+        {
+          "id": "264751",
+          "name": "Lyle Foster",
+          "short_name": "L. Foster",
+          "jersey": "9",
+          "position": "CF-L",
+          "position_name": "Center Left Forward",
+          "starter": true,
+          "formation_place": "9",
+          "active": true
+        }
+      ],
+      "substitutes": [
+        {
+          "id": "288771",
+          "name": "Oswin Appollis",
+          "short_name": "O. Appollis",
+          "jersey": "7",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "265713",
+          "name": "Sipho Chaine",
+          "short_name": "S. Chaine",
+          "jersey": "16",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "157046",
+          "name": "Themba Zwane",
+          "short_name": "T. Zwane",
+          "jersey": "11",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "337134",
+          "name": "Kamogelo Sebelebele",
+          "short_name": "K. Sebelebele",
+          "jersey": "25",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "390448",
+          "name": "Khulumani Ndamane",
+          "short_name": "K. Ndamane",
+          "jersey": "3",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "365623",
+          "name": "Thabang Matuludi",
+          "short_name": "T. Matuludi",
+          "jersey": "2",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "366883",
+          "name": "Samukele Kabini",
+          "short_name": "S. Kabini",
+          "jersey": "18",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "361211",
+          "name": "Relebohile Mofokeng",
+          "short_name": "R. Mofokeng",
+          "jersey": "10",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "301321",
+          "name": "Thalente Mbatha",
+          "short_name": "T. Mbatha",
+          "jersey": "5",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "186121",
+          "name": "Ricardo Goss",
+          "short_name": "R. Goss",
+          "jersey": "22",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "310593",
+          "name": "Bradley Cross",
+          "short_name": "B. Cross",
+          "jersey": "26",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "335450",
+          "name": "Thapelo Maseko",
+          "short_name": "T. Maseko",
+          "jersey": "12",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "313399",
+          "name": "Tshepang Moremi",
+          "short_name": "T. Moremi",
+          "jersey": "8",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "303312",
+          "name": "Evidence Makgopa",
+          "short_name": "E. Makgopa",
+          "jersey": "17",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "351372",
+          "name": "Olwethu Makhanya",
+          "short_name": "O. Makhanya",
+          "jersey": "24",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        }
+      ]
+    }
+  },
+  "_saved_at": "2026-06-15T14:40:28.145493"
+}

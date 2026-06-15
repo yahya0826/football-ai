@@ -52,7 +52,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/ronwen-williams.jpg"
+      "avatar": "/headshots/ronwen-williams.jpg",
+      "name_cn": "龙文·威廉姆斯"
     },
     {
       "id": "thabang-matuludi",
@@ -98,7 +99,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/thabang-matuludi.jpg"
+      "avatar": "/headshots/thabang-matuludi.jpg",
+      "name_cn": "塔邦·马图卢迪"
     },
     {
       "id": "khulumani-ndamane",
@@ -144,7 +146,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/khulumani-ndamane.jpg"
+      "avatar": "/headshots/khulumani-ndamane.jpg",
+      "name_cn": "库卢马尼·恩达马内"
     },
     {
       "id": "teboho-mokoena",
@@ -190,7 +193,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/teboho-mokoena.jpg"
+      "avatar": "/headshots/teboho-mokoena.jpg",
+      "name_cn": "特博霍·莫科纳"
     },
     {
       "id": "thalente-mbatha",
@@ -236,7 +240,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/thalente-mbatha.jpg"
+      "avatar": "/headshots/thalente-mbatha.jpg",
+      "name_cn": "塔伦特·姆巴塔"
     },
     {
       "id": "aubrey-modiba",
@@ -282,7 +287,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/aubrey-modiba.jpg"
+      "avatar": "/headshots/aubrey-modiba.jpg",
+      "name_cn": "奥布里·莫迪巴"
     },
     {
       "id": "oswin-appollis",
@@ -328,7 +334,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/oswin-appollis.jpg"
+      "avatar": "/headshots/oswin-appollis.jpg",
+      "name_cn": "奥斯温·阿波利斯"
     },
     {
       "id": "tshepang-moremi",
@@ -374,7 +381,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/tshepang-moremi.jpg"
+      "avatar": "/headshots/tshepang-moremi.jpg",
+      "name_cn": "切潘·莫雷米"
     },
     {
       "id": "lyle-foster",
@@ -435,7 +443,8 @@
         "xa_p90": 0.03,
         "key_passes_p90": 0.66
       },
-      "avatar": "/headshots/lyle-foster.jpg"
+      "avatar": "/headshots/lyle-foster.jpg",
+      "name_cn": "莱尔·福斯特"
     },
     {
       "id": "relebohile-mofokeng",
@@ -481,7 +490,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/relebohile-mofokeng.jpg"
+      "avatar": "/headshots/relebohile-mofokeng.jpg",
+      "name_cn": "雷莱博希莱·莫弗肯"
     },
     {
       "id": "themba-zwane",
@@ -527,7 +537,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/themba-zwane.jpg"
+      "avatar": "/headshots/themba-zwane.jpg",
+      "name_cn": "滕巴·兹瓦内"
     },
     {
       "id": "thapelo-maseko",
@@ -573,7 +584,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/thapelo-maseko.jpg"
+      "avatar": "/headshots/thapelo-maseko.jpg",
+      "name_cn": "塔佩洛·马塞科"
     },
     {
       "id": "sphephelo-sithole",
@@ -619,7 +631,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/sphephelo-sithole.jpg"
+      "avatar": "/headshots/sphephelo-sithole.jpg",
+      "name_cn": "斯费费洛·西托莱"
     },
     {
       "id": "mbekezeli-mbokazi",
@@ -680,7 +693,8 @@
         "xa_p90": 0.01,
         "key_passes_p90": 0.09
       },
-      "avatar": "/headshots/mbekezeli-mbokazi.jpg"
+      "avatar": "/headshots/mbekezeli-mbokazi.jpg",
+      "name_cn": "姆贝凯泽利·姆博卡齐"
     },
     {
       "id": "iqraam-rayners",
@@ -726,7 +740,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/iqraam-rayners.jpg"
+      "avatar": "/headshots/iqraam-rayners.jpg",
+      "name_cn": "伊克拉姆·雷纳斯"
     },
     {
       "id": "sipho-chaine",
@@ -777,7 +792,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/sipho-chaine.jpg"
+      "avatar": "/headshots/sipho-chaine.jpg",
+      "name_cn": "西福·查内"
     },
     {
       "id": "evidence-makgopa",
@@ -823,7 +839,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/evidence-makgopa.jpg"
+      "avatar": "/headshots/evidence-makgopa.jpg",
+      "name_cn": "埃维登斯·马克戈帕"
     },
     {
       "id": "samukele-kabini",
@@ -869,7 +886,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/samukele-kabini.jpg"
+      "avatar": "/headshots/samukele-kabini.jpg",
+      "name_cn": "萨穆凯莱·卡比尼"
     },
     {
       "id": "nkosinathi-sibisi",
@@ -915,7 +933,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/nkosinathi-sibisi.jpg"
+      "avatar": "/headshots/nkosinathi-sibisi.jpg",
+      "name_cn": "恩科西纳蒂·西比西"
     },
     {
       "id": "khuliso-mudau",
@@ -961,7 +980,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/khuliso-mudau.jpg"
+      "avatar": "/headshots/khuliso-mudau.jpg",
+      "name_cn": "库利索·穆道"
     },
     {
       "id": "ime-okon",
@@ -1022,7 +1042,8 @@
         "xa_p90": 0.01,
         "key_passes_p90": 0.16
       },
-      "avatar": "/headshots/ime-okon.jpg"
+      "avatar": "/headshots/ime-okon.jpg",
+      "name_cn": "伊梅·奥孔"
     },
     {
       "id": "ricardo-goss",
@@ -1073,7 +1094,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/ricardo-goss.jpg"
+      "avatar": "/headshots/ricardo-goss.jpg",
+      "name_cn": "里卡多·戈斯"
     },
     {
       "id": "jayden-adams",
@@ -1119,7 +1141,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/jayden-adams.jpg"
+      "avatar": "/headshots/jayden-adams.jpg",
+      "name_cn": "杰登·亚当斯"
     },
     {
       "id": "olwethu-makhanya",
@@ -1180,7 +1203,8 @@
         "xa_p90": 0.05,
         "key_passes_p90": 0.46
       },
-      "avatar": "/headshots/olwethu-makhanya.jpg"
+      "avatar": "/headshots/olwethu-makhanya.jpg",
+      "name_cn": "奥尔韦图·马卡尼亚"
     },
     {
       "id": "kamogelo-sebelebele",
@@ -1226,7 +1250,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/kamogelo-sebelebele.jpg"
+      "avatar": "/headshots/kamogelo-sebelebele.jpg",
+      "name_cn": "卡莫赫洛·塞贝莱贝莱"
     },
     {
       "id": "bradley-cross",
@@ -1272,7 +1297,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/bradley-cross.jpg"
+      "avatar": "/headshots/bradley-cross.jpg",
+      "name_cn": "布拉德利·克罗斯"
     }
   ]
 }

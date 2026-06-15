@@ -65,7 +65,8 @@
         "xa_p90": 0.0,
         "key_passes_p90": 0.03
       },
-      "avatar": "/headshots/bart-verbruggen.jpg"
+      "avatar": "/headshots/bart-verbruggen.jpg",
+      "name_cn": "巴特·弗布鲁亨"
     },
     {
       "id": "jurri-n-timber",
@@ -126,7 +127,8 @@
         "xa_p90": 0.06,
         "key_passes_p90": 0.99
       },
-      "avatar": "/headshots/jurri-n-timber.jpg"
+      "avatar": "/headshots/jurri-n-timber.jpg",
+      "name_cn": "尤里恩·廷贝尔"
     },
     {
       "id": "marten-de-roon",
@@ -187,7 +189,8 @@
         "xa_p90": 0.07,
         "key_passes_p90": 0.8
       },
-      "avatar": "/headshots/marten-de-roon.jpg"
+      "avatar": "/headshots/marten-de-roon.jpg",
+      "name_cn": "马尔滕·德罗恩"
     },
     {
       "id": "virgil-van-dijk",
@@ -248,7 +251,8 @@
         "xa_p90": 0.04,
         "key_passes_p90": 0.32
       },
-      "avatar": "/headshots/virgil-van-dijk.jpg"
+      "avatar": "/headshots/virgil-van-dijk.jpg",
+      "name_cn": "维吉尔·范迪克"
     },
     {
       "id": "nathan-ak",
@@ -294,7 +298,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/nathan-ak.jpg"
+      "avatar": "/headshots/nathan-ak.jpg",
+      "name_cn": "纳坦·阿克"
     },
     {
       "id": "jan-paul-van-hecke",
@@ -355,7 +360,8 @@
         "xa_p90": 0.05,
         "key_passes_p90": 0.36
       },
-      "avatar": "/headshots/jan-paul-van-hecke.jpg"
+      "avatar": "/headshots/jan-paul-van-hecke.jpg",
+      "name_cn": "扬·保罗·范赫克"
     },
     {
       "id": "justin-kluivert",
@@ -401,7 +407,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/justin-kluivert.jpg"
+      "avatar": "/headshots/justin-kluivert.jpg",
+      "name_cn": "贾斯汀·克鲁伊维特"
     },
     {
       "id": "ryan-gravenberch",
@@ -462,7 +469,8 @@
         "xa_p90": 0.07,
         "key_passes_p90": 0.87
       },
-      "avatar": "/headshots/ryan-gravenberch.jpg"
+      "avatar": "/headshots/ryan-gravenberch.jpg",
+      "name_cn": "瑞安·赫拉芬贝赫"
     },
     {
       "id": "wout-weghorst",
@@ -523,7 +531,8 @@
         "xa_p90": 0.16,
         "key_passes_p90": 2.36
       },
-      "avatar": "/headshots/wout-weghorst.jpg"
+      "avatar": "/headshots/wout-weghorst.jpg",
+      "name_cn": "沃特·韦霍斯特"
     },
     {
       "id": "memphis-depay",
@@ -584,7 +593,8 @@
         "xa_p90": 0.22,
         "key_passes_p90": 1.55
       },
-      "avatar": "/headshots/memphis-depay.jpg"
+      "avatar": "/headshots/memphis-depay.jpg",
+      "name_cn": "孟菲斯·德佩"
     },
     {
       "id": "cody-gakpo",
@@ -645,7 +655,8 @@
         "xa_p90": 0.15,
         "key_passes_p90": 1.76
       },
-      "avatar": "/headshots/cody-gakpo.jpg"
+      "avatar": "/headshots/cody-gakpo.jpg",
+      "name_cn": "科迪·加克波"
     },
     {
       "id": "mats-wieffer",
@@ -706,7 +717,8 @@
         "xa_p90": 0.09,
         "key_passes_p90": 0.94
       },
-      "avatar": "/headshots/mats-wieffer.jpg"
+      "avatar": "/headshots/mats-wieffer.jpg",
+      "name_cn": "马茨·维弗"
     },
     {
       "id": "robin-roefs",
@@ -770,7 +782,8 @@
         "xa_p90": 0.0,
         "key_passes_p90": 0.14
       },
-      "avatar": "/headshots/robin-roefs.jpg"
+      "avatar": "/headshots/robin-roefs.jpg",
+      "name_cn": "罗宾·鲁夫斯"
     },
     {
       "id": "tijjani-reijnders",
@@ -831,7 +844,8 @@
         "xa_p90": 0.13,
         "key_passes_p90": 0.99
       },
-      "avatar": "/headshots/tijjani-reijnders.jpg"
+      "avatar": "/headshots/tijjani-reijnders.jpg",
+      "name_cn": "蒂贾尼·赖恩德斯"
     },
     {
       "id": "micky-van-de-ven",
@@ -892,7 +906,8 @@
         "xa_p90": 0.01,
         "key_passes_p90": 0.18
       },
-      "avatar": "/headshots/micky-van-de-ven.jpg"
+      "avatar": "/headshots/micky-van-de-ven.jpg",
+      "name_cn": "米基·范德文"
     },
     {
       "id": "guus-til",
@@ -953,7 +968,8 @@
         "xa_p90": 0.19,
         "key_passes_p90": 1.72
       },
-      "avatar": "/headshots/guus-til.jpg"
+      "avatar": "/headshots/guus-til.jpg",
+      "name_cn": "许斯·蒂尔"
     },
     {
       "id": "noa-lang",
@@ -1014,7 +1030,8 @@
         "xa_p90": 0.37,
         "key_passes_p90": 2.3
       },
-      "avatar": "/headshots/noa-lang.jpg"
+      "avatar": "/headshots/noa-lang.jpg",
+      "name_cn": "诺阿·朗"
     },
     {
       "id": "donyell-malen",
@@ -1075,7 +1092,8 @@
         "xa_p90": 0.15,
         "key_passes_p90": 0.49
       },
-      "avatar": "/headshots/donyell-malen.jpg"
+      "avatar": "/headshots/donyell-malen.jpg",
+      "name_cn": "唐耶尔·马伦"
     },
     {
       "id": "brian-brobbey",
@@ -1136,7 +1154,8 @@
         "xa_p90": 0.03,
         "key_passes_p90": 0.69
       },
-      "avatar": "/headshots/brian-brobbey.jpg"
+      "avatar": "/headshots/brian-brobbey.jpg",
+      "name_cn": "布赖恩·布罗比"
     },
     {
       "id": "teun-koopmeiners",
@@ -1197,7 +1216,8 @@
         "xa_p90": 0.07,
         "key_passes_p90": 0.84
       },
-      "avatar": "/headshots/teun-koopmeiners.jpg"
+      "avatar": "/headshots/teun-koopmeiners.jpg",
+      "name_cn": "特恩·库普梅纳斯"
     },
     {
       "id": "frenkie-de-jong",
@@ -1243,7 +1263,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/frenkie-de-jong.jpg"
+      "avatar": "/headshots/frenkie-de-jong.jpg",
+      "name_cn": "弗伦基·德容"
     },
     {
       "id": "denzel-dumfries",
@@ -1289,7 +1310,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/denzel-dumfries.jpg"
+      "avatar": "/headshots/denzel-dumfries.jpg",
+      "name_cn": "登泽尔·邓弗里斯"
     },
     {
       "id": "mark-flekken",
@@ -1353,7 +1375,8 @@
         "xa_p90": 0.0,
         "key_passes_p90": 0.04
       },
-      "avatar": "/headshots/mark-flekken.jpg"
+      "avatar": "/headshots/mark-flekken.jpg",
+      "name_cn": "马克·弗莱肯"
     },
     {
       "id": "crysencio-summerville",
@@ -1414,7 +1437,8 @@
         "xa_p90": 0.12,
         "key_passes_p90": 1.02
       },
-      "avatar": "/headshots/crysencio-summerville.jpg"
+      "avatar": "/headshots/crysencio-summerville.jpg",
+      "name_cn": "克赖森西奥·萨默维尔"
     },
     {
       "id": "jorrel-hato",
@@ -1475,7 +1499,8 @@
         "xa_p90": 0.05,
         "key_passes_p90": 0.62
       },
-      "avatar": "/headshots/jorrel-hato.jpg"
+      "avatar": "/headshots/jorrel-hato.jpg",
+      "name_cn": "乔雷尔·哈托"
     },
     {
       "id": "quinten-timber",
@@ -1521,7 +1546,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/quinten-timber.jpg"
+      "avatar": "/headshots/quinten-timber.jpg",
+      "name_cn": "昆滕·廷贝尔"
     }
   ]
 }

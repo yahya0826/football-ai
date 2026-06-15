@@ -52,7 +52,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/alexander-schlager.jpg"
+      "avatar": "/headshots/alexander-schlager.jpg",
+      "name_cn": "亚历山大·施拉格"
     },
     {
       "id": "david-affengruber",
@@ -113,7 +114,8 @@
         "xa_p90": 0.05,
         "key_passes_p90": 0.24
       },
-      "avatar": "/headshots/david-affengruber.jpg"
+      "avatar": "/headshots/david-affengruber.jpg",
+      "name_cn": "戴维·阿芬格鲁伯"
     },
     {
       "id": "kevin-danso",
@@ -174,7 +176,8 @@
         "xa_p90": 0.02,
         "key_passes_p90": 0.18
       },
-      "avatar": "/headshots/kevin-danso.jpg"
+      "avatar": "/headshots/kevin-danso.jpg",
+      "name_cn": "凯文·丹索"
     },
     {
       "id": "xaver-schlager",
@@ -235,7 +238,8 @@
         "xa_p90": 0.12,
         "key_passes_p90": 1.03
       },
-      "avatar": "/headshots/xaver-schlager.jpg"
+      "avatar": "/headshots/xaver-schlager.jpg",
+      "name_cn": "克萨韦尔·施拉格"
     },
     {
       "id": "stefan-posch",
@@ -296,7 +300,8 @@
         "xa_p90": 0.08,
         "key_passes_p90": 0.52
       },
-      "avatar": "/headshots/stefan-posch.jpg"
+      "avatar": "/headshots/stefan-posch.jpg",
+      "name_cn": "斯特凡·波施"
     },
     {
       "id": "nicolas-seiwald",
@@ -357,7 +362,8 @@
         "xa_p90": 0.06,
         "key_passes_p90": 0.5
       },
-      "avatar": "/headshots/nicolas-seiwald.jpg"
+      "avatar": "/headshots/nicolas-seiwald.jpg",
+      "name_cn": "尼古拉斯·塞瓦尔德"
     },
     {
       "id": "marko-arnautovi",
@@ -403,7 +409,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/marko-arnautovi.jpg"
+      "avatar": "/headshots/marko-arnautovi.jpg",
+      "name_cn": "马尔科·阿瑙托维奇"
     },
     {
       "id": "david-alaba",
@@ -449,7 +456,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/david-alaba.jpg"
+      "avatar": "/headshots/david-alaba.jpg",
+      "name_cn": "戴维·阿拉巴"
     },
     {
       "id": "marcel-sabitzer",
@@ -510,7 +518,8 @@
         "xa_p90": 0.11,
         "key_passes_p90": 0.74
       },
-      "avatar": "/headshots/marcel-sabitzer.jpg"
+      "avatar": "/headshots/marcel-sabitzer.jpg",
+      "name_cn": "马塞尔·萨比策"
     },
     {
       "id": "florian-grillitsch",
@@ -571,7 +580,8 @@
         "xa_p90": 0.08,
         "key_passes_p90": 0.64
       },
-      "avatar": "/headshots/florian-grillitsch.jpg"
+      "avatar": "/headshots/florian-grillitsch.jpg",
+      "name_cn": "弗洛里安·格里利奇"
     },
     {
       "id": "michael-gregoritsch",
@@ -632,7 +642,8 @@
         "xa_p90": 0.07,
         "key_passes_p90": 0.68
       },
-      "avatar": "/headshots/michael-gregoritsch.jpg"
+      "avatar": "/headshots/michael-gregoritsch.jpg",
+      "name_cn": "米夏埃尔·格雷戈里奇"
     },
     {
       "id": "florian-wiegele",
@@ -683,7 +694,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/florian-wiegele.jpg"
+      "avatar": "/headshots/florian-wiegele.jpg",
+      "name_cn": "弗洛里安·维格勒"
     },
     {
       "id": "patrick-pentz",
@@ -734,7 +746,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/patrick-pentz.jpg"
+      "avatar": "/headshots/patrick-pentz.jpg",
+      "name_cn": "帕特里克·彭茨"
     },
     {
       "id": "sa-a-kalajd-i",
@@ -780,7 +793,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/sa-a-kalajd-i.jpg"
+      "avatar": "/headshots/sa-a-kalajd-i.jpg",
+      "name_cn": "萨沙·卡拉季奇"
     },
     {
       "id": "philipp-lienhart",
@@ -841,7 +855,8 @@
         "xa_p90": 0.04,
         "key_passes_p90": 0.34
       },
-      "avatar": "/headshots/philipp-lienhart.jpg"
+      "avatar": "/headshots/philipp-lienhart.jpg",
+      "name_cn": "菲利普·林哈特"
     },
     {
       "id": "phillipp-mwene",
@@ -950,7 +965,8 @@
         "xa_p90": 0.21,
         "key_passes_p90": 1.05
       },
-      "avatar": "/headshots/carney-chukwuemeka.jpg"
+      "avatar": "/headshots/carney-chukwuemeka.jpg",
+      "name_cn": "卡尼·丘库埃梅卡"
     },
     {
       "id": "romano-schmid",
@@ -1011,7 +1027,8 @@
         "xa_p90": 0.31,
         "key_passes_p90": 2.68
       },
-      "avatar": "/headshots/romano-schmid.jpg"
+      "avatar": "/headshots/romano-schmid.jpg",
+      "name_cn": "罗马诺·施密德"
     },
     {
       "id": "konrad-laimer",
@@ -1072,7 +1089,8 @@
         "xa_p90": 0.23,
         "key_passes_p90": 2.03
       },
-      "avatar": "/headshots/konrad-laimer.jpg"
+      "avatar": "/headshots/konrad-laimer.jpg",
+      "name_cn": "康拉德·莱默"
     },
     {
       "id": "patrick-wimmer",
@@ -1133,7 +1151,8 @@
         "xa_p90": 0.12,
         "key_passes_p90": 0.88
       },
-      "avatar": "/headshots/patrick-wimmer.jpg"
+      "avatar": "/headshots/patrick-wimmer.jpg",
+      "name_cn": "帕特里克·维默"
     },
     {
       "id": "alexander-prass",
@@ -1194,7 +1213,8 @@
         "xa_p90": 0.22,
         "key_passes_p90": 1.23
       },
-      "avatar": "/headshots/alexander-prass.jpg"
+      "avatar": "/headshots/alexander-prass.jpg",
+      "name_cn": "亚历山大·普拉斯"
     },
     {
       "id": "marco-friedl",
@@ -1255,7 +1275,8 @@
         "xa_p90": 0.04,
         "key_passes_p90": 0.18
       },
-      "avatar": "/headshots/marco-friedl.jpg"
+      "avatar": "/headshots/marco-friedl.jpg",
+      "name_cn": "马尔科·弗里德尔"
     },
     {
       "id": "paul-wanner",
@@ -1316,7 +1337,8 @@
         "xa_p90": 0.2,
         "key_passes_p90": 1.26
       },
-      "avatar": "/headshots/paul-wanner.jpg"
+      "avatar": "/headshots/paul-wanner.jpg",
+      "name_cn": "保罗·万纳"
     },
     {
       "id": "michael-svoboda",
@@ -1377,7 +1399,8 @@
         "xa_p90": 0.07,
         "key_passes_p90": 0.5
       },
-      "avatar": "/headshots/michael-svoboda.jpg"
+      "avatar": "/headshots/michael-svoboda.jpg",
+      "name_cn": "迈克尔·斯沃博达"
     },
     {
       "id": "alessandro-sch-pf",
@@ -1423,7 +1446,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/alessandro-sch-pf.jpg"
+      "avatar": "/headshots/alessandro-sch-pf.jpg",
+      "name_cn": "亚历山德罗·舍普夫"
     }
   ]
 }

@@ -52,7 +52,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/david-ospina.jpg"
+      "avatar": "/headshots/david-ospina.jpg",
+      "name_cn": "戴维·奥斯皮纳"
     },
     {
       "id": "daniel-mu-oz",
@@ -113,7 +114,8 @@
         "xa_p90": 0.15,
         "key_passes_p90": 1.05
       },
-      "avatar": "/headshots/daniel-mu-oz.jpg"
+      "avatar": "/headshots/daniel-mu-oz.jpg",
+      "name_cn": "丹尼尔·穆尼奥斯"
     },
     {
       "id": "jhon-lucum",
@@ -174,7 +176,8 @@
         "xa_p90": 0.02,
         "key_passes_p90": 0.27
       },
-      "avatar": "/headshots/jhon-lucum.jpg"
+      "avatar": "/headshots/jhon-lucum.jpg",
+      "name_cn": "约翰·卢库米"
     },
     {
       "id": "santiago-arias",
@@ -220,7 +223,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/santiago-arias.jpg"
+      "avatar": "/headshots/santiago-arias.jpg",
+      "name_cn": "圣地亚哥·阿里亚斯"
     },
     {
       "id": "kevin-casta-o",
@@ -266,7 +270,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/kevin-casta-o.jpg"
+      "avatar": "/headshots/kevin-casta-o.jpg",
+      "name_cn": "凯文·卡斯塔尼奥"
     },
     {
       "id": "richard-r-os",
@@ -327,7 +332,8 @@
         "xa_p90": 0.08,
         "key_passes_p90": 0.87
       },
-      "avatar": "/headshots/richard-r-os.jpg"
+      "avatar": "/headshots/richard-r-os.jpg",
+      "name_cn": "理查德·里奥斯"
     },
     {
       "id": "luis-d-az",
@@ -388,7 +394,8 @@
         "xa_p90": 0.28,
         "key_passes_p90": 2.46
       },
-      "avatar": "/headshots/luis-d-az.jpg"
+      "avatar": "/headshots/luis-d-az.jpg",
+      "name_cn": "路易斯·迪亚斯"
     },
     {
       "id": "jorge-carrascal",
@@ -449,7 +456,8 @@
         "xa_p90": 0.23,
         "key_passes_p90": 2.61
       },
-      "avatar": "/headshots/jorge-carrascal.jpg"
+      "avatar": "/headshots/jorge-carrascal.jpg",
+      "name_cn": "豪尔赫·卡拉斯卡尔"
     },
     {
       "id": "jhon-c-rdoba",
@@ -495,7 +503,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/jhon-c-rdoba.jpg"
+      "avatar": "/headshots/jhon-c-rdoba.jpg",
+      "name_cn": "约翰·科尔多瓦"
     },
     {
       "id": "james-rodr-guez",
@@ -541,7 +550,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/james-rodr-guez.jpg"
+      "avatar": "/headshots/james-rodr-guez.jpg",
+      "name_cn": "哈梅斯·罗德里格斯"
     },
     {
       "id": "jhon-arias",
@@ -653,7 +663,8 @@
         "xa_p90": 0.0,
         "key_passes_p90": 0.0
       },
-      "avatar": "/headshots/camilo-vargas.jpg"
+      "avatar": "/headshots/camilo-vargas.jpg",
+      "name_cn": "卡米洛·巴尔加斯"
     },
     {
       "id": "yerry-mina",
@@ -714,7 +725,8 @@
         "xa_p90": 0.03,
         "key_passes_p90": 0.33
       },
-      "avatar": "/headshots/yerry-mina.jpg"
+      "avatar": "/headshots/yerry-mina.jpg",
+      "name_cn": "耶里·米纳"
     },
     {
       "id": "gustavo-puerta",
@@ -760,7 +772,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/gustavo-puerta.jpg"
+      "avatar": "/headshots/gustavo-puerta.jpg",
+      "name_cn": "古斯塔沃·普埃尔塔"
     },
     {
       "id": "juan-portilla",
@@ -869,7 +882,8 @@
         "xa_p90": 0.08,
         "key_passes_p90": 0.73
       },
-      "avatar": "/headshots/jefferson-lerma.jpg"
+      "avatar": "/headshots/jefferson-lerma.jpg",
+      "name_cn": "杰弗森·莱尔马"
     },
     {
       "id": "johan-mojica",
@@ -930,7 +944,8 @@
         "xa_p90": 0.12,
         "key_passes_p90": 1.18
       },
-      "avatar": "/headshots/johan-mojica.jpg"
+      "avatar": "/headshots/johan-mojica.jpg",
+      "name_cn": "约翰·莫希卡"
     },
     {
       "id": "willer-ditta",
@@ -991,7 +1006,8 @@
         "xa_p90": 0.03,
         "key_passes_p90": 0.41
       },
-      "avatar": "/headshots/willer-ditta.jpg"
+      "avatar": "/headshots/willer-ditta.jpg",
+      "name_cn": "维勒尔·迪塔"
     },
     {
       "id": "cucho-hern-ndez",
@@ -1085,7 +1101,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/juan-fernando-quintero.jpg"
+      "avatar": "/headshots/juan-fernando-quintero.jpg",
+      "name_cn": "胡安·费尔南多·金特罗"
     },
     {
       "id": "jaminton-campaz",
@@ -1158,7 +1175,8 @@
         "xa_p90": 0.08,
         "key_passes_p90": 0.53
       },
-      "avatar": "/headshots/deiver-machado.jpg"
+      "avatar": "/headshots/deiver-machado.jpg",
+      "name_cn": "代韦尔·马查多"
     },
     {
       "id": "davinson-s-nchez",
@@ -1219,7 +1237,8 @@
         "xa_p90": 0.03,
         "key_passes_p90": 0.48
       },
-      "avatar": "/headshots/davinson-s-nchez.jpg"
+      "avatar": "/headshots/davinson-s-nchez.jpg",
+      "name_cn": "达温松·桑切斯"
     },
     {
       "id": "lvaro-montero",
@@ -1270,7 +1289,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/lvaro-montero.jpg"
+      "avatar": "/headshots/lvaro-montero.jpg",
+      "name_cn": "阿尔瓦罗·蒙特罗"
     },
     {
       "id": "luis-su-rez",

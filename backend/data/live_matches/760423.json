@@ -1,0 +1,1147 @@
+{
+  "match_id": "760423",
+  "date": "2026-06-14",
+  "status": {
+    "state": "finished",
+    "detail": "FT",
+    "period": 0,
+    "clock": "",
+    "completed": true,
+    "state_cn": "已结束"
+  },
+  "home": {
+    "name": "Ivory Coast",
+    "abbrev": "CIV",
+    "logo": "",
+    "score": 1,
+    "team_id": "4789",
+    "name_cn": "科特迪瓦"
+  },
+  "away": {
+    "name": "Ecuador",
+    "abbrev": "ECU",
+    "logo": "",
+    "score": 0,
+    "team_id": "209",
+    "name_cn": "厄瓜多尔"
+  },
+  "events": [
+    {
+      "type": "kickoff",
+      "minute": "",
+      "team": "",
+      "player": "",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "First Half begins.",
+      "type_cn": "开球",
+      "team_cn": "",
+      "description_cn": "比赛开始！"
+    },
+    {
+      "type": "yellow_card",
+      "minute": "28'",
+      "team": "Ivory Coast",
+      "player": "Seko Fofana Yellow Card",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Seko Fofana (Côte d'Ivoire) is shown the yellow card for a bad foul.",
+      "type_cn": "黄牌",
+      "team_cn": "科特迪瓦",
+      "description_cn": "28'' Seko Fofana Yellow Card（科特迪瓦）吃到黄牌 🟨"
+    },
+    {
+      "type": "yellow_card",
+      "minute": "38'",
+      "team": "Ivory Coast",
+      "player": "Franck Kessié Yellow Card",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Franck Kessie (Côte d'Ivoire) is shown the yellow card for a bad foul.",
+      "type_cn": "黄牌",
+      "team_cn": "科特迪瓦",
+      "description_cn": "38'' Franck Kessié Yellow Card（科特迪瓦）吃到黄牌 🟨"
+    },
+    {
+      "type": "yellow_card",
+      "minute": "40'",
+      "team": "Ivory Coast",
+      "player": "Guela Doué Yellow Card",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Guéla Doué (Côte d'Ivoire) is shown the yellow card for a bad foul.",
+      "type_cn": "黄牌",
+      "team_cn": "科特迪瓦",
+      "description_cn": "40'' Guela Doué Yellow Card（科特迪瓦）吃到黄牌 🟨"
+    },
+    {
+      "type": "halftime",
+      "minute": "45'+5'",
+      "team": "",
+      "player": "",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "",
+      "type_cn": "中场休息",
+      "team_cn": "",
+      "description_cn": "中场休息 ⏸️"
+    },
+    {
+      "type": "fulltime",
+      "minute": "45'",
+      "team": "",
+      "player": "",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "",
+      "type_cn": "全场结束",
+      "team_cn": "",
+      "description_cn": "全场比赛结束 🏁"
+    },
+    {
+      "type": "substitution",
+      "minute": "56'",
+      "team": "Ecuador",
+      "player": "Nilson Angulo Substitution",
+      "player_in": "Nilson Angulo",
+      "player_out": "Alan Minda",
+      "assist": "",
+      "text": "Substitution, Ecuador. Nilson Angulo replaces Alan Minda.",
+      "type_cn": "换人",
+      "team_cn": "厄瓜多尔",
+      "description_cn": "56'' Nilson Angulo ↑ 替补登场，Alan Minda ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "56'",
+      "team": "Ivory Coast",
+      "player": "Ange-Yoan Bonny Substitution",
+      "player_in": "Ange-Yoan Bonny",
+      "player_out": "Elye Wahi",
+      "assist": "",
+      "text": "Substitution, Côte d'Ivoire. Ange-Yoan Bonny replaces Elye Wahi.",
+      "type_cn": "换人",
+      "team_cn": "科特迪瓦",
+      "description_cn": "56'' Ange-Yoan Bonny ↑ 替补登场，Elye Wahi ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "56'",
+      "team": "Ivory Coast",
+      "player": "Amad Diallo Substitution",
+      "player_in": "Amad Diallo",
+      "player_out": "Bazoumana Touré",
+      "assist": "",
+      "text": "Substitution, Côte d'Ivoire. Amad Diallo replaces Bazoumana Touré.",
+      "type_cn": "换人",
+      "team_cn": "科特迪瓦",
+      "description_cn": "56'' Amad Diallo ↑ 替补登场，Bazoumana Touré ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "62'",
+      "team": "Ecuador",
+      "player": "Jackson Porozo Substitution",
+      "player_in": "Jackson Porozo",
+      "player_out": "Alan Franco",
+      "assist": "",
+      "text": "Substitution, Ecuador. Jackson Porozo replaces Alan Franco.",
+      "type_cn": "换人",
+      "team_cn": "厄瓜多尔",
+      "description_cn": "62'' Jackson Porozo ↑ 替补登场，Alan Franco ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "62'",
+      "team": "Ecuador",
+      "player": "Ángelo Preciado Substitution",
+      "player_in": "Ángelo Preciado",
+      "player_out": "John Yeboah",
+      "assist": "",
+      "text": "Substitution, Ecuador. Ángelo Preciado replaces John Yeboah.",
+      "type_cn": "换人",
+      "team_cn": "厄瓜多尔",
+      "description_cn": "62'' Ángelo Preciado ↑ 替补登场，John Yeboah ↓ 被换下"
+    },
+    {
+      "type": "yellow_card",
+      "minute": "73'",
+      "team": "Ecuador",
+      "player": "Jackson Porozo Yellow Card",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Jackson Porozo (Ecuador) is shown the yellow card for a bad foul.",
+      "type_cn": "黄牌",
+      "team_cn": "厄瓜多尔",
+      "description_cn": "73'' Jackson Porozo Yellow Card（厄瓜多尔）吃到黄牌 🟨"
+    },
+    {
+      "type": "substitution",
+      "minute": "77'",
+      "team": "Ivory Coast",
+      "player": "Ibrahim Sangaré Substitution",
+      "player_in": "Ibrahim Sangaré",
+      "player_out": "Seko Fofana",
+      "assist": "",
+      "text": "Substitution, Côte d'Ivoire. Ibrahim Sangaré replaces Seko Fofana.",
+      "type_cn": "换人",
+      "team_cn": "科特迪瓦",
+      "description_cn": "77'' Ibrahim Sangaré ↑ 替补登场，Seko Fofana ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "77'",
+      "team": "Ivory Coast",
+      "player": "Christ Inao Oulaï Substitution",
+      "player_in": "Christ Inao Oulaï",
+      "player_out": "Nicolas Pépé",
+      "assist": "",
+      "text": "Substitution, Côte d'Ivoire. Christ Inao Oulaï replaces Nicolas Pépé.",
+      "type_cn": "换人",
+      "team_cn": "科特迪瓦",
+      "description_cn": "77'' Christ Inao Oulaï ↑ 替补登场，Nicolas Pépé ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "77'",
+      "team": "Ecuador",
+      "player": "Kevin Rodríguez Substitution",
+      "player_in": "Kevin Rodríguez",
+      "player_out": "Enner Valencia",
+      "assist": "",
+      "text": "Substitution, Ecuador. Kevin Rodríguez replaces Enner Valencia.",
+      "type_cn": "换人",
+      "team_cn": "厄瓜多尔",
+      "description_cn": "77'' Kevin Rodríguez ↑ 替补登场，Enner Valencia ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "89'",
+      "team": "Ivory Coast",
+      "player": "Odilon Kossounou Substitution",
+      "player_in": "Odilon Kossounou",
+      "player_out": "Guela Doué",
+      "assist": "",
+      "text": "Substitution, Côte d'Ivoire. Odilon Kossounou replaces Guéla Doué.",
+      "type_cn": "换人",
+      "team_cn": "科特迪瓦",
+      "description_cn": "89'' Odilon Kossounou ↑ 替补登场，Guela Doué ↓ 被换下"
+    },
+    {
+      "type": "goal",
+      "minute": "90'",
+      "team": "Ivory Coast",
+      "player": "Amad Diallo Goal",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Goal! Côte d'Ivoire 1, Ecuador 0. Amad Diallo (Côte d'Ivoire) left footed shot from the centre of the box to the bottom left corner. Assisted by Wilfried Singo.",
+      "type_cn": "进球",
+      "team_cn": "科特迪瓦",
+      "description_cn": "90'' Amad Diallo Goal 为科特迪瓦进球！"
+    },
+    {
+      "type": "83",
+      "minute": "90'+9'",
+      "team": "",
+      "player": "",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Second Half ends, Côte d'Ivoire 1, Ecuador 0.",
+      "type_cn": "83",
+      "team_cn": "",
+      "description_cn": "Second Half ends, Côte d'Ivoire 1, Ecuador 0."
+    }
+  ],
+  "statistics": {
+    "home": {
+      "team_name": "Ivory Coast",
+      "stats": {
+        "foulsCommitted": {
+          "label": "Fouls",
+          "value": "10",
+          "label_cn": "犯规"
+        },
+        "yellowCards": {
+          "label": "Yellow Cards",
+          "value": "3",
+          "label_cn": "黄牌"
+        },
+        "redCards": {
+          "label": "Red Cards",
+          "value": "0",
+          "label_cn": "红牌"
+        },
+        "offsides": {
+          "label": "Offsides",
+          "value": "0",
+          "label_cn": "越位"
+        },
+        "wonCorners": {
+          "label": "Corner Kicks",
+          "value": "3",
+          "label_cn": "角球"
+        },
+        "saves": {
+          "label": "Saves",
+          "value": "1",
+          "label_cn": "扑救"
+        },
+        "possessionPct": {
+          "label": "Possession",
+          "value": "48.4",
+          "label_cn": "控球率"
+        },
+        "totalShots": {
+          "label": "SHOTS",
+          "value": "15",
+          "label_cn": "总射门"
+        },
+        "shotsOnTarget": {
+          "label": "ON GOAL",
+          "value": "4",
+          "label_cn": "射正"
+        },
+        "shotPct": {
+          "label": "On Target %",
+          "value": "0.3",
+          "label_cn": "射正率"
+        },
+        "penaltyKickGoals": {
+          "label": "Penalty Goals",
+          "value": "0",
+          "label_cn": "点球进球"
+        },
+        "penaltyKickShots": {
+          "label": "Penalty Kicks Taken",
+          "value": "0",
+          "label_cn": "点球次数"
+        },
+        "accuratePasses": {
+          "label": "Accurate Passes",
+          "value": "397",
+          "label_cn": "精准传球"
+        },
+        "totalPasses": {
+          "label": "Passes",
+          "value": "470",
+          "label_cn": "传球"
+        },
+        "passPct": {
+          "label": "Pass Completion %",
+          "value": "0.8",
+          "label_cn": "传球成功率"
+        },
+        "accurateCrosses": {
+          "label": "Accurate Crosses",
+          "value": "2",
+          "label_cn": "精准传中"
+        },
+        "totalCrosses": {
+          "label": "Crosses",
+          "value": "8",
+          "label_cn": "传中"
+        },
+        "crossPct": {
+          "label": "Cross %",
+          "value": "0.3",
+          "label_cn": "传中成功率"
+        },
+        "totalLongBalls": {
+          "label": "Long Balls",
+          "value": "40",
+          "label_cn": "长传"
+        },
+        "accurateLongBalls": {
+          "label": "Accurate Long Balls",
+          "value": "18",
+          "label_cn": "精准长传"
+        },
+        "longballPct": {
+          "label": "Long Balls %",
+          "value": "0.5",
+          "label_cn": "长传成功率"
+        },
+        "blockedShots": {
+          "label": "Blocked Shots",
+          "value": "3",
+          "label_cn": "封堵射门"
+        },
+        "effectiveTackles": {
+          "label": "Effective Tackles",
+          "value": "9",
+          "label_cn": "有效抢断"
+        },
+        "totalTackles": {
+          "label": "Tackles",
+          "value": "14",
+          "label_cn": "抢断"
+        },
+        "tacklePct": {
+          "label": "Tackle %",
+          "value": "0.6",
+          "label_cn": "抢断成功率"
+        },
+        "interceptions": {
+          "label": "Interceptions",
+          "value": "11",
+          "label_cn": "拦截"
+        },
+        "effectiveClearance": {
+          "label": "Effective Clearances",
+          "value": "29",
+          "label_cn": "有效解围"
+        },
+        "totalClearance": {
+          "label": "Clearances",
+          "value": "29",
+          "label_cn": "解围"
+        }
+      },
+      "team_name_cn": "科特迪瓦"
+    },
+    "away": {
+      "team_name": "Ecuador",
+      "stats": {
+        "foulsCommitted": {
+          "label": "Fouls",
+          "value": "13",
+          "label_cn": "犯规"
+        },
+        "yellowCards": {
+          "label": "Yellow Cards",
+          "value": "1",
+          "label_cn": "黄牌"
+        },
+        "redCards": {
+          "label": "Red Cards",
+          "value": "0",
+          "label_cn": "红牌"
+        },
+        "offsides": {
+          "label": "Offsides",
+          "value": "0",
+          "label_cn": "越位"
+        },
+        "wonCorners": {
+          "label": "Corner Kicks",
+          "value": "6",
+          "label_cn": "角球"
+        },
+        "saves": {
+          "label": "Saves",
+          "value": "3",
+          "label_cn": "扑救"
+        },
+        "possessionPct": {
+          "label": "Possession",
+          "value": "51.6",
+          "label_cn": "控球率"
+        },
+        "totalShots": {
+          "label": "SHOTS",
+          "value": "12",
+          "label_cn": "总射门"
+        },
+        "shotsOnTarget": {
+          "label": "ON GOAL",
+          "value": "1",
+          "label_cn": "射正"
+        },
+        "shotPct": {
+          "label": "On Target %",
+          "value": "0.1",
+          "label_cn": "射正率"
+        },
+        "penaltyKickGoals": {
+          "label": "Penalty Goals",
+          "value": "0",
+          "label_cn": "点球进球"
+        },
+        "penaltyKickShots": {
+          "label": "Penalty Kicks Taken",
+          "value": "0",
+          "label_cn": "点球次数"
+        },
+        "accuratePasses": {
+          "label": "Accurate Passes",
+          "value": "419",
+          "label_cn": "精准传球"
+        },
+        "totalPasses": {
+          "label": "Passes",
+          "value": "492",
+          "label_cn": "传球"
+        },
+        "passPct": {
+          "label": "Pass Completion %",
+          "value": "0.9",
+          "label_cn": "传球成功率"
+        },
+        "accurateCrosses": {
+          "label": "Accurate Crosses",
+          "value": "4",
+          "label_cn": "精准传中"
+        },
+        "totalCrosses": {
+          "label": "Crosses",
+          "value": "14",
+          "label_cn": "传中"
+        },
+        "crossPct": {
+          "label": "Cross %",
+          "value": "0.3",
+          "label_cn": "传中成功率"
+        },
+        "totalLongBalls": {
+          "label": "Long Balls",
+          "value": "36",
+          "label_cn": "长传"
+        },
+        "accurateLongBalls": {
+          "label": "Accurate Long Balls",
+          "value": "11",
+          "label_cn": "精准长传"
+        },
+        "longballPct": {
+          "label": "Long Balls %",
+          "value": "0.3",
+          "label_cn": "长传成功率"
+        },
+        "blockedShots": {
+          "label": "Blocked Shots",
+          "value": "3",
+          "label_cn": "封堵射门"
+        },
+        "effectiveTackles": {
+          "label": "Effective Tackles",
+          "value": "15",
+          "label_cn": "有效抢断"
+        },
+        "totalTackles": {
+          "label": "Tackles",
+          "value": "21",
+          "label_cn": "抢断"
+        },
+        "tacklePct": {
+          "label": "Tackle %",
+          "value": "0.7",
+          "label_cn": "抢断成功率"
+        },
+        "interceptions": {
+          "label": "Interceptions",
+          "value": "13",
+          "label_cn": "拦截"
+        },
+        "effectiveClearance": {
+          "label": "Effective Clearances",
+          "value": "18",
+          "label_cn": "有效解围"
+        },
+        "totalClearance": {
+          "label": "Clearances",
+          "value": "18",
+          "label_cn": "解围"
+        }
+      },
+      "team_name_cn": "厄瓜多尔"
+    }
+  },
+  "lineups": {
+    "home": {
+      "formation": "4-4-2",
+      "starters": [
+        {
+          "id": "261595",
+          "name": "Yahia Fofana",
+          "short_name": "Y. Fofana",
+          "jersey": "1",
+          "position": "G",
+          "position_name": "Goalkeeper",
+          "starter": true,
+          "formation_place": "1",
+          "active": true
+        },
+        {
+          "id": "210397",
+          "name": "Nicolas Pépé",
+          "short_name": "N. Pépé",
+          "jersey": "19",
+          "position": "F",
+          "position_name": "Center Right Forward",
+          "starter": true,
+          "formation_place": "10",
+          "active": true
+        },
+        {
+          "id": "359108",
+          "name": "Bazoumana Touré",
+          "short_name": "B. Touré",
+          "jersey": "24",
+          "position": "M",
+          "position_name": "Left Midfielder",
+          "starter": true,
+          "formation_place": "11",
+          "active": true
+        },
+        {
+          "id": "346636",
+          "name": "Guela Doué",
+          "short_name": "G. Doué",
+          "jersey": "17",
+          "position": "D",
+          "position_name": "Right Back",
+          "starter": true,
+          "formation_place": "2",
+          "active": true
+        },
+        {
+          "id": "250888",
+          "name": "Ghislain Konan",
+          "short_name": "G. Konan",
+          "jersey": "3",
+          "position": "D",
+          "position_name": "Left Back",
+          "starter": true,
+          "formation_place": "3",
+          "active": true
+        },
+        {
+          "id": "194711",
+          "name": "Franck Kessié",
+          "short_name": "F. Kessié",
+          "jersey": "8",
+          "position": "M",
+          "position_name": "Center Right Midfielder",
+          "starter": true,
+          "formation_place": "4",
+          "active": true
+        },
+        {
+          "id": "286569",
+          "name": "Wilfried Singo",
+          "short_name": "W. Singo",
+          "jersey": "5",
+          "position": "D",
+          "position_name": "Center Right Defender",
+          "starter": true,
+          "formation_place": "5",
+          "active": true
+        },
+        {
+          "id": "308449",
+          "name": "Emmanuel Agbadou",
+          "short_name": "E. Agbadou",
+          "jersey": "20",
+          "position": "D",
+          "position_name": "Center Left Defender",
+          "starter": true,
+          "formation_place": "6",
+          "active": true
+        },
+        {
+          "id": "402479",
+          "name": "Yan Diomande",
+          "short_name": "Y. Diomande",
+          "jersey": "11",
+          "position": "M",
+          "position_name": "Right Midfielder",
+          "starter": true,
+          "formation_place": "7",
+          "active": true
+        },
+        {
+          "id": "184118",
+          "name": "Seko Fofana",
+          "short_name": "S. Fofana",
+          "jersey": "6",
+          "position": "M",
+          "position_name": "Center Left Midfielder",
+          "starter": true,
+          "formation_place": "8",
+          "active": true
+        },
+        {
+          "id": "311118",
+          "name": "Elye Wahi",
+          "short_name": "E. Wahi",
+          "jersey": "12",
+          "position": "F",
+          "position_name": "Center Left Forward",
+          "starter": true,
+          "formation_place": "9",
+          "active": true
+        }
+      ],
+      "substitutes": [
+        {
+          "id": "257055",
+          "name": "Parfait Guiagon",
+          "short_name": "P. Guiagon",
+          "jersey": "25",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "386989",
+          "name": "Christ Inao Oulaï",
+          "short_name": "C. Oulaï",
+          "jersey": "26",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "249072",
+          "name": "Christopher Operi",
+          "short_name": "C. Operi",
+          "jersey": "13",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "317404",
+          "name": "Simon Adingra",
+          "short_name": "S. Adingra",
+          "jersey": "10",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "309185",
+          "name": "Ange-Yoan Bonny",
+          "short_name": "A. Bonny",
+          "jersey": "9",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "329483",
+          "name": "Oumar Diakité",
+          "short_name": "O. Diakité",
+          "jersey": "14",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "323997",
+          "name": "Mohamed Koné",
+          "short_name": "M. Koné",
+          "jersey": "16",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "213718",
+          "name": "Ibrahim Sangaré",
+          "short_name": "I. Sangaré",
+          "jersey": "18",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "343964",
+          "name": "Ousmane Diomande",
+          "short_name": "O. Diomande",
+          "jersey": "2",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "242593",
+          "name": "Evan Ndicka",
+          "short_name": "E. Ndicka",
+          "jersey": "21",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "231282",
+          "name": "Alban Lafont",
+          "short_name": "A. Lafont",
+          "jersey": "23",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "288924",
+          "name": "Evann Guessand",
+          "short_name": "E. Guessand",
+          "jersey": "22",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "193539",
+          "name": "Jean Michaël Seri",
+          "short_name": "J. Seri",
+          "jersey": "4",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "291630",
+          "name": "Amad Diallo",
+          "short_name": "A. Diallo",
+          "jersey": "15",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "284822",
+          "name": "Odilon Kossounou",
+          "short_name": "O. Kossounou",
+          "jersey": "7",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-4-2",
+      "starters": [
+        {
+          "id": "207921",
+          "name": "Hernán Galíndez",
+          "short_name": "H. Galíndez",
+          "jersey": "1",
+          "position": "G",
+          "position_name": "Goalkeeper",
+          "starter": true,
+          "formation_place": "1",
+          "active": true
+        },
+        {
+          "id": "277352",
+          "name": "Gonzalo Plata",
+          "short_name": "G. Plata",
+          "jersey": "19",
+          "position": "F",
+          "position_name": "Center Right Forward",
+          "starter": true,
+          "formation_place": "10",
+          "active": true
+        },
+        {
+          "id": "319422",
+          "name": "Alan Minda",
+          "short_name": "A. Minda",
+          "jersey": "14",
+          "position": "M",
+          "position_name": "Left Midfielder",
+          "starter": true,
+          "formation_place": "11",
+          "active": true
+        },
+        {
+          "id": "262111",
+          "name": "Alan Franco",
+          "short_name": "A. Franco",
+          "jersey": "21",
+          "position": "D",
+          "position_name": "Right Back",
+          "starter": true,
+          "formation_place": "2",
+          "active": true
+        },
+        {
+          "id": "292062",
+          "name": "Piero Hincapié",
+          "short_name": "P. Hincapié",
+          "jersey": "3",
+          "position": "D",
+          "position_name": "Left Back",
+          "starter": true,
+          "formation_place": "3",
+          "active": true
+        },
+        {
+          "id": "289877",
+          "name": "Moisés Caicedo",
+          "short_name": "M. Caicedo",
+          "jersey": "23",
+          "position": "M",
+          "position_name": "Center Right Midfielder",
+          "starter": true,
+          "formation_place": "4",
+          "active": true
+        },
+        {
+          "id": "336589",
+          "name": "Joel Ordóñez",
+          "short_name": "J. Ordóñez",
+          "jersey": "4",
+          "position": "D",
+          "position_name": "Center Right Defender",
+          "starter": true,
+          "formation_place": "5",
+          "active": true
+        },
+        {
+          "id": "287005",
+          "name": "Willian Pacho",
+          "short_name": "W. Pacho",
+          "jersey": "6",
+          "position": "D",
+          "position_name": "Center Left Defender",
+          "starter": true,
+          "formation_place": "6",
+          "active": true
+        },
+        {
+          "id": "265926",
+          "name": "John Yeboah",
+          "short_name": "J. Yeboah",
+          "jersey": "9",
+          "position": "M",
+          "position_name": "Right Midfielder",
+          "starter": true,
+          "formation_place": "7",
+          "active": true
+        },
+        {
+          "id": "297150",
+          "name": "Pedro Vite",
+          "short_name": "P. Vite",
+          "jersey": "15",
+          "position": "M",
+          "position_name": "Center Left Midfielder",
+          "starter": true,
+          "formation_place": "8",
+          "active": true
+        },
+        {
+          "id": "171771",
+          "name": "Enner Valencia",
+          "short_name": "E. Valencia",
+          "jersey": "13",
+          "position": "F",
+          "position_name": "Center Left Forward",
+          "starter": true,
+          "formation_place": "9",
+          "active": true
+        }
+      ],
+      "substitutes": [
+        {
+          "id": "281316",
+          "name": "Kevin Rodríguez",
+          "short_name": "K. Rodríguez",
+          "jersey": "11",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "131726",
+          "name": "Gonzalo Valle",
+          "short_name": "G. Valle",
+          "jersey": "22",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "214689",
+          "name": "Pervis Estupiñán",
+          "short_name": "P. Estupiñán",
+          "jersey": "7",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "328742",
+          "name": "Denil Castillo",
+          "short_name": "D. Castillo",
+          "jersey": "18",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "217079",
+          "name": "Jordy Caicedo",
+          "short_name": "J. Caicedo",
+          "jersey": "16",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "318090",
+          "name": "Nilson Angulo",
+          "short_name": "N. Angulo",
+          "jersey": "20",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "303328",
+          "name": "Anthony Valencia",
+          "short_name": "A. Valencia",
+          "jersey": "8",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "256560",
+          "name": "Ángelo Preciado",
+          "short_name": "Á. Preciado",
+          "jersey": "17",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "358746",
+          "name": "Kendry Páez",
+          "short_name": "K. Páez",
+          "jersey": "10",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "315600",
+          "name": "Yaimar Medina",
+          "short_name": "Y. Medina",
+          "jersey": "26",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "286665",
+          "name": "Jackson Porozo",
+          "short_name": "J. Porozo",
+          "jersey": "25",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "251963",
+          "name": "Félix Torres",
+          "short_name": "F. Torres",
+          "jersey": "2",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "367725",
+          "name": "Jeremy Arévalo",
+          "short_name": "J. Arévalo",
+          "jersey": "24",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "270829",
+          "name": "Jordy Alcívar",
+          "short_name": "J. Alcívar",
+          "jersey": "5",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "269881",
+          "name": "Moisés Ramírez",
+          "short_name": "M. Ramírez",
+          "jersey": "12",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        }
+      ]
+    }
+  },
+  "_saved_at": "2026-06-15T15:10:29.459498"
+}

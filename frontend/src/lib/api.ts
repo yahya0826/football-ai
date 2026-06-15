@@ -251,6 +251,64 @@ export interface ScheduleData {
   total: number;
 }
 
+// ── 每日比赛总结 (Daily Summary) ──────────────────
+
+export interface DailySummaryMatch {
+  home_team: string;
+  home_team_cn: string;
+  away_team: string;
+  away_team_cn: string;
+  score: string;
+  analysis?: string;
+  key_moment?: string;
+}
+
+export interface DailySummaryResponse {
+  date: string;
+  date_cn?: string;
+  title: string;
+  generated: boolean;
+  matches_count?: number;
+  matches_completed?: number;
+  matches_total?: number;
+  message?: string;
+  article?: string;
+  matches?: DailySummaryMatch[];
+  generated_at?: string;
+}
+
+// ── 临哨快讯 / 伤病情报 (Injury Intel) ──────────────────
+
+export interface InjuryIntelItem {
+  player: string;
+  player_cn: string;
+  status: string;
+  status_cn: string;
+  detail: string;
+  source: string;
+}
+
+export interface TeamInjuryIntel {
+  name_cn: string;
+  injuries: InjuryIntelItem[];
+  predicted_lineup: {
+    formation: string;
+    formation_cn?: string;
+    players: string[];
+    players_cn?: string[];
+  };
+  recent_form: string;
+  score_prediction?: string;
+  score_prediction_cn?: string;
+}
+
+export interface InjuriesResponse {
+  date: string;
+  last_updated: string;
+  teams: Record<string, TeamInjuryIntel>;
+  total_teams?: number;
+}
+
 export interface TeamProfile {
   team: string;
   confederation: string;
@@ -556,16 +614,19 @@ export const api = {
   },
 
   // 哨前情报 (WhistleIntel)
-  async getDailyReport(date?: string): Promise<DailyReport> {
-    return fetchAPI('/api/intelligence/daily-report', { params: { date } });
+
+  // 每日比赛总结（所有比赛结束后 AI 自动生成）
+  async getDailySummary(date?: string): Promise<DailySummaryResponse> {
+    return fetchAPI('/api/intelligence/daily-summary', { params: { date } });
+  },
+
+  // 临哨快讯 — 伤病情报 + 预测首发 + 球队状态
+  async getInjuryIntel(date?: string, forceRefresh = false): Promise<InjuriesResponse> {
+    return fetchAPI('/api/intelligence/injuries', { params: { date, force_refresh: forceRefresh ? 'true' : 'false' } });
   },
 
   async getIntelCard(matchId: number): Promise<IntelCard> {
     return fetchAPI(`/api/intelligence/intel-card/${matchId}`);
-  },
-
-  async getBreakingNews(limit = 10): Promise<{ news: BreakingNewsItem[]; total: number }> {
-    return fetchAPI('/api/intelligence/breaking', { params: { limit } });
   },
 
   async getPostMatchReview(matchId: number): Promise<ReviewData> {
@@ -726,8 +787,8 @@ export const api = {
 
   // ── 实时比赛 (Live Match) ──────────────────
 
-  async getLiveScoreboard(): Promise<LiveScoreboardResponse> {
-    return fetchAPI('/api/live/scoreboard');
+  async getLiveScoreboard(date?: string): Promise<LiveScoreboardResponse> {
+    return fetchAPI('/api/live/scoreboard', { params: date ? { date } : undefined });
   },
 
   async getLiveMatchDetail(matchId: string): Promise<LiveMatchDetail> {
@@ -750,6 +811,14 @@ export const api = {
     return fetchAPI(`/api/live/roster/${teamId}`);
   },
 
+  async getPlayerLiveAnalysis(
+    matchId: string,
+    playerId: string,
+    params: { team_id: string; player_name: string; position: string; clock?: string }
+  ): Promise<PlayerLiveAnalysisResponse> {
+    return fetchAPI(`/api/live/matches/${matchId}/players/${playerId}/analysis`, { params });
+  },
+
   // ── 反馈 (Feedback) ──────────────────
 
   async submitFeedback(data: { text: string; rating: number; page?: string }): Promise<{ success: boolean; message: string }> {
@@ -768,6 +837,7 @@ export const api = {
 export interface ApiPlayer {
   id: string;
   name: string;
+  name_cn?: string;
   position: string;
   position_display?: string;
   number: number;
@@ -1237,6 +1307,32 @@ export interface TeamRoster {
   };
   total_players: number;
   position_labels: Record<string, string>;
+}
+
+// ── 球员实时分析类型 (Player Live Analysis) ──────────────────
+
+export interface PlayerLiveStat {
+  label: string;
+  value: string;
+}
+
+export interface IntervalAnalysis {
+  interval_key: string;
+  interval_label: string;
+  generated: boolean;
+  analysis: string;
+}
+
+export interface PlayerLiveAnalysisResponse {
+  player_id: string;
+  player_name: string;
+  position: string;
+  stats: Record<string, PlayerLiveStat>;
+  stats_available: boolean;
+  current_interval: string;
+  clock: string;
+  match_state: string;
+  analyses: Record<string, IntervalAnalysis>;
 }
 
 export default api;

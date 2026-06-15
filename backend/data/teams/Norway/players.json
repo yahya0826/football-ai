@@ -65,7 +65,8 @@
         "xa_p90": 0.0,
         "key_passes_p90": 0.0
       },
-      "avatar": "/headshots/rjan-nyland.jpg"
+      "avatar": "/headshots/rjan-nyland.jpg",
+      "name_cn": "厄尔扬·尼兰"
     },
     {
       "id": "morten-thorsby",
@@ -111,7 +112,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/morten-thorsby.jpg"
+      "avatar": "/headshots/morten-thorsby.jpg",
+      "name_cn": "莫滕·托斯比"
     },
     {
       "id": "kristoffer-ajer",
@@ -172,7 +174,8 @@
         "xa_p90": 0.04,
         "key_passes_p90": 0.2
       },
-      "avatar": "/headshots/kristoffer-ajer.jpg"
+      "avatar": "/headshots/kristoffer-ajer.jpg",
+      "name_cn": "克里斯托弗·阿耶尔"
     },
     {
       "id": "leo--stig-rd",
@@ -233,7 +236,8 @@
         "xa_p90": 0.03,
         "key_passes_p90": 0.34
       },
-      "avatar": "/headshots/leo--stig-rd.jpg"
+      "avatar": "/headshots/leo--stig-rd.jpg",
+      "name_cn": "莱奥·厄斯蒂高"
     },
     {
       "id": "david-m-ller-wolfe",
@@ -294,7 +298,8 @@
         "xa_p90": 0.09,
         "key_passes_p90": 0.68
       },
-      "avatar": "/headshots/david-m-ller-wolfe.jpg"
+      "avatar": "/headshots/david-m-ller-wolfe.jpg",
+      "name_cn": "戴维·默勒·沃尔夫"
     },
     {
       "id": "patrick-berg",
@@ -340,7 +345,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/patrick-berg.jpg"
+      "avatar": "/headshots/patrick-berg.jpg",
+      "name_cn": "帕特里克·贝格"
     },
     {
       "id": "alexander-s-rloth",
@@ -401,7 +407,8 @@
         "xa_p90": 0.05,
         "key_passes_p90": 0.45
       },
-      "avatar": "/headshots/alexander-s-rloth.jpg"
+      "avatar": "/headshots/alexander-s-rloth.jpg",
+      "name_cn": "亚历山大·瑟洛特"
     },
     {
       "id": "sander-berge",
@@ -462,7 +469,8 @@
         "xa_p90": 0.05,
         "key_passes_p90": 0.65
       },
-      "avatar": "/headshots/sander-berge.jpg"
+      "avatar": "/headshots/sander-berge.jpg",
+      "name_cn": "桑德·贝格"
     },
     {
       "id": "erling-haaland",
@@ -523,7 +531,8 @@
         "xa_p90": 0.09,
         "key_passes_p90": 0.76
       },
-      "avatar": "/headshots/erling-haaland.jpg"
+      "avatar": "/headshots/erling-haaland.jpg",
+      "name_cn": "埃尔林·哈兰德"
     },
     {
       "id": "martin--degaard",
@@ -535,7 +544,8 @@
       "age": 0,
       "national_caps": 0,
       "national_goals": 0,
-      "stats": null
+      "stats": null,
+      "name_cn": "马丁·厄德高"
     },
     {
       "id": "j-rgen-strand-larsen",
@@ -596,7 +606,8 @@
         "xa_p90": 0.04,
         "key_passes_p90": 0.39
       },
-      "avatar": "/headshots/j-rgen-strand-larsen.jpg"
+      "avatar": "/headshots/j-rgen-strand-larsen.jpg",
+      "name_cn": "约尔根·斯特兰德·拉森"
     },
     {
       "id": "sander-tangvik",
@@ -660,7 +671,8 @@
         "xa_p90": 0.0,
         "key_passes_p90": 0.0
       },
-      "avatar": "/headshots/sander-tangvik.jpg"
+      "avatar": "/headshots/sander-tangvik.jpg",
+      "name_cn": "桑德·坦维克"
     },
     {
       "id": "egil-selvik",
@@ -711,7 +723,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/egil-selvik.jpg"
+      "avatar": "/headshots/egil-selvik.jpg",
+      "name_cn": "埃吉尔·塞尔维克"
     },
     {
       "id": "fredrik-aursnes",
@@ -772,7 +785,8 @@
         "xa_p90": 0.17,
         "key_passes_p90": 2.2
       },
-      "avatar": "/headshots/fredrik-aursnes.jpg"
+      "avatar": "/headshots/fredrik-aursnes.jpg",
+      "name_cn": "弗雷德里克·奥尔斯内斯"
     },
     {
       "id": "fredrik-andr--bj-rkan",
@@ -818,7 +832,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/fredrik-andr--bj-rkan.jpg"
+      "avatar": "/headshots/fredrik-andr--bj-rkan.jpg",
+      "name_cn": "弗雷德里克·比约坎"
     },
     {
       "id": "marcus-holmgren-pedersen",
@@ -879,7 +894,8 @@
         "xa_p90": 0.08,
         "key_passes_p90": 0.84
       },
-      "avatar": "/headshots/marcus-holmgren-pedersen.jpg"
+      "avatar": "/headshots/marcus-holmgren-pedersen.jpg",
+      "name_cn": "马库斯·佩德森"
     },
     {
       "id": "torbj-rn-heggem",
@@ -940,7 +956,8 @@
         "xa_p90": 0.01,
         "key_passes_p90": 0.13
       },
-      "avatar": "/headshots/torbj-rn-heggem.jpg"
+      "avatar": "/headshots/torbj-rn-heggem.jpg",
+      "name_cn": "托尔比约恩·赫格姆"
     },
     {
       "id": "kristian-thorstvedt",
@@ -1001,7 +1018,8 @@
         "xa_p90": 0.07,
         "key_passes_p90": 1.17
       },
-      "avatar": "/headshots/kristian-thorstvedt.jpg"
+      "avatar": "/headshots/kristian-thorstvedt.jpg",
+      "name_cn": "克里斯蒂安·托斯特韦特"
     },
     {
       "id": "thelo-aasgaard",
@@ -1062,7 +1080,8 @@
         "xa_p90": 0.12,
         "key_passes_p90": 1.53
       },
-      "avatar": "/headshots/thelo-aasgaard.jpg"
+      "avatar": "/headshots/thelo-aasgaard.jpg",
+      "name_cn": "特洛·奥斯高"
     },
     {
       "id": "antonio-nusa",
@@ -1123,7 +1142,8 @@
         "xa_p90": 0.23,
         "key_passes_p90": 1.46
       },
-      "avatar": "/headshots/antonio-nusa.jpg"
+      "avatar": "/headshots/antonio-nusa.jpg",
+      "name_cn": "安东尼奥·努萨"
     },
     {
       "id": "andreas-schjelderup",
@@ -1184,7 +1204,8 @@
         "xa_p90": 0.37,
         "key_passes_p90": 2.13
       },
-      "avatar": "/headshots/andreas-schjelderup.jpg"
+      "avatar": "/headshots/andreas-schjelderup.jpg",
+      "name_cn": "安德烈亚斯·谢尔德鲁普"
     },
     {
       "id": "oscar-bobb",
@@ -1230,7 +1251,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/oscar-bobb.jpg"
+      "avatar": "/headshots/oscar-bobb.jpg",
+      "name_cn": "奥斯卡·鲍勃"
     },
     {
       "id": "jens-petter-hauge",
@@ -1276,7 +1298,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/jens-petter-hauge.jpg"
+      "avatar": "/headshots/jens-petter-hauge.jpg",
+      "name_cn": "延斯·彼得·海于格"
     },
     {
       "id": "sondre-lang-s",
@@ -1322,7 +1345,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/sondre-lang-s.jpg"
+      "avatar": "/headshots/sondre-lang-s.jpg",
+      "name_cn": "松德雷·隆奥斯"
     },
     {
       "id": "henrik-falchener",
@@ -1368,7 +1392,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/henrik-falchener.jpg"
+      "avatar": "/headshots/henrik-falchener.jpg",
+      "name_cn": "亨里克·法尔谢纳"
     },
     {
       "id": "julian-ryerson",
@@ -1429,7 +1454,8 @@
         "xa_p90": 0.4,
         "key_passes_p90": 2.22
       },
-      "avatar": "/headshots/julian-ryerson.jpg"
+      "avatar": "/headshots/julian-ryerson.jpg",
+      "name_cn": "尤利安·吕尔松"
     }
   ]
 }

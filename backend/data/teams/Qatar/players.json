@@ -59,7 +59,8 @@
           "defending": 60,
           "physical": 86
         }
-      }
+      },
+      "name_cn": "佩德罗·米格尔"
     },
     {
       "id": "lucas-mendes",
@@ -117,7 +118,8 @@
         },
         "key_passes_p90": 0.24
       },
-      "avatar": "/headshots/lucas-mendes.jpg"
+      "avatar": "/headshots/lucas-mendes.jpg",
+      "name_cn": "卢卡斯·门德斯"
     },
     {
       "id": "issa-laye",
@@ -175,7 +177,8 @@
         },
         "key_passes_p90": 0.21
       },
-      "avatar": "/headshots/issa-laye.jpg"
+      "avatar": "/headshots/issa-laye.jpg",
+      "name_cn": "伊萨·拉耶"
     },
     {
       "id": "jassem-gaber",
@@ -221,7 +224,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/jassem-gaber.jpg"
+      "avatar": "/headshots/jassem-gaber.jpg",
+      "name_cn": "贾西姆·贾比尔"
     },
     {
       "id": "abdulaziz-hatem",
@@ -279,7 +283,8 @@
         },
         "key_passes_p90": 1.16
       },
-      "avatar": "/headshots/abdulaziz-hatem.jpg"
+      "avatar": "/headshots/abdulaziz-hatem.jpg",
+      "name_cn": "阿卜杜勒阿齐兹·哈特姆"
     },
     {
       "id": "ahmed-alaaeldin",
@@ -383,7 +388,8 @@
         },
         "key_passes_p90": 2.13
       },
-      "avatar": "/headshots/edmilson-junior.jpg"
+      "avatar": "/headshots/edmilson-junior.jpg",
+      "name_cn": "埃德米尔森·儒尼奥尔"
     },
     {
       "id": "mohammed-muntari",
@@ -441,7 +447,8 @@
         },
         "key_passes_p90": 0.8
       },
-      "avatar": "/headshots/mohammed-muntari.jpg"
+      "avatar": "/headshots/mohammed-muntari.jpg",
+      "name_cn": "穆罕默德·蒙塔里"
     },
     {
       "id": "hassan-al-haydos",
@@ -487,7 +494,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/hassan-al-haydos.jpg"
+      "avatar": "/headshots/hassan-al-haydos.jpg",
+      "name_cn": "哈桑·海多斯"
     },
     {
       "id": "akram-afif",
@@ -545,7 +553,8 @@
         },
         "key_passes_p90": 4.09
       },
-      "avatar": "/headshots/akram-afif.jpg"
+      "avatar": "/headshots/akram-afif.jpg",
+      "name_cn": "阿克拉姆·阿菲夫"
     },
     {
       "id": "karim-boudiaf",
@@ -603,7 +612,8 @@
         },
         "key_passes_p90": 0.72
       },
-      "avatar": "/headshots/karim-boudiaf.jpg"
+      "avatar": "/headshots/karim-boudiaf.jpg",
+      "name_cn": "卡里姆·布迪亚夫"
     },
     {
       "id": "ayoub-al-oui",
@@ -685,7 +695,8 @@
         },
         "key_passes_p90": 1.03
       },
-      "avatar": "/headshots/yusuf-abdurisag.jpg"
+      "avatar": "/headshots/yusuf-abdurisag.jpg",
+      "name_cn": "优素福·阿卜杜里萨格"
     },
     {
       "id": "boualem-khoukhi",
@@ -743,7 +754,8 @@
         },
         "key_passes_p90": 0.56
       },
-      "avatar": "/headshots/boualem-khoukhi.jpg"
+      "avatar": "/headshots/boualem-khoukhi.jpg",
+      "name_cn": "布阿莱姆·胡希"
     },
     {
       "id": "ahmed-al-ganehi",
@@ -847,7 +859,8 @@
         },
         "key_passes_p90": 1.0
       },
-      "avatar": "/headshots/sultan-al-brake.jpg"
+      "avatar": "/headshots/sultan-al-brake.jpg",
+      "name_cn": "苏丹·布雷克"
     },
     {
       "id": "almoez-ali",
@@ -905,7 +918,8 @@
         },
         "key_passes_p90": 0.13
       },
-      "avatar": "/headshots/almoez-ali.jpg"
+      "avatar": "/headshots/almoez-ali.jpg",
+      "name_cn": "阿尔莫埃兹·阿里"
     },
     {
       "id": "ahmed-fathy",
@@ -963,7 +977,8 @@
           "defending": 45,
           "physical": 88
         }
-      }
+      },
+      "name_cn": "萨拉赫·扎卡里亚"
     },
     {
       "id": "meshaal-barsham",
@@ -1026,7 +1041,8 @@
         },
         "key_passes_p90": 0.0
       },
-      "avatar": "/headshots/meshaal-barsham.jpg"
+      "avatar": "/headshots/meshaal-barsham.jpg",
+      "name_cn": "梅沙尔·巴沙姆"
     },
     {
       "id": "assim-madibo",
@@ -1084,7 +1100,8 @@
         },
         "key_passes_p90": 0.25
       },
-      "avatar": "/headshots/assim-madibo.jpg"
+      "avatar": "/headshots/assim-madibo.jpg",
+      "name_cn": "阿西姆·马迪博"
     },
     {
       "id": "tahsin-jamshid",

@@ -64,7 +64,8 @@
         },
         "key_passes_p90": 0.0
       },
-      "avatar": "/headshots/kim-seung-gyu.jpg"
+      "avatar": "/headshots/kim-seung-gyu.jpg",
+      "name_cn": "金承奎"
     },
     {
       "id": "lee-han-beom",
@@ -110,7 +111,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/lee-han-beom.jpg"
+      "avatar": "/headshots/lee-han-beom.jpg",
+      "name_cn": "李汉范"
     },
     {
       "id": "lee-gi-hyuk",
@@ -183,7 +185,8 @@
         "xa_p90": 0.08,
         "key_passes_p90": 0.28
       },
-      "avatar": "/headshots/kim-min-jae.jpg"
+      "avatar": "/headshots/kim-min-jae.jpg",
+      "name_cn": "金玟哉"
     },
     {
       "id": "kim-tae-hyeon",
@@ -241,7 +244,8 @@
         },
         "key_passes_p90": 0.27
       },
-      "avatar": "/headshots/kim-tae-hyeon.jpg"
+      "avatar": "/headshots/kim-tae-hyeon.jpg",
+      "name_cn": "金太炫"
     },
     {
       "id": "hwang-in-beom",
@@ -287,7 +291,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/hwang-in-beom.jpg"
+      "avatar": "/headshots/hwang-in-beom.jpg",
+      "name_cn": "黄仁范"
     },
     {
       "id": "son-heung-min",
@@ -348,7 +353,8 @@
         "xa_p90": 0.25,
         "key_passes_p90": 2.58
       },
-      "avatar": "/headshots/son-heung-min.jpg"
+      "avatar": "/headshots/son-heung-min.jpg",
+      "name_cn": "孙兴慜"
     },
     {
       "id": "paik-seung-ho",
@@ -394,7 +400,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/paik-seung-ho.jpg"
+      "avatar": "/headshots/paik-seung-ho.jpg",
+      "name_cn": "白昇浩"
     },
     {
       "id": "cho-gue-sung",
@@ -440,7 +447,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/cho-gue-sung.jpg"
+      "avatar": "/headshots/cho-gue-sung.jpg",
+      "name_cn": "曹圭成"
     },
     {
       "id": "lee-jae-sung",
@@ -486,7 +494,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/lee-jae-sung.jpg"
+      "avatar": "/headshots/lee-jae-sung.jpg",
+      "name_cn": "李在城"
     },
     {
       "id": "hwang-hee-chan",
@@ -547,7 +556,8 @@
         "xa_p90": 0.1,
         "key_passes_p90": 0.92
       },
-      "avatar": "/headshots/hwang-hee-chan.jpg"
+      "avatar": "/headshots/hwang-hee-chan.jpg",
+      "name_cn": "黄喜灿"
     },
     {
       "id": "song-bum-keun",
@@ -598,7 +608,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/song-bum-keun.jpg"
+      "avatar": "/headshots/song-bum-keun.jpg",
+      "name_cn": "宋范根"
     },
     {
       "id": "lee-tae-seok",
@@ -644,7 +655,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/lee-tae-seok.jpg"
+      "avatar": "/headshots/lee-tae-seok.jpg",
+      "name_cn": "李太锡"
     },
     {
       "id": "cho-wi-je",
@@ -702,7 +714,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/kim-moon-hwan.jpg"
+      "avatar": "/headshots/kim-moon-hwan.jpg",
+      "name_cn": "金纹奂"
     },
     {
       "id": "park-jin-seob",
@@ -748,7 +761,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/park-jin-seob.jpg"
+      "avatar": "/headshots/park-jin-seob.jpg",
+      "name_cn": "朴镇燮"
     },
     {
       "id": "bae-jun-ho",
@@ -794,7 +808,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/bae-jun-ho.jpg"
+      "avatar": "/headshots/bae-jun-ho.jpg",
+      "name_cn": "裴俊浩"
     },
     {
       "id": "oh-hyeon-gyu",
@@ -840,7 +855,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/oh-hyeon-gyu.jpg"
+      "avatar": "/headshots/oh-hyeon-gyu.jpg",
+      "name_cn": "吴贤揆"
     },
     {
       "id": "lee-kang-in",
@@ -886,7 +902,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/lee-kang-in.jpg"
+      "avatar": "/headshots/lee-kang-in.jpg",
+      "name_cn": "李刚仁"
     },
     {
       "id": "yang-hyun-jun",
@@ -947,7 +964,8 @@
         "xa_p90": 0.17,
         "key_passes_p90": 1.0
       },
-      "avatar": "/headshots/yang-hyun-jun.jpg"
+      "avatar": "/headshots/yang-hyun-jun.jpg",
+      "name_cn": "梁泫准"
     },
     {
       "id": "jo-hyeon-woo",
@@ -998,7 +1016,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/jo-hyeon-woo.jpg"
+      "avatar": "/headshots/jo-hyeon-woo.jpg",
+      "name_cn": "赵贤祐"
     },
     {
       "id": "seol-young-woo",
@@ -1044,7 +1063,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/seol-young-woo.jpg"
+      "avatar": "/headshots/seol-young-woo.jpg",
+      "name_cn": "薛英佑"
     },
     {
       "id": "jens-castrop",
@@ -1105,7 +1125,8 @@
         "xa_p90": 0.1,
         "key_passes_p90": 1.07
       },
-      "avatar": "/headshots/jens-castrop.jpg"
+      "avatar": "/headshots/jens-castrop.jpg",
+      "name_cn": "延斯·卡斯特罗普"
     },
     {
       "id": "kim-jin-gyu",
@@ -1151,7 +1172,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/kim-jin-gyu.jpg"
+      "avatar": "/headshots/kim-jin-gyu.jpg",
+      "name_cn": "金镇圭"
     },
     {
       "id": "eom-ji-sung",
@@ -1197,7 +1219,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/eom-ji-sung.jpg"
+      "avatar": "/headshots/eom-ji-sung.jpg",
+      "name_cn": "严智星"
     },
     {
       "id": "lee-dong-gyeong",
@@ -1243,7 +1266,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/lee-dong-gyeong.jpg"
+      "avatar": "/headshots/lee-dong-gyeong.jpg",
+      "name_cn": "李东炅"
     }
   ]
 }

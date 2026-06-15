@@ -52,7 +52,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/yazeed-abulaila.jpg"
+      "avatar": "/headshots/yazeed-abulaila.jpg",
+      "name_cn": "亚奇德·阿布拉伊拉"
     },
     {
       "id": "mohammad-abu-hashish",
@@ -110,7 +111,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/abdallah-nasib.jpg"
+      "avatar": "/headshots/abdallah-nasib.jpg",
+      "name_cn": "阿卜杜拉·纳西卜"
     },
     {
       "id": "husam-abu-dahab",
@@ -122,7 +124,8 @@
       "age": 0,
       "national_caps": 0,
       "national_goals": 0,
-      "stats": null
+      "stats": null,
+      "name_cn": "胡萨姆·阿布·达哈卜"
     },
     {
       "id": "yazan-al-arab",
@@ -168,7 +171,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/yazan-al-arab.jpg"
+      "avatar": "/headshots/yazan-al-arab.jpg",
+      "name_cn": "亚赞·阿拉伯"
     },
     {
       "id": "amer-jamous",
@@ -180,7 +184,8 @@
       "age": 0,
       "national_caps": 0,
       "national_goals": 0,
-      "stats": null
+      "stats": null,
+      "name_cn": "阿米尔·贾穆斯"
     },
     {
       "id": "mohammad-abu-zrayq",
@@ -192,7 +197,8 @@
       "age": 0,
       "national_caps": 0,
       "national_goals": 0,
-      "stats": null
+      "stats": null,
+      "name_cn": "穆罕默德·阿布·兹雷克"
     },
     {
       "id": "noor-al-rawabdeh",
@@ -238,7 +244,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/noor-al-rawabdeh.jpg"
+      "avatar": "/headshots/noor-al-rawabdeh.jpg",
+      "name_cn": "努尔·拉瓦比德"
     },
     {
       "id": "ali-olwan",
@@ -296,7 +303,8 @@
         },
         "key_passes_p90": 1.43
       },
-      "avatar": "/headshots/ali-olwan.jpg"
+      "avatar": "/headshots/ali-olwan.jpg",
+      "name_cn": "阿里·乌勒万"
     },
     {
       "id": "musa-al-taamari",
@@ -320,7 +328,8 @@
       "age": 0,
       "national_caps": 0,
       "national_goals": 0,
-      "stats": null
+      "stats": null,
+      "name_cn": "乌达·法胡里"
     },
     {
       "id": "nour-bani-attiah",
@@ -378,7 +387,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/mahmoud-al-mardi.jpg"
+      "avatar": "/headshots/mahmoud-al-mardi.jpg",
+      "name_cn": "马赫穆德·马尔迪"
     },
     {
       "id": "rajaei-ayed",
@@ -424,7 +434,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/rajaei-ayed.jpg"
+      "avatar": "/headshots/rajaei-ayed.jpg",
+      "name_cn": "拉贾埃·阿伊德"
     },
     {
       "id": "ibrahim-sadeh",
@@ -470,7 +481,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/ibrahim-sadeh.jpg"
+      "avatar": "/headshots/ibrahim-sadeh.jpg",
+      "name_cn": "易卜拉欣·萨德"
     },
     {
       "id": "mo-abualnadi",
@@ -555,7 +567,8 @@
         "xa_p90": 0.04,
         "key_passes_p90": 0.0
       },
-      "avatar": "/headshots/ibrahim-sabra.jpg"
+      "avatar": "/headshots/ibrahim-sabra.jpg",
+      "name_cn": "易卜拉欣·萨卜拉"
     },
     {
       "id": "saed-al-rosan",
@@ -567,7 +580,8 @@
       "age": 0,
       "national_caps": 0,
       "national_goals": 0,
-      "stats": null
+      "stats": null,
+      "name_cn": "赛义德·罗桑"
     },
     {
       "id": "mohannad-abu-taha",
@@ -613,7 +627,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/mohannad-abu-taha.jpg"
+      "avatar": "/headshots/mohannad-abu-taha.jpg",
+      "name_cn": "穆罕纳德·阿布·塔哈"
     },
     {
       "id": "nizar-al-rashdan",
@@ -671,7 +686,8 @@
         },
         "key_passes_p90": 0.93
       },
-      "avatar": "/headshots/nizar-al-rashdan.jpg"
+      "avatar": "/headshots/nizar-al-rashdan.jpg",
+      "name_cn": "尼扎尔·拉什丹"
     },
     {
       "id": "abdallah-al-fakhouri",
@@ -741,7 +757,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/ali-azaizeh.jpg"
+      "avatar": "/headshots/ali-azaizeh.jpg",
+      "name_cn": "阿里·阿扎伊泽"
     },
     {
       "id": "mohammad-al-dawoud",
@@ -765,7 +782,8 @@
       "age": 0,
       "national_caps": 0,
       "national_goals": 0,
-      "stats": null
+      "stats": null,
+      "name_cn": "阿纳斯·巴达维"
     }
   ]
 }

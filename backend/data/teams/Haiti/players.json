@@ -52,7 +52,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/johny-placide.jpg"
+      "avatar": "/headshots/johny-placide.jpg",
+      "name_cn": "约翰尼·普拉西德"
     },
     {
       "id": "carlens-arcus",
@@ -113,7 +114,8 @@
         "xa_p90": 0.07,
         "key_passes_p90": 0.7
       },
-      "avatar": "/headshots/carlens-arcus.jpg"
+      "avatar": "/headshots/carlens-arcus.jpg",
+      "name_cn": "卡伦斯·阿尔屈"
     },
     {
       "id": "keeto-thermoncy",
@@ -159,7 +161,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/keeto-thermoncy.jpg"
+      "avatar": "/headshots/keeto-thermoncy.jpg",
+      "name_cn": "基托·特尔蒙西"
     },
     {
       "id": "ricardo-ad",
@@ -205,7 +208,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/ricardo-ad.jpg"
+      "avatar": "/headshots/ricardo-ad.jpg",
+      "name_cn": "里卡多·阿德"
     },
     {
       "id": "hannes-delcroix",
@@ -251,7 +255,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/hannes-delcroix.jpg"
+      "avatar": "/headshots/hannes-delcroix.jpg",
+      "name_cn": "汉内斯·德尔克鲁瓦"
     },
     {
       "id": "carl-saint",
@@ -309,7 +314,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/derrick-etienne-jr.jpg"
+      "avatar": "/headshots/derrick-etienne-jr.jpg",
+      "name_cn": "德里克·艾蒂安"
     },
     {
       "id": "martin-exp-rience",
@@ -355,7 +361,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/martin-exp-rience.jpg"
+      "avatar": "/headshots/martin-exp-rience.jpg",
+      "name_cn": "马丁·埃克斯佩里安斯"
     },
     {
       "id": "duckens-nazon",
@@ -401,7 +408,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/duckens-nazon.jpg"
+      "avatar": "/headshots/duckens-nazon.jpg",
+      "name_cn": "杜肯斯·纳宗"
     },
     {
       "id": "jean-ricner-bellegarde",
@@ -462,7 +470,8 @@
         "xa_p90": 0.08,
         "key_passes_p90": 1.01
       },
-      "avatar": "/headshots/jean-ricner-bellegarde.jpg"
+      "avatar": "/headshots/jean-ricner-bellegarde.jpg",
+      "name_cn": "让"
     },
     {
       "id": "louicius-deedson",
@@ -508,7 +517,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/louicius-deedson.jpg"
+      "avatar": "/headshots/louicius-deedson.jpg",
+      "name_cn": "卢伊修斯·迪德森"
     },
     {
       "id": "alexandre-pierre",
@@ -559,7 +569,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/alexandre-pierre.jpg"
+      "avatar": "/headshots/alexandre-pierre.jpg",
+      "name_cn": "亚历山大·皮埃尔"
     },
     {
       "id": "duke-lacroix",
@@ -605,7 +616,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/duke-lacroix.jpg"
+      "avatar": "/headshots/duke-lacroix.jpg",
+      "name_cn": "杜克·拉克鲁瓦"
     },
     {
       "id": "leverton-pierre",
@@ -651,7 +663,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/leverton-pierre.jpg"
+      "avatar": "/headshots/leverton-pierre.jpg",
+      "name_cn": "莱弗顿·皮埃尔"
     },
     {
       "id": "ruben-providence",
@@ -697,7 +710,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/ruben-providence.jpg"
+      "avatar": "/headshots/ruben-providence.jpg",
+      "name_cn": "鲁本·普罗维登斯"
     },
     {
       "id": "lenny-joseph",
@@ -743,7 +757,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/lenny-joseph.jpg"
+      "avatar": "/headshots/lenny-joseph.jpg",
+      "name_cn": "伦尼·约瑟夫"
     },
     {
       "id": "danley-jean-jacques",
@@ -804,7 +819,8 @@
         "xa_p90": 0.09,
         "key_passes_p90": 0.55
       },
-      "avatar": "/headshots/danley-jean-jacques.jpg"
+      "avatar": "/headshots/danley-jean-jacques.jpg",
+      "name_cn": "丹利·让·雅克"
     },
     {
       "id": "wilson-isidor",
@@ -865,7 +881,8 @@
         "xa_p90": 0.03,
         "key_passes_p90": 0.0
       },
-      "avatar": "/headshots/wilson-isidor.jpg"
+      "avatar": "/headshots/wilson-isidor.jpg",
+      "name_cn": "威尔逊·伊西多尔"
     },
     {
       "id": "yassin-fortun",
@@ -911,7 +928,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/yassin-fortun.jpg"
+      "avatar": "/headshots/yassin-fortun.jpg",
+      "name_cn": "亚辛·福图内"
     },
     {
       "id": "frantzdy-pierrot",
@@ -972,7 +990,8 @@
         "xa_p90": 0.01,
         "key_passes_p90": 0.71
       },
-      "avatar": "/headshots/frantzdy-pierrot.jpg"
+      "avatar": "/headshots/frantzdy-pierrot.jpg",
+      "name_cn": "弗朗茨迪·皮埃罗"
     },
     {
       "id": "josu--casimir",
@@ -1033,7 +1052,8 @@
         "xa_p90": 0.08,
         "key_passes_p90": 0.59
       },
-      "avatar": "/headshots/josu--casimir.jpg"
+      "avatar": "/headshots/josu--casimir.jpg",
+      "name_cn": "若苏埃·卡西米尔"
     },
     {
       "id": "jean-k-vin-duverne",
@@ -1094,7 +1114,8 @@
         "xa_p90": 0.07,
         "key_passes_p90": 0.31
       },
-      "avatar": "/headshots/jean-k-vin-duverne.jpg"
+      "avatar": "/headshots/jean-k-vin-duverne.jpg",
+      "name_cn": "让"
     },
     {
       "id": "josu--duverger",
@@ -1145,7 +1166,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/josu--duverger.jpg"
+      "avatar": "/headshots/josu--duverger.jpg",
+      "name_cn": "若苏埃·迪维尔热"
     },
     {
       "id": "wilguens-paugain",
@@ -1206,7 +1228,8 @@
         "xa_p90": 0.06,
         "key_passes_p90": 0.21
       },
-      "avatar": "/headshots/wilguens-paugain.jpg"
+      "avatar": "/headshots/wilguens-paugain.jpg",
+      "name_cn": "威尔根斯·波甘"
     },
     {
       "id": "dominique-simon",
@@ -1252,7 +1275,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/dominique-simon.jpg"
+      "avatar": "/headshots/dominique-simon.jpg",
+      "name_cn": "多米尼克·西蒙"
     },
     {
       "id": "woodensky-pierre",
@@ -1298,7 +1322,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/woodensky-pierre.jpg"
+      "avatar": "/headshots/woodensky-pierre.jpg",
+      "name_cn": "伍登斯基·皮埃尔"
     }
   ]
 }

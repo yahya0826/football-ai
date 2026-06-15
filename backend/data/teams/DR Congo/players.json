@@ -72,7 +72,8 @@
         "xa_p90": 0.04,
         "key_passes_p90": 0.78
       },
-      "avatar": "/headshots/aaron-wan-bissaka.jpg"
+      "avatar": "/headshots/aaron-wan-bissaka.jpg",
+      "name_cn": "阿龙·万"
     },
     {
       "id": "steve-kapuadi",
@@ -130,7 +131,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/axel-tuanzebe.jpg"
+      "avatar": "/headshots/axel-tuanzebe.jpg",
+      "name_cn": "阿克塞尔·图安泽贝"
     },
     {
       "id": "dylan-batubinsika",
@@ -455,7 +457,8 @@
         "xa_p90": 0.04,
         "key_passes_p90": 1.02
       },
-      "avatar": "/headshots/aaron-tshibola.jpg"
+      "avatar": "/headshots/aaron-tshibola.jpg",
+      "name_cn": "阿龙·奇博拉"
     },
     {
       "id": "timothy-fayulu",
@@ -528,7 +531,8 @@
         "xa_p90": 0.07,
         "key_passes_p90": 0.61
       },
-      "avatar": "/headshots/c-dric-bakambu.jpg"
+      "avatar": "/headshots/c-dric-bakambu.jpg",
+      "name_cn": "塞德里克·巴坎布"
     },
     {
       "id": "charles-pickel",
@@ -586,7 +590,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/fiston-mayele.jpg"
+      "avatar": "/headshots/fiston-mayele.jpg",
+      "name_cn": "菲斯顿·马耶莱"
     },
     {
       "id": "yoane-wissa",
@@ -647,7 +652,8 @@
         "xa_p90": 0.09,
         "key_passes_p90": 0.67
       },
-      "avatar": "/headshots/yoane-wissa.jpg"
+      "avatar": "/headshots/yoane-wissa.jpg",
+      "name_cn": "约安·维萨"
     },
     {
       "id": "matthieu-epolo",
@@ -741,7 +747,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/chancel-mbemba.jpg"
+      "avatar": "/headshots/chancel-mbemba.jpg",
+      "name_cn": "尚塞尔·姆本巴"
     },
     {
       "id": "simon-banza",
@@ -787,7 +794,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/simon-banza.jpg"
+      "avatar": "/headshots/simon-banza.jpg",
+      "name_cn": "西蒙·班扎"
     },
     {
       "id": "g-d-on-kalulu",
@@ -857,7 +865,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/arthur-masuaku.jpg"
+      "avatar": "/headshots/arthur-masuaku.jpg",
+      "name_cn": "阿蒂尔·马苏阿库"
     }
   ]
 }

@@ -1,0 +1,1147 @@
+{
+  "match_id": "760422",
+  "date": "2026-06-14",
+  "status": {
+    "state": "finished",
+    "detail": "FT",
+    "period": 0,
+    "clock": "",
+    "completed": true,
+    "state_cn": "已结束"
+  },
+  "home": {
+    "name": "Germany",
+    "abbrev": "GER",
+    "logo": "",
+    "score": 7,
+    "team_id": "481",
+    "name_cn": "德国"
+  },
+  "away": {
+    "name": "Curaçao",
+    "abbrev": "CUW",
+    "logo": "",
+    "score": 1,
+    "team_id": "11678",
+    "name_cn": "库拉索"
+  },
+  "events": [
+    {
+      "type": "kickoff",
+      "minute": "",
+      "team": "",
+      "player": "",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "",
+      "type_cn": "开球",
+      "team_cn": "",
+      "description_cn": "比赛开始！"
+    },
+    {
+      "type": "goal",
+      "minute": "6'",
+      "team": "Germany",
+      "player": "Felix Nmecha Goal",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Goal! Germany 1, Curaçao 0. Felix Nmecha (Germany) right footed shot from the centre of the box to the bottom right corner. Assisted by Florian Wirtz.",
+      "type_cn": "进球",
+      "team_cn": "德国",
+      "description_cn": "6'' Felix Nmecha Goal 为德国进球！"
+    },
+    {
+      "type": "goal",
+      "minute": "21'",
+      "team": "Curaçao",
+      "player": "Livano Comenencia Goal",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Goal! Germany 1, Curaçao 1. Livano Comenencia (Curaçao) left footed shot from the centre of the box to the bottom left corner.",
+      "type_cn": "进球",
+      "team_cn": "库拉索",
+      "description_cn": "21'' Livano Comenencia Goal 为库拉索进球！"
+    },
+    {
+      "type": "goal",
+      "minute": "38'",
+      "team": "Germany",
+      "player": "Nico Schlotterbeck Goal - Header",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Goal! Germany 2, Curaçao 1. Nico Schlotterbeck (Germany) header from very close range to the bottom left corner. Assisted by Nathaniel Brown with a cross following a corner.",
+      "type_cn": "进球",
+      "team_cn": "德国",
+      "description_cn": "38'' Nico Schlotterbeck Goal - Header 为德国进球！"
+    },
+    {
+      "type": "halftime",
+      "minute": "45'+6'",
+      "team": "",
+      "player": "",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "",
+      "type_cn": "中场休息",
+      "team_cn": "",
+      "description_cn": "中场休息 ⏸️"
+    },
+    {
+      "type": "substitution",
+      "minute": "45'",
+      "team": "Curaçao",
+      "player": "Jeremy Antonisse Substitution",
+      "player_in": "Jeremy Antonisse",
+      "player_out": "Sontje Hansen",
+      "assist": "",
+      "text": "Substitution, Curaçao. Jeremy Antonisse replaces Sontje Hansen.",
+      "type_cn": "换人",
+      "team_cn": "库拉索",
+      "description_cn": "45'' Jeremy Antonisse ↑ 替补登场，Sontje Hansen ↓ 被换下"
+    },
+    {
+      "type": "fulltime",
+      "minute": "45'",
+      "team": "",
+      "player": "",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "",
+      "type_cn": "全场结束",
+      "team_cn": "",
+      "description_cn": "全场比赛结束 🏁"
+    },
+    {
+      "type": "goal",
+      "minute": "47'",
+      "team": "Germany",
+      "player": "Jamal Musiala Goal",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Goal! Germany 4, Curaçao 1. Jamal Musiala (Germany) right footed shot from the right side of the box to the bottom left corner. Assisted by Joshua Kimmich with a through ball.",
+      "type_cn": "进球",
+      "team_cn": "德国",
+      "description_cn": "47'' Jamal Musiala Goal 为德国进球！"
+    },
+    {
+      "type": "substitution",
+      "minute": "64'",
+      "team": "Germany",
+      "player": "Deniz Undav Substitution",
+      "player_in": "Deniz Undav",
+      "player_out": "Jamal Musiala",
+      "assist": "",
+      "text": "Substitution, Germany. Deniz Undav replaces Jamal Musiala.",
+      "type_cn": "换人",
+      "team_cn": "德国",
+      "description_cn": "64'' Deniz Undav ↑ 替补登场，Jamal Musiala ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "65'",
+      "team": "Curaçao",
+      "player": "Jearl Margaritha Substitution",
+      "player_in": "Jearl Margaritha",
+      "player_out": "Jürgen Locadia",
+      "assist": "",
+      "text": "Substitution, Curaçao. Jearl Margaritha replaces Jürgen Locadia.",
+      "type_cn": "换人",
+      "team_cn": "库拉索",
+      "description_cn": "65'' Jearl Margaritha ↑ 替补登场，Jürgen Locadia ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "73'",
+      "team": "Germany",
+      "player": "Antonio Rüdiger Substitution",
+      "player_in": "Antonio Rüdiger",
+      "player_out": "Jonathan Tah",
+      "assist": "",
+      "text": "Substitution, Germany. Antonio Rüdiger replaces Jonathan Tah.",
+      "type_cn": "换人",
+      "team_cn": "德国",
+      "description_cn": "73'' Antonio Rüdiger ↑ 替补登场，Jonathan Tah ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "73'",
+      "team": "Germany",
+      "player": "Leon Goretzka Substitution",
+      "player_in": "Leon Goretzka",
+      "player_out": "Felix Nmecha",
+      "assist": "",
+      "text": "Substitution, Germany. Leon Goretzka replaces Felix Nmecha.",
+      "type_cn": "换人",
+      "team_cn": "德国",
+      "description_cn": "73'' Leon Goretzka ↑ 替补登场，Felix Nmecha ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "73'",
+      "team": "Germany",
+      "player": "David Raum Substitution",
+      "player_in": "David Raum",
+      "player_out": "Nathaniel Brown",
+      "assist": "",
+      "text": "Substitution, Germany. David Raum replaces Nathaniel Brown.",
+      "type_cn": "换人",
+      "team_cn": "德国",
+      "description_cn": "73'' David Raum ↑ 替补登场，Nathaniel Brown ↓ 被换下"
+    },
+    {
+      "type": "goal",
+      "minute": "78'",
+      "team": "Germany",
+      "player": "Deniz Undav Goal",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Goal! Germany 6, Curaçao 1. Deniz Undav (Germany) right footed shot from the centre of the box to the bottom left corner. Assisted by Joshua Kimmich.",
+      "type_cn": "进球",
+      "team_cn": "德国",
+      "description_cn": "78'' Deniz Undav Goal 为德国进球！"
+    },
+    {
+      "type": "substitution",
+      "minute": "83'",
+      "team": "Curaçao",
+      "player": "Gervane Kastaneer Substitution",
+      "player_in": "Gervane Kastaneer",
+      "player_out": "Tahith Chong",
+      "assist": "",
+      "text": "Substitution, Curaçao. Gervane Kastaneer replaces Tahith Chong.",
+      "type_cn": "换人",
+      "team_cn": "库拉索",
+      "description_cn": "83'' Gervane Kastaneer ↑ 替补登场，Tahith Chong ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "83'",
+      "team": "Germany",
+      "player": "Waldemar Anton Substitution",
+      "player_in": "Waldemar Anton",
+      "player_out": "Joshua Kimmich",
+      "assist": "",
+      "text": "Substitution, Germany. Waldemar Anton replaces Joshua Kimmich.",
+      "type_cn": "换人",
+      "team_cn": "德国",
+      "description_cn": "83'' Waldemar Anton ↑ 替补登场，Joshua Kimmich ↓ 被换下"
+    },
+    {
+      "type": "goal",
+      "minute": "88'",
+      "team": "Germany",
+      "player": "Kai Havertz Goal",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Goal! Germany 7, Curaçao 1. Kai Havertz (Germany) left footed shot from the centre of the box to the centre of the goal. Assisted by Deniz Undav with a through ball following a fast break.",
+      "type_cn": "进球",
+      "team_cn": "德国",
+      "description_cn": "88'' Kai Havertz Goal 为德国进球！"
+    },
+    {
+      "type": "83",
+      "minute": "90'+6'",
+      "team": "",
+      "player": "",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "",
+      "type_cn": "83",
+      "team_cn": "",
+      "description_cn": ""
+    }
+  ],
+  "statistics": {
+    "home": {
+      "team_name": "Germany",
+      "stats": {
+        "foulsCommitted": {
+          "label": "Fouls",
+          "value": "18",
+          "label_cn": "犯规"
+        },
+        "yellowCards": {
+          "label": "Yellow Cards",
+          "value": "0",
+          "label_cn": "黄牌"
+        },
+        "redCards": {
+          "label": "Red Cards",
+          "value": "0",
+          "label_cn": "红牌"
+        },
+        "offsides": {
+          "label": "Offsides",
+          "value": "0",
+          "label_cn": "越位"
+        },
+        "wonCorners": {
+          "label": "Corner Kicks",
+          "value": "8",
+          "label_cn": "角球"
+        },
+        "saves": {
+          "label": "Saves",
+          "value": "1",
+          "label_cn": "扑救"
+        },
+        "possessionPct": {
+          "label": "Possession",
+          "value": "64.6",
+          "label_cn": "控球率"
+        },
+        "totalShots": {
+          "label": "SHOTS",
+          "value": "26",
+          "label_cn": "总射门"
+        },
+        "shotsOnTarget": {
+          "label": "ON GOAL",
+          "value": "12",
+          "label_cn": "射正"
+        },
+        "shotPct": {
+          "label": "On Target %",
+          "value": "0.5",
+          "label_cn": "射正率"
+        },
+        "penaltyKickGoals": {
+          "label": "Penalty Goals",
+          "value": "0",
+          "label_cn": "点球进球"
+        },
+        "penaltyKickShots": {
+          "label": "Penalty Kicks Taken",
+          "value": "1",
+          "label_cn": "点球次数"
+        },
+        "accuratePasses": {
+          "label": "Accurate Passes",
+          "value": "554",
+          "label_cn": "精准传球"
+        },
+        "totalPasses": {
+          "label": "Passes",
+          "value": "637",
+          "label_cn": "传球"
+        },
+        "passPct": {
+          "label": "Pass Completion %",
+          "value": "0.9",
+          "label_cn": "传球成功率"
+        },
+        "accurateCrosses": {
+          "label": "Accurate Crosses",
+          "value": "5",
+          "label_cn": "精准传中"
+        },
+        "totalCrosses": {
+          "label": "Crosses",
+          "value": "12",
+          "label_cn": "传中"
+        },
+        "crossPct": {
+          "label": "Cross %",
+          "value": "0.4",
+          "label_cn": "传中成功率"
+        },
+        "totalLongBalls": {
+          "label": "Long Balls",
+          "value": "25",
+          "label_cn": "长传"
+        },
+        "accurateLongBalls": {
+          "label": "Accurate Long Balls",
+          "value": "12",
+          "label_cn": "精准长传"
+        },
+        "longballPct": {
+          "label": "Long Balls %",
+          "value": "0.5",
+          "label_cn": "长传成功率"
+        },
+        "blockedShots": {
+          "label": "Blocked Shots",
+          "value": "8",
+          "label_cn": "封堵射门"
+        },
+        "effectiveTackles": {
+          "label": "Effective Tackles",
+          "value": "13",
+          "label_cn": "有效抢断"
+        },
+        "totalTackles": {
+          "label": "Tackles",
+          "value": "19",
+          "label_cn": "抢断"
+        },
+        "tacklePct": {
+          "label": "Tackle %",
+          "value": "0.7",
+          "label_cn": "抢断成功率"
+        },
+        "interceptions": {
+          "label": "Interceptions",
+          "value": "12",
+          "label_cn": "拦截"
+        },
+        "effectiveClearance": {
+          "label": "Effective Clearances",
+          "value": "8",
+          "label_cn": "有效解围"
+        },
+        "totalClearance": {
+          "label": "Clearances",
+          "value": "8",
+          "label_cn": "解围"
+        }
+      },
+      "team_name_cn": "德国"
+    },
+    "away": {
+      "team_name": "Curaçao",
+      "stats": {
+        "foulsCommitted": {
+          "label": "Fouls",
+          "value": "11",
+          "label_cn": "犯规"
+        },
+        "yellowCards": {
+          "label": "Yellow Cards",
+          "value": "0",
+          "label_cn": "黄牌"
+        },
+        "redCards": {
+          "label": "Red Cards",
+          "value": "0",
+          "label_cn": "红牌"
+        },
+        "offsides": {
+          "label": "Offsides",
+          "value": "1",
+          "label_cn": "越位"
+        },
+        "wonCorners": {
+          "label": "Corner Kicks",
+          "value": "1",
+          "label_cn": "角球"
+        },
+        "saves": {
+          "label": "Saves",
+          "value": "4",
+          "label_cn": "扑救"
+        },
+        "possessionPct": {
+          "label": "Possession",
+          "value": "35.4",
+          "label_cn": "控球率"
+        },
+        "totalShots": {
+          "label": "SHOTS",
+          "value": "8",
+          "label_cn": "总射门"
+        },
+        "shotsOnTarget": {
+          "label": "ON GOAL",
+          "value": "2",
+          "label_cn": "射正"
+        },
+        "shotPct": {
+          "label": "On Target %",
+          "value": "0.3",
+          "label_cn": "射正率"
+        },
+        "penaltyKickGoals": {
+          "label": "Penalty Goals",
+          "value": "0",
+          "label_cn": "点球进球"
+        },
+        "penaltyKickShots": {
+          "label": "Penalty Kicks Taken",
+          "value": "0",
+          "label_cn": "点球次数"
+        },
+        "accuratePasses": {
+          "label": "Accurate Passes",
+          "value": "282",
+          "label_cn": "精准传球"
+        },
+        "totalPasses": {
+          "label": "Passes",
+          "value": "343",
+          "label_cn": "传球"
+        },
+        "passPct": {
+          "label": "Pass Completion %",
+          "value": "0.8",
+          "label_cn": "传球成功率"
+        },
+        "accurateCrosses": {
+          "label": "Accurate Crosses",
+          "value": "2",
+          "label_cn": "精准传中"
+        },
+        "totalCrosses": {
+          "label": "Crosses",
+          "value": "7",
+          "label_cn": "传中"
+        },
+        "crossPct": {
+          "label": "Cross %",
+          "value": "0.3",
+          "label_cn": "传中成功率"
+        },
+        "totalLongBalls": {
+          "label": "Long Balls",
+          "value": "44",
+          "label_cn": "长传"
+        },
+        "accurateLongBalls": {
+          "label": "Accurate Long Balls",
+          "value": "17",
+          "label_cn": "精准长传"
+        },
+        "longballPct": {
+          "label": "Long Balls %",
+          "value": "0.4",
+          "label_cn": "长传成功率"
+        },
+        "blockedShots": {
+          "label": "Blocked Shots",
+          "value": "0",
+          "label_cn": "封堵射门"
+        },
+        "effectiveTackles": {
+          "label": "Effective Tackles",
+          "value": "8",
+          "label_cn": "有效抢断"
+        },
+        "totalTackles": {
+          "label": "Tackles",
+          "value": "16",
+          "label_cn": "抢断"
+        },
+        "tacklePct": {
+          "label": "Tackle %",
+          "value": "0.5",
+          "label_cn": "抢断成功率"
+        },
+        "interceptions": {
+          "label": "Interceptions",
+          "value": "16",
+          "label_cn": "拦截"
+        },
+        "effectiveClearance": {
+          "label": "Effective Clearances",
+          "value": "25",
+          "label_cn": "有效解围"
+        },
+        "totalClearance": {
+          "label": "Clearances",
+          "value": "25",
+          "label_cn": "解围"
+        }
+      },
+      "team_name_cn": "库拉索"
+    }
+  },
+  "lineups": {
+    "home": {
+      "formation": "4-2-3-1",
+      "starters": [
+        {
+          "id": "84774",
+          "name": "Manuel Neuer",
+          "short_name": "M. Neuer",
+          "jersey": "1",
+          "position": "G",
+          "position_name": "Goalkeeper",
+          "starter": true,
+          "formation_place": "1",
+          "active": true
+        },
+        {
+          "id": "303821",
+          "name": "Jamal Musiala",
+          "short_name": "J. Musiala",
+          "jersey": "10",
+          "position": "AM",
+          "position_name": "Attacking Midfielder",
+          "starter": true,
+          "formation_place": "10",
+          "active": true
+        },
+        {
+          "id": "303748",
+          "name": "Florian Wirtz",
+          "short_name": "F. Wirtz",
+          "jersey": "17",
+          "position": "AM-L",
+          "position_name": "Attacking Midfielder Left",
+          "starter": true,
+          "formation_place": "11",
+          "active": true
+        },
+        {
+          "id": "190161",
+          "name": "Joshua Kimmich",
+          "short_name": "J. Kimmich",
+          "jersey": "6",
+          "position": "RB",
+          "position_name": "Right Back",
+          "starter": true,
+          "formation_place": "2",
+          "active": true
+        },
+        {
+          "id": "120829",
+          "name": "Nathaniel Brown",
+          "short_name": "N. Brown",
+          "jersey": "18",
+          "position": "LB",
+          "position_name": "Left Back",
+          "starter": true,
+          "formation_place": "3",
+          "active": true
+        },
+        {
+          "id": "359370",
+          "name": "Aleksandar Pavlovic",
+          "short_name": "A. Pavlovic",
+          "jersey": "5",
+          "position": "LM",
+          "position_name": "Left Midfielder",
+          "starter": true,
+          "formation_place": "4",
+          "active": true
+        },
+        {
+          "id": "188052",
+          "name": "Jonathan Tah",
+          "short_name": "J. Tah",
+          "jersey": "4",
+          "position": "CD-R",
+          "position_name": "Center Right Defender",
+          "starter": true,
+          "formation_place": "5",
+          "active": true
+        },
+        {
+          "id": "286828",
+          "name": "Nico Schlotterbeck",
+          "short_name": "N. Schlotterbeck",
+          "jersey": "15",
+          "position": "CD-L",
+          "position_name": "Center Left Defender",
+          "starter": true,
+          "formation_place": "6",
+          "active": true
+        },
+        {
+          "id": "202641",
+          "name": "Leroy Sané",
+          "short_name": "L. Sané",
+          "jersey": "19",
+          "position": "AM-R",
+          "position_name": "Attacking Midfielder Right",
+          "starter": true,
+          "formation_place": "7",
+          "active": true
+        },
+        {
+          "id": "281122",
+          "name": "Felix Nmecha",
+          "short_name": "F. Nmecha",
+          "jersey": "23",
+          "position": "RM",
+          "position_name": "Right Midfielder",
+          "starter": true,
+          "formation_place": "8",
+          "active": true
+        },
+        {
+          "id": "231182",
+          "name": "Kai Havertz",
+          "short_name": "K. Havertz",
+          "jersey": "7",
+          "position": "F",
+          "position_name": "Forward",
+          "starter": true,
+          "formation_place": "9",
+          "active": true
+        }
+      ],
+      "substitutes": [
+        {
+          "id": "249548",
+          "name": "David Raum",
+          "short_name": "D. Raum",
+          "jersey": "22",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "298349",
+          "name": "Nick Woltemade",
+          "short_name": "N. Woltemade",
+          "jersey": "11",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "290232",
+          "name": "Angelo Stiller",
+          "short_name": "A. Stiller",
+          "jersey": "16",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "273300",
+          "name": "Deniz Undav",
+          "short_name": "D. Undav",
+          "jersey": "26",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "220714",
+          "name": "Waldemar Anton",
+          "short_name": "W. Anton",
+          "jersey": "3",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "290811",
+          "name": "Jamie Leweling",
+          "short_name": "J. Leweling",
+          "jersey": "9",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "205750",
+          "name": "Alexander Nübel",
+          "short_name": "A. Nübel",
+          "jersey": "21",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "174550",
+          "name": "Leon Goretzka",
+          "short_name": "L. Goretzka",
+          "jersey": "8",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "169438",
+          "name": "Antonio Rüdiger",
+          "short_name": "A. Rüdiger",
+          "jersey": "2",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "303444",
+          "name": "Malick Thiaw",
+          "short_name": "M. Thiaw",
+          "jersey": "24",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "210818",
+          "name": "Nadiem Amiri",
+          "short_name": "N. Amiri",
+          "jersey": "20",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "138213",
+          "name": "Oliver Baumann",
+          "short_name": "O. Baumann",
+          "jersey": "12",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "132659",
+          "name": "Pascal Gross",
+          "short_name": "P. Gross",
+          "jersey": "13",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "364897",
+          "name": "Assan Ouédraogo",
+          "short_name": "A. Ouédraogo",
+          "jersey": "25",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "290639",
+          "name": "Maximilian Beier",
+          "short_name": "M. Beier",
+          "jersey": "14",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-3-1-2",
+      "starters": [
+        {
+          "id": "127444",
+          "name": "Eloy Room",
+          "short_name": "E. Room",
+          "jersey": "1",
+          "position": "G",
+          "position_name": "Goalkeeper",
+          "starter": true,
+          "formation_place": "1",
+          "active": true
+        },
+        {
+          "id": "297299",
+          "name": "Sontje Hansen",
+          "short_name": "S. Hansen",
+          "jersey": "12",
+          "position": "M",
+          "position_name": "Midfielder",
+          "starter": true,
+          "formation_place": "10",
+          "active": true
+        },
+        {
+          "id": "216287",
+          "name": "Juninho Bacuna",
+          "short_name": "J. Bacuna",
+          "jersey": "7",
+          "position": "LM",
+          "position_name": "Left Midfielder",
+          "starter": true,
+          "formation_place": "11",
+          "active": true
+        },
+        {
+          "id": "224786",
+          "name": "Sherel Floranus",
+          "short_name": "S. Floranus",
+          "jersey": "5",
+          "position": "RB",
+          "position_name": "Right Back",
+          "starter": true,
+          "formation_place": "2",
+          "active": true
+        },
+        {
+          "id": "335203",
+          "name": "Deveron Fonville",
+          "short_name": "D. Fonville",
+          "jersey": "24",
+          "position": "LB",
+          "position_name": "Left Back",
+          "starter": true,
+          "formation_place": "3",
+          "active": true
+        },
+        {
+          "id": "138664",
+          "name": "Leandro Bacuna",
+          "short_name": "L. Bacuna",
+          "jersey": "10",
+          "position": "CM",
+          "position_name": "Center Midfielder",
+          "starter": true,
+          "formation_place": "4",
+          "active": true
+        },
+        {
+          "id": "188411",
+          "name": "Riechedly Bazoer",
+          "short_name": "R. Bazoer",
+          "jersey": "23",
+          "position": "CD-R",
+          "position_name": "Center Right Defender",
+          "starter": true,
+          "formation_place": "5",
+          "active": true
+        },
+        {
+          "id": "245918",
+          "name": "Armando Obispo",
+          "short_name": "A. Obispo",
+          "jersey": "18",
+          "position": "CD-L",
+          "position_name": "Center Left Defender",
+          "starter": true,
+          "formation_place": "6",
+          "active": true
+        },
+        {
+          "id": "317285",
+          "name": "Livano Comenencia",
+          "short_name": "L. Comenencia",
+          "jersey": "8",
+          "position": "RM",
+          "position_name": "Right Midfielder",
+          "starter": true,
+          "formation_place": "7",
+          "active": true
+        },
+        {
+          "id": "276218",
+          "name": "Tahith Chong",
+          "short_name": "T. Chong",
+          "jersey": "21",
+          "position": "AM",
+          "position_name": "Attacking Midfielder",
+          "starter": true,
+          "formation_place": "8",
+          "active": true
+        },
+        {
+          "id": "167213",
+          "name": "Jürgen Locadia",
+          "short_name": "J. Locadia",
+          "jersey": "9",
+          "position": "CF-R",
+          "position_name": "Center Right Forward",
+          "starter": true,
+          "formation_place": "9",
+          "active": true
+        }
+      ],
+      "substitutes": [
+        {
+          "id": "306553",
+          "name": "Ar'jany Martha",
+          "short_name": "A. Martha",
+          "jersey": "15",
+          "position": "",
+          "position_name": "",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "246281",
+          "name": "Juriën Gaari",
+          "short_name": "J. Gaari",
+          "jersey": "3",
+          "position": "",
+          "position_name": "",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "297542",
+          "name": "Tyrick Bodak",
+          "short_name": "T. Bodak",
+          "jersey": "25",
+          "position": "",
+          "position_name": "",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "262738",
+          "name": "Kevin Felida",
+          "short_name": "K. Felida",
+          "jersey": "22",
+          "position": "",
+          "position_name": "",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "178433",
+          "name": "Joshua Brenet",
+          "short_name": "J. Brenet",
+          "jersey": "20",
+          "position": "",
+          "position_name": "",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "178273",
+          "name": "Gervane Kastaneer",
+          "short_name": "G. Kastaneer",
+          "jersey": "19",
+          "position": "",
+          "position_name": "",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "177058",
+          "name": "Brandley Kuwas",
+          "short_name": "B. Kuwas",
+          "jersey": "17",
+          "position": "",
+          "position_name": "",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "359132",
+          "name": "Tyrese Noslin",
+          "short_name": "T. Noslin",
+          "jersey": "13",
+          "position": "",
+          "position_name": "",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "301441",
+          "name": "Jearl Margaritha",
+          "short_name": "J. Margaritha",
+          "jersey": "16",
+          "position": "",
+          "position_name": "",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "310925",
+          "name": "Jeremy Antonisse",
+          "short_name": "J. Antonisse",
+          "jersey": "11",
+          "position": "",
+          "position_name": "",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "301456",
+          "name": "Shurandy Sambo",
+          "short_name": "S. Sambo",
+          "jersey": "2",
+          "position": "",
+          "position_name": "",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "262109",
+          "name": "Trevor Doornbusch",
+          "short_name": "T. Doornbusch",
+          "jersey": "26",
+          "position": "",
+          "position_name": "",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "188452",
+          "name": "Kenji Gorré",
+          "short_name": "K. Gorré",
+          "jersey": "14",
+          "position": "",
+          "position_name": "",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "273295",
+          "name": "Godfried Roemeratoe",
+          "short_name": "G. Roemeratoe",
+          "jersey": "6",
+          "position": "",
+          "position_name": "",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "270807",
+          "name": "Roshon van Eijma",
+          "short_name": "R. van Eijma",
+          "jersey": "4",
+          "position": "",
+          "position_name": "",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        }
+      ]
+    }
+  },
+  "_saved_at": "2026-06-15T13:12:52.743848"
+}

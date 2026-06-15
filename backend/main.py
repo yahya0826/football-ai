@@ -13,6 +13,8 @@ sys.path.insert(0, str(Path(__file__).parent))
 if sys.platform == 'win32':
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
 
+import asyncio
+from contextlib import asynccontextmanager
 from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
@@ -36,13 +38,58 @@ from services.intel_card_service import intel_card_service
 from services.daily_report_service import daily_report_service
 from services.lineup_analysis_service import lineup_analysis_service
 from services.live_match_service import live_match_service
+from services.player_live_analysis_service import player_live_analysis_service
+from services.injury_intel_service import injury_intel_service
+from services.daily_summary_service import daily_summary_service
 from services.match_analysis_service import analyze_match
+
+
+# ── 后台情报调度器 ────────────────────────────────────────────
+
+async def intelligence_scheduler():
+    """后台定时任务：每15分钟检查每日总结，每20分钟刷新伤病情报"""
+    import datetime as dt_mod
+    print("[Scheduler] Intelligence background tasks started")
+    last_daily_check = 0
+    last_injury_check = 0
+    while True:
+        try:
+            now = dt_mod.datetime.now()
+            today = now.strftime("%Y-%m-%d")
+
+            # 每15分钟检查每日总结
+            if now.timestamp() - last_daily_check > 900:
+                daily_summary_service.check_and_generate(today)
+                last_daily_check = now.timestamp()
+
+            # 每20分钟检查伤病情报
+            if now.timestamp() - last_injury_check > 1200:
+                injury_intel_service.check_staleness_and_refresh(today)
+                last_injury_check = now.timestamp()
+        except Exception as e:
+            print(f"[Scheduler] Error: {e}")
+
+        await asyncio.sleep(300)  # 每5分钟轮询一次
+
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    # 启动后台定时任务
+    task = asyncio.create_task(intelligence_scheduler())
+    yield
+    task.cancel()
+    try:
+        await task
+    except asyncio.CancelledError:
+        pass
+
 
 # 创建FastAPI应用
 app = FastAPI(
     title="世界杯AI助手 API",
     description="提供足球比赛预测、AI解说、可视化分析和世界杯知识问答",
-    version="1.0.0"
+    version="1.0.0",
+    lifespan=lifespan,
 )
 
 # CORS配置
@@ -876,11 +923,11 @@ def _generate_fallback_highlights(home_cn: str, away_cn: str, h2h: Optional[Dict
 # ==================== 实时比赛路由 ====================
 
 @app.get("/api/live/scoreboard")
-async def get_live_scoreboard():
-    """获取实时比分板 — 进行中 + 今日比赛"""
+async def get_live_scoreboard(date: str = None):
+    """获取实时比分板 — 进行中 + 指定日期比赛"""
     try:
         live = live_match_service.get_live_matches()
-        today = live_match_service.get_today_matches()
+        today = live_match_service.get_today_matches(date)
         return {
             "live": live,
             "today": today,
@@ -960,9 +1007,29 @@ async def get_live_match_analysis(match_id: str):
         if not detail:
             raise HTTPException(status_code=404, detail=f"Match {match_id} not found")
 
+        state = detail.get("status", {}).get("state", "")
         home_team_id = detail.get("home", {}).get("team_id", "")
         away_team_id = detail.get("away", {}).get("team_id", "")
-        analysis = analyze_match(detail, home_team_id, away_team_id)
+
+        # 已结束比赛：优先从持久化缓存加载分析
+        analysis_path = Path(__file__).parent / "data" / "live_matches" / f"{match_id}_analysis.json"
+        if state == "finished" and analysis_path.exists():
+            try:
+                with open(analysis_path, 'r', encoding='utf-8') as f:
+                    analysis = json_lib.load(f)
+            except Exception:
+                analysis = analyze_match(detail, home_team_id, away_team_id)
+        else:
+            analysis = analyze_match(detail, home_team_id, away_team_id)
+            # 已结束 / 中场 / 有实质内容的分析 → 持久化
+            if state in ("finished", "halftime") and analysis.get("analysis"):
+                analysis_path.parent.mkdir(parents=True, exist_ok=True)
+                try:
+                    with open(analysis_path, 'w', encoding='utf-8') as f:
+                        json_lib.dump(analysis, f, ensure_ascii=False, indent=2)
+                except Exception:
+                    pass
+
         return {
             "match_id": match_id,
             "status": detail.get("status", {}),
@@ -993,6 +1060,44 @@ async def get_team_roster(team_id: str):
         raise HTTPException(status_code=500, detail=str(e))
 
 
+@app.get("/api/live/matches/{match_id}/players/{player_id}/analysis")
+async def get_player_live_analysis(
+    match_id: str,
+    player_id: str,
+    team_id: str = Query(..., description="ESPN team ID"),
+    player_name: str = Query(..., description="球员英文名"),
+    position: str = Query(..., description="球员位置 (G/D/M/F)"),
+    clock: str = Query(default="", description="比赛时钟 (如 23', 45'+2)"),
+):
+    """获取球员实时个人数据 + AI 分时段表现分析"""
+    try:
+        # Get match detail for competition_id and match state
+        detail = live_match_service.get_match_detail(match_id)
+        if not detail:
+            raise HTTPException(status_code=404, detail=f"Match {match_id} not found")
+
+        competition_id = detail.get("competition_id", "")
+        match_state = detail.get("status", {}).get("state", "scheduled")
+        if not clock:
+            clock = detail.get("status", {}).get("clock", "")
+
+        result = player_live_analysis_service.get_player_analysis(
+            match_id=match_id,
+            competition_id=competition_id,
+            team_id=team_id,
+            player_id=player_id,
+            player_name=player_name,
+            position=position,
+            clock=clock,
+            match_state=match_state,
+        )
+        return result
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+
 # ==================== AI解说路由 ====================
 
 @app.post("/api/commentary")
@@ -1005,7 +1110,10 @@ async def get_commentary(request: CommentaryRequest):
         events = match_detail['events']
 
         # 生成解说
-        commentary = commentary_service.generate_match_commentary(stats, events, request.focus_team)
+        # 标记比赛是否结束，用于缓存判断
+        stats["is_finished"] = match_detail.get("status", {}).get("state") == "finished"
+        commentary = commentary_service.generate_match_commentary(stats, events, request.focus_team,
+                                                                   match_id=str(request.match_id))
 
         return {
             "match_id": request.match_id,
@@ -1025,7 +1133,8 @@ async def get_tactical_analysis(request: CommentaryTacticalRequest):
         match_detail = await get_match_detail(request.match_id)
         stats = match_detail['stats']
 
-        analysis = commentary_service.generate_tactical_analysis(stats)
+        stats["is_finished"] = match_detail.get("status", {}).get("state") == "finished"
+        analysis = commentary_service.generate_tactical_analysis(stats, match_id=str(request.match_id))
 
         return {
             "match_id": request.match_id,
@@ -1045,7 +1154,8 @@ async def get_player_ratings(request: CommentaryTacticalRequest):
         match_detail = await get_match_detail(request.match_id)
         stats = match_detail['stats']
 
-        ratings = commentary_service.generate_player_ratings(stats)
+        stats["is_finished"] = match_detail.get("status", {}).get("state") == "finished"
+        ratings = commentary_service.generate_player_ratings(stats, match_id=str(request.match_id))
 
         return {
             "match_id": request.match_id,
@@ -1082,12 +1192,12 @@ async def get_prematch_preview(request: CommentaryPreviewRequest):
 
 # ==================== 哨前情报路由 (WhistleIntel) ====================
 
-@app.get("/api/intelligence/daily-report")
-async def get_daily_report(date: str = None):
-    """获取哨前日报"""
+@app.get("/api/intelligence/daily-summary")
+async def get_daily_summary(date: str = None):
+    """获取每日比赛总结文章（所有比赛结束后由 AI 自动生成）"""
     try:
-        report = daily_report_service.generate(date=date, use_ai=True)
-        return report
+        summary = daily_summary_service.get_daily_summary(date)
+        return summary
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
@@ -1118,30 +1228,12 @@ async def get_intel_card(match_id: int):
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
-@app.get("/api/intelligence/breaking")
-async def get_breaking_news(limit: int = 10):
-    """获取临哨快讯"""
+@app.get("/api/intelligence/injuries")
+async def get_injury_intel(date: str = None, force_refresh: bool = False):
+    """获取临哨快讯（伤病情报 + 预测首发 + 球队状态，按队伍展示）"""
     try:
-        news = [
-            {
-                "id": "bn001",
-                "match_id": None,
-                "type": "injury",
-                "title": "伤病更新",
-                "content": "更多实时伤病信息和首发变化将在比赛前更新",
-                "timestamp": pd.Timestamp.now().isoformat(),
-                "urgency": "medium"
-            },
-            {
-                "id": "bn002",
-                "type": "lineup",
-                "title": "首发名单",
-                "content": "首发名单将在比赛前1小时公布，届时将有详细的阵容分析",
-                "timestamp": pd.Timestamp.now().isoformat(),
-                "urgency": "high"
-            }
-        ]
-        return {"news": news[:limit], "total": len(news)}
+        intel = injury_intel_service.get_injuries(date, force_refresh=force_refresh)
+        return intel
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 

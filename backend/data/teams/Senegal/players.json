@@ -65,7 +65,8 @@
         "xa_p90": 0.0,
         "key_passes_p90": 0.0
       },
-      "avatar": "/headshots/yehvann-diouf.jpg"
+      "avatar": "/headshots/yehvann-diouf.jpg",
+      "name_cn": "耶万·迪乌夫"
     },
     {
       "id": "mamadou-sarr",
@@ -126,7 +127,8 @@
         "xa_p90": 0.01,
         "key_passes_p90": 0.07
       },
-      "avatar": "/headshots/mamadou-sarr.jpg"
+      "avatar": "/headshots/mamadou-sarr.jpg",
+      "name_cn": "马马杜·萨尔"
     },
     {
       "id": "kalidou-koulibaly",
@@ -187,7 +189,8 @@
         "xa_p90": 0.05,
         "key_passes_p90": 0.62
       },
-      "avatar": "/headshots/kalidou-koulibaly.jpg"
+      "avatar": "/headshots/kalidou-koulibaly.jpg",
+      "name_cn": "卡利杜·库利巴利"
     },
     {
       "id": "abdoulaye-seck",
@@ -233,7 +236,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/abdoulaye-seck.jpg"
+      "avatar": "/headshots/abdoulaye-seck.jpg",
+      "name_cn": "阿卜杜拉耶·塞克"
     },
     {
       "id": "idrissa-gueye",
@@ -342,7 +346,8 @@
         "xa_p90": 0.02,
         "key_passes_p90": 0.54
       },
-      "avatar": "/headshots/path--ciss.jpg"
+      "avatar": "/headshots/path--ciss.jpg",
+      "name_cn": "帕特·西斯"
     },
     {
       "id": "assane-diao",
@@ -403,7 +408,8 @@
         "xa_p90": 0.1,
         "key_passes_p90": 0.74
       },
-      "avatar": "/headshots/assane-diao.jpg"
+      "avatar": "/headshots/assane-diao.jpg",
+      "name_cn": "阿萨内·迪奥"
     },
     {
       "id": "lamine-camara",
@@ -464,7 +470,8 @@
         "xa_p90": 0.21,
         "key_passes_p90": 1.7
       },
-      "avatar": "/headshots/lamine-camara.jpg"
+      "avatar": "/headshots/lamine-camara.jpg",
+      "name_cn": "拉明·卡马拉"
     },
     {
       "id": "bamba-dieng",
@@ -510,7 +517,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/bamba-dieng.jpg"
+      "avatar": "/headshots/bamba-dieng.jpg",
+      "name_cn": "班巴·迪昂"
     },
     {
       "id": "sadio-man",
@@ -571,7 +579,8 @@
         "xa_p90": 0.24,
         "key_passes_p90": 2.2
       },
-      "avatar": "/headshots/sadio-man.jpg"
+      "avatar": "/headshots/sadio-man.jpg",
+      "name_cn": "萨迪奥·马内"
     },
     {
       "id": "nicolas-jackson",
@@ -632,7 +641,8 @@
         "xa_p90": 0.14,
         "key_passes_p90": 1.56
       },
-      "avatar": "/headshots/nicolas-jackson.jpg"
+      "avatar": "/headshots/nicolas-jackson.jpg",
+      "name_cn": "尼古拉·杰克逊"
     },
     {
       "id": "cherif-ndiaye",
@@ -693,7 +703,8 @@
         "xa_p90": 0.07,
         "key_passes_p90": 1.19
       },
-      "avatar": "/headshots/cherif-ndiaye.jpg"
+      "avatar": "/headshots/cherif-ndiaye.jpg",
+      "name_cn": "谢里夫·恩迪亚耶"
     },
     {
       "id": "iliman-ndiaye",
@@ -754,7 +765,8 @@
         "xa_p90": 0.14,
         "key_passes_p90": 0.97
       },
-      "avatar": "/headshots/iliman-ndiaye.jpg"
+      "avatar": "/headshots/iliman-ndiaye.jpg",
+      "name_cn": "伊利曼·恩迪亚耶"
     },
     {
       "id": "ismail-jakobs",
@@ -815,7 +827,8 @@
         "xa_p90": 0.1,
         "key_passes_p90": 0.89
       },
-      "avatar": "/headshots/ismail-jakobs.jpg"
+      "avatar": "/headshots/ismail-jakobs.jpg",
+      "name_cn": "伊斯梅尔·雅各布斯"
     },
     {
       "id": "kr-pin-diatta",
@@ -876,7 +889,8 @@
         "xa_p90": 0.2,
         "key_passes_p90": 1.14
       },
-      "avatar": "/headshots/kr-pin-diatta.jpg"
+      "avatar": "/headshots/kr-pin-diatta.jpg",
+      "name_cn": "克雷平·迪亚塔"
     },
     {
       "id": "douard-mendy",
@@ -927,7 +941,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/douard-mendy.jpg"
+      "avatar": "/headshots/douard-mendy.jpg",
+      "name_cn": "爱德华·门迪"
     },
     {
       "id": "pape-matar-sarr",
@@ -988,7 +1003,8 @@
         "xa_p90": 0.07,
         "key_passes_p90": 0.71
       },
-      "avatar": "/headshots/pape-matar-sarr.jpg"
+      "avatar": "/headshots/pape-matar-sarr.jpg",
+      "name_cn": "帕普·马塔尔·萨尔"
     },
     {
       "id": "isma-la-sarr",
@@ -1049,7 +1065,8 @@
         "xa_p90": 0.05,
         "key_passes_p90": 0.79
       },
-      "avatar": "/headshots/isma-la-sarr.jpg"
+      "avatar": "/headshots/isma-la-sarr.jpg",
+      "name_cn": "伊斯梅拉·萨尔"
     },
     {
       "id": "moussa-niakhat",
@@ -1110,7 +1127,8 @@
         "xa_p90": 0.07,
         "key_passes_p90": 0.46
       },
-      "avatar": "/headshots/moussa-niakhat.jpg"
+      "avatar": "/headshots/moussa-niakhat.jpg",
+      "name_cn": "穆萨·尼亚卡特"
     },
     {
       "id": "ibrahim-mbaye",
@@ -1171,7 +1189,8 @@
         "xa_p90": 0.19,
         "key_passes_p90": 1.81
       },
-      "avatar": "/headshots/ibrahim-mbaye.jpg"
+      "avatar": "/headshots/ibrahim-mbaye.jpg",
+      "name_cn": "易卜拉欣·姆巴耶"
     },
     {
       "id": "habib-diarra",
@@ -1217,7 +1236,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/habib-diarra.jpg"
+      "avatar": "/headshots/habib-diarra.jpg",
+      "name_cn": "哈比卜·迪亚拉"
     },
     {
       "id": "bara-sapoko-ndiaye",
@@ -1263,7 +1283,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/bara-sapoko-ndiaye.jpg"
+      "avatar": "/headshots/bara-sapoko-ndiaye.jpg",
+      "name_cn": "巴拉·萨波科·恩迪亚耶"
     },
     {
       "id": "mory-diaw",
@@ -1327,7 +1348,8 @@
         "xa_p90": 0.0,
         "key_passes_p90": 0.1
       },
-      "avatar": "/headshots/mory-diaw.jpg"
+      "avatar": "/headshots/mory-diaw.jpg",
+      "name_cn": "莫里·迪奥"
     },
     {
       "id": "antoine-mendy",
@@ -1388,7 +1410,8 @@
         "xa_p90": 0.02,
         "key_passes_p90": 0.04
       },
-      "avatar": "/headshots/antoine-mendy.jpg"
+      "avatar": "/headshots/antoine-mendy.jpg",
+      "name_cn": "安托万·门迪"
     },
     {
       "id": "el-hadji-malick-diouf",
@@ -1449,7 +1472,8 @@
         "xa_p90": 0.08,
         "key_passes_p90": 1.0
       },
-      "avatar": "/headshots/el-hadji-malick-diouf.jpg"
+      "avatar": "/headshots/el-hadji-malick-diouf.jpg",
+      "name_cn": "埃尔哈吉·马利克·迪乌夫"
     },
     {
       "id": "pape-gueye",
@@ -1510,7 +1534,8 @@
         "xa_p90": 0.12,
         "key_passes_p90": 1.01
       },
-      "avatar": "/headshots/pape-gueye.jpg"
+      "avatar": "/headshots/pape-gueye.jpg",
+      "name_cn": "帕普·盖耶"
     }
   ]
 }

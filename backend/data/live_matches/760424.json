@@ -1,0 +1,1186 @@
+{
+  "match_id": "760424",
+  "date": "2026-06-15",
+  "status": {
+    "state": "finished",
+    "detail": "FT",
+    "period": 0,
+    "clock": "",
+    "completed": true,
+    "state_cn": "已结束"
+  },
+  "home": {
+    "name": "Sweden",
+    "abbrev": "SWE",
+    "logo": "",
+    "score": 5,
+    "team_id": "466",
+    "name_cn": "瑞典"
+  },
+  "away": {
+    "name": "Tunisia",
+    "abbrev": "TUN",
+    "logo": "",
+    "score": 1,
+    "team_id": "659",
+    "name_cn": "突尼斯"
+  },
+  "events": [
+    {
+      "type": "kickoff",
+      "minute": "",
+      "team": "",
+      "player": "",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "",
+      "type_cn": "开球",
+      "team_cn": "",
+      "description_cn": "比赛开始！"
+    },
+    {
+      "type": "goal",
+      "minute": "7'",
+      "team": "Sweden",
+      "player": "Yasin Ayari Goal",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Goal! Sweden 1, Tunisia 0. Yasin Ayari (Sweden) right footed shot from outside the box to the top right corner.",
+      "type_cn": "进球",
+      "team_cn": "瑞典",
+      "description_cn": "7'' Yasin Ayari Goal 为瑞典进球！"
+    },
+    {
+      "type": "goal",
+      "minute": "30'",
+      "team": "Sweden",
+      "player": "Alexander Isak Goal",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Goal! Sweden 2, Tunisia 0. Alexander Isak (Sweden) right footed shot from outside the box to the bottom right corner. Assisted by Viktor Gyökeres following a fast break.",
+      "type_cn": "进球",
+      "team_cn": "瑞典",
+      "description_cn": "30'' Alexander Isak Goal 为瑞典进球！"
+    },
+    {
+      "type": "goal",
+      "minute": "43'",
+      "team": "Tunisia",
+      "player": "Omar Rekik Goal - Header",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Goal! Sweden 2, Tunisia 1. Omar Rekik (Tunisia) header from the centre of the box to the bottom left corner. Assisted by Hannibal Mejbri with a cross.",
+      "type_cn": "进球",
+      "team_cn": "突尼斯",
+      "description_cn": "43'' Omar Rekik Goal - Header 为突尼斯进球！"
+    },
+    {
+      "type": "halftime",
+      "minute": "45'+4'",
+      "team": "",
+      "player": "",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "First Half ends, Sweden 2, Tunisia 1.",
+      "type_cn": "中场休息",
+      "team_cn": "",
+      "description_cn": "中场休息 ⏸️"
+    },
+    {
+      "type": "fulltime",
+      "minute": "45'",
+      "team": "",
+      "player": "",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "",
+      "type_cn": "全场结束",
+      "team_cn": "",
+      "description_cn": "全场比赛结束 🏁"
+    },
+    {
+      "type": "yellow_card",
+      "minute": "54'",
+      "team": "Tunisia",
+      "player": "Rani Khedira Yellow Card",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Rani Khedira (Tunisia) is shown the yellow card for a bad foul.",
+      "type_cn": "黄牌",
+      "team_cn": "突尼斯",
+      "description_cn": "54'' Rani Khedira Yellow Card（突尼斯）吃到黄牌 🟨"
+    },
+    {
+      "type": "goal",
+      "minute": "59'",
+      "team": "Sweden",
+      "player": "Viktor Gyökeres Goal",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Goal! Sweden 3, Tunisia 1. Viktor Gyökeres (Sweden) right footed shot from the centre of the box to the bottom left corner. Assisted by Alexander Isak.",
+      "type_cn": "进球",
+      "team_cn": "瑞典",
+      "description_cn": "59'' Viktor Gyökeres Goal 为瑞典进球！"
+    },
+    {
+      "type": "substitution",
+      "minute": "65'",
+      "team": "Sweden",
+      "player": "Elliot Stroud Substitution",
+      "player_in": "Elliot Stroud",
+      "player_out": "Gabriel Gudmundsson",
+      "assist": "",
+      "text": "Substitution, Sweden. Elliot Stroud replaces Gabriel Gudmundsson because of an injury.",
+      "type_cn": "换人",
+      "team_cn": "瑞典",
+      "description_cn": "65'' Elliot Stroud ↑ 替补登场，Gabriel Gudmundsson ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "65'",
+      "team": "Sweden",
+      "player": "Lucas Bergvall Substitution",
+      "player_in": "Lucas Bergvall",
+      "player_out": "Benjamin Nygren",
+      "assist": "",
+      "text": "Substitution, Sweden. Lucas Bergvall replaces Benjamin Nygren.",
+      "type_cn": "换人",
+      "team_cn": "瑞典",
+      "description_cn": "65'' Lucas Bergvall ↑ 替补登场，Benjamin Nygren ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "72'",
+      "team": "Tunisia",
+      "player": "Elias Achouri Substitution",
+      "player_in": "Elias Achouri",
+      "player_out": "Ellyes Skhiri",
+      "assist": "",
+      "text": "Substitution, Tunisia. Elias Achouri replaces Ellyes Skhiri.",
+      "type_cn": "换人",
+      "team_cn": "突尼斯",
+      "description_cn": "72'' Elias Achouri ↑ 替补登场，Ellyes Skhiri ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "72'",
+      "team": "Tunisia",
+      "player": "Sebastian Tounekti Substitution",
+      "player_in": "Sebastian Tounekti",
+      "player_out": "Elias Saad",
+      "assist": "",
+      "text": "Substitution, Tunisia. Sebastian Tounekti replaces Elias Saad.",
+      "type_cn": "换人",
+      "team_cn": "突尼斯",
+      "description_cn": "72'' Sebastian Tounekti ↑ 替补登场，Elias Saad ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "72'",
+      "team": "Tunisia",
+      "player": "Mohamed Hadj Mahmoud Substitutio",
+      "player_in": "Mohamed Hadj Mahmoud",
+      "player_out": "Yan Valery",
+      "assist": "",
+      "text": "Substitution, Tunisia. Hadj Mahmoud replaces Yan Valery.",
+      "type_cn": "换人",
+      "team_cn": "突尼斯",
+      "description_cn": "72'' Mohamed Hadj Mahmoud ↑ 替补登场，Yan Valery ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "83'",
+      "team": "Tunisia",
+      "player": "Ismaël Gharbi Substitution",
+      "player_in": "Ismaël Gharbi",
+      "player_out": "Rani Khedira",
+      "assist": "",
+      "text": "Substitution, Tunisia. Ismaël Gharbi replaces Rani Khedira.",
+      "type_cn": "换人",
+      "team_cn": "突尼斯",
+      "description_cn": "83'' Ismaël Gharbi ↑ 替补登场，Rani Khedira ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "84'",
+      "team": "Tunisia",
+      "player": "Firas Chaouat Substitution",
+      "player_in": "Firas Chaouat",
+      "player_out": "Anis Slimane",
+      "assist": "",
+      "text": "Substitution, Tunisia. Firas Chaouat replaces Anis Ben Slimane.",
+      "type_cn": "换人",
+      "team_cn": "突尼斯",
+      "description_cn": "84'' Firas Chaouat ↑ 替补登场，Anis Slimane ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "84'",
+      "team": "Sweden",
+      "player": "Mattias Svanberg Substitution",
+      "player_in": "Mattias Svanberg",
+      "player_out": "Jesper Karlström",
+      "assist": "",
+      "text": "Substitution, Sweden. Mattias Svanberg replaces Jesper Karlström.",
+      "type_cn": "换人",
+      "team_cn": "瑞典",
+      "description_cn": "84'' Mattias Svanberg ↑ 替补登场，Jesper Karlström ↓ 被换下"
+    },
+    {
+      "type": "goal",
+      "minute": "84'",
+      "team": "Sweden",
+      "player": "Mattias Svanberg Goal",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Goal! Sweden 4, Tunisia 1. Mattias Svanberg (Sweden) right footed shot from the centre of the box to the centre of the goal. Assisted by Alexander Isak following a set piece situation.Goal awarded following VAR Review.",
+      "type_cn": "进球",
+      "team_cn": "瑞典",
+      "description_cn": "84'' Mattias Svanberg Goal 为瑞典进球！"
+    },
+    {
+      "type": "substitution",
+      "minute": "90'+1'",
+      "team": "Sweden",
+      "player": "Anthony Elanga Substitution",
+      "player_in": "Anthony Elanga",
+      "player_out": "Alexander Isak",
+      "assist": "",
+      "text": "Substitution, Sweden. Anthony Elanga replaces Alexander Isak.",
+      "type_cn": "换人",
+      "team_cn": "瑞典",
+      "description_cn": "90'+1'' Anthony Elanga ↑ 替补登场，Alexander Isak ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "90'+1'",
+      "team": "Sweden",
+      "player": "Daniel Svensson Substitution",
+      "player_in": "Daniel Svensson",
+      "player_out": "Alexander Bernhardsson",
+      "assist": "",
+      "text": "Substitution, Sweden. Daniel Svensson replaces Alexander Bernhardsson.",
+      "type_cn": "换人",
+      "team_cn": "瑞典",
+      "description_cn": "90'+1'' Daniel Svensson ↑ 替补登场，Alexander Bernhardsson ↓ 被换下"
+    },
+    {
+      "type": "goal",
+      "minute": "90'+6'",
+      "team": "Sweden",
+      "player": "Yasin Ayari Goal",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Goal! Sweden 5, Tunisia 1. Yasin Ayari (Sweden) right footed shot from outside the box to the bottom left corner. Assisted by Lucas Bergvall.",
+      "type_cn": "进球",
+      "team_cn": "瑞典",
+      "description_cn": "90'+6'' Yasin Ayari Goal 为瑞典进球！"
+    },
+    {
+      "type": "83",
+      "minute": "90'+7'",
+      "team": "",
+      "player": "",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Second Half ends, Sweden 5, Tunisia 1.",
+      "type_cn": "83",
+      "team_cn": "",
+      "description_cn": "Second Half ends, Sweden 5, Tunisia 1."
+    }
+  ],
+  "statistics": {
+    "home": {
+      "team_name": "Sweden",
+      "stats": {
+        "foulsCommitted": {
+          "label": "Fouls",
+          "value": "10",
+          "label_cn": "犯规"
+        },
+        "yellowCards": {
+          "label": "Yellow Cards",
+          "value": "0",
+          "label_cn": "黄牌"
+        },
+        "redCards": {
+          "label": "Red Cards",
+          "value": "0",
+          "label_cn": "红牌"
+        },
+        "offsides": {
+          "label": "Offsides",
+          "value": "3",
+          "label_cn": "越位"
+        },
+        "wonCorners": {
+          "label": "Corner Kicks",
+          "value": "4",
+          "label_cn": "角球"
+        },
+        "saves": {
+          "label": "Saves",
+          "value": "1",
+          "label_cn": "扑救"
+        },
+        "possessionPct": {
+          "label": "Possession",
+          "value": "49.1",
+          "label_cn": "控球率"
+        },
+        "totalShots": {
+          "label": "SHOTS",
+          "value": "13",
+          "label_cn": "总射门"
+        },
+        "shotsOnTarget": {
+          "label": "ON GOAL",
+          "value": "7",
+          "label_cn": "射正"
+        },
+        "shotPct": {
+          "label": "On Target %",
+          "value": "0.5",
+          "label_cn": "射正率"
+        },
+        "penaltyKickGoals": {
+          "label": "Penalty Goals",
+          "value": "0",
+          "label_cn": "点球进球"
+        },
+        "penaltyKickShots": {
+          "label": "Penalty Kicks Taken",
+          "value": "0",
+          "label_cn": "点球次数"
+        },
+        "accuratePasses": {
+          "label": "Accurate Passes",
+          "value": "279",
+          "label_cn": "精准传球"
+        },
+        "totalPasses": {
+          "label": "Passes",
+          "value": "355",
+          "label_cn": "传球"
+        },
+        "passPct": {
+          "label": "Pass Completion %",
+          "value": "0.8",
+          "label_cn": "传球成功率"
+        },
+        "accurateCrosses": {
+          "label": "Accurate Crosses",
+          "value": "3",
+          "label_cn": "精准传中"
+        },
+        "totalCrosses": {
+          "label": "Crosses",
+          "value": "12",
+          "label_cn": "传中"
+        },
+        "crossPct": {
+          "label": "Cross %",
+          "value": "0.3",
+          "label_cn": "传中成功率"
+        },
+        "totalLongBalls": {
+          "label": "Long Balls",
+          "value": "58",
+          "label_cn": "长传"
+        },
+        "accurateLongBalls": {
+          "label": "Accurate Long Balls",
+          "value": "22",
+          "label_cn": "精准长传"
+        },
+        "longballPct": {
+          "label": "Long Balls %",
+          "value": "0.4",
+          "label_cn": "长传成功率"
+        },
+        "blockedShots": {
+          "label": "Blocked Shots",
+          "value": "3",
+          "label_cn": "封堵射门"
+        },
+        "effectiveTackles": {
+          "label": "Effective Tackles",
+          "value": "10",
+          "label_cn": "有效抢断"
+        },
+        "totalTackles": {
+          "label": "Tackles",
+          "value": "14",
+          "label_cn": "抢断"
+        },
+        "tacklePct": {
+          "label": "Tackle %",
+          "value": "0.7",
+          "label_cn": "抢断成功率"
+        },
+        "interceptions": {
+          "label": "Interceptions",
+          "value": "8",
+          "label_cn": "拦截"
+        },
+        "effectiveClearance": {
+          "label": "Effective Clearances",
+          "value": "24",
+          "label_cn": "有效解围"
+        },
+        "totalClearance": {
+          "label": "Clearances",
+          "value": "24",
+          "label_cn": "解围"
+        }
+      },
+      "team_name_cn": "瑞典"
+    },
+    "away": {
+      "team_name": "Tunisia",
+      "stats": {
+        "foulsCommitted": {
+          "label": "Fouls",
+          "value": "8",
+          "label_cn": "犯规"
+        },
+        "yellowCards": {
+          "label": "Yellow Cards",
+          "value": "1",
+          "label_cn": "黄牌"
+        },
+        "redCards": {
+          "label": "Red Cards",
+          "value": "0",
+          "label_cn": "红牌"
+        },
+        "offsides": {
+          "label": "Offsides",
+          "value": "6",
+          "label_cn": "越位"
+        },
+        "wonCorners": {
+          "label": "Corner Kicks",
+          "value": "2",
+          "label_cn": "角球"
+        },
+        "saves": {
+          "label": "Saves",
+          "value": "1",
+          "label_cn": "扑救"
+        },
+        "possessionPct": {
+          "label": "Possession",
+          "value": "50.9",
+          "label_cn": "控球率"
+        },
+        "totalShots": {
+          "label": "SHOTS",
+          "value": "6",
+          "label_cn": "总射门"
+        },
+        "shotsOnTarget": {
+          "label": "ON GOAL",
+          "value": "2",
+          "label_cn": "射正"
+        },
+        "shotPct": {
+          "label": "On Target %",
+          "value": "0.3",
+          "label_cn": "射正率"
+        },
+        "penaltyKickGoals": {
+          "label": "Penalty Goals",
+          "value": "0",
+          "label_cn": "点球进球"
+        },
+        "penaltyKickShots": {
+          "label": "Penalty Kicks Taken",
+          "value": "0",
+          "label_cn": "点球次数"
+        },
+        "accuratePasses": {
+          "label": "Accurate Passes",
+          "value": "288",
+          "label_cn": "精准传球"
+        },
+        "totalPasses": {
+          "label": "Passes",
+          "value": "364",
+          "label_cn": "传球"
+        },
+        "passPct": {
+          "label": "Pass Completion %",
+          "value": "0.8",
+          "label_cn": "传球成功率"
+        },
+        "accurateCrosses": {
+          "label": "Accurate Crosses",
+          "value": "3",
+          "label_cn": "精准传中"
+        },
+        "totalCrosses": {
+          "label": "Crosses",
+          "value": "13",
+          "label_cn": "传中"
+        },
+        "crossPct": {
+          "label": "Cross %",
+          "value": "0.2",
+          "label_cn": "传中成功率"
+        },
+        "totalLongBalls": {
+          "label": "Long Balls",
+          "value": "54",
+          "label_cn": "长传"
+        },
+        "accurateLongBalls": {
+          "label": "Accurate Long Balls",
+          "value": "24",
+          "label_cn": "精准长传"
+        },
+        "longballPct": {
+          "label": "Long Balls %",
+          "value": "0.4",
+          "label_cn": "长传成功率"
+        },
+        "blockedShots": {
+          "label": "Blocked Shots",
+          "value": "1",
+          "label_cn": "封堵射门"
+        },
+        "effectiveTackles": {
+          "label": "Effective Tackles",
+          "value": "11",
+          "label_cn": "有效抢断"
+        },
+        "totalTackles": {
+          "label": "Tackles",
+          "value": "20",
+          "label_cn": "抢断"
+        },
+        "tacklePct": {
+          "label": "Tackle %",
+          "value": "0.6",
+          "label_cn": "抢断成功率"
+        },
+        "interceptions": {
+          "label": "Interceptions",
+          "value": "5",
+          "label_cn": "拦截"
+        },
+        "effectiveClearance": {
+          "label": "Effective Clearances",
+          "value": "15",
+          "label_cn": "有效解围"
+        },
+        "totalClearance": {
+          "label": "Clearances",
+          "value": "15",
+          "label_cn": "解围"
+        }
+      },
+      "team_name_cn": "突尼斯"
+    }
+  },
+  "lineups": {
+    "home": {
+      "formation": "3-1-4-2",
+      "starters": [
+        {
+          "id": "133993",
+          "name": "Kristoffer Nordfeldt",
+          "short_name": "K. Nordfeldt",
+          "jersey": "23",
+          "position": "G",
+          "position_name": "Goalkeeper",
+          "starter": true,
+          "formation_place": "1",
+          "active": true
+        },
+        {
+          "id": "235662",
+          "name": "Alexander Isak",
+          "short_name": "A. Isak",
+          "jersey": "9",
+          "position": "CF-L",
+          "position_name": "Center Left Forward",
+          "starter": true,
+          "formation_place": "10",
+          "active": true
+        },
+        {
+          "id": "304242",
+          "name": "Yasin Ayari",
+          "short_name": "Y. Ayari",
+          "jersey": "18",
+          "position": "CM-L",
+          "position_name": "Center Left Midfielder",
+          "starter": true,
+          "formation_place": "11",
+          "active": true
+        },
+        {
+          "id": "301370",
+          "name": "Alexander Bernhardsson",
+          "short_name": "A. Bernhardsson",
+          "jersey": "21",
+          "position": "RM",
+          "position_name": "Right Midfielder",
+          "starter": true,
+          "formation_place": "2",
+          "active": true
+        },
+        {
+          "id": "250166",
+          "name": "Gabriel Gudmundsson",
+          "short_name": "G. Gudmundsson",
+          "jersey": "5",
+          "position": "LM",
+          "position_name": "Left Midfielder",
+          "starter": true,
+          "formation_place": "3",
+          "active": true
+        },
+        {
+          "id": "312862",
+          "name": "Isak Hien",
+          "short_name": "I. Hien",
+          "jersey": "4",
+          "position": "CD",
+          "position_name": "Center Defender",
+          "starter": true,
+          "formation_place": "4",
+          "active": true
+        },
+        {
+          "id": "324930",
+          "name": "Gustaf Lagerbielke",
+          "short_name": "G. Lagerbielke",
+          "jersey": "2",
+          "position": "CD-R",
+          "position_name": "Center Right Defender",
+          "starter": true,
+          "formation_place": "5",
+          "active": true
+        },
+        {
+          "id": "204679",
+          "name": "Victor Lindelöf",
+          "short_name": "V. Lindelöf",
+          "jersey": "3",
+          "position": "CD-L",
+          "position_name": "Center Left Defender",
+          "starter": true,
+          "formation_place": "6",
+          "active": true
+        },
+        {
+          "id": "274522",
+          "name": "Benjamin Nygren",
+          "short_name": "B. Nygren",
+          "jersey": "10",
+          "position": "CM-R",
+          "position_name": "Center Right Midfielder",
+          "starter": true,
+          "formation_place": "7",
+          "active": true
+        },
+        {
+          "id": "237055",
+          "name": "Jesper Karlström",
+          "short_name": "J. Karlström",
+          "jersey": "16",
+          "position": "SW",
+          "position_name": "Sweeper",
+          "starter": true,
+          "formation_place": "8",
+          "active": true
+        },
+        {
+          "id": "258906",
+          "name": "Viktor Gyökeres",
+          "short_name": "V. Gyökeres",
+          "jersey": "17",
+          "position": "CF-R",
+          "position_name": "Center Right Forward",
+          "starter": true,
+          "formation_place": "9",
+          "active": true
+        }
+      ],
+      "substitutes": [
+        {
+          "id": "220120",
+          "name": "Mattias Svanberg",
+          "short_name": "M. Svanberg",
+          "jersey": "19",
+          "position": "",
+          "position_name": "",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "310709",
+          "name": "Daniel Svensson",
+          "short_name": "D. Svensson",
+          "jersey": "8",
+          "position": "",
+          "position_name": "",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "238183",
+          "name": "Gustaf Nilsson",
+          "short_name": "G. Nilsson",
+          "jersey": "25",
+          "position": "",
+          "position_name": "",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "357145",
+          "name": "Elliot Stroud",
+          "short_name": "E. Stroud",
+          "jersey": "24",
+          "position": "",
+          "position_name": "",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "258902",
+          "name": "Viktor Johansson",
+          "short_name": "V. Johansson",
+          "jersey": "12",
+          "position": "",
+          "position_name": "",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "334024",
+          "name": "Besfort Zeneli",
+          "short_name": "B. Zeneli",
+          "jersey": "22",
+          "position": "",
+          "position_name": "",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "290413",
+          "name": "Hjalmar Ekdal",
+          "short_name": "H. Ekdal",
+          "jersey": "14",
+          "position": "",
+          "position_name": "",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "204115",
+          "name": "Eric Smith",
+          "short_name": "E. Smith",
+          "jersey": "20",
+          "position": "",
+          "position_name": "",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "296622",
+          "name": "Anthony Elanga",
+          "short_name": "A. Elanga",
+          "jersey": "11",
+          "position": "",
+          "position_name": "",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "356379",
+          "name": "Lucas Bergvall",
+          "short_name": "L. Bergvall",
+          "jersey": "7",
+          "position": "",
+          "position_name": "",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "312876",
+          "name": "Herman Johansson",
+          "short_name": "H. Johansson",
+          "jersey": "6",
+          "position": "",
+          "position_name": "",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "286810",
+          "name": "Jacob Widell Zetterström",
+          "short_name": "J. Widell Zetterström",
+          "jersey": "1",
+          "position": "",
+          "position_name": "",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "314164",
+          "name": "Taha Ali",
+          "short_name": "T. Ali",
+          "jersey": "26",
+          "position": "",
+          "position_name": "",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "186004",
+          "name": "Ken Sema",
+          "short_name": "K. Sema",
+          "jersey": "13",
+          "position": "",
+          "position_name": "",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "195790",
+          "name": "Carl Starfelt",
+          "short_name": "C. Starfelt",
+          "jersey": "15",
+          "position": "",
+          "position_name": "",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        }
+      ]
+    },
+    "away": {
+      "formation": "5-3-2",
+      "starters": [
+        {
+          "id": "420888",
+          "name": "Mouhib Chamakh",
+          "short_name": "M. Chamakh",
+          "jersey": "1",
+          "position": "G",
+          "position_name": "Goalkeeper",
+          "starter": true,
+          "formation_place": "1",
+          "active": true
+        },
+        {
+          "id": "323950",
+          "name": "Elias Saad",
+          "short_name": "E. Saad",
+          "jersey": "8",
+          "position": "CF-R",
+          "position_name": "Center Right Forward",
+          "starter": true,
+          "formation_place": "10",
+          "active": true
+        },
+        {
+          "id": "300007",
+          "name": "Hannibal Mejbri",
+          "short_name": "H. Mejbri",
+          "jersey": "10",
+          "position": "CM-L",
+          "position_name": "Center Left Midfielder",
+          "starter": true,
+          "formation_place": "11",
+          "active": true
+        },
+        {
+          "id": "240588",
+          "name": "Yan Valery",
+          "short_name": "Y. Valery",
+          "jersey": "20",
+          "position": "RB",
+          "position_name": "Right Back",
+          "starter": true,
+          "formation_place": "2",
+          "active": true
+        },
+        {
+          "id": "265234",
+          "name": "Ali Abdi",
+          "short_name": "A. Abdi",
+          "jersey": "2",
+          "position": "LB",
+          "position_name": "Left Back",
+          "starter": true,
+          "formation_place": "3",
+          "active": true
+        },
+        {
+          "id": "296982",
+          "name": "Mohamed Amine Ben Hamida",
+          "short_name": "M. Ben Hamida",
+          "jersey": "21",
+          "position": "CD-L",
+          "position_name": "Center Left Defender",
+          "starter": true,
+          "formation_place": "4",
+          "active": true
+        },
+        {
+          "id": "265099",
+          "name": "Montassar Talbi",
+          "short_name": "M. Talbi",
+          "jersey": "3",
+          "position": "CD",
+          "position_name": "Center Defender",
+          "starter": true,
+          "formation_place": "5",
+          "active": true
+        },
+        {
+          "id": "303848",
+          "name": "Omar Rekik",
+          "short_name": "O. Rekik",
+          "jersey": "4",
+          "position": "CD-R",
+          "position_name": "Center Right Defender",
+          "starter": true,
+          "formation_place": "6",
+          "active": true
+        },
+        {
+          "id": "159152",
+          "name": "Rani Khedira",
+          "short_name": "R. Khedira",
+          "jersey": "13",
+          "position": "CM-R",
+          "position_name": "Center Right Midfielder",
+          "starter": true,
+          "formation_place": "7",
+          "active": true
+        },
+        {
+          "id": "209595",
+          "name": "Ellyes Skhiri",
+          "short_name": "E. Skhiri",
+          "jersey": "17",
+          "position": "CM",
+          "position_name": "Center Midfielder",
+          "starter": true,
+          "formation_place": "8",
+          "active": true
+        },
+        {
+          "id": "302944",
+          "name": "Anis Slimane",
+          "short_name": "A. Slimane",
+          "jersey": "25",
+          "position": "CF-L",
+          "position_name": "Center Left Forward",
+          "starter": true,
+          "formation_place": "9",
+          "active": true
+        }
+      ],
+      "substitutes": [
+        {
+          "id": "410358",
+          "name": "Adem Arous",
+          "short_name": "A. Arous",
+          "jersey": "5",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "404769",
+          "name": "Khalil Ayari",
+          "short_name": "K. Ayari",
+          "jersey": "14",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "303702",
+          "name": "Sebastian Tounekti",
+          "short_name": "S. Tounekti",
+          "jersey": "26",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "240371",
+          "name": "Dylan Bronn",
+          "short_name": "D. Bronn",
+          "jersey": "6",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "317473",
+          "name": "Ismaël Gharbi",
+          "short_name": "I. Gharbi",
+          "jersey": "11",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "396085",
+          "name": "Hazem Mastouri",
+          "short_name": "H. Mastouri",
+          "jersey": "9",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "345975",
+          "name": "Moutaz Neffati",
+          "short_name": "M. Neffati",
+          "jersey": "23",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "324510",
+          "name": "Elias Achouri",
+          "short_name": "E. Achouri",
+          "jersey": "7",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "420890",
+          "name": "Raed Chikhaoui",
+          "short_name": "R. Chikhaoui",
+          "jersey": "24",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "299861",
+          "name": "Mohamed Hadj Mahmoud",
+          "short_name": "M. Hadj Mahmoud",
+          "jersey": "15",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "265272",
+          "name": "Aymen Dahmen",
+          "short_name": "A. Dahmen",
+          "jersey": "16",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "265207",
+          "name": "Firas Chaouat",
+          "short_name": "F. Chaouat",
+          "jersey": "19",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "405591",
+          "name": "Rayan Elloumi",
+          "short_name": "R. Elloumi",
+          "jersey": "18",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "273170",
+          "name": "Mortadha Ben Ouanes",
+          "short_name": "M. Ben Ouanes",
+          "jersey": "12",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "195253",
+          "name": "Sabri Ben Hessen",
+          "short_name": "S. Ben Hessen",
+          "jersey": "22",
+          "position": "SUB",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        }
+      ]
+    }
+  },
+  "_saved_at": "2026-06-15T14:03:03.827695"
+}

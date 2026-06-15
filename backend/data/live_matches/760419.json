@@ -1,18 +1,19 @@
 {
   "match_id": "760419",
+  "date": "2026-06-13",
   "status": {
-    "state": "scheduled",
-    "detail": "Sat, June 13th at 6:00 PM EDT",
+    "state": "finished",
+    "detail": "FT",
     "period": 0,
     "clock": "",
-    "completed": false,
-    "state_cn": "未开始"
+    "completed": true,
+    "state_cn": "已结束"
   },
   "home": {
     "name": "Brazil",
     "abbrev": "BRA",
     "logo": "",
-    "score": 0,
+    "score": 1,
     "team_id": "205",
     "name_cn": "巴西"
   },
@@ -20,22 +21,1117 @@
     "name": "Morocco",
     "abbrev": "MAR",
     "logo": "",
-    "score": 0,
+    "score": 1,
     "team_id": "2869",
     "name_cn": "摩洛哥"
   },
-  "events": [],
+  "events": [
+    {
+      "type": "kickoff",
+      "minute": "",
+      "team": "",
+      "player": "",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "First Half begins.",
+      "type_cn": "开球",
+      "team_cn": "",
+      "description_cn": "比赛开始！"
+    },
+    {
+      "type": "goal",
+      "minute": "21'",
+      "team": "Morocco",
+      "player": "Ismael Saibari Goal",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Goal! Brazil 0, Morocco 1. Ismael Saibari (Morocco) right footed shot from outside the box to the centre of the goal. Assisted by Brahim Díaz with a through ball following a fast break.",
+      "type_cn": "进球",
+      "team_cn": "摩洛哥",
+      "description_cn": "21'' Ismael Saibari Goal 为摩洛哥进球！"
+    },
+    {
+      "type": "goal",
+      "minute": "32'",
+      "team": "Brazil",
+      "player": "Vinícius Júnior Goal",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Goal! Brazil 1, Morocco 1. Vinícius Júnior (Brazil) right footed shot from the left side of the box to the top right corner. Assisted by Bruno Guimarães.",
+      "type_cn": "进球",
+      "team_cn": "巴西",
+      "description_cn": "32'' Vinícius Júnior Goal 为巴西进球！"
+    },
+    {
+      "type": "yellow_card",
+      "minute": "37'",
+      "team": "Brazil",
+      "player": "Casemiro Yellow Card",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Casemiro (Brazil) is shown the yellow card for a bad foul.",
+      "type_cn": "黄牌",
+      "team_cn": "巴西",
+      "description_cn": "37'' Casemiro Yellow Card（巴西）吃到黄牌 🟨"
+    },
+    {
+      "type": "yellow_card",
+      "minute": "43'",
+      "team": "Brazil",
+      "player": "Roger Ibañez Yellow Card",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Roger Ibañez (Brazil) is shown the yellow card for a bad foul.",
+      "type_cn": "黄牌",
+      "team_cn": "巴西",
+      "description_cn": "43'' Roger Ibañez Yellow Card（巴西）吃到黄牌 🟨"
+    },
+    {
+      "type": "halftime",
+      "minute": "45'+5'",
+      "team": "",
+      "player": "",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "First Half ends, Brazil 1, Morocco 1.",
+      "type_cn": "中场休息",
+      "team_cn": "",
+      "description_cn": "中场休息 ⏸️"
+    },
+    {
+      "type": "substitution",
+      "minute": "45'",
+      "team": "Brazil",
+      "player": "Danilo Substitution",
+      "player_in": "Danilo",
+      "player_out": "Roger Ibañez",
+      "assist": "",
+      "text": "Substitution, Brazil. Danilo replaces Roger Ibañez.",
+      "type_cn": "换人",
+      "team_cn": "巴西",
+      "description_cn": "45'' Danilo ↑ 替补登场，Roger Ibañez ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "45'",
+      "team": "Brazil",
+      "player": "Fabinho Substitution",
+      "player_in": "Fabinho",
+      "player_out": "Casemiro",
+      "assist": "",
+      "text": "Substitution, Brazil. Fabinho replaces Casemiro.",
+      "type_cn": "换人",
+      "team_cn": "巴西",
+      "description_cn": "45'' Fabinho ↑ 替补登场，Casemiro ↓ 被换下"
+    },
+    {
+      "type": "fulltime",
+      "minute": "45'",
+      "team": "",
+      "player": "",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Second Half begins Brazil 1, Morocco 1.",
+      "type_cn": "全场结束",
+      "team_cn": "",
+      "description_cn": "全场比赛结束 🏁"
+    },
+    {
+      "type": "substitution",
+      "minute": "61'",
+      "team": "Brazil",
+      "player": "Matheus Cunha Substitution",
+      "player_in": "Matheus Cunha",
+      "player_out": "Lucas Paquetá",
+      "assist": "",
+      "text": "Substitution, Brazil. Matheus Cunha replaces Lucas Paquetá.",
+      "type_cn": "换人",
+      "team_cn": "巴西",
+      "description_cn": "61'' Matheus Cunha ↑ 替补登场，Lucas Paquetá ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "62'",
+      "team": "Brazil",
+      "player": "Luiz Henrique Substitution",
+      "player_in": "Luiz Henrique",
+      "player_out": "Igor Thiago",
+      "assist": "",
+      "text": "Substitution, Brazil. Luiz Henrique replaces Igor Thiago.",
+      "type_cn": "换人",
+      "team_cn": "巴西",
+      "description_cn": "62'' Luiz Henrique ↑ 替补登场，Igor Thiago ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "65'",
+      "team": "Morocco",
+      "player": "Samir El Mourabet Substitution",
+      "player_in": "Samir El Mourabet",
+      "player_out": "Azzedine Ounahi",
+      "assist": "",
+      "text": "Substitution, Morocco. Samir El Mourabet replaces Azzedine Ounahi.",
+      "type_cn": "换人",
+      "team_cn": "摩洛哥",
+      "description_cn": "65'' Samir El Mourabet ↑ 替补登场，Azzedine Ounahi ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "65'",
+      "team": "Morocco",
+      "player": "Chemsdine Talbi Substitution",
+      "player_in": "Chemsdine Talbi",
+      "player_out": "Brahim Díaz",
+      "assist": "",
+      "text": "Substitution, Morocco. Chemsdine Talbi replaces Brahim Díaz.",
+      "type_cn": "换人",
+      "team_cn": "摩洛哥",
+      "description_cn": "65'' Chemsdine Talbi ↑ 替补登场，Brahim Díaz ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "80'",
+      "team": "Morocco",
+      "player": "Anass Salah-Eddine Substitution",
+      "player_in": "Anass Salah-Eddine",
+      "player_out": "Noussair Mazraoui",
+      "assist": "",
+      "text": "Substitution, Morocco. Anass Salah-Eddine replaces Noussair Mazraoui.",
+      "type_cn": "换人",
+      "team_cn": "摩洛哥",
+      "description_cn": "80'' Anass Salah-Eddine ↑ 替补登场，Noussair Mazraoui ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "80'",
+      "team": "Morocco",
+      "player": "Ayoube Amaimouni Substitution",
+      "player_in": "Ayoube Amaimouni",
+      "player_out": "Bilal El Khannouss",
+      "assist": "",
+      "text": "Substitution, Morocco. Ayoube Amaimouni-Echghouyab replaces Bilal El Khannouss.",
+      "type_cn": "换人",
+      "team_cn": "摩洛哥",
+      "description_cn": "80'' Ayoube Amaimouni ↑ 替补登场，Bilal El Khannouss ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "80'",
+      "team": "Brazil",
+      "player": "Danilo Santos Substitution",
+      "player_in": "Danilo Santos",
+      "player_out": "Bruno Guimarães",
+      "assist": "",
+      "text": "Substitution, Brazil. Danilo Santos replaces Bruno Guimarães.",
+      "type_cn": "换人",
+      "team_cn": "巴西",
+      "description_cn": "80'' Danilo Santos ↑ 替补登场，Bruno Guimarães ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "89'",
+      "team": "Morocco",
+      "player": "Soufiane Rahimi Substitution",
+      "player_in": "Soufiane Rahimi",
+      "player_out": "Ismael Saibari",
+      "assist": "",
+      "text": "Substitution, Morocco. Soufiane Rahimi replaces Ismael Saibari.",
+      "type_cn": "换人",
+      "team_cn": "摩洛哥",
+      "description_cn": "89'' Soufiane Rahimi ↑ 替补登场，Ismael Saibari ↓ 被换下"
+    },
+    {
+      "type": "83",
+      "minute": "90'+12'",
+      "team": "",
+      "player": "",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "",
+      "type_cn": "83",
+      "team_cn": "",
+      "description_cn": ""
+    }
+  ],
   "statistics": {
     "home": {
       "team_name": "Brazil",
-      "stats": {},
+      "stats": {
+        "foulsCommitted": {
+          "label": "Fouls",
+          "value": "16",
+          "label_cn": "犯规"
+        },
+        "yellowCards": {
+          "label": "Yellow Cards",
+          "value": "2",
+          "label_cn": "黄牌"
+        },
+        "redCards": {
+          "label": "Red Cards",
+          "value": "0",
+          "label_cn": "红牌"
+        },
+        "offsides": {
+          "label": "Offsides",
+          "value": "0",
+          "label_cn": "越位"
+        },
+        "wonCorners": {
+          "label": "Corner Kicks",
+          "value": "6",
+          "label_cn": "角球"
+        },
+        "saves": {
+          "label": "Saves",
+          "value": "2",
+          "label_cn": "扑救"
+        },
+        "possessionPct": {
+          "label": "Possession",
+          "value": "51.4",
+          "label_cn": "控球率"
+        },
+        "totalShots": {
+          "label": "SHOTS",
+          "value": "12",
+          "label_cn": "总射门"
+        },
+        "shotsOnTarget": {
+          "label": "ON GOAL",
+          "value": "5",
+          "label_cn": "射正"
+        },
+        "shotPct": {
+          "label": "On Target %",
+          "value": "0.4",
+          "label_cn": "射正率"
+        },
+        "penaltyKickGoals": {
+          "label": "Penalty Goals",
+          "value": "0",
+          "label_cn": "点球进球"
+        },
+        "penaltyKickShots": {
+          "label": "Penalty Kicks Taken",
+          "value": "0",
+          "label_cn": "点球次数"
+        },
+        "accuratePasses": {
+          "label": "Accurate Passes",
+          "value": "449",
+          "label_cn": "精准传球"
+        },
+        "totalPasses": {
+          "label": "Passes",
+          "value": "514",
+          "label_cn": "传球"
+        },
+        "passPct": {
+          "label": "Pass Completion %",
+          "value": "0.9",
+          "label_cn": "传球成功率"
+        },
+        "accurateCrosses": {
+          "label": "Accurate Crosses",
+          "value": "4",
+          "label_cn": "精准传中"
+        },
+        "totalCrosses": {
+          "label": "Crosses",
+          "value": "16",
+          "label_cn": "传中"
+        },
+        "crossPct": {
+          "label": "Cross %",
+          "value": "0.3",
+          "label_cn": "传中成功率"
+        },
+        "totalLongBalls": {
+          "label": "Long Balls",
+          "value": "36",
+          "label_cn": "长传"
+        },
+        "accurateLongBalls": {
+          "label": "Accurate Long Balls",
+          "value": "18",
+          "label_cn": "精准长传"
+        },
+        "longballPct": {
+          "label": "Long Balls %",
+          "value": "0.5",
+          "label_cn": "长传成功率"
+        },
+        "blockedShots": {
+          "label": "Blocked Shots",
+          "value": "3",
+          "label_cn": "封堵射门"
+        },
+        "effectiveTackles": {
+          "label": "Effective Tackles",
+          "value": "13",
+          "label_cn": "有效抢断"
+        },
+        "totalTackles": {
+          "label": "Tackles",
+          "value": "23",
+          "label_cn": "抢断"
+        },
+        "tacklePct": {
+          "label": "Tackle %",
+          "value": "0.6",
+          "label_cn": "抢断成功率"
+        },
+        "interceptions": {
+          "label": "Interceptions",
+          "value": "5",
+          "label_cn": "拦截"
+        },
+        "effectiveClearance": {
+          "label": "Effective Clearances",
+          "value": "23",
+          "label_cn": "有效解围"
+        },
+        "totalClearance": {
+          "label": "Clearances",
+          "value": "23",
+          "label_cn": "解围"
+        }
+      },
       "team_name_cn": "巴西"
     },
     "away": {
       "team_name": "Morocco",
-      "stats": {},
+      "stats": {
+        "foulsCommitted": {
+          "label": "Fouls",
+          "value": "14",
+          "label_cn": "犯规"
+        },
+        "yellowCards": {
+          "label": "Yellow Cards",
+          "value": "0",
+          "label_cn": "黄牌"
+        },
+        "redCards": {
+          "label": "Red Cards",
+          "value": "0",
+          "label_cn": "红牌"
+        },
+        "offsides": {
+          "label": "Offsides",
+          "value": "1",
+          "label_cn": "越位"
+        },
+        "wonCorners": {
+          "label": "Corner Kicks",
+          "value": "2",
+          "label_cn": "角球"
+        },
+        "saves": {
+          "label": "Saves",
+          "value": "4",
+          "label_cn": "扑救"
+        },
+        "possessionPct": {
+          "label": "Possession",
+          "value": "48.6",
+          "label_cn": "控球率"
+        },
+        "totalShots": {
+          "label": "SHOTS",
+          "value": "14",
+          "label_cn": "总射门"
+        },
+        "shotsOnTarget": {
+          "label": "ON GOAL",
+          "value": "3",
+          "label_cn": "射正"
+        },
+        "shotPct": {
+          "label": "On Target %",
+          "value": "0.2",
+          "label_cn": "射正率"
+        },
+        "penaltyKickGoals": {
+          "label": "Penalty Goals",
+          "value": "0",
+          "label_cn": "点球进球"
+        },
+        "penaltyKickShots": {
+          "label": "Penalty Kicks Taken",
+          "value": "0",
+          "label_cn": "点球次数"
+        },
+        "accuratePasses": {
+          "label": "Accurate Passes",
+          "value": "419",
+          "label_cn": "精准传球"
+        },
+        "totalPasses": {
+          "label": "Passes",
+          "value": "486",
+          "label_cn": "传球"
+        },
+        "passPct": {
+          "label": "Pass Completion %",
+          "value": "0.9",
+          "label_cn": "传球成功率"
+        },
+        "accurateCrosses": {
+          "label": "Accurate Crosses",
+          "value": "2",
+          "label_cn": "精准传中"
+        },
+        "totalCrosses": {
+          "label": "Crosses",
+          "value": "15",
+          "label_cn": "传中"
+        },
+        "crossPct": {
+          "label": "Cross %",
+          "value": "0.1",
+          "label_cn": "传中成功率"
+        },
+        "totalLongBalls": {
+          "label": "Long Balls",
+          "value": "52",
+          "label_cn": "长传"
+        },
+        "accurateLongBalls": {
+          "label": "Accurate Long Balls",
+          "value": "17",
+          "label_cn": "精准长传"
+        },
+        "longballPct": {
+          "label": "Long Balls %",
+          "value": "0.3",
+          "label_cn": "长传成功率"
+        },
+        "blockedShots": {
+          "label": "Blocked Shots",
+          "value": "6",
+          "label_cn": "封堵射门"
+        },
+        "effectiveTackles": {
+          "label": "Effective Tackles",
+          "value": "18",
+          "label_cn": "有效抢断"
+        },
+        "totalTackles": {
+          "label": "Tackles",
+          "value": "26",
+          "label_cn": "抢断"
+        },
+        "tacklePct": {
+          "label": "Tackle %",
+          "value": "0.7",
+          "label_cn": "抢断成功率"
+        },
+        "interceptions": {
+          "label": "Interceptions",
+          "value": "5",
+          "label_cn": "拦截"
+        },
+        "effectiveClearance": {
+          "label": "Effective Clearances",
+          "value": "17",
+          "label_cn": "有效解围"
+        },
+        "totalClearance": {
+          "label": "Clearances",
+          "value": "17",
+          "label_cn": "解围"
+        }
+      },
       "team_name_cn": "摩洛哥"
     }
   },
-  "_saved_at": "2026-06-14T00:47:03.048377"
+  "lineups": {
+    "home": {
+      "formation": "4-2-3-1",
+      "starters": [
+        {
+          "id": "196876",
+          "name": "Alisson Becker",
+          "short_name": "A. Becker",
+          "jersey": "1",
+          "position": "G",
+          "position_name": "Goalkeeper",
+          "starter": true,
+          "formation_place": "1",
+          "active": true
+        },
+        {
+          "id": "231050",
+          "name": "Raphinha",
+          "short_name": "Raphinha",
+          "jersey": "11",
+          "position": "M",
+          "position_name": "Attacking Midfielder",
+          "starter": true,
+          "formation_place": "10",
+          "active": true
+        },
+        {
+          "id": "252107",
+          "name": "Vinícius Júnior",
+          "short_name": "Vinícius Júnior",
+          "jersey": "7",
+          "position": "M",
+          "position_name": "Attacking Midfielder Left",
+          "starter": true,
+          "formation_place": "11",
+          "active": true
+        },
+        {
+          "id": "259835",
+          "name": "Roger Ibañez",
+          "short_name": "R. Ibañez",
+          "jersey": "24",
+          "position": "D",
+          "position_name": "Right Back",
+          "starter": true,
+          "formation_place": "2",
+          "active": true
+        },
+        {
+          "id": "186575",
+          "name": "Douglas Santos",
+          "short_name": "D. Santos",
+          "jersey": "16",
+          "position": "D",
+          "position_name": "Left Back",
+          "starter": true,
+          "formation_place": "3",
+          "active": true
+        },
+        {
+          "id": "218522",
+          "name": "Bruno Guimarães",
+          "short_name": "B. Guimarães",
+          "jersey": "8",
+          "position": "M",
+          "position_name": "Left Midfielder",
+          "starter": true,
+          "formation_place": "4",
+          "active": true
+        },
+        {
+          "id": "159047",
+          "name": "Marquinhos",
+          "short_name": "Marquinhos",
+          "jersey": "4",
+          "position": "D",
+          "position_name": "Center Right Defender",
+          "starter": true,
+          "formation_place": "5",
+          "active": true
+        },
+        {
+          "id": "236322",
+          "name": "Gabriel Magalhães",
+          "short_name": "G. Magalhães",
+          "jersey": "3",
+          "position": "D",
+          "position_name": "Center Left Defender",
+          "starter": true,
+          "formation_place": "6",
+          "active": true
+        },
+        {
+          "id": "234715",
+          "name": "Lucas Paquetá",
+          "short_name": "L. Paquetá",
+          "jersey": "20",
+          "position": "M",
+          "position_name": "Attacking Midfielder Right",
+          "starter": true,
+          "formation_place": "7",
+          "active": true
+        },
+        {
+          "id": "173666",
+          "name": "Casemiro",
+          "short_name": "Casemiro",
+          "jersey": "5",
+          "position": "M",
+          "position_name": "Right Midfielder",
+          "starter": true,
+          "formation_place": "8",
+          "active": true
+        },
+        {
+          "id": "301894",
+          "name": "Igor Thiago",
+          "short_name": "I. Thiago",
+          "jersey": "25",
+          "position": "F",
+          "position_name": "Forward",
+          "starter": true,
+          "formation_place": "9",
+          "active": true
+        }
+      ],
+      "substitutes": [
+        {
+          "id": "259902",
+          "name": "Matheus Cunha",
+          "short_name": "M. Cunha",
+          "jersey": "9",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "176948",
+          "name": "Ederson",
+          "short_name": "Ederson",
+          "jersey": "23",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "357719",
+          "name": "Rayan",
+          "short_name": "Rayan",
+          "jersey": "26",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "145405",
+          "name": "Léo Pereira",
+          "short_name": "L. Pereira",
+          "jersey": "15",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "176287",
+          "name": "Fabinho",
+          "short_name": "Fabinho",
+          "jersey": "17",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "278210",
+          "name": "Éderson",
+          "short_name": "Éderson",
+          "jersey": "2",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "304215",
+          "name": "Luiz Henrique",
+          "short_name": "L. Henrique",
+          "jersey": "21",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "269844",
+          "name": "Gabriel Martinelli",
+          "short_name": "G. Martinelli",
+          "jersey": "22",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "170369",
+          "name": "Danilo",
+          "short_name": "Danilo",
+          "jersey": "13",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "125514",
+          "name": "Alex Sandro",
+          "short_name": "Alex Sandro",
+          "jersey": "6",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "346612",
+          "name": "Endrick",
+          "short_name": "Endrick",
+          "jersey": "19",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "306764",
+          "name": "Danilo Santos",
+          "short_name": "D. Santos",
+          "jersey": "18",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "258307",
+          "name": "Bremer",
+          "short_name": "Bremer",
+          "jersey": "14",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "198983",
+          "name": "Weverton",
+          "short_name": "Weverton",
+          "jersey": "12",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "starters": [
+        {
+          "id": "175149",
+          "name": "Yassine Bounou",
+          "short_name": "Y. Bounou",
+          "jersey": "1",
+          "position": "G",
+          "position_name": "Goalkeeper",
+          "starter": true,
+          "formation_place": "1",
+          "active": true
+        },
+        {
+          "id": "291552",
+          "name": "Azzedine Ounahi",
+          "short_name": "A. Ounahi",
+          "jersey": "8",
+          "position": "M",
+          "position_name": "Attacking Midfielder",
+          "starter": true,
+          "formation_place": "10",
+          "active": true
+        },
+        {
+          "id": "336595",
+          "name": "Bilal El Khannouss",
+          "short_name": "B. El Khannouss",
+          "jersey": "23",
+          "position": "M",
+          "position_name": "Attacking Midfielder Left",
+          "starter": true,
+          "formation_place": "11",
+          "active": true
+        },
+        {
+          "id": "240233",
+          "name": "Achraf Hakimi",
+          "short_name": "A. Hakimi",
+          "jersey": "2",
+          "position": "D",
+          "position_name": "Right Back",
+          "starter": true,
+          "formation_place": "2",
+          "active": true
+        },
+        {
+          "id": "239350",
+          "name": "Noussair Mazraoui",
+          "short_name": "N. Mazraoui",
+          "jersey": "3",
+          "position": "D",
+          "position_name": "Left Back",
+          "starter": true,
+          "formation_place": "3",
+          "active": true
+        },
+        {
+          "id": "373927",
+          "name": "Ayyoub Bouaddi",
+          "short_name": "A. Bouaddi",
+          "jersey": "6",
+          "position": "M",
+          "position_name": "Left Midfielder",
+          "starter": true,
+          "formation_place": "4",
+          "active": true
+        },
+        {
+          "id": "230963",
+          "name": "Issa Diop",
+          "short_name": "I. Diop",
+          "jersey": "14",
+          "position": "D",
+          "position_name": "Center Right Defender",
+          "starter": true,
+          "formation_place": "5",
+          "active": true
+        },
+        {
+          "id": "307870",
+          "name": "Chadi Riad",
+          "short_name": "C. Riad",
+          "jersey": "18",
+          "position": "D",
+          "position_name": "Center Left Defender",
+          "starter": true,
+          "formation_place": "6",
+          "active": true
+        },
+        {
+          "id": "246532",
+          "name": "Brahim Díaz",
+          "short_name": "B. Díaz",
+          "jersey": "10",
+          "position": "M",
+          "position_name": "Attacking Midfielder Right",
+          "starter": true,
+          "formation_place": "7",
+          "active": true
+        },
+        {
+          "id": "323807",
+          "name": "Neil El Aynaoui",
+          "short_name": "N. El Aynaoui",
+          "jersey": "24",
+          "position": "M",
+          "position_name": "Right Midfielder",
+          "starter": true,
+          "formation_place": "8",
+          "active": true
+        },
+        {
+          "id": "304572",
+          "name": "Ismael Saibari",
+          "short_name": "I. Saibari",
+          "jersey": "11",
+          "position": "F",
+          "position_name": "Forward",
+          "starter": true,
+          "formation_place": "9",
+          "active": true
+        }
+      ],
+      "substitutes": [
+        {
+          "id": "195240",
+          "name": "Ahmed Reda Tagnaouti",
+          "short_name": "A. Tagnaouti",
+          "jersey": "22",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "314388",
+          "name": "Amine Sbaï",
+          "short_name": "A. Sbaï",
+          "jersey": "17",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "360062",
+          "name": "Chemsdine Talbi",
+          "short_name": "C. Talbi",
+          "jersey": "7",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "276139",
+          "name": "Soufiane Rahimi",
+          "short_name": "S. Rahimi",
+          "jersey": "9",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "416636",
+          "name": "Ayoube Amaimouni",
+          "short_name": "A. Amaimouni",
+          "jersey": "21",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "379012",
+          "name": "Gessime Yassine",
+          "short_name": "G. Yassine",
+          "jersey": "16",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "378491",
+          "name": "Samir El Mourabet",
+          "short_name": "S. El Mourabet",
+          "jersey": "15",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "297296",
+          "name": "Anass Salah-Eddine",
+          "short_name": "A. Salah-Eddine",
+          "jersey": "26",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "269562",
+          "name": "Ayoub El Kaabi",
+          "short_name": "A. El Kaabi",
+          "jersey": "20",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "230430",
+          "name": "Marwane Saadane",
+          "short_name": "M. Saadane",
+          "jersey": "5",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "195226",
+          "name": "Sofyan Amrabat",
+          "short_name": "S. Amrabat",
+          "jersey": "4",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "393692",
+          "name": "Youssef Belammari",
+          "short_name": "Y. Belammari",
+          "jersey": "19",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "325024",
+          "name": "Zakaria El Ouahdi",
+          "short_name": "Z. El Ouahdi",
+          "jersey": "13",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "206232",
+          "name": "Munir El Kajoui",
+          "short_name": "M. El Kajoui",
+          "jersey": "12",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "328300",
+          "name": "Redouane Halhal",
+          "short_name": "R. Halhal",
+          "jersey": "25",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        }
+      ]
+    }
+  },
+  "competition_id": "760419",
+  "_saved_at": "2026-06-15T15:45:30.513631"
 }

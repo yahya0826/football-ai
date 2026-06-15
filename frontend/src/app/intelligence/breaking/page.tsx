@@ -2,30 +2,44 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import api, { BreakingNewsItem } from '@/lib/api';
+import api, { InjuriesResponse } from '@/lib/api';
+
+const FLAGS: Record<string, string> = {
+  'Argentina': '🇦🇷', 'Brazil': '🇧🇷', 'Germany': '🇩🇪', 'Spain': '🇪🇸',
+  'France': '🇫🇷', 'England': '🏴󠁧󠁢󠁥󠁮󠁧󠁿', 'Netherlands': '🇳🇱', 'Portugal': '🇵🇹',
+  'Belgium': '🇧🇪', 'Italy': '🇮🇹', 'Croatia': '🇭🇷', 'Uruguay': '🇺🇾',
+};
+
+function getFlag(team: string): string {
+  return FLAGS[team] || '🏳️';
+}
+
+function getStatusBadge(status: string): { bg: string; color: string } {
+  switch (status) {
+    case 'out': return { bg: 'rgba(239,68,68,0.12)', color: '#ef4444' };
+    case 'doubtful': return { bg: 'rgba(245,158,11,0.12)', color: '#f59e0b' };
+    case 'probable': return { bg: 'rgba(34,197,94,0.12)', color: '#22c55e' };
+    default: return { bg: 'rgba(148,163,184,0.1)', color: '#94a3b8' };
+  }
+}
 
 export default function BreakingNewsPage() {
-  const [news, setNews] = useState<BreakingNewsItem[]>([]);
+  const [data, setData] = useState<InjuriesResponse | null>(null);
   const [loading, setLoading] = useState(true);
-  const [urgencyFilter, setUrgencyFilter] = useState('all');
 
   useEffect(() => {
     async function load() {
       try {
-        const data = await api.getBreakingNews(20);
-        setNews(data.news);
+        const result = await api.getInjuryIntel();
+        setData(result);
       } catch (err) {
-        console.error('Failed to load breaking news:', err);
+        console.error('Failed to load injury intel:', err);
       } finally {
         setLoading(false);
       }
     }
     load();
   }, []);
-
-  const filtered = urgencyFilter === 'all'
-    ? news
-    : news.filter(n => n.urgency === urgencyFilter);
 
   if (loading) {
     return (
@@ -34,6 +48,8 @@ export default function BreakingNewsPage() {
       </div>
     );
   }
+
+  const teams = data?.teams ? Object.entries(data.teams) : [];
 
   return (
     <div className="min-h-screen py-4 md:py-8">
@@ -47,79 +63,71 @@ export default function BreakingNewsPage() {
 
         <h1 className="page-title text-3xl mb-8 text-center">临哨快讯</h1>
 
-        {/* Filter */}
-        <div className="flex gap-2 mb-6">
-          {[
-            ['all', '全部'],
-            ['high', '重要'],
-            ['medium', '关注'],
-            ['low', '一般'],
-          ].map(([key, label]) => (
-            <button
-              key={key}
-              className={`tab ${urgencyFilter === key ? 'active' : ''}`}
-              onClick={() => setUrgencyFilter(key)}
-            >
-              {label}
-            </button>
-          ))}
-        </div>
+        {data?.last_updated && (
+          <p className="text-center text-sm mb-6" style={{ color: 'var(--text-muted)' }}>
+            最后更新：{new Date(data.last_updated).toLocaleString('zh-CN')}
+          </p>
+        )}
 
-        {/* News Feed */}
-        <div className="space-y-3">
-          {filtered.map((item) => (
-            <div key={item.id} className="card">
-              <div className="flex items-start gap-4">
-                {item.type === 'lineup' && <span className="text-2xl">📋</span>}
-                {item.type === 'injury' && <span className="text-2xl">🏥</span>}
-                {item.type === 'weather' && <span className="text-2xl">🌤️</span>}
-                {item.type === 'tactical' && <span className="text-2xl">📊</span>}
-
-                <div className="flex-1">
-                  <div className="flex items-center gap-2 mb-1">
-                    <span className={`badge ${item.urgency === 'high' ? 'badge-primary' : item.urgency === 'medium' ? 'badge-accent' : 'badge-secondary'}`}>
-                      {item.urgency === 'high' ? '重要' : item.urgency === 'medium' ? '关注' : '一般'}
-                    </span>
-                    <span className="text-xs" style={{ color: 'var(--text-muted)' }}>
-                      {item.type === 'lineup' ? '阵容' :
-                       item.type === 'injury' ? '伤病' :
-                       item.type === 'weather' ? '天气' : '战术'}
-                    </span>
-                    {item.source && (
-                      <span className="text-xs" style={{ color: 'var(--text-muted)' }}>
-                        来源: {item.source}
-                      </span>
-                    )}
-                  </div>
-                  <h3 className="font-bold text-lg">{item.title}</h3>
-                  <p className="text-sm mt-1" style={{ color: 'var(--text-muted)' }}>{item.content}</p>
-                </div>
+        <div className="space-y-4">
+          {teams.map(([key, team]) => (
+            <div key={key} className="card">
+              <div className="flex items-center gap-2 mb-3">
+                <span className="text-xl">{getFlag(key)}</span>
+                <h2 className="font-bold text-lg">{team.name_cn || key}</h2>
+                {team.injuries && team.injuries.length > 0 && (
+                  <span className="badge" style={{ background: 'rgba(239,68,68,0.12)', color: '#ef4444' }}>
+                    {team.injuries.length}人伤病
+                  </span>
+                )}
               </div>
 
-              <div className="flex justify-between items-center mt-3">
-                <span className="text-xs" style={{ color: 'var(--text-muted)' }}>
-                  {new Date(item.timestamp).toLocaleString('zh-CN')}
-                </span>
-                <div className="flex gap-2">
-                  {item.verified !== undefined && (
-                    <span className={`badge ${item.verified ? 'badge-primary' : 'badge-accent'} text-xs`}>
-                      {item.verified ? '已确认' : '待确认'}
-                    </span>
-                  )}
-                  {item.match_id && (
-                    <Link href={`/matches/${item.match_id}`} className="text-xs" style={{ color: 'var(--primary)' }}>
-                      查看比赛
-                    </Link>
-                  )}
+              {/* 预测阵容 */}
+              {team.predicted_lineup?.formation && (
+                <div className="mb-3">
+                  <span className="text-sm font-bold">阵型：</span>
+                  <span className="badge badge-secondary">{team.predicted_lineup.formation}</span>
                 </div>
-              </div>
+              )}
+
+              {/* 伤病列表 */}
+              {team.injuries && team.injuries.length > 0 && (
+                <div className="space-y-2">
+                  {team.injuries.map((inj, i) => {
+                    const badge = getStatusBadge(inj.status);
+                    return (
+                      <div key={i} className="flex items-center gap-2 text-sm p-2 rounded" style={{ background: 'var(--card-bg)' }}>
+                        <span className="font-medium">{inj.player_cn || inj.player}</span>
+                        <span style={{
+                          padding: '0.1rem 0.4rem', borderRadius: '0.2rem',
+                          background: badge.bg, color: badge.color,
+                          fontSize: '0.7rem', fontWeight: 600,
+                        }}>
+                          {inj.status_cn}
+                        </span>
+                        <span style={{ color: 'var(--text-muted)' }}>{inj.detail}</span>
+                      </div>
+                    );
+                  })}
+                </div>
+              )}
+
+              {(!team.injuries || team.injuries.length === 0) && (
+                <p className="text-sm" style={{ color: 'var(--text-muted)' }}>无伤病报告</p>
+              )}
+
+              {team.recent_form && (
+                <p className="text-sm mt-2" style={{ color: 'var(--text-muted)' }}>
+                  📊 {team.recent_form}
+                </p>
+              )}
             </div>
           ))}
         </div>
 
-        {filtered.length === 0 && (
+        {teams.length === 0 && (
           <div className="text-center py-12">
-            <p style={{ color: 'var(--text-muted)' }}>暂无快讯</p>
+            <p style={{ color: 'var(--text-muted)' }}>暂无快讯数据</p>
           </div>
         )}
       </div>

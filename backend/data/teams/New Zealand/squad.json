@@ -11,7 +11,8 @@
       "club": "Millwall",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "马克斯·克罗科姆"
     },
     {
       "id": "tim-payne",
@@ -22,7 +23,8 @@
       "club": "Wellington Phoenix",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "蒂姆·佩恩"
     },
     {
       "id": "francis-de-vries",
@@ -33,7 +35,8 @@
       "club": "Auckland FC",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "弗朗西斯·德弗里斯"
     },
     {
       "id": "tyler-bindon",
@@ -44,7 +47,8 @@
       "club": "Sheffield United",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "泰勒·宾登"
     },
     {
       "id": "michael-boxall",
@@ -55,7 +59,8 @@
       "club": "Minnesota United FC",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "米切尔·伯克萨尔"
     },
     {
       "id": "joe-bell",
@@ -66,7 +71,8 @@
       "club": "Viking",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "乔·贝尔"
     },
     {
       "id": "matthew-garbett",
@@ -88,7 +94,8 @@
       "club": "Swansea City",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "马科·斯塔梅尼奇"
     },
     {
       "id": "chris-wood",
@@ -99,7 +106,8 @@
       "club": "Nottingham Forest",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "克里斯·伍德"
     },
     {
       "id": "sarpreet-singh",
@@ -110,7 +118,8 @@
       "club": "Wellington Phoenix",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "萨普里特·辛格"
     },
     {
       "id": "elijah-just",
@@ -132,7 +141,8 @@
       "club": "Lechia Gdańsk",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "亚历克斯·保尔森"
     },
     {
       "id": "liberato-cacace",
@@ -143,7 +153,8 @@
       "club": "Wrexham",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "利贝拉托·卡卡塞"
     },
     {
       "id": "alex-rufer",
@@ -154,7 +165,8 @@
       "club": "Wellington Phoenix",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "亚历克斯·鲁费"
     },
     {
       "id": "nando-pijnaker",
@@ -165,7 +177,8 @@
       "club": "Auckland FC",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "南多·派纳克"
     },
     {
       "id": "finn-surman",
@@ -176,7 +189,8 @@
       "club": "Portland Timbers",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "芬·苏尔曼"
     },
     {
       "id": "kosta-barbarouses",
@@ -187,7 +201,8 @@
       "club": "Western Sydney Wanderers",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "科斯塔·巴巴洛塞斯"
     },
     {
       "id": "ben-waine",
@@ -198,7 +213,8 @@
       "club": "Port Vale",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "本·韦恩"
     },
     {
       "id": "ben-old",
@@ -209,7 +225,8 @@
       "club": "Saint-Étienne",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "本·奥尔德"
     },
     {
       "id": "callum-mccowatt",
@@ -220,7 +237,8 @@
       "club": "Silkeborg",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "卡勒姆·麦考瓦特"
     },
     {
       "id": "jesse-randall",
@@ -231,7 +249,8 @@
       "club": "Auckland FC",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "杰西·兰德尔"
     },
     {
       "id": "michael-woud",
@@ -242,7 +261,8 @@
       "club": "Auckland FC",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "迈克尔·沃德"
     },
     {
       "id": "ryan-thomas",
@@ -253,7 +273,8 @@
       "club": "PEC Zwolle",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "瑞安·托马斯"
     },
     {
       "id": "callan-elliot",
@@ -264,7 +285,8 @@
       "club": "Auckland FC",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "卡兰·埃利奥特"
     },
     {
       "id": "lachlan-bayliss",
@@ -275,7 +297,8 @@
       "club": "Newcastle Jets",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "拉克兰·贝利斯"
     },
     {
       "id": "tommy-smith",
@@ -286,7 +309,8 @@
       "club": "Braintree Town",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "汤米·史密斯"
     }
   ]
 }

@@ -11,7 +11,8 @@
       "club": "Liverpool",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "阿利松"
     },
     {
       "id": "wesley",
@@ -22,7 +23,8 @@
       "club": "Roma",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "韦斯利"
     },
     {
       "id": "gabriel-magalh-es",
@@ -33,7 +35,8 @@
       "club": "Arsenal",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "加布里埃尔·马加良斯"
     },
     {
       "id": "marquinhos",
@@ -44,7 +47,8 @@
       "club": "Paris Saint-Germain",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "马尔基尼奥斯"
     },
     {
       "id": "casemiro",
@@ -55,7 +59,8 @@
       "club": "Manchester United",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "卡塞米罗"
     },
     {
       "id": "alex-sandro",
@@ -66,7 +71,8 @@
       "club": "Flamengo",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "阿莱士·桑德罗"
     },
     {
       "id": "vin-cius-j-nior",
@@ -77,7 +83,8 @@
       "club": "Real Madrid",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "维尼修斯·儒尼奥尔"
     },
     {
       "id": "bruno-guimar-es",
@@ -88,7 +95,8 @@
       "club": "Newcastle United",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "布鲁诺·吉马良斯"
     },
     {
       "id": "matheus-cunha",
@@ -99,7 +107,8 @@
       "club": "Manchester United",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "马特乌斯·库尼亚"
     },
     {
       "id": "neymar",
@@ -110,7 +119,8 @@
       "club": "Santos",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "内马尔"
     },
     {
       "id": "raphinha",
@@ -121,7 +131,8 @@
       "club": "Barcelona",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "拉菲尼亚"
     },
     {
       "id": "weverton",
@@ -132,7 +143,8 @@
       "club": "Grêmio",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "韦弗顿"
     },
     {
       "id": "danilo-luiz",
@@ -154,7 +166,8 @@
       "club": "Juventus",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "布雷默"
     },
     {
       "id": "l-o-pereira",
@@ -165,7 +178,8 @@
       "club": "Flamengo",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "莱奥·佩雷拉"
     },
     {
       "id": "douglas-santos",
@@ -176,7 +190,8 @@
       "club": "Zenit Saint Petersburg",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "道格拉斯·桑托斯"
     },
     {
       "id": "fabinho",
@@ -187,7 +202,8 @@
       "club": "Al-Ittihad",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "法比尼奥"
     },
     {
       "id": "danilo-santos",
@@ -198,7 +214,8 @@
       "club": "Botafogo",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "达尼洛·桑托斯"
     },
     {
       "id": "endrick",
@@ -209,7 +226,8 @@
       "club": "Lyon",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "恩德里克"
     },
     {
       "id": "lucas-paquet",
@@ -220,7 +238,8 @@
       "club": "Flamengo",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "卢卡斯·帕奎塔"
     },
     {
       "id": "luiz-henrique",
@@ -231,7 +250,8 @@
       "club": "Zenit Saint Petersburg",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "路易斯·恩里克"
     },
     {
       "id": "gabriel-martinelli",
@@ -242,7 +262,8 @@
       "club": "Arsenal",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "加布里埃尔·马丁内利"
     },
     {
       "id": "ederson",
@@ -253,7 +274,8 @@
       "club": "Fenerbahçe",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "埃德森"
     },
     {
       "id": "roger-iba-ez",
@@ -264,7 +286,8 @@
       "club": "Al-Ahli",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "罗杰·伊巴涅斯"
     },
     {
       "id": "igor-thiago",
@@ -275,7 +298,8 @@
       "club": "Brentford",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "伊戈尔·蒂亚戈"
     },
     {
       "id": "rayan",
@@ -286,7 +310,8 @@
       "club": "Bournemouth",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "拉扬"
     }
   ]
 }

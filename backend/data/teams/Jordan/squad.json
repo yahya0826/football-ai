@@ -11,7 +11,8 @@
       "club": "Al-Hussein",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "亚奇德·阿布拉伊拉"
     },
     {
       "id": "mohammad-abu-hashish",
@@ -33,7 +34,8 @@
       "club": "Al-Zawraa",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "阿卜杜拉·纳西卜"
     },
     {
       "id": "husam-abu-dahab",
@@ -44,7 +46,8 @@
       "club": "Al-Faisaly",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "胡萨姆·阿布·达哈卜"
     },
     {
       "id": "yazan-al-arab",
@@ -55,7 +58,8 @@
       "club": "FC Seoul",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "亚赞·阿拉伯"
     },
     {
       "id": "amer-jamous",
@@ -66,7 +70,8 @@
       "club": "Al-Zawraa",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "阿米尔·贾穆斯"
     },
     {
       "id": "mohammad-abu-zrayq",
@@ -77,7 +82,8 @@
       "club": "Raja Casablanca",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "穆罕默德·阿布·兹雷克"
     },
     {
       "id": "noor-al-rawabdeh",
@@ -88,7 +94,8 @@
       "club": "Selangor",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "努尔·拉瓦比德"
     },
     {
       "id": "ali-olwan",
@@ -99,7 +106,8 @@
       "club": "Al-Sailiya",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "阿里·乌勒万"
     },
     {
       "id": "musa-al-taamari",
@@ -121,7 +129,8 @@
       "club": "Pyramids",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "乌达·法胡里"
     },
     {
       "id": "nour-bani-attiah",
@@ -143,7 +152,8 @@
       "club": "Al-Hussein",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "马赫穆德·马尔迪"
     },
     {
       "id": "rajaei-ayed",
@@ -154,7 +164,8 @@
       "club": "Al-Hussein",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "拉贾埃·阿伊德"
     },
     {
       "id": "ibrahim-sadeh",
@@ -165,7 +176,8 @@
       "club": "Al-Karma",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "易卜拉欣·萨德"
     },
     {
       "id": "mo-abualnadi",
@@ -198,7 +210,8 @@
       "club": "Lokomotiva Zagreb",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "易卜拉欣·萨卜拉"
     },
     {
       "id": "saed-al-rosan",
@@ -209,7 +222,8 @@
       "club": "Al-Hussein",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "赛义德·罗桑"
     },
     {
       "id": "mohannad-abu-taha",
@@ -220,7 +234,8 @@
       "club": "Al-Quwa Al-Jawiya",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "穆罕纳德·阿布·塔哈"
     },
     {
       "id": "nizar-al-rashdan",
@@ -231,7 +246,8 @@
       "club": "Qatar SC",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "尼扎尔·拉什丹"
     },
     {
       "id": "abdallah-al-fakhouri",
@@ -264,7 +280,8 @@
       "club": "Al-Shabab",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "阿里·阿扎伊泽"
     },
     {
       "id": "mohammad-al-dawoud",
@@ -286,7 +303,8 @@
       "club": "Al-Faisaly",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "阿纳斯·巴达维"
     }
   ]
 }

@@ -11,7 +11,8 @@
       "club": "Levante",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "马修·瑞安"
     },
     {
       "id": "milo--degenek",
@@ -22,7 +23,8 @@
       "club": "APOEL",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "米洛什·德格内克"
     },
     {
       "id": "alessandro-circati",
@@ -33,7 +35,8 @@
       "club": "Parma",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "亚历山德罗·奇尔卡蒂"
     },
     {
       "id": "jacob-italiano",
@@ -44,7 +47,8 @@
       "club": "GAK",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "雅各布·伊塔利亚诺"
     },
     {
       "id": "jordan-bos",
@@ -55,7 +59,8 @@
       "club": "Feyenoord",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "乔丹·博斯"
     },
     {
       "id": "jason-geria",
@@ -66,7 +71,8 @@
       "club": "Albirex Niigata",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "杰森·格里亚"
     },
     {
       "id": "mathew-leckie",
@@ -77,7 +83,8 @@
       "club": "Melbourne City",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "马修·莱基"
     },
     {
       "id": "connor-metcalfe",
@@ -88,7 +95,8 @@
       "club": "FC St. Pauli",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "康纳·梅特卡夫"
     },
     {
       "id": "mohamed-tour",
@@ -99,7 +107,8 @@
       "club": "Norwich City",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "穆罕默德·图雷"
     },
     {
       "id": "ajdin-hrustic",
@@ -110,7 +119,8 @@
       "club": "Heracles Almelo",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "艾丁·赫鲁斯蒂奇"
     },
     {
       "id": "awer-mabil",
@@ -121,7 +131,8 @@
       "club": "Castellón",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "阿韦尔·马比尔"
     },
     {
       "id": "paul-izzo",
@@ -132,7 +143,8 @@
       "club": "Randers",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "保罗·伊佐"
     },
     {
       "id": "aiden-o-neill",
@@ -143,7 +155,8 @@
       "club": "New York City FC",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "艾登·奥尼尔"
     },
     {
       "id": "cammy-devlin",
@@ -165,7 +178,8 @@
       "club": "New York City FC",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "凯·特雷温"
     },
     {
       "id": "aziz-behich",
@@ -176,7 +190,8 @@
       "club": "Melbourne City",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "阿齐兹·贝希奇"
     },
     {
       "id": "nestory-irankunda",
@@ -187,7 +202,8 @@
       "club": "Watford",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "内斯托里·伊兰昆达"
     },
     {
       "id": "patrick-beach",
@@ -198,7 +214,8 @@
       "club": "Melbourne City",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "帕特里克·比奇"
     },
     {
       "id": "harry-souttar",
@@ -209,7 +226,8 @@
       "club": "Leicester City",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "哈里·苏塔"
     },
     {
       "id": "cristian-volpato",
@@ -220,7 +238,8 @@
       "club": "Sassuolo",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "克里斯蒂安·沃尔帕托"
     },
     {
       "id": "cameron-burgess",
@@ -231,7 +250,8 @@
       "club": "Swansea City",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "卡梅伦·伯吉斯"
     },
     {
       "id": "jackson-irvine",
@@ -242,7 +262,8 @@
       "club": "FC St. Pauli",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "杰克逊·欧文"
     },
     {
       "id": "nishan-velupillay",
@@ -253,7 +274,8 @@
       "club": "Melbourne Victory",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "尼尚·维卢皮莱"
     },
     {
       "id": "paul-okon-engstler",
@@ -275,7 +297,8 @@
       "club": "Colorado Rapids",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "卢卡斯·赫林顿"
     },
     {
       "id": "tete-yengi",
@@ -286,7 +309,8 @@
       "club": "Machida Zelvia",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "特特·延吉"
     }
   ]
 }

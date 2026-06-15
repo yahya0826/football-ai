@@ -1,0 +1,338 @@
+{
+  "team_id": "2869",
+  "team_name": "Morocco",
+  "team_name_cn": "摩洛哥",
+  "coach": "摩洛哥主教练",
+  "players": {
+    "G": [
+      {
+        "id": "175149",
+        "name": "Yassine Bounou",
+        "short_name": "Y. Bounou",
+        "jersey": "1",
+        "position": "G",
+        "position_name": "Goalkeeper",
+        "headshot": "",
+        "height": "6' 4\"",
+        "weight": "170 lbs",
+        "age": 35
+      },
+      {
+        "id": "206232",
+        "name": "Munir El Kajoui",
+        "short_name": "M. El Kajoui",
+        "jersey": "12",
+        "position": "G",
+        "position_name": "Goalkeeper",
+        "headshot": "",
+        "height": "6' 3\"",
+        "weight": "172 lbs",
+        "age": 37
+      },
+      {
+        "id": "195240",
+        "name": "Ahmed Reda Tagnaouti",
+        "short_name": "A. Tagnaouti",
+        "jersey": "22",
+        "position": "G",
+        "position_name": "Goalkeeper",
+        "headshot": "",
+        "height": "6' 4\"",
+        "weight": "183 lbs",
+        "age": 30
+      }
+    ],
+    "D": [
+      {
+        "id": "240233",
+        "name": "Achraf Hakimi",
+        "short_name": "A. Hakimi",
+        "jersey": "2",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "5' 11\"",
+        "weight": "172 lbs",
+        "age": 27
+      },
+      {
+        "id": "239350",
+        "name": "Noussair Mazraoui",
+        "short_name": "N. Mazraoui",
+        "jersey": "3",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/239350.png",
+        "height": "6' 0\"",
+        "weight": "172 lbs",
+        "age": 28
+      },
+      {
+        "id": "245243",
+        "name": "Nayef Aguerd",
+        "short_name": "N. Aguerd",
+        "jersey": "5",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 3\"",
+        "weight": "174 lbs",
+        "age": 30
+      },
+      {
+        "id": "325024",
+        "name": "Zakaria El Ouahdi",
+        "short_name": "Z. El Ouahdi",
+        "jersey": "13",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "5' 7\"",
+        "weight": "150 lbs",
+        "age": 24
+      },
+      {
+        "id": "230963",
+        "name": "Issa Diop",
+        "short_name": "I. Diop",
+        "jersey": "14",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 4\"",
+        "weight": "192 lbs",
+        "age": 29
+      },
+      {
+        "id": "307870",
+        "name": "Chadi Riad",
+        "short_name": "C. Riad",
+        "jersey": "18",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 1\"",
+        "weight": "172 lbs",
+        "age": 22
+      },
+      {
+        "id": "393692",
+        "name": "Youssef Belammari",
+        "short_name": "Y. Belammari",
+        "jersey": "19",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "5' 9\"",
+        "weight": "152 lbs",
+        "age": 27
+      },
+      {
+        "id": "328300",
+        "name": "Redouane Halhal",
+        "short_name": "R. Halhal",
+        "jersey": "25",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 2\"",
+        "weight": "181 lbs",
+        "age": 23
+      },
+      {
+        "id": "297296",
+        "name": "Anass Salah-Eddine",
+        "short_name": "A. Salah-Eddine",
+        "jersey": "26",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/297296.png",
+        "height": "5' 11\"",
+        "weight": "146 lbs",
+        "age": 24
+      }
+    ],
+    "M": [
+      {
+        "id": "195226",
+        "name": "Sofyan Amrabat",
+        "short_name": "S. Amrabat",
+        "jersey": "4",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "6' 1\"",
+        "weight": "170 lbs",
+        "age": 29
+      },
+      {
+        "id": "373927",
+        "name": "Ayyoub Bouaddi",
+        "short_name": "A. Bouaddi",
+        "jersey": "6",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "6' 1\"",
+        "weight": "163 lbs",
+        "age": 18
+      },
+      {
+        "id": "291552",
+        "name": "Azzedine Ounahi",
+        "short_name": "A. Ounahi",
+        "jersey": "8",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "6' 0\"",
+        "weight": "141 lbs",
+        "age": 26
+      },
+      {
+        "id": "246532",
+        "name": "Brahim Díaz",
+        "short_name": "B. Díaz",
+        "jersey": "10",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "5' 7\"",
+        "weight": "150 lbs",
+        "age": 26
+      },
+      {
+        "id": "304572",
+        "name": "Ismael Saibari",
+        "short_name": "I. Saibari",
+        "jersey": "11",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/304572.png",
+        "height": "6' 1\"",
+        "weight": "179 lbs",
+        "age": 25
+      },
+      {
+        "id": "378491",
+        "name": "Samir El Mourabet",
+        "short_name": "S. El Mourabet",
+        "jersey": "15",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "6' 2\"",
+        "weight": "159 lbs",
+        "age": 20
+      },
+      {
+        "id": "336595",
+        "name": "Bilal El Khannouss",
+        "short_name": "B. El Khannouss",
+        "jersey": "23",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "5' 11\"",
+        "weight": "152 lbs",
+        "age": 22
+      },
+      {
+        "id": "323807",
+        "name": "Neil El Aynaoui",
+        "short_name": "N. El Aynaoui",
+        "jersey": "24",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "6' 1\"",
+        "weight": "174 lbs",
+        "age": 24
+      }
+    ],
+    "F": [
+      {
+        "id": "360062",
+        "name": "Chemsdine Talbi",
+        "short_name": "C. Talbi",
+        "jersey": "7",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "5' 9\"",
+        "weight": "152 lbs",
+        "age": 21
+      },
+      {
+        "id": "276139",
+        "name": "Soufiane Rahimi",
+        "short_name": "S. Rahimi",
+        "jersey": "9",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "5' 11\"",
+        "weight": "163 lbs",
+        "age": 30
+      },
+      {
+        "id": "379012",
+        "name": "Gessime Yassine",
+        "short_name": "G. Yassine",
+        "jersey": "16",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "5' 8\"",
+        "weight": "121 lbs",
+        "age": 20
+      },
+      {
+        "id": "300912",
+        "name": "Abde Ezzalzouli",
+        "short_name": "A. Ezzalzouli",
+        "jersey": "17",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "5' 10\"",
+        "weight": "161 lbs",
+        "age": 24
+      },
+      {
+        "id": "269562",
+        "name": "Ayoub El Kaabi",
+        "short_name": "A. El Kaabi",
+        "jersey": "20",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "6' 0\"",
+        "weight": "174 lbs",
+        "age": 32
+      },
+      {
+        "id": "416636",
+        "name": "Ayoube Amaimouni",
+        "short_name": "A. Amaimouni",
+        "jersey": "21",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "5' 10\"",
+        "weight": "152 lbs",
+        "age": 21
+      }
+    ],
+    "U": []
+  },
+  "total_players": 26,
+  "position_labels": {
+    "G": "门将",
+    "D": "后卫",
+    "M": "中场",
+    "F": "前锋",
+    "U": "未知"
+  },
+  "_saved_at": "2026-06-14T21:50:58.062805"
+}

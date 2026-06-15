@@ -11,7 +11,8 @@
       "club": "Arsenal",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "大卫·拉亚"
     },
     {
       "id": "marc-pubill",
@@ -22,7 +23,8 @@
       "club": "Atlético Madrid",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "马克·普维尔"
     },
     {
       "id": "lex-grimaldo",
@@ -44,7 +46,8 @@
       "club": "Barcelona",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "埃里克·加西亚"
     },
     {
       "id": "marcos-llorente",
@@ -55,7 +58,8 @@
       "club": "Atlético Madrid",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "马科斯·略伦特"
     },
     {
       "id": "mikel-merino",
@@ -66,7 +70,8 @@
       "club": "Arsenal",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "米克尔·梅里诺"
     },
     {
       "id": "ferran-torres",
@@ -77,7 +82,8 @@
       "club": "Barcelona",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "费兰·托雷斯"
     },
     {
       "id": "fabi-n-ruiz",
@@ -88,7 +94,8 @@
       "club": "Paris Saint-Germain",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "法维安·鲁伊斯"
     },
     {
       "id": "gavi",
@@ -99,7 +106,8 @@
       "club": "Barcelona",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "加维"
     },
     {
       "id": "dani-olmo",
@@ -110,7 +118,8 @@
       "club": "Barcelona",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "达尼·奥尔莫"
     },
     {
       "id": "y-remy-pino",
@@ -121,7 +130,8 @@
       "club": "Crystal Palace",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "耶雷米·皮诺"
     },
     {
       "id": "pedro-porro",
@@ -132,7 +142,8 @@
       "club": "Tottenham Hotspur",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "佩德罗·波罗"
     },
     {
       "id": "joan-garcia",
@@ -143,7 +154,8 @@
       "club": "Barcelona",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "胡安·加西亚"
     },
     {
       "id": "aymeric-laporte",
@@ -154,7 +166,8 @@
       "club": "Athletic Bilbao",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "埃梅里克·拉波尔特"
     },
     {
       "id": "lex-baena",
@@ -165,7 +178,8 @@
       "club": "Atlético Madrid",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "阿莱士·巴埃纳"
     },
     {
       "id": "rodri",
@@ -176,7 +190,8 @@
       "club": "Manchester City",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "罗德里"
     },
     {
       "id": "nico-williams",
@@ -187,7 +202,8 @@
       "club": "Athletic Bilbao",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "尼科·威廉姆斯"
     },
     {
       "id": "mart-n-zubimendi",
@@ -198,7 +214,8 @@
       "club": "Arsenal",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "马丁·苏维门迪"
     },
     {
       "id": "lamine-yamal",
@@ -209,7 +226,8 @@
       "club": "Barcelona",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "拉明·亚马尔"
     },
     {
       "id": "pedri",
@@ -220,7 +238,8 @@
       "club": "Barcelona",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "佩德里"
     },
     {
       "id": "mikel-oyarzabal",
@@ -231,7 +250,8 @@
       "club": "Real Sociedad",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "米克尔·奥亚萨瓦尔"
     },
     {
       "id": "pau-cubars",
@@ -242,7 +262,8 @@
       "club": "Barcelona",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "保·库巴西"
     },
     {
       "id": "unai-sim-n",
@@ -253,7 +274,8 @@
       "club": "Athletic Bilbao",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "乌奈·西蒙"
     },
     {
       "id": "marc-cucurella",
@@ -264,7 +286,8 @@
       "club": "Chelsea",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "马克·库库雷利亚"
     },
     {
       "id": "v-ctor-mu-oz",
@@ -275,7 +298,8 @@
       "club": "Osasuna",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "维克托·穆尼奥斯"
     },
     {
       "id": "borja-iglesias",
@@ -286,7 +310,8 @@
       "club": "Celta Vigo",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "博尔哈·伊格莱西亚斯"
     }
   ]
 }

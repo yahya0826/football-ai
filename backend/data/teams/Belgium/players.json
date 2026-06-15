@@ -65,7 +65,8 @@
         "xa_p90": 0.0,
         "key_passes_p90": 0.03
       },
-      "avatar": "/headshots/thibaut-courtois.jpg"
+      "avatar": "/headshots/thibaut-courtois.jpg",
+      "name_cn": "蒂博·库尔图瓦"
     },
     {
       "id": "zeno-debast",
@@ -126,7 +127,8 @@
         "xa_p90": 0.1,
         "key_passes_p90": 0.46
       },
-      "avatar": "/headshots/zeno-debast.jpg"
+      "avatar": "/headshots/zeno-debast.jpg",
+      "name_cn": "泽诺·德巴斯特"
     },
     {
       "id": "arthur-theate",
@@ -187,7 +189,8 @@
         "xa_p90": 0.05,
         "key_passes_p90": 0.5
       },
-      "avatar": "/headshots/arthur-theate.jpg"
+      "avatar": "/headshots/arthur-theate.jpg",
+      "name_cn": "阿蒂尔·泰特"
     },
     {
       "id": "brandon-mechele",
@@ -248,7 +251,8 @@
         "xa_p90": 0.04,
         "key_passes_p90": 0.58
       },
-      "avatar": "/headshots/brandon-mechele.jpg"
+      "avatar": "/headshots/brandon-mechele.jpg",
+      "name_cn": "布兰登·梅赫勒"
     },
     {
       "id": "maxim-de-cuyper",
@@ -309,7 +313,8 @@
         "xa_p90": 0.26,
         "key_passes_p90": 2.06
       },
-      "avatar": "/headshots/maxim-de-cuyper.jpg"
+      "avatar": "/headshots/maxim-de-cuyper.jpg",
+      "name_cn": "马克西姆·德克伊珀"
     },
     {
       "id": "axel-witsel",
@@ -370,7 +375,8 @@
         "xa_p90": 0.04,
         "key_passes_p90": 0.6
       },
-      "avatar": "/headshots/axel-witsel.jpg"
+      "avatar": "/headshots/axel-witsel.jpg",
+      "name_cn": "阿克塞尔·维特塞尔"
     },
     {
       "id": "kevin-de-bruyne",
@@ -416,7 +422,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/kevin-de-bruyne.jpg"
+      "avatar": "/headshots/kevin-de-bruyne.jpg",
+      "name_cn": "凯文·德布劳内"
     },
     {
       "id": "youri-tielemans",
@@ -477,7 +484,8 @@
         "xa_p90": 0.16,
         "key_passes_p90": 1.55
       },
-      "avatar": "/headshots/youri-tielemans.jpg"
+      "avatar": "/headshots/youri-tielemans.jpg",
+      "name_cn": "尤里·蒂勒曼斯"
     },
     {
       "id": "romelu-lukaku",
@@ -523,7 +531,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/romelu-lukaku.jpg"
+      "avatar": "/headshots/romelu-lukaku.jpg",
+      "name_cn": "罗梅卢·卢卡库"
     },
     {
       "id": "leandro-trossard",
@@ -584,7 +593,8 @@
         "xa_p90": 0.16,
         "key_passes_p90": 1.62
       },
-      "avatar": "/headshots/leandro-trossard.jpg"
+      "avatar": "/headshots/leandro-trossard.jpg",
+      "name_cn": "莱安德罗·特罗萨德"
     },
     {
       "id": "j-r-my-doku",
@@ -645,7 +655,8 @@
         "xa_p90": 0.31,
         "key_passes_p90": 3.03
       },
-      "avatar": "/headshots/j-r-my-doku.jpg"
+      "avatar": "/headshots/j-r-my-doku.jpg",
+      "name_cn": "热雷米·多库"
     },
     {
       "id": "senne-lammens",
@@ -709,7 +720,8 @@
         "xa_p90": 0.0,
         "key_passes_p90": 0.0
       },
-      "avatar": "/headshots/senne-lammens.jpg"
+      "avatar": "/headshots/senne-lammens.jpg",
+      "name_cn": "塞内·拉门斯"
     },
     {
       "id": "mike-penders",
@@ -773,7 +785,8 @@
         "xa_p90": 0.0,
         "key_passes_p90": 0.0
       },
-      "avatar": "/headshots/mike-penders.jpg"
+      "avatar": "/headshots/mike-penders.jpg",
+      "name_cn": "迈克·彭德斯"
     },
     {
       "id": "dodi-luk-bakio",
@@ -819,7 +832,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/dodi-luk-bakio.jpg"
+      "avatar": "/headshots/dodi-luk-bakio.jpg",
+      "name_cn": "多迪·卢克巴基奥"
     },
     {
       "id": "thomas-meunier",
@@ -880,7 +894,8 @@
         "xa_p90": 0.16,
         "key_passes_p90": 0.85
       },
-      "avatar": "/headshots/thomas-meunier.jpg"
+      "avatar": "/headshots/thomas-meunier.jpg",
+      "name_cn": "托马斯·默尼耶"
     },
     {
       "id": "koni-de-winter",
@@ -941,7 +956,8 @@
         "xa_p90": 0.02,
         "key_passes_p90": 0.25
       },
-      "avatar": "/headshots/koni-de-winter.jpg"
+      "avatar": "/headshots/koni-de-winter.jpg",
+      "name_cn": "科尼·德温特"
     },
     {
       "id": "charles-de-ketelaere",
@@ -1002,7 +1018,8 @@
         "xa_p90": 0.36,
         "key_passes_p90": 2.59
       },
-      "avatar": "/headshots/charles-de-ketelaere.jpg"
+      "avatar": "/headshots/charles-de-ketelaere.jpg",
+      "name_cn": "夏尔·德凯特拉雷"
     },
     {
       "id": "joaquin-seys",
@@ -1063,7 +1080,8 @@
         "xa_p90": 0.11,
         "key_passes_p90": 1.0
       },
-      "avatar": "/headshots/joaquin-seys.jpg"
+      "avatar": "/headshots/joaquin-seys.jpg",
+      "name_cn": "若阿金·塞斯"
     },
     {
       "id": "diego-moreira",
@@ -1124,7 +1142,8 @@
         "xa_p90": 0.17,
         "key_passes_p90": 1.68
       },
-      "avatar": "/headshots/diego-moreira.jpg"
+      "avatar": "/headshots/diego-moreira.jpg",
+      "name_cn": "迭戈·莫雷拉"
     },
     {
       "id": "hans-vanaken",
@@ -1185,7 +1204,8 @@
         "xa_p90": 0.21,
         "key_passes_p90": 1.79
       },
-      "avatar": "/headshots/hans-vanaken.jpg"
+      "avatar": "/headshots/hans-vanaken.jpg",
+      "name_cn": "汉斯·瓦纳肯"
     },
     {
       "id": "timothy-castagne",
@@ -1246,7 +1266,8 @@
         "xa_p90": 0.07,
         "key_passes_p90": 0.87
       },
-      "avatar": "/headshots/timothy-castagne.jpg"
+      "avatar": "/headshots/timothy-castagne.jpg",
+      "name_cn": "蒂莫西·卡斯塔涅"
     },
     {
       "id": "alexis-saelemaekers",
@@ -1307,7 +1328,8 @@
         "xa_p90": 0.16,
         "key_passes_p90": 1.67
       },
-      "avatar": "/headshots/alexis-saelemaekers.jpg"
+      "avatar": "/headshots/alexis-saelemaekers.jpg",
+      "name_cn": "亚历克西斯·萨勒梅克斯"
     },
     {
       "id": "nicolas-raskin",
@@ -1368,7 +1390,8 @@
         "xa_p90": 0.16,
         "key_passes_p90": 1.45
       },
-      "avatar": "/headshots/nicolas-raskin.jpg"
+      "avatar": "/headshots/nicolas-raskin.jpg",
+      "name_cn": "尼古拉·拉斯金"
     },
     {
       "id": "amadou-onana",
@@ -1414,7 +1437,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/amadou-onana.jpg"
+      "avatar": "/headshots/amadou-onana.jpg",
+      "name_cn": "阿马杜·奥纳纳"
     },
     {
       "id": "nathan-ngoy",
@@ -1475,7 +1499,8 @@
         "xa_p90": 0.04,
         "key_passes_p90": 0.15
       },
-      "avatar": "/headshots/nathan-ngoy.jpg"
+      "avatar": "/headshots/nathan-ngoy.jpg",
+      "name_cn": "纳坦·恩戈伊"
     },
     {
       "id": "matias-fernandez-pardo",
@@ -1521,7 +1546,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/matias-fernandez-pardo.jpg"
+      "avatar": "/headshots/matias-fernandez-pardo.jpg",
+      "name_cn": "马蒂亚斯·费尔南德斯"
     }
   ]
 }

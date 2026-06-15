@@ -62,7 +62,8 @@
           "physical": 90
         }
       },
-      "avatar": "/headshots/dominik-livakovic.jpg"
+      "avatar": "/headshots/dominik-livakovic.jpg",
+      "name_cn": "多米尼克·利瓦科维奇"
     },
     {
       "id": "ivor-pandur",
@@ -123,7 +124,8 @@
           "physical": 90
         }
       },
-      "avatar": "/headshots/ivor-pandur.jpg"
+      "avatar": "/headshots/ivor-pandur.jpg",
+      "name_cn": "伊沃尔·潘杜尔"
     },
     {
       "id": "dominik-kotarski",
@@ -184,7 +186,8 @@
           "physical": 90
         }
       },
-      "avatar": "/headshots/dominik-kotarski.jpg"
+      "avatar": "/headshots/dominik-kotarski.jpg",
+      "name_cn": "多米尼克·科塔尔斯基"
     },
     {
       "id": "josip-stanisic",
@@ -240,7 +243,8 @@
           "physical": 84
         }
       },
-      "avatar": "/headshots/josip-stanisic.jpg"
+      "avatar": "/headshots/josip-stanisic.jpg",
+      "name_cn": "约西普·斯塔尼希奇"
     },
     {
       "id": "marin-pongračic",
@@ -296,7 +300,8 @@
           "physical": 86
         }
       },
-      "avatar": "/headshots/marin-pongračic.jpg"
+      "avatar": "/headshots/marin-pongračic.jpg",
+      "name_cn": "马林·蓬格拉契奇"
     },
     {
       "id": "josko-gvardiol",
@@ -352,7 +357,8 @@
           "physical": 84
         }
       },
-      "avatar": "/headshots/josko-gvardiol.jpg"
+      "avatar": "/headshots/josko-gvardiol.jpg",
+      "name_cn": "约什科·格瓦迪奥尔"
     },
     {
       "id": "duje-caleta-car",
@@ -408,7 +414,8 @@
           "physical": 87
         }
       },
-      "avatar": "/headshots/duje-caleta-car.jpg"
+      "avatar": "/headshots/duje-caleta-car.jpg",
+      "name_cn": "杜耶·查莱塔"
     },
     {
       "id": "josip-sutalo",
@@ -464,7 +471,8 @@
           "physical": 84
         }
       },
-      "avatar": "/headshots/josip-sutalo.jpg"
+      "avatar": "/headshots/josip-sutalo.jpg",
+      "name_cn": "约西普·舒塔洛"
     },
     {
       "id": "kristijan-jakic",
@@ -520,7 +528,8 @@
           "physical": 82
         }
       },
-      "avatar": "/headshots/kristijan-jakic.jpg"
+      "avatar": "/headshots/kristijan-jakic.jpg",
+      "name_cn": "克里斯蒂扬·亚基奇"
     },
     {
       "id": "luka-vuskovic",
@@ -576,7 +585,8 @@
           "physical": 89
         }
       },
-      "avatar": "/headshots/luka-vuskovic.jpg"
+      "avatar": "/headshots/luka-vuskovic.jpg",
+      "name_cn": "卢卡·武什科维奇"
     },
     {
       "id": "martin-erlic",
@@ -632,7 +642,8 @@
           "physical": 87
         }
       },
-      "avatar": "/headshots/martin-erlic.jpg"
+      "avatar": "/headshots/martin-erlic.jpg",
+      "name_cn": "马丁·埃尔利奇"
     },
     {
       "id": "nikola-moro",
@@ -688,7 +699,8 @@
           "physical": 80
         }
       },
-      "avatar": "/headshots/nikola-moro.jpg"
+      "avatar": "/headshots/nikola-moro.jpg",
+      "name_cn": "尼古拉·莫罗"
     },
     {
       "id": "mateo-kovačic",
@@ -738,7 +750,8 @@
           "physical": 72
         }
       },
-      "avatar": "/headshots/mateo-kovačic.jpg"
+      "avatar": "/headshots/mateo-kovačic.jpg",
+      "name_cn": "马特奥·科瓦契奇"
     },
     {
       "id": "luka-modric",
@@ -794,7 +807,8 @@
           "physical": 83
         }
       },
-      "avatar": "/headshots/luka-modric.jpg"
+      "avatar": "/headshots/luka-modric.jpg",
+      "name_cn": "卢卡·莫德里奇"
     },
     {
       "id": "nikola-vlasic",
@@ -850,7 +864,8 @@
           "physical": 86
         }
       },
-      "avatar": "/headshots/nikola-vlasic.jpg"
+      "avatar": "/headshots/nikola-vlasic.jpg",
+      "name_cn": "尼古拉·弗拉希奇"
     },
     {
       "id": "mario-pasalic",
@@ -906,7 +921,8 @@
           "physical": 80
         }
       },
-      "avatar": "/headshots/mario-pasalic.jpg"
+      "avatar": "/headshots/mario-pasalic.jpg",
+      "name_cn": "马里奥·帕沙利奇"
     },
     {
       "id": "martin-baturina",
@@ -962,7 +978,8 @@
           "physical": 78
         }
       },
-      "avatar": "/headshots/martin-baturina.jpg"
+      "avatar": "/headshots/martin-baturina.jpg",
+      "name_cn": "马丁·巴图里纳"
     },
     {
       "id": "petar-sučic",
@@ -1018,7 +1035,8 @@
           "physical": 78
         }
       },
-      "avatar": "/headshots/petar-sučic.jpg"
+      "avatar": "/headshots/petar-sučic.jpg",
+      "name_cn": "佩塔尔·苏契奇"
     },
     {
       "id": "toni-fruk",
@@ -1074,7 +1092,8 @@
           "physical": 83
         }
       },
-      "avatar": "/headshots/toni-fruk.jpg"
+      "avatar": "/headshots/toni-fruk.jpg",
+      "name_cn": "托尼·弗鲁克"
     },
     {
       "id": "luka-sučic",
@@ -1130,7 +1149,8 @@
           "physical": 76
         }
       },
-      "avatar": "/headshots/luka-sučic.jpg"
+      "avatar": "/headshots/luka-sučic.jpg",
+      "name_cn": "卢卡·苏契奇"
     },
     {
       "id": "andrej-kramaric",
@@ -1186,7 +1206,8 @@
           "physical": 81
         }
       },
-      "avatar": "/headshots/andrej-kramaric.jpg"
+      "avatar": "/headshots/andrej-kramaric.jpg",
+      "name_cn": "安德烈·克拉马里奇"
     },
     {
       "id": "ante-budimir",
@@ -1242,7 +1263,8 @@
           "physical": 84
         }
       },
-      "avatar": "/headshots/ante-budimir.jpg"
+      "avatar": "/headshots/ante-budimir.jpg",
+      "name_cn": "安特·布迪米尔"
     },
     {
       "id": "ivan-perisic",
@@ -1298,7 +1320,8 @@
           "physical": 83
         }
       },
-      "avatar": "/headshots/ivan-perisic.jpg"
+      "avatar": "/headshots/ivan-perisic.jpg",
+      "name_cn": "伊万·佩里希奇"
     },
     {
       "id": "igor-matanovic",
@@ -1354,7 +1377,8 @@
           "physical": 77
         }
       },
-      "avatar": "/headshots/igor-matanovic.jpg"
+      "avatar": "/headshots/igor-matanovic.jpg",
+      "name_cn": "伊戈尔·马塔诺维奇"
     },
     {
       "id": "marco-pasalic",
@@ -1404,7 +1428,8 @@
           "physical": 79
         }
       },
-      "avatar": "/headshots/marco-pasalic.jpg"
+      "avatar": "/headshots/marco-pasalic.jpg",
+      "name_cn": "马尔科·帕沙利奇"
     },
     {
       "id": "petar-musa",
@@ -1460,7 +1485,9 @@
           "physical": 84
         }
       },
-      "avatar": "/headshots/petar-musa.jpg"
+      "avatar": "/headshots/petar-musa.jpg",
+      "name_cn": "佩塔尔·穆萨"
     }
-  ]
+  ],
+  "team_cn": "克罗地亚"
 }

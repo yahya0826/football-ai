@@ -52,7 +52,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/vozinha.jpg"
+      "avatar": "/headshots/vozinha.jpg",
+      "name_cn": "沃济尼亚"
     },
     {
       "id": "stopira",
@@ -98,7 +99,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/stopira.jpg"
+      "avatar": "/headshots/stopira.jpg",
+      "name_cn": "斯托皮拉"
     },
     {
       "id": "diney",
@@ -144,7 +146,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/diney.jpg"
+      "avatar": "/headshots/diney.jpg",
+      "name_cn": "迪内"
     },
     {
       "id": "roberto-lopes",
@@ -202,7 +205,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/logan-costa.jpg"
+      "avatar": "/headshots/logan-costa.jpg",
+      "name_cn": "洛根·科斯塔"
     },
     {
       "id": "kevin-pina",
@@ -248,7 +252,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/kevin-pina.jpg"
+      "avatar": "/headshots/kevin-pina.jpg",
+      "name_cn": "凯文·皮纳"
     },
     {
       "id": "jovane-cabral",
@@ -309,7 +314,8 @@
         "xa_p90": 0.08,
         "key_passes_p90": 1.07
       },
-      "avatar": "/headshots/jovane-cabral.jpg"
+      "avatar": "/headshots/jovane-cabral.jpg",
+      "name_cn": "若瓦内·卡布拉尔"
     },
     {
       "id": "jo-o-paulo",
@@ -368,7 +374,8 @@
         "xa_p90": 0.0,
         "key_passes_p90": 0.0
       },
-      "avatar": "/headshots/jo-o-paulo.jpg"
+      "avatar": "/headshots/jo-o-paulo.jpg",
+      "name_cn": "若昂·保罗"
     },
     {
       "id": "gilson-benchimol",
@@ -414,7 +421,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/gilson-benchimol.jpg"
+      "avatar": "/headshots/gilson-benchimol.jpg",
+      "name_cn": "吉尔森·本希莫尔"
     },
     {
       "id": "jamiro-monteiro",
@@ -475,7 +483,8 @@
         "xa_p90": 0.15,
         "key_passes_p90": 0.99
       },
-      "avatar": "/headshots/jamiro-monteiro.jpg"
+      "avatar": "/headshots/jamiro-monteiro.jpg",
+      "name_cn": "雅米罗·蒙泰罗"
     },
     {
       "id": "garry-rodrigues",
@@ -521,7 +530,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/garry-rodrigues.jpg"
+      "avatar": "/headshots/garry-rodrigues.jpg",
+      "name_cn": "加里·罗德里格斯"
     },
     {
       "id": "m-rcio-rosa",
@@ -572,7 +582,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/m-rcio-rosa.jpg"
+      "avatar": "/headshots/m-rcio-rosa.jpg",
+      "name_cn": "马尔西奥·罗萨"
     },
     {
       "id": "sidny-lopes-cabral",
@@ -633,7 +644,8 @@
         "xa_p90": 0.31,
         "key_passes_p90": 2.09
       },
-      "avatar": "/headshots/sidny-lopes-cabral.jpg"
+      "avatar": "/headshots/sidny-lopes-cabral.jpg",
+      "name_cn": "西德尼·洛佩斯·卡布拉尔"
     },
     {
       "id": "deroy-duarte",
@@ -679,7 +691,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/deroy-duarte.jpg"
+      "avatar": "/headshots/deroy-duarte.jpg",
+      "name_cn": "德罗伊·杜阿尔特"
     },
     {
       "id": "laros-duarte",
@@ -725,7 +738,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/laros-duarte.jpg"
+      "avatar": "/headshots/laros-duarte.jpg",
+      "name_cn": "拉罗斯·杜阿尔特"
     },
     {
       "id": "yannick-semedo",
@@ -771,7 +785,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/yannick-semedo.jpg"
+      "avatar": "/headshots/yannick-semedo.jpg",
+      "name_cn": "亚尼克·塞梅多"
     },
     {
       "id": "willy-semedo",
@@ -817,7 +832,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/willy-semedo.jpg"
+      "avatar": "/headshots/willy-semedo.jpg",
+      "name_cn": "威利·塞梅多"
     },
     {
       "id": "telmo-arcanjo",
@@ -878,7 +894,8 @@
         "xa_p90": 0.21,
         "key_passes_p90": 2.16
       },
-      "avatar": "/headshots/telmo-arcanjo.jpg"
+      "avatar": "/headshots/telmo-arcanjo.jpg",
+      "name_cn": "特尔莫·阿尔坎若"
     },
     {
       "id": "dailon-livramento",
@@ -939,7 +956,8 @@
         "xa_p90": 0.09,
         "key_passes_p90": 0.94
       },
-      "avatar": "/headshots/dailon-livramento.jpg"
+      "avatar": "/headshots/dailon-livramento.jpg",
+      "name_cn": "戴隆·利夫拉门托"
     },
     {
       "id": "ryan-mendes",
@@ -985,7 +1003,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/ryan-mendes.jpg"
+      "avatar": "/headshots/ryan-mendes.jpg",
+      "name_cn": "瑞安·门德斯"
     },
     {
       "id": "nuno-da-costa",
@@ -1046,7 +1065,8 @@
         "xa_p90": 0.11,
         "key_passes_p90": 1.35
       },
-      "avatar": "/headshots/nuno-da-costa.jpg"
+      "avatar": "/headshots/nuno-da-costa.jpg",
+      "name_cn": "努诺·达科斯塔"
     },
     {
       "id": "steven-moreira",
@@ -1107,7 +1127,8 @@
         "xa_p90": 0.06,
         "key_passes_p90": 0.95
       },
-      "avatar": "/headshots/steven-moreira.jpg"
+      "avatar": "/headshots/steven-moreira.jpg",
+      "name_cn": "史蒂文·莫雷拉"
     },
     {
       "id": "cj-dos-santos",
@@ -1232,7 +1253,8 @@
         "xa_p90": 0.18,
         "key_passes_p90": 1.22
       },
-      "avatar": "/headshots/wagner-pina.jpg"
+      "avatar": "/headshots/wagner-pina.jpg",
+      "name_cn": "瓦格纳·皮纳"
     },
     {
       "id": "kelvin-pires",
@@ -1277,7 +1299,8 @@
         "start_rate": 77.8,
         "data_source": "desktop",
         "has_real_data": true
-      }
+      },
+      "name_cn": "凯尔文·皮雷斯"
     },
     {
       "id": "h-lio-varela",
@@ -1323,7 +1346,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/h-lio-varela.jpg"
+      "avatar": "/headshots/h-lio-varela.jpg",
+      "name_cn": "埃利奥·瓦雷拉"
     }
   ]
 }

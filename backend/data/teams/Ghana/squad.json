@@ -11,7 +11,8 @@
       "club": "St. Gallen",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "劳伦斯·阿蒂"
     },
     {
       "id": "alidu-seidu",
@@ -22,7 +23,8 @@
       "club": "Rennes",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "阿利杜·塞杜"
     },
     {
       "id": "caleb-yirenkyi",
@@ -33,7 +35,8 @@
       "club": "Nordsjælland",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "卡莱布·伊伦基"
     },
     {
       "id": "jonas-adjetey",
@@ -44,7 +47,8 @@
       "club": "VfL Wolfsburg",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "乔纳斯·阿杰泰"
     },
     {
       "id": "thomas-partey",
@@ -55,7 +59,8 @@
       "club": "Villarreal",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "托马斯·帕尔特伊"
     },
     {
       "id": "abdul-mumin",
@@ -66,7 +71,8 @@
       "club": "Rayo Vallecano",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "阿卜杜勒·穆明"
     },
     {
       "id": "abdul-fatawu",
@@ -88,7 +94,8 @@
       "club": "Oviedo",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "夸西·西博"
     },
     {
       "id": "jordan-ayew",
@@ -99,7 +106,8 @@
       "club": "Leicester City",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "乔丹·阿尤"
     },
     {
       "id": "brandon-thomas-asante",
@@ -110,7 +118,8 @@
       "club": "Coventry City",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "布兰登·托马斯"
     },
     {
       "id": "antoine-semenyo",
@@ -121,7 +130,8 @@
       "club": "Manchester City",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "安托万·塞梅尼奥"
     },
     {
       "id": "joseph-anang",
@@ -132,7 +142,8 @@
       "club": "St Patrick's Athletic",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "约瑟夫·阿南"
     },
     {
       "id": "christopher-bonsu-baah",
@@ -143,7 +154,8 @@
       "club": "Al-Qadsiah",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "克里斯托弗·邦苏·巴"
     },
     {
       "id": "gideon-mensah",
@@ -154,7 +166,8 @@
       "club": "Auxerre",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "吉迪恩·门萨"
     },
     {
       "id": "elisha-owusu",
@@ -165,7 +178,8 @@
       "club": "Auxerre",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "埃利沙·奥乌苏"
     },
     {
       "id": "benjamin-asare",
@@ -176,7 +190,8 @@
       "club": "Hearts of Oak",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "本杰明·阿萨雷"
     },
     {
       "id": "abdul-rahman-baba",
@@ -198,7 +213,8 @@
       "club": "İstanbul Başakşehir",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "杰罗姆·奥波库"
     },
     {
       "id": "i-aki-williams",
@@ -209,7 +225,8 @@
       "club": "Athletic Bilbao",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "伊尼亚基·威廉姆斯"
     },
     {
       "id": "augustine-boakye",
@@ -220,7 +237,8 @@
       "club": "Saint-Étienne",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "奥古斯丁·博阿基耶"
     },
     {
       "id": "kojo-peprah-oppong",
@@ -242,7 +260,8 @@
       "club": "Atalanta",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "卡马尔丁·苏莱马纳"
     },
     {
       "id": "derrick-luckassen",
@@ -253,7 +272,8 @@
       "club": "Pafos",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "德里克·卢卡森"
     },
     {
       "id": "ernest-nuamah",
@@ -264,7 +284,8 @@
       "club": "Lyon",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "欧内斯特·努阿马"
     },
     {
       "id": "prince-kwabena-adu",
@@ -275,7 +296,8 @@
       "club": "Viktoria Plzeň",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "普林斯·夸贝纳·阿杜"
     },
     {
       "id": "marvin-senaya",
@@ -286,7 +308,8 @@
       "club": "Auxerre",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "马文·塞纳亚"
     }
   ]
 }

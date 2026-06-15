@@ -65,7 +65,8 @@
         "xa_p90": 0.0,
         "key_passes_p90": 0.0
       },
-      "avatar": "/headshots/angus-gunn.jpg"
+      "avatar": "/headshots/angus-gunn.jpg",
+      "name_cn": "安格斯·冈恩"
     },
     {
       "id": "aaron-hickey",
@@ -126,7 +127,8 @@
         "xa_p90": 0.02,
         "key_passes_p90": 0.0
       },
-      "avatar": "/headshots/aaron-hickey.jpg"
+      "avatar": "/headshots/aaron-hickey.jpg",
+      "name_cn": "阿伦·希基"
     },
     {
       "id": "andy-robertson",
@@ -187,7 +189,8 @@
         "xa_p90": 0.11,
         "key_passes_p90": 1.52
       },
-      "avatar": "/headshots/andy-robertson.jpg"
+      "avatar": "/headshots/andy-robertson.jpg",
+      "name_cn": "安迪·罗伯逊"
     },
     {
       "id": "scott-mctominay",
@@ -248,7 +251,8 @@
         "xa_p90": 0.05,
         "key_passes_p90": 0.71
       },
-      "avatar": "/headshots/scott-mctominay.jpg"
+      "avatar": "/headshots/scott-mctominay.jpg",
+      "name_cn": "斯科特·麦克托米奈"
     },
     {
       "id": "grant-hanley",
@@ -309,7 +313,8 @@
         "xa_p90": 0.01,
         "key_passes_p90": 0.0
       },
-      "avatar": "/headshots/grant-hanley.jpg"
+      "avatar": "/headshots/grant-hanley.jpg",
+      "name_cn": "格兰特·汉利"
     },
     {
       "id": "kieran-tierney",
@@ -370,7 +375,8 @@
         "xa_p90": 0.27,
         "key_passes_p90": 1.9
       },
-      "avatar": "/headshots/kieran-tierney.jpg"
+      "avatar": "/headshots/kieran-tierney.jpg",
+      "name_cn": "基兰·蒂尔尼"
     },
     {
       "id": "john-mcginn",
@@ -431,7 +437,8 @@
         "xa_p90": 0.17,
         "key_passes_p90": 1.7
       },
-      "avatar": "/headshots/john-mcginn.jpg"
+      "avatar": "/headshots/john-mcginn.jpg",
+      "name_cn": "约翰·麦金"
     },
     {
       "id": "tyler-fletcher",
@@ -444,7 +451,8 @@
       "national_caps": 0,
       "national_goals": 0,
       "stats": null,
-      "avatar": "/headshots/tyler-fletcher.jpg"
+      "avatar": "/headshots/tyler-fletcher.jpg",
+      "name_cn": "泰勒·弗莱彻"
     },
     {
       "id": "lyndon-dykes",
@@ -490,7 +498,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/lyndon-dykes.jpg"
+      "avatar": "/headshots/lyndon-dykes.jpg",
+      "name_cn": "林登·戴克斯"
     },
     {
       "id": "ch--adams",
@@ -536,7 +545,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/ch--adams.jpg"
+      "avatar": "/headshots/ch--adams.jpg",
+      "name_cn": "切·亚当斯"
     },
     {
       "id": "ryan-christie",
@@ -597,7 +607,8 @@
         "xa_p90": 0.08,
         "key_passes_p90": 1.0
       },
-      "avatar": "/headshots/ryan-christie.jpg"
+      "avatar": "/headshots/ryan-christie.jpg",
+      "name_cn": "瑞安·克里斯蒂"
     },
     {
       "id": "liam-kelly",
@@ -610,7 +621,8 @@
       "national_caps": 0,
       "national_goals": 0,
       "stats": null,
-      "avatar": "/headshots/liam-kelly.jpg"
+      "avatar": "/headshots/liam-kelly.jpg",
+      "name_cn": "利亚姆·凯利"
     },
     {
       "id": "jack-hendry",
@@ -671,7 +683,8 @@
         "xa_p90": 0.01,
         "key_passes_p90": 0.21
       },
-      "avatar": "/headshots/jack-hendry.jpg"
+      "avatar": "/headshots/jack-hendry.jpg",
+      "name_cn": "杰克·亨得利"
     },
     {
       "id": "ross-stewart",
@@ -717,7 +730,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/ross-stewart.jpg"
+      "avatar": "/headshots/ross-stewart.jpg",
+      "name_cn": "罗斯·斯图尔特"
     },
     {
       "id": "john-souttar",
@@ -778,7 +792,8 @@
         "xa_p90": 0.04,
         "key_passes_p90": 0.45
       },
-      "avatar": "/headshots/john-souttar.jpg"
+      "avatar": "/headshots/john-souttar.jpg",
+      "name_cn": "约翰·苏塔"
     },
     {
       "id": "dominic-hyam",
@@ -803,7 +818,8 @@
       "national_caps": 0,
       "national_goals": 0,
       "stats": null,
-      "avatar": "/headshots/ben-gannon-doak.jpg"
+      "avatar": "/headshots/ben-gannon-doak.jpg",
+      "name_cn": "本·甘农"
     },
     {
       "id": "george-hirst",
@@ -849,7 +865,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/george-hirst.jpg"
+      "avatar": "/headshots/george-hirst.jpg",
+      "name_cn": "乔治·赫斯特"
     },
     {
       "id": "lewis-ferguson",
@@ -910,7 +927,8 @@
         "xa_p90": 0.07,
         "key_passes_p90": 0.9
       },
-      "avatar": "/headshots/lewis-ferguson.jpg"
+      "avatar": "/headshots/lewis-ferguson.jpg",
+      "name_cn": "刘易斯·弗格森"
     },
     {
       "id": "lawrence-shankland",
@@ -971,7 +989,8 @@
         "xa_p90": 0.13,
         "key_passes_p90": 1.26
       },
-      "avatar": "/headshots/lawrence-shankland.jpg"
+      "avatar": "/headshots/lawrence-shankland.jpg",
+      "name_cn": "劳伦斯·尚克兰"
     },
     {
       "id": "craig-gordon",
@@ -1019,7 +1038,8 @@
           "physical": 84
         }
       },
-      "avatar": "/headshots/craig-gordon.jpg"
+      "avatar": "/headshots/craig-gordon.jpg",
+      "name_cn": "克雷格·戈登"
     },
     {
       "id": "nathan-patterson",
@@ -1065,7 +1085,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/nathan-patterson.jpg"
+      "avatar": "/headshots/nathan-patterson.jpg",
+      "name_cn": "内森·帕特森"
     },
     {
       "id": "kenny-mclean",
@@ -1111,7 +1132,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/kenny-mclean.jpg"
+      "avatar": "/headshots/kenny-mclean.jpg",
+      "name_cn": "肯尼·麦克莱恩"
     },
     {
       "id": "anthony-ralston",
@@ -1157,7 +1179,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/anthony-ralston.jpg"
+      "avatar": "/headshots/anthony-ralston.jpg",
+      "name_cn": "安东尼·罗尔斯顿"
     },
     {
       "id": "findlay-curtis",
@@ -1218,7 +1241,8 @@
         "xa_p90": 0.22,
         "key_passes_p90": 1.41
       },
-      "avatar": "/headshots/findlay-curtis.jpg"
+      "avatar": "/headshots/findlay-curtis.jpg",
+      "name_cn": "芬德利·柯蒂斯"
     },
     {
       "id": "scott-mckenna",
@@ -1264,7 +1288,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/scott-mckenna.jpg"
+      "avatar": "/headshots/scott-mckenna.jpg",
+      "name_cn": "斯科特·麦肯纳"
     }
   ]
 }

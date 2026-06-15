@@ -11,7 +11,8 @@
       "club": "Nottingham Forest",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "安格斯·冈恩"
     },
     {
       "id": "aaron-hickey",
@@ -22,7 +23,8 @@
       "club": "Brentford",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "阿伦·希基"
     },
     {
       "id": "andy-robertson",
@@ -33,7 +35,8 @@
       "club": "Liverpool",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "安迪·罗伯逊"
     },
     {
       "id": "scott-mctominay",
@@ -44,7 +47,8 @@
       "club": "Napoli",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "斯科特·麦克托米奈"
     },
     {
       "id": "grant-hanley",
@@ -55,7 +59,8 @@
       "club": "Hibernian",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "格兰特·汉利"
     },
     {
       "id": "kieran-tierney",
@@ -66,7 +71,8 @@
       "club": "Celtic",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "基兰·蒂尔尼"
     },
     {
       "id": "john-mcginn",
@@ -77,7 +83,8 @@
       "club": "Aston Villa",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "约翰·麦金"
     },
     {
       "id": "tyler-fletcher",
@@ -88,7 +95,8 @@
       "club": "Manchester United",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "泰勒·弗莱彻"
     },
     {
       "id": "lyndon-dykes",
@@ -99,7 +107,8 @@
       "club": "Charlton Athletic",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "林登·戴克斯"
     },
     {
       "id": "ch--adams",
@@ -110,7 +119,8 @@
       "club": "Torino",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "切·亚当斯"
     },
     {
       "id": "ryan-christie",
@@ -121,7 +131,8 @@
       "club": "Bournemouth",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "瑞安·克里斯蒂"
     },
     {
       "id": "liam-kelly",
@@ -132,7 +143,8 @@
       "club": "Rangers",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "利亚姆·凯利"
     },
     {
       "id": "jack-hendry",
@@ -143,7 +155,8 @@
       "club": "Al-Ettifaq",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "杰克·亨得利"
     },
     {
       "id": "ross-stewart",
@@ -154,7 +167,8 @@
       "club": "Southampton",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "罗斯·斯图尔特"
     },
     {
       "id": "john-souttar",
@@ -165,7 +179,8 @@
       "club": "Rangers",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "约翰·苏塔"
     },
     {
       "id": "dominic-hyam",
@@ -187,7 +202,8 @@
       "club": "Bournemouth",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "本·甘农"
     },
     {
       "id": "george-hirst",
@@ -198,7 +214,8 @@
       "club": "Ipswich Town",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "乔治·赫斯特"
     },
     {
       "id": "lewis-ferguson",
@@ -209,7 +226,8 @@
       "club": "Bologna",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "刘易斯·弗格森"
     },
     {
       "id": "lawrence-shankland",
@@ -220,7 +238,8 @@
       "club": "Heart of Midlothian",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "劳伦斯·尚克兰"
     },
     {
       "id": "craig-gordon",
@@ -231,7 +250,8 @@
       "club": "Heart of Midlothian",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "克雷格·戈登"
     },
     {
       "id": "nathan-patterson",
@@ -242,7 +262,8 @@
       "club": "Everton",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "内森·帕特森"
     },
     {
       "id": "kenny-mclean",
@@ -253,7 +274,8 @@
       "club": "Norwich City",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "肯尼·麦克莱恩"
     },
     {
       "id": "anthony-ralston",
@@ -264,7 +286,8 @@
       "club": "Celtic",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "安东尼·罗尔斯顿"
     },
     {
       "id": "findlay-curtis",
@@ -275,7 +298,8 @@
       "club": "Kilmarnock",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "芬德利·柯蒂斯"
     },
     {
       "id": "scott-mckenna",
@@ -286,7 +310,8 @@
       "club": "Dinamo Zagreb",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "斯科特·麦肯纳"
     }
   ]
 }

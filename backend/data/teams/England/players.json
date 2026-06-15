@@ -65,7 +65,8 @@
         "xa_p90": 0.01,
         "key_passes_p90": 0.05
       },
-      "avatar": "/headshots/jordan-pickford.jpg"
+      "avatar": "/headshots/jordan-pickford.jpg",
+      "name_cn": "乔丹·皮克福德"
     },
     {
       "id": "dean-henderson",
@@ -129,7 +130,8 @@
         "xa_p90": 0.0,
         "key_passes_p90": 0.03
       },
-      "avatar": "/headshots/dean-henderson.jpg"
+      "avatar": "/headshots/dean-henderson.jpg",
+      "name_cn": "迪恩·亨德森"
     },
     {
       "id": "james-trafford",
@@ -184,7 +186,8 @@
         "clean_sheets": 9,
         "penalties_saved": 1
       },
-      "avatar": "/headshots/james-trafford.jpg"
+      "avatar": "/headshots/james-trafford.jpg",
+      "name_cn": "詹姆斯·特拉福德"
     },
     {
       "id": "ezri-konsa",
@@ -245,7 +248,8 @@
         "xa_p90": 0.02,
         "key_passes_p90": 0.15
       },
-      "avatar": "/headshots/ezri-konsa.jpg"
+      "avatar": "/headshots/ezri-konsa.jpg",
+      "name_cn": "埃兹里·孔萨"
     },
     {
       "id": "nico-oreilly",
@@ -301,7 +305,8 @@
           "physical": 85
         }
       },
-      "avatar": "/headshots/nico-oreilly.jpg"
+      "avatar": "/headshots/nico-oreilly.jpg",
+      "name_cn": "尼科·奥赖利"
     },
     {
       "id": "john-stones",
@@ -351,7 +356,8 @@
           "physical": 82
         }
       },
-      "avatar": "/headshots/john-stones.jpg"
+      "avatar": "/headshots/john-stones.jpg",
+      "name_cn": "约翰·斯通斯"
     },
     {
       "id": "marc-guehi",
@@ -407,7 +413,8 @@
           "physical": 88
         }
       },
-      "avatar": "/headshots/marc-guehi.jpg"
+      "avatar": "/headshots/marc-guehi.jpg",
+      "name_cn": "马克·格伊"
     },
     {
       "id": "tino-livramento",
@@ -457,7 +464,8 @@
           "physical": 82
         }
       },
-      "avatar": "/headshots/tino-livramento.jpg"
+      "avatar": "/headshots/tino-livramento.jpg",
+      "name_cn": "蒂诺·利夫拉门托"
     },
     {
       "id": "dan-burn",
@@ -517,7 +525,8 @@
         "xg_p90": 0.04,
         "xa_p90": 0.02,
         "key_passes_p90": 0.29
-      }
+      },
+      "name_cn": "丹·伯恩"
     },
     {
       "id": "reece-james",
@@ -578,7 +587,8 @@
         "xa_p90": 0.15,
         "key_passes_p90": 1.24
       },
-      "avatar": "/headshots/reece-james.jpg"
+      "avatar": "/headshots/reece-james.jpg",
+      "name_cn": "里斯·詹姆斯"
     },
     {
       "id": "djed-spence",
@@ -639,7 +649,8 @@
         "xa_p90": 0.08,
         "key_passes_p90": 0.43
       },
-      "avatar": "/headshots/djed-spence.jpg"
+      "avatar": "/headshots/djed-spence.jpg",
+      "name_cn": "杰德·斯彭斯"
     },
     {
       "id": "jarell-quansah",
@@ -700,7 +711,8 @@
         "xa_p90": 0.05,
         "key_passes_p90": 0.43
       },
-      "avatar": "/headshots/jarell-quansah.jpg"
+      "avatar": "/headshots/jarell-quansah.jpg",
+      "name_cn": "贾雷尔·昆萨"
     },
     {
       "id": "declan-rice",
@@ -761,7 +773,8 @@
         "xa_p90": 0.2,
         "key_passes_p90": 1.86
       },
-      "avatar": "/headshots/declan-rice.jpg"
+      "avatar": "/headshots/declan-rice.jpg",
+      "name_cn": "德克兰·赖斯"
     },
     {
       "id": "elliot-anderson",
@@ -822,7 +835,8 @@
         "xa_p90": 0.13,
         "key_passes_p90": 1.48
       },
-      "avatar": "/headshots/elliot-anderson.jpg"
+      "avatar": "/headshots/elliot-anderson.jpg",
+      "name_cn": "埃利奥特·安德森"
     },
     {
       "id": "jude-bellingham",
@@ -883,7 +897,8 @@
         "xa_p90": 0.1,
         "key_passes_p90": 1.69
       },
-      "avatar": "/headshots/jude-bellingham.jpg"
+      "avatar": "/headshots/jude-bellingham.jpg",
+      "name_cn": "裘德·贝林厄姆"
     },
     {
       "id": "jordan-henderson",
@@ -944,7 +959,8 @@
         "xa_p90": 0.11,
         "key_passes_p90": 0.89
       },
-      "avatar": "/headshots/jordan-henderson.jpg"
+      "avatar": "/headshots/jordan-henderson.jpg",
+      "name_cn": "乔丹·亨德森"
     },
     {
       "id": "kobbie-mainoo",
@@ -994,7 +1010,8 @@
           "physical": 80
         }
       },
-      "avatar": "/headshots/kobbie-mainoo.jpg"
+      "avatar": "/headshots/kobbie-mainoo.jpg",
+      "name_cn": "科比·梅努"
     },
     {
       "id": "morgan-rogers",
@@ -1055,7 +1072,8 @@
         "xa_p90": 0.12,
         "key_passes_p90": 1.29
       },
-      "avatar": "/headshots/morgan-rogers.jpg"
+      "avatar": "/headshots/morgan-rogers.jpg",
+      "name_cn": "摩根·罗杰斯"
     },
     {
       "id": "eberechi-eze",
@@ -1116,7 +1134,8 @@
         "xa_p90": 0.13,
         "key_passes_p90": 0.76
       },
-      "avatar": "/headshots/eberechi-eze.jpg"
+      "avatar": "/headshots/eberechi-eze.jpg",
+      "name_cn": "埃贝雷奇·埃泽"
     },
     {
       "id": "bukayo-saka",
@@ -1177,7 +1196,8 @@
         "xa_p90": 0.29,
         "key_passes_p90": 2.55
       },
-      "avatar": "/headshots/bukayo-saka.jpg"
+      "avatar": "/headshots/bukayo-saka.jpg",
+      "name_cn": "布卡约·萨卡"
     },
     {
       "id": "harry-kane",
@@ -1238,7 +1258,8 @@
         "xa_p90": 0.16,
         "key_passes_p90": 1.51
       },
-      "avatar": "/headshots/harry-kane.jpg"
+      "avatar": "/headshots/harry-kane.jpg",
+      "name_cn": "哈里·凯恩"
     },
     {
       "id": "marcus-rashford",
@@ -1299,7 +1320,8 @@
         "xa_p90": 0.24,
         "key_passes_p90": 2.35
       },
-      "avatar": "/headshots/marcus-rashford.jpg"
+      "avatar": "/headshots/marcus-rashford.jpg",
+      "name_cn": "马库斯·拉什福德"
     },
     {
       "id": "anthony-gordon",
@@ -1360,7 +1382,8 @@
         "xa_p90": 0.17,
         "key_passes_p90": 1.29
       },
-      "avatar": "/headshots/anthony-gordon.jpg"
+      "avatar": "/headshots/anthony-gordon.jpg",
+      "name_cn": "安东尼·戈登"
     },
     {
       "id": "ollie-watkins",
@@ -1421,7 +1444,8 @@
         "xa_p90": 0.04,
         "key_passes_p90": 0.73
       },
-      "avatar": "/headshots/ollie-watkins.jpg"
+      "avatar": "/headshots/ollie-watkins.jpg",
+      "name_cn": "奥利·沃特金斯"
     },
     {
       "id": "noni-madueke",
@@ -1482,7 +1506,8 @@
         "xa_p90": 0.21,
         "key_passes_p90": 1.62
       },
-      "avatar": "/headshots/noni-madueke.jpg"
+      "avatar": "/headshots/noni-madueke.jpg",
+      "name_cn": "诺尼·马杜埃凯"
     },
     {
       "id": "ivan-toney",
@@ -1532,7 +1557,9 @@
           "physical": 88
         }
       },
-      "avatar": "/headshots/ivan-toney.jpg"
+      "avatar": "/headshots/ivan-toney.jpg",
+      "name_cn": "伊万·托尼"
     }
-  ]
+  ],
+  "team_cn": "英格兰"
 }

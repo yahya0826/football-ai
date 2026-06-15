@@ -14,7 +14,8 @@
       "national_caps": 0,
       "national_goals": 0,
       "stats": null,
-      "avatar": "/headshots/melvin-mastil.jpg"
+      "avatar": "/headshots/melvin-mastil.jpg",
+      "name_cn": "梅尔文·马斯蒂尔"
     },
     {
       "id": "a-ssa-mandi",
@@ -75,7 +76,8 @@
         "xa_p90": 0.05,
         "key_passes_p90": 0.37
       },
-      "avatar": "/headshots/a-ssa-mandi.jpg"
+      "avatar": "/headshots/a-ssa-mandi.jpg",
+      "name_cn": "艾萨·曼迪"
     },
     {
       "id": "achref-abada",
@@ -88,7 +90,8 @@
       "national_caps": 0,
       "national_goals": 0,
       "stats": null,
-      "avatar": "/headshots/achref-abada.jpg"
+      "avatar": "/headshots/achref-abada.jpg",
+      "name_cn": "阿什里夫·阿巴达"
     },
     {
       "id": "mohamed-amine-tougai",
@@ -101,7 +104,8 @@
       "national_caps": 0,
       "national_goals": 0,
       "stats": null,
-      "avatar": "/headshots/mohamed-amine-tougai.jpg"
+      "avatar": "/headshots/mohamed-amine-tougai.jpg",
+      "name_cn": "穆罕默德·阿明·图盖"
     },
     {
       "id": "zineddine-bela-d",
@@ -147,7 +151,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/zineddine-bela-d.jpg"
+      "avatar": "/headshots/zineddine-bela-d.jpg",
+      "name_cn": "齐内丁·贝莱德"
     },
     {
       "id": "ramiz-zerrouki",
@@ -208,7 +213,8 @@
         "xa_p90": 0.14,
         "key_passes_p90": 1.48
       },
-      "avatar": "/headshots/ramiz-zerrouki.jpg"
+      "avatar": "/headshots/ramiz-zerrouki.jpg",
+      "name_cn": "拉米兹·泽鲁基"
     },
     {
       "id": "riyad-mahrez",
@@ -269,7 +275,8 @@
         "xa_p90": 0.34,
         "key_passes_p90": 3.08
       },
-      "avatar": "/headshots/riyad-mahrez.jpg"
+      "avatar": "/headshots/riyad-mahrez.jpg",
+      "name_cn": "里亚德·马赫雷斯"
     },
     {
       "id": "houssem-aouar",
@@ -330,7 +337,8 @@
         "xa_p90": 0.11,
         "key_passes_p90": 0.85
       },
-      "avatar": "/headshots/houssem-aouar.jpg"
+      "avatar": "/headshots/houssem-aouar.jpg",
+      "name_cn": "侯塞姆·奥阿尔"
     },
     {
       "id": "amine-gouiri",
@@ -391,7 +399,8 @@
         "xa_p90": 0.2,
         "key_passes_p90": 2.17
       },
-      "avatar": "/headshots/amine-gouiri.jpg"
+      "avatar": "/headshots/amine-gouiri.jpg",
+      "name_cn": "阿米内·古里"
     },
     {
       "id": "far-s-cha-bi",
@@ -452,7 +461,8 @@
         "xa_p90": 0.2,
         "key_passes_p90": 2.0
       },
-      "avatar": "/headshots/far-s-cha-bi.jpg"
+      "avatar": "/headshots/far-s-cha-bi.jpg",
+      "name_cn": "法雷斯·柴比"
     },
     {
       "id": "anis-hadj-moussa",
@@ -513,7 +523,8 @@
         "xa_p90": 0.39,
         "key_passes_p90": 2.5
       },
-      "avatar": "/headshots/anis-hadj-moussa.jpg"
+      "avatar": "/headshots/anis-hadj-moussa.jpg",
+      "name_cn": "阿尼斯·哈吉·穆萨"
     },
     {
       "id": "nadhir-benbouali",
@@ -559,7 +570,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/nadhir-benbouali.jpg"
+      "avatar": "/headshots/nadhir-benbouali.jpg",
+      "name_cn": "纳迪尔·本布阿里"
     },
     {
       "id": "jaouen-hadjam",
@@ -605,7 +617,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/jaouen-hadjam.jpg"
+      "avatar": "/headshots/jaouen-hadjam.jpg",
+      "name_cn": "哈万·哈贾姆"
     },
     {
       "id": "hicham-boudaoui",
@@ -666,7 +679,8 @@
         "xa_p90": 0.11,
         "key_passes_p90": 0.9
       },
-      "avatar": "/headshots/hicham-boudaoui.jpg"
+      "avatar": "/headshots/hicham-boudaoui.jpg",
+      "name_cn": "希沙姆·布达维"
     },
     {
       "id": "rayan-a-t-nouri",
@@ -712,7 +726,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/rayan-a-t-nouri.jpg"
+      "avatar": "/headshots/rayan-a-t-nouri.jpg",
+      "name_cn": "拉扬·艾特"
     },
     {
       "id": "oussama-benbot",
@@ -724,7 +739,8 @@
       "age": 0,
       "national_caps": 0,
       "national_goals": 0,
-      "stats": null
+      "stats": null,
+      "name_cn": "乌萨马·本博特"
     },
     {
       "id": "rafik-belghali",
@@ -785,7 +801,8 @@
         "xa_p90": 0.14,
         "key_passes_p90": 1.31
       },
-      "avatar": "/headshots/rafik-belghali.jpg"
+      "avatar": "/headshots/rafik-belghali.jpg",
+      "name_cn": "拉菲克·贝尔加利"
     },
     {
       "id": "mohamed-amoura",
@@ -894,7 +911,8 @@
         "xa_p90": 0.16,
         "key_passes_p90": 0.84
       },
-      "avatar": "/headshots/nabil-bentaleb.jpg"
+      "avatar": "/headshots/nabil-bentaleb.jpg",
+      "name_cn": "纳比尔·本塔莱布"
     },
     {
       "id": "adil-boulbina",
@@ -941,7 +959,8 @@
           "physical": 83
         }
       },
-      "avatar": "/headshots/adil-boulbina.jpg"
+      "avatar": "/headshots/adil-boulbina.jpg",
+      "name_cn": "阿迪尔·布尔比纳"
     },
     {
       "id": "ramy-bensebaini",
@@ -1002,7 +1021,8 @@
         "xa_p90": 0.11,
         "key_passes_p90": 0.59
       },
-      "avatar": "/headshots/ramy-bensebaini.jpg"
+      "avatar": "/headshots/ramy-bensebaini.jpg",
+      "name_cn": "拉米·本塞拜尼"
     },
     {
       "id": "ibrahim-maza",
@@ -1063,7 +1083,8 @@
         "xa_p90": 0.22,
         "key_passes_p90": 1.4
       },
-      "avatar": "/headshots/ibrahim-maza.jpg"
+      "avatar": "/headshots/ibrahim-maza.jpg",
+      "name_cn": "易卜拉欣·马扎"
     },
     {
       "id": "luca-zidane",
@@ -1114,7 +1135,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/luca-zidane.jpg"
+      "avatar": "/headshots/luca-zidane.jpg",
+      "name_cn": "卢卡·齐达内"
     },
     {
       "id": "yacine-titraoui",
@@ -1126,7 +1148,8 @@
       "age": 0,
       "national_caps": 0,
       "national_goals": 0,
-      "stats": null
+      "stats": null,
+      "name_cn": "亚辛·蒂特拉维"
     },
     {
       "id": "far-s-ghedjemis",
@@ -1187,7 +1210,8 @@
         "xa_p90": 0.17,
         "key_passes_p90": 1.67
       },
-      "avatar": "/headshots/far-s-ghedjemis.jpg"
+      "avatar": "/headshots/far-s-ghedjemis.jpg",
+      "name_cn": "法雷斯·盖杰米斯"
     },
     {
       "id": "samir-chergui",
@@ -1233,7 +1257,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/samir-chergui.jpg"
+      "avatar": "/headshots/samir-chergui.jpg",
+      "name_cn": "萨米尔·切尔吉"
     }
   ]
 }

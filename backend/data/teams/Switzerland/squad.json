@@ -11,7 +11,8 @@
       "club": "Borussia Dortmund",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "格雷戈·科贝尔"
     },
     {
       "id": "miro-muheim",
@@ -22,7 +23,8 @@
       "club": "Hamburger SV",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "米罗·穆海姆"
     },
     {
       "id": "silvan-widmer",
@@ -33,7 +35,8 @@
       "club": "Mainz 05",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "西尔万·维德默"
     },
     {
       "id": "nico-elvedi",
@@ -44,7 +47,8 @@
       "club": "Borussia Mönchengladbach",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "尼科·埃尔韦迪"
     },
     {
       "id": "manuel-akanji",
@@ -55,7 +59,8 @@
       "club": "Inter Milan",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "曼努埃尔·阿坎吉"
     },
     {
       "id": "denis-zakaria",
@@ -66,7 +71,8 @@
       "club": "Monaco",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "德尼斯·扎卡里亚"
     },
     {
       "id": "breel-embolo",
@@ -77,7 +83,8 @@
       "club": "Rennes",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "布雷尔·恩博洛"
     },
     {
       "id": "remo-freuler",
@@ -88,7 +95,8 @@
       "club": "Bologna",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "雷莫·弗罗伊勒"
     },
     {
       "id": "johan-manzambi",
@@ -99,7 +107,8 @@
       "club": "SC Freiburg",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "约翰·曼赞比"
     },
     {
       "id": "granit-xhaka",
@@ -110,7 +119,8 @@
       "club": "Sunderland",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "格拉尼特·扎卡"
     },
     {
       "id": "dan-ndoye",
@@ -121,7 +131,8 @@
       "club": "Nottingham Forest",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "丹·恩多耶"
     },
     {
       "id": "yvon-mvogo",
@@ -132,7 +143,8 @@
       "club": "Lorient",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "伊冯·姆沃戈"
     },
     {
       "id": "ricardo-rodriguez",
@@ -143,7 +155,8 @@
       "club": "Real Betis",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "里卡多·罗德里格斯"
     },
     {
       "id": "ardon-jashari",
@@ -154,7 +167,8 @@
       "club": "Milan",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "阿尔东·亚沙里"
     },
     {
       "id": "djibril-sow",
@@ -165,7 +179,8 @@
       "club": "Sevilla",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "吉布里尔·索乌"
     },
     {
       "id": "christian-fassnacht",
@@ -176,7 +191,8 @@
       "club": "Young Boys",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "克里斯蒂安·法斯纳赫特"
     },
     {
       "id": "rub-n-vargas",
@@ -187,7 +203,8 @@
       "club": "Sevilla",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "鲁文·巴尔加斯"
     },
     {
       "id": "eray-c-mert",
@@ -198,7 +215,8 @@
       "club": "Valencia",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "埃拉伊·居梅尔特"
     },
     {
       "id": "noah-okafor",
@@ -209,7 +227,8 @@
       "club": "Leeds United",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "诺亚·奥卡福"
     },
     {
       "id": "michel-aebischer",
@@ -220,7 +239,8 @@
       "club": "Pisa",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "米歇尔·埃比舍尔"
     },
     {
       "id": "marvin-keller",
@@ -231,7 +251,8 @@
       "club": "Young Boys",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "马尔文·凯勒"
     },
     {
       "id": "fabian-rieder",
@@ -242,7 +263,8 @@
       "club": "FC Augsburg",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "法比安·里德"
     },
     {
       "id": "zeki-amdouni",
@@ -253,7 +275,8 @@
       "club": "Burnley",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "泽基·阿姆杜尼"
     },
     {
       "id": "aur-le-amenda",
@@ -264,7 +287,8 @@
       "club": "Eintracht Frankfurt",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "奥雷勒·阿门达"
     },
     {
       "id": "luca-jaquez",
@@ -275,7 +299,8 @@
       "club": "VfB Stuttgart",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "卢卡·雅克斯"
     },
     {
       "id": "cedric-itten",
@@ -286,7 +311,8 @@
       "club": "Fortuna Düsseldorf",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "塞德里克·伊滕"
     }
   ]
 }

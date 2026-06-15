@@ -11,7 +11,8 @@
       "club": "Red Bull Salzburg",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "亚历山大·施拉格"
     },
     {
       "id": "david-affengruber",
@@ -22,7 +23,8 @@
       "club": "Elche",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "戴维·阿芬格鲁伯"
     },
     {
       "id": "kevin-danso",
@@ -33,7 +35,8 @@
       "club": "Tottenham Hotspur",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "凯文·丹索"
     },
     {
       "id": "xaver-schlager",
@@ -44,7 +47,8 @@
       "club": "RB Leipzig",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "克萨韦尔·施拉格"
     },
     {
       "id": "stefan-posch",
@@ -55,7 +59,8 @@
       "club": "Mainz 05",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "斯特凡·波施"
     },
     {
       "id": "nicolas-seiwald",
@@ -66,7 +71,8 @@
       "club": "RB Leipzig",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "尼古拉斯·塞瓦尔德"
     },
     {
       "id": "marko-arnautovi",
@@ -77,7 +83,8 @@
       "club": "Red Star Belgrade",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "马尔科·阿瑙托维奇"
     },
     {
       "id": "david-alaba",
@@ -88,7 +95,8 @@
       "club": "Real Madrid",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "戴维·阿拉巴"
     },
     {
       "id": "marcel-sabitzer",
@@ -99,7 +107,8 @@
       "club": "Borussia Dortmund",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "马塞尔·萨比策"
     },
     {
       "id": "florian-grillitsch",
@@ -110,7 +119,8 @@
       "club": "Braga",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "弗洛里安·格里利奇"
     },
     {
       "id": "michael-gregoritsch",
@@ -121,7 +131,8 @@
       "club": "FC Augsburg",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "米夏埃尔·格雷戈里奇"
     },
     {
       "id": "florian-wiegele",
@@ -132,7 +143,8 @@
       "club": "Viktoria Plzeň",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "弗洛里安·维格勒"
     },
     {
       "id": "patrick-pentz",
@@ -143,7 +155,8 @@
       "club": "Brøndby",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "帕特里克·彭茨"
     },
     {
       "id": "sa-a-kalajd-i",
@@ -154,7 +167,8 @@
       "club": "LASK",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "萨沙·卡拉季奇"
     },
     {
       "id": "philipp-lienhart",
@@ -165,7 +179,8 @@
       "club": "SC Freiburg",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "菲利普·林哈特"
     },
     {
       "id": "phillipp-mwene",
@@ -187,7 +202,8 @@
       "club": "Borussia Dortmund",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "卡尼·丘库埃梅卡"
     },
     {
       "id": "romano-schmid",
@@ -198,7 +214,8 @@
       "club": "Werder Bremen",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "罗马诺·施密德"
     },
     {
       "id": "konrad-laimer",
@@ -209,7 +226,8 @@
       "club": "Bayern Munich",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "康拉德·莱默"
     },
     {
       "id": "patrick-wimmer",
@@ -220,7 +238,8 @@
       "club": "VfL Wolfsburg",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "帕特里克·维默"
     },
     {
       "id": "alexander-prass",
@@ -231,7 +250,8 @@
       "club": "TSG Hoffenheim",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "亚历山大·普拉斯"
     },
     {
       "id": "marco-friedl",
@@ -242,7 +262,8 @@
       "club": "Werder Bremen",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "马尔科·弗里德尔"
     },
     {
       "id": "paul-wanner",
@@ -253,7 +274,8 @@
       "club": "PSV Eindhoven",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "保罗·万纳"
     },
     {
       "id": "michael-svoboda",
@@ -264,7 +286,8 @@
       "club": "Venezia",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "迈克尔·斯沃博达"
     },
     {
       "id": "alessandro-sch-pf",
@@ -275,7 +298,8 @@
       "club": "Wolfsberger AC",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "亚历山德罗·舍普夫"
     }
   ]
 }

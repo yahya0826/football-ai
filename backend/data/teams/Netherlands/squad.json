@@ -11,7 +11,8 @@
       "club": "Brighton & Hove Albion",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "巴特·弗布鲁亨"
     },
     {
       "id": "jurri-n-timber",
@@ -22,7 +23,8 @@
       "club": "Arsenal",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "尤里恩·廷贝尔"
     },
     {
       "id": "marten-de-roon",
@@ -33,7 +35,8 @@
       "club": "Atalanta",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "马尔滕·德罗恩"
     },
     {
       "id": "virgil-van-dijk",
@@ -44,7 +47,8 @@
       "club": "Liverpool",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "维吉尔·范迪克"
     },
     {
       "id": "nathan-ak",
@@ -55,7 +59,8 @@
       "club": "Manchester City",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "纳坦·阿克"
     },
     {
       "id": "jan-paul-van-hecke",
@@ -66,7 +71,8 @@
       "club": "Brighton & Hove Albion",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "扬·保罗·范赫克"
     },
     {
       "id": "justin-kluivert",
@@ -77,7 +83,8 @@
       "club": "Bournemouth",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "贾斯汀·克鲁伊维特"
     },
     {
       "id": "ryan-gravenberch",
@@ -88,7 +95,8 @@
       "club": "Liverpool",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "瑞安·赫拉芬贝赫"
     },
     {
       "id": "wout-weghorst",
@@ -99,7 +107,8 @@
       "club": "Ajax",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "沃特·韦霍斯特"
     },
     {
       "id": "memphis-depay",
@@ -110,7 +119,8 @@
       "club": "Corinthians",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "孟菲斯·德佩"
     },
     {
       "id": "cody-gakpo",
@@ -121,7 +131,8 @@
       "club": "Liverpool",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "科迪·加克波"
     },
     {
       "id": "mats-wieffer",
@@ -132,7 +143,8 @@
       "club": "Brighton & Hove Albion",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "马茨·维弗"
     },
     {
       "id": "robin-roefs",
@@ -143,7 +155,8 @@
       "club": "Sunderland",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "罗宾·鲁夫斯"
     },
     {
       "id": "tijjani-reijnders",
@@ -154,7 +167,8 @@
       "club": "Manchester City",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "蒂贾尼·赖恩德斯"
     },
     {
       "id": "micky-van-de-ven",
@@ -165,7 +179,8 @@
       "club": "Tottenham Hotspur",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "米基·范德文"
     },
     {
       "id": "guus-til",
@@ -176,7 +191,8 @@
       "club": "PSV Eindhoven",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "许斯·蒂尔"
     },
     {
       "id": "noa-lang",
@@ -187,7 +203,8 @@
       "club": "Galatasaray",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "诺阿·朗"
     },
     {
       "id": "donyell-malen",
@@ -198,7 +215,8 @@
       "club": "Roma",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "唐耶尔·马伦"
     },
     {
       "id": "brian-brobbey",
@@ -209,7 +227,8 @@
       "club": "Sunderland",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "布赖恩·布罗比"
     },
     {
       "id": "teun-koopmeiners",
@@ -220,7 +239,8 @@
       "club": "Juventus",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "特恩·库普梅纳斯"
     },
     {
       "id": "frenkie-de-jong",
@@ -231,7 +251,8 @@
       "club": "Barcelona",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "弗伦基·德容"
     },
     {
       "id": "denzel-dumfries",
@@ -242,7 +263,8 @@
       "club": "Inter Milan",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "登泽尔·邓弗里斯"
     },
     {
       "id": "mark-flekken",
@@ -253,7 +275,8 @@
       "club": "Bayer Leverkusen",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "马克·弗莱肯"
     },
     {
       "id": "crysencio-summerville",
@@ -264,7 +287,8 @@
       "club": "West Ham United",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "克赖森西奥·萨默维尔"
     },
     {
       "id": "jorrel-hato",
@@ -275,7 +299,8 @@
       "club": "Chelsea",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "乔雷尔·哈托"
     },
     {
       "id": "quinten-timber",
@@ -286,7 +311,8 @@
       "club": "Marseille",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "昆滕·廷贝尔"
     }
   ]
 }

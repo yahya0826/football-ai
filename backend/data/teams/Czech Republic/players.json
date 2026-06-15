@@ -65,7 +65,8 @@
         "xa_p90": 0.0,
         "key_passes_p90": 0.06
       },
-      "avatar": "/headshots/mat-j-kov.jpg"
+      "avatar": "/headshots/mat-j-kov.jpg",
+      "name_cn": "马捷·科瓦日"
     },
     {
       "id": "david-zima",
@@ -111,7 +112,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/david-zima.jpg"
+      "avatar": "/headshots/david-zima.jpg",
+      "name_cn": "戴维·齐马"
     },
     {
       "id": "tom---hole",
@@ -157,7 +159,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/tom---hole.jpg"
+      "avatar": "/headshots/tom---hole.jpg",
+      "name_cn": "托马什·霍莱什"
     },
     {
       "id": "robin-hran",
@@ -218,7 +221,8 @@
         "xa_p90": 0.02,
         "key_passes_p90": 0.12
       },
-      "avatar": "/headshots/robin-hran.jpg"
+      "avatar": "/headshots/robin-hran.jpg",
+      "name_cn": "罗宾·赫拉纳奇"
     },
     {
       "id": "vladim-r-coufal",
@@ -279,7 +283,8 @@
         "xa_p90": 0.27,
         "key_passes_p90": 1.76
       },
-      "avatar": "/headshots/vladim-r-coufal.jpg"
+      "avatar": "/headshots/vladim-r-coufal.jpg",
+      "name_cn": "弗拉迪米尔·曹法尔"
     },
     {
       "id": "t-p-n-chaloupek",
@@ -325,7 +330,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/t-p-n-chaloupek.jpg"
+      "avatar": "/headshots/t-p-n-chaloupek.jpg",
+      "name_cn": "什捷潘·哈洛佩克"
     },
     {
       "id": "ladislav-krej",
@@ -386,7 +392,8 @@
         "xa_p90": 0.06,
         "key_passes_p90": 0.34
       },
-      "avatar": "/headshots/ladislav-krej.jpg"
+      "avatar": "/headshots/ladislav-krej.jpg",
+      "name_cn": "拉迪斯拉夫·克雷伊奇"
     },
     {
       "id": "vladim-r-darida",
@@ -431,7 +438,8 @@
         "start_rate": 97.1,
         "data_source": "desktop",
         "has_real_data": true
-      }
+      },
+      "name_cn": "弗拉迪米尔·达里达"
     },
     {
       "id": "adam-hlo-ek",
@@ -477,7 +485,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/adam-hlo-ek.jpg"
+      "avatar": "/headshots/adam-hlo-ek.jpg",
+      "name_cn": "亚当·赫洛热克"
     },
     {
       "id": "patrik-schick",
@@ -538,7 +547,8 @@
         "xa_p90": 0.13,
         "key_passes_p90": 0.63
       },
-      "avatar": "/headshots/patrik-schick.jpg"
+      "avatar": "/headshots/patrik-schick.jpg",
+      "name_cn": "帕特里克·希克"
     },
     {
       "id": "jan-kuchta",
@@ -584,7 +594,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/jan-kuchta.jpg"
+      "avatar": "/headshots/jan-kuchta.jpg",
+      "name_cn": "扬·库赫塔"
     },
     {
       "id": "luk----erv",
@@ -630,7 +641,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/luk----erv.jpg"
+      "avatar": "/headshots/luk----erv.jpg",
+      "name_cn": "卢卡什·切尔夫"
     },
     {
       "id": "mojm-r-chytil",
@@ -676,7 +688,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/mojm-r-chytil.jpg"
+      "avatar": "/headshots/mojm-r-chytil.jpg",
+      "name_cn": "莫伊米尔·希蒂尔"
     },
     {
       "id": "david-jur-sek",
@@ -722,7 +735,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/david-jur-sek.jpg"
+      "avatar": "/headshots/david-jur-sek.jpg",
+      "name_cn": "戴维·尤拉塞克"
     },
     {
       "id": "pavel--ulc",
@@ -783,7 +797,8 @@
         "xa_p90": 0.11,
         "key_passes_p90": 1.26
       },
-      "avatar": "/headshots/pavel--ulc.jpg"
+      "avatar": "/headshots/pavel--ulc.jpg",
+      "name_cn": "帕维尔·舒尔茨"
     },
     {
       "id": "jind-ich-stan-k",
@@ -834,7 +849,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/jind-ich-stan-k.jpg"
+      "avatar": "/headshots/jind-ich-stan-k.jpg",
+      "name_cn": "因德日赫·斯塔涅克"
     },
     {
       "id": "luk---provod",
@@ -880,7 +896,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/luk---provod.jpg"
+      "avatar": "/headshots/luk---provod.jpg",
+      "name_cn": "卢卡什·普罗沃德"
     },
     {
       "id": "michal-sad-lek",
@@ -926,7 +943,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/michal-sad-lek.jpg"
+      "avatar": "/headshots/michal-sad-lek.jpg",
+      "name_cn": "米哈尔·萨迪莱克"
     },
     {
       "id": "tom---chor",
@@ -972,7 +990,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/tom---chor.jpg"
+      "avatar": "/headshots/tom---chor.jpg",
+      "name_cn": "托马什·霍里"
     },
     {
       "id": "jaroslav-zelen",
@@ -1018,7 +1037,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/jaroslav-zelen.jpg"
+      "avatar": "/headshots/jaroslav-zelen.jpg",
+      "name_cn": "雅罗斯拉夫·泽莱尼"
     },
     {
       "id": "david-doud-ra",
@@ -1064,7 +1084,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/david-doud-ra.jpg"
+      "avatar": "/headshots/david-doud-ra.jpg",
+      "name_cn": "戴维·杜杰拉"
     },
     {
       "id": "tom---sou-ek",
@@ -1125,7 +1146,8 @@
         "xa_p90": 0.02,
         "key_passes_p90": 0.45
       },
-      "avatar": "/headshots/tom---sou-ek.jpg"
+      "avatar": "/headshots/tom---sou-ek.jpg",
+      "name_cn": "托马什·绍切克"
     },
     {
       "id": "luk---horn--ek",
@@ -1189,7 +1211,8 @@
         "xa_p90": 0.0,
         "key_passes_p90": 0.0
       },
-      "avatar": "/headshots/luk---horn--ek.jpg"
+      "avatar": "/headshots/luk---horn--ek.jpg",
+      "name_cn": "卢卡什·霍尔尼切克"
     },
     {
       "id": "alexandr-sojka",
@@ -1235,7 +1258,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/alexandr-sojka.jpg"
+      "avatar": "/headshots/alexandr-sojka.jpg",
+      "name_cn": "亚历山大·索伊卡"
     },
     {
       "id": "hugo-soch-rek",
@@ -1281,7 +1305,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/hugo-soch-rek.jpg"
+      "avatar": "/headshots/hugo-soch-rek.jpg",
+      "name_cn": "雨果·索胡雷克"
     },
     {
       "id": "denis-vi-insk",
@@ -1327,7 +1352,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/denis-vi-insk.jpg"
+      "avatar": "/headshots/denis-vi-insk.jpg",
+      "name_cn": "德尼斯·维辛斯基"
     }
   ]
 }

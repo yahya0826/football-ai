@@ -52,7 +52,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/hern-n-gal-ndez.jpg"
+      "avatar": "/headshots/hern-n-gal-ndez.jpg",
+      "name_cn": "埃尔南·加林德斯"
     },
     {
       "id": "f-lix-torres",
@@ -113,7 +114,8 @@
         "xa_p90": 0.04,
         "key_passes_p90": 0.38
       },
-      "avatar": "/headshots/f-lix-torres.jpg"
+      "avatar": "/headshots/f-lix-torres.jpg",
+      "name_cn": "费利克斯·托雷斯"
     },
     {
       "id": "piero-hincapi",
@@ -174,7 +176,8 @@
         "xa_p90": 0.08,
         "key_passes_p90": 0.65
       },
-      "avatar": "/headshots/piero-hincapi.jpg"
+      "avatar": "/headshots/piero-hincapi.jpg",
+      "name_cn": "皮耶罗·因卡皮耶"
     },
     {
       "id": "joel-ord--ez",
@@ -235,7 +238,8 @@
         "xa_p90": 0.03,
         "key_passes_p90": 0.2
       },
-      "avatar": "/headshots/joel-ord--ez.jpg"
+      "avatar": "/headshots/joel-ord--ez.jpg",
+      "name_cn": "乔尔·奥多涅斯"
     },
     {
       "id": "jordy-alc-var",
@@ -281,7 +285,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/jordy-alc-var.jpg"
+      "avatar": "/headshots/jordy-alc-var.jpg",
+      "name_cn": "霍尔迪·阿尔西瓦尔"
     },
     {
       "id": "willian-pacho",
@@ -342,7 +347,8 @@
         "xa_p90": 0.02,
         "key_passes_p90": 0.09
       },
-      "avatar": "/headshots/willian-pacho.jpg"
+      "avatar": "/headshots/willian-pacho.jpg",
+      "name_cn": "威廉·帕乔"
     },
     {
       "id": "pervis-estupi--n",
@@ -388,7 +394,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/pervis-estupi--n.jpg"
+      "avatar": "/headshots/pervis-estupi--n.jpg",
+      "name_cn": "佩尔维斯·埃斯图皮尼安"
     },
     {
       "id": "anthony-valencia",
@@ -449,7 +456,8 @@
         "xa_p90": 0.18,
         "key_passes_p90": 1.96
       },
-      "avatar": "/headshots/anthony-valencia.jpg"
+      "avatar": "/headshots/anthony-valencia.jpg",
+      "name_cn": "安东尼·瓦伦西亚"
     },
     {
       "id": "john-yeboah",
@@ -510,7 +518,8 @@
         "xa_p90": 0.22,
         "key_passes_p90": 2.1
       },
-      "avatar": "/headshots/john-yeboah.jpg"
+      "avatar": "/headshots/john-yeboah.jpg",
+      "name_cn": "约翰·耶博阿"
     },
     {
       "id": "kendry-p-ez",
@@ -556,7 +565,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/kendry-p-ez.jpg"
+      "avatar": "/headshots/kendry-p-ez.jpg",
+      "name_cn": "肯德里·派斯"
     },
     {
       "id": "kevin-rodr-guez",
@@ -602,7 +612,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/kevin-rodr-guez.jpg"
+      "avatar": "/headshots/kevin-rodr-guez.jpg",
+      "name_cn": "凯文·罗德里格斯"
     },
     {
       "id": "mois-s-ram-rez",
@@ -653,7 +664,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/mois-s-ram-rez.jpg"
+      "avatar": "/headshots/mois-s-ram-rez.jpg",
+      "name_cn": "莫伊塞斯·拉米雷斯"
     },
     {
       "id": "enner-valencia",
@@ -714,7 +726,8 @@
         "xa_p90": 0.07,
         "key_passes_p90": 0.58
       },
-      "avatar": "/headshots/enner-valencia.jpg"
+      "avatar": "/headshots/enner-valencia.jpg",
+      "name_cn": "恩纳·瓦伦西亚"
     },
     {
       "id": "alan-minda",
@@ -775,7 +788,8 @@
         "xa_p90": 0.17,
         "key_passes_p90": 2.0
       },
-      "avatar": "/headshots/alan-minda.jpg"
+      "avatar": "/headshots/alan-minda.jpg",
+      "name_cn": "阿兰·明达"
     },
     {
       "id": "pedro-vite",
@@ -835,7 +849,8 @@
         "xg_p90": 0.02,
         "xa_p90": 0.12,
         "key_passes_p90": 1.43
-      }
+      },
+      "name_cn": "佩德罗·比特"
     },
     {
       "id": "jordy-caicedo",
@@ -880,7 +895,8 @@
         "start_rate": 90.9,
         "data_source": "desktop",
         "has_real_data": true
-      }
+      },
+      "name_cn": "霍尔迪·凯塞多"
     },
     {
       "id": "ngelo-preciado",
@@ -926,7 +942,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/ngelo-preciado.jpg"
+      "avatar": "/headshots/ngelo-preciado.jpg",
+      "name_cn": "安赫洛·普雷西亚多"
     },
     {
       "id": "denil-castillo",
@@ -972,7 +989,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/denil-castillo.jpg"
+      "avatar": "/headshots/denil-castillo.jpg",
+      "name_cn": "德尼尔·卡斯蒂略"
     },
     {
       "id": "gonzalo-plata",
@@ -1018,7 +1036,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/gonzalo-plata.jpg"
+      "avatar": "/headshots/gonzalo-plata.jpg",
+      "name_cn": "贡萨洛·普拉塔"
     },
     {
       "id": "nilson-angulo",
@@ -1079,7 +1098,8 @@
         "xa_p90": 0.21,
         "key_passes_p90": 2.18
       },
-      "avatar": "/headshots/nilson-angulo.jpg"
+      "avatar": "/headshots/nilson-angulo.jpg",
+      "name_cn": "尼尔森·安古洛"
     },
     {
       "id": "alan-franco",
@@ -1140,7 +1160,8 @@
         "xa_p90": 0.06,
         "key_passes_p90": 0.48
       },
-      "avatar": "/headshots/alan-franco.jpg"
+      "avatar": "/headshots/alan-franco.jpg",
+      "name_cn": "阿兰·佛朗哥"
     },
     {
       "id": "gonzalo-valle",
@@ -1190,7 +1211,8 @@
         "pk_saved": 0,
         "data_source": "desktop",
         "has_real_data": true
-      }
+      },
+      "name_cn": "贡萨洛·巴列"
     },
     {
       "id": "mois-s-caicedo",
@@ -1251,7 +1273,8 @@
         "xa_p90": 0.08,
         "key_passes_p90": 0.61
       },
-      "avatar": "/headshots/mois-s-caicedo.jpg"
+      "avatar": "/headshots/mois-s-caicedo.jpg",
+      "name_cn": "莫伊塞斯·凯塞多"
     },
     {
       "id": "jeremy-ar-valo",
@@ -1297,7 +1320,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/jeremy-ar-valo.jpg"
+      "avatar": "/headshots/jeremy-ar-valo.jpg",
+      "name_cn": "赫雷米·阿雷瓦洛"
     },
     {
       "id": "jackson-porozo",
@@ -1358,7 +1382,8 @@
         "xa_p90": 0.01,
         "key_passes_p90": 0.32
       },
-      "avatar": "/headshots/jackson-porozo.jpg"
+      "avatar": "/headshots/jackson-porozo.jpg",
+      "name_cn": "杰克逊·波罗索"
     },
     {
       "id": "yaimar-medina",
@@ -1419,7 +1444,8 @@
         "xa_p90": 0.12,
         "key_passes_p90": 1.11
       },
-      "avatar": "/headshots/yaimar-medina.jpg"
+      "avatar": "/headshots/yaimar-medina.jpg",
+      "name_cn": "亚伊马尔·梅迪纳"
     }
   ]
 }

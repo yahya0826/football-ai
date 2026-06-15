@@ -65,7 +65,8 @@
         "xa_p90": 0.0,
         "key_passes_p90": 0.0
       },
-      "avatar": "/headshots/manuel-neuer.jpg"
+      "avatar": "/headshots/manuel-neuer.jpg",
+      "name_cn": "曼努埃尔·诺伊尔"
     },
     {
       "id": "antonio-r-diger",
@@ -111,7 +112,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/antonio-r-diger.jpg"
+      "avatar": "/headshots/antonio-r-diger.jpg",
+      "name_cn": "安东尼奥·吕迪格"
     },
     {
       "id": "waldemar-anton",
@@ -172,7 +174,8 @@
         "xa_p90": 0.04,
         "key_passes_p90": 0.25
       },
-      "avatar": "/headshots/waldemar-anton.jpg"
+      "avatar": "/headshots/waldemar-anton.jpg",
+      "name_cn": "瓦尔德马尔·安东"
     },
     {
       "id": "jonathan-tah",
@@ -233,7 +236,8 @@
         "xa_p90": 0.08,
         "key_passes_p90": 0.22
       },
-      "avatar": "/headshots/jonathan-tah.jpg"
+      "avatar": "/headshots/jonathan-tah.jpg",
+      "name_cn": "乔纳森·塔"
     },
     {
       "id": "aleksandar-pavlovi",
@@ -294,7 +298,8 @@
         "xa_p90": 0.14,
         "key_passes_p90": 1.29
       },
-      "avatar": "/headshots/aleksandar-pavlovi.jpg"
+      "avatar": "/headshots/aleksandar-pavlovi.jpg",
+      "name_cn": "亚历山大·帕夫洛维奇"
     },
     {
       "id": "joshua-kimmich",
@@ -355,7 +360,8 @@
         "xa_p90": 0.4,
         "key_passes_p90": 2.29
       },
-      "avatar": "/headshots/joshua-kimmich.jpg"
+      "avatar": "/headshots/joshua-kimmich.jpg",
+      "name_cn": "约书亚·基米希"
     },
     {
       "id": "kai-havertz",
@@ -416,7 +422,8 @@
         "xa_p90": 0.1,
         "key_passes_p90": 1.7
       },
-      "avatar": "/headshots/kai-havertz.jpg"
+      "avatar": "/headshots/kai-havertz.jpg",
+      "name_cn": "凯·哈弗茨"
     },
     {
       "id": "leon-goretzka",
@@ -477,7 +484,8 @@
         "xa_p90": 0.18,
         "key_passes_p90": 1.01
       },
-      "avatar": "/headshots/leon-goretzka.jpg"
+      "avatar": "/headshots/leon-goretzka.jpg",
+      "name_cn": "莱昂·戈雷茨卡"
     },
     {
       "id": "jamie-leweling",
@@ -538,7 +546,8 @@
         "xa_p90": 0.2,
         "key_passes_p90": 1.55
       },
-      "avatar": "/headshots/jamie-leweling.jpg"
+      "avatar": "/headshots/jamie-leweling.jpg",
+      "name_cn": "杰米·莱韦林"
     },
     {
       "id": "jamal-musiala",
@@ -584,7 +593,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/jamal-musiala.jpg"
+      "avatar": "/headshots/jamal-musiala.jpg",
+      "name_cn": "贾马尔·穆夏拉"
     },
     {
       "id": "nick-woltemade",
@@ -645,7 +655,8 @@
         "xa_p90": 0.07,
         "key_passes_p90": 1.02
       },
-      "avatar": "/headshots/nick-woltemade.jpg"
+      "avatar": "/headshots/nick-woltemade.jpg",
+      "name_cn": "尼克·沃尔特马德"
     },
     {
       "id": "oliver-baumann",
@@ -709,7 +720,8 @@
         "xa_p90": 0.01,
         "key_passes_p90": 0.03
       },
-      "avatar": "/headshots/oliver-baumann.jpg"
+      "avatar": "/headshots/oliver-baumann.jpg",
+      "name_cn": "奥利弗·鲍曼"
     },
     {
       "id": "pascal-gro",
@@ -755,7 +767,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/pascal-gro.jpg"
+      "avatar": "/headshots/pascal-gro.jpg",
+      "name_cn": "帕斯卡尔·格罗斯"
     },
     {
       "id": "maximilian-beier",
@@ -816,7 +829,8 @@
         "xa_p90": 0.22,
         "key_passes_p90": 1.15
       },
-      "avatar": "/headshots/maximilian-beier.jpg"
+      "avatar": "/headshots/maximilian-beier.jpg",
+      "name_cn": "马克西米利安·拜尔"
     },
     {
       "id": "nico-schlotterbeck",
@@ -877,7 +891,8 @@
         "xa_p90": 0.1,
         "key_passes_p90": 0.43
       },
-      "avatar": "/headshots/nico-schlotterbeck.jpg"
+      "avatar": "/headshots/nico-schlotterbeck.jpg",
+      "name_cn": "尼科·施洛特贝克"
     },
     {
       "id": "angelo-stiller",
@@ -938,7 +953,8 @@
         "xa_p90": 0.24,
         "key_passes_p90": 1.83
       },
-      "avatar": "/headshots/angelo-stiller.jpg"
+      "avatar": "/headshots/angelo-stiller.jpg",
+      "name_cn": "安杰洛·施蒂勒"
     },
     {
       "id": "florian-wirtz",
@@ -999,7 +1015,8 @@
         "xa_p90": 0.19,
         "key_passes_p90": 2.3
       },
-      "avatar": "/headshots/florian-wirtz.jpg"
+      "avatar": "/headshots/florian-wirtz.jpg",
+      "name_cn": "弗洛里安·维尔茨"
     },
     {
       "id": "nathaniel-brown",
@@ -1060,7 +1077,8 @@
         "xa_p90": 0.1,
         "key_passes_p90": 1.15
       },
-      "avatar": "/headshots/nathaniel-brown.jpg"
+      "avatar": "/headshots/nathaniel-brown.jpg",
+      "name_cn": "纳撒尼尔·布朗"
     },
     {
       "id": "leroy-san",
@@ -1121,7 +1139,8 @@
         "xa_p90": 0.27,
         "key_passes_p90": 1.89
       },
-      "avatar": "/headshots/leroy-san.jpg"
+      "avatar": "/headshots/leroy-san.jpg",
+      "name_cn": "勒鲁瓦·萨内"
     },
     {
       "id": "nadiem-amiri",
@@ -1182,7 +1201,8 @@
         "xa_p90": 0.33,
         "key_passes_p90": 2.71
       },
-      "avatar": "/headshots/nadiem-amiri.jpg"
+      "avatar": "/headshots/nadiem-amiri.jpg",
+      "name_cn": "纳迪姆·阿米里"
     },
     {
       "id": "alexander-n-bel",
@@ -1246,7 +1266,8 @@
         "xa_p90": 0.0,
         "key_passes_p90": 0.09
       },
-      "avatar": "/headshots/alexander-n-bel.jpg"
+      "avatar": "/headshots/alexander-n-bel.jpg",
+      "name_cn": "亚历山大·努贝尔"
     },
     {
       "id": "david-raum",
@@ -1307,7 +1328,8 @@
         "xa_p90": 0.44,
         "key_passes_p90": 3.45
       },
-      "avatar": "/headshots/david-raum.jpg"
+      "avatar": "/headshots/david-raum.jpg",
+      "name_cn": "戴维·劳姆"
     },
     {
       "id": "felix-nmecha",
@@ -1368,7 +1390,8 @@
         "xa_p90": 0.17,
         "key_passes_p90": 0.82
       },
-      "avatar": "/headshots/felix-nmecha.jpg"
+      "avatar": "/headshots/felix-nmecha.jpg",
+      "name_cn": "费利克斯·恩梅沙"
     },
     {
       "id": "malick-thiaw",
@@ -1417,7 +1440,8 @@
           "physical": 87
         }
       },
-      "avatar": "/headshots/malick-thiaw.jpg"
+      "avatar": "/headshots/malick-thiaw.jpg",
+      "name_cn": "马利克·佳夫"
     },
     {
       "id": "lennart-karl",
@@ -1478,7 +1502,8 @@
         "xa_p90": 0.35,
         "key_passes_p90": 1.68
       },
-      "avatar": "/headshots/lennart-karl.jpg"
+      "avatar": "/headshots/lennart-karl.jpg",
+      "name_cn": "伦纳特·卡尔"
     },
     {
       "id": "deniz-undav",
@@ -1539,7 +1564,8 @@
         "xa_p90": 0.16,
         "key_passes_p90": 1.64
       },
-      "avatar": "/headshots/deniz-undav.jpg"
+      "avatar": "/headshots/deniz-undav.jpg",
+      "name_cn": "德尼兹·温达夫"
     }
   ]
 }

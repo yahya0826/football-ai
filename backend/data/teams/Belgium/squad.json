@@ -11,7 +11,8 @@
       "club": "Real Madrid",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "蒂博·库尔图瓦"
     },
     {
       "id": "zeno-debast",
@@ -22,7 +23,8 @@
       "club": "Sporting CP",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "泽诺·德巴斯特"
     },
     {
       "id": "arthur-theate",
@@ -33,7 +35,8 @@
       "club": "Eintracht Frankfurt",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "阿蒂尔·泰特"
     },
     {
       "id": "brandon-mechele",
@@ -44,7 +47,8 @@
       "club": "Club Brugge",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "布兰登·梅赫勒"
     },
     {
       "id": "maxim-de-cuyper",
@@ -55,7 +59,8 @@
       "club": "Brighton & Hove Albion",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "马克西姆·德克伊珀"
     },
     {
       "id": "axel-witsel",
@@ -66,7 +71,8 @@
       "club": "Girona",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "阿克塞尔·维特塞尔"
     },
     {
       "id": "kevin-de-bruyne",
@@ -77,7 +83,8 @@
       "club": "Napoli",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "凯文·德布劳内"
     },
     {
       "id": "youri-tielemans",
@@ -88,7 +95,8 @@
       "club": "Aston Villa",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "尤里·蒂勒曼斯"
     },
     {
       "id": "romelu-lukaku",
@@ -99,7 +107,8 @@
       "club": "Napoli",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "罗梅卢·卢卡库"
     },
     {
       "id": "leandro-trossard",
@@ -110,7 +119,8 @@
       "club": "Arsenal",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "莱安德罗·特罗萨德"
     },
     {
       "id": "j-r-my-doku",
@@ -121,7 +131,8 @@
       "club": "Manchester City",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "热雷米·多库"
     },
     {
       "id": "senne-lammens",
@@ -132,7 +143,8 @@
       "club": "Manchester United",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "塞内·拉门斯"
     },
     {
       "id": "mike-penders",
@@ -143,7 +155,8 @@
       "club": "Strasbourg",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "迈克·彭德斯"
     },
     {
       "id": "dodi-luk-bakio",
@@ -154,7 +167,8 @@
       "club": "Benfica",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "多迪·卢克巴基奥"
     },
     {
       "id": "thomas-meunier",
@@ -165,7 +179,8 @@
       "club": "Lille",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "托马斯·默尼耶"
     },
     {
       "id": "koni-de-winter",
@@ -176,7 +191,8 @@
       "club": "Milan",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "科尼·德温特"
     },
     {
       "id": "charles-de-ketelaere",
@@ -187,7 +203,8 @@
       "club": "Atalanta",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "夏尔·德凯特拉雷"
     },
     {
       "id": "joaquin-seys",
@@ -198,7 +215,8 @@
       "club": "Club Brugge",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "若阿金·塞斯"
     },
     {
       "id": "diego-moreira",
@@ -209,7 +227,8 @@
       "club": "Strasbourg",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "迭戈·莫雷拉"
     },
     {
       "id": "hans-vanaken",
@@ -220,7 +239,8 @@
       "club": "Club Brugge",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "汉斯·瓦纳肯"
     },
     {
       "id": "timothy-castagne",
@@ -231,7 +251,8 @@
       "club": "Fulham",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "蒂莫西·卡斯塔涅"
     },
     {
       "id": "alexis-saelemaekers",
@@ -242,7 +263,8 @@
       "club": "Milan",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "亚历克西斯·萨勒梅克斯"
     },
     {
       "id": "nicolas-raskin",
@@ -253,7 +275,8 @@
       "club": "Rangers",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "尼古拉·拉斯金"
     },
     {
       "id": "amadou-onana",
@@ -264,7 +287,8 @@
       "club": "Aston Villa",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "阿马杜·奥纳纳"
     },
     {
       "id": "nathan-ngoy",
@@ -275,7 +299,8 @@
       "club": "Lille",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "纳坦·恩戈伊"
     },
     {
       "id": "matias-fernandez-pardo",
@@ -286,7 +311,8 @@
       "club": "Lille",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "马蒂亚斯·费尔南德斯"
     }
   ]
 }

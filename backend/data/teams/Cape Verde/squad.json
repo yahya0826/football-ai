@@ -11,7 +11,8 @@
       "club": "Chaves",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "沃济尼亚"
     },
     {
       "id": "stopira",
@@ -22,7 +23,8 @@
       "club": "Torreense",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "斯托皮拉"
     },
     {
       "id": "diney",
@@ -33,7 +35,8 @@
       "club": "Al Bataeh",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "迪内"
     },
     {
       "id": "roberto-lopes",
@@ -55,7 +58,8 @@
       "club": "Villarreal",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "洛根·科斯塔"
     },
     {
       "id": "kevin-pina",
@@ -66,7 +70,8 @@
       "club": "Krasnodar",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "凯文·皮纳"
     },
     {
       "id": "jovane-cabral",
@@ -77,7 +82,8 @@
       "club": "Estrela Amadora",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "若瓦内·卡布拉尔"
     },
     {
       "id": "jo-o-paulo",
@@ -88,7 +94,8 @@
       "club": "FCSB",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "若昂·保罗"
     },
     {
       "id": "gilson-benchimol",
@@ -99,7 +106,8 @@
       "club": "Akron Tolyatti",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "吉尔森·本希莫尔"
     },
     {
       "id": "jamiro-monteiro",
@@ -110,7 +118,8 @@
       "club": "PEC Zwolle",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "雅米罗·蒙泰罗"
     },
     {
       "id": "garry-rodrigues",
@@ -121,7 +130,8 @@
       "club": "Apollon Limassol",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "加里·罗德里格斯"
     },
     {
       "id": "m-rcio-rosa",
@@ -132,7 +142,8 @@
       "club": "Montana",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "马尔西奥·罗萨"
     },
     {
       "id": "sidny-lopes-cabral",
@@ -143,7 +154,8 @@
       "club": "Benfica",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "西德尼·洛佩斯·卡布拉尔"
     },
     {
       "id": "deroy-duarte",
@@ -154,7 +166,8 @@
       "club": "Ludogorets Razgrad",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "德罗伊·杜阿尔特"
     },
     {
       "id": "laros-duarte",
@@ -165,7 +178,8 @@
       "club": "Puskás Akadémia",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "拉罗斯·杜阿尔特"
     },
     {
       "id": "yannick-semedo",
@@ -176,7 +190,8 @@
       "club": "Farense",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "亚尼克·塞梅多"
     },
     {
       "id": "willy-semedo",
@@ -187,7 +202,8 @@
       "club": "Omonia",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "威利·塞梅多"
     },
     {
       "id": "telmo-arcanjo",
@@ -198,7 +214,8 @@
       "club": "Vitória de Guimarães",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "特尔莫·阿尔坎若"
     },
     {
       "id": "dailon-livramento",
@@ -209,7 +226,8 @@
       "club": "Casa Pia",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "戴隆·利夫拉门托"
     },
     {
       "id": "ryan-mendes",
@@ -220,7 +238,8 @@
       "club": "Iğdır",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "瑞安·门德斯"
     },
     {
       "id": "nuno-da-costa",
@@ -231,7 +250,8 @@
       "club": "İstanbul Başakşehir",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "努诺·达科斯塔"
     },
     {
       "id": "steven-moreira",
@@ -242,7 +262,8 @@
       "club": "Columbus Crew",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "史蒂文·莫雷拉"
     },
     {
       "id": "cj-dos-santos",
@@ -264,7 +285,8 @@
       "club": "Trabzonspor",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "瓦格纳·皮纳"
     },
     {
       "id": "kelvin-pires",
@@ -275,7 +297,8 @@
       "club": "SJK",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "凯尔文·皮雷斯"
     },
     {
       "id": "h-lio-varela",
@@ -286,7 +309,8 @@
       "club": "Maccabi Tel Aviv",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "埃利奥·瓦雷拉"
     }
   ]
 }

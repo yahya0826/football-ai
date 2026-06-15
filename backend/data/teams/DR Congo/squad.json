@@ -22,7 +22,8 @@
       "club": "West Ham United",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "阿龙·万"
     },
     {
       "id": "steve-kapuadi",
@@ -44,7 +45,8 @@
       "club": "Burnley",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "阿克塞尔·图安泽贝"
     },
     {
       "id": "dylan-batubinsika",
@@ -165,7 +167,8 @@
       "club": "Kilmarnock",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "阿龙·奇博拉"
     },
     {
       "id": "timothy-fayulu",
@@ -187,7 +190,8 @@
       "club": "Real Betis",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "塞德里克·巴坎布"
     },
     {
       "id": "charles-pickel",
@@ -209,7 +213,8 @@
       "club": "Pyramids",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "菲斯顿·马耶莱"
     },
     {
       "id": "yoane-wissa",
@@ -220,7 +225,8 @@
       "club": "Newcastle United",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "约安·维萨"
     },
     {
       "id": "matthieu-epolo",
@@ -242,7 +248,8 @@
       "club": "Lille",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "尚塞尔·姆本巴"
     },
     {
       "id": "simon-banza",
@@ -253,7 +260,8 @@
       "club": "Al Jazira",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "西蒙·班扎"
     },
     {
       "id": "g-d-on-kalulu",
@@ -286,7 +294,8 @@
       "club": "Lens",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "阿蒂尔·马苏阿库"
     }
   ]
 }

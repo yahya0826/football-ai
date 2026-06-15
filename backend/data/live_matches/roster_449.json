@@ -1,0 +1,338 @@
+{
+  "team_id": "449",
+  "team_name": "Netherlands",
+  "team_name_cn": "荷兰",
+  "coach": "荷兰主教练",
+  "players": {
+    "G": [
+      {
+        "id": "291609",
+        "name": "Bart Verbruggen",
+        "short_name": "B. Verbruggen",
+        "jersey": "1",
+        "position": "G",
+        "position_name": "Goalkeeper",
+        "headshot": "",
+        "height": "6' 4\"",
+        "weight": "194 lbs",
+        "age": 23
+      },
+      {
+        "id": "301449",
+        "name": "Robin Roefs",
+        "short_name": "R. Roefs",
+        "jersey": "13",
+        "position": "G",
+        "position_name": "Goalkeeper",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/301449.png",
+        "height": "6' 4\"",
+        "weight": "159 lbs",
+        "age": 23
+      },
+      {
+        "id": "177821",
+        "name": "Mark Flekken",
+        "short_name": "M. Flekken",
+        "jersey": "23",
+        "position": "G",
+        "position_name": "Goalkeeper",
+        "headshot": "",
+        "height": "6' 5\"",
+        "weight": "192 lbs",
+        "age": 33
+      }
+    ],
+    "D": [
+      {
+        "id": "264828",
+        "name": "Lutsharel Geertruida",
+        "short_name": "L. Geertruida",
+        "jersey": "2",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/264828.png",
+        "height": "6' 0\"",
+        "weight": "150 lbs",
+        "age": 25
+      },
+      {
+        "id": "157892",
+        "name": "Virgil van Dijk",
+        "short_name": "V. van Dijk",
+        "jersey": "4",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 5\"",
+        "weight": "203 lbs",
+        "age": 34
+      },
+      {
+        "id": "159248",
+        "name": "Nathan Aké",
+        "short_name": "N. Aké",
+        "jersey": "5",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "5' 11\"",
+        "weight": "183 lbs",
+        "age": 31
+      },
+      {
+        "id": "282583",
+        "name": "Jan Paul van Hecke",
+        "short_name": "J. van Hecke",
+        "jersey": "6",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/282583.png",
+        "height": "6' 2\"",
+        "weight": "172 lbs",
+        "age": 26
+      },
+      {
+        "id": "296512",
+        "name": "Micky van de Ven",
+        "short_name": "M. van de Ven",
+        "jersey": "15",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 4\"",
+        "weight": "179 lbs",
+        "age": 25
+      },
+      {
+        "id": "213248",
+        "name": "Denzel Dumfries",
+        "short_name": "D. Dumfries",
+        "jersey": "22",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/213248.png",
+        "height": "6' 2\"",
+        "weight": "174 lbs",
+        "age": 30
+      },
+      {
+        "id": "353951",
+        "name": "Jorrel Hato",
+        "short_name": "J. Hato",
+        "jersey": "25",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/353951.png",
+        "height": "6' 0\"",
+        "weight": "170 lbs",
+        "age": 20
+      }
+    ],
+    "M": [
+      {
+        "id": "146335",
+        "name": "Marten de Roon",
+        "short_name": "M. de Roon",
+        "jersey": "3",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "6' 1\"",
+        "weight": "168 lbs",
+        "age": 35
+      },
+      {
+        "id": "274632",
+        "name": "Ryan Gravenberch",
+        "short_name": "R. Gravenberch",
+        "jersey": "8",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/274632.png",
+        "height": "6' 3\"",
+        "weight": "183 lbs",
+        "age": 24
+      },
+      {
+        "id": "282186",
+        "name": "Mats Wieffer",
+        "short_name": "M. Wieffer",
+        "jersey": "12",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/282186.png",
+        "height": "6' 2\"",
+        "weight": "172 lbs",
+        "age": 26
+      },
+      {
+        "id": "261328",
+        "name": "Tijjani Reijnders",
+        "short_name": "T. Reijnders",
+        "jersey": "14",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/261328.png",
+        "height": "5' 10\"",
+        "weight": "174 lbs",
+        "age": 27
+      },
+      {
+        "id": "240965",
+        "name": "Guus Til",
+        "short_name": "G. Til",
+        "jersey": "16",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/240965.png",
+        "height": "6' 2\"",
+        "weight": "172 lbs",
+        "age": 28
+      },
+      {
+        "id": "258968",
+        "name": "Teun Koopmeiners",
+        "short_name": "T. Koopmeiners",
+        "jersey": "20",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/258968.png",
+        "height": "6' 1\"",
+        "weight": "183 lbs",
+        "age": 28
+      },
+      {
+        "id": "219022",
+        "name": "Frenkie de Jong",
+        "short_name": "F. de Jong",
+        "jersey": "21",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "5' 11\"",
+        "weight": "161 lbs",
+        "age": 29
+      },
+      {
+        "id": "282230",
+        "name": "Quinten Timber",
+        "short_name": "Q. Timber",
+        "jersey": "",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/282230.png",
+        "height": "5' 9\"",
+        "weight": "157 lbs",
+        "age": 24
+      }
+    ],
+    "F": [
+      {
+        "id": "245916",
+        "name": "Justin Kluivert",
+        "short_name": "J. Kluivert",
+        "jersey": "7",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "5' 8\"",
+        "weight": "146 lbs",
+        "age": 27
+      },
+      {
+        "id": "177042",
+        "name": "Wout Weghorst",
+        "short_name": "W. Weghorst",
+        "jersey": "9",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "6' 6\"",
+        "weight": "196 lbs",
+        "age": 33
+      },
+      {
+        "id": "159255",
+        "name": "Memphis Depay",
+        "short_name": "M. Depay",
+        "jersey": "10",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "5' 10\"",
+        "weight": "172 lbs",
+        "age": 32
+      },
+      {
+        "id": "249524",
+        "name": "Cody Gakpo",
+        "short_name": "C. Gakpo",
+        "jersey": "11",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/249524.png",
+        "height": "6' 4\"",
+        "weight": "172 lbs",
+        "age": 27
+      },
+      {
+        "id": "255344",
+        "name": "Noa Lang",
+        "short_name": "N. Lang",
+        "jersey": "17",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/255344.png",
+        "height": "5' 9\"",
+        "weight": "152 lbs",
+        "age": 26
+      },
+      {
+        "id": "259481",
+        "name": "Donyell Malen",
+        "short_name": "D. Malen",
+        "jersey": "18",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/259481.png",
+        "height": "5' 10\"",
+        "weight": "150 lbs",
+        "age": 27
+      },
+      {
+        "id": "282229",
+        "name": "Brian Brobbey",
+        "short_name": "B. Brobbey",
+        "jersey": "19",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/282229.png",
+        "height": "5' 11\"",
+        "weight": "174 lbs",
+        "age": 24
+      },
+      {
+        "id": "284792",
+        "name": "Crysencio Summerville",
+        "short_name": "C. Summerville",
+        "jersey": "24",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "5' 8\"",
+        "weight": "139 lbs",
+        "age": 24
+      }
+    ],
+    "U": []
+  },
+  "total_players": 26,
+  "position_labels": {
+    "G": "门将",
+    "D": "后卫",
+    "M": "中场",
+    "F": "前锋",
+    "U": "未知"
+  },
+  "_saved_at": "2026-06-14T20:26:40.699924"
+}

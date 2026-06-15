@@ -65,7 +65,8 @@
         "xa_p90": 0.0,
         "key_passes_p90": 0.0
       },
-      "avatar": "/headshots/matt-turner.jpg"
+      "avatar": "/headshots/matt-turner.jpg",
+      "name_cn": "马特·特纳"
     },
     {
       "id": "sergi-o-dest",
@@ -126,7 +127,8 @@
         "xa_p90": 0.18,
         "key_passes_p90": 1.14
       },
-      "avatar": "/headshots/sergi-o-dest.jpg"
+      "avatar": "/headshots/sergi-o-dest.jpg",
+      "name_cn": "塞尔吉尼奥·德斯特"
     },
     {
       "id": "chris-richards",
@@ -187,7 +189,8 @@
         "xa_p90": 0.04,
         "key_passes_p90": 0.29
       },
-      "avatar": "/headshots/chris-richards.jpg"
+      "avatar": "/headshots/chris-richards.jpg",
+      "name_cn": "克里斯·理查兹"
     },
     {
       "id": "tyler-adams",
@@ -233,7 +236,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/tyler-adams.jpg"
+      "avatar": "/headshots/tyler-adams.jpg",
+      "name_cn": "泰勒·亚当斯"
     },
     {
       "id": "antonee-robinson",
@@ -294,7 +298,8 @@
         "xa_p90": 0.09,
         "key_passes_p90": 1.33
       },
-      "avatar": "/headshots/antonee-robinson.jpg"
+      "avatar": "/headshots/antonee-robinson.jpg",
+      "name_cn": "安东尼·罗宾逊"
     },
     {
       "id": "auston-trusty",
@@ -355,7 +360,8 @@
         "xa_p90": 0.02,
         "key_passes_p90": 0.25
       },
-      "avatar": "/headshots/auston-trusty.jpg"
+      "avatar": "/headshots/auston-trusty.jpg",
+      "name_cn": "奥斯顿·特拉斯蒂"
     },
     {
       "id": "giovanni-reyna",
@@ -428,7 +434,8 @@
         "xa_p90": 0.19,
         "key_passes_p90": 1.52
       },
-      "avatar": "/headshots/weston-mckennie.jpg"
+      "avatar": "/headshots/weston-mckennie.jpg",
+      "name_cn": "韦斯顿·麦肯尼"
     },
     {
       "id": "ricardo-pepi",
@@ -489,7 +496,8 @@
         "xa_p90": 0.14,
         "key_passes_p90": 1.0
       },
-      "avatar": "/headshots/ricardo-pepi.jpg"
+      "avatar": "/headshots/ricardo-pepi.jpg",
+      "name_cn": "里卡多·佩皮"
     },
     {
       "id": "christian-pulisic",
@@ -535,7 +543,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/christian-pulisic.jpg"
+      "avatar": "/headshots/christian-pulisic.jpg",
+      "name_cn": "克里斯蒂安·普利希奇"
     },
     {
       "id": "brenden-aaronson",
@@ -596,7 +605,8 @@
         "xa_p90": 0.13,
         "key_passes_p90": 1.24
       },
-      "avatar": "/headshots/brenden-aaronson.jpg"
+      "avatar": "/headshots/brenden-aaronson.jpg",
+      "name_cn": "布伦登·阿伦森"
     },
     {
       "id": "miles-robinson",
@@ -642,7 +652,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/miles-robinson.jpg"
+      "avatar": "/headshots/miles-robinson.jpg",
+      "name_cn": "迈尔斯·罗宾逊"
     },
     {
       "id": "tim-ream",
@@ -703,7 +714,8 @@
         "xa_p90": 0.04,
         "key_passes_p90": 0.1
       },
-      "avatar": "/headshots/tim-ream.jpg"
+      "avatar": "/headshots/tim-ream.jpg",
+      "name_cn": "蒂姆·里姆"
     },
     {
       "id": "sebastian-berhalter",
@@ -752,7 +764,8 @@
           "physical": 86
         }
       },
-      "avatar": "/headshots/sebastian-berhalter.jpg"
+      "avatar": "/headshots/sebastian-berhalter.jpg",
+      "name_cn": "塞巴斯蒂安·贝哈尔特"
     },
     {
       "id": "cristian-roldan",
@@ -765,7 +778,8 @@
       "national_caps": 0,
       "national_goals": 0,
       "stats": null,
-      "avatar": "/headshots/cristian-roldan.jpg"
+      "avatar": "/headshots/cristian-roldan.jpg",
+      "name_cn": "克里斯蒂安·罗尔丹"
     },
     {
       "id": "alex-freeman",
@@ -811,7 +825,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/alex-freeman.jpg"
+      "avatar": "/headshots/alex-freeman.jpg",
+      "name_cn": "亚历克斯·弗里曼"
     },
     {
       "id": "malik-tillman",
@@ -872,7 +887,8 @@
         "xa_p90": 0.16,
         "key_passes_p90": 1.39
       },
-      "avatar": "/headshots/malik-tillman.jpg"
+      "avatar": "/headshots/malik-tillman.jpg",
+      "name_cn": "马利克·蒂尔曼"
     },
     {
       "id": "maximilian-arfsten",
@@ -966,7 +982,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/haji-wright.jpg"
+      "avatar": "/headshots/haji-wright.jpg",
+      "name_cn": "哈吉·赖特"
     },
     {
       "id": "folarin-balogun",
@@ -1027,7 +1044,8 @@
         "xa_p90": 0.08,
         "key_passes_p90": 0.96
       },
-      "avatar": "/headshots/folarin-balogun.jpg"
+      "avatar": "/headshots/folarin-balogun.jpg",
+      "name_cn": "福拉林·巴洛贡"
     },
     {
       "id": "timothy-weah",
@@ -1136,7 +1154,8 @@
         "xa_p90": 0.04,
         "key_passes_p90": 0.71
       },
-      "avatar": "/headshots/mark-mckenzie.jpg"
+      "avatar": "/headshots/mark-mckenzie.jpg",
+      "name_cn": "马克·麦肯齐"
     },
     {
       "id": "joe-scally",
@@ -1197,7 +1216,8 @@
         "xa_p90": 0.06,
         "key_passes_p90": 0.62
       },
-      "avatar": "/headshots/joe-scally.jpg"
+      "avatar": "/headshots/joe-scally.jpg",
+      "name_cn": "乔·斯卡利"
     },
     {
       "id": "matt-freese",
@@ -1263,7 +1283,8 @@
         "xa_p90": 0.0,
         "key_passes_p90": 0.0
       },
-      "avatar": "/headshots/matt-freese.jpg"
+      "avatar": "/headshots/matt-freese.jpg",
+      "name_cn": "马特·弗里斯"
     },
     {
       "id": "chris-brady",
@@ -1327,7 +1348,8 @@
         "xa_p90": 0.0,
         "key_passes_p90": 0.0
       },
-      "avatar": "/headshots/chris-brady.jpg"
+      "avatar": "/headshots/chris-brady.jpg",
+      "name_cn": "克里斯·布雷迪"
     },
     {
       "id": "alejandro-zendejas",
@@ -1388,7 +1410,8 @@
         "xa_p90": 0.11,
         "key_passes_p90": 1.95
       },
-      "avatar": "/headshots/alejandro-zendejas.jpg"
+      "avatar": "/headshots/alejandro-zendejas.jpg",
+      "name_cn": "亚历杭德罗·森德哈斯"
     }
   ]
 }

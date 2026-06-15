@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import FeedbackModal from './FeedbackModal';
 
@@ -17,10 +18,6 @@ export default function NavBar() {
   const pathname = usePathname();
   const [menuOpen, setMenuOpen] = useState(false);
   const [feedbackOpen, setFeedbackOpen] = useState(false);
-
-  useEffect(() => {
-    setMenuOpen(false);
-  }, [pathname]);
 
   useEffect(() => {
     if (menuOpen) {
@@ -41,13 +38,20 @@ export default function NavBar() {
       <div className="container-responsive">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center gap-8">
-            <Link href="/" className="flex items-center gap-2">
-              <svg className="w-8 h-8 text-primary" viewBox="0 0 24 24" fill="currentColor">
-                <circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" strokeWidth="2" />
-                <path d="M12 2 L12 22 M2 12 L22 12 M4.93 4.93 L19.07 19.07 M4.93 19.07 L19.07 4.93" stroke="currentColor" strokeWidth="1.5" />
-                <circle cx="12" cy="12" r="3" />
-              </svg>
-              <span className="text-xl font-bold" style={{ color: 'var(--primary)' }}>世界杯AI助手</span>
+            <Link href="/" className="flex items-center" aria-label="探球首页">
+              <Image
+                src="/images/tanqiu-logo.svg"
+                alt="探球"
+                width={150}
+                height={54}
+                priority
+                unoptimized
+                style={{
+                  width: '9.4rem',
+                  height: 'auto',
+                  display: 'block',
+                }}
+              />
             </Link>
 
             <div className="hidden md:flex items-center gap-1">

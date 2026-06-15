@@ -65,7 +65,8 @@
         "xa_p90": 0.0,
         "key_passes_p90": 0.0
       },
-      "avatar": "/headshots/mert-g-nok.jpg"
+      "avatar": "/headshots/mert-g-nok.jpg",
+      "name_cn": "梅尔特·居诺克"
     },
     {
       "id": "zeki--elik",
@@ -126,7 +127,8 @@
         "xa_p90": 0.07,
         "key_passes_p90": 0.92
       },
-      "avatar": "/headshots/zeki--elik.jpg"
+      "avatar": "/headshots/zeki--elik.jpg",
+      "name_cn": "泽基·切利克"
     },
     {
       "id": "merih-demiral",
@@ -187,7 +189,8 @@
         "xa_p90": 0.04,
         "key_passes_p90": 0.22
       },
-      "avatar": "/headshots/merih-demiral.jpg"
+      "avatar": "/headshots/merih-demiral.jpg",
+      "name_cn": "梅里赫·德米拉尔"
     },
     {
       "id": "a-lar-s-y-nc",
@@ -233,7 +236,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/a-lar-s-y-nc.jpg"
+      "avatar": "/headshots/a-lar-s-y-nc.jpg",
+      "name_cn": "恰拉尔·瑟云居"
     },
     {
       "id": "salih--zcan",
@@ -279,7 +283,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/salih--zcan.jpg"
+      "avatar": "/headshots/salih--zcan.jpg",
+      "name_cn": "萨利赫·厄兹詹"
     },
     {
       "id": "orkun-k-k",
@@ -340,7 +345,8 @@
         "xa_p90": 0.33,
         "key_passes_p90": 3.33
       },
-      "avatar": "/headshots/orkun-k-k.jpg"
+      "avatar": "/headshots/orkun-k-k.jpg",
+      "name_cn": "奥尔昆·柯克曲"
     },
     {
       "id": "kerem-akt-rko-lu",
@@ -401,7 +407,8 @@
         "xa_p90": 0.22,
         "key_passes_p90": 2.66
       },
-      "avatar": "/headshots/kerem-akt-rko-lu.jpg"
+      "avatar": "/headshots/kerem-akt-rko-lu.jpg",
+      "name_cn": "凯雷姆·阿克蒂尔科卢"
     },
     {
       "id": "arda-g-ler",
@@ -462,7 +469,8 @@
         "xa_p90": 0.32,
         "key_passes_p90": 3.11
       },
-      "avatar": "/headshots/arda-g-ler.jpg"
+      "avatar": "/headshots/arda-g-ler.jpg",
+      "name_cn": "阿尔达·居莱尔"
     },
     {
       "id": "deniz-g-l",
@@ -523,7 +531,8 @@
         "xa_p90": 0.09,
         "key_passes_p90": 0.76
       },
-      "avatar": "/headshots/deniz-g-l.jpg"
+      "avatar": "/headshots/deniz-g-l.jpg",
+      "name_cn": "德尼兹·居尔"
     },
     {
       "id": "hakan--alhano-lu",
@@ -569,7 +578,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/hakan--alhano-lu.jpg"
+      "avatar": "/headshots/hakan--alhano-lu.jpg",
+      "name_cn": "哈坎·恰尔汗奥卢"
     },
     {
       "id": "kenan-y-ld-z",
@@ -630,7 +640,8 @@
         "xa_p90": 0.31,
         "key_passes_p90": 2.41
       },
-      "avatar": "/headshots/kenan-y-ld-z.jpg"
+      "avatar": "/headshots/kenan-y-ld-z.jpg",
+      "name_cn": "凯南·耶尔德兹"
     },
     {
       "id": "altay-bay-nd-r",
@@ -694,7 +705,8 @@
         "xa_p90": 0.01,
         "key_passes_p90": 0.17
       },
-      "avatar": "/headshots/altay-bay-nd-r.jpg"
+      "avatar": "/headshots/altay-bay-nd-r.jpg",
+      "name_cn": "阿尔泰·巴延德尔"
     },
     {
       "id": "eren-elmal",
@@ -755,7 +767,8 @@
         "xa_p90": 0.14,
         "key_passes_p90": 1.65
       },
-      "avatar": "/headshots/eren-elmal.jpg"
+      "avatar": "/headshots/eren-elmal.jpg",
+      "name_cn": "埃伦·埃尔马勒"
     },
     {
       "id": "abd-lkerim-bardakc",
@@ -816,7 +829,8 @@
         "xa_p90": 0.07,
         "key_passes_p90": 0.57
       },
-      "avatar": "/headshots/abd-lkerim-bardakc.jpg"
+      "avatar": "/headshots/abd-lkerim-bardakc.jpg",
+      "name_cn": "阿卜杜勒克里姆·巴尔达克奇"
     },
     {
       "id": "ozan-kabak",
@@ -877,7 +891,8 @@
         "xa_p90": 0.04,
         "key_passes_p90": 0.41
       },
-      "avatar": "/headshots/ozan-kabak.jpg"
+      "avatar": "/headshots/ozan-kabak.jpg",
+      "name_cn": "奥赞·卡巴克"
     },
     {
       "id": "i-smail-y-ksek",
@@ -938,7 +953,8 @@
         "xa_p90": 0.08,
         "key_passes_p90": 0.87
       },
-      "avatar": "/headshots/i-smail-y-ksek.jpg"
+      "avatar": "/headshots/i-smail-y-ksek.jpg",
+      "name_cn": "伊斯梅尔·于克塞克"
     },
     {
       "id": "i-rfan-can-kahveci",
@@ -999,7 +1015,8 @@
         "xa_p90": 0.24,
         "key_passes_p90": 1.9
       },
-      "avatar": "/headshots/i-rfan-can-kahveci.jpg"
+      "avatar": "/headshots/i-rfan-can-kahveci.jpg",
+      "name_cn": "伊尔凡·詹·卡赫韦吉"
     },
     {
       "id": "mert-m-ld-r",
@@ -1060,7 +1077,8 @@
         "xa_p90": 0.15,
         "key_passes_p90": 1.11
       },
-      "avatar": "/headshots/mert-m-ld-r.jpg"
+      "avatar": "/headshots/mert-m-ld-r.jpg",
+      "name_cn": "梅尔特·米尔迪尔"
     },
     {
       "id": "yunus-akg-n",
@@ -1121,7 +1139,8 @@
         "xa_p90": 0.31,
         "key_passes_p90": 2.36
       },
-      "avatar": "/headshots/yunus-akg-n.jpg"
+      "avatar": "/headshots/yunus-akg-n.jpg",
+      "name_cn": "尤努斯·阿克金"
     },
     {
       "id": "ferdi-kad-o-lu",
@@ -1182,7 +1201,8 @@
         "xa_p90": 0.1,
         "key_passes_p90": 0.63
       },
-      "avatar": "/headshots/ferdi-kad-o-lu.jpg"
+      "avatar": "/headshots/ferdi-kad-o-lu.jpg",
+      "name_cn": "费尔迪·卡德奥卢"
     },
     {
       "id": "bar---alper-y-lmaz",
@@ -1243,7 +1263,8 @@
         "xa_p90": 0.22,
         "key_passes_p90": 2.29
       },
-      "avatar": "/headshots/bar---alper-y-lmaz.jpg"
+      "avatar": "/headshots/bar---alper-y-lmaz.jpg",
+      "name_cn": "巴雷什·阿尔佩尔·耶尔马兹"
     },
     {
       "id": "kaan-ayhan",
@@ -1304,7 +1325,8 @@
         "xa_p90": 0.03,
         "key_passes_p90": 0.43
       },
-      "avatar": "/headshots/kaan-ayhan.jpg"
+      "avatar": "/headshots/kaan-ayhan.jpg",
+      "name_cn": "卡恩·艾汉"
     },
     {
       "id": "u-urcan--ak-r",
@@ -1368,7 +1390,8 @@
         "xa_p90": 0.0,
         "key_passes_p90": 0.07
       },
-      "avatar": "/headshots/u-urcan--ak-r.jpg"
+      "avatar": "/headshots/u-urcan--ak-r.jpg",
+      "name_cn": "乌乌尔詹·恰克尔"
     },
     {
       "id": "o-uz-ayd-n",
@@ -1414,7 +1437,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/o-uz-ayd-n.jpg"
+      "avatar": "/headshots/o-uz-ayd-n.jpg",
+      "name_cn": "奥乌兹·艾登"
     },
     {
       "id": "samet-akaydin",
@@ -1460,7 +1484,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/samet-akaydin.jpg"
+      "avatar": "/headshots/samet-akaydin.jpg",
+      "name_cn": "萨梅特·阿卡伊登"
     },
     {
       "id": "can-uzun",
@@ -1506,7 +1531,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/can-uzun.jpg"
+      "avatar": "/headshots/can-uzun.jpg",
+      "name_cn": "詹·乌尊"
     }
   ]
 }

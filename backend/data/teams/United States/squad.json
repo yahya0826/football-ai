@@ -11,7 +11,8 @@
       "club": "New England Revolution",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "马特·特纳"
     },
     {
       "id": "sergi-o-dest",
@@ -22,7 +23,8 @@
       "club": "PSV Eindhoven",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "塞尔吉尼奥·德斯特"
     },
     {
       "id": "chris-richards",
@@ -33,7 +35,8 @@
       "club": "Crystal Palace",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "克里斯·理查兹"
     },
     {
       "id": "tyler-adams",
@@ -44,7 +47,8 @@
       "club": "Bournemouth",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "泰勒·亚当斯"
     },
     {
       "id": "antonee-robinson",
@@ -55,7 +59,8 @@
       "club": "Fulham",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "安东尼·罗宾逊"
     },
     {
       "id": "auston-trusty",
@@ -66,7 +71,8 @@
       "club": "Celtic",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "奥斯顿·特拉斯蒂"
     },
     {
       "id": "giovanni-reyna",
@@ -88,7 +94,8 @@
       "club": "Juventus",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "韦斯顿·麦肯尼"
     },
     {
       "id": "ricardo-pepi",
@@ -99,7 +106,8 @@
       "club": "PSV Eindhoven",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "里卡多·佩皮"
     },
     {
       "id": "christian-pulisic",
@@ -110,7 +118,8 @@
       "club": "Milan",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "克里斯蒂安·普利希奇"
     },
     {
       "id": "brenden-aaronson",
@@ -121,7 +130,8 @@
       "club": "Leeds United",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "布伦登·阿伦森"
     },
     {
       "id": "miles-robinson",
@@ -132,7 +142,8 @@
       "club": "FC Cincinnati",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "迈尔斯·罗宾逊"
     },
     {
       "id": "tim-ream",
@@ -143,7 +154,8 @@
       "club": "Charlotte FC",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "蒂姆·里姆"
     },
     {
       "id": "sebastian-berhalter",
@@ -154,7 +166,8 @@
       "club": "Vancouver Whitecaps FC",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "塞巴斯蒂安·贝哈尔特"
     },
     {
       "id": "cristian-roldan",
@@ -165,7 +178,8 @@
       "club": "Seattle Sounders FC",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "克里斯蒂安·罗尔丹"
     },
     {
       "id": "alex-freeman",
@@ -176,7 +190,8 @@
       "club": "Villarreal",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "亚历克斯·弗里曼"
     },
     {
       "id": "malik-tillman",
@@ -187,7 +202,8 @@
       "club": "Bayer Leverkusen",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "马利克·蒂尔曼"
     },
     {
       "id": "maximilian-arfsten",
@@ -209,7 +225,8 @@
       "club": "Coventry City",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "哈吉·赖特"
     },
     {
       "id": "folarin-balogun",
@@ -220,7 +237,8 @@
       "club": "Monaco",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "福拉林·巴洛贡"
     },
     {
       "id": "timothy-weah",
@@ -242,7 +260,8 @@
       "club": "Toulouse",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "马克·麦肯齐"
     },
     {
       "id": "joe-scally",
@@ -253,7 +272,8 @@
       "club": "Borussia Mönchengladbach",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "乔·斯卡利"
     },
     {
       "id": "matt-freese",
@@ -264,7 +284,8 @@
       "club": "New York City FC",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "马特·弗里斯"
     },
     {
       "id": "chris-brady",
@@ -275,7 +296,8 @@
       "club": "Chicago Fire FC",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "克里斯·布雷迪"
     },
     {
       "id": "alejandro-zendejas",
@@ -286,7 +308,8 @@
       "club": "América",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "亚历杭德罗·森德哈斯"
     }
   ]
 }

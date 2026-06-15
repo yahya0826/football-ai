@@ -11,7 +11,8 @@
       "club": "Al-Talaba",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "法哈德·塔利卜"
     },
     {
       "id": "rebin-sulaka",
@@ -22,7 +23,8 @@
       "club": "Port",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "雷宾·苏拉卡"
     },
     {
       "id": "hussein-ali",
@@ -33,7 +35,8 @@
       "club": "Pogoń Szczecin",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "侯赛因·阿里"
     },
     {
       "id": "zaid-tahseen",
@@ -44,7 +47,8 @@
       "club": "Pakhtakor",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "扎伊德·塔赫辛"
     },
     {
       "id": "akam-hashim",
@@ -66,7 +70,8 @@
       "club": "Al-Shorta",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "马纳夫·尤尼斯"
     },
     {
       "id": "youssef-amyn",
@@ -77,7 +82,8 @@
       "club": "AEK Larnaca",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "优素福·阿明"
     },
     {
       "id": "ibrahim-bayesh",
@@ -88,7 +94,8 @@
       "club": "Al Dhafra",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "易卜拉欣·巴耶什"
     },
     {
       "id": "ali-al-hamadi",
@@ -132,7 +139,8 @@
       "club": "Al-Zawraa",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "贾拉勒·哈桑"
     },
     {
       "id": "ali-yousif",
@@ -154,7 +162,8 @@
       "club": "Utrecht",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "齐丹·伊克巴尔"
     },
     {
       "id": "ahmed-yahya",
@@ -165,7 +174,8 @@
       "club": "Al-Shorta",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "艾哈迈德·叶海亚"
     },
     {
       "id": "amir-al-ammari",
@@ -176,7 +186,8 @@
       "club": "Cracovia",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "阿米尔·阿马里"
     },
     {
       "id": "ali-jasim",
@@ -209,7 +220,8 @@
       "club": "AGF",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "凯文·雅各布"
     },
     {
       "id": "aimar-sher",
@@ -220,7 +232,8 @@
       "club": "Sarpsborg 08",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "艾马尔·谢尔"
     },
     {
       "id": "marko-farji",
@@ -231,7 +244,8 @@
       "club": "Venezia",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "马尔科·法尔吉"
     },
     {
       "id": "ahmed-basil",
@@ -242,7 +256,8 @@
       "club": "Al-Shorta",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "艾哈迈德·巴西勒"
     },
     {
       "id": "merchas-doski",
@@ -253,7 +268,8 @@
       "club": "Viktoria Plzeň",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "梅尔哈斯·多斯基"
     },
     {
       "id": "zaid-ismail",
@@ -264,7 +280,8 @@
       "club": "Al-Talaba",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "扎伊德·伊斯梅尔"
     },
     {
       "id": "mustafa-saadoon",
@@ -275,7 +292,8 @@
       "club": "Al-Shorta",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "穆斯塔法·萨阿敦"
     },
     {
       "id": "frans-putros",
@@ -286,7 +304,8 @@
       "club": "Persib",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "弗兰斯·普特罗斯"
     }
   ]
 }

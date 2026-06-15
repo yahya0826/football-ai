@@ -60,7 +60,8 @@
         "xa_p90": 0.0,
         "key_passes_p90": 0.07
       },
-      "avatar": "/headshots/dayne-st--clair.jpg"
+      "avatar": "/headshots/dayne-st--clair.jpg",
+      "name_cn": "戴恩·圣克莱尔"
     },
     {
       "id": "alistair-johnston",
@@ -121,7 +122,8 @@
         "xa_p90": 0.22,
         "key_passes_p90": 1.62
       },
-      "avatar": "/headshots/alistair-johnston.jpg"
+      "avatar": "/headshots/alistair-johnston.jpg",
+      "name_cn": "阿利斯泰尔·约翰斯顿"
     },
     {
       "id": "alfie-jones",
@@ -166,7 +168,8 @@
         "start_rate": 96.0,
         "data_source": "desktop",
         "has_real_data": true
-      }
+      },
+      "name_cn": "阿尔菲·琼斯"
     },
     {
       "id": "luc-de-fougerolles",
@@ -227,7 +230,8 @@
         "xa_p90": 0.03,
         "key_passes_p90": 0.42
       },
-      "avatar": "/headshots/luc-de-fougerolles.jpg"
+      "avatar": "/headshots/luc-de-fougerolles.jpg",
+      "name_cn": "吕克·德富热罗勒"
     },
     {
       "id": "joel-waterman",
@@ -272,7 +276,8 @@
         "start_rate": 60.0,
         "data_source": "desktop",
         "has_real_data": true
-      }
+      },
+      "name_cn": "乔尔·沃特曼"
     },
     {
       "id": "mathieu-choini-re",
@@ -333,7 +338,8 @@
         "xa_p90": 0.06,
         "key_passes_p90": 1.06
       },
-      "avatar": "/headshots/mathieu-choini-re.jpg"
+      "avatar": "/headshots/mathieu-choini-re.jpg",
+      "name_cn": "马蒂厄·舒瓦尼埃"
     },
     {
       "id": "stephen-eust-quio",
@@ -378,7 +384,8 @@
         "start_rate": 60.0,
         "data_source": "desktop",
         "has_real_data": true
-      }
+      },
+      "name_cn": "斯蒂芬·欧斯塔基奥"
     },
     {
       "id": "isma-l-kon",
@@ -439,7 +446,8 @@
         "xa_p90": 0.06,
         "key_passes_p90": 0.75
       },
-      "avatar": "/headshots/isma-l-kon.jpg"
+      "avatar": "/headshots/isma-l-kon.jpg",
+      "name_cn": "伊斯梅尔·科内"
     },
     {
       "id": "cyle-larin",
@@ -500,7 +508,8 @@
         "xa_p90": 0.38,
         "key_passes_p90": 1.72
       },
-      "avatar": "/headshots/cyle-larin.jpg"
+      "avatar": "/headshots/cyle-larin.jpg",
+      "name_cn": "赛尔·拉林"
     },
     {
       "id": "jonathan-david",
@@ -561,7 +570,8 @@
         "xa_p90": 0.08,
         "key_passes_p90": 1.65
       },
-      "avatar": "/headshots/jonathan-david.jpg"
+      "avatar": "/headshots/jonathan-david.jpg",
+      "name_cn": "乔纳森·戴维"
     },
     {
       "id": "liam-millar",
@@ -607,7 +617,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/liam-millar.jpg"
+      "avatar": "/headshots/liam-millar.jpg",
+      "name_cn": "利亚姆·米勒"
     },
     {
       "id": "tani-oluwaseyi",
@@ -668,7 +679,8 @@
         "xa_p90": 0.05,
         "key_passes_p90": 0.59
       },
-      "avatar": "/headshots/tani-oluwaseyi.jpg"
+      "avatar": "/headshots/tani-oluwaseyi.jpg",
+      "name_cn": "塔尼·奥卢瓦塞伊"
     },
     {
       "id": "derek-cornelius",
@@ -729,7 +741,8 @@
         "xa_p90": 0.04,
         "key_passes_p90": 0.16
       },
-      "avatar": "/headshots/derek-cornelius.jpg"
+      "avatar": "/headshots/derek-cornelius.jpg",
+      "name_cn": "德里克·科尼利厄斯"
     },
     {
       "id": "jacob-shaffelburg",
@@ -775,7 +788,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/jacob-shaffelburg.jpg"
+      "avatar": "/headshots/jacob-shaffelburg.jpg",
+      "name_cn": "雅各布·沙费尔堡"
     },
     {
       "id": "mo-se-bombito",
@@ -820,7 +834,8 @@
         "start_rate": 100.0,
         "data_source": "desktop",
         "has_real_data": true
-      }
+      },
+      "name_cn": "莫伊兹·邦比托"
     },
     {
       "id": "maxime-cr-peau",
@@ -879,7 +894,8 @@
         "xa_p90": 0.0,
         "key_passes_p90": 0.0
       },
-      "avatar": "/headshots/maxime-cr-peau.jpg"
+      "avatar": "/headshots/maxime-cr-peau.jpg",
+      "name_cn": "马克西姆·克雷波"
     },
     {
       "id": "tajon-buchanan",
@@ -940,7 +956,8 @@
         "xa_p90": 0.1,
         "key_passes_p90": 0.83
       },
-      "avatar": "/headshots/tajon-buchanan.jpg"
+      "avatar": "/headshots/tajon-buchanan.jpg",
+      "name_cn": "塔洪·布坎南"
     },
     {
       "id": "owen-goodman",
@@ -991,7 +1008,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/owen-goodman.jpg"
+      "avatar": "/headshots/owen-goodman.jpg",
+      "name_cn": "欧文·古德曼"
     },
     {
       "id": "alphonso-davies",
@@ -1037,7 +1055,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/alphonso-davies.jpg"
+      "avatar": "/headshots/alphonso-davies.jpg",
+      "name_cn": "阿方索·戴维斯"
     },
     {
       "id": "ali-ahmed",
@@ -1082,7 +1101,8 @@
         "start_rate": 82.9,
         "data_source": "desktop",
         "has_real_data": true
-      }
+      },
+      "name_cn": "阿里·艾哈迈德"
     },
     {
       "id": "jonathan-osorio",
@@ -1143,7 +1163,8 @@
         "xa_p90": 0.1,
         "key_passes_p90": 0.86
       },
-      "avatar": "/headshots/jonathan-osorio.jpg"
+      "avatar": "/headshots/jonathan-osorio.jpg",
+      "name_cn": "乔纳森·奥索里奥"
     },
     {
       "id": "richie-laryea",
@@ -1189,7 +1210,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/richie-laryea.jpg"
+      "avatar": "/headshots/richie-laryea.jpg",
+      "name_cn": "里奇·拉雷亚"
     },
     {
       "id": "niko-sigur",
@@ -1234,7 +1256,8 @@
         "start_rate": 76.7,
         "data_source": "desktop",
         "has_real_data": true
-      }
+      },
+      "name_cn": "尼科·西古尔"
     },
     {
       "id": "promise-david",
@@ -1295,7 +1318,8 @@
         "xa_p90": 0.06,
         "key_passes_p90": 0.78
       },
-      "avatar": "/headshots/promise-david.jpg"
+      "avatar": "/headshots/promise-david.jpg",
+      "name_cn": "普洛米斯·戴维"
     },
     {
       "id": "nathan-saliba",
@@ -1356,7 +1380,8 @@
         "xa_p90": 0.1,
         "key_passes_p90": 1.01
       },
-      "avatar": "/headshots/nathan-saliba.jpg"
+      "avatar": "/headshots/nathan-saliba.jpg",
+      "name_cn": "纳坦·萨利巴"
     }
   ]
 }

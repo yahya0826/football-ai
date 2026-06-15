@@ -18,6 +18,9 @@ from .desktop_stats_service import DesktopStatsService, desktop_stats_service
 from .player_analysis_service import PlayerAnalysisService, player_analysis_service
 from .lineup_analysis_service import LineupAnalysisService, lineup_analysis_service
 from .live_match_service import LiveMatchService, live_match_service
+from .player_live_analysis_service import PlayerLiveAnalysisService, player_live_analysis_service
+from .injury_intel_service import InjuryIntelService, injury_intel_service
+from .daily_summary_service import DailySummaryService, daily_summary_service
 
 __all__ = [
     'DataService', 'data_service',
@@ -33,4 +36,6 @@ __all__ = [
     'BreakingNewsService', 'breaking_news_service',
     'ReviewService', 'review_service',
     'SentimentService', 'sentiment_service',
+    'InjuryIntelService', 'injury_intel_service',
+    'DailySummaryService', 'daily_summary_service',
 ]

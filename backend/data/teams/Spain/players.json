@@ -65,7 +65,8 @@
         "xa_p90": 0.0,
         "key_passes_p90": 0.08
       },
-      "avatar": "/headshots/david-raya.jpg"
+      "avatar": "/headshots/david-raya.jpg",
+      "name_cn": "大卫·拉亚"
     },
     {
       "id": "marc-pubill",
@@ -111,7 +112,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/marc-pubill.jpg"
+      "avatar": "/headshots/marc-pubill.jpg",
+      "name_cn": "马克·普维尔"
     },
     {
       "id": "lex-grimaldo",
@@ -184,7 +186,8 @@
         "xa_p90": 0.08,
         "key_passes_p90": 1.02
       },
-      "avatar": "/headshots/eric-garc-a.jpg"
+      "avatar": "/headshots/eric-garc-a.jpg",
+      "name_cn": "埃里克·加西亚"
     },
     {
       "id": "marcos-llorente",
@@ -245,7 +248,8 @@
         "xa_p90": 0.16,
         "key_passes_p90": 0.82
       },
-      "avatar": "/headshots/marcos-llorente.jpg"
+      "avatar": "/headshots/marcos-llorente.jpg",
+      "name_cn": "马科斯·略伦特"
     },
     {
       "id": "mikel-merino",
@@ -291,7 +295,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/mikel-merino.jpg"
+      "avatar": "/headshots/mikel-merino.jpg",
+      "name_cn": "米克尔·梅里诺"
     },
     {
       "id": "ferran-torres",
@@ -352,7 +357,8 @@
         "xa_p90": 0.08,
         "key_passes_p90": 1.04
       },
-      "avatar": "/headshots/ferran-torres.jpg"
+      "avatar": "/headshots/ferran-torres.jpg",
+      "name_cn": "费兰·托雷斯"
     },
     {
       "id": "fabi-n-ruiz",
@@ -413,7 +419,8 @@
         "xa_p90": 0.17,
         "key_passes_p90": 1.51
       },
-      "avatar": "/headshots/fabi-n-ruiz.jpg"
+      "avatar": "/headshots/fabi-n-ruiz.jpg",
+      "name_cn": "法维安·鲁伊斯"
     },
     {
       "id": "gavi",
@@ -459,7 +466,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/gavi.jpg"
+      "avatar": "/headshots/gavi.jpg",
+      "name_cn": "加维"
     },
     {
       "id": "dani-olmo",
@@ -520,7 +528,8 @@
         "xa_p90": 0.24,
         "key_passes_p90": 2.12
       },
-      "avatar": "/headshots/dani-olmo.jpg"
+      "avatar": "/headshots/dani-olmo.jpg",
+      "name_cn": "达尼·奥尔莫"
     },
     {
       "id": "y-remy-pino",
@@ -581,7 +590,8 @@
         "xa_p90": 0.26,
         "key_passes_p90": 2.06
       },
-      "avatar": "/headshots/y-remy-pino.jpg"
+      "avatar": "/headshots/y-remy-pino.jpg",
+      "name_cn": "耶雷米·皮诺"
     },
     {
       "id": "pedro-porro",
@@ -642,7 +652,8 @@
         "xa_p90": 0.14,
         "key_passes_p90": 1.8
       },
-      "avatar": "/headshots/pedro-porro.jpg"
+      "avatar": "/headshots/pedro-porro.jpg",
+      "name_cn": "佩德罗·波罗"
     },
     {
       "id": "joan-garcia",
@@ -693,7 +704,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/joan-garcia.jpg"
+      "avatar": "/headshots/joan-garcia.jpg",
+      "name_cn": "胡安·加西亚"
     },
     {
       "id": "aymeric-laporte",
@@ -754,7 +766,8 @@
         "xa_p90": 0.01,
         "key_passes_p90": 0.31
       },
-      "avatar": "/headshots/aymeric-laporte.jpg"
+      "avatar": "/headshots/aymeric-laporte.jpg",
+      "name_cn": "埃梅里克·拉波尔特"
     },
     {
       "id": "lex-baena",
@@ -800,7 +813,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/lex-baena.jpg"
+      "avatar": "/headshots/lex-baena.jpg",
+      "name_cn": "阿莱士·巴埃纳"
     },
     {
       "id": "rodri",
@@ -846,7 +860,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/rodri.jpg"
+      "avatar": "/headshots/rodri.jpg",
+      "name_cn": "罗德里"
     },
     {
       "id": "nico-williams",
@@ -892,7 +907,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/nico-williams.jpg"
+      "avatar": "/headshots/nico-williams.jpg",
+      "name_cn": "尼科·威廉姆斯"
     },
     {
       "id": "mart-n-zubimendi",
@@ -953,7 +969,8 @@
         "xa_p90": 0.07,
         "key_passes_p90": 0.57
       },
-      "avatar": "/headshots/mart-n-zubimendi.jpg"
+      "avatar": "/headshots/mart-n-zubimendi.jpg",
+      "name_cn": "马丁·苏维门迪"
     },
     {
       "id": "lamine-yamal",
@@ -1014,7 +1031,8 @@
         "xa_p90": 0.4,
         "key_passes_p90": 2.9
       },
-      "avatar": "/headshots/lamine-yamal.jpg"
+      "avatar": "/headshots/lamine-yamal.jpg",
+      "name_cn": "拉明·亚马尔"
     },
     {
       "id": "pedri",
@@ -1075,7 +1093,8 @@
         "xa_p90": 0.23,
         "key_passes_p90": 2.73
       },
-      "avatar": "/headshots/pedri.jpg"
+      "avatar": "/headshots/pedri.jpg",
+      "name_cn": "佩德里"
     },
     {
       "id": "mikel-oyarzabal",
@@ -1136,7 +1155,8 @@
         "xa_p90": 0.12,
         "key_passes_p90": 1.39
       },
-      "avatar": "/headshots/mikel-oyarzabal.jpg"
+      "avatar": "/headshots/mikel-oyarzabal.jpg",
+      "name_cn": "米克尔·奥亚萨瓦尔"
     },
     {
       "id": "pau-cubars",
@@ -1197,7 +1217,8 @@
         "xa_p90": 0.02,
         "key_passes_p90": 0.17
       },
-      "avatar": "/headshots/pau-cubars.jpg"
+      "avatar": "/headshots/pau-cubars.jpg",
+      "name_cn": "保·库巴西"
     },
     {
       "id": "unai-sim-n",
@@ -1261,7 +1282,8 @@
         "xa_p90": 0.0,
         "key_passes_p90": 0.03
       },
-      "avatar": "/headshots/unai-sim-n.jpg"
+      "avatar": "/headshots/unai-sim-n.jpg",
+      "name_cn": "乌奈·西蒙"
     },
     {
       "id": "marc-cucurella",
@@ -1322,7 +1344,8 @@
         "xa_p90": 0.11,
         "key_passes_p90": 1.3
       },
-      "avatar": "/headshots/marc-cucurella.jpg"
+      "avatar": "/headshots/marc-cucurella.jpg",
+      "name_cn": "马克·库库雷利亚"
     },
     {
       "id": "v-ctor-mu-oz",
@@ -1368,7 +1391,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/v-ctor-mu-oz.jpg"
+      "avatar": "/headshots/v-ctor-mu-oz.jpg",
+      "name_cn": "维克托·穆尼奥斯"
     },
     {
       "id": "borja-iglesias",
@@ -1429,7 +1453,8 @@
         "xa_p90": 0.07,
         "key_passes_p90": 0.8
       },
-      "avatar": "/headshots/borja-iglesias.jpg"
+      "avatar": "/headshots/borja-iglesias.jpg",
+      "name_cn": "博尔哈·伊格莱西亚斯"
     }
   ]
 }

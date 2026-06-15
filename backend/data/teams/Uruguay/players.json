@@ -65,7 +65,8 @@
         "xa_p90": 0.0,
         "key_passes_p90": 0.0
       },
-      "avatar": "/headshots/sergio-rochet.jpg"
+      "avatar": "/headshots/sergio-rochet.jpg",
+      "name_cn": "塞尔吉奥·罗切特"
     },
     {
       "id": "jos--mar-a-gim-nez",
@@ -111,7 +112,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/jos--mar-a-gim-nez.jpg"
+      "avatar": "/headshots/jos--mar-a-gim-nez.jpg",
+      "name_cn": "何塞·玛丽亚·希门尼斯"
     },
     {
       "id": "sebasti-n-c-ceres",
@@ -170,7 +172,8 @@
         "xa_p90": 0.02,
         "key_passes_p90": 0.0
       },
-      "avatar": "/headshots/sebasti-n-c-ceres.jpg"
+      "avatar": "/headshots/sebasti-n-c-ceres.jpg",
+      "name_cn": "塞巴斯蒂安·卡塞雷斯"
     },
     {
       "id": "ronald-ara-jo",
@@ -231,7 +234,8 @@
         "xa_p90": 0.04,
         "key_passes_p90": 0.25
       },
-      "avatar": "/headshots/ronald-ara-jo.jpg"
+      "avatar": "/headshots/ronald-ara-jo.jpg",
+      "name_cn": "罗纳德·阿劳霍"
     },
     {
       "id": "manuel-ugarte",
@@ -277,7 +281,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/manuel-ugarte.jpg"
+      "avatar": "/headshots/manuel-ugarte.jpg",
+      "name_cn": "曼努埃尔·乌加特"
     },
     {
       "id": "rodrigo-bentancur",
@@ -338,7 +343,8 @@
         "xa_p90": 0.04,
         "key_passes_p90": 0.48
       },
-      "avatar": "/headshots/rodrigo-bentancur.jpg"
+      "avatar": "/headshots/rodrigo-bentancur.jpg",
+      "name_cn": "罗德里戈·本坦库尔"
     },
     {
       "id": "nicol-s-de-la-cruz",
@@ -384,7 +390,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/nicol-s-de-la-cruz.jpg"
+      "avatar": "/headshots/nicol-s-de-la-cruz.jpg",
+      "name_cn": "尼古拉斯·德拉克鲁斯"
     },
     {
       "id": "federico-valverde",
@@ -445,7 +452,8 @@
         "xa_p90": 0.16,
         "key_passes_p90": 1.41
       },
-      "avatar": "/headshots/federico-valverde.jpg"
+      "avatar": "/headshots/federico-valverde.jpg",
+      "name_cn": "费德里科·巴尔韦德"
     },
     {
       "id": "darwin-n--ez",
@@ -506,7 +514,8 @@
         "xa_p90": 0.17,
         "key_passes_p90": 1.01
       },
-      "avatar": "/headshots/darwin-n--ez.jpg"
+      "avatar": "/headshots/darwin-n--ez.jpg",
+      "name_cn": "达尔文·努涅斯"
     },
     {
       "id": "giorgian-de-arrascaeta",
@@ -552,7 +561,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/giorgian-de-arrascaeta.jpg"
+      "avatar": "/headshots/giorgian-de-arrascaeta.jpg",
+      "name_cn": "希奥尔希安·德阿拉斯卡埃塔"
     },
     {
       "id": "facundo-pellistri",
@@ -598,7 +608,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/facundo-pellistri.jpg"
+      "avatar": "/headshots/facundo-pellistri.jpg",
+      "name_cn": "法昆多·佩利斯特里"
     },
     {
       "id": "santiago-mele",
@@ -662,7 +673,8 @@
         "xa_p90": 0.0,
         "key_passes_p90": 0.5
       },
-      "avatar": "/headshots/santiago-mele.jpg"
+      "avatar": "/headshots/santiago-mele.jpg",
+      "name_cn": "圣地亚哥·梅莱"
     },
     {
       "id": "guillermo-varela",
@@ -723,7 +735,8 @@
         "xa_p90": 0.13,
         "key_passes_p90": 0.93
       },
-      "avatar": "/headshots/guillermo-varela.jpg"
+      "avatar": "/headshots/guillermo-varela.jpg",
+      "name_cn": "吉列尔莫·巴雷拉"
     },
     {
       "id": "agust-n-canobbio",
@@ -889,7 +902,8 @@
         "xa_p90": 0.04,
         "key_passes_p90": 0.66
       },
-      "avatar": "/headshots/math-as-olivera.jpg"
+      "avatar": "/headshots/math-as-olivera.jpg",
+      "name_cn": "马蒂亚斯·奥利韦拉"
     },
     {
       "id": "mat-as-vi-a",
@@ -935,7 +949,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/mat-as-vi-a.jpg"
+      "avatar": "/headshots/mat-as-vi-a.jpg",
+      "name_cn": "马蒂亚斯·比尼亚"
     },
     {
       "id": "brian-rodr-guez",
@@ -1225,7 +1240,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/joaqu-n-piquerez.jpg"
+      "avatar": "/headshots/joaqu-n-piquerez.jpg",
+      "name_cn": "华金·皮克雷斯"
     },
     {
       "id": "fernando-muslera",
@@ -1276,7 +1292,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/fernando-muslera.jpg"
+      "avatar": "/headshots/fernando-muslera.jpg",
+      "name_cn": "费尔南多·穆斯莱拉"
     },
     {
       "id": "santiago-bueno",
@@ -1337,7 +1354,8 @@
         "xa_p90": 0.05,
         "key_passes_p90": 0.35
       },
-      "avatar": "/headshots/santiago-bueno.jpg"
+      "avatar": "/headshots/santiago-bueno.jpg",
+      "name_cn": "圣地亚哥·布埃诺"
     },
     {
       "id": "juan-manuel-sanabria",
@@ -1398,7 +1416,8 @@
         "xa_p90": 0.15,
         "key_passes_p90": 1.79
       },
-      "avatar": "/headshots/juan-manuel-sanabria.jpg"
+      "avatar": "/headshots/juan-manuel-sanabria.jpg",
+      "name_cn": "胡安·曼努埃尔·萨纳夫里亚"
     },
     {
       "id": "rodrigo-zalazar",

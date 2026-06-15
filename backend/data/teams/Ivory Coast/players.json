@@ -65,7 +65,8 @@
         "xa_p90": 0.0,
         "key_passes_p90": 0.04
       },
-      "avatar": "/headshots/yahia-fofana.jpg"
+      "avatar": "/headshots/yahia-fofana.jpg",
+      "name_cn": "叶海亚·福法纳"
     },
     {
       "id": "ousmane-diomande",
@@ -126,7 +127,8 @@
         "xa_p90": 0.04,
         "key_passes_p90": 0.21
       },
-      "avatar": "/headshots/ousmane-diomande.jpg"
+      "avatar": "/headshots/ousmane-diomande.jpg",
+      "name_cn": "奥斯曼·迪奥曼德"
     },
     {
       "id": "ghislain-konan",
@@ -187,7 +189,8 @@
         "xa_p90": 0.07,
         "key_passes_p90": 0.68
       },
-      "avatar": "/headshots/ghislain-konan.jpg"
+      "avatar": "/headshots/ghislain-konan.jpg",
+      "name_cn": "吉兰·科南"
     },
     {
       "id": "jean-micha-l-seri",
@@ -233,7 +236,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/jean-micha-l-seri.jpg"
+      "avatar": "/headshots/jean-micha-l-seri.jpg",
+      "name_cn": "让·米歇尔·塞里"
     },
     {
       "id": "wilfried-singo",
@@ -294,7 +298,8 @@
         "xa_p90": 0.09,
         "key_passes_p90": 0.28
       },
-      "avatar": "/headshots/wilfried-singo.jpg"
+      "avatar": "/headshots/wilfried-singo.jpg",
+      "name_cn": "威尔弗里德·辛戈"
     },
     {
       "id": "seko-fofana",
@@ -340,7 +345,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/seko-fofana.jpg"
+      "avatar": "/headshots/seko-fofana.jpg",
+      "name_cn": "塞科·福法纳"
     },
     {
       "id": "odilon-kossounou",
@@ -386,7 +392,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/odilon-kossounou.jpg"
+      "avatar": "/headshots/odilon-kossounou.jpg",
+      "name_cn": "奥迪隆·科苏努"
     },
     {
       "id": "franck-kessi",
@@ -447,7 +454,8 @@
         "xa_p90": 0.11,
         "key_passes_p90": 0.79
       },
-      "avatar": "/headshots/franck-kessi.jpg"
+      "avatar": "/headshots/franck-kessi.jpg",
+      "name_cn": "弗兰克·凯西"
     },
     {
       "id": "ange-yoan-bonny",
@@ -508,7 +516,8 @@
         "xa_p90": 0.15,
         "key_passes_p90": 1.32
       },
-      "avatar": "/headshots/ange-yoan-bonny.jpg"
+      "avatar": "/headshots/ange-yoan-bonny.jpg",
+      "name_cn": "安热"
     },
     {
       "id": "simon-adingra",
@@ -554,7 +563,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/simon-adingra.jpg"
+      "avatar": "/headshots/simon-adingra.jpg",
+      "name_cn": "西蒙·阿丁格拉"
     },
     {
       "id": "yan-diomande",
@@ -615,7 +625,8 @@
         "xa_p90": 0.37,
         "key_passes_p90": 2.04
       },
-      "avatar": "/headshots/yan-diomande.jpg"
+      "avatar": "/headshots/yan-diomande.jpg",
+      "name_cn": "扬·迪奥曼德"
     },
     {
       "id": "elye-wahi",
@@ -676,7 +687,8 @@
         "xa_p90": 0.06,
         "key_passes_p90": 0.78
       },
-      "avatar": "/headshots/elye-wahi.jpg"
+      "avatar": "/headshots/elye-wahi.jpg",
+      "name_cn": "埃利·瓦希"
     },
     {
       "id": "christopher-op-ri",
@@ -749,7 +761,8 @@
         "xa_p90": 0.09,
         "key_passes_p90": 1.39
       },
-      "avatar": "/headshots/oumar-diakit.jpg"
+      "avatar": "/headshots/oumar-diakit.jpg",
+      "name_cn": "奥马尔·迪亚基特"
     },
     {
       "id": "amad-diallo",
@@ -810,7 +823,8 @@
         "xa_p90": 0.18,
         "key_passes_p90": 1.57
       },
-      "avatar": "/headshots/amad-diallo.jpg"
+      "avatar": "/headshots/amad-diallo.jpg",
+      "name_cn": "阿马德·迪亚洛"
     },
     {
       "id": "mohamed-kon",
@@ -874,7 +888,8 @@
         "xa_p90": 0.0,
         "key_passes_p90": 0.0
       },
-      "avatar": "/headshots/mohamed-kon.jpg"
+      "avatar": "/headshots/mohamed-kon.jpg",
+      "name_cn": "穆罕默德·科内"
     },
     {
       "id": "gu-la-dou",
@@ -935,7 +950,8 @@
         "xa_p90": 0.11,
         "key_passes_p90": 0.83
       },
-      "avatar": "/headshots/gu-la-dou.jpg"
+      "avatar": "/headshots/gu-la-dou.jpg",
+      "name_cn": "盖拉·杜埃"
     },
     {
       "id": "ibrahim-sangar",
@@ -996,7 +1012,8 @@
         "xa_p90": 0.08,
         "key_passes_p90": 0.52
       },
-      "avatar": "/headshots/ibrahim-sangar.jpg"
+      "avatar": "/headshots/ibrahim-sangar.jpg",
+      "name_cn": "易卜拉欣·桑加雷"
     },
     {
       "id": "nicolas-p-p",
@@ -1057,7 +1074,8 @@
         "xa_p90": 0.24,
         "key_passes_p90": 2.14
       },
-      "avatar": "/headshots/nicolas-p-p.jpg"
+      "avatar": "/headshots/nicolas-p-p.jpg",
+      "name_cn": "尼古拉·佩佩"
     },
     {
       "id": "emmanuel-agbadou",
@@ -1103,7 +1121,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/emmanuel-agbadou.jpg"
+      "avatar": "/headshots/emmanuel-agbadou.jpg",
+      "name_cn": "埃马纽埃尔·阿巴杜"
     },
     {
       "id": "evan-ndicka",
@@ -1169,7 +1188,8 @@
         "xa_p90": 0.03,
         "key_passes_p90": 0.2
       },
-      "avatar": "/headshots/evan-ndicka.jpg"
+      "avatar": "/headshots/evan-ndicka.jpg",
+      "name_cn": "埃旺·恩迪卡"
     },
     {
       "id": "evann-guessand",
@@ -1230,7 +1250,8 @@
         "xa_p90": 0.1,
         "key_passes_p90": 0.48
       },
-      "avatar": "/headshots/evann-guessand.jpg"
+      "avatar": "/headshots/evann-guessand.jpg",
+      "name_cn": "埃万·盖桑"
     },
     {
       "id": "alban-lafont",
@@ -1281,7 +1302,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/alban-lafont.jpg"
+      "avatar": "/headshots/alban-lafont.jpg",
+      "name_cn": "阿尔邦·拉丰"
     },
     {
       "id": "bazoumana-tour",
@@ -1342,7 +1364,8 @@
         "xa_p90": 0.22,
         "key_passes_p90": 1.78
       },
-      "avatar": "/headshots/bazoumana-tour.jpg"
+      "avatar": "/headshots/bazoumana-tour.jpg",
+      "name_cn": "巴祖马纳·图雷"
     },
     {
       "id": "parfait-guiagon",
@@ -1403,7 +1426,8 @@
         "xa_p90": 0.19,
         "key_passes_p90": 1.83
       },
-      "avatar": "/headshots/parfait-guiagon.jpg"
+      "avatar": "/headshots/parfait-guiagon.jpg",
+      "name_cn": "帕尔费·吉亚贡"
     },
     {
       "id": "christ-inao-oula",
@@ -1464,7 +1488,8 @@
         "xa_p90": 0.1,
         "key_passes_p90": 1.73
       },
-      "avatar": "/headshots/christ-inao-oula.jpg"
+      "avatar": "/headshots/christ-inao-oula.jpg",
+      "name_cn": "克里斯特·乌拉伊"
     }
   ]
 }

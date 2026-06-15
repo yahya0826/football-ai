@@ -11,7 +11,8 @@
       "club": "Al Ahly",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "穆罕默德·埃尔舍纳维"
     },
     {
       "id": "yasser-ibrahim",
@@ -22,7 +23,8 @@
       "club": "Al Ahly",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "亚西尔·易卜拉欣"
     },
     {
       "id": "mohamed-hany",
@@ -33,7 +35,8 @@
       "club": "Al Ahly",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "穆罕默德·哈尼"
     },
     {
       "id": "hossam-abdelmaguid",
@@ -44,7 +47,8 @@
       "club": "Zamalek",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "霍萨姆·阿卜杜勒马吉德"
     },
     {
       "id": "ramy-rabia",
@@ -66,7 +70,8 @@
       "club": "Nice",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "穆罕默德·阿卜杜勒莫内姆"
     },
     {
       "id": "tr-z-guet",
@@ -88,7 +93,8 @@
       "club": "Al Ahly",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "伊马姆·阿舒尔"
     },
     {
       "id": "hamza-abdelkarim",
@@ -99,7 +105,8 @@
       "club": "Barcelona",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "哈姆扎·阿卜杜勒卡里姆"
     },
     {
       "id": "mohamed-salah",
@@ -110,7 +117,8 @@
       "club": "Liverpool",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "穆罕默德·萨拉赫"
     },
     {
       "id": "mostafa-ziko",
@@ -121,7 +129,8 @@
       "club": "Pyramids",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "穆斯塔法·齐科"
     },
     {
       "id": "haissem-hassan",
@@ -132,7 +141,8 @@
       "club": "Oviedo",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "海瑟姆·哈桑"
     },
     {
       "id": "ahmed-fatouh",
@@ -143,7 +153,8 @@
       "club": "Zamalek",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "艾哈迈德·法图赫"
     },
     {
       "id": "hamdy-fathy",
@@ -154,7 +165,8 @@
       "club": "Al-Wakrah",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "哈姆迪·法特希"
     },
     {
       "id": "karim-hafez",
@@ -165,7 +177,8 @@
       "club": "Pyramids",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "卡里姆·哈菲兹"
     },
     {
       "id": "el-mahdy-soliman",
@@ -176,7 +189,8 @@
       "club": "Zamalek",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "埃尔马赫迪·苏莱曼"
     },
     {
       "id": "mohanad-lasheen",
@@ -187,7 +201,8 @@
       "club": "Pyramids",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "穆哈纳德·拉欣"
     },
     {
       "id": "nabil-emad",
@@ -198,7 +213,8 @@
       "club": "Al-Najma",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "纳比勒·伊马德"
     },
     {
       "id": "marwan-attia",
@@ -220,7 +236,8 @@
       "club": "Nordsjælland",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "易卜拉欣·阿德尔"
     },
     {
       "id": "mahmoud-saber",
@@ -231,7 +248,8 @@
       "club": "ZED",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "马哈茂德·萨贝尔"
     },
     {
       "id": "omar-marmoush",
@@ -242,7 +260,8 @@
       "club": "Manchester City",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "奥马尔·马尔穆什"
     },
     {
       "id": "mostafa-shobeir",
@@ -253,7 +272,8 @@
       "club": "Al Ahly",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "穆斯塔法·舒贝尔"
     },
     {
       "id": "tarek-alaa",
@@ -264,7 +284,8 @@
       "club": "ZED",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "塔里克·阿拉"
     },
     {
       "id": "zizo",

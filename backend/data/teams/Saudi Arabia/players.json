@@ -65,7 +65,8 @@
         "xa_p90": 0.01,
         "key_passes_p90": 0.09
       },
-      "avatar": "/headshots/nawaf-al-aqidi.jpg"
+      "avatar": "/headshots/nawaf-al-aqidi.jpg",
+      "name_cn": "纳瓦夫·阿基迪"
     },
     {
       "id": "ali-majrashi",
@@ -126,7 +127,8 @@
         "xa_p90": 0.15,
         "key_passes_p90": 0.62
       },
-      "avatar": "/headshots/ali-majrashi.jpg"
+      "avatar": "/headshots/ali-majrashi.jpg",
+      "name_cn": "阿里·马吉拉希"
     },
     {
       "id": "ali-lajami",
@@ -187,7 +189,8 @@
         "xa_p90": 0.02,
         "key_passes_p90": 0.28
       },
-      "avatar": "/headshots/ali-lajami.jpg"
+      "avatar": "/headshots/ali-lajami.jpg",
+      "name_cn": "阿里·拉贾米"
     },
     {
       "id": "abdulelah-al-amri",
@@ -235,7 +238,8 @@
           "defending": 58,
           "physical": 83
         }
-      }
+      },
+      "name_cn": "阿卜杜勒拉·阿姆里"
     },
     {
       "id": "hassan-al-tambakti",
@@ -344,7 +348,8 @@
         "xa_p90": 0.09,
         "key_passes_p90": 0.82
       },
-      "avatar": "/headshots/nasser-al-dawsari.jpg"
+      "avatar": "/headshots/nasser-al-dawsari.jpg",
+      "name_cn": "纳赛尔·达乌萨里"
     },
     {
       "id": "musab-al-juwayr",
@@ -390,7 +395,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/musab-al-juwayr.jpg"
+      "avatar": "/headshots/musab-al-juwayr.jpg",
+      "name_cn": "穆萨卜·朱维尔"
     },
     {
       "id": "ayman-yahya",
@@ -451,7 +457,8 @@
         "xa_p90": 0.12,
         "key_passes_p90": 0.78
       },
-      "avatar": "/headshots/ayman-yahya.jpg"
+      "avatar": "/headshots/ayman-yahya.jpg",
+      "name_cn": "艾曼·叶海亚"
     },
     {
       "id": "firas-al-buraikan",
@@ -512,7 +519,8 @@
         "xa_p90": 0.11,
         "key_passes_p90": 0.77
       },
-      "avatar": "/headshots/firas-al-buraikan.jpg"
+      "avatar": "/headshots/firas-al-buraikan.jpg",
+      "name_cn": "菲拉斯·布赖坎"
     },
     {
       "id": "salem-al-dawsari",
@@ -573,7 +581,8 @@
         "xa_p90": 0.3,
         "key_passes_p90": 1.85
       },
-      "avatar": "/headshots/salem-al-dawsari.jpg"
+      "avatar": "/headshots/salem-al-dawsari.jpg",
+      "name_cn": "萨勒姆·达乌萨里"
     },
     {
       "id": "saleh-al-shehri",
@@ -634,7 +643,8 @@
         "xa_p90": 0.23,
         "key_passes_p90": 1.58
       },
-      "avatar": "/headshots/saleh-al-shehri.jpg"
+      "avatar": "/headshots/saleh-al-shehri.jpg",
+      "name_cn": "萨利赫·谢赫里"
     },
     {
       "id": "saud-abdulhamid",
@@ -695,7 +705,8 @@
         "xa_p90": 0.22,
         "key_passes_p90": 1.59
       },
-      "avatar": "/headshots/saud-abdulhamid.jpg"
+      "avatar": "/headshots/saud-abdulhamid.jpg",
+      "name_cn": "沙特·阿卜杜勒哈米德"
     },
     {
       "id": "nawaf-boushal",
@@ -754,7 +765,8 @@
         "xa_p90": 0.1,
         "key_passes_p90": 1.0
       },
-      "avatar": "/headshots/nawaf-boushal.jpg"
+      "avatar": "/headshots/nawaf-boushal.jpg",
+      "name_cn": "纳瓦夫·布沙尔"
     },
     {
       "id": "hassan-kadesh",
@@ -815,7 +827,8 @@
         "xa_p90": 0.03,
         "key_passes_p90": 0.08
       },
-      "avatar": "/headshots/hassan-kadesh.jpg"
+      "avatar": "/headshots/hassan-kadesh.jpg",
+      "name_cn": "哈桑·卡迪什"
     },
     {
       "id": "abdullah-al-khaibari",
@@ -924,7 +937,8 @@
         "xa_p90": 0.07,
         "key_passes_p90": 0.94
       },
-      "avatar": "/headshots/ziyad-al-johani.jpg"
+      "avatar": "/headshots/ziyad-al-johani.jpg",
+      "name_cn": "齐亚德·约哈尼"
     },
     {
       "id": "khalid-al-ghannam",
@@ -985,7 +999,8 @@
         "xa_p90": 0.23,
         "key_passes_p90": 1.73
       },
-      "avatar": "/headshots/khalid-al-ghannam.jpg"
+      "avatar": "/headshots/khalid-al-ghannam.jpg",
+      "name_cn": "哈立德·甘纳姆"
     },
     {
       "id": "alaa-al-hejji",
@@ -1094,7 +1109,8 @@
         "xa_p90": 0.27,
         "key_passes_p90": 1.43
       },
-      "avatar": "/headshots/abdullah-al-hamdan.jpg"
+      "avatar": "/headshots/abdullah-al-hamdan.jpg",
+      "name_cn": "阿卜杜拉·哈姆丹"
     },
     {
       "id": "sultan-mandash",
@@ -1155,7 +1171,8 @@
         "xa_p90": 0.2,
         "key_passes_p90": 1.67
       },
-      "avatar": "/headshots/sultan-mandash.jpg"
+      "avatar": "/headshots/sultan-mandash.jpg",
+      "name_cn": "苏丹·曼达什"
     },
     {
       "id": "mohammed-al-owais",
@@ -1206,7 +1223,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/mohammed-al-owais.jpg"
+      "avatar": "/headshots/mohammed-al-owais.jpg",
+      "name_cn": "穆罕默德·奥韦斯"
     },
     {
       "id": "ahmed-al-kassar",
@@ -1270,7 +1288,8 @@
         "xa_p90": 0.0,
         "key_passes_p90": 0.0
       },
-      "avatar": "/headshots/ahmed-al-kassar.jpg"
+      "avatar": "/headshots/ahmed-al-kassar.jpg",
+      "name_cn": "艾哈迈德·卡萨尔"
     },
     {
       "id": "mohamed-kanno",
@@ -1379,7 +1398,8 @@
         "xa_p90": 0.04,
         "key_passes_p90": 0.24
       },
-      "avatar": "/headshots/moteb-al-harbi.jpg"
+      "avatar": "/headshots/moteb-al-harbi.jpg",
+      "name_cn": "穆塔布·哈尔比"
     },
     {
       "id": "jehad-thakri",
@@ -1440,7 +1460,8 @@
         "xa_p90": 0.05,
         "key_passes_p90": 0.06
       },
-      "avatar": "/headshots/jehad-thakri.jpg"
+      "avatar": "/headshots/jehad-thakri.jpg",
+      "name_cn": "杰哈德·萨克里"
     },
     {
       "id": "mohammed-abu-al-shamat",
@@ -1501,7 +1522,8 @@
         "xa_p90": 0.3,
         "key_passes_p90": 1.52
       },
-      "avatar": "/headshots/mohammed-abu-al-shamat.jpg"
+      "avatar": "/headshots/mohammed-abu-al-shamat.jpg",
+      "name_cn": "穆罕默德·阿布沙马特"
     }
   ]
 }

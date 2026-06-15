@@ -1,0 +1,338 @@
+{
+  "team_id": "203",
+  "team_name": "Mexico",
+  "team_name_cn": "墨西哥",
+  "coach": "墨西哥主教练",
+  "players": {
+    "G": [
+      {
+        "id": "290899",
+        "name": "Raúl Rangel",
+        "short_name": "R. Rangel",
+        "jersey": "1",
+        "position": "G",
+        "position_name": "Goalkeeper",
+        "headshot": "",
+        "height": "6' 3\"",
+        "weight": "192 lbs",
+        "age": 26
+      },
+      {
+        "id": "236368",
+        "name": "Carlos Acevedo",
+        "short_name": "C. Acevedo",
+        "jersey": "12",
+        "position": "G",
+        "position_name": "Goalkeeper",
+        "headshot": "",
+        "height": "6' 0\"",
+        "weight": "161 lbs",
+        "age": 30
+      },
+      {
+        "id": "137038",
+        "name": "Guillermo Ochoa",
+        "short_name": "G. Ochoa",
+        "jersey": "13",
+        "position": "G",
+        "position_name": "Goalkeeper",
+        "headshot": "",
+        "height": "6' 3\"",
+        "weight": "185 lbs",
+        "age": 40
+      }
+    ],
+    "D": [
+      {
+        "id": "178746",
+        "name": "Jorge Sánchez",
+        "short_name": "J. Sánchez",
+        "jersey": "2",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "5' 9\"",
+        "weight": "150 lbs",
+        "age": 28
+      },
+      {
+        "id": "224323",
+        "name": "César Montes",
+        "short_name": "C. Montes",
+        "jersey": "3",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 5\"",
+        "weight": "194 lbs",
+        "age": 29
+      },
+      {
+        "id": "259975",
+        "name": "Johan Vásquez",
+        "short_name": "J. Vásquez",
+        "jersey": "5",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 0\"",
+        "weight": "172 lbs",
+        "age": 27
+      },
+      {
+        "id": "290414",
+        "name": "Israel Reyes",
+        "short_name": "I. Reyes",
+        "jersey": "15",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "5' 10\"",
+        "weight": "161 lbs",
+        "age": 26
+      },
+      {
+        "id": "379193",
+        "name": "Mateo Chávez",
+        "short_name": "M. Chávez",
+        "jersey": "20",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "5' 10\"",
+        "weight": "161 lbs",
+        "age": 22
+      },
+      {
+        "id": "132098",
+        "name": "Jesús Gallardo",
+        "short_name": "J. Gallardo",
+        "jersey": "23",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "5' 10\"",
+        "weight": "172 lbs",
+        "age": 31
+      }
+    ],
+    "M": [
+      {
+        "id": "241627",
+        "name": "Edson Álvarez",
+        "short_name": "E. Álvarez",
+        "jersey": "4",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/241627.png",
+        "height": "6' 3\"",
+        "weight": "168 lbs",
+        "age": 28
+      },
+      {
+        "id": "276942",
+        "name": "Érik Lira",
+        "short_name": "É. Lira",
+        "jersey": "6",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "5' 8\"",
+        "weight": "152 lbs",
+        "age": 26
+      },
+      {
+        "id": "242614",
+        "name": "Luis Romo",
+        "short_name": "L. Romo",
+        "jersey": "7",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "6' 0\"",
+        "weight": "172 lbs",
+        "age": 31
+      },
+      {
+        "id": "283827",
+        "name": "Álvaro Fidalgo",
+        "short_name": "Á. Fidalgo",
+        "jersey": "8",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "5' 9\"",
+        "weight": "150 lbs",
+        "age": 29
+      },
+      {
+        "id": "207011",
+        "name": "Orbelín Pineda",
+        "short_name": "O. Pineda",
+        "jersey": "17",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "5' 7\"",
+        "weight": "141 lbs",
+        "age": 30
+      },
+      {
+        "id": "318554",
+        "name": "Obed Vargas",
+        "short_name": "O. Vargas",
+        "jersey": "18",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/318554.png",
+        "height": "5' 9\"",
+        "weight": "150 lbs",
+        "age": 20
+      },
+      {
+        "id": "389575",
+        "name": "Gilberto Mora",
+        "short_name": "G. Mora",
+        "jersey": "19",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "5' 6\"",
+        "weight": "137 lbs",
+        "age": 17
+      },
+      {
+        "id": "265969",
+        "name": "César Huerta",
+        "short_name": "C. Huerta",
+        "jersey": "21",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "5' 7\"",
+        "weight": "132 lbs",
+        "age": 25
+      },
+      {
+        "id": "104497",
+        "name": "Luis Chávez",
+        "short_name": "L. Chávez",
+        "jersey": "24",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "5' 10\"",
+        "weight": "161 lbs",
+        "age": 30
+      },
+      {
+        "id": "303577",
+        "name": "Brian Gutiérrez",
+        "short_name": "B. Gutiérrez",
+        "jersey": "26",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/303577.png",
+        "height": "5' 10\"",
+        "weight": "159 lbs",
+        "age": 22
+      }
+    ],
+    "F": [
+      {
+        "id": "167060",
+        "name": "Raúl Jiménez",
+        "short_name": "R. Jiménez",
+        "jersey": "9",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "6' 2\"",
+        "weight": "168 lbs",
+        "age": 35
+      },
+      {
+        "id": "229487",
+        "name": "Alexis Vega",
+        "short_name": "A. Vega",
+        "jersey": "10",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "5' 9\"",
+        "weight": "168 lbs",
+        "age": 28
+      },
+      {
+        "id": "260775",
+        "name": "Santiago Gimenez",
+        "short_name": "S. Gimenez",
+        "jersey": "11",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/260775.png",
+        "height": "6' 1\"",
+        "weight": "172 lbs",
+        "age": 25
+      },
+      {
+        "id": "376110",
+        "name": "Armando González",
+        "short_name": "A. González",
+        "jersey": "14",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "5' 10\"",
+        "weight": "148 lbs",
+        "age": 23
+      },
+      {
+        "id": "233075",
+        "name": "Julián Quiñones",
+        "short_name": "J. Quiñones",
+        "jersey": "16",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "5' 11\"",
+        "weight": "172 lbs",
+        "age": 29
+      },
+      {
+        "id": "193566",
+        "name": "Guillermo Martínez",
+        "short_name": "G. Martínez",
+        "jersey": "22",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "6' 3\"",
+        "weight": "201 lbs",
+        "age": 31
+      },
+      {
+        "id": "194308",
+        "name": "Roberto Alvarado",
+        "short_name": "R. Alvarado",
+        "jersey": "25",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "5' 9\"",
+        "weight": "152 lbs",
+        "age": 27
+      }
+    ],
+    "U": []
+  },
+  "total_players": 26,
+  "position_labels": {
+    "G": "门将",
+    "D": "后卫",
+    "M": "中场",
+    "F": "前锋",
+    "U": "未知"
+  },
+  "_saved_at": "2026-06-15T15:02:47.305952"
+}

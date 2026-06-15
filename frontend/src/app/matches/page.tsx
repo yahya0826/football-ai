@@ -1,9 +1,43 @@
 'use client';
 
-import { useState, useEffect, useMemo } from 'react';
+import { Component, useState, useEffect, useMemo } from 'react';
+import type { ErrorInfo, ReactNode } from 'react';
 import api, { ScheduleMatch, MatchScheduleResponse, MatchDetailResponse, MatchHighlightsResponse, H2HData, RecentMatch, LiveScoreboardResponse, LiveMatchSummary, MatchAnalysisResponse, MatchAnalysis, LiveEvent } from '@/lib/api';
 import LiveMatchPanel from '@/components/LiveMatchPanel';
 import FormationView from '@/components/FormationView';
+
+class ErrorBoundary extends Component<{ children: ReactNode }, { hasError: boolean; error: Error | null }> {
+  constructor(props: { children: ReactNode }) {
+    super(props);
+    this.state = { hasError: false, error: null };
+  }
+  static getDerivedStateFromError(error: Error) {
+    return { hasError: true, error };
+  }
+  componentDidCatch(error: Error, info: ErrorInfo) {
+    console.error('[ErrorBoundary] Caught error:', error.message, error.stack, info.componentStack);
+  }
+  render() {
+    if (this.state.hasError) {
+      return (
+        <div style={{ maxWidth: 600, margin: '4rem auto', padding: '2rem', background: 'rgba(239,68,68,0.08)', border: '1px solid rgba(239,68,68,0.3)', borderRadius: '0.75rem', textAlign: 'center' }}>
+          <div style={{ fontSize: '2rem', marginBottom: '0.75rem' }}>⚠️</div>
+          <div style={{ fontSize: '1rem', fontWeight: 700, color: '#ef4444', marginBottom: '0.5rem' }}>页面渲染出错</div>
+          <div style={{ fontSize: '0.8rem', color: 'var(--text-muted)', marginBottom: '1rem', wordBreak: 'break-all', maxHeight: '10rem', overflow: 'auto' }}>
+            {this.state.error?.message || '未知错误'}
+          </div>
+          <button
+            onClick={() => this.setState({ hasError: false, error: null })}
+            style={{ padding: '0.4rem 1rem', borderRadius: '0.5rem', border: '1px solid #ef4444', background: 'transparent', color: '#ef4444', cursor: 'pointer', fontSize: '0.85rem' }}
+          >
+            重试
+          </button>
+        </div>
+      );
+    }
+    return this.props.children;
+  }
+}
 
 const STAGE_TABS: Record<string, { label: string; key: string }> = {
   all: { label: '全部比赛', key: 'all' },
@@ -95,20 +129,30 @@ export default function SchedulePage() {
     }
   }, [schedule]);
 
-  // Fetch live scoreboard for today view
+  // Fetch live scoreboard for today view (date-aware)
   useEffect(() => {
     if (viewMode !== 'today') return;
     let mounted = true;
+    const isPastDate = todayDate < realToday;
+    // ESPN uses UTC dates — matches that start at 03:00 Beijing on D are at 19:00 UTC on D-1
+    const d = new Date(todayDate + 'T00:00:00');
+    d.setDate(d.getDate() - 1);
+    const espnDate = d.toISOString().slice(0, 10);
+
     async function poll() {
       try {
-        const data = await api.getLiveScoreboard();
+        const data = await api.getLiveScoreboard(isPastDate ? espnDate : undefined);
         if (mounted) setLiveScoreboard(data);
       } catch { /* silently fail */ }
     }
     poll();
-    const t = setInterval(poll, 30000);
-    return () => { mounted = false; clearInterval(t); };
-  }, [viewMode]);
+    // Only poll live for today; past dates fetch once
+    if (!isPastDate) {
+      const t = setInterval(poll, 30000);
+      return () => { mounted = false; clearInterval(t); };
+    }
+    return () => { mounted = false; };
+  }, [viewMode, todayDate]);
 
   // Set initial today date from schedule (use real today, snap to nearest match date if needed)
   useEffect(() => {
@@ -193,9 +237,11 @@ export default function SchedulePage() {
 
   if (loading) {
     return (
-      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '60vh', color: 'var(--text-muted)' }}>
-        正在加载赛程…
-      </div>
+      <ErrorBoundary>
+        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '60vh', color: 'var(--text-muted)' }}>
+          正在加载赛程…
+        </div>
+      </ErrorBoundary>
     );
   }
 
@@ -208,7 +254,8 @@ export default function SchedulePage() {
   }
 
   return (
-    <div style={{ maxWidth: 1400, margin: '0 auto', padding: '1.5rem 1rem' }}>
+    <ErrorBoundary>
+      <div style={{ maxWidth: 1400, margin: '0 auto', padding: '1.5rem 1rem' }}>
       {/* Header */}
       <div style={{ textAlign: 'center', marginBottom: '1.5rem' }}>
         <h1 style={{ fontSize: '1.8rem', fontWeight: 800, margin: '0 0 0.5rem', background: 'linear-gradient(135deg, #f0c059, #3b82f6, #ef4444)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>
@@ -476,7 +523,8 @@ export default function SchedulePage() {
       </div>
         </>
       )}
-    </div>
+      </div>
+    </ErrorBoundary>
   );
 }
 
@@ -495,91 +543,82 @@ function TodayView({
 }) {
   const [heroAnalysis, setHeroAnalysis] = useState<MatchAnalysisResponse | null>(null);
   const [featuredMatchId, setFeaturedMatchId] = useState<number | null>(null);
+  const [lookedUpEspnId, setLookedUpEspnId] = useState<string | null>(null);
 
-  // Reset featured match when date changes
+  // Reset all date-specific state when date changes
   useEffect(() => {
     setFeaturedMatchId(null);
+    setLookedUpEspnId(null);
+    setHeroAnalysis(null);
   }, [todayDate]);
 
-  if (!schedule) {
-    return <div style={{ textAlign: 'center', padding: '3rem', color: 'var(--text-muted)' }}>加载中…</div>;
-  }
+  // Compute hero match info — must be a hook (useMemo) so it runs before conditional returns
+  const heroInfo = useMemo(() => {
+    if (!schedule) return null;
+    const dayMatches = schedule.matches
+      .filter(m => m.date === todayDate)
+      .sort((a, b) => a.time_bj.localeCompare(b.time_bj));
+    if (dayMatches.length === 0) return null;
 
-  // Compute available dates from schedule
-  const allDates = [...new Set(schedule.matches.map(m => m.date))].sort();
-  const todayIdx = allDates.indexOf(todayDate);
-  const displayDates = allDates.slice(Math.max(0, todayIdx - 3), Math.min(allDates.length, todayIdx + 4));
+    const allDates = [...new Set(schedule.matches.map(m => m.date))].sort();
+    const todayIdx = allDates.indexOf(todayDate);
+    const displayDates = allDates.slice(Math.max(0, todayIdx - 3), Math.min(allDates.length, todayIdx + 4));
 
-  // Matches for selected date
-  const dayMatches = schedule.matches
-    .filter(m => m.date === todayDate)
-    .sort((a, b) => a.time_bj.localeCompare(b.time_bj));
-
-  if (dayMatches.length === 0) {
-    return (
-      <div>
-        <DateNav dates={displayDates} selected={todayDate} onChange={onDateChange} />
-        <div style={{ textAlign: 'center', padding: '4rem', color: 'var(--text-muted)' }}>
-          <div style={{ fontSize: '2rem', marginBottom: '0.5rem' }}>📅</div>
-          <div>该日期暂无比赛</div>
-        </div>
-      </div>
-    );
-  }
-
-  // Build live lookup map from ESPN data
-  const liveMap = new Map<string, LiveMatchSummary>();
-  if (liveScoreboard) {
-    for (const m of liveScoreboard.today) {
-      const key = `${m.home_team}|${m.away_team}`;
-      liveMap.set(key, m);
+    const liveMap = new Map<string, LiveMatchSummary>();
+    if (liveScoreboard && Array.isArray(liveScoreboard.today)) {
+      for (const m of liveScoreboard.today) {
+        const key = `${m.home_team}|${m.away_team}`;
+        liveMap.set(key, m);
+      }
     }
-  }
 
-  const getLiveFor = (m: ScheduleMatch): LiveMatchSummary | undefined => {
-    for (const [key, live] of liveMap) {
-      const hNorm = (s: string) => s.toLowerCase().replace(/\band\b/, '').replace(/[&\-.]/g, ' ').replace(/\s+/g, ' ').trim();
-      const [lh, la] = key.split('|');
-      if (hNorm(m.home_team).includes(hNorm(lh)) || hNorm(lh).includes(hNorm(m.home_team))) {
-        if (hNorm(m.away_team).includes(hNorm(la)) || hNorm(la).includes(hNorm(m.away_team))) {
-          return live;
+    const getLiveFor = (m: ScheduleMatch): LiveMatchSummary | undefined => {
+      for (const [key, live] of liveMap) {
+        const hNorm = (s: string) => s.toLowerCase().replace(/\band\b/, '').replace(/[&\-.]/g, ' ').replace(/\s+/g, ' ').trim();
+        const [lh, la] = key.split('|');
+        if (hNorm(m.home_team).includes(hNorm(lh)) || hNorm(lh).includes(hNorm(m.home_team))) {
+          if (hNorm(m.away_team).includes(hNorm(la)) || hNorm(la).includes(hNorm(m.away_team))) {
+            return live;
+          }
+        }
+      }
+      return undefined;
+    };
+
+    let heroMatch: ScheduleMatch;
+    if (featuredMatchId) {
+      heroMatch = dayMatches.find(m => m.match_id === featuredMatchId) || dayMatches[0];
+    } else {
+      heroMatch = dayMatches[0];
+      for (const m of dayMatches) {
+        const live = getLiveFor(m);
+        if (live && (live.state === 'live' || live.state === 'halftime')) {
+          heroMatch = m;
+          break;
         }
       }
     }
-    return undefined;
-  };
+    const heroLive = getLiveFor(heroMatch);
+    const heroEspnId = heroLive?.match_id;
 
-  // Determine hero match: featured > live > first match
-  let heroMatch: ScheduleMatch;
-  let heroLive: LiveMatchSummary | undefined;
-  let heroEspnId: string | undefined;
-
-  if (featuredMatchId) {
-    heroMatch = dayMatches.find(m => m.match_id === featuredMatchId) || dayMatches[0];
-  } else {
-    heroMatch = dayMatches[0];
-    for (const m of dayMatches) {
-      const live = getLiveFor(m);
-      if (live && (live.state === 'live' || live.state === 'halftime')) {
-        heroMatch = m;
-        break;
-      }
-    }
-  }
-  heroLive = getLiveFor(heroMatch);
-  heroEspnId = heroLive?.match_id;
+    return { dayMatches, allDates, displayDates, heroMatch, heroLive, heroEspnId, liveMap, getLiveFor };
+  }, [schedule, todayDate, liveScoreboard, featuredMatchId]);
 
   // Fetch ESPN match ID via direct lookup if not found in scoreboard
-  const [lookedUpEspnId, setLookedUpEspnId] = useState<string | null>(null);
   useEffect(() => {
+    if (!heroInfo) return;
+    const { heroEspnId, heroMatch } = heroInfo;
     if (heroEspnId) { setLookedUpEspnId(heroEspnId); return; }
+    // Clear stale ESPN ID immediately so effectiveEspnId doesn't fall back to old match
+    setLookedUpEspnId(null);
     let mounted = true;
     api.getLiveMatchLookup(heroMatch.home_team, heroMatch.away_team, heroMatch.date).then(res => {
       if (mounted && res.found && res.match_id) setLookedUpEspnId(res.match_id);
     }).catch(() => {});
     return () => { mounted = false; };
-  }, [heroMatch.match_id, heroEspnId, heroMatch.home_team, heroMatch.away_team]);
-  const effectiveEspnId = heroEspnId || lookedUpEspnId;
+  }, [heroInfo?.heroEspnId, heroInfo?.heroMatch?.match_id, heroInfo?.heroMatch?.home_team, heroInfo?.heroMatch?.away_team]);
+
+  const effectiveEspnId = (heroInfo?.heroEspnId || lookedUpEspnId) as string | undefined;
 
   // Fetch analysis for hero match
   useEffect(() => {
@@ -595,6 +634,29 @@ function TodayView({
     }, 30000);
     return () => { mounted = false; clearInterval(t); };
   }, [effectiveEspnId]);
+
+  // ── Render ──
+
+  if (!schedule) {
+    return <div style={{ textAlign: 'center', padding: '3rem', color: 'var(--text-muted)' }}>加载中…</div>;
+  }
+
+  if (!heroInfo) {
+    const allDates = [...new Set(schedule.matches.map(m => m.date))].sort();
+    const todayIdx = allDates.indexOf(todayDate);
+    const displayDates = allDates.slice(Math.max(0, todayIdx - 3), Math.min(allDates.length, todayIdx + 4));
+    return (
+      <div>
+        <DateNav dates={displayDates} selected={todayDate} onChange={onDateChange} />
+        <div style={{ textAlign: 'center', padding: '4rem', color: 'var(--text-muted)' }}>
+          <div style={{ fontSize: '2rem', marginBottom: '0.5rem' }}>📅</div>
+          <div>该日期暂无比赛</div>
+        </div>
+      </div>
+    );
+  }
+
+  const { dayMatches, allDates, displayDates, heroMatch, heroLive, heroEspnId, liveMap, getLiveFor } = heroInfo;
 
   const timelineMatches = dayMatches.filter(m => m.match_id !== heroMatch.match_id);
 
@@ -638,6 +700,8 @@ function TodayView({
           homeNameCn={heroMatch.home_team_cn}
           awayNameCn={heroMatch.away_team_cn}
           lineups={heroAnalysis?.lineups ?? null}
+          matchId={effectiveEspnId}
+          events={heroAnalysis?.events}
         />
       )}
 

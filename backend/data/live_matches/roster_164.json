@@ -1,0 +1,338 @@
+{
+  "team_id": "164",
+  "team_name": "Spain",
+  "team_name_cn": "西班牙",
+  "coach": "西班牙主教练",
+  "players": {
+    "G": [
+      {
+        "id": "196176",
+        "name": "David Raya",
+        "short_name": "D. Raya",
+        "jersey": "1",
+        "position": "G",
+        "position_name": "Goalkeeper",
+        "headshot": "",
+        "height": "6' 0\"",
+        "weight": "174 lbs",
+        "age": 30
+      },
+      {
+        "id": "297362",
+        "name": "Joan García",
+        "short_name": "J. García",
+        "jersey": "13",
+        "position": "G",
+        "position_name": "Goalkeeper",
+        "headshot": "",
+        "height": "6' 4\"",
+        "weight": "185 lbs",
+        "age": 25
+      },
+      {
+        "id": "222375",
+        "name": "Unai Simón",
+        "short_name": "U. Simón",
+        "jersey": "23",
+        "position": "G",
+        "position_name": "Goalkeeper",
+        "headshot": "",
+        "height": "6' 3\"",
+        "weight": "192 lbs",
+        "age": 29
+      }
+    ],
+    "D": [
+      {
+        "id": "332613",
+        "name": "Marc Pubill",
+        "short_name": "M. Pubill",
+        "jersey": "2",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 3\"",
+        "weight": "190 lbs",
+        "age": 22
+      },
+      {
+        "id": "166396",
+        "name": "Alejandro Grimaldo",
+        "short_name": "A. Grimaldo",
+        "jersey": "3",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "5' 7\"",
+        "weight": "139 lbs",
+        "age": 30
+      },
+      {
+        "id": "128714",
+        "name": "Eric García",
+        "short_name": "E. García",
+        "jersey": "4",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "5' 11\"",
+        "weight": "170 lbs",
+        "age": 25
+      },
+      {
+        "id": "268533",
+        "name": "Pedro Porro",
+        "short_name": "P. Porro",
+        "jersey": "12",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "5' 8\"",
+        "weight": "150 lbs",
+        "age": 26
+      },
+      {
+        "id": "159317",
+        "name": "Aymeric Laporte",
+        "short_name": "A. Laporte",
+        "jersey": "14",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 2\"",
+        "weight": "190 lbs",
+        "age": 32
+      },
+      {
+        "id": "368992",
+        "name": "Pau Cubarsí",
+        "short_name": "P. Cubarsí",
+        "jersey": "22",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 0\"",
+        "weight": "172 lbs",
+        "age": 19
+      },
+      {
+        "id": "259910",
+        "name": "Marc Cucurella",
+        "short_name": "M. Cucurella",
+        "jersey": "24",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "5' 9\"",
+        "weight": "146 lbs",
+        "age": 27
+      }
+    ],
+    "M": [
+      {
+        "id": "206474",
+        "name": "Marcos Llorente",
+        "short_name": "M. Llorente",
+        "jersey": "5",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "6' 0\"",
+        "weight": "161 lbs",
+        "age": 31
+      },
+      {
+        "id": "209581",
+        "name": "Mikel Merino",
+        "short_name": "M. Merino",
+        "jersey": "6",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "6' 2\"",
+        "weight": "183 lbs",
+        "age": 29
+      },
+      {
+        "id": "214596",
+        "name": "Fabián Ruiz",
+        "short_name": "F. Ruiz",
+        "jersey": "8",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "6' 2\"",
+        "weight": "152 lbs",
+        "age": 30
+      },
+      {
+        "id": "323702",
+        "name": "Gavi",
+        "short_name": "Gavi",
+        "jersey": "9",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "5' 9\"",
+        "weight": "150 lbs",
+        "age": 21
+      },
+      {
+        "id": "227765",
+        "name": "Dani Olmo",
+        "short_name": "D. Olmo",
+        "jersey": "10",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "6' 0\"",
+        "weight": "161 lbs",
+        "age": 28
+      },
+      {
+        "id": "297370",
+        "name": "Yéremy Pino",
+        "short_name": "Y. Pino",
+        "jersey": "11",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "5' 8\"",
+        "weight": "141 lbs",
+        "age": 23
+      },
+      {
+        "id": "297373",
+        "name": "Álex Baena",
+        "short_name": "Á. Baena",
+        "jersey": "15",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "5' 9\"",
+        "weight": "152 lbs",
+        "age": 24
+      },
+      {
+        "id": "231828",
+        "name": "Rodri",
+        "short_name": "Rodri",
+        "jersey": "16",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "6' 3\"",
+        "weight": "196 lbs",
+        "age": 29
+      },
+      {
+        "id": "287266",
+        "name": "Martín Zubimendi",
+        "short_name": "M. Zubimendi",
+        "jersey": "18",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "5' 11\"",
+        "weight": "161 lbs",
+        "age": 27
+      },
+      {
+        "id": "250465",
+        "name": "Pedri",
+        "short_name": "Pedri",
+        "jersey": "20",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "5' 9\"",
+        "weight": "150 lbs",
+        "age": 23
+      }
+    ],
+    "F": [
+      {
+        "id": "265869",
+        "name": "Ferran Torres",
+        "short_name": "F. Torres",
+        "jersey": "7",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "6' 0\"",
+        "weight": "174 lbs",
+        "age": 26
+      },
+      {
+        "id": "312146",
+        "name": "Nico Williams",
+        "short_name": "N. Williams",
+        "jersey": "17",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "5' 11\"",
+        "weight": "148 lbs",
+        "age": 23
+      },
+      {
+        "id": "362150",
+        "name": "Lamine Yamal",
+        "short_name": "L. Yamal",
+        "jersey": "19",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "5' 10\"",
+        "weight": "168 lbs",
+        "age": 18
+      },
+      {
+        "id": "229018",
+        "name": "Mikel Oyarzabal",
+        "short_name": "M. Oyarzabal",
+        "jersey": "21",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "5' 11\"",
+        "weight": "172 lbs",
+        "age": 29
+      },
+      {
+        "id": "397545",
+        "name": "Víctor Muñoz",
+        "short_name": "V. Muñoz",
+        "jersey": "25",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "5' 8\"",
+        "weight": "152 lbs",
+        "age": 22
+      },
+      {
+        "id": "214995",
+        "name": "Borja Iglesias",
+        "short_name": "B. Iglesias",
+        "jersey": "26",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "6' 2\"",
+        "weight": "190 lbs",
+        "age": 33
+      }
+    ],
+    "U": []
+  },
+  "total_players": 26,
+  "position_labels": {
+    "G": "门将",
+    "D": "后卫",
+    "M": "中场",
+    "F": "前锋",
+    "U": "未知"
+  },
+  "_saved_at": "2026-06-15T22:47:43.612356"
+}

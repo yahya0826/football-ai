@@ -1,0 +1,338 @@
+{
+  "team_id": "11678",
+  "team_name": "Curaçao",
+  "team_name_cn": "库拉索",
+  "coach": "库拉索主教练",
+  "players": {
+    "G": [
+      {
+        "id": "127444",
+        "name": "Eloy Room",
+        "short_name": "E. Room",
+        "jersey": "1",
+        "position": "G",
+        "position_name": "Goalkeeper",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/127444.png",
+        "height": "6' 3\"",
+        "weight": "179 lbs",
+        "age": 37
+      },
+      {
+        "id": "297542",
+        "name": "Tyrick Bodak",
+        "short_name": "T. Bodak",
+        "jersey": "25",
+        "position": "G",
+        "position_name": "Goalkeeper",
+        "headshot": "",
+        "height": "6' 3\"",
+        "weight": "170 lbs",
+        "age": 24
+      },
+      {
+        "id": "262109",
+        "name": "Trevor Doornbusch",
+        "short_name": "T. Doornbusch",
+        "jersey": "26",
+        "position": "G",
+        "position_name": "Goalkeeper",
+        "headshot": "",
+        "height": "6' 2\"",
+        "weight": "174 lbs",
+        "age": 26
+      }
+    ],
+    "D": [
+      {
+        "id": "301456",
+        "name": "Shurandy Sambo",
+        "short_name": "S. Sambo",
+        "jersey": "2",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/301456.png",
+        "height": "5' 9\"",
+        "weight": "148 lbs",
+        "age": 24
+      },
+      {
+        "id": "246281",
+        "name": "Juriën Gaari",
+        "short_name": "J. Gaari",
+        "jersey": "3",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/246281.png",
+        "height": "6' 0\"",
+        "weight": "163 lbs",
+        "age": 32
+      },
+      {
+        "id": "270807",
+        "name": "Roshon van Eijma",
+        "short_name": "R. van Eijma",
+        "jersey": "4",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 1\"",
+        "weight": "172 lbs",
+        "age": 28
+      },
+      {
+        "id": "224786",
+        "name": "Sherel Floranus",
+        "short_name": "S. Floranus",
+        "jersey": "5",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/224786.png",
+        "height": "5' 11\"",
+        "weight": "161 lbs",
+        "age": 27
+      },
+      {
+        "id": "317285",
+        "name": "Livano Comenencia",
+        "short_name": "L. Comenencia",
+        "jersey": "8",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 2\"",
+        "weight": "172 lbs",
+        "age": 22
+      },
+      {
+        "id": "359132",
+        "name": "Tyrese Noslin",
+        "short_name": "T. Noslin",
+        "jersey": "13",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 0\"",
+        "weight": "168 lbs",
+        "age": 23
+      },
+      {
+        "id": "245918",
+        "name": "Armando Obispo",
+        "short_name": "A. Obispo",
+        "jersey": "18",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/245918.png",
+        "height": "6' 1\"",
+        "weight": "172 lbs",
+        "age": 27
+      },
+      {
+        "id": "178433",
+        "name": "Joshua Brenet",
+        "short_name": "J. Brenet",
+        "jersey": "20",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/178433.png",
+        "height": "5' 11\"",
+        "weight": "161 lbs",
+        "age": 32
+      },
+      {
+        "id": "188411",
+        "name": "Riechedly Bazoer",
+        "short_name": "R. Bazoer",
+        "jersey": "23",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/188411.png",
+        "height": "6' 0\"",
+        "weight": "161 lbs",
+        "age": 29
+      },
+      {
+        "id": "335203",
+        "name": "Deveron Fonville",
+        "short_name": "D. Fonville",
+        "jersey": "24",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 2\"",
+        "weight": "181 lbs",
+        "age": 23
+      }
+    ],
+    "M": [
+      {
+        "id": "273295",
+        "name": "Godfried Roemeratoe",
+        "short_name": "G. Roemeratoe",
+        "jersey": "6",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/273295.png",
+        "height": "5' 10\"",
+        "weight": "161 lbs",
+        "age": 26
+      },
+      {
+        "id": "216287",
+        "name": "Juninho Bacuna",
+        "short_name": "J. Bacuna",
+        "jersey": "7",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "5' 11\"",
+        "weight": "161 lbs",
+        "age": 28
+      },
+      {
+        "id": "138664",
+        "name": "Leandro Bacuna",
+        "short_name": "L. Bacuna",
+        "jersey": "10",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "5' 11\"",
+        "weight": "170 lbs",
+        "age": 34
+      },
+      {
+        "id": "306553",
+        "name": "Ar'jany Martha",
+        "short_name": "A. Martha",
+        "jersey": "15",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "5' 11\"",
+        "weight": "141 lbs",
+        "age": 22
+      },
+      {
+        "id": "276218",
+        "name": "Tahith Chong",
+        "short_name": "T. Chong",
+        "jersey": "21",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "6' 1\"",
+        "weight": "163 lbs",
+        "age": 26
+      },
+      {
+        "id": "262738",
+        "name": "Kevin Felida",
+        "short_name": "K. Felida",
+        "jersey": "22",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/262738.png",
+        "height": "5' 9\"",
+        "weight": "146 lbs",
+        "age": 26
+      }
+    ],
+    "F": [
+      {
+        "id": "167213",
+        "name": "Jürgen Locadia",
+        "short_name": "J. Locadia",
+        "jersey": "9",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/167213.png",
+        "height": "6' 4\"",
+        "weight": "201 lbs",
+        "age": 32
+      },
+      {
+        "id": "310925",
+        "name": "Jeremy Antonisse",
+        "short_name": "J. Antonisse",
+        "jersey": "11",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "6' 0\"",
+        "weight": "152 lbs",
+        "age": 24
+      },
+      {
+        "id": "297299",
+        "name": "Sontje Hansen",
+        "short_name": "S. Hansen",
+        "jersey": "12",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/297299.png",
+        "height": "5' 9\"",
+        "weight": "150 lbs",
+        "age": 24
+      },
+      {
+        "id": "188452",
+        "name": "Kenji Gorré",
+        "short_name": "K. Gorré",
+        "jersey": "14",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "5' 9\"",
+        "weight": "157 lbs",
+        "age": 31
+      },
+      {
+        "id": "301441",
+        "name": "Jearl Margaritha",
+        "short_name": "J. Margaritha",
+        "jersey": "16",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "5' 11\"",
+        "weight": "161 lbs",
+        "age": 26
+      },
+      {
+        "id": "177058",
+        "name": "Brandley Kuwas",
+        "short_name": "B. Kuwas",
+        "jersey": "17",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "5' 11\"",
+        "weight": "183 lbs",
+        "age": 33
+      },
+      {
+        "id": "178273",
+        "name": "Gervane Kastaneer",
+        "short_name": "G. Kastaneer",
+        "jersey": "19",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "6' 2\"",
+        "weight": "174 lbs",
+        "age": 30
+      }
+    ],
+    "U": []
+  },
+  "total_players": 26,
+  "position_labels": {
+    "G": "门将",
+    "D": "后卫",
+    "M": "中场",
+    "F": "前锋",
+    "U": "未知"
+  },
+  "_saved_at": "2026-06-15T22:47:51.352018"
+}

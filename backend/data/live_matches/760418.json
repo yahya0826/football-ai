@@ -1,0 +1,1135 @@
+{
+  "match_id": "760418",
+  "date": "2026-06-14",
+  "status": {
+    "state": "finished",
+    "detail": "FT",
+    "period": 0,
+    "clock": "",
+    "completed": true,
+    "state_cn": "已结束"
+  },
+  "home": {
+    "name": "Haiti",
+    "abbrev": "HAI",
+    "logo": "",
+    "score": 0,
+    "team_id": "2654",
+    "name_cn": "海地"
+  },
+  "away": {
+    "name": "Scotland",
+    "abbrev": "SCO",
+    "logo": "",
+    "score": 1,
+    "team_id": "580",
+    "name_cn": "苏格兰"
+  },
+  "events": [
+    {
+      "type": "kickoff",
+      "minute": "",
+      "team": "",
+      "player": "",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "First Half begins.",
+      "type_cn": "开球",
+      "team_cn": "",
+      "description_cn": "比赛开始！"
+    },
+    {
+      "type": "goal",
+      "minute": "28'",
+      "team": "Scotland",
+      "player": "John McGinn Goal",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Goal! Haiti 0, Scotland 1. John McGinn (Scotland) left footed shot from the centre of the box to the high centre of the goal.",
+      "type_cn": "进球",
+      "team_cn": "苏格兰",
+      "description_cn": "28'' John McGinn Goal 为苏格兰进球！"
+    },
+    {
+      "type": "yellow_card",
+      "minute": "39'",
+      "team": "Haiti",
+      "player": "Jean-Ricner Bellegarde Yellow Ca",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Jean-Ricner Bellegarde (Haiti) is shown the yellow card for a bad foul.",
+      "type_cn": "黄牌",
+      "team_cn": "海地",
+      "description_cn": "39'' Jean-Ricner Bellegarde Yellow Ca（海地）吃到黄牌 🟨"
+    },
+    {
+      "type": "halftime",
+      "minute": "45'+5'",
+      "team": "",
+      "player": "",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "",
+      "type_cn": "中场休息",
+      "team_cn": "",
+      "description_cn": "中场休息 ⏸️"
+    },
+    {
+      "type": "fulltime",
+      "minute": "45'",
+      "team": "",
+      "player": "",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "",
+      "type_cn": "全场结束",
+      "team_cn": "",
+      "description_cn": "全场比赛结束 🏁"
+    },
+    {
+      "type": "yellow_card",
+      "minute": "46'",
+      "team": "Scotland",
+      "player": "Aaron Hickey Yellow Card",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Aaron Hickey (Scotland) is shown the yellow card for a bad foul.",
+      "type_cn": "黄牌",
+      "team_cn": "苏格兰",
+      "description_cn": "46'' Aaron Hickey Yellow Card（苏格兰）吃到黄牌 🟨"
+    },
+    {
+      "type": "substitution",
+      "minute": "61'",
+      "team": "Haiti",
+      "player": "Josué Casimir Substitution",
+      "player_in": "Josué Casimir",
+      "player_out": "Louicius Deedson",
+      "assist": "",
+      "text": "Substitution, Haiti. Josué Casimir replaces Louicius Deedson.",
+      "type_cn": "换人",
+      "team_cn": "海地",
+      "description_cn": "61'' Josué Casimir ↑ 替补登场，Louicius Deedson ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "75'",
+      "team": "Scotland",
+      "player": "Ryan Christie Substitution",
+      "player_in": "Ryan Christie",
+      "player_out": "Ben Gannon-Doak",
+      "assist": "",
+      "text": "Substitution, Scotland. Ryan Christie replaces Ben Gannon-Doak.",
+      "type_cn": "换人",
+      "team_cn": "苏格兰",
+      "description_cn": "75'' Ryan Christie ↑ 替补登场，Ben Gannon-Doak ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "75'",
+      "team": "Scotland",
+      "player": "Lyndon Dykes Substitution",
+      "player_in": "Lyndon Dykes",
+      "player_out": "Ché Adams",
+      "assist": "",
+      "text": "Substitution, Scotland. Lyndon Dykes replaces Ché Adams.",
+      "type_cn": "换人",
+      "team_cn": "苏格兰",
+      "description_cn": "75'' Lyndon Dykes ↑ 替补登场，Ché Adams ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "75'",
+      "team": "Scotland",
+      "player": "Nathan Patterson Substitution",
+      "player_in": "Nathan Patterson",
+      "player_out": "Aaron Hickey",
+      "assist": "",
+      "text": "Substitution, Scotland. Nathan Patterson replaces Aaron Hickey.",
+      "type_cn": "换人",
+      "team_cn": "苏格兰",
+      "description_cn": "75'' Nathan Patterson ↑ 替补登场，Aaron Hickey ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "76'",
+      "team": "Haiti",
+      "player": "Lenny Joseph Substitution",
+      "player_in": "Lenny Joseph",
+      "player_out": "Wilson Isidor",
+      "assist": "",
+      "text": "Substitution, Haiti. Lenny Joseph replaces Wilson Isidor.",
+      "type_cn": "换人",
+      "team_cn": "海地",
+      "description_cn": "76'' Lenny Joseph ↑ 替补登场，Wilson Isidor ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "83'",
+      "team": "Scotland",
+      "player": "Findlay Curtis Substitution",
+      "player_in": "Findlay Curtis",
+      "player_out": "John McGinn",
+      "assist": "",
+      "text": "Substitution, Scotland. Findlay Curtis replaces John McGinn.",
+      "type_cn": "换人",
+      "team_cn": "苏格兰",
+      "description_cn": "83'' Findlay Curtis ↑ 替补登场，John McGinn ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "83'",
+      "team": "Scotland",
+      "player": "Kenny McLean Substitution",
+      "player_in": "Kenny McLean",
+      "player_out": "Lawrence Shankland",
+      "assist": "",
+      "text": "Substitution, Scotland. Kenny McLean replaces Lawrence Shankland.",
+      "type_cn": "换人",
+      "team_cn": "苏格兰",
+      "description_cn": "83'' Kenny McLean ↑ 替补登场，Lawrence Shankland ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "85'",
+      "team": "Haiti",
+      "player": "Yassin Fortuné Substitution",
+      "player_in": "Yassin Fortuné",
+      "player_out": "Ruben Providence",
+      "assist": "",
+      "text": "Substitution, Haiti. Yassin Fortuné replaces Ruben Providence.",
+      "type_cn": "换人",
+      "team_cn": "海地",
+      "description_cn": "85'' Yassin Fortuné ↑ 替补登场，Ruben Providence ↓ 被换下"
+    },
+    {
+      "type": "yellow_card",
+      "minute": "90'+1'",
+      "team": "Scotland",
+      "player": "Findlay Curtis Yellow Card",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Findlay Curtis (Scotland) is shown the yellow card for a bad foul.",
+      "type_cn": "黄牌",
+      "team_cn": "苏格兰",
+      "description_cn": "90'+1'' Findlay Curtis Yellow Card（苏格兰）吃到黄牌 🟨"
+    },
+    {
+      "type": "yellow_card",
+      "minute": "90'+5'",
+      "team": "Scotland",
+      "player": "Kenny McLean Yellow Card",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Kenny McLean (Scotland) is shown the yellow card for a bad foul.",
+      "type_cn": "黄牌",
+      "team_cn": "苏格兰",
+      "description_cn": "90'+5'' Kenny McLean Yellow Card（苏格兰）吃到黄牌 🟨"
+    },
+    {
+      "type": "83",
+      "minute": "90'+8'",
+      "team": "",
+      "player": "",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Second Half ends, Haiti 0, Scotland 1.",
+      "type_cn": "83",
+      "team_cn": "",
+      "description_cn": "Second Half ends, Haiti 0, Scotland 1."
+    }
+  ],
+  "statistics": {
+    "home": {
+      "team_name": "Haiti",
+      "stats": {
+        "foulsCommitted": {
+          "label": "Fouls",
+          "value": "23",
+          "label_cn": "犯规"
+        },
+        "yellowCards": {
+          "label": "Yellow Cards",
+          "value": "1",
+          "label_cn": "黄牌"
+        },
+        "redCards": {
+          "label": "Red Cards",
+          "value": "0",
+          "label_cn": "红牌"
+        },
+        "offsides": {
+          "label": "Offsides",
+          "value": "3",
+          "label_cn": "越位"
+        },
+        "wonCorners": {
+          "label": "Corner Kicks",
+          "value": "4",
+          "label_cn": "角球"
+        },
+        "saves": {
+          "label": "Saves",
+          "value": "1",
+          "label_cn": "扑救"
+        },
+        "possessionPct": {
+          "label": "Possession",
+          "value": "53.7",
+          "label_cn": "控球率"
+        },
+        "totalShots": {
+          "label": "SHOTS",
+          "value": "15",
+          "label_cn": "总射门"
+        },
+        "shotsOnTarget": {
+          "label": "ON GOAL",
+          "value": "2",
+          "label_cn": "射正"
+        },
+        "shotPct": {
+          "label": "On Target %",
+          "value": "0.1",
+          "label_cn": "射正率"
+        },
+        "penaltyKickGoals": {
+          "label": "Penalty Goals",
+          "value": "0",
+          "label_cn": "点球进球"
+        },
+        "penaltyKickShots": {
+          "label": "Penalty Kicks Taken",
+          "value": "0",
+          "label_cn": "点球次数"
+        },
+        "accuratePasses": {
+          "label": "Accurate Passes",
+          "value": "367",
+          "label_cn": "精准传球"
+        },
+        "totalPasses": {
+          "label": "Passes",
+          "value": "431",
+          "label_cn": "传球"
+        },
+        "passPct": {
+          "label": "Pass Completion %",
+          "value": "0.9",
+          "label_cn": "传球成功率"
+        },
+        "accurateCrosses": {
+          "label": "Accurate Crosses",
+          "value": "5",
+          "label_cn": "精准传中"
+        },
+        "totalCrosses": {
+          "label": "Crosses",
+          "value": "23",
+          "label_cn": "传中"
+        },
+        "crossPct": {
+          "label": "Cross %",
+          "value": "0.2",
+          "label_cn": "传中成功率"
+        },
+        "totalLongBalls": {
+          "label": "Long Balls",
+          "value": "59",
+          "label_cn": "长传"
+        },
+        "accurateLongBalls": {
+          "label": "Accurate Long Balls",
+          "value": "26",
+          "label_cn": "精准长传"
+        },
+        "longballPct": {
+          "label": "Long Balls %",
+          "value": "0.4",
+          "label_cn": "长传成功率"
+        },
+        "blockedShots": {
+          "label": "Blocked Shots",
+          "value": "4",
+          "label_cn": "封堵射门"
+        },
+        "effectiveTackles": {
+          "label": "Effective Tackles",
+          "value": "7",
+          "label_cn": "有效抢断"
+        },
+        "totalTackles": {
+          "label": "Tackles",
+          "value": "12",
+          "label_cn": "抢断"
+        },
+        "tacklePct": {
+          "label": "Tackle %",
+          "value": "0.6",
+          "label_cn": "抢断成功率"
+        },
+        "interceptions": {
+          "label": "Interceptions",
+          "value": "6",
+          "label_cn": "拦截"
+        },
+        "effectiveClearance": {
+          "label": "Effective Clearances",
+          "value": "20",
+          "label_cn": "有效解围"
+        },
+        "totalClearance": {
+          "label": "Clearances",
+          "value": "20",
+          "label_cn": "解围"
+        }
+      },
+      "team_name_cn": "海地"
+    },
+    "away": {
+      "team_name": "Scotland",
+      "stats": {
+        "foulsCommitted": {
+          "label": "Fouls",
+          "value": "21",
+          "label_cn": "犯规"
+        },
+        "yellowCards": {
+          "label": "Yellow Cards",
+          "value": "3",
+          "label_cn": "黄牌"
+        },
+        "redCards": {
+          "label": "Red Cards",
+          "value": "0",
+          "label_cn": "红牌"
+        },
+        "offsides": {
+          "label": "Offsides",
+          "value": "1",
+          "label_cn": "越位"
+        },
+        "wonCorners": {
+          "label": "Corner Kicks",
+          "value": "3",
+          "label_cn": "角球"
+        },
+        "saves": {
+          "label": "Saves",
+          "value": "2",
+          "label_cn": "扑救"
+        },
+        "possessionPct": {
+          "label": "Possession",
+          "value": "46.3",
+          "label_cn": "控球率"
+        },
+        "totalShots": {
+          "label": "SHOTS",
+          "value": "9",
+          "label_cn": "总射门"
+        },
+        "shotsOnTarget": {
+          "label": "ON GOAL",
+          "value": "2",
+          "label_cn": "射正"
+        },
+        "shotPct": {
+          "label": "On Target %",
+          "value": "0.2",
+          "label_cn": "射正率"
+        },
+        "penaltyKickGoals": {
+          "label": "Penalty Goals",
+          "value": "0",
+          "label_cn": "点球进球"
+        },
+        "penaltyKickShots": {
+          "label": "Penalty Kicks Taken",
+          "value": "0",
+          "label_cn": "点球次数"
+        },
+        "accuratePasses": {
+          "label": "Accurate Passes",
+          "value": "307",
+          "label_cn": "精准传球"
+        },
+        "totalPasses": {
+          "label": "Passes",
+          "value": "374",
+          "label_cn": "传球"
+        },
+        "passPct": {
+          "label": "Pass Completion %",
+          "value": "0.8",
+          "label_cn": "传球成功率"
+        },
+        "accurateCrosses": {
+          "label": "Accurate Crosses",
+          "value": "5",
+          "label_cn": "精准传中"
+        },
+        "totalCrosses": {
+          "label": "Crosses",
+          "value": "14",
+          "label_cn": "传中"
+        },
+        "crossPct": {
+          "label": "Cross %",
+          "value": "0.4",
+          "label_cn": "传中成功率"
+        },
+        "totalLongBalls": {
+          "label": "Long Balls",
+          "value": "58",
+          "label_cn": "长传"
+        },
+        "accurateLongBalls": {
+          "label": "Accurate Long Balls",
+          "value": "30",
+          "label_cn": "精准长传"
+        },
+        "longballPct": {
+          "label": "Long Balls %",
+          "value": "0.5",
+          "label_cn": "长传成功率"
+        },
+        "blockedShots": {
+          "label": "Blocked Shots",
+          "value": "2",
+          "label_cn": "封堵射门"
+        },
+        "effectiveTackles": {
+          "label": "Effective Tackles",
+          "value": "5",
+          "label_cn": "有效抢断"
+        },
+        "totalTackles": {
+          "label": "Tackles",
+          "value": "12",
+          "label_cn": "抢断"
+        },
+        "tacklePct": {
+          "label": "Tackle %",
+          "value": "0.4",
+          "label_cn": "抢断成功率"
+        },
+        "interceptions": {
+          "label": "Interceptions",
+          "value": "6",
+          "label_cn": "拦截"
+        },
+        "effectiveClearance": {
+          "label": "Effective Clearances",
+          "value": "17",
+          "label_cn": "有效解围"
+        },
+        "totalClearance": {
+          "label": "Clearances",
+          "value": "17",
+          "label_cn": "解围"
+        }
+      },
+      "team_name_cn": "苏格兰"
+    }
+  },
+  "lineups": {
+    "home": {
+      "formation": "4-4-2",
+      "starters": [
+        {
+          "id": "89090",
+          "name": "Johny Placide",
+          "short_name": "J. Placide",
+          "jersey": "1",
+          "position": "G",
+          "position_name": "Goalkeeper",
+          "starter": true,
+          "formation_place": "1",
+          "active": true
+        },
+        {
+          "id": "250241",
+          "name": "Frantzdy Pierrot",
+          "short_name": "F. Pierrot",
+          "jersey": "20",
+          "position": "F",
+          "position_name": "Center Right Forward",
+          "starter": true,
+          "formation_place": "10",
+          "active": true
+        },
+        {
+          "id": "307861",
+          "name": "Ruben Providence",
+          "short_name": "R. Providence",
+          "jersey": "15",
+          "position": "M",
+          "position_name": "Left Midfielder",
+          "starter": true,
+          "formation_place": "11",
+          "active": true
+        },
+        {
+          "id": "218703",
+          "name": "Carlens Arcus",
+          "short_name": "C. Arcus",
+          "jersey": "2",
+          "position": "D",
+          "position_name": "Right Back",
+          "starter": true,
+          "formation_place": "2",
+          "active": true
+        },
+        {
+          "id": "320212",
+          "name": "Martin Expérience",
+          "short_name": "M. Expérience",
+          "jersey": "8",
+          "position": "D",
+          "position_name": "Left Back",
+          "starter": true,
+          "formation_place": "3",
+          "active": true
+        },
+        {
+          "id": "333939",
+          "name": "Danley Jean Jacques",
+          "short_name": "D. Jean Jacques",
+          "jersey": "17",
+          "position": "M",
+          "position_name": "Center Right Midfielder",
+          "starter": true,
+          "formation_place": "4",
+          "active": true
+        },
+        {
+          "id": "188106",
+          "name": "Ricardo Adé",
+          "short_name": "R. Adé",
+          "jersey": "4",
+          "position": "D",
+          "position_name": "Center Right Defender",
+          "starter": true,
+          "formation_place": "5",
+          "active": true
+        },
+        {
+          "id": "252521",
+          "name": "Hannes Delcroix",
+          "short_name": "H. Delcroix",
+          "jersey": "5",
+          "position": "D",
+          "position_name": "Center Left Defender",
+          "starter": true,
+          "formation_place": "6",
+          "active": true
+        },
+        {
+          "id": "291608",
+          "name": "Louicius Deedson",
+          "short_name": "L. Deedson",
+          "jersey": "11",
+          "position": "M",
+          "position_name": "Right Midfielder",
+          "starter": true,
+          "formation_place": "7",
+          "active": true
+        },
+        {
+          "id": "240369",
+          "name": "Jean-Ricner Bellegarde",
+          "short_name": "J. Bellegarde",
+          "jersey": "10",
+          "position": "M",
+          "position_name": "Center Left Midfielder",
+          "starter": true,
+          "formation_place": "8",
+          "active": true
+        },
+        {
+          "id": "265915",
+          "name": "Wilson Isidor",
+          "short_name": "W. Isidor",
+          "jersey": "18",
+          "position": "F",
+          "position_name": "Center Left Forward",
+          "starter": true,
+          "formation_place": "9",
+          "active": true
+        }
+      ],
+      "substitutes": [
+        {
+          "id": "274131",
+          "name": "Josué Duverger",
+          "short_name": "J. Duverger",
+          "jersey": "23",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "297177",
+          "name": "Carl Sainté",
+          "short_name": "C. Sainté",
+          "jersey": "6",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "210778",
+          "name": "Duckens Nazon",
+          "short_name": "D. Nazon",
+          "jersey": "9",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "385479",
+          "name": "Wilguens Paugain",
+          "short_name": "W. Paugain",
+          "jersey": "24",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "304212",
+          "name": "Josué Casimir",
+          "short_name": "J. Casimir",
+          "jersey": "21",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "301093",
+          "name": "Lenny Joseph",
+          "short_name": "L. Joseph",
+          "jersey": "16",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "320621",
+          "name": "Garven Metusala",
+          "short_name": "G. Metusala",
+          "jersey": "14",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "241032",
+          "name": "Jean-Kévin Duverne",
+          "short_name": "J. Duverne",
+          "jersey": "22",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "359946",
+          "name": "Woodensky Pierre",
+          "short_name": "W. Pierre",
+          "jersey": "26",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "342631",
+          "name": "Dominique Simon",
+          "short_name": "D. Simon",
+          "jersey": "25",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "409965",
+          "name": "Keeto Thermoncy",
+          "short_name": "K. Thermoncy",
+          "jersey": "3",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "310715",
+          "name": "Alexandre Pierre",
+          "short_name": "A. Pierre",
+          "jersey": "12",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "235401",
+          "name": "Markhus Lacroix",
+          "short_name": "M. Lacroix",
+          "jersey": "13",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "231098",
+          "name": "Derrick Etienne Jr.",
+          "short_name": "D. Etienne Jr.",
+          "jersey": "7",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "275007",
+          "name": "Yassin Fortuné",
+          "short_name": "Y. Fortuné",
+          "jersey": "19",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-4-2",
+      "starters": [
+        {
+          "id": "181299",
+          "name": "Angus Gunn",
+          "short_name": "A. Gunn",
+          "jersey": "1",
+          "position": "G",
+          "position_name": "Goalkeeper",
+          "starter": true,
+          "formation_place": "1",
+          "active": true
+        },
+        {
+          "id": "173306",
+          "name": "Lawrence Shankland",
+          "short_name": "L. Shankland",
+          "jersey": "20",
+          "position": "F",
+          "position_name": "Center Right Forward",
+          "starter": true,
+          "formation_place": "10",
+          "active": true
+        },
+        {
+          "id": "162843",
+          "name": "John McGinn",
+          "short_name": "J. McGinn",
+          "jersey": "7",
+          "position": "M",
+          "position_name": "Left Midfielder",
+          "starter": true,
+          "formation_place": "11",
+          "active": true
+        },
+        {
+          "id": "283940",
+          "name": "Aaron Hickey",
+          "short_name": "A. Hickey",
+          "jersey": "2",
+          "position": "D",
+          "position_name": "Right Back",
+          "starter": true,
+          "formation_place": "2",
+          "active": true
+        },
+        {
+          "id": "104943",
+          "name": "Andy Robertson",
+          "short_name": "A. Robertson",
+          "jersey": "3",
+          "position": "D",
+          "position_name": "Left Back",
+          "starter": true,
+          "formation_place": "3",
+          "active": true
+        },
+        {
+          "id": "255850",
+          "name": "Scott McTominay",
+          "short_name": "S. McTominay",
+          "jersey": "4",
+          "position": "M",
+          "position_name": "Center Right Midfielder",
+          "starter": true,
+          "formation_place": "4",
+          "active": true
+        },
+        {
+          "id": "146577",
+          "name": "Grant Hanley",
+          "short_name": "G. Hanley",
+          "jersey": "5",
+          "position": "D",
+          "position_name": "Center Right Defender",
+          "starter": true,
+          "formation_place": "5",
+          "active": true
+        },
+        {
+          "id": "207454",
+          "name": "Jack Hendry",
+          "short_name": "J. Hendry",
+          "jersey": "13",
+          "position": "D",
+          "position_name": "Center Left Defender",
+          "starter": true,
+          "formation_place": "6",
+          "active": true
+        },
+        {
+          "id": "332948",
+          "name": "Ben Gannon-Doak",
+          "short_name": "B. Gannon-Doak",
+          "jersey": "17",
+          "position": "M",
+          "position_name": "Right Midfielder",
+          "starter": true,
+          "formation_place": "7",
+          "active": true
+        },
+        {
+          "id": "202429",
+          "name": "Lewis Ferguson",
+          "short_name": "L. Ferguson",
+          "jersey": "19",
+          "position": "M",
+          "position_name": "Center Left Midfielder",
+          "starter": true,
+          "formation_place": "8",
+          "active": true
+        },
+        {
+          "id": "213725",
+          "name": "Ché Adams",
+          "short_name": "C. Adams",
+          "jersey": "10",
+          "position": "F",
+          "position_name": "Center Left Forward",
+          "starter": true,
+          "formation_place": "9",
+          "active": true
+        }
+      ],
+      "substitutes": [
+        {
+          "id": "17617",
+          "name": "Craig Gordon",
+          "short_name": "C. Gordon",
+          "jersey": "21",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "271191",
+          "name": "Nathan Patterson",
+          "short_name": "N. Patterson",
+          "jersey": "22",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "181394",
+          "name": "John Souttar",
+          "short_name": "J. Souttar",
+          "jersey": "15",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "93435",
+          "name": "Ryan Christie",
+          "short_name": "R. Christie",
+          "jersey": "11",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "393138",
+          "name": "Tyler Fletcher",
+          "short_name": "T. Fletcher",
+          "jersey": "8",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "224305",
+          "name": "Anthony Ralston",
+          "short_name": "A. Ralston",
+          "jersey": "24",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "214794",
+          "name": "Kieran Tierney",
+          "short_name": "K. Tierney",
+          "jersey": "6",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "251936",
+          "name": "Ross Stewart",
+          "short_name": "R. Stewart",
+          "jersey": "14",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "207538",
+          "name": "Lyndon Dykes",
+          "short_name": "L. Dykes",
+          "jersey": "9",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "141870",
+          "name": "Kenny McLean",
+          "short_name": "K. McLean",
+          "jersey": "23",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "368045",
+          "name": "Findlay Curtis",
+          "short_name": "F. Curtis",
+          "jersey": "25",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "241325",
+          "name": "George Hirst",
+          "short_name": "G. Hirst",
+          "jersey": "18",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "231572",
+          "name": "Dominic Hyam",
+          "short_name": "D. Hyam",
+          "jersey": "16",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "191450",
+          "name": "Scott McKenna",
+          "short_name": "S. McKenna",
+          "jersey": "26",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "16264",
+          "name": "Liam Kelly",
+          "short_name": "L. Kelly",
+          "jersey": "12",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        }
+      ]
+    }
+  },
+  "competition_id": "760418",
+  "_saved_at": "2026-06-15T16:49:14.822752"
+}

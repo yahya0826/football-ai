@@ -1,0 +1,338 @@
+{
+  "team_id": "659",
+  "team_name": "Tunisia",
+  "team_name_cn": "突尼斯",
+  "coach": "突尼斯主教练",
+  "players": {
+    "G": [
+      {
+        "id": "420888",
+        "name": "Mouhib Chamakh",
+        "short_name": "M. Chamakh",
+        "jersey": "1",
+        "position": "G",
+        "position_name": "Goalkeeper",
+        "headshot": "",
+        "height": "6' 2\"",
+        "weight": "185 lbs",
+        "age": 24
+      },
+      {
+        "id": "265272",
+        "name": "Aymen Dahmen",
+        "short_name": "A. Dahmen",
+        "jersey": "16",
+        "position": "G",
+        "position_name": "Goalkeeper",
+        "headshot": "",
+        "height": "6' 2\"",
+        "weight": "174 lbs",
+        "age": 29
+      },
+      {
+        "id": "195253",
+        "name": "Sabri Ben Hessen",
+        "short_name": "S. Ben Hessen",
+        "jersey": "22",
+        "position": "G",
+        "position_name": "Goalkeeper",
+        "headshot": "",
+        "height": "6' 2\"",
+        "weight": "174 lbs",
+        "age": 30
+      }
+    ],
+    "D": [
+      {
+        "id": "265234",
+        "name": "Ali Abdi",
+        "short_name": "A. Abdi",
+        "jersey": "2",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "5' 10\"",
+        "weight": "172 lbs",
+        "age": 32
+      },
+      {
+        "id": "265099",
+        "name": "Montassar Talbi",
+        "short_name": "M. Talbi",
+        "jersey": "3",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 3\"",
+        "weight": "174 lbs",
+        "age": 28
+      },
+      {
+        "id": "303848",
+        "name": "Omar Rekik",
+        "short_name": "O. Rekik",
+        "jersey": "4",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/303848.png",
+        "height": "6' 2\"",
+        "weight": "170 lbs",
+        "age": 24
+      },
+      {
+        "id": "410358",
+        "name": "Adem Arous",
+        "short_name": "A. Arous",
+        "jersey": "5",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 2\"",
+        "weight": "174 lbs",
+        "age": 21
+      },
+      {
+        "id": "240371",
+        "name": "Dylan Bronn",
+        "short_name": "D. Bronn",
+        "jersey": "6",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 1\"",
+        "weight": "163 lbs",
+        "age": 30
+      },
+      {
+        "id": "240588",
+        "name": "Yan Valery",
+        "short_name": "Y. Valery",
+        "jersey": "20",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "5' 11\"",
+        "weight": "161 lbs",
+        "age": 27
+      },
+      {
+        "id": "296982",
+        "name": "Mohamed Amine Ben Hamida",
+        "short_name": "M. Ben Hamida",
+        "jersey": "21",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "5' 11\"",
+        "weight": "152 lbs",
+        "age": 30
+      },
+      {
+        "id": "345975",
+        "name": "Moutaz Neffati",
+        "short_name": "M. Neffati",
+        "jersey": "23",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 0\"",
+        "weight": "163 lbs",
+        "age": 21
+      },
+      {
+        "id": "420890",
+        "name": "Raed Chikhaoui",
+        "short_name": "R. Chikhaoui",
+        "jersey": "24",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 3\"",
+        "weight": "185 lbs",
+        "age": 22
+      }
+    ],
+    "M": [
+      {
+        "id": "324510",
+        "name": "Elias Achouri",
+        "short_name": "E. Achouri",
+        "jersey": "7",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "6' 2\"",
+        "weight": "161 lbs",
+        "age": 27
+      },
+      {
+        "id": "300007",
+        "name": "Hannibal Mejbri",
+        "short_name": "H. Mejbri",
+        "jersey": "10",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "5' 10\"",
+        "weight": "161 lbs",
+        "age": 23
+      },
+      {
+        "id": "273170",
+        "name": "Mortadha Ben Ouanes",
+        "short_name": "M. Ben Ouanes",
+        "jersey": "12",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "6' 2\"",
+        "weight": "161 lbs",
+        "age": 31
+      },
+      {
+        "id": "159152",
+        "name": "Rani Khedira",
+        "short_name": "R. Khedira",
+        "jersey": "13",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "6' 2\"",
+        "weight": "183 lbs",
+        "age": 32
+      },
+      {
+        "id": "299861",
+        "name": "Mohamed Hadj Mahmoud",
+        "short_name": "M. Hadj Mahmoud",
+        "jersey": "15",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "5' 10\"",
+        "weight": "172 lbs",
+        "age": 26
+      },
+      {
+        "id": "209595",
+        "name": "Ellyes Skhiri",
+        "short_name": "E. Skhiri",
+        "jersey": "17",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "6' 1\"",
+        "weight": "161 lbs",
+        "age": 31
+      },
+      {
+        "id": "302944",
+        "name": "Anis Slimane",
+        "short_name": "A. Slimane",
+        "jersey": "25",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "6' 2\"",
+        "weight": "190 lbs",
+        "age": 25
+      }
+    ],
+    "F": [
+      {
+        "id": "323950",
+        "name": "Elias Saad",
+        "short_name": "E. Saad",
+        "jersey": "8",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "6' 1\"",
+        "weight": "174 lbs",
+        "age": 26
+      },
+      {
+        "id": "396085",
+        "name": "Hazem Mastouri",
+        "short_name": "H. Mastouri",
+        "jersey": "9",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "6' 3\"",
+        "weight": "174 lbs",
+        "age": 28
+      },
+      {
+        "id": "317473",
+        "name": "Ismaël Gharbi",
+        "short_name": "I. Gharbi",
+        "jersey": "11",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "5' 11\"",
+        "weight": "170 lbs",
+        "age": 22
+      },
+      {
+        "id": "404769",
+        "name": "Khalil Ayari",
+        "short_name": "K. Ayari",
+        "jersey": "14",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "5' 9\"",
+        "weight": "152 lbs",
+        "age": 21
+      },
+      {
+        "id": "405591",
+        "name": "Rayan Elloumi",
+        "short_name": "R. Elloumi",
+        "jersey": "18",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "5' 11\"",
+        "weight": "174 lbs",
+        "age": 18
+      },
+      {
+        "id": "265207",
+        "name": "Firas Chaouat",
+        "short_name": "F. Chaouat",
+        "jersey": "19",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "6' 1\"",
+        "weight": "152 lbs",
+        "age": 30
+      },
+      {
+        "id": "303702",
+        "name": "Sebastian Tounekti",
+        "short_name": "S. Tounekti",
+        "jersey": "26",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "6' 0\"",
+        "weight": "174 lbs",
+        "age": 23
+      }
+    ],
+    "U": []
+  },
+  "total_players": 26,
+  "position_labels": {
+    "G": "门将",
+    "D": "后卫",
+    "M": "中场",
+    "F": "前锋",
+    "U": "未知"
+  },
+  "_saved_at": "2026-06-14T20:26:57.147806"
+}

@@ -1,0 +1,338 @@
+{
+  "team_id": "467",
+  "team_name": "South Africa",
+  "team_name_cn": "南非",
+  "coach": "南非主教练",
+  "players": {
+    "G": [
+      {
+        "id": "196230",
+        "name": "Ronwen Williams",
+        "short_name": "R. Williams",
+        "jersey": "1",
+        "position": "G",
+        "position_name": "Goalkeeper",
+        "headshot": "",
+        "height": "6' 0\"",
+        "weight": "172 lbs",
+        "age": 34
+      },
+      {
+        "id": "265713",
+        "name": "Sipho Chaine",
+        "short_name": "S. Chaine",
+        "jersey": "16",
+        "position": "G",
+        "position_name": "Goalkeeper",
+        "headshot": "",
+        "height": "6' 1\"",
+        "weight": "170 lbs",
+        "age": 29
+      },
+      {
+        "id": "186121",
+        "name": "Ricardo Goss",
+        "short_name": "R. Goss",
+        "jersey": "22",
+        "position": "G",
+        "position_name": "Goalkeeper",
+        "headshot": "",
+        "height": "5' 11\"",
+        "weight": "163 lbs",
+        "age": 32
+      }
+    ],
+    "D": [
+      {
+        "id": "365623",
+        "name": "Thabang Matuludi",
+        "short_name": "T. Matuludi",
+        "jersey": "2",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 2\"",
+        "weight": "163 lbs",
+        "age": 27
+      },
+      {
+        "id": "390448",
+        "name": "Khulumani Ndamane",
+        "short_name": "K. Ndamane",
+        "jersey": "3",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 0\"",
+        "weight": "168 lbs",
+        "age": 22
+      },
+      {
+        "id": "223818",
+        "name": "Aubrey Modiba",
+        "short_name": "A. Modiba",
+        "jersey": "6",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "5' 6\"",
+        "weight": "161 lbs",
+        "age": 30
+      },
+      {
+        "id": "400594",
+        "name": "Mbekezeli Mbokazi",
+        "short_name": "M. Mbokazi",
+        "jersey": "14",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "5' 11\"",
+        "weight": "139 lbs",
+        "age": 20
+      },
+      {
+        "id": "366883",
+        "name": "Samukele Kabini",
+        "short_name": "S. Kabini",
+        "jersey": "18",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "5' 11\"",
+        "weight": "172 lbs",
+        "age": 22
+      },
+      {
+        "id": "266125",
+        "name": "Nkosinathi Sibisi",
+        "short_name": "N. Sibisi",
+        "jersey": "19",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "5' 10\"",
+        "weight": "172 lbs",
+        "age": 30
+      },
+      {
+        "id": "276767",
+        "name": "Khuliso Mudau",
+        "short_name": "K. Mudau",
+        "jersey": "20",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "5' 11\"",
+        "weight": "159 lbs",
+        "age": 31
+      },
+      {
+        "id": "358744",
+        "name": "Ime Okon",
+        "short_name": "I. Okon",
+        "jersey": "21",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 2\"",
+        "weight": "183 lbs",
+        "age": 22
+      },
+      {
+        "id": "351372",
+        "name": "Olwethu Makhanya",
+        "short_name": "O. Makhanya",
+        "jersey": "24",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 2\"",
+        "weight": "159 lbs",
+        "age": 22
+      },
+      {
+        "id": "310593",
+        "name": "Bradley Cross",
+        "short_name": "B. Cross",
+        "jersey": "26",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "5' 9\"",
+        "weight": "152 lbs",
+        "age": 25
+      }
+    ],
+    "M": [
+      {
+        "id": "256691",
+        "name": "Teboho Mokoena",
+        "short_name": "T. Mokoena",
+        "jersey": "4",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "5' 9\"",
+        "weight": "168 lbs",
+        "age": 29
+      },
+      {
+        "id": "301321",
+        "name": "Thalente Mbatha",
+        "short_name": "T. Mbatha",
+        "jersey": "5",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "5' 11\"",
+        "weight": "157 lbs",
+        "age": 26
+      },
+      {
+        "id": "157046",
+        "name": "Themba Zwane",
+        "short_name": "T. Zwane",
+        "jersey": "11",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "5' 7\"",
+        "weight": "148 lbs",
+        "age": 36
+      },
+      {
+        "id": "228595",
+        "name": "Sphephelo Sithole",
+        "short_name": "S. Sithole",
+        "jersey": "13",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "6' 2\"",
+        "weight": "192 lbs",
+        "age": 27
+      },
+      {
+        "id": "304736",
+        "name": "Jayden Adams",
+        "short_name": "J. Adams",
+        "jersey": "23",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "5' 9\"",
+        "weight": "150 lbs",
+        "age": 25
+      },
+      {
+        "id": "337134",
+        "name": "Kamogelo Sebelebele",
+        "short_name": "K. Sebelebele",
+        "jersey": "25",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "5' 5\"",
+        "weight": "119 lbs",
+        "age": 23
+      }
+    ],
+    "F": [
+      {
+        "id": "288771",
+        "name": "Oswin Appollis",
+        "short_name": "O. Appollis",
+        "jersey": "7",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "5' 7\"",
+        "weight": "152 lbs",
+        "age": 24
+      },
+      {
+        "id": "313399",
+        "name": "Tshepang Moremi",
+        "short_name": "T. Moremi",
+        "jersey": "8",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "5' 6\"",
+        "weight": "152 lbs",
+        "age": 25
+      },
+      {
+        "id": "264751",
+        "name": "Lyle Foster",
+        "short_name": "L. Foster",
+        "jersey": "9",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "6' 1\"",
+        "weight": "172 lbs",
+        "age": 25
+      },
+      {
+        "id": "361211",
+        "name": "Relebohile Mofokeng",
+        "short_name": "R. Mofokeng",
+        "jersey": "10",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "5' 7\"",
+        "weight": "150 lbs",
+        "age": 21
+      },
+      {
+        "id": "335450",
+        "name": "Thapelo Maseko",
+        "short_name": "T. Maseko",
+        "jersey": "12",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "5' 10\"",
+        "weight": "161 lbs",
+        "age": 22
+      },
+      {
+        "id": "291141",
+        "name": "Iqraam Rayners",
+        "short_name": "I. Rayners",
+        "jersey": "15",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "5' 9\"",
+        "weight": "168 lbs",
+        "age": 30
+      },
+      {
+        "id": "303312",
+        "name": "Evidence Makgopa",
+        "short_name": "E. Makgopa",
+        "jersey": "17",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "6' 2\"",
+        "weight": "161 lbs",
+        "age": 26
+      }
+    ],
+    "U": []
+  },
+  "total_players": 26,
+  "position_labels": {
+    "G": "门将",
+    "D": "后卫",
+    "M": "中场",
+    "F": "前锋",
+    "U": "未知"
+  },
+  "_saved_at": "2026-06-15T15:02:49.068812"
+}

@@ -11,7 +11,8 @@
       "club": "Stade Nyonnais",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "梅尔文·马斯蒂尔"
     },
     {
       "id": "a-ssa-mandi",
@@ -22,7 +23,8 @@
       "club": "Lille",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "艾萨·曼迪"
     },
     {
       "id": "achref-abada",
@@ -33,7 +35,8 @@
       "club": "USM Alger",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "阿什里夫·阿巴达"
     },
     {
       "id": "mohamed-amine-tougai",
@@ -44,7 +47,8 @@
       "club": "Espérance de Tunis",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "穆罕默德·阿明·图盖"
     },
     {
       "id": "zineddine-bela-d",
@@ -55,7 +59,8 @@
       "club": "JS Kabylie",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "齐内丁·贝莱德"
     },
     {
       "id": "ramiz-zerrouki",
@@ -66,7 +71,8 @@
       "club": "Twente",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "拉米兹·泽鲁基"
     },
     {
       "id": "riyad-mahrez",
@@ -77,7 +83,8 @@
       "club": "Al-Ahli",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "里亚德·马赫雷斯"
     },
     {
       "id": "houssem-aouar",
@@ -88,7 +95,8 @@
       "club": "Al-Ittihad",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "侯塞姆·奥阿尔"
     },
     {
       "id": "amine-gouiri",
@@ -99,7 +107,8 @@
       "club": "Marseille",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "阿米内·古里"
     },
     {
       "id": "far-s-cha-bi",
@@ -110,7 +119,8 @@
       "club": "Eintracht Frankfurt",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "法雷斯·柴比"
     },
     {
       "id": "anis-hadj-moussa",
@@ -121,7 +131,8 @@
       "club": "Feyenoord",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "阿尼斯·哈吉·穆萨"
     },
     {
       "id": "nadhir-benbouali",
@@ -132,7 +143,8 @@
       "club": "Győri ETO",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "纳迪尔·本布阿里"
     },
     {
       "id": "jaouen-hadjam",
@@ -143,7 +155,8 @@
       "club": "Young Boys",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "哈万·哈贾姆"
     },
     {
       "id": "hicham-boudaoui",
@@ -154,7 +167,8 @@
       "club": "Nice",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "希沙姆·布达维"
     },
     {
       "id": "rayan-a-t-nouri",
@@ -165,7 +179,8 @@
       "club": "Manchester City",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "拉扬·艾特"
     },
     {
       "id": "oussama-benbot",
@@ -176,7 +191,8 @@
       "club": "USM Alger",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "乌萨马·本博特"
     },
     {
       "id": "rafik-belghali",
@@ -187,7 +203,8 @@
       "club": "Hellas Verona",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "拉菲克·贝尔加利"
     },
     {
       "id": "mohamed-amoura",
@@ -209,7 +226,8 @@
       "club": "Lille",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "纳比尔·本塔莱布"
     },
     {
       "id": "adil-boulbina",
@@ -220,7 +238,8 @@
       "club": "Al-Duhail",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "阿迪尔·布尔比纳"
     },
     {
       "id": "ramy-bensebaini",
@@ -231,7 +250,8 @@
       "club": "Borussia Dortmund",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "拉米·本塞拜尼"
     },
     {
       "id": "ibrahim-maza",
@@ -242,7 +262,8 @@
       "club": "Bayer Leverkusen",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "易卜拉欣·马扎"
     },
     {
       "id": "luca-zidane",
@@ -253,7 +274,8 @@
       "club": "Granada",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "卢卡·齐达内"
     },
     {
       "id": "yacine-titraoui",
@@ -264,7 +286,8 @@
       "club": "Charleroi",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "亚辛·蒂特拉维"
     },
     {
       "id": "far-s-ghedjemis",
@@ -275,7 +298,8 @@
       "club": "Frosinone",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "法雷斯·盖杰米斯"
     },
     {
       "id": "samir-chergui",
@@ -286,7 +310,8 @@
       "club": "Paris FC",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "萨米尔·切尔吉"
     }
   ]
 }

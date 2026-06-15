@@ -22,7 +22,8 @@
       "club": "Nice",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "阿里·阿卜迪"
     },
     {
       "id": "montassar-talbi",
@@ -33,7 +34,8 @@
       "club": "Lorient",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "蒙塔萨尔·塔尔比"
     },
     {
       "id": "omar-rekik",
@@ -44,7 +46,8 @@
       "club": "Maribor",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "奥马尔·雷基克"
     },
     {
       "id": "adem-arous",
@@ -66,7 +69,8 @@
       "club": "Servette",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "迪伦·布龙"
     },
     {
       "id": "elias-achouri",
@@ -77,7 +81,8 @@
       "club": "Copenhagen",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "埃利亚斯·阿舒里"
     },
     {
       "id": "elias-saad",
@@ -88,7 +93,8 @@
       "club": "Hannover 96",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "埃利亚斯·萨阿德"
     },
     {
       "id": "hazem-mastouri",
@@ -99,7 +105,8 @@
       "club": "Dynamo Makhachkala",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "哈泽姆·马斯图里"
     },
     {
       "id": "hannibal-mejbri",
@@ -110,7 +117,8 @@
       "club": "Burnley",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "汉尼拔·梅布里"
     },
     {
       "id": "isma-l-gharbi",
@@ -121,7 +129,8 @@
       "club": "FC Augsburg",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "伊斯梅尔·加尔比"
     },
     {
       "id": "mortadha-ben-ouanes",
@@ -132,7 +141,8 @@
       "club": "Kasımpaşa",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "莫尔塔达·本瓦内斯"
     },
     {
       "id": "rani-khedira",
@@ -143,7 +153,8 @@
       "club": "Union Berlin",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "拉尼·赫迪拉"
     },
     {
       "id": "khalil-ayari",
@@ -154,7 +165,8 @@
       "club": "Paris Saint-Germain",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "哈利勒·阿亚里"
     },
     {
       "id": "hadj-mahmoud",
@@ -176,7 +188,8 @@
       "club": "CS Sfaxien",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "艾门·达门"
     },
     {
       "id": "ellyes-skhiri",
@@ -187,7 +200,8 @@
       "club": "Eintracht Frankfurt",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "埃利斯·斯希里"
     },
     {
       "id": "rayan-elloumi",
@@ -198,7 +212,8 @@
       "club": "Vancouver Whitecaps FC",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "拉扬·埃卢米"
     },
     {
       "id": "firas-chaouat",
@@ -209,7 +224,8 @@
       "club": "Club Africain",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "菲拉斯·沙瓦特"
     },
     {
       "id": "yan-valery",
@@ -220,7 +236,8 @@
       "club": "Young Boys",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "扬·瓦莱里"
     },
     {
       "id": "mohamed-amine-ben-hamida",
@@ -231,7 +248,8 @@
       "club": "Espérance de Tunis",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "穆罕默德·阿明·本哈米达"
     },
     {
       "id": "sabri-ben-hessen",
@@ -253,7 +271,8 @@
       "club": "IFK Norrköping",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "穆塔兹·内法蒂"
     },
     {
       "id": "raed-chikhaoui",
@@ -264,7 +283,8 @@
       "club": "US Monastir",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "拉伊德·希卡维"
     },
     {
       "id": "anis-ben-slimane",
@@ -275,7 +295,8 @@
       "club": "Norwich City",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "阿尼斯·本苏莱曼"
     },
     {
       "id": "sebastian-tounekti",
@@ -286,7 +307,8 @@
       "club": "Celtic",
       "age": 0,
       "national_caps": 0,
-      "national_goals": 0
+      "national_goals": 0,
+      "name_cn": "塞巴斯蒂安·图内克蒂"
     }
   ]
 }

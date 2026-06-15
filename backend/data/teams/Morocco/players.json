@@ -52,7 +52,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/yassine-bounou.jpg"
+      "avatar": "/headshots/yassine-bounou.jpg",
+      "name_cn": "亚辛·布努"
     },
     {
       "id": "achraf-hakimi",
@@ -113,7 +114,8 @@
         "xa_p90": 0.15,
         "key_passes_p90": 1.38
       },
-      "avatar": "/headshots/achraf-hakimi.jpg"
+      "avatar": "/headshots/achraf-hakimi.jpg",
+      "name_cn": "阿什拉夫·哈基米"
     },
     {
       "id": "noussair-mazraoui",
@@ -159,7 +161,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/noussair-mazraoui.jpg"
+      "avatar": "/headshots/noussair-mazraoui.jpg",
+      "name_cn": "努赛尔·马兹拉维"
     },
     {
       "id": "sofyan-amrabat",
@@ -205,7 +208,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/sofyan-amrabat.jpg"
+      "avatar": "/headshots/sofyan-amrabat.jpg",
+      "name_cn": "索菲扬·阿姆拉巴特"
     },
     {
       "id": "nayef-aguerd",
@@ -266,7 +270,8 @@
         "xa_p90": 0.02,
         "key_passes_p90": 0.19
       },
-      "avatar": "/headshots/nayef-aguerd.jpg"
+      "avatar": "/headshots/nayef-aguerd.jpg",
+      "name_cn": "纳耶夫·阿盖尔"
     },
     {
       "id": "ayyoub-bouaddi",
@@ -327,7 +332,8 @@
         "xa_p90": 0.06,
         "key_passes_p90": 0.81
       },
-      "avatar": "/headshots/ayyoub-bouaddi.jpg"
+      "avatar": "/headshots/ayyoub-bouaddi.jpg",
+      "name_cn": "阿尤布·布阿迪"
     },
     {
       "id": "chemsdine-talbi",
@@ -388,7 +394,8 @@
         "xa_p90": 0.07,
         "key_passes_p90": 0.69
       },
-      "avatar": "/headshots/chemsdine-talbi.jpg"
+      "avatar": "/headshots/chemsdine-talbi.jpg",
+      "name_cn": "舍姆斯丁·塔尔比"
     },
     {
       "id": "azzedine-ounahi",
@@ -434,7 +441,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/azzedine-ounahi.jpg"
+      "avatar": "/headshots/azzedine-ounahi.jpg",
+      "name_cn": "阿泽丁·欧纳希"
     },
     {
       "id": "soufiane-rahimi",
@@ -480,7 +488,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/soufiane-rahimi.jpg"
+      "avatar": "/headshots/soufiane-rahimi.jpg",
+      "name_cn": "苏菲安·拉希米"
     },
     {
       "id": "brahim-d-az",
@@ -541,7 +550,8 @@
         "xa_p90": 0.17,
         "key_passes_p90": 2.1
       },
-      "avatar": "/headshots/brahim-d-az.jpg"
+      "avatar": "/headshots/brahim-d-az.jpg",
+      "name_cn": "卜拉欣·迪亚斯"
     },
     {
       "id": "ismael-saibari",
@@ -602,7 +612,8 @@
         "xa_p90": 0.31,
         "key_passes_p90": 2.22
       },
-      "avatar": "/headshots/ismael-saibari.jpg"
+      "avatar": "/headshots/ismael-saibari.jpg",
+      "name_cn": "伊斯梅尔·赛巴里"
     },
     {
       "id": "munir-mohamedi",
@@ -675,7 +686,8 @@
         "xa_p90": 0.13,
         "key_passes_p90": 1.47
       },
-      "avatar": "/headshots/zakaria-el-ouahdi.jpg"
+      "avatar": "/headshots/zakaria-el-ouahdi.jpg",
+      "name_cn": "扎卡里亚·埃尔瓦赫迪"
     },
     {
       "id": "issa-diop",
@@ -721,7 +733,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/issa-diop.jpg"
+      "avatar": "/headshots/issa-diop.jpg",
+      "name_cn": "伊萨·迪奥普"
     },
     {
       "id": "samir-el-mourabet",
@@ -782,7 +795,8 @@
         "xa_p90": 0.1,
         "key_passes_p90": 1.18
       },
-      "avatar": "/headshots/samir-el-mourabet.jpg"
+      "avatar": "/headshots/samir-el-mourabet.jpg",
+      "name_cn": "萨米尔·埃尔穆拉贝特"
     },
     {
       "id": "gessime-yassine",
@@ -828,7 +842,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/gessime-yassine.jpg"
+      "avatar": "/headshots/gessime-yassine.jpg",
+      "name_cn": "杰西姆·亚辛"
     },
     {
       "id": "abde-ezzalzouli",
@@ -889,7 +904,8 @@
         "xa_p90": 0.14,
         "key_passes_p90": 1.28
       },
-      "avatar": "/headshots/abde-ezzalzouli.jpg"
+      "avatar": "/headshots/abde-ezzalzouli.jpg",
+      "name_cn": "阿卜杜·埃扎尔祖利"
     },
     {
       "id": "chadi-riad",
@@ -935,7 +951,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/chadi-riad.jpg"
+      "avatar": "/headshots/chadi-riad.jpg",
+      "name_cn": "沙迪·里亚德"
     },
     {
       "id": "youssef-belammari",
@@ -981,7 +998,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/youssef-belammari.jpg"
+      "avatar": "/headshots/youssef-belammari.jpg",
+      "name_cn": "优素福·贝拉马里"
     },
     {
       "id": "ayoub-el-kaabi",
@@ -1027,7 +1045,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/ayoub-el-kaabi.jpg"
+      "avatar": "/headshots/ayoub-el-kaabi.jpg",
+      "name_cn": "阿尤布·埃尔卡比"
     },
     {
       "id": "ayoube-amaimouni",
@@ -1073,7 +1092,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/ayoube-amaimouni.jpg"
+      "avatar": "/headshots/ayoube-amaimouni.jpg",
+      "name_cn": "阿尤布·阿迈穆尼"
     },
     {
       "id": "ahmed-reda-tagnaouti",
@@ -1146,7 +1166,8 @@
         "xa_p90": 0.32,
         "key_passes_p90": 2.48
       },
-      "avatar": "/headshots/bilal-el-khannouss.jpg"
+      "avatar": "/headshots/bilal-el-khannouss.jpg",
+      "name_cn": "比拉勒·埃尔汉努斯"
     },
     {
       "id": "neil-el-aynaoui",
@@ -1192,7 +1213,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/neil-el-aynaoui.jpg"
+      "avatar": "/headshots/neil-el-aynaoui.jpg",
+      "name_cn": "尼尔·埃尔艾纳维"
     },
     {
       "id": "redouane-halhal",
@@ -1253,7 +1275,8 @@
         "xa_p90": 0.03,
         "key_passes_p90": 0.22
       },
-      "avatar": "/headshots/redouane-halhal.jpg"
+      "avatar": "/headshots/redouane-halhal.jpg",
+      "name_cn": "雷杜万·哈勒哈勒"
     },
     {
       "id": "anass-salah-eddine",
@@ -1314,7 +1337,8 @@
         "xa_p90": 0.08,
         "key_passes_p90": 0.82
       },
-      "avatar": "/headshots/anass-salah-eddine.jpg"
+      "avatar": "/headshots/anass-salah-eddine.jpg",
+      "name_cn": "阿纳斯·萨拉赫丁"
     }
   ]
 }

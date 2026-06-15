@@ -1,0 +1,338 @@
+{
+  "team_id": "660",
+  "team_name": "United States",
+  "team_name_cn": "美国",
+  "coach": "美国主教练",
+  "players": {
+    "G": [
+      {
+        "id": "303794",
+        "name": "Matt Turner",
+        "short_name": "M. Turner",
+        "jersey": "1",
+        "position": "G",
+        "position_name": "Goalkeeper",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/303794.png",
+        "height": "6' 3\"",
+        "weight": "183 lbs",
+        "age": 31
+      },
+      {
+        "id": "252974",
+        "name": "Matt Freese",
+        "short_name": "M. Freese",
+        "jersey": "24",
+        "position": "G",
+        "position_name": "Goalkeeper",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/252974.png",
+        "height": "6' 3\"",
+        "weight": "192 lbs",
+        "age": 27
+      },
+      {
+        "id": "303693",
+        "name": "Chris Brady",
+        "short_name": "C. Brady",
+        "jersey": "25",
+        "position": "G",
+        "position_name": "Goalkeeper",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/303693.png",
+        "height": "6' 3\"",
+        "weight": "170 lbs",
+        "age": 22
+      }
+    ],
+    "D": [
+      {
+        "id": "266291",
+        "name": "Sergiño Dest",
+        "short_name": "S. Dest",
+        "jersey": "2",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "5' 8\"",
+        "weight": "137 lbs",
+        "age": 25
+      },
+      {
+        "id": "272585",
+        "name": "Chris Richards",
+        "short_name": "C. Richards",
+        "jersey": "3",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/272585.png",
+        "height": "6' 2\"",
+        "weight": "203 lbs",
+        "age": 26
+      },
+      {
+        "id": "222396",
+        "name": "Antonee Robinson",
+        "short_name": "A. Robinson",
+        "jersey": "5",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 0\"",
+        "weight": "161 lbs",
+        "age": 28
+      },
+      {
+        "id": "228619",
+        "name": "Auston Trusty",
+        "short_name": "A. Trusty",
+        "jersey": "6",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/228619.png",
+        "height": "6' 3\"",
+        "weight": "172 lbs",
+        "age": 27
+      },
+      {
+        "id": "249768",
+        "name": "Miles Robinson",
+        "short_name": "M. Robinson",
+        "jersey": "12",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/249768.png",
+        "height": "6' 2\"",
+        "weight": "183 lbs",
+        "age": 29
+      },
+      {
+        "id": "146290",
+        "name": "Tim Ream",
+        "short_name": "T. Ream",
+        "jersey": "13",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 1\"",
+        "weight": "174 lbs",
+        "age": 38
+      },
+      {
+        "id": "248276",
+        "name": "Alex Freeman",
+        "short_name": "A. Freeman",
+        "jersey": "16",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/248276.png",
+        "height": "6' 2\"",
+        "weight": "174 lbs",
+        "age": 21
+      },
+      {
+        "id": "77072",
+        "name": "Mark McKenzie",
+        "short_name": "M. McKenzie",
+        "jersey": "22",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/77072.png",
+        "height": "6' 0\"",
+        "weight": "183 lbs",
+        "age": 27
+      },
+      {
+        "id": "272135",
+        "name": "Joe Scally",
+        "short_name": "J. Scally",
+        "jersey": "23",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/272135.png",
+        "height": "6' 0\"",
+        "weight": "174 lbs",
+        "age": 23
+      }
+    ],
+    "M": [
+      {
+        "id": "222776",
+        "name": "Tyler Adams",
+        "short_name": "T. Adams",
+        "jersey": "4",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/222776.png",
+        "height": "5' 9\"",
+        "weight": "159 lbs",
+        "age": 27
+      },
+      {
+        "id": "290230",
+        "name": "Giovanni Reyna",
+        "short_name": "G. Reyna",
+        "jersey": "7",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "6' 1\"",
+        "weight": "172 lbs",
+        "age": 23
+      },
+      {
+        "id": "256715",
+        "name": "Weston McKennie",
+        "short_name": "W. McKennie",
+        "jersey": "8",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "6' 1\"",
+        "weight": "185 lbs",
+        "age": 27
+      },
+      {
+        "id": "225607",
+        "name": "Christian Pulisic",
+        "short_name": "C. Pulisic",
+        "jersey": "10",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "5' 10\"",
+        "weight": "161 lbs",
+        "age": 27
+      },
+      {
+        "id": "259653",
+        "name": "Brenden Aaronson",
+        "short_name": "B. Aaronson",
+        "jersey": "11",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/259653.png",
+        "height": "5' 10\"",
+        "weight": "150 lbs",
+        "age": 25
+      },
+      {
+        "id": "295771",
+        "name": "Sebastian Berhalter",
+        "short_name": "S. Berhalter",
+        "jersey": "14",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/295771.png",
+        "height": "5' 9\"",
+        "weight": "152 lbs",
+        "age": 25
+      },
+      {
+        "id": "216617",
+        "name": "Cristian Roldan",
+        "short_name": "C. Roldan",
+        "jersey": "15",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/216617.png",
+        "height": "5' 8\"",
+        "weight": "163 lbs",
+        "age": 31
+      },
+      {
+        "id": "301416",
+        "name": "Malik Tillman",
+        "short_name": "M. Tillman",
+        "jersey": "17",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "6' 2\"",
+        "weight": "190 lbs",
+        "age": 24
+      },
+      {
+        "id": "359542",
+        "name": "Max Arfsten",
+        "short_name": "M. Arfsten",
+        "jersey": "18",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "6' 1\"",
+        "weight": "172 lbs",
+        "age": 25
+      }
+    ],
+    "F": [
+      {
+        "id": "289120",
+        "name": "Ricardo Pepi",
+        "short_name": "R. Pepi",
+        "jersey": "9",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/289120.png",
+        "height": "6' 1\"",
+        "weight": "161 lbs",
+        "age": 23
+      },
+      {
+        "id": "220474",
+        "name": "Haji Wright",
+        "short_name": "H. Wright",
+        "jersey": "19",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "6' 3\"",
+        "weight": "174 lbs",
+        "age": 28
+      },
+      {
+        "id": "282643",
+        "name": "Folarin Balogun",
+        "short_name": "F. Balogun",
+        "jersey": "20",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "5' 10\"",
+        "weight": "146 lbs",
+        "age": 24
+      },
+      {
+        "id": "266027",
+        "name": "Timothy Weah",
+        "short_name": "T. Weah",
+        "jersey": "21",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "6' 0\"",
+        "weight": "146 lbs",
+        "age": 26
+      },
+      {
+        "id": "212824",
+        "name": "Alejandro Zendejas",
+        "short_name": "A. Zendejas",
+        "jersey": "26",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "5' 6\"",
+        "weight": "146 lbs",
+        "age": 28
+      }
+    ],
+    "U": []
+  },
+  "total_players": 26,
+  "position_labels": {
+    "G": "门将",
+    "D": "后卫",
+    "M": "中场",
+    "F": "前锋",
+    "U": "未知"
+  },
+  "_saved_at": "2026-06-15T16:49:25.774824"
+}

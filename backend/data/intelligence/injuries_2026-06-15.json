@@ -1,0 +1,176 @@
+{
+  "date": "2026-06-15",
+  "last_updated": "2026-06-15T23:20:46.285473",
+  "teams": {
+    "Iran": {
+      "name_cn": "伊朗",
+      "injuries": [
+        {
+          "player": "Champions League Injury",
+          "player_cn": "Champions League Injury",
+          "status": "questionable",
+          "status_cn": "可能缺阵",
+          "detail": "Champions League Injury Table",
+          "source": "rotowire"
+        },
+        {
+          "player": "Premier League Injury",
+          "player_cn": "Premier League Injury",
+          "status": "questionable",
+          "status_cn": "可能缺阵",
+          "detail": "Premier League Injury Table",
+          "source": "rotowire"
+        }
+      ],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "New Zealand": {
+      "name_cn": "新西兰",
+      "injuries": [
+        {
+          "player": "Champions League Injury",
+          "player_cn": "Champions League Injury",
+          "status": "questionable",
+          "status_cn": "可能缺阵",
+          "detail": "Champions League Injury Table",
+          "source": "rotowire"
+        },
+        {
+          "player": "Premier League Injury",
+          "player_cn": "Premier League Injury",
+          "status": "questionable",
+          "status_cn": "可能缺阵",
+          "detail": "Premier League Injury Table",
+          "source": "rotowire"
+        }
+      ],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "Saudi Arabia": {
+      "name_cn": "沙特阿拉伯",
+      "injuries": [
+        {
+          "player": "Champions League Injury",
+          "player_cn": "Champions League Injury",
+          "status": "questionable",
+          "status_cn": "可能缺阵",
+          "detail": "Champions League Injury Table",
+          "source": "rotowire"
+        },
+        {
+          "player": "Premier League Injury",
+          "player_cn": "Premier League Injury",
+          "status": "questionable",
+          "status_cn": "可能缺阵",
+          "detail": "Premier League Injury Table",
+          "source": "rotowire"
+        }
+      ],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "Uruguay": {
+      "name_cn": "乌拉圭",
+      "injuries": [
+        {
+          "player": "Champions League Injury",
+          "player_cn": "Champions League Injury",
+          "status": "questionable",
+          "status_cn": "可能缺阵",
+          "detail": "Champions League Injury Table",
+          "source": "rotowire"
+        },
+        {
+          "player": "Premier League Injury",
+          "player_cn": "Premier League Injury",
+          "status": "questionable",
+          "status_cn": "可能缺阵",
+          "detail": "Premier League Injury Table",
+          "source": "rotowire"
+        }
+      ],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "Belgium": {
+      "name_cn": "比利时",
+      "injuries": [
+        {
+          "player": "Champions League Injury",
+          "player_cn": "Champions League Injury",
+          "status": "questionable",
+          "status_cn": "可能缺阵",
+          "detail": "Champions League Injury Table",
+          "source": "rotowire"
+        },
+        {
+          "player": "Premier League Injury",
+          "player_cn": "Premier League Injury",
+          "status": "questionable",
+          "status_cn": "可能缺阵",
+          "detail": "Premier League Injury Table",
+          "source": "rotowire"
+        }
+      ],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "Egypt": {
+      "name_cn": "埃及",
+      "injuries": [
+        {
+          "player": "Champions League Injury",
+          "player_cn": "Champions League Injury",
+          "status": "questionable",
+          "status_cn": "可能缺阵",
+          "detail": "Champions League Injury Table",
+          "source": "rotowire"
+        },
+        {
+          "player": "Premier League Injury",
+          "player_cn": "Premier League Injury",
+          "status": "questionable",
+          "status_cn": "可能缺阵",
+          "detail": "Premier League Injury Table",
+          "source": "rotowire"
+        }
+      ],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    }
+  },
+  "total_teams": 6,
+  "_cache_ts": 1781536846.285485
+}

@@ -65,7 +65,8 @@
         "xa_p90": 0.0,
         "key_passes_p90": 0.0
       },
-      "avatar": "/headshots/alisson.jpg"
+      "avatar": "/headshots/alisson.jpg",
+      "name_cn": "阿利松"
     },
     {
       "id": "wesley",
@@ -126,7 +127,8 @@
         "xa_p90": 0.14,
         "key_passes_p90": 1.21
       },
-      "avatar": "/headshots/wesley.jpg"
+      "avatar": "/headshots/wesley.jpg",
+      "name_cn": "韦斯利"
     },
     {
       "id": "gabriel-magalh-es",
@@ -187,7 +189,8 @@
         "xa_p90": 0.06,
         "key_passes_p90": 0.23
       },
-      "avatar": "/headshots/gabriel-magalh-es.jpg"
+      "avatar": "/headshots/gabriel-magalh-es.jpg",
+      "name_cn": "加布里埃尔·马加良斯"
     },
     {
       "id": "marquinhos",
@@ -233,7 +236,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/marquinhos.jpg"
+      "avatar": "/headshots/marquinhos.jpg",
+      "name_cn": "马尔基尼奥斯"
     },
     {
       "id": "casemiro",
@@ -294,7 +298,8 @@
         "xa_p90": 0.11,
         "key_passes_p90": 1.25
       },
-      "avatar": "/headshots/casemiro.jpg"
+      "avatar": "/headshots/casemiro.jpg",
+      "name_cn": "卡塞米罗"
     },
     {
       "id": "alex-sandro",
@@ -343,7 +348,8 @@
           "physical": 86
         }
       },
-      "avatar": "/headshots/alex-sandro.jpg"
+      "avatar": "/headshots/alex-sandro.jpg",
+      "name_cn": "阿莱士·桑德罗"
     },
     {
       "id": "vin-cius-j-nior",
@@ -404,7 +410,8 @@
         "xa_p90": 0.18,
         "key_passes_p90": 2.23
       },
-      "avatar": "/headshots/vin-cius-j-nior.jpg"
+      "avatar": "/headshots/vin-cius-j-nior.jpg",
+      "name_cn": "维尼修斯·儒尼奥尔"
     },
     {
       "id": "bruno-guimar-es",
@@ -465,7 +472,8 @@
         "xa_p90": 0.18,
         "key_passes_p90": 1.69
       },
-      "avatar": "/headshots/bruno-guimar-es.jpg"
+      "avatar": "/headshots/bruno-guimar-es.jpg",
+      "name_cn": "布鲁诺·吉马良斯"
     },
     {
       "id": "matheus-cunha",
@@ -526,7 +534,8 @@
         "xa_p90": 0.12,
         "key_passes_p90": 1.26
       },
-      "avatar": "/headshots/matheus-cunha.jpg"
+      "avatar": "/headshots/matheus-cunha.jpg",
+      "name_cn": "马特乌斯·库尼亚"
     },
     {
       "id": "neymar",
@@ -587,7 +596,8 @@
         "xa_p90": 0.17,
         "key_passes_p90": 2.23
       },
-      "avatar": "/headshots/neymar.jpg"
+      "avatar": "/headshots/neymar.jpg",
+      "name_cn": "内马尔"
     },
     {
       "id": "raphinha",
@@ -633,7 +643,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/raphinha.jpg"
+      "avatar": "/headshots/raphinha.jpg",
+      "name_cn": "拉菲尼亚"
     },
     {
       "id": "weverton",
@@ -697,7 +708,8 @@
         "xa_p90": 0.0,
         "key_passes_p90": 0.12
       },
-      "avatar": "/headshots/weverton.jpg"
+      "avatar": "/headshots/weverton.jpg",
+      "name_cn": "韦弗顿"
     },
     {
       "id": "danilo-luiz",
@@ -770,7 +782,8 @@
         "xa_p90": 0.05,
         "key_passes_p90": 0.33
       },
-      "avatar": "/headshots/bremer.jpg"
+      "avatar": "/headshots/bremer.jpg",
+      "name_cn": "布雷默"
     },
     {
       "id": "l-o-pereira",
@@ -831,7 +844,8 @@
         "xa_p90": 0.04,
         "key_passes_p90": 0.37
       },
-      "avatar": "/headshots/l-o-pereira.jpg"
+      "avatar": "/headshots/l-o-pereira.jpg",
+      "name_cn": "莱奥·佩雷拉"
     },
     {
       "id": "douglas-santos",
@@ -877,7 +891,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/douglas-santos.jpg"
+      "avatar": "/headshots/douglas-santos.jpg",
+      "name_cn": "道格拉斯·桑托斯"
     },
     {
       "id": "fabinho",
@@ -938,7 +953,8 @@
         "xa_p90": 0.1,
         "key_passes_p90": 0.89
       },
-      "avatar": "/headshots/fabinho.jpg"
+      "avatar": "/headshots/fabinho.jpg",
+      "name_cn": "法比尼奥"
     },
     {
       "id": "danilo-santos",
@@ -984,7 +1000,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/danilo-santos.jpg"
+      "avatar": "/headshots/danilo-santos.jpg",
+      "name_cn": "达尼洛·桑托斯"
     },
     {
       "id": "endrick",
@@ -1045,7 +1062,8 @@
         "xa_p90": 0.24,
         "key_passes_p90": 2.21
       },
-      "avatar": "/headshots/endrick.jpg"
+      "avatar": "/headshots/endrick.jpg",
+      "name_cn": "恩德里克"
     },
     {
       "id": "lucas-paquet",
@@ -1106,7 +1124,8 @@
         "xa_p90": 0.14,
         "key_passes_p90": 1.32
       },
-      "avatar": "/headshots/lucas-paquet.jpg"
+      "avatar": "/headshots/lucas-paquet.jpg",
+      "name_cn": "卢卡斯·帕奎塔"
     },
     {
       "id": "luiz-henrique",
@@ -1152,7 +1171,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/luiz-henrique.jpg"
+      "avatar": "/headshots/luiz-henrique.jpg",
+      "name_cn": "路易斯·恩里克"
     },
     {
       "id": "gabriel-martinelli",
@@ -1213,7 +1233,8 @@
         "xa_p90": 0.11,
         "key_passes_p90": 1.08
       },
-      "avatar": "/headshots/gabriel-martinelli.jpg"
+      "avatar": "/headshots/gabriel-martinelli.jpg",
+      "name_cn": "加布里埃尔·马丁内利"
     },
     {
       "id": "ederson",
@@ -1277,7 +1298,8 @@
         "xa_p90": 0.0,
         "key_passes_p90": 0.04
       },
-      "avatar": "/headshots/ederson.jpg"
+      "avatar": "/headshots/ederson.jpg",
+      "name_cn": "埃德森"
     },
     {
       "id": "roger-iba-ez",
@@ -1338,7 +1360,8 @@
         "xa_p90": 0.05,
         "key_passes_p90": 0.41
       },
-      "avatar": "/headshots/roger-iba-ez.jpg"
+      "avatar": "/headshots/roger-iba-ez.jpg",
+      "name_cn": "罗杰·伊巴涅斯"
     },
     {
       "id": "igor-thiago",
@@ -1399,7 +1422,8 @@
         "xa_p90": 0.05,
         "key_passes_p90": 0.66
       },
-      "avatar": "/headshots/igor-thiago.jpg"
+      "avatar": "/headshots/igor-thiago.jpg",
+      "name_cn": "伊戈尔·蒂亚戈"
     },
     {
       "id": "rayan",
@@ -1445,7 +1469,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/rayan.jpg"
+      "avatar": "/headshots/rayan.jpg",
+      "name_cn": "拉扬"
     }
   ]
 }

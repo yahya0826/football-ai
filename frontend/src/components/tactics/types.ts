@@ -130,6 +130,7 @@ export function apiPlayerToPlayer(api: ApiPlayer): Player {
   return {
     id: api.id,
     name: api.name,
+    nameCn: api.name_cn,
     position: api.position,
     positionCn: posCn,
     number: api.number || 0,

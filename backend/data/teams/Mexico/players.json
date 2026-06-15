@@ -64,7 +64,8 @@
         },
         "xa_p90": 0.01,
         "key_passes_p90": 0.27
-      }
+      },
+      "name_cn": "劳尔·兰赫尔"
     },
     {
       "id": "jorge-s-nchez",
@@ -76,7 +77,8 @@
       "age": 0,
       "national_caps": 0,
       "national_goals": 0,
-      "stats": null
+      "stats": null,
+      "name_cn": "豪尔赫·桑切斯"
     },
     {
       "id": "c-sar-montes",
@@ -122,7 +124,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/c-sar-montes.jpg"
+      "avatar": "/headshots/c-sar-montes.jpg",
+      "name_cn": "塞萨尔·蒙特斯"
     },
     {
       "id": "edson--lvarez",
@@ -168,7 +171,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/edson--lvarez.jpg"
+      "avatar": "/headshots/edson--lvarez.jpg",
+      "name_cn": "埃德松·阿尔瓦雷斯"
     },
     {
       "id": "johan-v-squez",
@@ -229,7 +233,8 @@
         "xa_p90": 0.02,
         "key_passes_p90": 0.25
       },
-      "avatar": "/headshots/johan-v-squez.jpg"
+      "avatar": "/headshots/johan-v-squez.jpg",
+      "name_cn": "约翰·巴斯克斯"
     },
     {
       "id": "rik-lira",
@@ -274,7 +279,8 @@
         "start_rate": 86.2,
         "data_source": "desktop",
         "has_real_data": true
-      }
+      },
+      "name_cn": "埃里克·利拉"
     },
     {
       "id": "luis-romo",
@@ -335,7 +341,8 @@
         "xa_p90": 0.04,
         "key_passes_p90": 0.85
       },
-      "avatar": "/headshots/luis-romo.jpg"
+      "avatar": "/headshots/luis-romo.jpg",
+      "name_cn": "路易斯·罗莫"
     },
     {
       "id": "lvaro-fidalgo",
@@ -381,7 +388,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/lvaro-fidalgo.jpg"
+      "avatar": "/headshots/lvaro-fidalgo.jpg",
+      "name_cn": "阿尔瓦罗·菲达尔戈"
     },
     {
       "id": "ra-l-jim-nez",
@@ -442,7 +450,8 @@
         "xa_p90": 0.04,
         "key_passes_p90": 1.02
       },
-      "avatar": "/headshots/ra-l-jim-nez.jpg"
+      "avatar": "/headshots/ra-l-jim-nez.jpg",
+      "name_cn": "劳尔·希门尼斯"
     },
     {
       "id": "alexis-vega",
@@ -488,7 +497,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/alexis-vega.jpg"
+      "avatar": "/headshots/alexis-vega.jpg",
+      "name_cn": "亚历克西斯·维加"
     },
     {
       "id": "santiago-gim-nez",
@@ -549,7 +559,8 @@
         "xa_p90": 0.06,
         "key_passes_p90": 0.4
       },
-      "avatar": "/headshots/santiago-gim-nez.jpg"
+      "avatar": "/headshots/santiago-gim-nez.jpg",
+      "name_cn": "圣地亚哥·希门尼斯"
     },
     {
       "id": "carlos-acevedo",
@@ -613,7 +624,8 @@
         "xa_p90": 0.0,
         "key_passes_p90": 0.0
       },
-      "avatar": "/headshots/carlos-acevedo.jpg"
+      "avatar": "/headshots/carlos-acevedo.jpg",
+      "name_cn": "卡洛斯·阿塞韦多"
     },
     {
       "id": "guillermo-ochoa",
@@ -664,7 +676,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/guillermo-ochoa.jpg"
+      "avatar": "/headshots/guillermo-ochoa.jpg",
+      "name_cn": "吉列尔莫·奥乔亚"
     },
     {
       "id": "armando-gonz-lez",
@@ -724,7 +737,8 @@
         "xg_p90": 0.82,
         "xa_p90": 0.07,
         "key_passes_p90": 0.92
-      }
+      },
+      "name_cn": "阿曼多·冈萨雷斯"
     },
     {
       "id": "israel-reyes",
@@ -785,7 +799,8 @@
         "xa_p90": 0.03,
         "key_passes_p90": 0.67
       },
-      "avatar": "/headshots/israel-reyes.jpg"
+      "avatar": "/headshots/israel-reyes.jpg",
+      "name_cn": "伊斯雷尔·雷耶斯"
     },
     {
       "id": "juli-n-qui-ones",
@@ -845,7 +860,8 @@
         "xg_p90": 0.9,
         "xa_p90": 0.16,
         "key_passes_p90": 0.76
-      }
+      },
+      "name_cn": "胡利安·基尼奥内斯"
     },
     {
       "id": "orbel-n-pineda",
@@ -891,7 +907,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/orbel-n-pineda.jpg"
+      "avatar": "/headshots/orbel-n-pineda.jpg",
+      "name_cn": "奥韦林·皮内达"
     },
     {
       "id": "obed-vargas",
@@ -937,7 +954,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/obed-vargas.jpg"
+      "avatar": "/headshots/obed-vargas.jpg",
+      "name_cn": "奥贝德·巴尔加斯"
     },
     {
       "id": "gilberto-mora",
@@ -983,7 +1001,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/gilberto-mora.jpg"
+      "avatar": "/headshots/gilberto-mora.jpg",
+      "name_cn": "吉尔伯托·莫拉"
     },
     {
       "id": "mateo-ch-vez",
@@ -1043,7 +1062,8 @@
         "xg_p90": 0.14,
         "xa_p90": 0.18,
         "key_passes_p90": 1.07
-      }
+      },
+      "name_cn": "马特奥·查韦斯"
     },
     {
       "id": "c-sar-huerta",
@@ -1089,7 +1109,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/c-sar-huerta.jpg"
+      "avatar": "/headshots/c-sar-huerta.jpg",
+      "name_cn": "塞萨尔·韦尔塔"
     },
     {
       "id": "guillermo-mart-nez",
@@ -1149,7 +1170,8 @@
         "xg_p90": 0.57,
         "xa_p90": 0.05,
         "key_passes_p90": 0.88
-      }
+      },
+      "name_cn": "吉列尔莫·马丁内斯"
     },
     {
       "id": "jes-s-gallardo",
@@ -1210,7 +1232,8 @@
         "xa_p90": 0.22,
         "key_passes_p90": 1.19
       },
-      "avatar": "/headshots/jes-s-gallardo.jpg"
+      "avatar": "/headshots/jes-s-gallardo.jpg",
+      "name_cn": "赫苏斯·加利亚多"
     },
     {
       "id": "luis-ch-vez",
@@ -1256,7 +1279,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/luis-ch-vez.jpg"
+      "avatar": "/headshots/luis-ch-vez.jpg",
+      "name_cn": "路易斯·查韦斯"
     },
     {
       "id": "roberto-alvarado",
@@ -1317,7 +1341,8 @@
         "xa_p90": 0.16,
         "key_passes_p90": 2.46
       },
-      "avatar": "/headshots/roberto-alvarado.jpg"
+      "avatar": "/headshots/roberto-alvarado.jpg",
+      "name_cn": "罗伯托·阿尔瓦拉多"
     },
     {
       "id": "brian-guti-rrez",
@@ -1378,7 +1403,8 @@
         "xa_p90": 0.17,
         "key_passes_p90": 2.03
       },
-      "avatar": "/headshots/brian-guti-rrez.jpg"
+      "avatar": "/headshots/brian-guti-rrez.jpg",
+      "name_cn": "布莱恩·古铁雷斯"
     }
   ]
 }

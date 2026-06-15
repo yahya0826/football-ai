@@ -1,0 +1,338 @@
+{
+  "team_id": "206",
+  "team_name": "Canada",
+  "team_name_cn": "加拿大",
+  "coach": "加拿大主教练",
+  "players": {
+    "G": [
+      {
+        "id": "231059",
+        "name": "Dayne St. Clair",
+        "short_name": "D. St. Clair",
+        "jersey": "1",
+        "position": "G",
+        "position_name": "Goalkeeper",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/231059.png",
+        "height": "6' 3\"",
+        "weight": "190 lbs",
+        "age": 29
+      },
+      {
+        "id": "159382",
+        "name": "Maxime Crépeau",
+        "short_name": "M. Crépeau",
+        "jersey": "16",
+        "position": "G",
+        "position_name": "Goalkeeper",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/159382.png",
+        "height": "5' 11\"",
+        "weight": "192 lbs",
+        "age": 32
+      },
+      {
+        "id": "330618",
+        "name": "Owen Goodman",
+        "short_name": "O. Goodman",
+        "jersey": "18",
+        "position": "G",
+        "position_name": "Goalkeeper",
+        "headshot": "",
+        "height": "6' 4\"",
+        "weight": "203 lbs",
+        "age": 22
+      }
+    ],
+    "D": [
+      {
+        "id": "293691",
+        "name": "Alistair Johnston",
+        "short_name": "A. Johnston",
+        "jersey": "2",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/293691.png",
+        "height": "5' 11\"",
+        "weight": "170 lbs",
+        "age": 27
+      },
+      {
+        "id": "240589",
+        "name": "Alfie Jones",
+        "short_name": "A. Jones",
+        "jersey": "3",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 3\"",
+        "weight": "194 lbs",
+        "age": 28
+      },
+      {
+        "id": "365345",
+        "name": "Luc de Fougerolles",
+        "short_name": "L. de Fougerolles",
+        "jersey": "4",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 0\"",
+        "weight": "159 lbs",
+        "age": 20
+      },
+      {
+        "id": "236890",
+        "name": "Joel Waterman",
+        "short_name": "J. Waterman",
+        "jersey": "5",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/236890.png",
+        "height": "6' 2\"",
+        "weight": "172 lbs",
+        "age": 30
+      },
+      {
+        "id": "238712",
+        "name": "Derek Cornelius",
+        "short_name": "D. Cornelius",
+        "jersey": "13",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/238712.png",
+        "height": "6' 2\"",
+        "weight": "190 lbs",
+        "age": 28
+      },
+      {
+        "id": "358975",
+        "name": "Moïse Bombito",
+        "short_name": "M. Bombito",
+        "jersey": "15",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/358975.png",
+        "height": "6' 3\"",
+        "weight": "183 lbs",
+        "age": 26
+      },
+      {
+        "id": "236721",
+        "name": "Alphonso Davies",
+        "short_name": "A. Davies",
+        "jersey": "19",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/236721.png",
+        "height": "6' 1\"",
+        "weight": "170 lbs",
+        "age": 25
+      },
+      {
+        "id": "230626",
+        "name": "Richie Laryea",
+        "short_name": "R. Laryea",
+        "jersey": "22",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/230626.png",
+        "height": "5' 9\"",
+        "weight": "150 lbs",
+        "age": 31
+      }
+    ],
+    "M": [
+      {
+        "id": "274296",
+        "name": "Mathieu Choinière",
+        "short_name": "M. Choinière",
+        "jersey": "6",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/274296.png",
+        "height": "5' 9\"",
+        "weight": "150 lbs",
+        "age": 27
+      },
+      {
+        "id": "270505",
+        "name": "Stephen Eustáquio",
+        "short_name": "S. Eustáquio",
+        "jersey": "7",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "5' 10\"",
+        "weight": "152 lbs",
+        "age": 29
+      },
+      {
+        "id": "325001",
+        "name": "Ismaël Koné",
+        "short_name": "I. Koné",
+        "jersey": "8",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "6' 2\"",
+        "weight": "168 lbs",
+        "age": 23
+      },
+      {
+        "id": "340228",
+        "name": "Ali Ahmed",
+        "short_name": "A. Ahmed",
+        "jersey": "20",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/340228.png",
+        "height": "5' 11\"",
+        "weight": "163 lbs",
+        "age": 25
+      },
+      {
+        "id": "184221",
+        "name": "Jonathan Osorio",
+        "short_name": "J. Osorio",
+        "jersey": "21",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/184221.png",
+        "height": "5' 9\"",
+        "weight": "150 lbs",
+        "age": 34
+      },
+      {
+        "id": "363538",
+        "name": "Niko Sigur",
+        "short_name": "N. Sigur",
+        "jersey": "23",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "5' 11\"",
+        "weight": "170 lbs",
+        "age": 22
+      },
+      {
+        "id": "311163",
+        "name": "Nathan Saliba",
+        "short_name": "N. Saliba",
+        "jersey": "25",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/311163.png",
+        "height": "5' 11\"",
+        "weight": "157 lbs",
+        "age": 22
+      }
+    ],
+    "F": [
+      {
+        "id": "205024",
+        "name": "Cyle Larin",
+        "short_name": "C. Larin",
+        "jersey": "9",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "6' 2\"",
+        "weight": "203 lbs",
+        "age": 31
+      },
+      {
+        "id": "273499",
+        "name": "Jonathan David",
+        "short_name": "J. David",
+        "jersey": "10",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "5' 10\"",
+        "weight": "179 lbs",
+        "age": 26
+      },
+      {
+        "id": "271879",
+        "name": "Liam Millar",
+        "short_name": "L. Millar",
+        "jersey": "11",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "5' 11\"",
+        "weight": "159 lbs",
+        "age": 26
+      },
+      {
+        "id": "294039",
+        "name": "Tani Oluwaseyi",
+        "short_name": "T. Oluwaseyi",
+        "jersey": "12",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/294039.png",
+        "height": "6' 2\"",
+        "weight": "174 lbs",
+        "age": 26
+      },
+      {
+        "id": "286214",
+        "name": "Jacob Shaffelburg",
+        "short_name": "J. Shaffelburg",
+        "jersey": "14",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/286214.png",
+        "height": "5' 11\"",
+        "weight": "161 lbs",
+        "age": 26
+      },
+      {
+        "id": "284769",
+        "name": "Tajon Buchanan",
+        "short_name": "T. Buchanan",
+        "jersey": "17",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/284769.png",
+        "height": "6' 0\"",
+        "weight": "150 lbs",
+        "age": 27
+      },
+      {
+        "id": "318522",
+        "name": "Promise David",
+        "short_name": "P. David",
+        "jersey": "24",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "6' 5\"",
+        "weight": "201 lbs",
+        "age": 24
+      },
+      {
+        "id": "280612",
+        "name": "Jayden Nelson",
+        "short_name": "J. Nelson",
+        "jersey": "26",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/280612.png",
+        "height": "5' 7\"",
+        "weight": "148 lbs",
+        "age": 23
+      }
+    ],
+    "U": []
+  },
+  "total_players": 26,
+  "position_labels": {
+    "G": "门将",
+    "D": "后卫",
+    "M": "中场",
+    "F": "前锋",
+    "U": "未知"
+  },
+  "_saved_at": "2026-06-15T16:49:17.356828"
+}

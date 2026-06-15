@@ -52,7 +52,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/fahad-talib.jpg"
+      "avatar": "/headshots/fahad-talib.jpg",
+      "name_cn": "法哈德·塔利卜"
     },
     {
       "id": "rebin-sulaka",
@@ -98,7 +99,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/rebin-sulaka.jpg"
+      "avatar": "/headshots/rebin-sulaka.jpg",
+      "name_cn": "雷宾·苏拉卡"
     },
     {
       "id": "hussein-ali",
@@ -144,7 +146,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/hussein-ali.jpg"
+      "avatar": "/headshots/hussein-ali.jpg",
+      "name_cn": "侯赛因·阿里"
     },
     {
       "id": "zaid-tahseen",
@@ -190,7 +193,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/zaid-tahseen.jpg"
+      "avatar": "/headshots/zaid-tahseen.jpg",
+      "name_cn": "扎伊德·塔赫辛"
     },
     {
       "id": "akam-hashim",
@@ -214,7 +218,8 @@
       "age": 0,
       "national_caps": 0,
       "national_goals": 0,
-      "stats": null
+      "stats": null,
+      "name_cn": "马纳夫·尤尼斯"
     },
     {
       "id": "youssef-amyn",
@@ -260,7 +265,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/youssef-amyn.jpg"
+      "avatar": "/headshots/youssef-amyn.jpg",
+      "name_cn": "优素福·阿明"
     },
     {
       "id": "ibrahim-bayesh",
@@ -306,7 +312,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/ibrahim-bayesh.jpg"
+      "avatar": "/headshots/ibrahim-bayesh.jpg",
+      "name_cn": "易卜拉欣·巴耶什"
     },
     {
       "id": "ali-al-hamadi",
@@ -429,7 +436,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/jalal-hassan.jpg"
+      "avatar": "/headshots/jalal-hassan.jpg",
+      "name_cn": "贾拉勒·哈桑"
     },
     {
       "id": "ali-yousif",
@@ -487,7 +495,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/zidane-iqbal.jpg"
+      "avatar": "/headshots/zidane-iqbal.jpg",
+      "name_cn": "齐丹·伊克巴尔"
     },
     {
       "id": "ahmed-yahya",
@@ -533,7 +542,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/ahmed-yahya.jpg"
+      "avatar": "/headshots/ahmed-yahya.jpg",
+      "name_cn": "艾哈迈德·叶海亚"
     },
     {
       "id": "amir-al-ammari",
@@ -579,7 +589,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/amir-al-ammari.jpg"
+      "avatar": "/headshots/amir-al-ammari.jpg",
+      "name_cn": "阿米尔·阿马里"
     },
     {
       "id": "ali-jasim",
@@ -685,7 +696,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/kevin-yakob.jpg"
+      "avatar": "/headshots/kevin-yakob.jpg",
+      "name_cn": "凯文·雅各布"
     },
     {
       "id": "aimar-sher",
@@ -731,7 +743,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/aimar-sher.jpg"
+      "avatar": "/headshots/aimar-sher.jpg",
+      "name_cn": "艾马尔·谢尔"
     },
     {
       "id": "marko-farji",
@@ -777,7 +790,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/marko-farji.jpg"
+      "avatar": "/headshots/marko-farji.jpg",
+      "name_cn": "马尔科·法尔吉"
     },
     {
       "id": "ahmed-basil",
@@ -828,7 +842,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/ahmed-basil.jpg"
+      "avatar": "/headshots/ahmed-basil.jpg",
+      "name_cn": "艾哈迈德·巴西勒"
     },
     {
       "id": "merchas-doski",
@@ -874,7 +889,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/merchas-doski.jpg"
+      "avatar": "/headshots/merchas-doski.jpg",
+      "name_cn": "梅尔哈斯·多斯基"
     },
     {
       "id": "zaid-ismail",
@@ -886,7 +902,8 @@
       "age": 0,
       "national_caps": 0,
       "national_goals": 0,
-      "stats": null
+      "stats": null,
+      "name_cn": "扎伊德·伊斯梅尔"
     },
     {
       "id": "mustafa-saadoon",
@@ -898,7 +915,8 @@
       "age": 0,
       "national_caps": 0,
       "national_goals": 0,
-      "stats": null
+      "stats": null,
+      "name_cn": "穆斯塔法·萨阿敦"
     },
     {
       "id": "frans-putros",
@@ -944,7 +962,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/frans-putros.jpg"
+      "avatar": "/headshots/frans-putros.jpg",
+      "name_cn": "弗兰斯·普特罗斯"
     }
   ]
 }

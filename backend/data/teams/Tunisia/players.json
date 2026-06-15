@@ -112,7 +112,8 @@
         "xa_p90": 0.06,
         "key_passes_p90": 1.31
       },
-      "avatar": "/headshots/ali-abdi.jpg"
+      "avatar": "/headshots/ali-abdi.jpg",
+      "name_cn": "阿里·阿卜迪"
     },
     {
       "id": "montassar-talbi",
@@ -173,7 +174,8 @@
         "xa_p90": 0.02,
         "key_passes_p90": 0.24
       },
-      "avatar": "/headshots/montassar-talbi.jpg"
+      "avatar": "/headshots/montassar-talbi.jpg",
+      "name_cn": "蒙塔萨尔·塔尔比"
     },
     {
       "id": "omar-rekik",
@@ -219,7 +221,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/omar-rekik.jpg"
+      "avatar": "/headshots/omar-rekik.jpg",
+      "name_cn": "奥马尔·雷基克"
     },
     {
       "id": "adem-arous",
@@ -313,7 +316,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/dylan-bronn.jpg"
+      "avatar": "/headshots/dylan-bronn.jpg",
+      "name_cn": "迪伦·布龙"
     },
     {
       "id": "elias-achouri",
@@ -359,7 +363,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/elias-achouri.jpg"
+      "avatar": "/headshots/elias-achouri.jpg",
+      "name_cn": "埃利亚斯·阿舒里"
     },
     {
       "id": "elias-saad",
@@ -420,7 +425,8 @@
         "xa_p90": 0.34,
         "key_passes_p90": 1.63
       },
-      "avatar": "/headshots/elias-saad.jpg"
+      "avatar": "/headshots/elias-saad.jpg",
+      "name_cn": "埃利亚斯·萨阿德"
     },
     {
       "id": "hazem-mastouri",
@@ -466,7 +472,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/hazem-mastouri.jpg"
+      "avatar": "/headshots/hazem-mastouri.jpg",
+      "name_cn": "哈泽姆·马斯图里"
     },
     {
       "id": "hannibal-mejbri",
@@ -527,7 +534,8 @@
         "xa_p90": 0.15,
         "key_passes_p90": 1.51
       },
-      "avatar": "/headshots/hannibal-mejbri.jpg"
+      "avatar": "/headshots/hannibal-mejbri.jpg",
+      "name_cn": "汉尼拔·梅布里"
     },
     {
       "id": "isma-l-gharbi",
@@ -573,7 +581,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/isma-l-gharbi.jpg"
+      "avatar": "/headshots/isma-l-gharbi.jpg",
+      "name_cn": "伊斯梅尔·加尔比"
     },
     {
       "id": "mortadha-ben-ouanes",
@@ -634,7 +643,8 @@
         "xa_p90": 0.13,
         "key_passes_p90": 1.22
       },
-      "avatar": "/headshots/mortadha-ben-ouanes.jpg"
+      "avatar": "/headshots/mortadha-ben-ouanes.jpg",
+      "name_cn": "莫尔塔达·本瓦内斯"
     },
     {
       "id": "rani-khedira",
@@ -695,7 +705,8 @@
         "xa_p90": 0.04,
         "key_passes_p90": 0.51
       },
-      "avatar": "/headshots/rani-khedira.jpg"
+      "avatar": "/headshots/rani-khedira.jpg",
+      "name_cn": "拉尼·赫迪拉"
     },
     {
       "id": "khalil-ayari",
@@ -707,7 +718,8 @@
       "age": 0,
       "national_caps": 0,
       "national_goals": 0,
-      "stats": null
+      "stats": null,
+      "name_cn": "哈利勒·阿亚里"
     },
     {
       "id": "hadj-mahmoud",
@@ -770,7 +782,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/aymen-dahmen.jpg"
+      "avatar": "/headshots/aymen-dahmen.jpg",
+      "name_cn": "艾门·达门"
     },
     {
       "id": "ellyes-skhiri",
@@ -831,7 +844,8 @@
         "xa_p90": 0.05,
         "key_passes_p90": 0.43
       },
-      "avatar": "/headshots/ellyes-skhiri.jpg"
+      "avatar": "/headshots/ellyes-skhiri.jpg",
+      "name_cn": "埃利斯·斯希里"
     },
     {
       "id": "rayan-elloumi",
@@ -880,7 +894,8 @@
           "physical": 59
         }
       },
-      "avatar": "/headshots/rayan-elloumi.jpg"
+      "avatar": "/headshots/rayan-elloumi.jpg",
+      "name_cn": "拉扬·埃卢米"
     },
     {
       "id": "firas-chaouat",
@@ -926,7 +941,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/firas-chaouat.jpg"
+      "avatar": "/headshots/firas-chaouat.jpg",
+      "name_cn": "菲拉斯·沙瓦特"
     },
     {
       "id": "yan-valery",
@@ -972,7 +988,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/yan-valery.jpg"
+      "avatar": "/headshots/yan-valery.jpg",
+      "name_cn": "扬·瓦莱里"
     },
     {
       "id": "mohamed-amine-ben-hamida",
@@ -1018,7 +1035,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/mohamed-amine-ben-hamida.jpg"
+      "avatar": "/headshots/mohamed-amine-ben-hamida.jpg",
+      "name_cn": "穆罕默德·阿明·本哈米达"
     },
     {
       "id": "sabri-ben-hessen",
@@ -1076,7 +1094,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/moutaz-neffati.jpg"
+      "avatar": "/headshots/moutaz-neffati.jpg",
+      "name_cn": "穆塔兹·内法蒂"
     },
     {
       "id": "raed-chikhaoui",
@@ -1088,7 +1107,8 @@
       "age": 0,
       "national_caps": 0,
       "national_goals": 0,
-      "stats": null
+      "stats": null,
+      "name_cn": "拉伊德·希卡维"
     },
     {
       "id": "anis-ben-slimane",
@@ -1134,7 +1154,8 @@
         "data_source": "desktop",
         "has_real_data": true
       },
-      "avatar": "/headshots/anis-ben-slimane.jpg"
+      "avatar": "/headshots/anis-ben-slimane.jpg",
+      "name_cn": "阿尼斯·本苏莱曼"
     },
     {
       "id": "sebastian-tounekti",
@@ -1195,7 +1216,8 @@
         "xa_p90": 0.27,
         "key_passes_p90": 2.2
       },
-      "avatar": "/headshots/sebastian-tounekti.jpg"
+      "avatar": "/headshots/sebastian-tounekti.jpg",
+      "name_cn": "塞巴斯蒂安·图内克蒂"
     }
   ]
 }
