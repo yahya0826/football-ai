@@ -31,6 +31,29 @@ ESPN_BASE = "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world"
 BASE_DIR = Path(__file__).parent.parent
 DATA_DIR = BASE_DIR / "data" / "live_matches"
 
+# Map ESPN detailed position codes to G/D/M/F groups
+_POSITION_GROUP: Dict[str, str] = {
+    # Goalkeeper
+    "G": "G", "GK": "G",
+    # Defender
+    "D": "D", "DF": "D", "CD": "D", "CB": "D", "RB": "D", "LB": "D",
+    "RWB": "D", "LWB": "D", "SW": "D",
+    # Midfielder
+    "M": "M", "MF": "M", "CM": "M", "CDM": "M", "CAM": "M",
+    "DM": "M", "AM": "M", "RM": "M", "LM": "M",
+    # Forward
+    "F": "F", "FW": "F", "CF": "F", "ST": "F", "LW": "F", "RW": "F",
+    "RF": "F", "LF": "F",
+}
+
+
+def _normalize_position(abbr: str) -> str:
+    """Normalize ESPN position abbreviation to G/D/M/F group."""
+    if not abbr:
+        return "U"
+    base = abbr.split("-")[0]  # "CF-L" → "CF"
+    return _POSITION_GROUP.get(base, "U")
+
 # Cache TTLs in seconds
 SCOREBOARD_TTL = 15
 MATCH_DETAIL_TTL = 30
@@ -144,8 +167,14 @@ class LiveMatchService:
 
     # ── public API ────────────────────────────────────────────
 
-    def get_scoreboard(self) -> Dict:
-        """Get all matches from ESPN fifa.world scoreboard (live + recent + upcoming)."""
+    def get_scoreboard(self, date: str = None) -> Dict:
+        """Get matches from ESPN fifa.world scoreboard.
+        When date is provided (YYYY-MM-DD), fetch matches for that date.
+        Otherwise fetch live + recent + upcoming."""
+        if date:
+            # Convert to YYYYMMDD format for ESPN API
+            date_str = date.replace("-", "")
+            return self._cached(f"scoreboard_{date_str}", 3600, lambda: self._fetch_scoreboard(date_str))
         return self._cached("scoreboard", SCOREBOARD_TTL, self._fetch_scoreboard)
 
     def get_live_matches(self) -> List[Dict]:
@@ -159,9 +188,10 @@ class LiveMatchService:
                 live.append(self._simplify_match(ev))
         return live
 
-    def get_today_matches(self) -> List[Dict]:
-        """Return today's matches (all statuses). Merges ESPN scoreboard with local persisted data."""
-        sb = self.get_scoreboard()
+    def get_today_matches(self, date: str = None) -> List[Dict]:
+        """Return matches for a given date (all statuses). Merges ESPN scoreboard with local persisted data.
+        When date is None, returns today's matches from default scoreboard."""
+        sb = self.get_scoreboard(date)
         espn_ids = set()
         results = []
         for ev in sb.get("events", []):
@@ -170,9 +200,10 @@ class LiveMatchService:
             results.append(m)
 
         # Supplement with locally persisted matches not in ESPN scoreboard
-        for local in self._scan_local_matches():
-            if local["match_id"] not in espn_ids:
-                results.append(local)
+        if not date:
+            for local in self._scan_local_matches():
+                if local["match_id"] not in espn_ids:
+                    results.append(local)
 
         return results
 
@@ -204,9 +235,19 @@ class LiveMatchService:
 
     def find_match_by_teams(self, home_team: str, away_team: str, date: str = None) -> Optional[str]:
         """Find an ESPN match_id by matching home/away team names. Returns match_id or None.
-        Searches ESPN scoreboard first, then falls back to locally persisted match files."""
-        # Search ESPN scoreboard (simplify raw events for consistent search)
-        sb = self.get_scoreboard()
+        Searches ESPN scoreboard first (with date filter if provided), then falls back to locally persisted match files."""
+        # Determine ESPN UTC date from schedule date (Beijing time = UTC+8, so -1 day)
+        espn_date = None
+        if date:
+            from datetime import datetime, timedelta
+            try:
+                dt = datetime.strptime(date, "%Y-%m-%d") - timedelta(days=1)
+                espn_date = dt.strftime("%Y-%m-%d")
+            except ValueError:
+                pass
+
+        # Search ESPN scoreboard with date filter if available
+        sb = self.get_scoreboard(espn_date)
         sb_simplified = [self._simplify_match(ev) for ev in sb.get("events", [])]
         result = self._search_events_by_teams(sb_simplified, home_team, away_team, date)
         if result:
@@ -296,8 +337,8 @@ class LiveMatchService:
 
         for a in athletes:
             pos = a.get("position", {})
-            abbr = pos.get("abbreviation", "U")
-            cat = abbr[0] if abbr and abbr[0] in "GDMF" else "U"
+            abbr = pos.get("abbreviation", "")
+            cat = _normalize_position(abbr)
             player = {
                 "id": str(a.get("id", "")),
                 "name": a.get("displayName", a.get("fullName", "")),
@@ -426,8 +467,10 @@ class LiveMatchService:
 
     # ── ESPN fetchers ─────────────────────────────────────────
 
-    def _fetch_scoreboard(self) -> Dict:
+    def _fetch_scoreboard(self, date_str: str = None) -> Dict:
         url = f"{ESPN_BASE}/scoreboard"
+        if date_str:
+            url += f"?dates={date_str}"
         r = requests.get(url, timeout=10)
         r.raise_for_status()
         return r.json()
@@ -581,7 +624,10 @@ class LiveMatchService:
 
         teams_info = {}
         status_info = {}
+        competition_id = ""
         for comp in comps:
+            if not competition_id:
+                competition_id = str(comp.get("id", ""))
             for team in comp.get("competitors", []):
                 side = team.get("homeAway", "unknown")
                 t = team.get("team", {})
@@ -629,6 +675,7 @@ class LiveMatchService:
             "events": events,
             "statistics": stats,
             "lineups": lineups,
+            "competition_id": competition_id,
         }
 
     def _state_name(self, name: str) -> str:
@@ -722,7 +769,7 @@ class LiveMatchService:
                     "name": athlete.get("displayName", athlete.get("fullName", "")),
                     "short_name": athlete.get("shortName", ""),
                     "jersey": str(entry.get("jersey", "")) if entry.get("jersey") else "",
-                    "position": pos.get("abbreviation", ""),
+                    "position": _normalize_position(pos.get("abbreviation", "")),
                     "position_name": pos.get("displayName", pos.get("name", "")),
                     "starter": entry.get("starter", False),
                     "formation_place": entry.get("formationPlace", 0),

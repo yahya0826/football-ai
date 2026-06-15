@@ -141,8 +141,21 @@ export default function SchedulePage() {
 
     async function poll() {
       try {
-        const data = await api.getLiveScoreboard(isPastDate ? espnDate : undefined);
-        if (mounted) setLiveScoreboard(data);
+        // Schedule dates are Beijing time (UTC+8). ESPN uses UTC.
+        // Beijing 00:00-08:00 → previous UTC day; 08:00-24:00 → same UTC day.
+        // Fetch both to cover the full Beijing-day schedule.
+        const [dataPrev, dataToday] = await Promise.all([
+          api.getLiveScoreboard(espnDate),
+          api.getLiveScoreboard(todayDate),
+        ]);
+        if (mounted) {
+          setLiveScoreboard({
+            live: [...dataPrev.live, ...dataToday.live],
+            today: [...dataPrev.today, ...dataToday.today],
+            live_count: dataPrev.live_count + dataToday.live_count,
+            total_today: dataPrev.total_today + dataToday.total_today,
+          });
+        }
       } catch { /* silently fail */ }
     }
     poll();
@@ -565,11 +578,13 @@ function TodayView({
     const displayDates = allDates.slice(Math.max(0, todayIdx - 3), Math.min(allDates.length, todayIdx + 4));
 
     const liveMap = new Map<string, LiveMatchSummary>();
-    if (liveScoreboard && Array.isArray(liveScoreboard.today)) {
-      for (const m of liveScoreboard.today) {
-        const key = `${m.home_team}|${m.away_team}`;
-        liveMap.set(key, m);
-      }
+    const allScoreboardEntries = [
+      ...(liveScoreboard?.live || []),
+      ...(liveScoreboard?.today || []),
+    ];
+    for (const m of allScoreboardEntries) {
+      const key = `${m.home_team}|${m.away_team}`;
+      liveMap.set(key, m);
     }
 
     const getLiveFor = (m: ScheduleMatch): LiveMatchSummary | undefined => {
