@@ -72,10 +72,12 @@ function getFlag(team: string): string {
 }
 
 function formatDate(dateStr: string): string {
-  const d = new Date(dateStr + 'T00:00:00');
-  const month = d.getMonth() + 1;
-  const day = d.getDate();
-  const weekday = WEEKDAYS[d.getDay()];
+  // Parse as UTC noon to avoid local-timezone day-boundary shifts
+  const [y, m, d] = dateStr.split('-').map(Number);
+  const utc = new Date(Date.UTC(y, m - 1, d, 12, 0, 0));
+  const month = utc.getUTCMonth() + 1;
+  const day = utc.getUTCDate();
+  const weekday = WEEKDAYS[utc.getUTCDay()];
   return `${month}月${day}日 ${weekday}`;
 }
 
@@ -100,7 +102,12 @@ export default function SchedulePage() {
 
   // Today view state
   const [viewMode, setViewMode] = useState<'all' | 'today'>('all');
-  const realToday = new Date().toISOString().slice(0, 10);
+  // Beijing time (UTC+8) — ensures "今天" badge is stable across the full Beijing day
+  const realToday = (() => {
+    const now = new Date();
+    const beijing = new Date(now.getTime() + 8 * 3600000);
+    return beijing.toISOString().slice(0, 10);
+  })();
   const [todayDate, setTodayDate] = useState(realToday);
   const [liveScoreboard, setLiveScoreboard] = useState<LiveScoreboardResponse | null>(null);
 
@@ -134,10 +141,13 @@ export default function SchedulePage() {
     if (viewMode !== 'today') return;
     let mounted = true;
     const isPastDate = todayDate < realToday;
-    // ESPN uses UTC dates — matches that start at 03:00 Beijing on D are at 19:00 UTC on D-1
-    const d = new Date(todayDate + 'T00:00:00');
-    d.setDate(d.getDate() - 1);
-    const espnDate = d.toISOString().slice(0, 10);
+    // ESPN uses UTC dates. Beijing time = UTC+8.
+    // Beijing 00:00-08:00 maps to previous UTC day; 08:00-24:00 maps to same UTC day.
+    // Compute previous UTC day safely (avoid local-timezone round-trip):
+    const [y, m, day] = todayDate.split('-').map(Number);
+    const utcNoon = new Date(Date.UTC(y, m - 1, day, 12, 0, 0));
+    utcNoon.setUTCDate(utcNoon.getUTCDate() - 1);
+    const espnDate = utcNoon.toISOString().slice(0, 10);
 
     async function poll() {
       try {
@@ -751,19 +761,26 @@ function TodayView({
 }
 
 function DateNav({ dates, selected, onChange }: { dates: string[]; selected: string; onChange: (d: string) => void }) {
-  const realToday = new Date().toISOString().slice(0, 10);
+  // Beijing date for "今天" badge comparison (dates in schedule are Beijing-time dates)
+  const beijingToday = (() => {
+    const now = new Date();
+    const beijing = new Date(now.getTime() + 8 * 3600000);
+    return beijing.toISOString().slice(0, 10);
+  })();
   return (
     <div style={{
       display: 'flex', gap: '0.35rem', overflowX: 'auto',
       padding: '0.5rem 0 1rem', justifyContent: 'center',
     }}>
       {dates.map(d => {
-        const dateObj = new Date(d + 'T00:00:00');
-        const month = dateObj.getMonth() + 1;
-        const day = dateObj.getDate();
+        // Parse date safely in UTC to avoid timezone shifts
+        const [y, m, day] = d.split('-').map(Number);
+        const utcDate = new Date(Date.UTC(y, m - 1, day, 12, 0, 0));
+        const month = utcDate.getUTCMonth() + 1;
+        const dom = utcDate.getUTCDate();
         const weekdays = ['周日', '周一', '周二', '周三', '周四', '周五', '周六'];
-        const wd = weekdays[dateObj.getDay()];
-        const isToday = d === realToday;
+        const wd = weekdays[utcDate.getUTCDay()];
+        const isToday = d === beijingToday;
         const isSelected = d === selected;
         return (
           <button
@@ -781,7 +798,7 @@ function DateNav({ dates, selected, onChange }: { dates: string[]; selected: str
           >
             <span style={{ fontSize: '10px', opacity: 0.7 }}>{wd}</span>
             <span style={{ fontSize: '1.1rem', fontWeight: 700 }}>
-              {month}/{day}
+              {month}/{dom}
             </span>
             {isToday && (
               <span style={{ fontSize: '9px', color: '#ef4444', fontWeight: 600 }}>今天</span>
