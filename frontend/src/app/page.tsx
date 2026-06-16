@@ -6,6 +6,43 @@ import Link from 'next/link';
 import api, { ScheduleMatch } from '@/lib/api';
 import LiveScoreTicker from '@/components/LiveScoreTicker';
 
+function getTodayDate(): string {
+  return new Date().toLocaleDateString('en-CA', { timeZone: 'Asia/Shanghai' });
+}
+
+function isKnockoutPlaceholder(match: ScheduleMatch): boolean {
+  if (match.stage === 'group') return false;
+  const teams = [match.home_team, match.away_team];
+  return teams.some(team => /\d/.test(team) || team.includes('/'));
+}
+
+function getRecommendedScheduleMatches(matches: ScheduleMatch[]): ScheduleMatch[] {
+  const playableMatches = matches.filter(match => !isKnockoutPlaceholder(match));
+  if (playableMatches.length === 0) return [];
+
+  const dates = [...new Set(playableMatches.map(match => match.date))].sort();
+  const today = getTodayDate();
+  let targetDate = dates.find(date => date >= today) || dates[dates.length - 1];
+
+  if (!dates.includes(today)) {
+    let closest = targetDate;
+    let closestDiff = Math.abs(new Date(`${closest}T00:00:00+08:00`).getTime() - new Date(`${today}T00:00:00+08:00`).getTime());
+    for (const date of dates) {
+      const diff = Math.abs(new Date(`${date}T00:00:00+08:00`).getTime() - new Date(`${today}T00:00:00+08:00`).getTime());
+      if (diff < closestDiff) {
+        closest = date;
+        closestDiff = diff;
+      }
+    }
+    targetDate = closest;
+  }
+
+  return playableMatches
+    .filter(match => match.date === targetDate)
+    .sort((a, b) => a.time_bj.localeCompare(b.time_bj))
+    .slice(0, 5);
+}
+
 function HeroSection() {
   return (
     <section className="relative py-4 md:py-8 overflow-hidden">
@@ -34,12 +71,7 @@ function RecentMatches() {
     async function loadMatches() {
       try {
         const data = await api.getMatchSchedule();
-        const today = '2026-06-14';
-        const completed = data.matches
-          .filter(m => m.home_score != null && m.away_score != null && m.date <= today)
-          .sort((a, b) => b.date.localeCompare(a.date) || b.time_bj.localeCompare(a.time_bj))
-          .slice(0, 5);
-        setMatches(completed);
+        setMatches(getRecommendedScheduleMatches(data.matches));
       } catch (err) {
         console.error('Failed to load matches:', err);
       } finally {

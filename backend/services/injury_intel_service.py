@@ -110,20 +110,14 @@ class InjuryIntelService:
 
         # 检查缓存
         if not force_refresh and date in self._memory_cache:
-            entry = self._memory_cache[date]
-            ttl = self._get_ttl(date)
-            if time.time() - entry.get("_cache_ts", 0) < ttl:
-                return entry
+            return self._memory_cache[date]
 
         if not force_refresh and cache_file.exists():
             try:
                 with open(cache_file, 'r', encoding='utf-8') as f:
                     cached = json.load(f)
-                ttl = self._get_ttl(date)
-                cache_ts = cached.get("_cache_ts", 0)
-                if time.time() - cache_ts < ttl:
-                    self._memory_cache[date] = cached
-                    return cached
+                self._memory_cache[date] = cached
+                return cached
             except Exception:
                 pass
 

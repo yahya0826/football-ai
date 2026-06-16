@@ -81,6 +81,20 @@ function formatDate(dateStr: string): string {
   return `${month}月${day}日 ${weekday}`;
 }
 
+function normalizeTeamName(s: string): string {
+  return s.toLowerCase().replace(/\band\b/, '').replace(/[&\-.]/g, ' ').replace(/\s+/g, ' ').trim();
+}
+
+function getLiveBusinessDate(live: LiveMatchSummary): string {
+  if (live.date_bj) return live.date_bj;
+  if (!live.date) return '';
+  const parsed = new Date(live.date);
+  if (!Number.isNaN(parsed.getTime())) {
+    return new Date(parsed.getTime() + 8 * 3600000).toISOString().slice(0, 10);
+  }
+  return live.date.slice(0, 10);
+}
+
 function isKnockoutPlaceholder(m: ScheduleMatch): boolean {
   if (m.stage === 'group') return false;
   const hasDigit = (s: string) => /\d/.test(s);
@@ -141,37 +155,17 @@ export default function SchedulePage() {
     if (viewMode !== 'today') return;
     let mounted = true;
     const isPastDate = todayDate < realToday;
-    // ESPN uses UTC dates. Beijing time = UTC+8.
-    // Beijing 00:00-08:00 maps to previous UTC day; 08:00-24:00 maps to same UTC day.
-    // Compute previous UTC day safely (avoid local-timezone round-trip):
-    const [y, m, day] = todayDate.split('-').map(Number);
-    const utcNoon = new Date(Date.UTC(y, m - 1, day, 12, 0, 0));
-    utcNoon.setUTCDate(utcNoon.getUTCDate() - 1);
-    const espnDate = utcNoon.toISOString().slice(0, 10);
 
     async function poll() {
       try {
-        // Schedule dates are Beijing time (UTC+8). ESPN uses UTC.
-        // Beijing 00:00-08:00 → previous UTC day; 08:00-24:00 → same UTC day.
-        // Fetch both to cover the full Beijing-day schedule.
-        const [dataPrev, dataToday] = await Promise.all([
-          api.getLiveScoreboard(espnDate),
-          api.getLiveScoreboard(todayDate),
-        ]);
-        if (mounted) {
-          setLiveScoreboard({
-            live: [...dataPrev.live, ...dataToday.live],
-            today: [...dataPrev.today, ...dataToday.today],
-            live_count: dataPrev.live_count + dataToday.live_count,
-            total_today: dataPrev.total_today + dataToday.total_today,
-          });
-        }
+        const data = await api.getLiveScoreboard(todayDate);
+        if (mounted) setLiveScoreboard(data);
       } catch { /* silently fail */ }
     }
     poll();
     // Only poll live for today; past dates fetch once
     if (!isPastDate) {
-      const t = setInterval(poll, 30000);
+      const t = setInterval(poll, 15000);
       return () => { mounted = false; clearInterval(t); };
     }
     return () => { mounted = false; };
@@ -593,16 +587,22 @@ function TodayView({
       ...(liveScoreboard?.today || []),
     ];
     for (const m of allScoreboardEntries) {
+      if (getLiveBusinessDate(m) !== todayDate) continue;
       const key = `${m.home_team}|${m.away_team}`;
+      const existing = liveMap.get(key);
+      if (existing && existing.state !== 'scheduled') continue;
       liveMap.set(key, m);
     }
 
     const getLiveFor = (m: ScheduleMatch): LiveMatchSummary | undefined => {
       for (const [key, live] of liveMap) {
-        const hNorm = (s: string) => s.toLowerCase().replace(/\band\b/, '').replace(/[&\-.]/g, ' ').replace(/\s+/g, ' ').trim();
         const [lh, la] = key.split('|');
-        if (hNorm(m.home_team).includes(hNorm(lh)) || hNorm(lh).includes(hNorm(m.home_team))) {
-          if (hNorm(m.away_team).includes(hNorm(la)) || hNorm(la).includes(hNorm(m.away_team))) {
+        const scheduleHome = normalizeTeamName(m.home_team);
+        const scheduleAway = normalizeTeamName(m.away_team);
+        const liveHome = normalizeTeamName(lh);
+        const liveAway = normalizeTeamName(la);
+        if (scheduleHome.includes(liveHome) || liveHome.includes(scheduleHome)) {
+          if (scheduleAway.includes(liveAway) || liveAway.includes(scheduleAway)) {
             return live;
           }
         }
@@ -641,7 +641,7 @@ function TodayView({
       if (mounted && res.found && res.match_id) setLookedUpEspnId(res.match_id);
     }).catch(() => {});
     return () => { mounted = false; };
-  }, [heroInfo?.heroEspnId, heroInfo?.heroMatch?.match_id, heroInfo?.heroMatch?.home_team, heroInfo?.heroMatch?.away_team]);
+  }, [heroInfo?.heroEspnId, heroInfo?.heroMatch?.match_id, heroInfo?.heroMatch?.home_team, heroInfo?.heroMatch?.away_team, heroInfo?.heroMatch?.date]);
 
   const effectiveEspnId = (heroInfo?.heroEspnId || lookedUpEspnId) as string | undefined;
 
@@ -656,7 +656,7 @@ function TodayView({
       api.getLiveMatchAnalysis(effectiveEspnId).then(data => {
         if (mounted) setHeroAnalysis(data);
       }).catch(() => {});
-    }, 30000);
+    }, 15000);
     return () => { mounted = false; clearInterval(t); };
   }, [effectiveEspnId]);
 
@@ -684,6 +684,8 @@ function TodayView({
   const { dayMatches, allDates, displayDates, heroMatch, heroLive, heroEspnId, liveMap, getLiveFor } = heroInfo;
 
   const timelineMatches = dayMatches.filter(m => m.match_id !== heroMatch.match_id);
+  const formationHomeTeamId = heroLive?.home_team_id || heroAnalysis?.home?.team_id || '';
+  const formationAwayTeamId = heroLive?.away_team_id || heroAnalysis?.away?.team_id || '';
 
   return (
     <div>
@@ -716,10 +718,10 @@ function TodayView({
       )}
 
       {/* Formation View */}
-      {heroLive?.home_team_id && heroLive?.away_team_id && (
+      {formationHomeTeamId && formationAwayTeamId && (
         <FormationView
-          homeTeamId={heroLive.home_team_id}
-          awayTeamId={heroLive.away_team_id}
+          homeTeamId={formationHomeTeamId}
+          awayTeamId={formationAwayTeamId}
           homeName={heroMatch.home_team}
           awayName={heroMatch.away_team}
           homeNameCn={heroMatch.home_team_cn}

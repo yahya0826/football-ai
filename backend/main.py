@@ -14,6 +14,7 @@ if sys.platform == 'win32':
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
 
 import asyncio
+from datetime import datetime, timedelta, timezone
 from contextlib import asynccontextmanager
 from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
@@ -43,6 +44,12 @@ from services.injury_intel_service import injury_intel_service
 from services.daily_summary_service import daily_summary_service
 from services.match_analysis_service import analyze_match
 
+BEIJING_TZ = timezone(timedelta(hours=8))
+
+
+def today_bj() -> str:
+    return datetime.now(BEIJING_TZ).strftime("%Y-%m-%d")
+
 
 # ── 后台情报调度器 ────────────────────────────────────────────
 
@@ -54,7 +61,7 @@ async def intelligence_scheduler():
     last_injury_check = 0
     while True:
         try:
-            now = dt_mod.datetime.now()
+            now = dt_mod.datetime.now(BEIJING_TZ)
             today = now.strftime("%Y-%m-%d")
 
             # 每15分钟检查每日总结
@@ -469,6 +476,7 @@ import json as json_lib
 # Load schedule data at startup
 _schedule_data = None
 HIGHLIGHTS_CACHE_DIR = Path(__file__).parent / "data" / "highlights_cache"
+GENERATED_INTEL_CACHE_DIR = Path(__file__).parent / "data" / "intelligence" / "generated"
 
 def _load_schedule():
     global _schedule_data
@@ -491,6 +499,27 @@ def _save_cached_highlights(match_id: int, highlights: str):
     HIGHLIGHTS_CACHE_DIR.mkdir(parents=True, exist_ok=True)
     cache_path = HIGHLIGHTS_CACHE_DIR / f"{match_id}.txt"
     cache_path.write_text(highlights, encoding="utf-8")
+
+def _cache_key_part(value: str) -> str:
+    key = "".join(ch if ch.isalnum() or ch in "_-" else "_" for ch in str(value))
+    return key.strip("_").lower() or "unknown"
+
+def _load_generated_intel_cache(cache_key: str) -> Optional[Dict]:
+    cache_path = GENERATED_INTEL_CACHE_DIR / f"{cache_key}.json"
+    if cache_path.exists():
+        return json_lib.loads(cache_path.read_text(encoding="utf-8"))
+    return None
+
+def _save_generated_intel_cache(cache_key: str, data: Dict):
+    GENERATED_INTEL_CACHE_DIR.mkdir(parents=True, exist_ok=True)
+    cache_path = GENERATED_INTEL_CACHE_DIR / f"{cache_key}.json"
+    cache_path.write_text(json_lib.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+
+def _get_schedule_match_by_id(match_id: int) -> Optional[Dict]:
+    schedule = _load_schedule()
+    if not schedule:
+        return None
+    return next((m for m in schedule["matches"] if m.get("match_id") == match_id), None)
 
 class ScheduleMatchDetail(BaseModel):
     """赛程比赛详情模型"""
@@ -700,6 +729,7 @@ async def get_match_highlights(match_id: int, request: MatchHighlightsRequest):
         # Fallback
         if not ai_highlights:
             ai_highlights = _generate_fallback_highlights(home_cn, away_cn, h2h_data, home_recent, away_recent)
+            _save_cached_highlights(match_id, ai_highlights)
 
     return {
         "match_id": match_id,
@@ -926,7 +956,12 @@ def _generate_fallback_highlights(home_cn: str, away_cn: str, h2h: Optional[Dict
 async def get_live_scoreboard(date: str = None):
     """获取实时比分板 — 进行中 + 指定日期比赛"""
     try:
-        live = live_match_service.get_live_matches()
+        today_str = today_bj()
+        # Skip live matches query for past dates — no live matches possible
+        if date and date < today_str:
+            live = []
+        else:
+            live = live_match_service.get_live_matches()
         today = live_match_service.get_today_matches(date)
         return {
             "live": live,
@@ -1174,9 +1209,10 @@ async def get_prematch_preview(request: CommentaryPreviewRequest):
     try:
         home_elo = prediction_service.get_elo(request.home_team)
         away_elo = prediction_service.get_elo(request.away_team)
+        preview_key = f"preview_{_cache_key_part(request.home_team)}_vs_{_cache_key_part(request.away_team)}"
 
         preview = commentary_service.generate_prematch_preview(
-            request.home_team, request.away_team, home_elo, away_elo, [], []
+            request.home_team, request.away_team, home_elo, away_elo, [], [], match_id=preview_key
         )
 
         return {
@@ -1205,9 +1241,16 @@ async def get_daily_summary(date: str = None):
 async def get_intel_card_by_teams(home_team: str, away_team: str):
     """根据队名获取哨前情报卡（含战术分析）"""
     try:
+        cache_key = f"intel_card_{_cache_key_part(home_team)}_vs_{_cache_key_part(away_team)}"
+        cached = _load_generated_intel_cache(cache_key)
+        if cached:
+            return cached
+
         home_elo = prediction_service.get_elo(home_team)
         away_elo = prediction_service.get_elo(away_team)
         card = intelligence_service.build_intel_card(home_team, away_team, home_elo, away_elo)
+        card["generated_at"] = datetime.now(BEIJING_TZ).isoformat()
+        _save_generated_intel_cache(cache_key, card)
         return card
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
@@ -1216,14 +1259,27 @@ async def get_intel_card_by_teams(home_team: str, away_team: str):
 async def get_intel_card(match_id: int):
     """根据比赛ID获取哨前情报卡（含战术分析）"""
     try:
-        match_detail = await get_match_detail(match_id)
-        stats = match_detail["stats"]
-        home = stats["home_team"]
-        away = stats["away_team"]
+        cache_key = f"intel_card_match_{match_id}"
+        cached = _load_generated_intel_cache(cache_key)
+        if cached:
+            return cached
+
+        schedule_match = _get_schedule_match_by_id(match_id)
+        if schedule_match:
+            home = schedule_match["home_team"]
+            away = schedule_match["away_team"]
+        else:
+            match_detail = await get_match_detail(match_id)
+            stats = match_detail["stats"]
+            home = stats["home_team"]
+            away = stats["away_team"]
         home_elo = prediction_service.get_elo(home)
         away_elo = prediction_service.get_elo(away)
         card = intelligence_service.build_intel_card(home, away, home_elo, away_elo)
         card["match_id"] = match_id
+        card["match"] = schedule_match
+        card["generated_at"] = datetime.now(BEIJING_TZ).isoformat()
+        _save_generated_intel_cache(cache_key, card)
         return card
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
@@ -1241,12 +1297,38 @@ async def get_injury_intel(date: str = None, force_refresh: bool = False):
 async def get_review(match_id: int):
     """获取哨后复盘"""
     try:
-        match_detail = await get_match_detail(match_id)
-        stats = match_detail["stats"]
-        home = stats["home_team"]
-        away = stats["away_team"]
-        home_score = stats["home_score"]
-        away_score = stats["away_score"]
+        cache_key = f"review_match_{match_id}"
+        cached = _load_generated_intel_cache(cache_key)
+        if cached:
+            return cached
+
+        schedule_match = _get_schedule_match_by_id(match_id)
+        if schedule_match:
+            home = schedule_match["home_team"]
+            away = schedule_match["away_team"]
+            espn_id = live_match_service.find_match_by_teams(home, away, schedule_match.get("date"))
+            live_detail = live_match_service.get_match_detail(espn_id) if espn_id else None
+            if not live_detail:
+                raise HTTPException(status_code=404, detail="ESPN match detail not available for this scheduled match")
+            status = live_detail.get("status", {})
+            if status.get("state") != "finished" and not status.get("completed"):
+                return {
+                    "match_id": match_id,
+                    "home_team": home,
+                    "away_team": away,
+                    "status": "not_ready",
+                    "message": "Match review is available after ESPN marks the match as finished",
+                    "espn_match_id": espn_id,
+                }
+            home_score = int(live_detail.get("home", {}).get("score", 0) or 0)
+            away_score = int(live_detail.get("away", {}).get("score", 0) or 0)
+        else:
+            match_detail = await get_match_detail(match_id)
+            stats = match_detail["stats"]
+            home = stats["home_team"]
+            away = stats["away_team"]
+            home_score = stats["home_score"]
+            away_score = stats["away_score"]
 
         # Basic prediction accuracy assessment
         predicted_home_win = home_score > away_score
@@ -1293,7 +1375,12 @@ async def get_review(match_id: int):
             ],
             "disclaimer": "哨后复盘基于赛后数据和公开信息自动生成，仅供分析参考"
         }
+        review["match"] = schedule_match
+        review["generated_at"] = datetime.now(BEIJING_TZ).isoformat()
+        _save_generated_intel_cache(cache_key, review)
         return review
+    except HTTPException:
+        raise
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 

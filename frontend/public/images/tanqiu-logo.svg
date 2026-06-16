@@ -1,0 +1,56 @@
+<svg width="610" height="220" viewBox="0 0 610 220" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">探球 Logo</title>
+  <desc id="desc">A modern football AI intelligence logo combining a football, radar scan, and data nodes.</desc>
+  <defs>
+    <linearGradient id="markGradient" x1="38" y1="28" x2="184" y2="188" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#34D399"/>
+      <stop offset="0.52" stop-color="#10B981"/>
+      <stop offset="1" stop-color="#818CF8"/>
+    </linearGradient>
+    <linearGradient id="textGradient" x1="234" y1="58" x2="445" y2="158" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ECFDF5"/>
+      <stop offset="0.48" stop-color="#A7F3D0"/>
+      <stop offset="1" stop-color="#C7D2FE"/>
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="80" y1="72" x2="158" y2="148" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FBBF24"/>
+      <stop offset="1" stop-color="#F59E0B"/>
+    </linearGradient>
+    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.0627 0 0 0 0 0.7255 0 0 0 0 0.5059 0 0 0 0.45 0"/>
+      <feBlend in2="SourceGraphic" mode="screen"/>
+    </filter>
+    <clipPath id="ballClip">
+      <circle cx="112" cy="110" r="54"/>
+    </clipPath>
+  </defs>
+
+  <g filter="url(#softGlow)">
+    <path d="M112 22L188.21 66V154L112 198L35.79 154V66L112 22Z" fill="#0F172A" stroke="url(#markGradient)" stroke-width="5"/>
+    <path d="M112 38C151.76 38 184 70.24 184 110C184 149.76 151.76 182 112 182C72.24 182 40 149.76 40 110C40 70.24 72.24 38 112 38Z" fill="rgba(16,185,129,0.10)" stroke="rgba(167,243,208,0.35)" stroke-width="2"/>
+    <path d="M57 110C57 79.62 81.62 55 112 55C142.38 55 167 79.62 167 110" stroke="rgba(129,140,248,0.42)" stroke-width="3" stroke-linecap="round" stroke-dasharray="9 11"/>
+    <path d="M112 165C81.62 165 57 140.38 57 110" stroke="rgba(16,185,129,0.52)" stroke-width="3" stroke-linecap="round" stroke-dasharray="9 11"/>
+    <path d="M112 58C140.72 58 164 81.28 164 110C164 138.72 140.72 162 112 162C83.28 162 60 138.72 60 110C60 81.28 83.28 58 112 58Z" fill="#061B16" stroke="rgba(236,253,245,0.72)" stroke-width="3"/>
+
+    <g clip-path="url(#ballClip)">
+      <circle cx="112" cy="110" r="54" fill="url(#markGradient)" fill-opacity="0.92"/>
+      <path d="M112 82L139 101.5L128.7 133H95.3L85 101.5L112 82Z" fill="#07111F" fill-opacity="0.82" stroke="rgba(236,253,245,0.86)" stroke-width="2"/>
+      <path d="M112 82V56M139 101.5L164 93M128.7 133L144 156M95.3 133L80 156M85 101.5L60 93" stroke="rgba(236,253,245,0.75)" stroke-width="3" stroke-linecap="round"/>
+      <path d="M80 66L112 82L144 66M64 123L85 101.5M160 123L139 101.5M92 166L95.3 133M132 166L128.7 133" stroke="#07111F" stroke-opacity="0.56" stroke-width="4" stroke-linecap="round"/>
+      <path d="M70 78C94 54 132 52 157 77" stroke="rgba(255,255,255,0.22)" stroke-width="6" stroke-linecap="round"/>
+    </g>
+
+    <path d="M69 151C95 126 124 103 162 78" stroke="url(#accentGradient)" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="162" cy="78" r="6" fill="#FBBF24"/>
+    <circle cx="69" cy="151" r="5" fill="#FBBF24"/>
+    <circle cx="145" cy="54" r="4" fill="#A7F3D0"/>
+    <circle cx="53" cy="88" r="4" fill="#C7D2FE"/>
+  </g>
+
+  <g>
+    <text x="232" y="124" fill="url(#textGradient)" font-family="'PingFang SC','Microsoft YaHei','Noto Sans SC',Arial,sans-serif" font-size="72" font-weight="900" letter-spacing="2">探球</text>
+    <path d="M236 148H433" stroke="url(#markGradient)" stroke-width="4" stroke-linecap="round"/>
+    <text x="236" y="181" fill="#B0B7C3" font-family="Inter, 'Segoe UI', Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="4.2">FOOTBALL AI INTELLIGENCE</text>
+  </g>
+</svg>

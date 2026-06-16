@@ -3,6 +3,8 @@
 生成结构化日报 + AI自然语言摘要（可选DeepSeek）
 """
 import os
+import json
+from pathlib import Path
 from typing import Dict, List, Optional
 from datetime import datetime
 from openai import OpenAI
@@ -11,6 +13,9 @@ from .intelligence_data_service import intelligence_data_service
 from .sentiment_service import sentiment_service
 from .tactics_service import tactics_service
 from .knowledge_service import knowledge_service
+
+BASE_DIR = Path(__file__).parent.parent
+CACHE_DIR = BASE_DIR / "data" / "intelligence" / "daily_reports"
 
 
 class DailyReportService:
@@ -24,6 +29,7 @@ class DailyReportService:
         self.model = os.environ.get("AI_MODEL", "deepseek-chat")
         self.data = intelligence_data_service
         self.sentiment = sentiment_service
+        CACHE_DIR.mkdir(parents=True, exist_ok=True)
 
     def generate(self, date: Optional[str] = None, use_ai: bool = True) -> Dict:
         """生成完整的哨前日报"""
@@ -76,19 +82,25 @@ class DailyReportService:
             "disclaimer": "哨前日报提供赛前信息汇总与赛事分析，不构成任何投注建议"
         }
 
-        # AI摘要（可选）
-        if use_ai and self.client and matches:
-            try:
-                report["summary"] = self._generate_ai_summary(matches)
-            except Exception as e:
+        # AI摘要：先查缓存，未命中再调 DeepSeek
+        if use_ai and matches:
+            cached_summary = self._load_cached_summary(date)
+            if cached_summary:
+                report["summary"] = cached_summary
+            elif self.client:
+                try:
+                    report["summary"] = self._generate_ai_summary(matches, date)
+                except Exception:
+                    report["summary"] = self._generate_fallback_summary(matches)
+            else:
                 report["summary"] = self._generate_fallback_summary(matches)
         else:
             report["summary"] = self._generate_fallback_summary(matches)
 
         return report
 
-    def _generate_ai_summary(self, matches: List[Dict]) -> str:
-        """使用AI生成日报摘要"""
+    def _generate_ai_summary(self, matches: List[Dict], date: str) -> str:
+        """使用AI生成日报摘要，结果持久化到磁盘"""
         match_lines = []
         for m in matches[:5]:
             match_lines.append(f"- {m['home_team']} vs {m['away_team']} ({m.get('venue', '')})")
@@ -115,7 +127,34 @@ class DailyReportService:
             max_tokens=300
         )
 
-        return response.choices[0].message.content.strip()
+        summary = response.choices[0].message.content.strip()
+        self._save_cached_summary(date, summary)
+        return summary
+
+    def _cache_path(self, date: str) -> Path:
+        return CACHE_DIR / f"{date}.json"
+
+    def _load_cached_summary(self, date: str) -> Optional[str]:
+        path = self._cache_path(date)
+        if not path.exists():
+            return None
+        try:
+            data = json.loads(path.read_text(encoding="utf-8"))
+            # Refresh if match day hasn't happened yet (allow regeneration)
+            return data.get("summary")
+        except Exception:
+            return None
+
+    def _save_cached_summary(self, date: str, summary: str):
+        path = self._cache_path(date)
+        try:
+            path.write_text(json.dumps({
+                "date": date,
+                "summary": summary,
+                "generated_at": datetime.now().isoformat(),
+            }, ensure_ascii=False, indent=2), encoding="utf-8")
+        except Exception:
+            pass
 
     def _build_tactical_spotlight(self, matches: List[Dict]) -> List[str]:
         """构建战术聚焦突出"""

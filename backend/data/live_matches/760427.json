@@ -1,0 +1,1124 @@
+{
+  "match_id": "760427",
+  "date": "2026-06-16",
+  "status": {
+    "state": "finished",
+    "detail": "FT",
+    "period": 0,
+    "clock": "",
+    "completed": true,
+    "state_cn": "已结束"
+  },
+  "home": {
+    "name": "Iran",
+    "abbrev": "IRN",
+    "logo": "",
+    "score": 2,
+    "team_id": "469",
+    "name_cn": "伊朗"
+  },
+  "away": {
+    "name": "New Zealand",
+    "abbrev": "NZL",
+    "logo": "",
+    "score": 2,
+    "team_id": "2666",
+    "name_cn": "新西兰"
+  },
+  "events": [
+    {
+      "type": "kickoff",
+      "minute": "",
+      "team": "",
+      "player": "",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "First Half begins.",
+      "type_cn": "开球",
+      "team_cn": "",
+      "description_cn": "比赛开始！"
+    },
+    {
+      "type": "goal",
+      "minute": "32'",
+      "team": "Iran",
+      "player": "Ramin Rezaeian Goal",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Goal! IR Iran 1, New Zealand 1. Ramin Rezaeian (IR Iran) right footed shot from the centre of the box to the bottom left corner.",
+      "type_cn": "进球",
+      "team_cn": "伊朗",
+      "description_cn": "32'' Ramin Rezaeian Goal 为伊朗进球！"
+    },
+    {
+      "type": "halftime",
+      "minute": "45'+7'",
+      "team": "",
+      "player": "",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "First Half ends, IR Iran 1, New Zealand 1.",
+      "type_cn": "中场休息",
+      "team_cn": "",
+      "description_cn": "中场休息 ⏸️"
+    },
+    {
+      "type": "substitution",
+      "minute": "45'",
+      "team": "Iran",
+      "player": "Mehdi Ghayedi Substitution",
+      "player_in": "Mehdi Ghayedi",
+      "player_out": "Arya Yousefi",
+      "assist": "",
+      "text": "Substitution, IR Iran. Mehdi Ghayedi replaces Arya Yousefi.",
+      "type_cn": "换人",
+      "team_cn": "伊朗",
+      "description_cn": "45'' Mehdi Ghayedi ↑ 替补登场，Arya Yousefi ↓ 被换下"
+    },
+    {
+      "type": "halftime",
+      "minute": "45'",
+      "team": "",
+      "player": "",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "",
+      "type_cn": "中场休息",
+      "team_cn": "",
+      "description_cn": "上半场结束 ⏸️"
+    },
+    {
+      "type": "substitution",
+      "minute": "53'",
+      "team": "Iran",
+      "player": "Ali Alipour Substitution",
+      "player_in": "Ali Alipour",
+      "player_out": "Shahriyar Moghanloo",
+      "assist": "",
+      "text": "Substitution, IR Iran. Ali Alipour replaces Shahriyar Moghanloo.",
+      "type_cn": "换人",
+      "team_cn": "伊朗",
+      "description_cn": "53'' Ali Alipour ↑ 替补登场，Shahriyar Moghanloo ↓ 被换下"
+    },
+    {
+      "type": "goal",
+      "minute": "54'",
+      "team": "New Zealand",
+      "player": "Elijah Just Goal",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Goal! IR Iran 1, New Zealand 2. Elijah Just (New Zealand) right footed shot from the right side of the box to the centre of the goal. Assisted by Chris Wood following a fast break.",
+      "type_cn": "进球",
+      "team_cn": "新西兰",
+      "description_cn": "54'' Elijah Just Goal 为新西兰进球！"
+    },
+    {
+      "type": "goal",
+      "minute": "64'",
+      "team": "Iran",
+      "player": "Mohammad Mohebbi Goal - Header",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Goal! IR Iran 2, New Zealand 2. Mohammad Mohebbi (IR Iran) header from the centre of the box to the bottom left corner. Assisted by Ramin Rezaeian with a cross.",
+      "type_cn": "进球",
+      "team_cn": "伊朗",
+      "description_cn": "64'' Mohammad Mohebbi Goal - Header 为伊朗进球！"
+    },
+    {
+      "type": "substitution",
+      "minute": "65'",
+      "team": "Iran",
+      "player": "Ehsan Hajsafi Substitution",
+      "player_in": "Ehsan Hajsafi",
+      "player_out": "Saman Ghoddos",
+      "assist": "",
+      "text": "Substitution, IR Iran. Ehsan Hajisafi replaces Saman Ghoddos.",
+      "type_cn": "换人",
+      "team_cn": "伊朗",
+      "description_cn": "65'' Ehsan Hajsafi ↑ 替补登场，Saman Ghoddos ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "68'",
+      "team": "New Zealand",
+      "player": "Ryan Thomas Substitution",
+      "player_in": "Ryan Thomas",
+      "player_out": "Callum McCowatt",
+      "assist": "",
+      "text": "Substitution, New Zealand. Ryan Thomas replaces Callum McCowatt.",
+      "type_cn": "换人",
+      "team_cn": "新西兰",
+      "description_cn": "68'' Ryan Thomas ↑ 替补登场，Callum McCowatt ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "68'",
+      "team": "New Zealand",
+      "player": "Ben Old Substitution",
+      "player_in": "Ben Old",
+      "player_out": "Liberato Cacace",
+      "assist": "",
+      "text": "Substitution, New Zealand. Ben Old replaces Liberato Cacace.",
+      "type_cn": "换人",
+      "team_cn": "新西兰",
+      "description_cn": "68'' Ben Old ↑ 替补登场，Liberato Cacace ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "78'",
+      "team": "New Zealand",
+      "player": "Callan Elliot Substitution",
+      "player_in": "Callan Elliot",
+      "player_out": "Tim Payne",
+      "assist": "",
+      "text": "Substitution, New Zealand. Callan Elliot replaces Tim Payne.",
+      "type_cn": "换人",
+      "team_cn": "新西兰",
+      "description_cn": "78'' Callan Elliot ↑ 替补登场，Tim Payne ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "80'",
+      "team": "Iran",
+      "player": "Amirhossein Hosseinzadeh Substit",
+      "player_in": "Amirhossein Hosseinzadeh",
+      "player_out": "Mehdi Taremi",
+      "assist": "",
+      "text": "Substitution, IR Iran. Amirhossein Hosseinzadeh replaces Mehdi Taremi.",
+      "type_cn": "换人",
+      "team_cn": "伊朗",
+      "description_cn": "80'' Amirhossein Hosseinzadeh ↑ 替补登场，Mehdi Taremi ↓ 被换下"
+    },
+    {
+      "type": "yellow_card",
+      "minute": "89'",
+      "team": "Iran",
+      "player": "Ehsan Hajsafi Yellow Card",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Ehsan Hajisafi (IR Iran) is shown the yellow card for a bad foul.",
+      "type_cn": "黄牌",
+      "team_cn": "伊朗",
+      "description_cn": "89'' Ehsan Hajsafi Yellow Card（伊朗）吃到黄牌 🟨"
+    },
+    {
+      "type": "substitution",
+      "minute": "90'+2'",
+      "team": "New Zealand",
+      "player": "Jesse Randall Substitution",
+      "player_in": "Jesse Randall",
+      "player_out": "Sarpreet Singh",
+      "assist": "",
+      "text": "Substitution, New Zealand. Jesse Randall replaces Sarpreet Singh.",
+      "type_cn": "换人",
+      "team_cn": "新西兰",
+      "description_cn": "90'+2'' Jesse Randall ↑ 替补登场，Sarpreet Singh ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "90'+2'",
+      "team": "New Zealand",
+      "player": "Tyler Bindon Substitution",
+      "player_in": "Tyler Bindon",
+      "player_out": "Marko Stamenic",
+      "assist": "",
+      "text": "Substitution, New Zealand. Tyler Bindon replaces Marko Stamenic.",
+      "type_cn": "换人",
+      "team_cn": "新西兰",
+      "description_cn": "90'+2'' Tyler Bindon ↑ 替补登场，Marko Stamenic ↓ 被换下"
+    },
+    {
+      "type": "83",
+      "minute": "90'+6'",
+      "team": "",
+      "player": "",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "",
+      "type_cn": "83",
+      "team_cn": "",
+      "description_cn": ""
+    }
+  ],
+  "statistics": {
+    "home": {
+      "team_name": "Iran",
+      "stats": {
+        "foulsCommitted": {
+          "label": "Fouls",
+          "value": "10",
+          "label_cn": "犯规"
+        },
+        "yellowCards": {
+          "label": "Yellow Cards",
+          "value": "1",
+          "label_cn": "黄牌"
+        },
+        "redCards": {
+          "label": "Red Cards",
+          "value": "0",
+          "label_cn": "红牌"
+        },
+        "offsides": {
+          "label": "Offsides",
+          "value": "2",
+          "label_cn": "越位"
+        },
+        "wonCorners": {
+          "label": "Corner Kicks",
+          "value": "4",
+          "label_cn": "角球"
+        },
+        "saves": {
+          "label": "Saves",
+          "value": "6",
+          "label_cn": "扑救"
+        },
+        "possessionPct": {
+          "label": "Possession",
+          "value": "48.5",
+          "label_cn": "控球率"
+        },
+        "totalShots": {
+          "label": "SHOTS",
+          "value": "17",
+          "label_cn": "总射门"
+        },
+        "shotsOnTarget": {
+          "label": "ON GOAL",
+          "value": "4",
+          "label_cn": "射正"
+        },
+        "shotPct": {
+          "label": "On Target %",
+          "value": "0.2",
+          "label_cn": "射正率"
+        },
+        "penaltyKickGoals": {
+          "label": "Penalty Goals",
+          "value": "0",
+          "label_cn": "点球进球"
+        },
+        "penaltyKickShots": {
+          "label": "Penalty Kicks Taken",
+          "value": "0",
+          "label_cn": "点球次数"
+        },
+        "accuratePasses": {
+          "label": "Accurate Passes",
+          "value": "314",
+          "label_cn": "精准传球"
+        },
+        "totalPasses": {
+          "label": "Passes",
+          "value": "409",
+          "label_cn": "传球"
+        },
+        "passPct": {
+          "label": "Pass Completion %",
+          "value": "0.8",
+          "label_cn": "传球成功率"
+        },
+        "accurateCrosses": {
+          "label": "Accurate Crosses",
+          "value": "6",
+          "label_cn": "精准传中"
+        },
+        "totalCrosses": {
+          "label": "Crosses",
+          "value": "19",
+          "label_cn": "传中"
+        },
+        "crossPct": {
+          "label": "Cross %",
+          "value": "0.3",
+          "label_cn": "传中成功率"
+        },
+        "totalLongBalls": {
+          "label": "Long Balls",
+          "value": "61",
+          "label_cn": "长传"
+        },
+        "accurateLongBalls": {
+          "label": "Accurate Long Balls",
+          "value": "27",
+          "label_cn": "精准长传"
+        },
+        "longballPct": {
+          "label": "Long Balls %",
+          "value": "0.4",
+          "label_cn": "长传成功率"
+        },
+        "blockedShots": {
+          "label": "Blocked Shots",
+          "value": "5",
+          "label_cn": "封堵射门"
+        },
+        "effectiveTackles": {
+          "label": "Effective Tackles",
+          "value": "10",
+          "label_cn": "有效抢断"
+        },
+        "totalTackles": {
+          "label": "Tackles",
+          "value": "17",
+          "label_cn": "抢断"
+        },
+        "tacklePct": {
+          "label": "Tackle %",
+          "value": "0.6",
+          "label_cn": "抢断成功率"
+        },
+        "interceptions": {
+          "label": "Interceptions",
+          "value": "11",
+          "label_cn": "拦截"
+        },
+        "effectiveClearance": {
+          "label": "Effective Clearances",
+          "value": "27",
+          "label_cn": "有效解围"
+        },
+        "totalClearance": {
+          "label": "Clearances",
+          "value": "27",
+          "label_cn": "解围"
+        }
+      },
+      "team_name_cn": "伊朗"
+    },
+    "away": {
+      "team_name": "New Zealand",
+      "stats": {
+        "foulsCommitted": {
+          "label": "Fouls",
+          "value": "8",
+          "label_cn": "犯规"
+        },
+        "yellowCards": {
+          "label": "Yellow Cards",
+          "value": "0",
+          "label_cn": "黄牌"
+        },
+        "redCards": {
+          "label": "Red Cards",
+          "value": "0",
+          "label_cn": "红牌"
+        },
+        "offsides": {
+          "label": "Offsides",
+          "value": "0",
+          "label_cn": "越位"
+        },
+        "wonCorners": {
+          "label": "Corner Kicks",
+          "value": "1",
+          "label_cn": "角球"
+        },
+        "saves": {
+          "label": "Saves",
+          "value": "2",
+          "label_cn": "扑救"
+        },
+        "possessionPct": {
+          "label": "Possession",
+          "value": "51.5",
+          "label_cn": "控球率"
+        },
+        "totalShots": {
+          "label": "SHOTS",
+          "value": "14",
+          "label_cn": "总射门"
+        },
+        "shotsOnTarget": {
+          "label": "ON GOAL",
+          "value": "8",
+          "label_cn": "射正"
+        },
+        "shotPct": {
+          "label": "On Target %",
+          "value": "0.6",
+          "label_cn": "射正率"
+        },
+        "penaltyKickGoals": {
+          "label": "Penalty Goals",
+          "value": "0",
+          "label_cn": "点球进球"
+        },
+        "penaltyKickShots": {
+          "label": "Penalty Kicks Taken",
+          "value": "0",
+          "label_cn": "点球次数"
+        },
+        "accuratePasses": {
+          "label": "Accurate Passes",
+          "value": "376",
+          "label_cn": "精准传球"
+        },
+        "totalPasses": {
+          "label": "Passes",
+          "value": "446",
+          "label_cn": "传球"
+        },
+        "passPct": {
+          "label": "Pass Completion %",
+          "value": "0.8",
+          "label_cn": "传球成功率"
+        },
+        "accurateCrosses": {
+          "label": "Accurate Crosses",
+          "value": "1",
+          "label_cn": "精准传中"
+        },
+        "totalCrosses": {
+          "label": "Crosses",
+          "value": "12",
+          "label_cn": "传中"
+        },
+        "crossPct": {
+          "label": "Cross %",
+          "value": "0.1",
+          "label_cn": "传中成功率"
+        },
+        "totalLongBalls": {
+          "label": "Long Balls",
+          "value": "40",
+          "label_cn": "长传"
+        },
+        "accurateLongBalls": {
+          "label": "Accurate Long Balls",
+          "value": "21",
+          "label_cn": "精准长传"
+        },
+        "longballPct": {
+          "label": "Long Balls %",
+          "value": "0.5",
+          "label_cn": "长传成功率"
+        },
+        "blockedShots": {
+          "label": "Blocked Shots",
+          "value": "2",
+          "label_cn": "封堵射门"
+        },
+        "effectiveTackles": {
+          "label": "Effective Tackles",
+          "value": "10",
+          "label_cn": "有效抢断"
+        },
+        "totalTackles": {
+          "label": "Tackles",
+          "value": "13",
+          "label_cn": "抢断"
+        },
+        "tacklePct": {
+          "label": "Tackle %",
+          "value": "0.8",
+          "label_cn": "抢断成功率"
+        },
+        "interceptions": {
+          "label": "Interceptions",
+          "value": "15",
+          "label_cn": "拦截"
+        },
+        "effectiveClearance": {
+          "label": "Effective Clearances",
+          "value": "26",
+          "label_cn": "有效解围"
+        },
+        "totalClearance": {
+          "label": "Clearances",
+          "value": "26",
+          "label_cn": "解围"
+        }
+      },
+      "team_name_cn": "新西兰"
+    }
+  },
+  "lineups": {
+    "home": {
+      "formation": "4-4-2",
+      "starters": [
+        {
+          "id": "214798",
+          "name": "Alireza Beiranvand",
+          "short_name": "A. Beiranvand",
+          "jersey": "1",
+          "position": "G",
+          "position_name": "Goalkeeper",
+          "starter": true,
+          "formation_place": "1",
+          "active": true
+        },
+        {
+          "id": "308077",
+          "name": "Shahriyar Moghanloo",
+          "short_name": "S. Moghanloo",
+          "jersey": "20",
+          "position": "F",
+          "position_name": "Center Right Forward",
+          "starter": true,
+          "formation_place": "10",
+          "active": true
+        },
+        {
+          "id": "339178",
+          "name": "Arya Yousefi",
+          "short_name": "A. Yousefi",
+          "jersey": "17",
+          "position": "M",
+          "position_name": "Left Midfielder",
+          "starter": true,
+          "formation_place": "11",
+          "active": true
+        },
+        {
+          "id": "218086",
+          "name": "Ramin Rezaeian",
+          "short_name": "R. Rezaeian",
+          "jersey": "23",
+          "position": "D",
+          "position_name": "Right Back",
+          "starter": true,
+          "formation_place": "2",
+          "active": true
+        },
+        {
+          "id": "226302",
+          "name": "Milad Mohammadi",
+          "short_name": "M. Mohammadi",
+          "jersey": "5",
+          "position": "D",
+          "position_name": "Left Back",
+          "starter": true,
+          "formation_place": "3",
+          "active": true
+        },
+        {
+          "id": "235519",
+          "name": "Saman Ghoddos",
+          "short_name": "S. Ghoddos",
+          "jersey": "14",
+          "position": "M",
+          "position_name": "Center Right Midfielder",
+          "starter": true,
+          "formation_place": "4",
+          "active": true
+        },
+        {
+          "id": "180674",
+          "name": "Shoja Khalilzadeh",
+          "short_name": "S. Khalilzadeh",
+          "jersey": "4",
+          "position": "D",
+          "position_name": "Center Right Defender",
+          "starter": true,
+          "formation_place": "5",
+          "active": true
+        },
+        {
+          "id": "302404",
+          "name": "Ali Nemati",
+          "short_name": "A. Nemati",
+          "jersey": "19",
+          "position": "D",
+          "position_name": "Center Left Defender",
+          "starter": true,
+          "formation_place": "6",
+          "active": true
+        },
+        {
+          "id": "296999",
+          "name": "Mohammad Mohebbi",
+          "short_name": "M. Mohebbi",
+          "jersey": "8",
+          "position": "M",
+          "position_name": "Right Midfielder",
+          "starter": true,
+          "formation_place": "7",
+          "active": true
+        },
+        {
+          "id": "194863",
+          "name": "Saeid Ezatolahi",
+          "short_name": "S. Ezatolahi",
+          "jersey": "6",
+          "position": "M",
+          "position_name": "Center Left Midfielder",
+          "starter": true,
+          "formation_place": "8",
+          "active": true
+        },
+        {
+          "id": "219611",
+          "name": "Mehdi Taremi",
+          "short_name": "M. Taremi",
+          "jersey": "9",
+          "position": "F",
+          "position_name": "Center Left Forward",
+          "starter": true,
+          "formation_place": "9",
+          "active": true
+        }
+      ],
+      "substitutes": [
+        {
+          "id": "256581",
+          "name": "Mehdi Ghayedi",
+          "short_name": "M. Ghayedi",
+          "jersey": "10",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "219617",
+          "name": "Ali Alipour",
+          "short_name": "A. Alipour",
+          "jersey": "11",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "185648",
+          "name": "Hossein Hosseini",
+          "short_name": "H. Hosseini",
+          "jersey": "22",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "253376",
+          "name": "Roozbeh Cheshmi",
+          "short_name": "R. Cheshmi",
+          "jersey": "15",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "188055",
+          "name": "Alireza Jahanbakhsh",
+          "short_name": "A. Jahanbakhsh",
+          "jersey": "7",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "372049",
+          "name": "Amirmohammad Razzaghinia",
+          "short_name": "A. Razzaghinia",
+          "jersey": "26",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "317748",
+          "name": "Saleh Hardani",
+          "short_name": "S. Hardani",
+          "jersey": "2",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "203453",
+          "name": "Ehsan Hajsafi",
+          "short_name": "E. Hajsafi",
+          "jersey": "3",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "284219",
+          "name": "Payam Niazmand",
+          "short_name": "P. Niazmand",
+          "jersey": "12",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "272489",
+          "name": "Dennis Dargahi",
+          "short_name": "D. Dargahi",
+          "jersey": "24",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "266729",
+          "name": "Amirhossein Hosseinzadeh",
+          "short_name": "A. Hosseinzadeh",
+          "jersey": "18",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "226301",
+          "name": "Mehdi Torabi",
+          "short_name": "M. Torabi",
+          "jersey": "16",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "243943",
+          "name": "Hossein Kanani",
+          "short_name": "H. Kanani",
+          "jersey": "13",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "401990",
+          "name": "Danial Iri",
+          "short_name": "D. Iri",
+          "jersey": "25",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "355158",
+          "name": "Mohammad Ghorbani",
+          "short_name": "M. Ghorbani",
+          "jersey": "21",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "starters": [
+        {
+          "id": "168747",
+          "name": "Max Crocombe",
+          "short_name": "M. Crocombe",
+          "jersey": "1",
+          "position": "G",
+          "position_name": "Goalkeeper",
+          "starter": true,
+          "formation_place": "1",
+          "active": true
+        },
+        {
+          "id": "228283",
+          "name": "Sarpreet Singh",
+          "short_name": "S. Singh",
+          "jersey": "10",
+          "position": "M",
+          "position_name": "Attacking Midfielder",
+          "starter": true,
+          "formation_place": "10",
+          "active": true
+        },
+        {
+          "id": "266555",
+          "name": "Elijah Just",
+          "short_name": "E. Just",
+          "jersey": "11",
+          "position": "M",
+          "position_name": "Attacking Midfielder Left",
+          "starter": true,
+          "formation_place": "11",
+          "active": true
+        },
+        {
+          "id": "159470",
+          "name": "Tim Payne",
+          "short_name": "T. Payne",
+          "jersey": "2",
+          "position": "D",
+          "position_name": "Right Back",
+          "starter": true,
+          "formation_place": "2",
+          "active": true
+        },
+        {
+          "id": "266554",
+          "name": "Liberato Cacace",
+          "short_name": "L. Cacace",
+          "jersey": "13",
+          "position": "D",
+          "position_name": "Left Back",
+          "starter": true,
+          "formation_place": "3",
+          "active": true
+        },
+        {
+          "id": "297798",
+          "name": "Marko Stamenic",
+          "short_name": "M. Stamenic",
+          "jersey": "8",
+          "position": "M",
+          "position_name": "Left Midfielder",
+          "starter": true,
+          "formation_place": "4",
+          "active": true
+        },
+        {
+          "id": "332367",
+          "name": "Finn Surman",
+          "short_name": "F. Surman",
+          "jersey": "16",
+          "position": "D",
+          "position_name": "Center Right Defender",
+          "starter": true,
+          "formation_place": "5",
+          "active": true
+        },
+        {
+          "id": "101934",
+          "name": "Michael Boxall",
+          "short_name": "M. Boxall",
+          "jersey": "5",
+          "position": "D",
+          "position_name": "Center Left Defender",
+          "starter": true,
+          "formation_place": "6",
+          "active": true
+        },
+        {
+          "id": "228279",
+          "name": "Callum McCowatt",
+          "short_name": "C. McCowatt",
+          "jersey": "20",
+          "position": "M",
+          "position_name": "Attacking Midfielder Right",
+          "starter": true,
+          "formation_place": "7",
+          "active": true
+        },
+        {
+          "id": "228294",
+          "name": "Joe Bell",
+          "short_name": "J. Bell",
+          "jersey": "6",
+          "position": "M",
+          "position_name": "Right Midfielder",
+          "starter": true,
+          "formation_place": "8",
+          "active": true
+        },
+        {
+          "id": "134190",
+          "name": "Chris Wood",
+          "short_name": "C. Wood",
+          "jersey": "9",
+          "position": "F",
+          "position_name": "Forward",
+          "starter": true,
+          "formation_place": "9",
+          "active": true
+        }
+      ],
+      "substitutes": [
+        {
+          "id": "297800",
+          "name": "Alex Paulsen",
+          "short_name": "A. Paulsen",
+          "jersey": "12",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "297802",
+          "name": "Ben Old",
+          "short_name": "B. Old",
+          "jersey": "19",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "297794",
+          "name": "Jesse Randall",
+          "short_name": "J. Randall",
+          "jersey": "21",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "282239",
+          "name": "Callan Elliot",
+          "short_name": "C. Elliot",
+          "jersey": "24",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "254441",
+          "name": "Francis de Vries",
+          "short_name": "F. de Vries",
+          "jersey": "3",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "277113",
+          "name": "Ben Waine",
+          "short_name": "B. Waine",
+          "jersey": "18",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "228288",
+          "name": "Michael Woud",
+          "short_name": "M. Woud",
+          "jersey": "22",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "367427",
+          "name": "Tyler Bindon",
+          "short_name": "T. Bindon",
+          "jersey": "4",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "175958",
+          "name": "Kosta Barbarouses",
+          "short_name": "K. Barbarouses",
+          "jersey": "17",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "103819",
+          "name": "Tommy Smith",
+          "short_name": "T. Smith",
+          "jersey": "26",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "351369",
+          "name": "Lachlan Bayliss",
+          "short_name": "L. Bayliss",
+          "jersey": "25",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "288469",
+          "name": "Nando Pijnaker",
+          "short_name": "N. Pijnaker",
+          "jersey": "15",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "156146",
+          "name": "Ryan Thomas",
+          "short_name": "R. Thomas",
+          "jersey": "23",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "194736",
+          "name": "Alex Rufer",
+          "short_name": "A. Rufer",
+          "jersey": "14",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        }
+      ]
+    }
+  },
+  "competition_id": "760427",
+  "_saved_at": "2026-06-16T17:13:04.129529"
+}

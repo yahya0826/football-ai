@@ -1,0 +1,55 @@
+{
+  "match_id": "760431",
+  "date": "2026-06-17",
+  "status": {
+    "state": "scheduled",
+    "detail": "Wed, June 16th at 12:00 AM EDT",
+    "period": 0,
+    "clock": "",
+    "completed": false,
+    "state_cn": "未开始"
+  },
+  "home": {
+    "name": "Austria",
+    "abbrev": "AUT",
+    "logo": "",
+    "score": 0,
+    "team_id": "474",
+    "name_cn": "奥地利"
+  },
+  "away": {
+    "name": "Jordan",
+    "abbrev": "JOR",
+    "logo": "",
+    "score": 0,
+    "team_id": "2917",
+    "name_cn": "约旦"
+  },
+  "events": [],
+  "statistics": {
+    "home": {
+      "team_name": "Austria",
+      "stats": {},
+      "team_name_cn": "奥地利"
+    },
+    "away": {
+      "team_name": "Jordan",
+      "stats": {},
+      "team_name_cn": "约旦"
+    }
+  },
+  "lineups": {
+    "home": {
+      "formation": "",
+      "starters": [],
+      "substitutes": []
+    },
+    "away": {
+      "formation": "",
+      "starters": [],
+      "substitutes": []
+    }
+  },
+  "competition_id": "760431",
+  "_saved_at": "2026-06-16T19:58:42.265881"
+}

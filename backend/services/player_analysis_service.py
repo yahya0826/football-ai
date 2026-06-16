@@ -5,8 +5,12 @@ Generates Chinese-language scout reports based on real match data.
 import os
 import json
 import time
+from pathlib import Path
 from typing import Optional, Dict
 from openai import OpenAI
+
+BASE_DIR = Path(__file__).parent.parent
+PLAYER_CACHE_DIR = BASE_DIR / "data" / "player_analysis"
 
 
 class PlayerAnalysisService:
@@ -19,6 +23,7 @@ class PlayerAnalysisService:
             self.client.base_url = os.environ.get("DEEPSEEK_BASE_URL", "https://api.deepseek.com")
         self.model = os.environ.get("AI_MODEL", "deepseek-chat")
         self._cache: Dict[str, dict] = {}
+        PLAYER_CACHE_DIR.mkdir(parents=True, exist_ok=True)
 
     def analyze_player(
         self,
@@ -31,14 +36,23 @@ class PlayerAnalysisService:
     ) -> dict:
         """Generate a player analysis based on real stats or profile."""
         cache_key = f"{team}:{name}"
+
+        # Check in-memory cache first
         if cache_key in self._cache:
-            cached = self._cache[cache_key]
-            # Check cache freshness (24h)
-            if time.time() - cached.get("_ts", 0) < 86400:
-                return cached
+            return self._cache[cache_key]
+
+        # Check disk cache
+        disk_cached = self._load_from_disk(cache_key)
+        if disk_cached:
+            self._cache[cache_key] = disk_cached
+            return disk_cached
 
         if not self.client:
-            return self._fallback_analysis(name, name_cn, stats)
+            result = self._fallback_analysis(name, name_cn, stats)
+            result["_ts"] = time.time()
+            self._cache[cache_key] = result
+            self._save_to_disk(cache_key, result)
+            return result
 
         has_real_data = stats and stats.get("has_real_data") and stats.get("appearances", 0) > 0
 
@@ -62,7 +76,11 @@ class PlayerAnalysisService:
             analysis = response.choices[0].message.content.strip()
         except Exception as e:
             print(f"DeepSeek API error for {name}: {e}")
-            return self._fallback_analysis(name, name_cn, stats)
+            result = self._fallback_analysis(name, name_cn, stats)
+            result["_ts"] = time.time()
+            self._cache[cache_key] = result
+            self._save_to_disk(cache_key, result)
+            return result
 
         result = {
             "player_name": name,
@@ -74,7 +92,30 @@ class PlayerAnalysisService:
             "_ts": time.time(),
         }
         self._cache[cache_key] = result
+        self._save_to_disk(cache_key, result)
         return result
+
+    def _disk_path(self, cache_key: str) -> Path:
+        safe = cache_key.replace(":", "_").replace("/", "_")
+        return PLAYER_CACHE_DIR / f"{safe}.json"
+
+    def _load_from_disk(self, cache_key: str) -> Optional[dict]:
+        path = self._disk_path(cache_key)
+        if not path.exists():
+            return None
+        try:
+            data = json.loads(path.read_text(encoding="utf-8"))
+            return data
+        except Exception:
+            pass
+        return None
+
+    def _save_to_disk(self, cache_key: str, data: dict):
+        path = self._disk_path(cache_key)
+        try:
+            path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+        except Exception:
+            pass
 
     def _build_stats_prompt(self, name, name_cn, position, club, team, stats) -> str:
         """Build prompt for players with real stats."""

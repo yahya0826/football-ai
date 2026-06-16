@@ -1,0 +1,338 @@
+{
+  "team_id": "4375",
+  "team_name": "Iraq",
+  "team_name_cn": "伊拉克",
+  "coach": "伊拉克主教练",
+  "players": {
+    "G": [
+      {
+        "id": "235231",
+        "name": "Fahad Talib",
+        "short_name": "F. Talib",
+        "jersey": "1",
+        "position": "G",
+        "position_name": "Goalkeeper",
+        "headshot": "",
+        "height": "6' 4\"",
+        "weight": "190 lbs",
+        "age": 31
+      },
+      {
+        "id": "257421",
+        "name": "Jalal Hassan",
+        "short_name": "J. Hassan",
+        "jersey": "12",
+        "position": "G",
+        "position_name": "Goalkeeper",
+        "headshot": "",
+        "height": "6' 2\"",
+        "weight": "185 lbs",
+        "age": 35
+      },
+      {
+        "id": "285998",
+        "name": "Ahmed Basil",
+        "short_name": "A. Basil",
+        "jersey": "22",
+        "position": "G",
+        "position_name": "Goalkeeper",
+        "headshot": "",
+        "height": "6' 1\"",
+        "weight": "174 lbs",
+        "age": 29
+      }
+    ],
+    "D": [
+      {
+        "id": "244675",
+        "name": "Rebin Sulaka",
+        "short_name": "R. Sulaka",
+        "jersey": "2",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 4\"",
+        "weight": "185 lbs",
+        "age": 34
+      },
+      {
+        "id": "244679",
+        "name": "Hussein Ali",
+        "short_name": "H. Ali",
+        "jersey": "3",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/244679.png",
+        "height": "6' 0\"",
+        "weight": "163 lbs",
+        "age": 24
+      },
+      {
+        "id": "378968",
+        "name": "Zaid Tahseen",
+        "short_name": "Z. Tahseen",
+        "jersey": "4",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 4\"",
+        "weight": "170 lbs",
+        "age": 25
+      },
+      {
+        "id": "378605",
+        "name": "Akam Hashim",
+        "short_name": "A. Hashim",
+        "jersey": "5",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 0\"",
+        "weight": "161 lbs",
+        "age": 27
+      },
+      {
+        "id": "331621",
+        "name": "Munaf Younus",
+        "short_name": "M. Younus",
+        "jersey": "6",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 0\"",
+        "weight": "172 lbs",
+        "age": 29
+      },
+      {
+        "id": "369408",
+        "name": "Ahmed Maknazi",
+        "short_name": "A. Maknazi",
+        "jersey": "15",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "5' 11\"",
+        "weight": "161 lbs",
+        "age": 24
+      },
+      {
+        "id": "345320",
+        "name": "Merchas Doski",
+        "short_name": "M. Doski",
+        "jersey": "23",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "5' 8\"",
+        "weight": "141 lbs",
+        "age": 26
+      },
+      {
+        "id": "371649",
+        "name": "Mustafa Saadoon",
+        "short_name": "M. Saadoon",
+        "jersey": "25",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "5' 11\"",
+        "weight": "161 lbs",
+        "age": 25
+      },
+      {
+        "id": "218597",
+        "name": "Frans Putros",
+        "short_name": "F. Putros",
+        "jersey": "26",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "5' 11\"",
+        "weight": "172 lbs",
+        "age": 32
+      }
+    ],
+    "M": [
+      {
+        "id": "266496",
+        "name": "Ibrahim Bayesh",
+        "short_name": "I. Bayesh",
+        "jersey": "8",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "6' 0\"",
+        "weight": "172 lbs",
+        "age": 26
+      },
+      {
+        "id": "325549",
+        "name": "Zidane Iqbal",
+        "short_name": "Z. Iqbal",
+        "jersey": "14",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/325549.png",
+        "height": "5' 11\"",
+        "weight": "157 lbs",
+        "age": 23
+      },
+      {
+        "id": "311149",
+        "name": "Amir Al-Ammari",
+        "short_name": "A. Al-Ammari",
+        "jersey": "16",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "6' 0\"",
+        "weight": "157 lbs",
+        "age": 28
+      },
+      {
+        "id": "274173",
+        "name": "Kevin Yakob",
+        "short_name": "K. Yakob",
+        "jersey": "19",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "6' 1\"",
+        "weight": "163 lbs",
+        "age": 25
+      },
+      {
+        "id": "287723",
+        "name": "Aimar Sher",
+        "short_name": "A. Sher",
+        "jersey": "20",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "5' 9\"",
+        "weight": "141 lbs",
+        "age": 23
+      },
+      {
+        "id": "326032",
+        "name": "Marko Farji",
+        "short_name": "M. Farji",
+        "jersey": "21",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "6' 0\"",
+        "weight": "172 lbs",
+        "age": 22
+      },
+      {
+        "id": "384274",
+        "name": "Zaid Ismael",
+        "short_name": "Z. Ismael",
+        "jersey": "24",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "6' 1\"",
+        "weight": "161 lbs",
+        "age": 24
+      }
+    ],
+    "F": [
+      {
+        "id": "321221",
+        "name": "Youssef Amyn",
+        "short_name": "Y. Amyn",
+        "jersey": "7",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "5' 8\"",
+        "weight": "150 lbs",
+        "age": 22
+      },
+      {
+        "id": "330579",
+        "name": "Ali Al-Hamadi",
+        "short_name": "A. Al-Hamadi",
+        "jersey": "9",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "6' 2\"",
+        "weight": "179 lbs",
+        "age": 24
+      },
+      {
+        "id": "269478",
+        "name": "Mohanad Ali",
+        "short_name": "M. Ali",
+        "jersey": "10",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "6' 0\"",
+        "weight": "168 lbs",
+        "age": 25
+      },
+      {
+        "id": "313976",
+        "name": "Ahmed Qasim",
+        "short_name": "A. Qasim",
+        "jersey": "11",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "6' 0\"",
+        "weight": "161 lbs",
+        "age": 22
+      },
+      {
+        "id": "274166",
+        "name": "Ali Yousif",
+        "short_name": "A. Yousif",
+        "jersey": "13",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "5' 11\"",
+        "weight": "161 lbs",
+        "age": 30
+      },
+      {
+        "id": "307750",
+        "name": "Ali Jasim",
+        "short_name": "A. Jasim",
+        "jersey": "17",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "5' 10\"",
+        "weight": "161 lbs",
+        "age": 22
+      },
+      {
+        "id": "244677",
+        "name": "Aymen Hussein",
+        "short_name": "A. Hussein",
+        "jersey": "18",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "6' 2\"",
+        "weight": "183 lbs",
+        "age": 30
+      }
+    ],
+    "U": []
+  },
+  "total_players": 26,
+  "position_labels": {
+    "G": "门将",
+    "D": "后卫",
+    "M": "中场",
+    "F": "前锋",
+    "U": "未知"
+  },
+  "_saved_at": "2026-06-16T17:07:38.573400"
+}

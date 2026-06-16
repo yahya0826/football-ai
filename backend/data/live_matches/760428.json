@@ -2,12 +2,12 @@
   "match_id": "760428",
   "date": "2026-06-15",
   "status": {
-    "state": "scheduled",
-    "detail": "Mon, June 15th at 12:00 PM EDT",
+    "state": "finished",
+    "detail": "FT",
     "period": 0,
     "clock": "",
-    "completed": false,
-    "state_cn": "未开始"
+    "completed": true,
+    "state_cn": "已结束"
   },
   "home": {
     "name": "Spain",
@@ -25,31 +25,1085 @@
     "team_id": "2597",
     "name_cn": "佛得角"
   },
-  "events": [],
+  "events": [
+    {
+      "type": "kickoff",
+      "minute": "",
+      "team": "",
+      "player": "",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "First Half begins.",
+      "type_cn": "开球",
+      "team_cn": "",
+      "description_cn": "比赛开始！"
+    },
+    {
+      "type": "yellow_card",
+      "minute": "16'",
+      "team": "Cape Verde",
+      "player": "Sidny Lopes Cabral Yellow Card",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Sidny Cabral (Cabo Verde) is shown the yellow card for a bad foul.",
+      "type_cn": "黄牌",
+      "team_cn": "佛得角",
+      "description_cn": "16'' Sidny Lopes Cabral Yellow Card（佛得角）吃到黄牌 🟨"
+    },
+    {
+      "type": "halftime",
+      "minute": "45'+5'",
+      "team": "",
+      "player": "",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "",
+      "type_cn": "中场休息",
+      "team_cn": "",
+      "description_cn": "中场休息 ⏸️"
+    },
+    {
+      "type": "fulltime",
+      "minute": "45'",
+      "team": "",
+      "player": "",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "",
+      "type_cn": "全场结束",
+      "team_cn": "",
+      "description_cn": "全场比赛结束 🏁"
+    },
+    {
+      "type": "substitution",
+      "minute": "61'",
+      "team": "Cape Verde",
+      "player": "Willy Semedo Substitution",
+      "player_in": "Willy Semedo",
+      "player_out": "Jovane Cabral",
+      "assist": "",
+      "text": "Substitution, Cabo Verde. Willy Semedo replaces Jovane Cabral because of an injury.",
+      "type_cn": "换人",
+      "team_cn": "佛得角",
+      "description_cn": "61'' Willy Semedo ↑ 替补登场，Jovane Cabral ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "61'",
+      "team": "Cape Verde",
+      "player": "Deroy Duarte Substitution",
+      "player_in": "Deroy Duarte",
+      "player_out": "Laros Duarte",
+      "assist": "",
+      "text": "Substitution, Cabo Verde. Deroy Duarte replaces Laros Duarte.",
+      "type_cn": "换人",
+      "team_cn": "佛得角",
+      "description_cn": "61'' Deroy Duarte ↑ 替补登场，Laros Duarte ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "61'",
+      "team": "Cape Verde",
+      "player": "Nuno da Costa Substitution",
+      "player_in": "Nuno da Costa",
+      "player_out": "Dailon Livramento",
+      "assist": "",
+      "text": "Substitution, Cabo Verde. Nuno da Costa replaces Dailon Livramento.",
+      "type_cn": "换人",
+      "team_cn": "佛得角",
+      "description_cn": "61'' Nuno da Costa ↑ 替补登场，Dailon Livramento ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "71'",
+      "team": "Spain",
+      "player": "Mikel Merino Substitution",
+      "player_in": "Mikel Merino",
+      "player_out": "Fabián Ruiz",
+      "assist": "",
+      "text": "Substitution, Spain. Mikel Merino replaces Fabián Ruiz.",
+      "type_cn": "换人",
+      "team_cn": "西班牙",
+      "description_cn": "71'' Mikel Merino ↑ 替补登场，Fabián Ruiz ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "71'",
+      "team": "Spain",
+      "player": "Lamine Yamal Substitution",
+      "player_in": "Lamine Yamal",
+      "player_out": "Gavi",
+      "assist": "",
+      "text": "Substitution, Spain. Lamine Yamal replaces Gavi.",
+      "type_cn": "换人",
+      "team_cn": "西班牙",
+      "description_cn": "71'' Lamine Yamal ↑ 替补登场，Gavi ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "76'",
+      "team": "Cape Verde",
+      "player": "João Paulo Substitution",
+      "player_in": "João Paulo",
+      "player_out": "Sidny Lopes Cabral",
+      "assist": "",
+      "text": "Substitution, Cabo Verde. João Paulo replaces Sidny Cabral.",
+      "type_cn": "换人",
+      "team_cn": "佛得角",
+      "description_cn": "76'' João Paulo ↑ 替补登场，Sidny Lopes Cabral ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "79'",
+      "team": "Cape Verde",
+      "player": "Telmo Arcanjo Substitution",
+      "player_in": "Telmo Arcanjo",
+      "player_out": "Jamiro Monteiro",
+      "assist": "",
+      "text": "Substitution, Cabo Verde. Telmo Arcanjo replaces Jamiro Monteiro.",
+      "type_cn": "换人",
+      "team_cn": "佛得角",
+      "description_cn": "79'' Telmo Arcanjo ↑ 替补登场，Jamiro Monteiro ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "81'",
+      "team": "Spain",
+      "player": "Dani Olmo Substitution",
+      "player_in": "Dani Olmo",
+      "player_out": "Ferran Torres",
+      "assist": "",
+      "text": "Substitution, Spain. Dani Olmo replaces Ferran Torres.",
+      "type_cn": "换人",
+      "team_cn": "西班牙",
+      "description_cn": "81'' Dani Olmo ↑ 替补登场，Ferran Torres ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "87'",
+      "team": "Spain",
+      "player": "Nico Williams Substitution",
+      "player_in": "Nico Williams",
+      "player_out": "Rodri",
+      "assist": "",
+      "text": "Substitution, Spain. Nico Williams replaces Rodri.",
+      "type_cn": "换人",
+      "team_cn": "西班牙",
+      "description_cn": "87'' Nico Williams ↑ 替补登场，Rodri ↓ 被换下"
+    },
+    {
+      "type": "yellow_card",
+      "minute": "90'+3'",
+      "team": "Spain",
+      "player": "Pedri Yellow Card",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Pedri (Spain) is shown the yellow card for a bad foul.",
+      "type_cn": "黄牌",
+      "team_cn": "西班牙",
+      "description_cn": "90'+3'' Pedri Yellow Card（西班牙）吃到黄牌 🟨"
+    },
+    {
+      "type": "83",
+      "minute": "90'+6'",
+      "team": "",
+      "player": "",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "",
+      "type_cn": "83",
+      "team_cn": "",
+      "description_cn": ""
+    }
+  ],
   "statistics": {
     "home": {
       "team_name": "Spain",
-      "stats": {},
+      "stats": {
+        "foulsCommitted": {
+          "label": "Fouls",
+          "value": "10",
+          "label_cn": "犯规"
+        },
+        "yellowCards": {
+          "label": "Yellow Cards",
+          "value": "1",
+          "label_cn": "黄牌"
+        },
+        "redCards": {
+          "label": "Red Cards",
+          "value": "0",
+          "label_cn": "红牌"
+        },
+        "offsides": {
+          "label": "Offsides",
+          "value": "2",
+          "label_cn": "越位"
+        },
+        "wonCorners": {
+          "label": "Corner Kicks",
+          "value": "11",
+          "label_cn": "角球"
+        },
+        "saves": {
+          "label": "Saves",
+          "value": "1",
+          "label_cn": "扑救"
+        },
+        "possessionPct": {
+          "label": "Possession",
+          "value": "74.3",
+          "label_cn": "控球率"
+        },
+        "totalShots": {
+          "label": "SHOTS",
+          "value": "27",
+          "label_cn": "总射门"
+        },
+        "shotsOnTarget": {
+          "label": "ON GOAL",
+          "value": "7",
+          "label_cn": "射正"
+        },
+        "shotPct": {
+          "label": "On Target %",
+          "value": "0.3",
+          "label_cn": "射正率"
+        },
+        "penaltyKickGoals": {
+          "label": "Penalty Goals",
+          "value": "0",
+          "label_cn": "点球进球"
+        },
+        "penaltyKickShots": {
+          "label": "Penalty Kicks Taken",
+          "value": "0",
+          "label_cn": "点球次数"
+        },
+        "accuratePasses": {
+          "label": "Accurate Passes",
+          "value": "734",
+          "label_cn": "精准传球"
+        },
+        "totalPasses": {
+          "label": "Passes",
+          "value": "800",
+          "label_cn": "传球"
+        },
+        "passPct": {
+          "label": "Pass Completion %",
+          "value": "0.9",
+          "label_cn": "传球成功率"
+        },
+        "accurateCrosses": {
+          "label": "Accurate Crosses",
+          "value": "6",
+          "label_cn": "精准传中"
+        },
+        "totalCrosses": {
+          "label": "Crosses",
+          "value": "36",
+          "label_cn": "传中"
+        },
+        "crossPct": {
+          "label": "Cross %",
+          "value": "0.2",
+          "label_cn": "传中成功率"
+        },
+        "totalLongBalls": {
+          "label": "Long Balls",
+          "value": "30",
+          "label_cn": "长传"
+        },
+        "accurateLongBalls": {
+          "label": "Accurate Long Balls",
+          "value": "24",
+          "label_cn": "精准长传"
+        },
+        "longballPct": {
+          "label": "Long Balls %",
+          "value": "0.8",
+          "label_cn": "长传成功率"
+        },
+        "blockedShots": {
+          "label": "Blocked Shots",
+          "value": "8",
+          "label_cn": "封堵射门"
+        },
+        "effectiveTackles": {
+          "label": "Effective Tackles",
+          "value": "12",
+          "label_cn": "有效抢断"
+        },
+        "totalTackles": {
+          "label": "Tackles",
+          "value": "13",
+          "label_cn": "抢断"
+        },
+        "tacklePct": {
+          "label": "Tackle %",
+          "value": "0.9",
+          "label_cn": "抢断成功率"
+        },
+        "interceptions": {
+          "label": "Interceptions",
+          "value": "6",
+          "label_cn": "拦截"
+        },
+        "effectiveClearance": {
+          "label": "Effective Clearances",
+          "value": "7",
+          "label_cn": "有效解围"
+        },
+        "totalClearance": {
+          "label": "Clearances",
+          "value": "7",
+          "label_cn": "解围"
+        }
+      },
       "team_name_cn": "西班牙"
     },
     "away": {
       "team_name": "Cape Verde",
-      "stats": {},
+      "stats": {
+        "foulsCommitted": {
+          "label": "Fouls",
+          "value": "1",
+          "label_cn": "犯规"
+        },
+        "yellowCards": {
+          "label": "Yellow Cards",
+          "value": "1",
+          "label_cn": "黄牌"
+        },
+        "redCards": {
+          "label": "Red Cards",
+          "value": "0",
+          "label_cn": "红牌"
+        },
+        "offsides": {
+          "label": "Offsides",
+          "value": "3",
+          "label_cn": "越位"
+        },
+        "wonCorners": {
+          "label": "Corner Kicks",
+          "value": "1",
+          "label_cn": "角球"
+        },
+        "saves": {
+          "label": "Saves",
+          "value": "7",
+          "label_cn": "扑救"
+        },
+        "possessionPct": {
+          "label": "Possession",
+          "value": "25.7",
+          "label_cn": "控球率"
+        },
+        "totalShots": {
+          "label": "SHOTS",
+          "value": "6",
+          "label_cn": "总射门"
+        },
+        "shotsOnTarget": {
+          "label": "ON GOAL",
+          "value": "1",
+          "label_cn": "射正"
+        },
+        "shotPct": {
+          "label": "On Target %",
+          "value": "0.2",
+          "label_cn": "射正率"
+        },
+        "penaltyKickGoals": {
+          "label": "Penalty Goals",
+          "value": "0",
+          "label_cn": "点球进球"
+        },
+        "penaltyKickShots": {
+          "label": "Penalty Kicks Taken",
+          "value": "0",
+          "label_cn": "点球次数"
+        },
+        "accuratePasses": {
+          "label": "Accurate Passes",
+          "value": "205",
+          "label_cn": "精准传球"
+        },
+        "totalPasses": {
+          "label": "Passes",
+          "value": "278",
+          "label_cn": "传球"
+        },
+        "passPct": {
+          "label": "Pass Completion %",
+          "value": "0.7",
+          "label_cn": "传球成功率"
+        },
+        "accurateCrosses": {
+          "label": "Accurate Crosses",
+          "value": "1",
+          "label_cn": "精准传中"
+        },
+        "totalCrosses": {
+          "label": "Crosses",
+          "value": "4",
+          "label_cn": "传中"
+        },
+        "crossPct": {
+          "label": "Cross %",
+          "value": "0.3",
+          "label_cn": "传中成功率"
+        },
+        "totalLongBalls": {
+          "label": "Long Balls",
+          "value": "56",
+          "label_cn": "长传"
+        },
+        "accurateLongBalls": {
+          "label": "Accurate Long Balls",
+          "value": "19",
+          "label_cn": "精准长传"
+        },
+        "longballPct": {
+          "label": "Long Balls %",
+          "value": "0.3",
+          "label_cn": "长传成功率"
+        },
+        "blockedShots": {
+          "label": "Blocked Shots",
+          "value": "2",
+          "label_cn": "封堵射门"
+        },
+        "effectiveTackles": {
+          "label": "Effective Tackles",
+          "value": "11",
+          "label_cn": "有效抢断"
+        },
+        "totalTackles": {
+          "label": "Tackles",
+          "value": "18",
+          "label_cn": "抢断"
+        },
+        "tacklePct": {
+          "label": "Tackle %",
+          "value": "0.6",
+          "label_cn": "抢断成功率"
+        },
+        "interceptions": {
+          "label": "Interceptions",
+          "value": "15",
+          "label_cn": "拦截"
+        },
+        "effectiveClearance": {
+          "label": "Effective Clearances",
+          "value": "46",
+          "label_cn": "有效解围"
+        },
+        "totalClearance": {
+          "label": "Clearances",
+          "value": "46",
+          "label_cn": "解围"
+        }
+      },
       "team_name_cn": "佛得角"
     }
   },
   "lineups": {
     "home": {
-      "formation": "",
-      "starters": [],
-      "substitutes": []
+      "formation": "4-3-3",
+      "starters": [
+        {
+          "id": "222375",
+          "name": "Unai Simón",
+          "short_name": "U. Simón",
+          "jersey": "23",
+          "position": "G",
+          "position_name": "Goalkeeper",
+          "starter": true,
+          "formation_place": "1",
+          "active": true
+        },
+        {
+          "id": "265869",
+          "name": "Ferran Torres",
+          "short_name": "F. Torres",
+          "jersey": "7",
+          "position": "F",
+          "position_name": "Right Forward",
+          "starter": true,
+          "formation_place": "10",
+          "active": true
+        },
+        {
+          "id": "323702",
+          "name": "Gavi",
+          "short_name": "Gavi",
+          "jersey": "9",
+          "position": "F",
+          "position_name": "Left Forward",
+          "starter": true,
+          "formation_place": "11",
+          "active": true
+        },
+        {
+          "id": "206474",
+          "name": "Marcos Llorente",
+          "short_name": "M. Llorente",
+          "jersey": "5",
+          "position": "D",
+          "position_name": "Right Back",
+          "starter": true,
+          "formation_place": "2",
+          "active": true
+        },
+        {
+          "id": "259910",
+          "name": "Marc Cucurella",
+          "short_name": "M. Cucurella",
+          "jersey": "24",
+          "position": "D",
+          "position_name": "Left Back",
+          "starter": true,
+          "formation_place": "3",
+          "active": true
+        },
+        {
+          "id": "231828",
+          "name": "Rodri",
+          "short_name": "Rodri",
+          "jersey": "16",
+          "position": "M",
+          "position_name": "Center Midfielder",
+          "starter": true,
+          "formation_place": "4",
+          "active": true
+        },
+        {
+          "id": "368992",
+          "name": "Pau Cubarsí",
+          "short_name": "P. Cubarsí",
+          "jersey": "22",
+          "position": "D",
+          "position_name": "Center Right Defender",
+          "starter": true,
+          "formation_place": "5",
+          "active": true
+        },
+        {
+          "id": "159317",
+          "name": "Aymeric Laporte",
+          "short_name": "A. Laporte",
+          "jersey": "14",
+          "position": "D",
+          "position_name": "Center Left Defender",
+          "starter": true,
+          "formation_place": "6",
+          "active": true
+        },
+        {
+          "id": "214596",
+          "name": "Fabián Ruiz",
+          "short_name": "F. Ruiz",
+          "jersey": "8",
+          "position": "M",
+          "position_name": "Right Midfielder",
+          "starter": true,
+          "formation_place": "7",
+          "active": true
+        },
+        {
+          "id": "250465",
+          "name": "Pedri",
+          "short_name": "Pedri",
+          "jersey": "20",
+          "position": "M",
+          "position_name": "Left Midfielder",
+          "starter": true,
+          "formation_place": "8",
+          "active": true
+        },
+        {
+          "id": "229018",
+          "name": "Mikel Oyarzabal",
+          "short_name": "M. Oyarzabal",
+          "jersey": "21",
+          "position": "F",
+          "position_name": "Forward",
+          "starter": true,
+          "formation_place": "9",
+          "active": true
+        }
+      ],
+      "substitutes": [
+        {
+          "id": "196176",
+          "name": "David Raya",
+          "short_name": "D. Raya",
+          "jersey": "1",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "397545",
+          "name": "Víctor Muñoz",
+          "short_name": "V. Muñoz",
+          "jersey": "25",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "362150",
+          "name": "Lamine Yamal",
+          "short_name": "L. Yamal",
+          "jersey": "19",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "297370",
+          "name": "Yéremy Pino",
+          "short_name": "Y. Pino",
+          "jersey": "11",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "287266",
+          "name": "Martín Zubimendi",
+          "short_name": "M. Zubimendi",
+          "jersey": "18",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "227765",
+          "name": "Dani Olmo",
+          "short_name": "D. Olmo",
+          "jersey": "10",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "312146",
+          "name": "Nico Williams",
+          "short_name": "N. Williams",
+          "jersey": "17",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "209581",
+          "name": "Mikel Merino",
+          "short_name": "M. Merino",
+          "jersey": "6",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "268533",
+          "name": "Pedro Porro",
+          "short_name": "P. Porro",
+          "jersey": "12",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "214995",
+          "name": "Borja Iglesias",
+          "short_name": "B. Iglesias",
+          "jersey": "26",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "297362",
+          "name": "Joan García",
+          "short_name": "J. García",
+          "jersey": "13",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "297373",
+          "name": "Álex Baena",
+          "short_name": "Á. Baena",
+          "jersey": "15",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "166396",
+          "name": "Alejandro Grimaldo",
+          "short_name": "A. Grimaldo",
+          "jersey": "3",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "332613",
+          "name": "Marc Pubill",
+          "short_name": "M. Pubill",
+          "jersey": "2",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "128714",
+          "name": "Eric García",
+          "short_name": "E. García",
+          "jersey": "4",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        }
+      ]
     },
     "away": {
-      "formation": "",
-      "starters": [],
-      "substitutes": []
+      "formation": "4-1-4-1",
+      "starters": [
+        {
+          "id": "181330",
+          "name": "Vozinha",
+          "short_name": "Vozinha",
+          "jersey": "1",
+          "position": "G",
+          "position_name": "Goalkeeper",
+          "starter": true,
+          "formation_place": "1",
+          "active": true
+        },
+        {
+          "id": "227441",
+          "name": "Jamiro Monteiro",
+          "short_name": "J. Monteiro",
+          "jersey": "10",
+          "position": "M",
+          "position_name": "Center Left Midfielder",
+          "starter": true,
+          "formation_place": "10",
+          "active": true
+        },
+        {
+          "id": "250059",
+          "name": "Jovane Cabral",
+          "short_name": "J. Cabral",
+          "jersey": "7",
+          "position": "M",
+          "position_name": "Left Midfielder",
+          "starter": true,
+          "formation_place": "11",
+          "active": true
+        },
+        {
+          "id": "180113",
+          "name": "Steven Moreira",
+          "short_name": "S. Moreira",
+          "jersey": "22",
+          "position": "D",
+          "position_name": "Right Back",
+          "starter": true,
+          "formation_place": "2",
+          "active": true
+        },
+        {
+          "id": "332394",
+          "name": "Sidny Lopes Cabral",
+          "short_name": "S. Lopes Cabral",
+          "jersey": "13",
+          "position": "D",
+          "position_name": "Left Back",
+          "starter": true,
+          "formation_place": "3",
+          "active": true
+        },
+        {
+          "id": "327173",
+          "name": "Kevin Pina",
+          "short_name": "K. Pina",
+          "jersey": "6",
+          "position": "M",
+          "position_name": "Defensive Midfielder",
+          "starter": true,
+          "formation_place": "4",
+          "active": true
+        },
+        {
+          "id": "257716",
+          "name": "Pico Lopes",
+          "short_name": "P. Lopes",
+          "jersey": "4",
+          "position": "D",
+          "position_name": "Center Right Defender",
+          "starter": true,
+          "formation_place": "5",
+          "active": true
+        },
+        {
+          "id": "214683",
+          "name": "Diney Borges",
+          "short_name": "D. Borges",
+          "jersey": "3",
+          "position": "D",
+          "position_name": "Center Left Defender",
+          "starter": true,
+          "formation_place": "6",
+          "active": true
+        },
+        {
+          "id": "135216",
+          "name": "Ryan Mendes",
+          "short_name": "R. Mendes",
+          "jersey": "20",
+          "position": "M",
+          "position_name": "Right Midfielder",
+          "starter": true,
+          "formation_place": "7",
+          "active": true
+        },
+        {
+          "id": "222236",
+          "name": "Laros Duarte",
+          "short_name": "L. Duarte",
+          "jersey": "15",
+          "position": "M",
+          "position_name": "Center Right Midfielder",
+          "starter": true,
+          "formation_place": "8",
+          "active": true
+        },
+        {
+          "id": "330211",
+          "name": "Dailon Livramento",
+          "short_name": "D. Livramento",
+          "jersey": "19",
+          "position": "F",
+          "position_name": "Forward",
+          "starter": true,
+          "formation_place": "9",
+          "active": true
+        }
+      ],
+      "substitutes": [
+        {
+          "id": "148146",
+          "name": "Stopira",
+          "short_name": "Stopira",
+          "jersey": "2",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "260758",
+          "name": "Márcio Rosa",
+          "short_name": "M. Rosa",
+          "jersey": "12",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "366092",
+          "name": "Hélio Varela",
+          "short_name": "H. Varela",
+          "jersey": "26",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "365810",
+          "name": "Wagner Pina",
+          "short_name": "W. Pina",
+          "jersey": "24",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "310261",
+          "name": "Gilson Benchimol",
+          "short_name": "G. Benchimol",
+          "jersey": "9",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "175012",
+          "name": "Garry Rodrigues",
+          "short_name": "G. Rodrigues",
+          "jersey": "11",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "304076",
+          "name": "Telmo Arcanjo",
+          "short_name": "T. Arcanjo",
+          "jersey": "18",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "271675",
+          "name": "Willy Semedo",
+          "short_name": "W. Semedo",
+          "jersey": "17",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "271129",
+          "name": "Logan Costa",
+          "short_name": "L. Costa",
+          "jersey": "5",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "101251",
+          "name": "Yannick Semedo",
+          "short_name": "Y. Semedo",
+          "jersey": "16",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "224798",
+          "name": "Nuno da Costa",
+          "short_name": "N. da Costa",
+          "jersey": "21",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "318631",
+          "name": "João Paulo",
+          "short_name": "J. Paulo",
+          "jersey": "8",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "265874",
+          "name": "CJ dos Santos",
+          "short_name": "C. dos Santos",
+          "jersey": "23",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "378479",
+          "name": "Kelvin Pires",
+          "short_name": "K. Pires",
+          "jersey": "25",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "246442",
+          "name": "Deroy Duarte",
+          "short_name": "D. Duarte",
+          "jersey": "14",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        }
+      ]
     }
   },
   "competition_id": "760428",
-  "_saved_at": "2026-06-15T22:47:47.550096"
+  "_saved_at": "2026-06-16T12:52:24.476143"
 }

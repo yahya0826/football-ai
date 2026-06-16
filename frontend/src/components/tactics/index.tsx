@@ -16,6 +16,28 @@ const FORMATION_POSITIONS = [
   'LW', 'ST', 'RW',
 ];
 
+const TEAM_NAMES_CN: Record<string, string> = {
+  'England': '英格兰', 'France': '法国', 'Croatia': '克罗地亚', 'Norway': '挪威',
+  'Portugal': '葡萄牙', 'Germany': '德国', 'Netherlands': '荷兰', 'Switzerland': '瑞士',
+  'Scotland': '苏格兰', 'Spain': '西班牙', 'Austria': '奥地利', 'Belgium': '比利时',
+  'Bosnia and Herzegovina': '波黑', 'Sweden': '瑞典',
+  'Turkey': '土耳其', 'Czech Republic': '捷克',
+  'Argentina': '阿根廷', 'Brazil': '巴西', 'Colombia': '哥伦比亚', 'Ecuador': '厄瓜多尔',
+  'Paraguay': '巴拉圭', 'Uruguay': '乌拉圭',
+  'Australia': '澳大利亚', 'Iran': '伊朗', 'Japan': '日本', 'Jordan': '约旦',
+  'Uzbekistan': '乌兹别克斯坦', 'Qatar': '卡塔尔', 'Saudi Arabia': '沙特阿拉伯',
+  'South Korea': '韩国', 'Iraq': '伊拉克',
+  'Algeria': '阿尔及利亚', 'Cape Verde': '佛得角', 'DR Congo': '刚果民主共和国',
+  'Egypt': '埃及', 'Ghana': '加纳', 'Ivory Coast': '科特迪瓦', 'Morocco': '摩洛哥',
+  'Senegal': '塞内加尔', 'South Africa': '南非', 'Tunisia': '突尼斯',
+  'United States': '美国', 'Mexico': '墨西哥', 'Canada': '加拿大',
+  'Panama': '巴拿马', 'Haiti': '海地', 'Curaçao': '库拉索', 'New Zealand': '新西兰',
+};
+
+function teamDisplayName(en: string): string {
+  return TEAM_NAMES_CN[en] || en;
+}
+
 export default function TacticsPage() {
   const [selectedPlayer, setSelectedPlayer] = useState<Player | null>(null);
   const [currentFormation, setCurrentFormation] = useState<Formation>(FORMATIONS['4-3-3']);
@@ -194,7 +216,7 @@ export default function TacticsPage() {
             }}
           >
             {availableTeams.map(team => (
-              <option key={team} value={team}>{team}</option>
+              <option key={team} value={team}>{teamDisplayName(team)}</option>
             ))}
           </select>
         </div>

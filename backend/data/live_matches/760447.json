@@ -1,0 +1,97 @@
+{
+  "match_id": "760447",
+  "date": "2026-06-20",
+  "status": {
+    "state": "scheduled",
+    "detail": "Sat, June 20th at 1:00 PM EDT",
+    "period": 0,
+    "clock": "",
+    "completed": false,
+    "state_cn": "未开始"
+  },
+  "home": {
+    "name": "Netherlands",
+    "abbrev": "NED",
+    "logo": "",
+    "score": 0,
+    "team_id": "449",
+    "name_cn": "荷兰"
+  },
+  "away": {
+    "name": "Sweden",
+    "abbrev": "SWE",
+    "logo": "",
+    "score": 0,
+    "team_id": "466",
+    "name_cn": "瑞典"
+  },
+  "events": [],
+  "statistics": {
+    "home": {
+      "team_name": "Netherlands",
+      "stats": {
+        "goalDifference": {
+          "label": "Goal Difference",
+          "value": "0",
+          "label_cn": "Goal Difference"
+        },
+        "totalGoals": {
+          "label": "Total Goals",
+          "value": "2",
+          "label_cn": "Total Goals"
+        },
+        "goalAssists": {
+          "label": "Assists",
+          "value": "2",
+          "label_cn": "Assists"
+        },
+        "goalsConceded": {
+          "label": "Goals Against",
+          "value": "2",
+          "label_cn": "Goals Against"
+        }
+      },
+      "team_name_cn": "荷兰"
+    },
+    "away": {
+      "team_name": "Sweden",
+      "stats": {
+        "goalDifference": {
+          "label": "Goal Difference",
+          "value": "4",
+          "label_cn": "Goal Difference"
+        },
+        "totalGoals": {
+          "label": "Total Goals",
+          "value": "5",
+          "label_cn": "Total Goals"
+        },
+        "goalAssists": {
+          "label": "Assists",
+          "value": "4",
+          "label_cn": "Assists"
+        },
+        "goalsConceded": {
+          "label": "Goals Against",
+          "value": "1",
+          "label_cn": "Goals Against"
+        }
+      },
+      "team_name_cn": "瑞典"
+    }
+  },
+  "lineups": {
+    "home": {
+      "formation": "",
+      "starters": [],
+      "substitutes": []
+    },
+    "away": {
+      "formation": "",
+      "starters": [],
+      "substitutes": []
+    }
+  },
+  "competition_id": "760447",
+  "_saved_at": "2026-06-16T17:08:01.551687"
+}

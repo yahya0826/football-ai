@@ -1,0 +1,338 @@
+{
+  "team_id": "654",
+  "team_name": "Senegal",
+  "team_name_cn": "塞内加尔",
+  "coach": "塞内加尔主教练",
+  "players": {
+    "G": [
+      {
+        "id": "241029",
+        "name": "Yehvann Diouf",
+        "short_name": "Y. Diouf",
+        "jersey": "1",
+        "position": "G",
+        "position_name": "Goalkeeper",
+        "headshot": "",
+        "height": "6' 2\"",
+        "weight": "161 lbs",
+        "age": 26
+      },
+      {
+        "id": "238362",
+        "name": "Édouard Mendy",
+        "short_name": "É. Mendy",
+        "jersey": "16",
+        "position": "G",
+        "position_name": "Goalkeeper",
+        "headshot": "",
+        "height": "6' 4\"",
+        "weight": "214 lbs",
+        "age": 34
+      },
+      {
+        "id": "197631",
+        "name": "Mory Diaw",
+        "short_name": "M. Diaw",
+        "jersey": "23",
+        "position": "G",
+        "position_name": "Goalkeeper",
+        "headshot": "",
+        "height": "6' 6\"",
+        "weight": "183 lbs",
+        "age": 32
+      }
+    ],
+    "D": [
+      {
+        "id": "355433",
+        "name": "Mamadou Sarr",
+        "short_name": "M. Sarr",
+        "jersey": "2",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 4\"",
+        "weight": "170 lbs",
+        "age": 20
+      },
+      {
+        "id": "150312",
+        "name": "Kalidou Koulibaly",
+        "short_name": "K. Koulibaly",
+        "jersey": "3",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 5\"",
+        "weight": "194 lbs",
+        "age": 34
+      },
+      {
+        "id": "251614",
+        "name": "Abdoulaye Seck",
+        "short_name": "A. Seck",
+        "jersey": "4",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 4\"",
+        "weight": "174 lbs",
+        "age": 34
+      },
+      {
+        "id": "268796",
+        "name": "Ismail Jakobs",
+        "short_name": "I. Jakobs",
+        "jersey": "14",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 0\"",
+        "weight": "163 lbs",
+        "age": 26
+      },
+      {
+        "id": "213181",
+        "name": "Moussa Niakhaté",
+        "short_name": "M. Niakhaté",
+        "jersey": "19",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 3\"",
+        "weight": "181 lbs",
+        "age": 30
+      },
+      {
+        "id": "319161",
+        "name": "Antoine Mendy",
+        "short_name": "A. Mendy",
+        "jersey": "24",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 2\"",
+        "weight": "163 lbs",
+        "age": 22
+      },
+      {
+        "id": "359796",
+        "name": "El Hadji Malick Diouf",
+        "short_name": "E. Diouf",
+        "jersey": "25",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 0\"",
+        "weight": "150 lbs",
+        "age": 21
+      }
+    ],
+    "M": [
+      {
+        "id": "144517",
+        "name": "Idrissa Gueye",
+        "short_name": "I. Gueye",
+        "jersey": "5",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "5' 9\"",
+        "weight": "146 lbs",
+        "age": 36
+      },
+      {
+        "id": "294228",
+        "name": "Pathé Ciss",
+        "short_name": "P. Ciss",
+        "jersey": "6",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "6' 1\"",
+        "weight": "157 lbs",
+        "age": 32
+      },
+      {
+        "id": "38721",
+        "name": "Lamine Camara",
+        "short_name": "L. Camara",
+        "jersey": "8",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "5' 8\"",
+        "weight": "141 lbs",
+        "age": 22
+      },
+      {
+        "id": "253992",
+        "name": "Krépin Diatta",
+        "short_name": "K. Diatta",
+        "jersey": "15",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "5' 9\"",
+        "weight": "150 lbs",
+        "age": 27
+      },
+      {
+        "id": "297337",
+        "name": "Pape Matar Sarr",
+        "short_name": "P. Sarr",
+        "jersey": "17",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "6' 1\"",
+        "weight": "174 lbs",
+        "age": 23
+      },
+      {
+        "id": "324991",
+        "name": "Habib Diarra",
+        "short_name": "H. Diarra",
+        "jersey": "21",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "5' 10\"",
+        "weight": "161 lbs",
+        "age": 22
+      },
+      {
+        "id": "409016",
+        "name": "Bara Sapoko Ndiaye",
+        "short_name": "B. Ndiaye",
+        "jersey": "22",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "5' 11\"",
+        "weight": "172 lbs",
+        "age": 18
+      },
+      {
+        "id": "255889",
+        "name": "Pape Gueye",
+        "short_name": "P. Gueye",
+        "jersey": "26",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "6' 2\"",
+        "weight": "172 lbs",
+        "age": 27
+      }
+    ],
+    "F": [
+      {
+        "id": "364742",
+        "name": "Assane Diao",
+        "short_name": "A. Diao",
+        "jersey": "7",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "6' 1\"",
+        "weight": "174 lbs",
+        "age": 20
+      },
+      {
+        "id": "313889",
+        "name": "Bamba Dieng",
+        "short_name": "B. Dieng",
+        "jersey": "9",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "5' 10\"",
+        "weight": "172 lbs",
+        "age": 26
+      },
+      {
+        "id": "169797",
+        "name": "Sadio Mané",
+        "short_name": "S. Mané",
+        "jersey": "10",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "5' 9\"",
+        "weight": "150 lbs",
+        "age": 34
+      },
+      {
+        "id": "308524",
+        "name": "Nicolas Jackson",
+        "short_name": "N. Jackson",
+        "jersey": "11",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "6' 2\"",
+        "weight": "181 lbs",
+        "age": 24
+      },
+      {
+        "id": "251924",
+        "name": "Cherif Ndiaye",
+        "short_name": "C. Ndiaye",
+        "jersey": "12",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "6' 3\"",
+        "weight": "183 lbs",
+        "age": 30
+      },
+      {
+        "id": "268641",
+        "name": "Iliman Ndiaye",
+        "short_name": "I. Ndiaye",
+        "jersey": "13",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "5' 11\"",
+        "weight": "172 lbs",
+        "age": 26
+      },
+      {
+        "id": "241012",
+        "name": "Ismaïla Sarr",
+        "short_name": "I. Sarr",
+        "jersey": "18",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "6' 1\"",
+        "weight": "168 lbs",
+        "age": 28
+      },
+      {
+        "id": "388522",
+        "name": "Ibrahim Mbaye",
+        "short_name": "I. Mbaye",
+        "jersey": "20",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "6' 1\"",
+        "weight": "141 lbs",
+        "age": 18
+      }
+    ],
+    "U": []
+  },
+  "total_players": 26,
+  "position_labels": {
+    "G": "门将",
+    "D": "后卫",
+    "M": "中场",
+    "F": "前锋",
+    "U": "未知"
+  },
+  "_saved_at": "2026-06-16T19:57:56.059848"
+}

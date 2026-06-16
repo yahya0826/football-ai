@@ -1,0 +1,338 @@
+{
+  "team_id": "450",
+  "team_name": "Czechia",
+  "team_name_cn": "捷克",
+  "coach": "捷克主教练",
+  "players": {
+    "G": [
+      {
+        "id": "277313",
+        "name": "Matej Kovár",
+        "short_name": "M. Kovár",
+        "jersey": "1",
+        "position": "G",
+        "position_name": "Goalkeeper",
+        "headshot": "",
+        "height": "6' 5\"",
+        "weight": "183 lbs",
+        "age": 26
+      },
+      {
+        "id": "199988",
+        "name": "Jindrich Stanek",
+        "short_name": "J. Stanek",
+        "jersey": "16",
+        "position": "G",
+        "position_name": "Goalkeeper",
+        "headshot": "",
+        "height": "6' 4\"",
+        "weight": "196 lbs",
+        "age": 30
+      },
+      {
+        "id": "319267",
+        "name": "Lukás Hornícek",
+        "short_name": "L. Hornícek",
+        "jersey": "23",
+        "position": "G",
+        "position_name": "Goalkeeper",
+        "headshot": "",
+        "height": "6' 6\"",
+        "weight": "203 lbs",
+        "age": 23
+      }
+    ],
+    "D": [
+      {
+        "id": "290116",
+        "name": "David Zima",
+        "short_name": "D. Zima",
+        "jersey": "2",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 3\"",
+        "weight": "174 lbs",
+        "age": 25
+      },
+      {
+        "id": "280885",
+        "name": "Tomás Holes",
+        "short_name": "T. Holes",
+        "jersey": "3",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "5' 11\"",
+        "weight": "161 lbs",
+        "age": 33
+      },
+      {
+        "id": "322510",
+        "name": "Robin Hranác",
+        "short_name": "R. Hranác",
+        "jersey": "4",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 3\"",
+        "weight": "181 lbs",
+        "age": 26
+      },
+      {
+        "id": "191209",
+        "name": "Vladimír Coufal",
+        "short_name": "V. Coufal",
+        "jersey": "5",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "5' 9\"",
+        "weight": "168 lbs",
+        "age": 33
+      },
+      {
+        "id": "370744",
+        "name": "Stepán Chaloupek",
+        "short_name": "S. Chaloupek",
+        "jersey": "6",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 2\"",
+        "weight": "150 lbs",
+        "age": 23
+      },
+      {
+        "id": "151714",
+        "name": "Ladislav Krejcí",
+        "short_name": "L. Krejcí",
+        "jersey": "7",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 3\"",
+        "weight": "192 lbs",
+        "age": 27
+      },
+      {
+        "id": "335996",
+        "name": "David Jurásek",
+        "short_name": "D. Jurásek",
+        "jersey": "14",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 0\"",
+        "weight": "170 lbs",
+        "age": 25
+      },
+      {
+        "id": "276659",
+        "name": "Jaroslav Zelený",
+        "short_name": "J. Zelený",
+        "jersey": "20",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 3\"",
+        "weight": "179 lbs",
+        "age": 33
+      }
+    ],
+    "M": [
+      {
+        "id": "165637",
+        "name": "Vladimír Darida",
+        "short_name": "V. Darida",
+        "jersey": "8",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "5' 8\"",
+        "weight": "141 lbs",
+        "age": 35
+      },
+      {
+        "id": "303726",
+        "name": "Lukás Cerv",
+        "short_name": "L. Cerv",
+        "jersey": "12",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "6' 0\"",
+        "weight": "159 lbs",
+        "age": 25
+      },
+      {
+        "id": "305545",
+        "name": "Pavel Sulc",
+        "short_name": "P. Sulc",
+        "jersey": "15",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "5' 10\"",
+        "weight": "163 lbs",
+        "age": 25
+      },
+      {
+        "id": "294618",
+        "name": "Lukás Provod",
+        "short_name": "L. Provod",
+        "jersey": "17",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "6' 3\"",
+        "weight": "185 lbs",
+        "age": 29
+      },
+      {
+        "id": "249525",
+        "name": "Michal Sadílek",
+        "short_name": "M. Sadílek",
+        "jersey": "18",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/249525.png",
+        "height": "5' 7\"",
+        "weight": "141 lbs",
+        "age": 27
+      },
+      {
+        "id": "343937",
+        "name": "David Doudera",
+        "short_name": "D. Doudera",
+        "jersey": "21",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "5' 9\"",
+        "weight": "146 lbs",
+        "age": 28
+      },
+      {
+        "id": "230666",
+        "name": "Tomás Soucek",
+        "short_name": "T. Soucek",
+        "jersey": "22",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "6' 4\"",
+        "weight": "190 lbs",
+        "age": 31
+      },
+      {
+        "id": "387865",
+        "name": "Alexandr Sojka",
+        "short_name": "A. Sojka",
+        "jersey": "24",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "6' 2\"",
+        "weight": "170 lbs",
+        "age": 23
+      },
+      {
+        "id": "403974",
+        "name": "Hugo Sochurek",
+        "short_name": "H. Sochurek",
+        "jersey": "25",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "6' 0\"",
+        "weight": "172 lbs",
+        "age": 18
+      },
+      {
+        "id": "310027",
+        "name": "Denis Visinský",
+        "short_name": "D. Visinský",
+        "jersey": "26",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "5' 10\"",
+        "weight": "163 lbs",
+        "age": 23
+      }
+    ],
+    "F": [
+      {
+        "id": "292169",
+        "name": "Adam Hlozek",
+        "short_name": "A. Hlozek",
+        "jersey": "9",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "6' 2\"",
+        "weight": "183 lbs",
+        "age": 23
+      },
+      {
+        "id": "212330",
+        "name": "Patrik Schick",
+        "short_name": "P. Schick",
+        "jersey": "10",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "6' 3\"",
+        "weight": "190 lbs",
+        "age": 30
+      },
+      {
+        "id": "306008",
+        "name": "Jan Kuchta",
+        "short_name": "J. Kuchta",
+        "jersey": "11",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "6' 1\"",
+        "weight": "190 lbs",
+        "age": 29
+      },
+      {
+        "id": "343733",
+        "name": "Mojmír Chytil",
+        "short_name": "M. Chytil",
+        "jersey": "13",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "6' 2\"",
+        "weight": "181 lbs",
+        "age": 27
+      },
+      {
+        "id": "257336",
+        "name": "Tomás Chorý",
+        "short_name": "T. Chorý",
+        "jersey": "19",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "6' 6\"",
+        "weight": "218 lbs",
+        "age": 31
+      }
+    ],
+    "U": []
+  },
+  "total_players": 26,
+  "position_labels": {
+    "G": "门将",
+    "D": "后卫",
+    "M": "中场",
+    "F": "前锋",
+    "U": "未知"
+  },
+  "_saved_at": "2026-06-16T17:07:53.654736"
+}

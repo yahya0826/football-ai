@@ -7,13 +7,15 @@ import json
 import re
 import time
 from typing import Dict, List, Optional
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from openai import OpenAI
 
 from .live_match_service import TEAM_NAMES_CN
 
 DATA_DIR = Path(__file__).parent.parent / "data" / "intelligence" / "daily_summaries"
+SCHEDULE_PATH = Path(__file__).parent.parent / "data" / "schedule_2026.json"
+BEIJING_TZ = timezone(timedelta(hours=8))
 DATA_DIR.mkdir(parents=True, exist_ok=True)
 
 
@@ -33,14 +35,16 @@ class DailySummaryService:
     def get_daily_summary(self, date: str = None) -> Dict:
         """获取指定日期的比赛总结。未生成则尝试生成，未全部结束则返回进度。"""
         if date is None:
-            date = datetime.now().strftime("%Y-%m-%d")
+            date = self._today_bj()
 
         # 先从持久缓存读取
         cache_file = DATA_DIR / f"{date}.json"
         if cache_file.exists():
             try:
                 with open(cache_file, 'r', encoding='utf-8') as f:
-                    return json.load(f)
+                    cached = json.load(f)
+                if self._is_valid_summary_cache(date, cached):
+                    return cached
             except Exception:
                 pass
 
@@ -51,8 +55,7 @@ class DailySummaryService:
             return result
 
         # 尚未全部结束，返回进度
-        from .live_match_service import live_match_service
-        matches = live_match_service.get_today_matches(date)
+        matches = self._get_schedule_day_matches(date)
         total = len(matches)
         completed = sum(1 for m in matches
                        if m.get("state", "") == "finished")
@@ -78,15 +81,14 @@ class DailySummaryService:
     def check_and_generate(self, date: str = None) -> Optional[Dict]:
         """检查是否所有比赛结束，是则生成总结。返回生成结果或 None。"""
         if date is None:
-            date = datetime.now().strftime("%Y-%m-%d")
+            date = self._today_bj()
 
         # 检查是否已生成
         cache_file = DATA_DIR / f"{date}.json"
         if cache_file.exists():
             return None  # 已生成，不重复
 
-        from .live_match_service import live_match_service
-        matches = live_match_service.get_today_matches(date)
+        matches = self._get_schedule_day_matches(date)
 
         if not matches:
             return None
@@ -121,7 +123,112 @@ class DailySummaryService:
                 continue
         return summaries[:30]
 
+    def check_and_generate(self, date: str = None) -> Optional[Dict]:
+        """Generate a persisted summary only for product schedule matches."""
+        if date is None:
+            date = self._today_bj()
+
+        cached = self._load_summary_cache(date)
+        if cached and self._is_valid_summary_cache(date, cached):
+            return None
+
+        matches = self._get_schedule_day_matches(date)
+        if not matches:
+            return None
+
+        all_finished = all(m.get("state", "") == "finished" for m in matches)
+        if not all_finished:
+            return None
+
+        return self._generate_summary(date, matches)
+
     # ── internal ──────────────────────────────────────────────
+
+    @staticmethod
+    def _today_bj() -> str:
+        return datetime.now(BEIJING_TZ).strftime("%Y-%m-%d")
+
+    def _load_schedule_matches(self, date: str) -> List[Dict]:
+        if not SCHEDULE_PATH.exists():
+            return []
+        try:
+            data = json.loads(SCHEDULE_PATH.read_text(encoding="utf-8"))
+        except Exception:
+            return []
+        return [
+            m for m in data.get("matches", [])
+            if m.get("date") == date and not self._is_placeholder_match(m)
+        ]
+
+    @staticmethod
+    def _is_placeholder_match(match: Dict) -> bool:
+        if match.get("stage") == "group":
+            return False
+        teams = [match.get("home_team", ""), match.get("away_team", "")]
+        return any(any(ch.isdigit() for ch in team) or "/" in team for team in teams)
+
+    def _get_schedule_day_matches(self, date: str) -> List[Dict]:
+        """Return only product schedule matches for a Beijing match day, enriched with ESPN status."""
+        from .live_match_service import live_match_service
+
+        schedule_matches = self._load_schedule_matches(date)
+        result: List[Dict] = []
+
+        for match in schedule_matches:
+            home = match.get("home_team", "")
+            away = match.get("away_team", "")
+            item = {
+                "match_id": match.get("match_id"),
+                "schedule_match_id": match.get("match_id"),
+                "home_team": home,
+                "away_team": away,
+                "home_team_cn": match.get("home_team_cn") or TEAM_NAMES_CN.get(home, home),
+                "away_team_cn": match.get("away_team_cn") or TEAM_NAMES_CN.get(away, away),
+                "home_score": 0,
+                "away_score": 0,
+                "state": "scheduled",
+                "date": match.get("date", date),
+                "time_bj": match.get("time_bj", ""),
+                "stage": match.get("stage", ""),
+                "group": match.get("group", ""),
+            }
+
+            espn_id = live_match_service.find_match_by_teams(home, away, date)
+            if espn_id:
+                detail = live_match_service.get_match_detail(espn_id)
+                if detail:
+                    item.update({
+                        "match_id": espn_id,
+                        "espn_match_id": espn_id,
+                        "home_score": int(detail.get("home", {}).get("score", 0) or 0),
+                        "away_score": int(detail.get("away", {}).get("score", 0) or 0),
+                        "state": detail.get("status", {}).get("state", "scheduled"),
+                        "date_bj": detail.get("date_bj", date),
+                    })
+
+            result.append(item)
+
+        return result
+
+    @staticmethod
+    def _load_summary_cache(date: str) -> Optional[Dict]:
+        cache_file = DATA_DIR / f"{date}.json"
+        if not cache_file.exists():
+            return None
+        try:
+            with open(cache_file, 'r', encoding='utf-8') as f:
+                return json.load(f)
+        except Exception:
+            return None
+
+    def _is_valid_summary_cache(self, date: str, data: Dict) -> bool:
+        if not data.get("generated"):
+            return True
+        schedule_count = len(self._load_schedule_matches(date))
+        return (
+            data.get("source") == "schedule_2026"
+            and data.get("matches_count") == schedule_count
+        )
 
     def _generate_summary(self, date: str, matches: List[Dict]) -> Dict:
         """生成比赛日总结文章"""
@@ -215,6 +322,7 @@ class DailySummaryService:
             "date": date,
             "title": title,
             "date_cn": date_cn,
+            "source": "schedule_2026",
             "matches_count": len(match_summaries),
             "matches": match_summaries,
             "article": article,

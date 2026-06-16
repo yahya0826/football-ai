@@ -1136,6 +1136,7 @@ export interface LiveMatchSummary {
   match_id: string;
   name: string;
   date: string;
+  date_bj?: string;
   state: 'live' | 'halftime' | 'finished' | 'scheduled';
   state_cn?: string;
   status_detail: string;
@@ -1176,6 +1177,7 @@ export interface LiveEvent {
 
 export interface LiveMatchDetail {
   match_id: string;
+  date_bj?: string;
   status: {
     state: string;
     state_cn?: string;

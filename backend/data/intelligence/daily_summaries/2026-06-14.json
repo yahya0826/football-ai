@@ -2,8 +2,33 @@
   "date": "2026-06-14",
   "title": "6月14日世界杯比赛总结",
   "date_cn": "6月14日",
-  "matches_count": 5,
+  "source": "schedule_2026",
+  "matches_count": 4,
   "matches": [
+    {
+      "home_team": "Qatar",
+      "home_team_cn": "卡塔尔",
+      "away_team": "Switzerland",
+      "away_team_cn": "瑞士",
+      "score": "1-1",
+      "analysis": "全场比赛结束，卡塔尔 1-1 与瑞士握手言和。\n\n瑞士在进攻端表现更为出色，平局是合理的结果。\n\n瑞士控球率 68%，拥有明显控球优势。\n\n转折点：第94分钟Miro Muheim Own Goal被罚下，彻底改变了比赛走势。"
+    },
+    {
+      "home_team": "Brazil",
+      "home_team_cn": "巴西",
+      "away_team": "Morocco",
+      "away_team_cn": "摩洛哥",
+      "score": "1-1",
+      "analysis": "全场比赛结束，巴西 1-1 与摩洛哥握手言和。\n\n进球回顾：第21分钟Ismael Saibari Goal为摩洛哥进球；第32分钟Vinícius Júnior Goal为巴西进球。\n\n巴西在进攻端创造了更多威胁，平局是合理的结果。\n\n控球率接近，中场争夺贯穿全场。"
+    },
+    {
+      "home_team": "Haiti",
+      "home_team_cn": "海地",
+      "away_team": "Scotland",
+      "away_team_cn": "苏格兰",
+      "score": "0-1",
+      "analysis": "全场比赛结束，苏格兰 1-0 战胜海地。\n\n进球回顾：第28分钟John McGinn Goal为苏格兰进球。\n\n海地在进攻端创造了更多威胁，但结果略有运气成分。\n\n海地控球率 54%，略有控球优势。"
+    },
     {
       "home_team": "Australia",
       "home_team_cn": "澳大利亚",
@@ -11,41 +36,9 @@
       "away_team_cn": "土耳其",
       "score": "2-0",
       "analysis": "全场比赛结束，澳大利亚 2-0 战胜土耳其。\n\n进球回顾：第27分钟Nestory Irankunda Goal为澳大利亚进球；第75分钟Connor Metcalfe Goal为澳大利亚进球。\n\n土耳其在进攻端表现更为出色，但结果略有运气成分。\n\n土耳其控球率 72%，形成压倒性控球优势。\n\n下半场第75分钟Connor Metcalfe Goal的进球成为比赛关键转折。"
-    },
-    {
-      "home_team": "Germany",
-      "home_team_cn": "德国",
-      "away_team": "Curaçao",
-      "away_team_cn": "库拉索",
-      "score": "7-1",
-      "analysis": "全场比赛结束，德国 7-1 战胜库拉索。\n\n进球回顾：第6分钟Felix Nmecha Goal为德国进球；第21分钟Livano Comenencia Goal为库拉索进球；第38分钟Nico Schlotterbeck Goal - Header为德国进球；第47分钟Jamal Musiala Goal为德国进球；第78分钟Deniz Undav Goal为德国进球；第88分钟Kai Havertz Goal为德国进球。\n\n德国在进攻端创造了更多威胁，结果与场面相符。\n\n德国控球率 65%，拥有明显控球优势。\n\n下半场第47分钟Jamal Musiala Goal的进球成为比赛关键转折。"
-    },
-    {
-      "home_team": "Netherlands",
-      "home_team_cn": "荷兰",
-      "away_team": "Japan",
-      "away_team_cn": "日本",
-      "score": "2-2",
-      "analysis": "全场比赛结束，荷兰 2-2 与日本握手言和。\n\n进球回顾：第51分钟Virgil van Dijk Goal - Header为荷兰进球；第57分钟Keito Nakamura Goal为日本进球；第64分钟Crysencio Summerville Goal为荷兰进球；第89分钟Daichi Kamada Goal - Header为日本进球。\n\n荷兰在进攻端创造了更多威胁，平局是合理的结果。\n\n荷兰控球率 60%，占据一定控球优势。\n\n下半场第51分钟Virgil van Dijk Goal - Header的进球成为比赛关键转折。"
-    },
-    {
-      "home_team": "Ivory Coast",
-      "home_team_cn": "科特迪瓦",
-      "away_team": "Ecuador",
-      "away_team_cn": "厄瓜多尔",
-      "score": "1-0",
-      "analysis": "全场比赛结束，科特迪瓦 1-0 战胜厄瓜多尔。\n\n进球回顾：第90分钟Amad Diallo Goal为科特迪瓦进球。\n\n科特迪瓦在进攻端创造了更多威胁，结果与场面相符。\n\n控球率接近，中场争夺贯穿全场。\n\n下半场第90分钟Amad Diallo Goal的进球成为比赛关键转折。"
-    },
-    {
-      "home_team": "Sweden",
-      "home_team_cn": "瑞典",
-      "away_team": "Tunisia",
-      "away_team_cn": "突尼斯",
-      "score": "5-1",
-      "analysis": "全场比赛结束，瑞典 5-1 战胜突尼斯。\n\n进球回顾：第7分钟Yasin Ayari Goal为瑞典进球；第30分钟Alexander Isak Goal为瑞典进球；第43分钟Omar Rekik Goal - Header为突尼斯进球；第59分钟Viktor Gyökeres Goal为瑞典进球；第84分钟Mattias Svanberg Goal为瑞典进球；第96分钟Yasin Ayari Goal为瑞典进球。\n\n瑞典在进攻端创造了更多威胁，结果与场面相符。\n\n控球率接近，中场争夺贯穿全场。\n\n下半场第59分钟Viktor Gyökeres Goal的进球成为比赛关键转折。"
     }
   ],
-  "article": "# 6月14日世界杯比赛总结\n\n\n6月14日世界杯共进行了5场比赛。\n\n\n## 澳大利亚 vs 土耳其\n\n最终比分 **2-0**。\n\n\n全场比赛结束，澳大利亚 2-0 战胜土耳其。\n\n进球回顾：第27分钟Nestory Irankunda Goal为澳大利亚进球；第75分钟Connor Metcalfe Goal为澳大利亚进球。\n\n土耳其在进攻端表现更为出色，但结果略有运气成分。\n\n土耳其控球率 72%，形成压倒性控球优势。\n\n下半场第75分钟Connor Metcalfe Goal的进球成为比赛关键转折。\n\n\n## 德国 vs 库拉索\n\n最终比分 **7-1**。\n\n\n全场比赛结束，德国 7-1 战胜库拉索。\n\n进球回顾：第6分钟Felix Nmecha Goal为德国进球；第21分钟Livano Comenencia Goal为库拉索进球；第38分钟Nico Schlotterbeck Goal - Header为德国进球；第47分钟Jamal Musiala Goal为德国进球；第78分钟Deniz Undav Goal为德国进球；第88分钟Kai Havertz Goal为德国进球。\n\n德国在进攻端创造了更多威胁，结果与场面相符。\n\n德国控球率 65%，拥有明显控球优势。\n\n下半场第47分钟Jamal Musiala Goal的进球成为比赛关键转折。\n\n\n## 荷兰 vs 日本\n\n最终比分 **2-2**。\n\n\n全场比赛结束，荷兰 2-2 与日本握手言和。\n\n进球回顾：第51分钟Virgil van Dijk Goal - Header为荷兰进球；第57分钟Keito Nakamura Goal为日本进球；第64分钟Crysencio Summerville Goal为荷兰进球；第89分钟Daichi Kamada Goal - Header为日本进球。\n\n荷兰在进攻端创造了更多威胁，平局是合理的结果。\n\n荷兰控球率 60%，占据一定控球优势。\n\n下半场第51分钟Virgil van Dijk Goal - Header的进球成为比赛关键转折。\n\n\n## 科特迪瓦 vs 厄瓜多尔\n\n最终比分 **1-0**。\n\n\n全场比赛结束，科特迪瓦 1-0 战胜厄瓜多尔。\n\n进球回顾：第90分钟Amad Diallo Goal为科特迪瓦进球。\n\n科特迪瓦在进攻端创造了更多威胁，结果与场面相符。\n\n控球率接近，中场争夺贯穿全场。\n\n下半场第90分钟Amad Diallo Goal的进球成为比赛关键转折。\n\n\n## 瑞典 vs 突尼斯\n\n最终比分 **5-1**。\n\n\n全场比赛结束，瑞典 5-1 战胜突尼斯。\n\n进球回顾：第7分钟Yasin Ayari Goal为瑞典进球；第30分钟Alexander Isak Goal为瑞典进球；第43分钟Omar Rekik Goal - Header为突尼斯进球；第59分钟Viktor Gyökeres Goal为瑞典进球；第84分钟Mattias Svanberg Goal为瑞典进球；第96分钟Yasin Ayari Goal为瑞典进球。\n\n瑞典在进攻端创造了更多威胁，结果与场面相符。\n\n控球率接近，中场争夺贯穿全场。\n\n下半场第59分钟Viktor Gyökeres Goal的进球成为比赛关键转折。\n\n\n\n> 本总结由 AI 自动生成，仅供参考。",
-  "generated_at": "2026-06-15T23:23:24.395540",
+  "article": "# 6月14日世界杯比赛总结\n\n\n6月14日世界杯共进行了4场比赛。\n\n\n## 卡塔尔 vs 瑞士\n\n最终比分 **1-1**。\n\n\n全场比赛结束，卡塔尔 1-1 与瑞士握手言和。\n\n瑞士在进攻端表现更为出色，平局是合理的结果。\n\n瑞士控球率 68%，拥有明显控球优势。\n\n转折点：第94分钟Miro Muheim Own Goal被罚下，彻底改变了比赛走势。\n\n\n## 巴西 vs 摩洛哥\n\n最终比分 **1-1**。\n\n\n全场比赛结束，巴西 1-1 与摩洛哥握手言和。\n\n进球回顾：第21分钟Ismael Saibari Goal为摩洛哥进球；第32分钟Vinícius Júnior Goal为巴西进球。\n\n巴西在进攻端创造了更多威胁，平局是合理的结果。\n\n控球率接近，中场争夺贯穿全场。\n\n\n## 海地 vs 苏格兰\n\n最终比分 **0-1**。\n\n\n全场比赛结束，苏格兰 1-0 战胜海地。\n\n进球回顾：第28分钟John McGinn Goal为苏格兰进球。\n\n海地在进攻端创造了更多威胁，但结果略有运气成分。\n\n海地控球率 54%，略有控球优势。\n\n\n## 澳大利亚 vs 土耳其\n\n最终比分 **2-0**。\n\n\n全场比赛结束，澳大利亚 2-0 战胜土耳其。\n\n进球回顾：第27分钟Nestory Irankunda Goal为澳大利亚进球；第75分钟Connor Metcalfe Goal为澳大利亚进球。\n\n土耳其在进攻端表现更为出色，但结果略有运气成分。\n\n土耳其控球率 72%，形成压倒性控球优势。\n\n下半场第75分钟Connor Metcalfe Goal的进球成为比赛关键转折。\n\n\n\n> 本总结由 AI 自动生成，仅供参考。",
+  "generated_at": "2026-06-16T20:34:45.761140",
   "generated": true
 }

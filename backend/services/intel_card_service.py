@@ -2,9 +2,7 @@
 哨前情报卡服务 — 单场比赛结构化分析
 生成包含阵容、战术、伤病、变量追踪的情报卡
 """
-import os
 from typing import Dict, List, Optional
-from openai import OpenAI
 
 from .intelligence_data_service import intelligence_data_service
 from .sentiment_service import sentiment_service
@@ -16,11 +14,6 @@ class IntelCardService:
     """哨前情报卡生成器"""
 
     def __init__(self):
-        api_key = os.environ.get("DEEPSEEK_API_KEY", os.environ.get("OPENAI_API_KEY", ""))
-        self.client = OpenAI(api_key=api_key) if api_key else None
-        if self.client:
-            self.client.base_url = os.environ.get("DEEPSEEK_BASE_URL", "https://api.deepseek.com")
-        self.model = os.environ.get("AI_MODEL", "deepseek-chat")
         self.data = intelligence_data_service
         self.sentiment = sentiment_service
 

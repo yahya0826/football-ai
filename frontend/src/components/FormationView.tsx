@@ -192,8 +192,16 @@ function buildSlotsFromLineup(
   replacements: Map<string, LineupPlayer> = new Map(),
   subbedIn: Set<string> = new Set(),
 ): PitchSlot[] {
-  // Apply substitutions: replace subbed-out players with subbed-in players
-  const activeStarters = starters.map(p => replacements.get(p.id) || p);
+  // Apply substitutions: replace subbed-out players with subbed-in players.
+  // ESPN sets substitute positions to "SUB" — inherit original starter's position for grouping.
+  const activeStarters = starters.map((starter) => {
+    const replacement = replacements.get(starter.id);
+    if (!replacement) return starter;
+    if (getPositionGroup(replacement.position) === 'U') {
+      return { ...replacement, position: starter.position };
+    }
+    return replacement;
+  });
 
   const gk = activeStarters.filter(p => getPositionGroup(p.position) === 'G');
   const def = activeStarters.filter(p => getPositionGroup(p.position) === 'D');

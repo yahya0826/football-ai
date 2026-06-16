@@ -21,7 +21,7 @@ import logging
 from pathlib import Path
 from typing import Optional, Dict, List, Any
 from dataclasses import dataclass, field
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 
 import requests
 
@@ -30,6 +30,7 @@ logger = logging.getLogger(__name__)
 ESPN_BASE = "https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world"
 BASE_DIR = Path(__file__).parent.parent
 DATA_DIR = BASE_DIR / "data" / "live_matches"
+BEIJING_TZ = timezone(timedelta(hours=8))
 
 # Map ESPN detailed position codes to G/D/M/F groups
 _POSITION_GROUP: Dict[str, str] = {
@@ -174,8 +175,51 @@ class LiveMatchService:
         if date:
             # Convert to YYYYMMDD format for ESPN API
             date_str = date.replace("-", "")
-            return self._cached(f"scoreboard_{date_str}", 3600, lambda: self._fetch_scoreboard(date_str))
+            return self._cached(f"scoreboard_{date_str}", SCOREBOARD_TTL, lambda: self._fetch_scoreboard(date_str))
         return self._cached("scoreboard", SCOREBOARD_TTL, self._fetch_scoreboard)
+
+    def _today_bj(self) -> str:
+        return datetime.now(BEIJING_TZ).strftime("%Y-%m-%d")
+
+    @staticmethod
+    def _parse_api_datetime(value: str) -> Optional[datetime]:
+        if not value:
+            return None
+        try:
+            dt = datetime.fromisoformat(value.replace("Z", "+00:00"))
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=timezone.utc)
+            return dt
+        except ValueError:
+            return None
+
+    def _business_date(self, value: str) -> str:
+        """Convert ESPN UTC timestamps to the Beijing schedule date."""
+        dt = self._parse_api_datetime(value)
+        if dt:
+            return dt.astimezone(BEIJING_TZ).strftime("%Y-%m-%d")
+        return (value or "")[:10]
+
+    @staticmethod
+    def _utc_dates_for_beijing_date(date: str) -> List[str]:
+        try:
+            bj_day = datetime.strptime(date, "%Y-%m-%d")
+        except ValueError:
+            return [date]
+        return [(bj_day - timedelta(days=1)).strftime("%Y-%m-%d"), date]
+
+    def _scoreboard_events_for_business_date(self, date: str) -> List[Dict]:
+        events: List[Dict] = []
+        seen = set()
+        for utc_date in self._utc_dates_for_beijing_date(date):
+            sb = self.get_scoreboard(utc_date) or {}
+            for ev in sb.get("events", []):
+                event_id = str(ev.get("id", ""))
+                if event_id in seen:
+                    continue
+                seen.add(event_id)
+                events.append(ev)
+        return events
 
     def get_live_matches(self) -> List[Dict]:
         """Return only in-progress / halftime matches, enriched for the ticker."""
@@ -189,30 +233,57 @@ class LiveMatchService:
         return live
 
     def get_today_matches(self, date: str = None) -> List[Dict]:
-        """Return matches for a given date (all statuses). Merges ESPN scoreboard with local persisted data.
-        When date is None, returns today's matches from default scoreboard."""
-        sb = self.get_scoreboard(date)
+        """Return matches for a given date (all statuses).
+        Past dates: local persistence first (no API call).
+        Today/future: ESPN API with local supplement."""
+        today_str = self._today_bj()
+        target_date = date or today_str
+
+        # For past dates, rely on locally persisted data — no ESPN API needed
+        if target_date < today_str:
+            local = self._scan_local_matches()
+            matched = [m for m in local if self._business_date(m.get("date", "")) == target_date]
+            if matched:
+                return matched
+            # No local data at all — fall through to ESPN
+
+        # Today / future / no-local-data: fetch from ESPN and merge with local
         espn_ids = set()
         results = []
-        for ev in sb.get("events", []):
+        events = self._scoreboard_events_for_business_date(target_date) if date else (self.get_scoreboard() or {}).get("events", [])
+        for ev in events:
             m = self._simplify_match(ev)
+            if date and self._business_date(m.get("date", "")) != target_date:
+                continue
             espn_ids.add(m["match_id"])
             results.append(m)
 
         # Supplement with locally persisted matches not in ESPN scoreboard
-        if not date:
+        if target_date >= today_str:
             for local in self._scan_local_matches():
-                if local["match_id"] not in espn_ids:
+                if local["match_id"] not in espn_ids and self._business_date(local.get("date", "")) == target_date:
                     results.append(local)
 
         return results
+
+    @staticmethod
+    def _date_near(d1: str, d2: str) -> bool:
+        """Check if two date strings are within 1 day (handles UTC vs Beijing timezone)."""
+        if not d1 or not d2:
+            return False
+        try:
+            dt1 = datetime.strptime(d1[:10], "%Y-%m-%d")
+            dt2 = datetime.strptime(d2[:10], "%Y-%m-%d")
+            return abs((dt1 - dt2).days) <= 1
+        except ValueError:
+            return d1[:10] == d2[:10]
 
     def get_match_detail(self, match_id: str) -> Optional[Dict]:
         """Get full match detail with Chinese labels. Checks local persistence first."""
         # Try local persistence first (for finished matches)
         local = self._load_local(match_id)
         if local and local.get("status", {}).get("state") == "finished":
-            return local
+            return self._fix_spurious_fulltime_events(local)
 
         # Fetch from ESPN
         key = f"match_{match_id}"
@@ -223,7 +294,7 @@ class LiveMatchService:
             self._save_local(match_id, detail)
         elif local:
             # Fallback to stale local data if ESPN fetch fails
-            return local
+            return self._fix_spurious_fulltime_events(local)
         return detail
 
     def _normalize_team(self, name: str) -> str:
@@ -235,27 +306,17 @@ class LiveMatchService:
 
     def find_match_by_teams(self, home_team: str, away_team: str, date: str = None) -> Optional[str]:
         """Find an ESPN match_id by matching home/away team names. Returns match_id or None.
-        Searches ESPN scoreboard first (with date filter if provided), then falls back to locally persisted match files."""
-        # Determine ESPN UTC date from schedule date (Beijing time = UTC+8, so -1 day)
-        espn_date = None
-        if date:
-            from datetime import datetime, timedelta
-            try:
-                dt = datetime.strptime(date, "%Y-%m-%d") - timedelta(days=1)
-                espn_date = dt.strftime("%Y-%m-%d")
-            except ValueError:
-                pass
-
-        # Search ESPN scoreboard with date filter if available
-        sb = self.get_scoreboard(espn_date)
-        sb_simplified = [self._simplify_match(ev) for ev in sb.get("events", [])]
-        result = self._search_events_by_teams(sb_simplified, home_team, away_team, date)
+        Searches local persistence first, then falls back to ESPN scoreboard."""
+        # Search local persisted match files first (fast, no API call)
+        local_matches = self._scan_local_matches()
+        result = self._search_events_by_teams(local_matches, home_team, away_team, date)
         if result:
             return result
 
-        # Fallback: search local persisted match files
-        local_matches = self._scan_local_matches()
-        return self._search_events_by_teams(local_matches, home_team, away_team, date)
+        # Fallback: search ESPN scoreboards that can contain this Beijing match day.
+        events = self._scoreboard_events_for_business_date(date) if date else (self.get_scoreboard() or {}).get("events", [])
+        sb_simplified = [self._simplify_match(ev) for ev in events]
+        return self._search_events_by_teams(sb_simplified, home_team, away_team, date)
 
     def _search_events_by_teams(self, events: List[Dict], home_team: str, away_team: str, date: str = None) -> Optional[str]:
         """Search a list of simplified match events for matching team names."""
@@ -269,15 +330,8 @@ class LiveMatchService:
                 continue
             ev_date = (ev.get("date", "") or "")[:10]
             if (h == h_norm or h_norm in h or h in h_norm) and (a == a_norm or a_norm in a or a in a_norm):
-                if date and ev_date:
-                    try:
-                        d1 = datetime.strptime(date, "%Y-%m-%d")
-                        d2 = datetime.strptime(ev_date, "%Y-%m-%d")
-                        if abs((d1 - d2).days) > 1:
-                            continue
-                    except ValueError:
-                        if ev_date != date:
-                            continue
+                if date and ev_date and self._business_date(ev.get("date", "")) != date:
+                    continue
                 return str(ev.get("match_id", ev.get("id", "")))
         return None
 
@@ -448,6 +502,7 @@ class LiveMatchService:
             "match_id": str(local.get("match_id", "")),
             "name": f"{home_name} vs {away_name}",
             "date": local.get("date", ""),
+            "date_bj": local.get("date_bj") or self._business_date(local.get("date", "")),
             "state": state,
             "state_cn": STATUS_CN.get(state, state),
             "status_detail": status.get("detail", ""),
@@ -506,7 +561,22 @@ class LiveMatchService:
         # Events - generate Chinese descriptions
         scores = {"home": 0, "away": 0}
         for ev in detail.get("events", []):
-            ev["type_cn"] = EVENT_TYPE_CN.get(ev.get("type", ""), ev.get("type", ""))
+            etype = ev.get("type", "")
+            # ESPN fires type-82 ("fulltime") at end of both halves.
+            # If match state is halftime or still live, a fulltime event at ~45'
+            # is the end of the first half, not the end of the match.
+            if etype == "fulltime" and state in ("halftime", "live"):
+                minute_str = ev.get("minute", "")
+                base = minute_str.split("'+")[0].split("'")[0].strip()
+                try:
+                    minute_num = int(base)
+                except ValueError:
+                    minute_num = 0
+                if minute_num <= 55:
+                    etype = "halftime"
+                    ev["type"] = "halftime"
+
+            ev["type_cn"] = EVENT_TYPE_CN.get(etype, etype)
             ev["team_cn"] = self._team_cn(ev.get("team", ""))
             ev["description_cn"] = self._generate_event_cn(ev, scores)
 
@@ -518,6 +588,34 @@ class LiveMatchService:
             for key, val in stats.items():
                 val["label_cn"] = STAT_LABELS_CN.get(key, val.get("label", key))
 
+        return self._fix_spurious_fulltime_events(detail)
+
+    def _fix_spurious_fulltime_events(self, detail: Dict) -> Dict:
+        """Fix ESPN type-82 events: at end of first half (~45') they also fire
+        as 'fulltime', but for us they should be 'halftime' when later events exist."""
+        events = detail.get("events", [])
+        for i, ev in enumerate(events):
+            if ev.get("type") != "fulltime":
+                continue
+            minute_str = ev.get("minute", "")
+            base = minute_str.split("'+")[0].split("'")[0].strip()
+            try:
+                minute_num = int(base)
+            except ValueError:
+                minute_num = 0
+            if minute_num > 55:
+                continue
+            has_later = any(
+                e.get("type") not in ("halftime", "fulltime", "kickoff")
+                and i < j
+                for j, e in enumerate(events)
+            )
+            if has_later:
+                ev["type"] = "halftime"
+                if "type_cn" in ev:
+                    ev["type_cn"] = EVENT_TYPE_CN["halftime"]
+                if "description_cn" in ev:
+                    ev["description_cn"] = "上半场结束 ⏸️"
         return detail
 
     def _generate_event_cn(self, ev: Dict, scores: Dict[str, int]) -> str:
@@ -600,6 +698,7 @@ class LiveMatchService:
             "match_id": str(event.get("id", "")),
             "name": event.get("name", ""),
             "date": event.get("date", ""),
+            "date_bj": self._business_date(event.get("date", "")),
             "state": state,
             "state_cn": STATUS_CN.get(state, state),
             "status_detail": detail,
@@ -660,15 +759,18 @@ class LiveMatchService:
 
         # Extract match date from header
         date = ""
+        date_bj = ""
         for comp in header.get("competitions", []):
             d = comp.get("date", "")
             if d:
                 date = d[:10] if "T" in d else d[:10]
+                date_bj = self._business_date(d)
                 break
 
         return {
             "match_id": match_id,
             "date": date,
+            "date_bj": date_bj or date,
             "status": status_info,
             "home": teams_info.get("home", {}),
             "away": teams_info.get("away", {}),

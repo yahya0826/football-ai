@@ -1,0 +1,338 @@
+{
+  "team_id": "655",
+  "team_name": "Saudi Arabia",
+  "team_name_cn": "沙特阿拉伯",
+  "coach": "沙特阿拉伯主教练",
+  "players": {
+    "G": [
+      {
+        "id": "302332",
+        "name": "Nawaf Al-Aqidi",
+        "short_name": "N. Al-Aqidi",
+        "jersey": "1",
+        "position": "G",
+        "position_name": "Goalkeeper",
+        "headshot": "",
+        "height": "6' 1\"",
+        "weight": "192 lbs",
+        "age": 26
+      },
+      {
+        "id": "247018",
+        "name": "Mohammed Al-Owais",
+        "short_name": "M. Al-Owais",
+        "jersey": "21",
+        "position": "G",
+        "position_name": "Goalkeeper",
+        "headshot": "",
+        "height": "6' 1\"",
+        "weight": "170 lbs",
+        "age": 34
+      },
+      {
+        "id": "171878",
+        "name": "Ahmed Al-Kassar",
+        "short_name": "A. Al-Kassar",
+        "jersey": "22",
+        "position": "G",
+        "position_name": "Goalkeeper",
+        "headshot": "",
+        "height": "5' 10\"",
+        "weight": "172 lbs",
+        "age": 35
+      }
+    ],
+    "D": [
+      {
+        "id": "331920",
+        "name": "Ali Majrashi",
+        "short_name": "A. Majrashi",
+        "jersey": "2",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "5' 7\"",
+        "weight": "150 lbs",
+        "age": 26
+      },
+      {
+        "id": "296972",
+        "name": "Ali Lajami",
+        "short_name": "A. Lajami",
+        "jersey": "3",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "5' 10\"",
+        "weight": "157 lbs",
+        "age": 30
+      },
+      {
+        "id": "256667",
+        "name": "Abdulelah Al-Amri",
+        "short_name": "A. Al-Amri",
+        "jersey": "4",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 1\"",
+        "weight": "170 lbs",
+        "age": 29
+      },
+      {
+        "id": "256666",
+        "name": "Hassan Al-Tambakti",
+        "short_name": "H. Al-Tambakti",
+        "jersey": "5",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 0\"",
+        "weight": "183 lbs",
+        "age": 27
+      },
+      {
+        "id": "286011",
+        "name": "Saud Abdulhamid",
+        "short_name": "S. Abdulhamid",
+        "jersey": "12",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "5' 8\"",
+        "weight": "161 lbs",
+        "age": 26
+      },
+      {
+        "id": "331918",
+        "name": "Nawaf Boushal",
+        "short_name": "N. Boushal",
+        "jersey": "13",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "5' 8\"",
+        "weight": "139 lbs",
+        "age": 26
+      },
+      {
+        "id": "185636",
+        "name": "Hassan Kadish",
+        "short_name": "H. Kadish",
+        "jersey": "14",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "5' 10\"",
+        "weight": "152 lbs",
+        "age": 33
+      },
+      {
+        "id": "330543",
+        "name": "Moteb Al-Harbi",
+        "short_name": "M. Al-Harbi",
+        "jersey": "24",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "5' 8\"",
+        "weight": "141 lbs",
+        "age": 26
+      },
+      {
+        "id": "371796",
+        "name": "Jehad Thakri",
+        "short_name": "J. Thakri",
+        "jersey": "25",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 0\"",
+        "weight": "179 lbs",
+        "age": 24
+      }
+    ],
+    "M": [
+      {
+        "id": "270417",
+        "name": "Nasser Al-Dawsari",
+        "short_name": "N. Al-Dawsari",
+        "jersey": "6",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "5' 10\"",
+        "weight": "170 lbs",
+        "age": 27
+      },
+      {
+        "id": "315523",
+        "name": "Musab Al-Juwayr",
+        "short_name": "M. Al-Juwayr",
+        "jersey": "7",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "5' 9\"",
+        "weight": "152 lbs",
+        "age": 22
+      },
+      {
+        "id": "296602",
+        "name": "Aiman Yahya",
+        "short_name": "A. Yahya",
+        "jersey": "8",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "5' 8\"",
+        "weight": "159 lbs",
+        "age": 25
+      },
+      {
+        "id": "163850",
+        "name": "Salem Al-Dawsari",
+        "short_name": "S. Al-Dawsari",
+        "jersey": "10",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "5' 8\"",
+        "weight": "157 lbs",
+        "age": 34
+      },
+      {
+        "id": "271461",
+        "name": "Abdullah Al-Khaibari",
+        "short_name": "A. Al-Khaibari",
+        "jersey": "15",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "5' 9\"",
+        "weight": "146 lbs",
+        "age": 29
+      },
+      {
+        "id": "306692",
+        "name": "Ziyad Al-Johani",
+        "short_name": "Z. Al-Johani",
+        "jersey": "16",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "5' 11\"",
+        "weight": "139 lbs",
+        "age": 24
+      },
+      {
+        "id": "357660",
+        "name": "Ala Al-Hajji",
+        "short_name": "A. Al-Hajji",
+        "jersey": "18",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "5' 10\"",
+        "weight": "163 lbs",
+        "age": 30
+      },
+      {
+        "id": "262468",
+        "name": "Mohamed Kanno",
+        "short_name": "M. Kanno",
+        "jersey": "23",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "6' 3\"",
+        "weight": "148 lbs",
+        "age": 31
+      },
+      {
+        "id": "361692",
+        "name": "Mohammed Abu Al-Shamat",
+        "short_name": "M. Abu Al-Shamat",
+        "jersey": "26",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "5' 7\"",
+        "weight": "137 lbs",
+        "age": 23
+      }
+    ],
+    "F": [
+      {
+        "id": "283331",
+        "name": "Feras Al-Brikan",
+        "short_name": "F. Al-Brikan",
+        "jersey": "9",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "6' 1\"",
+        "weight": "172 lbs",
+        "age": 26
+      },
+      {
+        "id": "177897",
+        "name": "Saleh Al-Shehri",
+        "short_name": "S. Al-Shehri",
+        "jersey": "11",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "6' 0\"",
+        "weight": "172 lbs",
+        "age": 32
+      },
+      {
+        "id": "288570",
+        "name": "Khalid Al-Ghannam",
+        "short_name": "K. Al-Ghannam",
+        "jersey": "17",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "5' 7\"",
+        "weight": "150 lbs",
+        "age": 25
+      },
+      {
+        "id": "294239",
+        "name": "Abdullah Al-Hamdan",
+        "short_name": "A. Al-Hamdan",
+        "jersey": "19",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "6' 1\"",
+        "weight": "172 lbs",
+        "age": 26
+      },
+      {
+        "id": "287054",
+        "name": "Sultan Mandash",
+        "short_name": "S. Mandash",
+        "jersey": "20",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "5' 8\"",
+        "weight": "150 lbs",
+        "age": 31
+      }
+    ],
+    "U": []
+  },
+  "total_players": 26,
+  "position_labels": {
+    "G": "门将",
+    "D": "后卫",
+    "M": "中场",
+    "F": "前锋",
+    "U": "未知"
+  },
+  "_saved_at": "2026-06-16T17:08:04.854795"
+}

@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import api from '@/lib/api';
 import type { LiveMatchDetail, LiveEvent } from '@/lib/api';
 
-const POLL_INTERVAL = 30000;
+const POLL_INTERVAL = 15000;
 
 interface Props {
   matchId: string;

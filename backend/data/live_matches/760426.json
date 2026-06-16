@@ -2,18 +2,18 @@
   "match_id": "760426",
   "date": "2026-06-15",
   "status": {
-    "state": "scheduled",
-    "detail": "Mon, June 15th at 3:00 PM EDT",
+    "state": "finished",
+    "detail": "FT",
     "period": 0,
     "clock": "",
-    "completed": false,
-    "state_cn": "未开始"
+    "completed": true,
+    "state_cn": "已结束"
   },
   "home": {
     "name": "Belgium",
     "abbrev": "BEL",
     "logo": "",
-    "score": 0,
+    "score": 1,
     "team_id": "459",
     "name_cn": "比利时"
   },
@@ -21,35 +21,1143 @@
     "name": "Egypt",
     "abbrev": "EGY",
     "logo": "",
-    "score": 0,
+    "score": 1,
     "team_id": "2620",
     "name_cn": "埃及"
   },
-  "events": [],
+  "events": [
+    {
+      "type": "kickoff",
+      "minute": "",
+      "team": "",
+      "player": "",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "",
+      "type_cn": "开球",
+      "team_cn": "",
+      "description_cn": "比赛开始！"
+    },
+    {
+      "type": "yellow_card",
+      "minute": "13'",
+      "team": "Egypt",
+      "player": "Marawan Attia Yellow Card",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Marwan Attia (Egypt) is shown the yellow card for a bad foul.",
+      "type_cn": "黄牌",
+      "team_cn": "埃及",
+      "description_cn": "13'' Marawan Attia Yellow Card（埃及）吃到黄牌 🟨"
+    },
+    {
+      "type": "yellow_card",
+      "minute": "14'",
+      "team": "Belgium",
+      "player": "Timothy Castagne Yellow Card",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Timothy Castagne (Belgium) is shown the yellow card for a bad foul.",
+      "type_cn": "黄牌",
+      "team_cn": "比利时",
+      "description_cn": "14'' Timothy Castagne Yellow Card（比利时）吃到黄牌 🟨"
+    },
+    {
+      "type": "goal",
+      "minute": "20'",
+      "team": "Egypt",
+      "player": "Emam Ashour Goal",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Goal! Belgium 0, Egypt 1. Emam Ashour (Egypt) right footed shot from outside the box to the bottom left corner. Assisted by Mohamed Salah.",
+      "type_cn": "进球",
+      "team_cn": "埃及",
+      "description_cn": "20'' Emam Ashour Goal 为埃及进球！"
+    },
+    {
+      "type": "yellow_card",
+      "minute": "34'",
+      "team": "Egypt",
+      "player": "Ahmed Fatouh Yellow Card",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Ahmed Fatouh (Egypt) is shown the yellow card for a bad foul.",
+      "type_cn": "黄牌",
+      "team_cn": "埃及",
+      "description_cn": "34'' Ahmed Fatouh Yellow Card（埃及）吃到黄牌 🟨"
+    },
+    {
+      "type": "halftime",
+      "minute": "45'+5'",
+      "team": "",
+      "player": "",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "First Half ends, Belgium 0, Egypt 1.",
+      "type_cn": "中场休息",
+      "team_cn": "",
+      "description_cn": "中场休息 ⏸️"
+    },
+    {
+      "type": "halftime",
+      "minute": "45'",
+      "team": "",
+      "player": "",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "",
+      "type_cn": "中场休息",
+      "team_cn": "",
+      "description_cn": "上半场结束 ⏸️"
+    },
+    {
+      "type": "substitution",
+      "minute": "56'",
+      "team": "Belgium",
+      "player": "Nicolas Raskin Substitution",
+      "player_in": "Nicolas Raskin",
+      "player_out": "Timothy Castagne",
+      "assist": "",
+      "text": "Substitution, Belgium. Nicolas Raskin replaces Timothy Castagne.",
+      "type_cn": "换人",
+      "team_cn": "比利时",
+      "description_cn": "56'' Nicolas Raskin ↑ 替补登场，Timothy Castagne ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "56'",
+      "team": "Belgium",
+      "player": "Maxim De Cuyper Substitution",
+      "player_in": "Maxim De Cuyper",
+      "player_out": "Amadou Onana",
+      "assist": "",
+      "text": "Substitution, Belgium. Maxim De Cuyper replaces Amadou Onana.",
+      "type_cn": "换人",
+      "team_cn": "比利时",
+      "description_cn": "56'' Maxim De Cuyper ↑ 替补登场，Amadou Onana ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "66'",
+      "team": "Belgium",
+      "player": "Romelu Lukaku Substitution",
+      "player_in": "Romelu Lukaku",
+      "player_out": "Charles De Ketelaere",
+      "assist": "",
+      "text": "Substitution, Belgium. Romelu Lukaku replaces Charles De Ketelaere.",
+      "type_cn": "换人",
+      "team_cn": "比利时",
+      "description_cn": "66'' Romelu Lukaku ↑ 替补登场，Charles De Ketelaere ↓ 被换下"
+    },
+    {
+      "type": "red_card",
+      "minute": "66'",
+      "team": "Belgium",
+      "player": "Mohamed Hany Own Goal",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Own Goal by Mohamed Hany, Egypt. Belgium 1, Egypt 1.",
+      "type_cn": "红牌",
+      "team_cn": "比利时",
+      "description_cn": "66'' Mohamed Hany Own Goal（比利时）被红牌罚下 🟥"
+    },
+    {
+      "type": "substitution",
+      "minute": "71'",
+      "team": "Egypt",
+      "player": "Ramy Rabia Substitution",
+      "player_in": "Ramy Rabia",
+      "player_out": "Emam Ashour",
+      "assist": "",
+      "text": "Substitution, Egypt. Ramy Rabia replaces Emam Ashour.",
+      "type_cn": "换人",
+      "team_cn": "埃及",
+      "description_cn": "71'' Ramy Rabia ↑ 替补登场，Emam Ashour ↓ 被换下"
+    },
+    {
+      "type": "yellow_card",
+      "minute": "75'",
+      "team": "Belgium",
+      "player": "Maxim De Cuyper Yellow Card",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Maxim De Cuyper (Belgium) is shown the yellow card for a bad foul.",
+      "type_cn": "黄牌",
+      "team_cn": "比利时",
+      "description_cn": "75'' Maxim De Cuyper Yellow Card（比利时）吃到黄牌 🟨"
+    },
+    {
+      "type": "substitution",
+      "minute": "76'",
+      "team": "Egypt",
+      "player": "Zizo Substitution",
+      "player_in": "Zizo",
+      "player_out": "Mostafa Zico",
+      "assist": "",
+      "text": "Substitution, Egypt. Zizo replaces Mostafa Zico.",
+      "type_cn": "换人",
+      "team_cn": "埃及",
+      "description_cn": "76'' Zizo ↑ 替补登场，Mostafa Zico ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "76'",
+      "team": "Egypt",
+      "player": "Hamza Abdelkarim Substitution",
+      "player_in": "Hamza Abdelkarim",
+      "player_out": "Mohamed Salah",
+      "assist": "",
+      "text": "Substitution, Egypt. Hamza Abdelkarim replaces Mohamed Salah.",
+      "type_cn": "换人",
+      "team_cn": "埃及",
+      "description_cn": "76'' Hamza Abdelkarim ↑ 替补登场，Mohamed Salah ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "86'",
+      "team": "Belgium",
+      "player": "Matias Fernandez-Pardo Substitut",
+      "player_in": "Matias Fernandez-Pardo",
+      "player_out": "Jérémy Doku",
+      "assist": "",
+      "text": "Substitution, Belgium. Matias Fernandez-Pardo replaces Jérémy Doku.",
+      "type_cn": "换人",
+      "team_cn": "比利时",
+      "description_cn": "86'' Matias Fernandez-Pardo ↑ 替补登场，Jérémy Doku ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "86'",
+      "team": "Belgium",
+      "player": "Hans Vanaken Substitution",
+      "player_in": "Hans Vanaken",
+      "player_out": "Kevin De Bruyne",
+      "assist": "",
+      "text": "Substitution, Belgium. Hans Vanaken replaces Kevin De Bruyne.",
+      "type_cn": "换人",
+      "team_cn": "比利时",
+      "description_cn": "86'' Hans Vanaken ↑ 替补登场，Kevin De Bruyne ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "88'",
+      "team": "Egypt",
+      "player": "Karim Hafez Substitution",
+      "player_in": "Karim Hafez",
+      "player_out": "Ahmed Fatouh",
+      "assist": "",
+      "text": "Substitution, Egypt. Karim Hafez replaces Ahmed Fatouh.",
+      "type_cn": "换人",
+      "team_cn": "埃及",
+      "description_cn": "88'' Karim Hafez ↑ 替补登场，Ahmed Fatouh ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "88'",
+      "team": "Egypt",
+      "player": "Ibrahim Adel Substitution",
+      "player_in": "Ibrahim Adel",
+      "player_out": "Hamdy Fathy",
+      "assist": "",
+      "text": "Substitution, Egypt. Ibrahim Adel replaces Hamdi Fathy.",
+      "type_cn": "换人",
+      "team_cn": "埃及",
+      "description_cn": "88'' Ibrahim Adel ↑ 替补登场，Hamdy Fathy ↓ 被换下"
+    },
+    {
+      "type": "83",
+      "minute": "90'+6'",
+      "team": "",
+      "player": "",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Second Half ends, Belgium 1, Egypt 1.",
+      "type_cn": "83",
+      "team_cn": "",
+      "description_cn": "Second Half ends, Belgium 1, Egypt 1."
+    }
+  ],
   "statistics": {
     "home": {
       "team_name": "Belgium",
-      "stats": {},
+      "stats": {
+        "foulsCommitted": {
+          "label": "Fouls",
+          "value": "15",
+          "label_cn": "犯规"
+        },
+        "yellowCards": {
+          "label": "Yellow Cards",
+          "value": "2",
+          "label_cn": "黄牌"
+        },
+        "redCards": {
+          "label": "Red Cards",
+          "value": "0",
+          "label_cn": "红牌"
+        },
+        "offsides": {
+          "label": "Offsides",
+          "value": "0",
+          "label_cn": "越位"
+        },
+        "wonCorners": {
+          "label": "Corner Kicks",
+          "value": "2",
+          "label_cn": "角球"
+        },
+        "saves": {
+          "label": "Saves",
+          "value": "2",
+          "label_cn": "扑救"
+        },
+        "possessionPct": {
+          "label": "Possession",
+          "value": "53.6",
+          "label_cn": "控球率"
+        },
+        "totalShots": {
+          "label": "SHOTS",
+          "value": "15",
+          "label_cn": "总射门"
+        },
+        "shotsOnTarget": {
+          "label": "ON GOAL",
+          "value": "3",
+          "label_cn": "射正"
+        },
+        "shotPct": {
+          "label": "On Target %",
+          "value": "0.2",
+          "label_cn": "射正率"
+        },
+        "penaltyKickGoals": {
+          "label": "Penalty Goals",
+          "value": "0",
+          "label_cn": "点球进球"
+        },
+        "penaltyKickShots": {
+          "label": "Penalty Kicks Taken",
+          "value": "0",
+          "label_cn": "点球次数"
+        },
+        "accuratePasses": {
+          "label": "Accurate Passes",
+          "value": "391",
+          "label_cn": "精准传球"
+        },
+        "totalPasses": {
+          "label": "Passes",
+          "value": "455",
+          "label_cn": "传球"
+        },
+        "passPct": {
+          "label": "Pass Completion %",
+          "value": "0.9",
+          "label_cn": "传球成功率"
+        },
+        "accurateCrosses": {
+          "label": "Accurate Crosses",
+          "value": "6",
+          "label_cn": "精准传中"
+        },
+        "totalCrosses": {
+          "label": "Crosses",
+          "value": "16",
+          "label_cn": "传中"
+        },
+        "crossPct": {
+          "label": "Cross %",
+          "value": "0.4",
+          "label_cn": "传中成功率"
+        },
+        "totalLongBalls": {
+          "label": "Long Balls",
+          "value": "30",
+          "label_cn": "长传"
+        },
+        "accurateLongBalls": {
+          "label": "Accurate Long Balls",
+          "value": "18",
+          "label_cn": "精准长传"
+        },
+        "longballPct": {
+          "label": "Long Balls %",
+          "value": "0.6",
+          "label_cn": "长传成功率"
+        },
+        "blockedShots": {
+          "label": "Blocked Shots",
+          "value": "5",
+          "label_cn": "封堵射门"
+        },
+        "effectiveTackles": {
+          "label": "Effective Tackles",
+          "value": "11",
+          "label_cn": "有效抢断"
+        },
+        "totalTackles": {
+          "label": "Tackles",
+          "value": "17",
+          "label_cn": "抢断"
+        },
+        "tacklePct": {
+          "label": "Tackle %",
+          "value": "0.6",
+          "label_cn": "抢断成功率"
+        },
+        "interceptions": {
+          "label": "Interceptions",
+          "value": "10",
+          "label_cn": "拦截"
+        },
+        "effectiveClearance": {
+          "label": "Effective Clearances",
+          "value": "25",
+          "label_cn": "有效解围"
+        },
+        "totalClearance": {
+          "label": "Clearances",
+          "value": "25",
+          "label_cn": "解围"
+        }
+      },
       "team_name_cn": "比利时"
     },
     "away": {
       "team_name": "Egypt",
-      "stats": {},
+      "stats": {
+        "foulsCommitted": {
+          "label": "Fouls",
+          "value": "15",
+          "label_cn": "犯规"
+        },
+        "yellowCards": {
+          "label": "Yellow Cards",
+          "value": "2",
+          "label_cn": "黄牌"
+        },
+        "redCards": {
+          "label": "Red Cards",
+          "value": "0",
+          "label_cn": "红牌"
+        },
+        "offsides": {
+          "label": "Offsides",
+          "value": "1",
+          "label_cn": "越位"
+        },
+        "wonCorners": {
+          "label": "Corner Kicks",
+          "value": "7",
+          "label_cn": "角球"
+        },
+        "saves": {
+          "label": "Saves",
+          "value": "3",
+          "label_cn": "扑救"
+        },
+        "possessionPct": {
+          "label": "Possession",
+          "value": "46.4",
+          "label_cn": "控球率"
+        },
+        "totalShots": {
+          "label": "SHOTS",
+          "value": "14",
+          "label_cn": "总射门"
+        },
+        "shotsOnTarget": {
+          "label": "ON GOAL",
+          "value": "3",
+          "label_cn": "射正"
+        },
+        "shotPct": {
+          "label": "On Target %",
+          "value": "0.2",
+          "label_cn": "射正率"
+        },
+        "penaltyKickGoals": {
+          "label": "Penalty Goals",
+          "value": "0",
+          "label_cn": "点球进球"
+        },
+        "penaltyKickShots": {
+          "label": "Penalty Kicks Taken",
+          "value": "0",
+          "label_cn": "点球次数"
+        },
+        "accuratePasses": {
+          "label": "Accurate Passes",
+          "value": "323",
+          "label_cn": "精准传球"
+        },
+        "totalPasses": {
+          "label": "Passes",
+          "value": "398",
+          "label_cn": "传球"
+        },
+        "passPct": {
+          "label": "Pass Completion %",
+          "value": "0.8",
+          "label_cn": "传球成功率"
+        },
+        "accurateCrosses": {
+          "label": "Accurate Crosses",
+          "value": "2",
+          "label_cn": "精准传中"
+        },
+        "totalCrosses": {
+          "label": "Crosses",
+          "value": "13",
+          "label_cn": "传中"
+        },
+        "crossPct": {
+          "label": "Cross %",
+          "value": "0.2",
+          "label_cn": "传中成功率"
+        },
+        "totalLongBalls": {
+          "label": "Long Balls",
+          "value": "53",
+          "label_cn": "长传"
+        },
+        "accurateLongBalls": {
+          "label": "Accurate Long Balls",
+          "value": "20",
+          "label_cn": "精准长传"
+        },
+        "longballPct": {
+          "label": "Long Balls %",
+          "value": "0.4",
+          "label_cn": "长传成功率"
+        },
+        "blockedShots": {
+          "label": "Blocked Shots",
+          "value": "7",
+          "label_cn": "封堵射门"
+        },
+        "effectiveTackles": {
+          "label": "Effective Tackles",
+          "value": "17",
+          "label_cn": "有效抢断"
+        },
+        "totalTackles": {
+          "label": "Tackles",
+          "value": "28",
+          "label_cn": "抢断"
+        },
+        "tacklePct": {
+          "label": "Tackle %",
+          "value": "0.6",
+          "label_cn": "抢断成功率"
+        },
+        "interceptions": {
+          "label": "Interceptions",
+          "value": "16",
+          "label_cn": "拦截"
+        },
+        "effectiveClearance": {
+          "label": "Effective Clearances",
+          "value": "17",
+          "label_cn": "有效解围"
+        },
+        "totalClearance": {
+          "label": "Clearances",
+          "value": "17",
+          "label_cn": "解围"
+        }
+      },
       "team_name_cn": "埃及"
     }
   },
   "lineups": {
     "home": {
-      "formation": "",
-      "starters": [],
-      "substitutes": []
+      "formation": "4-2-3-1",
+      "starters": [
+        {
+          "id": "134283",
+          "name": "Thibaut Courtois",
+          "short_name": "T. Courtois",
+          "jersey": "1",
+          "position": "G",
+          "position_name": "Goalkeeper",
+          "starter": true,
+          "formation_place": "1",
+          "active": true
+        },
+        {
+          "id": "134947",
+          "name": "Kevin De Bruyne",
+          "short_name": "K. De Bruyne",
+          "jersey": "7",
+          "position": "M",
+          "position_name": "Attacking Midfielder",
+          "starter": true,
+          "formation_place": "10",
+          "active": true
+        },
+        {
+          "id": "283672",
+          "name": "Jérémy Doku",
+          "short_name": "J. Doku",
+          "jersey": "11",
+          "position": "M",
+          "position_name": "Attacking Midfielder Left",
+          "starter": true,
+          "formation_place": "11",
+          "active": true
+        },
+        {
+          "id": "166473",
+          "name": "Thomas Meunier",
+          "short_name": "T. Meunier",
+          "jersey": "15",
+          "position": "D",
+          "position_name": "Right Back",
+          "starter": true,
+          "formation_place": "2",
+          "active": true
+        },
+        {
+          "id": "197163",
+          "name": "Timothy Castagne",
+          "short_name": "T. Castagne",
+          "jersey": "21",
+          "position": "D",
+          "position_name": "Left Back",
+          "starter": true,
+          "formation_place": "3",
+          "active": true
+        },
+        {
+          "id": "193297",
+          "name": "Youri Tielemans",
+          "short_name": "Y. Tielemans",
+          "jersey": "8",
+          "position": "M",
+          "position_name": "Left Midfielder",
+          "starter": true,
+          "formation_place": "4",
+          "active": true
+        },
+        {
+          "id": "318577",
+          "name": "Nathan Ngoy",
+          "short_name": "N. Ngoy",
+          "jersey": "25",
+          "position": "D",
+          "position_name": "Center Right Defender",
+          "starter": true,
+          "formation_place": "5",
+          "active": true
+        },
+        {
+          "id": "191222",
+          "name": "Brandon Mechele",
+          "short_name": "B. Mechele",
+          "jersey": "4",
+          "position": "D",
+          "position_name": "Center Left Defender",
+          "starter": true,
+          "formation_place": "6",
+          "active": true
+        },
+        {
+          "id": "174980",
+          "name": "Leandro Trossard",
+          "short_name": "L. Trossard",
+          "jersey": "10",
+          "position": "M",
+          "position_name": "Attacking Midfielder Right",
+          "starter": true,
+          "formation_place": "7",
+          "active": true
+        },
+        {
+          "id": "304799",
+          "name": "Amadou Onana",
+          "short_name": "A. Onana",
+          "jersey": "24",
+          "position": "M",
+          "position_name": "Right Midfielder",
+          "starter": true,
+          "formation_place": "8",
+          "active": true
+        },
+        {
+          "id": "296319",
+          "name": "Charles De Ketelaere",
+          "short_name": "C. De Ketelaere",
+          "jersey": "17",
+          "position": "F",
+          "position_name": "Forward",
+          "starter": true,
+          "formation_place": "9",
+          "active": true
+        }
+      ],
+      "substitutes": [
+        {
+          "id": "332343",
+          "name": "Mike Penders",
+          "short_name": "M. Penders",
+          "jersey": "13",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "260027",
+          "name": "Nicolas Raskin",
+          "short_name": "N. Raskin",
+          "jersey": "23",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "301425",
+          "name": "Senne Lammens",
+          "short_name": "S. Lammens",
+          "jersey": "12",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "139437",
+          "name": "Romelu Lukaku",
+          "short_name": "R. Lukaku",
+          "jersey": "9",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "363068",
+          "name": "Joaquin Seys",
+          "short_name": "J. Seys",
+          "jersey": "18",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "340678",
+          "name": "Diego Moreira",
+          "short_name": "D. Moreira",
+          "jersey": "19",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "304222",
+          "name": "Arthur Theate",
+          "short_name": "A. Theate",
+          "jersey": "3",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "359651",
+          "name": "Matias Fernandez-Pardo",
+          "short_name": "M. Fernandez-Pardo",
+          "jersey": "26",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "271132",
+          "name": "Alexis Saelemaekers",
+          "short_name": "A. Saelemaekers",
+          "jersey": "22",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "229443",
+          "name": "Dodi Lukébakio",
+          "short_name": "D. Lukébakio",
+          "jersey": "14",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "193849",
+          "name": "Hans Vanaken",
+          "short_name": "H. Vanaken",
+          "jersey": "20",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "164895",
+          "name": "Axel Witsel",
+          "short_name": "A. Witsel",
+          "jersey": "6",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "301327",
+          "name": "Maxim De Cuyper",
+          "short_name": "M. De Cuyper",
+          "jersey": "5",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "309570",
+          "name": "Koni De Winter",
+          "short_name": "K. De Winter",
+          "jersey": "16",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        }
+      ]
     },
     "away": {
-      "formation": "",
-      "starters": [],
-      "substitutes": []
+      "formation": "4-2-3-1",
+      "starters": [
+        {
+          "id": "308915",
+          "name": "Mostafa Shoubir",
+          "short_name": "M. Shoubir",
+          "jersey": "23",
+          "position": "G",
+          "position_name": "Goalkeeper",
+          "starter": true,
+          "formation_place": "1",
+          "active": true
+        },
+        {
+          "id": "173896",
+          "name": "Mohamed Salah",
+          "short_name": "M. Salah",
+          "jersey": "10",
+          "position": "M",
+          "position_name": "Attacking Midfielder",
+          "starter": true,
+          "formation_place": "10",
+          "active": true
+        },
+        {
+          "id": "299365",
+          "name": "Emam Ashour",
+          "short_name": "E. Ashour",
+          "jersey": "8",
+          "position": "M",
+          "position_name": "Attacking Midfielder Left",
+          "starter": true,
+          "formation_place": "11",
+          "active": true
+        },
+        {
+          "id": "119993",
+          "name": "Mohamed Hany",
+          "short_name": "M. Hany",
+          "jersey": "3",
+          "position": "D",
+          "position_name": "Right Back",
+          "starter": true,
+          "formation_place": "2",
+          "active": true
+        },
+        {
+          "id": "265176",
+          "name": "Ahmed Fatouh",
+          "short_name": "A. Fatouh",
+          "jersey": "13",
+          "position": "D",
+          "position_name": "Left Back",
+          "starter": true,
+          "formation_place": "3",
+          "active": true
+        },
+        {
+          "id": "328932",
+          "name": "Mohanad Lashin",
+          "short_name": "M. Lashin",
+          "jersey": "17",
+          "position": "M",
+          "position_name": "Left Midfielder",
+          "starter": true,
+          "formation_place": "4",
+          "active": true
+        },
+        {
+          "id": "265417",
+          "name": "Yasser Ibrahim",
+          "short_name": "Y. Ibrahim",
+          "jersey": "2",
+          "position": "D",
+          "position_name": "Center Right Defender",
+          "starter": true,
+          "formation_place": "5",
+          "active": true
+        },
+        {
+          "id": "285057",
+          "name": "Hamdy Fathy",
+          "short_name": "H. Fathy",
+          "jersey": "14",
+          "position": "D",
+          "position_name": "Center Left Defender",
+          "starter": true,
+          "formation_place": "6",
+          "active": true
+        },
+        {
+          "id": "378495",
+          "name": "Mostafa Zico",
+          "short_name": "M. Zico",
+          "jersey": "11",
+          "position": "M",
+          "position_name": "Attacking Midfielder Right",
+          "starter": true,
+          "formation_place": "7",
+          "active": true
+        },
+        {
+          "id": "357112",
+          "name": "Marawan Attia",
+          "short_name": "M. Attia",
+          "jersey": "19",
+          "position": "M",
+          "position_name": "Right Midfielder",
+          "starter": true,
+          "formation_place": "8",
+          "active": true
+        },
+        {
+          "id": "303745",
+          "name": "Omar Marmoush",
+          "short_name": "O. Marmoush",
+          "jersey": "22",
+          "position": "F",
+          "position_name": "Forward",
+          "starter": true,
+          "formation_place": "9",
+          "active": true
+        }
+      ],
+      "substitutes": [
+        {
+          "id": "187571",
+          "name": "Ramy Rabia",
+          "short_name": "R. Rabia",
+          "jersey": "5",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "399200",
+          "name": "Hamza Abdelkarim",
+          "short_name": "H. Abdelkarim",
+          "jersey": "9",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "236957",
+          "name": "Mohamed Abdelmoneim",
+          "short_name": "M. Abdelmoneim",
+          "jersey": "6",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "195154",
+          "name": "Zizo",
+          "short_name": "Zizo",
+          "jersey": "25",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "393565",
+          "name": "Tarek Alaa",
+          "short_name": "T. Alaa",
+          "jersey": "24",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "308926",
+          "name": "Hossam Abdelmaguid",
+          "short_name": "H. Abdelmaguid",
+          "jersey": "4",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "299619",
+          "name": "Ibrahim Adel",
+          "short_name": "I. Adel",
+          "jersey": "20",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "276440",
+          "name": "Haissem Hassan",
+          "short_name": "H. Hassan",
+          "jersey": "12",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "287177",
+          "name": "Nabil Donga",
+          "short_name": "N. Donga",
+          "jersey": "18",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "265426",
+          "name": "Mahdy Soliman",
+          "short_name": "M. Soliman",
+          "jersey": "16",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "216119",
+          "name": "Karim Hafez",
+          "short_name": "K. Hafez",
+          "jersey": "15",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "205212",
+          "name": "Mohamed El Shenawy",
+          "short_name": "M. El Shenawy",
+          "jersey": "1",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "420953",
+          "name": "Mohamed Alaa",
+          "short_name": "M. Alaa",
+          "jersey": "26",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "157825",
+          "name": "Trézéguet",
+          "short_name": "Trézéguet",
+          "jersey": "7",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "314444",
+          "name": "Mahmoud Saber",
+          "short_name": "M. Saber",
+          "jersey": "21",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        }
+      ]
     }
   },
   "competition_id": "760426",
-  "_saved_at": "2026-06-15T15:32:16.864752"
+  "_saved_at": "2026-06-16T17:12:58.854418"
 }

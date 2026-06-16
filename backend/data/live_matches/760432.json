@@ -1,0 +1,55 @@
+{
+  "match_id": "760432",
+  "date": "2026-06-16",
+  "status": {
+    "state": "scheduled",
+    "detail": "Tue, June 16th at 3:00 PM EDT",
+    "period": 0,
+    "clock": "",
+    "completed": false,
+    "state_cn": "未开始"
+  },
+  "home": {
+    "name": "France",
+    "abbrev": "FRA",
+    "logo": "",
+    "score": 0,
+    "team_id": "478",
+    "name_cn": "法国"
+  },
+  "away": {
+    "name": "Senegal",
+    "abbrev": "SEN",
+    "logo": "",
+    "score": 0,
+    "team_id": "654",
+    "name_cn": "塞内加尔"
+  },
+  "events": [],
+  "statistics": {
+    "home": {
+      "team_name": "France",
+      "stats": {},
+      "team_name_cn": "法国"
+    },
+    "away": {
+      "team_name": "Senegal",
+      "stats": {},
+      "team_name_cn": "塞内加尔"
+    }
+  },
+  "lineups": {
+    "home": {
+      "formation": "",
+      "starters": [],
+      "substitutes": []
+    },
+    "away": {
+      "formation": "",
+      "starters": [],
+      "substitutes": []
+    }
+  },
+  "competition_id": "760432",
+  "_saved_at": "2026-06-16T19:58:02.531159"
+}

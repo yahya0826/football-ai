@@ -1,0 +1,97 @@
+{
+  "match_id": "760438",
+  "date": "2026-06-18",
+  "status": {
+    "state": "scheduled",
+    "detail": "Thu, June 18th at 12:00 PM EDT",
+    "period": 0,
+    "clock": "",
+    "completed": false,
+    "state_cn": "未开始"
+  },
+  "home": {
+    "name": "Czechia",
+    "abbrev": "CZE",
+    "logo": "",
+    "score": 0,
+    "team_id": "450",
+    "name_cn": "捷克"
+  },
+  "away": {
+    "name": "South Africa",
+    "abbrev": "RSA",
+    "logo": "",
+    "score": 0,
+    "team_id": "467",
+    "name_cn": "南非"
+  },
+  "events": [],
+  "statistics": {
+    "home": {
+      "team_name": "Czechia",
+      "stats": {
+        "goalDifference": {
+          "label": "Goal Difference",
+          "value": "-1",
+          "label_cn": "Goal Difference"
+        },
+        "totalGoals": {
+          "label": "Total Goals",
+          "value": "1",
+          "label_cn": "Total Goals"
+        },
+        "goalAssists": {
+          "label": "Assists",
+          "value": "1",
+          "label_cn": "Assists"
+        },
+        "goalsConceded": {
+          "label": "Goals Against",
+          "value": "2",
+          "label_cn": "Goals Against"
+        }
+      },
+      "team_name_cn": "捷克"
+    },
+    "away": {
+      "team_name": "South Africa",
+      "stats": {
+        "goalDifference": {
+          "label": "Goal Difference",
+          "value": "-2",
+          "label_cn": "Goal Difference"
+        },
+        "totalGoals": {
+          "label": "Total Goals",
+          "value": "0",
+          "label_cn": "Total Goals"
+        },
+        "goalAssists": {
+          "label": "Assists",
+          "value": "0",
+          "label_cn": "Assists"
+        },
+        "goalsConceded": {
+          "label": "Goals Against",
+          "value": "2",
+          "label_cn": "Goals Against"
+        }
+      },
+      "team_name_cn": "南非"
+    }
+  },
+  "lineups": {
+    "home": {
+      "formation": "",
+      "starters": [],
+      "substitutes": []
+    },
+    "away": {
+      "formation": "",
+      "starters": [],
+      "substitutes": []
+    }
+  },
+  "competition_id": "760438",
+  "_saved_at": "2026-06-16T17:07:55.466668"
+}

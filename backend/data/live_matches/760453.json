@@ -1,0 +1,97 @@
+{
+  "match_id": "760453",
+  "date": "2026-06-21",
+  "status": {
+    "state": "scheduled",
+    "detail": "Sun, June 21st at 12:00 PM EDT",
+    "period": 0,
+    "clock": "",
+    "completed": false,
+    "state_cn": "未开始"
+  },
+  "home": {
+    "name": "Spain",
+    "abbrev": "ESP",
+    "logo": "",
+    "score": 0,
+    "team_id": "164",
+    "name_cn": "西班牙"
+  },
+  "away": {
+    "name": "Saudi Arabia",
+    "abbrev": "KSA",
+    "logo": "",
+    "score": 0,
+    "team_id": "655",
+    "name_cn": "沙特阿拉伯"
+  },
+  "events": [],
+  "statistics": {
+    "home": {
+      "team_name": "Spain",
+      "stats": {
+        "goalDifference": {
+          "label": "Goal Difference",
+          "value": "0",
+          "label_cn": "Goal Difference"
+        },
+        "totalGoals": {
+          "label": "Total Goals",
+          "value": "0",
+          "label_cn": "Total Goals"
+        },
+        "goalAssists": {
+          "label": "Assists",
+          "value": "0",
+          "label_cn": "Assists"
+        },
+        "goalsConceded": {
+          "label": "Goals Against",
+          "value": "0",
+          "label_cn": "Goals Against"
+        }
+      },
+      "team_name_cn": "西班牙"
+    },
+    "away": {
+      "team_name": "Saudi Arabia",
+      "stats": {
+        "goalDifference": {
+          "label": "Goal Difference",
+          "value": "0",
+          "label_cn": "Goal Difference"
+        },
+        "totalGoals": {
+          "label": "Total Goals",
+          "value": "1",
+          "label_cn": "Total Goals"
+        },
+        "goalAssists": {
+          "label": "Assists",
+          "value": "0",
+          "label_cn": "Assists"
+        },
+        "goalsConceded": {
+          "label": "Goals Against",
+          "value": "1",
+          "label_cn": "Goals Against"
+        }
+      },
+      "team_name_cn": "沙特阿拉伯"
+    }
+  },
+  "lineups": {
+    "home": {
+      "formation": "",
+      "starters": [],
+      "substitutes": []
+    },
+    "away": {
+      "formation": "",
+      "starters": [],
+      "substitutes": []
+    }
+  },
+  "competition_id": "760453",
+  "_saved_at": "2026-06-16T17:11:02.849531"
+}

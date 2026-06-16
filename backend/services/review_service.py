@@ -2,18 +2,11 @@
 哨后复盘服务 — 验证赛前变量是否真正影响了比赛
 对比赛前情报与实际比赛进程，评估预测模型准确性
 """
-import os
 from typing import Dict, List, Optional
-from openai import OpenAI
 
 
 class ReviewService:
     """哨后复盘生成器"""
-
-    def __init__(self):
-        api_key = os.environ.get("OPENAI_API_KEY", "")
-        self.client = OpenAI(api_key=api_key) if api_key else None
-        self.model = os.environ.get("OPENAI_MODEL", "gpt-4o-mini")
 
     def generate(self, match_id: int, home_team: str, away_team: str,
                  home_score: int, away_score: int,

@@ -177,7 +177,6 @@ export default function PlayerInfoPanel({ player, teamName }: PlayerInfoPanelPro
             <StatItem label="时间" value={`${Math.floor(stats.minutes / 60)}h`} />
             <StatItem label="进球" value={stats.goals} highlight={stats.goals > 0} />
             <StatItem label="助攻" value={stats.assists} highlight={stats.assists > 0} />
-            <StatItem label="射门" value={stats.shotsTotal ?? stats.shots ?? 0} />
             <StatItem label="射正率" value={stats.shotAccuracy ? `${stats.shotAccuracy}%` : '-'} />
             <StatItem label="黄牌" value={stats.yellowCards} />
           </div>

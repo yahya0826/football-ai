@@ -3,10 +3,14 @@
 """
 import os
 import json
+import hashlib
 import numpy as np
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
 from collections import defaultdict
+
+BASE_DIR = Path(__file__).parent.parent
+TACTICS_CACHE_DIR = BASE_DIR / "data" / "tactics_cache"
 
 
 class TacticsService:
@@ -20,6 +24,7 @@ class TacticsService:
         self._style_matchup: List[Dict] = []
         self._position_requirements: List[Dict] = []
         self._load_all()
+        TACTICS_CACHE_DIR.mkdir(parents=True, exist_ok=True)
 
     def _load_all(self):
         for filename, attr in [
@@ -706,12 +711,24 @@ class TacticsService:
             "lineup_analysis": lineup_analysis,
         }
 
+        # Check disk cache first — keyed by match + formations + styles
+        cache_key = self._commentary_cache_key(home_team, away_team, home_formation, away_formation,
+                                                home_style, away_style)
+        cached_narrative = self._load_cached_narrative(cache_key)
+        if cached_narrative:
+            return {
+                "structured_data": commentary_data,
+                "narrative": cached_narrative,
+            }
+
         # 如果AI可用，生成叙事性战术解说
         narrative = None
         if client:
             try:
                 narrative = self._generate_narrative(client, commentary_data, home_team, away_team)
-            except Exception as e:
+                if narrative:
+                    self._save_cached_narrative(cache_key, narrative)
+            except Exception:
                 narrative = self._build_structured_summary(commentary_data, home_team, away_team)
         else:
             narrative = self._build_structured_summary(commentary_data, home_team, away_team)
@@ -783,6 +800,35 @@ class TacticsService:
         )
 
         return response.choices[0].message.content
+
+    def _commentary_cache_key(self, home: str, away: str, home_form: str, away_form: str,
+                              home_style: Optional[Dict], away_style: Optional[Dict]) -> str:
+        raw = f"{home}|{away}|{home_form}|{away_form}"
+        if home_style:
+            raw += f"|{home_style.get('primary_style', home_style.get('style_id', ''))}"
+        if away_style:
+            raw += f"|{away_style.get('primary_style', away_style.get('style_id', ''))}"
+        return hashlib.md5(raw.encode()).hexdigest()
+
+    def _load_cached_narrative(self, cache_key: str) -> Optional[str]:
+        path = TACTICS_CACHE_DIR / f"{cache_key}.json"
+        if not path.exists():
+            return None
+        try:
+            data = json.loads(path.read_text(encoding="utf-8"))
+            return data.get("narrative")
+        except Exception:
+            return None
+
+    def _save_cached_narrative(self, cache_key: str, narrative: str):
+        path = TACTICS_CACHE_DIR / f"{cache_key}.json"
+        try:
+            path.write_text(json.dumps({
+                "narrative": narrative,
+                "saved_at": __import__("datetime").datetime.now().isoformat(),
+            }, ensure_ascii=False, indent=2), encoding="utf-8")
+        except Exception:
+            pass
 
     def _build_structured_summary(self, data: Dict, home: str, away: str) -> str:
         """无AI时的结构化总结"""

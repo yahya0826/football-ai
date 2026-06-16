@@ -1,0 +1,1100 @@
+{
+  "match_id": "760429",
+  "date": "2026-06-15",
+  "status": {
+    "state": "finished",
+    "detail": "FT",
+    "period": 0,
+    "clock": "",
+    "completed": true,
+    "state_cn": "已结束"
+  },
+  "home": {
+    "name": "Saudi Arabia",
+    "abbrev": "KSA",
+    "logo": "",
+    "score": 1,
+    "team_id": "655",
+    "name_cn": "沙特阿拉伯"
+  },
+  "away": {
+    "name": "Uruguay",
+    "abbrev": "URU",
+    "logo": "",
+    "score": 1,
+    "team_id": "212",
+    "name_cn": "乌拉圭"
+  },
+  "events": [
+    {
+      "type": "kickoff",
+      "minute": "",
+      "team": "",
+      "player": "",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "",
+      "type_cn": "开球",
+      "team_cn": "",
+      "description_cn": "比赛开始！"
+    },
+    {
+      "type": "goal",
+      "minute": "41'",
+      "team": "Saudi Arabia",
+      "player": "Abdulelah Al-Amri Goal",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Goal! Saudi Arabia 1, Uruguay 0. Abdulelah Al Amri (Saudi Arabia) right footed shot from very close range to the centre of the goal following a corner.",
+      "type_cn": "进球",
+      "team_cn": "沙特阿拉伯",
+      "description_cn": "41'' Abdulelah Al-Amri Goal 为沙特阿拉伯进球！"
+    },
+    {
+      "type": "yellow_card",
+      "minute": "44'",
+      "team": "Saudi Arabia",
+      "player": "Abdulelah Al-Amri Yellow Card",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Abdulelah Al Amri (Saudi Arabia) is shown the yellow card for a bad foul.",
+      "type_cn": "黄牌",
+      "team_cn": "沙特阿拉伯",
+      "description_cn": "44'' Abdulelah Al-Amri Yellow Card（沙特阿拉伯）吃到黄牌 🟨"
+    },
+    {
+      "type": "halftime",
+      "minute": "45'+5'",
+      "team": "",
+      "player": "",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "",
+      "type_cn": "中场休息",
+      "team_cn": "",
+      "description_cn": "中场休息 ⏸️"
+    },
+    {
+      "type": "substitution",
+      "minute": "45'",
+      "team": "Uruguay",
+      "player": "Juan Manuel Sanabria Substitutio",
+      "player_in": "Juan Manuel Sanabria",
+      "player_out": "Matías Viña",
+      "assist": "",
+      "text": "Substitution, Uruguay. Juan Manuel Sanabria replaces Matías Viña.",
+      "type_cn": "换人",
+      "team_cn": "乌拉圭",
+      "description_cn": "45'' Juan Manuel Sanabria ↑ 替补登场，Matías Viña ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "45'",
+      "team": "Uruguay",
+      "player": "Agustín Canobbio Substitution",
+      "player_in": "Agustín Canobbio",
+      "player_out": "Darwin Núñez",
+      "assist": "",
+      "text": "Substitution, Uruguay. Agustín Canobbio replaces Darwin Núñez.",
+      "type_cn": "换人",
+      "team_cn": "乌拉圭",
+      "description_cn": "45'' Agustín Canobbio ↑ 替补登场，Darwin Núñez ↓ 被换下"
+    },
+    {
+      "type": "halftime",
+      "minute": "45'",
+      "team": "",
+      "player": "",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Second Half begins Saudi Arabia 1, Uruguay 0.",
+      "type_cn": "中场休息",
+      "team_cn": "",
+      "description_cn": "上半场结束 ⏸️"
+    },
+    {
+      "type": "substitution",
+      "minute": "63'",
+      "team": "Saudi Arabia",
+      "player": "Nasser Al-Dawsari Substitution",
+      "player_in": "Nasser Al-Dawsari",
+      "player_out": "Musab Al-Juwayr",
+      "assist": "",
+      "text": "Substitution, Saudi Arabia. Nasser Al Dawsari replaces Musab Al Juwayr.",
+      "type_cn": "换人",
+      "team_cn": "沙特阿拉伯",
+      "description_cn": "63'' Nasser Al-Dawsari ↑ 替补登场，Musab Al-Juwayr ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "72'",
+      "team": "Uruguay",
+      "player": "Nicolás de la Cruz Substitution",
+      "player_in": "Nicolás de la Cruz",
+      "player_out": "Manuel Ugarte",
+      "assist": "",
+      "text": "Substitution, Uruguay. Nicolás de la Cruz replaces Manuel Ugarte.",
+      "type_cn": "换人",
+      "team_cn": "乌拉圭",
+      "description_cn": "72'' Nicolás de la Cruz ↑ 替补登场，Manuel Ugarte ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "81'",
+      "team": "Uruguay",
+      "player": "Brian Rodríguez Substitution",
+      "player_in": "Brian Rodríguez",
+      "player_out": "Maxi Araújo",
+      "assist": "",
+      "text": "Substitution, Uruguay. Brian Rodríguez replaces Maxi Araújo.",
+      "type_cn": "换人",
+      "team_cn": "乌拉圭",
+      "description_cn": "81'' Brian Rodríguez ↑ 替补登场，Maxi Araújo ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "81'",
+      "team": "Saudi Arabia",
+      "player": "Nawaf Boushal Substitution",
+      "player_in": "Nawaf Boushal",
+      "player_out": "Mohammed Abu Al-Shamat",
+      "assist": "",
+      "text": "Substitution, Saudi Arabia. Nawaf Bu Washl replaces Mohammed Abu Al Shamat.",
+      "type_cn": "换人",
+      "team_cn": "沙特阿拉伯",
+      "description_cn": "81'' Nawaf Boushal ↑ 替补登场，Mohammed Abu Al-Shamat ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "90'",
+      "team": "Uruguay",
+      "player": "Rodrigo Aguirre Substitution",
+      "player_in": "Rodrigo Aguirre",
+      "player_out": "Federico Viñas",
+      "assist": "",
+      "text": "Substitution, Uruguay. Rodrigo Aguirre replaces Federico Viñas.",
+      "type_cn": "换人",
+      "team_cn": "乌拉圭",
+      "description_cn": "90'' Rodrigo Aguirre ↑ 替补登场，Federico Viñas ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "90'+3'",
+      "team": "Saudi Arabia",
+      "player": "Abdullah Al-Hamdan Substitution",
+      "player_in": "Abdullah Al-Hamdan",
+      "player_out": "Moteb Al-Harbi",
+      "assist": "",
+      "text": "Substitution, Saudi Arabia. Abdullah Al Hamddan replaces Moteb Al Harbi.",
+      "type_cn": "换人",
+      "team_cn": "沙特阿拉伯",
+      "description_cn": "90'+3'' Abdullah Al-Hamdan ↑ 替补登场，Moteb Al-Harbi ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "90'+3'",
+      "team": "Saudi Arabia",
+      "player": "Ala Al-Hajji Substitution",
+      "player_in": "Ala Al-Hajji",
+      "player_out": "Feras Al-Brikan",
+      "assist": "",
+      "text": "Substitution, Saudi Arabia. Alaa Al Hejji replaces Feras Al Brikan.",
+      "type_cn": "换人",
+      "team_cn": "沙特阿拉伯",
+      "description_cn": "90'+3'' Ala Al-Hajji ↑ 替补登场，Feras Al-Brikan ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "90'+3'",
+      "team": "Saudi Arabia",
+      "player": "Ali Lajami Substitution",
+      "player_in": "Ali Lajami",
+      "player_out": "Saud Abdulhamid",
+      "assist": "",
+      "text": "Substitution, Saudi Arabia. Ali Lajami replaces Saud Abdulhamid.",
+      "type_cn": "换人",
+      "team_cn": "沙特阿拉伯",
+      "description_cn": "90'+3'' Ali Lajami ↑ 替补登场，Saud Abdulhamid ↓ 被换下"
+    },
+    {
+      "type": "83",
+      "minute": "90'+9'",
+      "team": "",
+      "player": "",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "",
+      "type_cn": "83",
+      "team_cn": "",
+      "description_cn": ""
+    }
+  ],
+  "statistics": {
+    "home": {
+      "team_name": "Saudi Arabia",
+      "stats": {
+        "foulsCommitted": {
+          "label": "Fouls",
+          "value": "11",
+          "label_cn": "犯规"
+        },
+        "yellowCards": {
+          "label": "Yellow Cards",
+          "value": "1",
+          "label_cn": "黄牌"
+        },
+        "redCards": {
+          "label": "Red Cards",
+          "value": "0",
+          "label_cn": "红牌"
+        },
+        "offsides": {
+          "label": "Offsides",
+          "value": "0",
+          "label_cn": "越位"
+        },
+        "wonCorners": {
+          "label": "Corner Kicks",
+          "value": "4",
+          "label_cn": "角球"
+        },
+        "saves": {
+          "label": "Saves",
+          "value": "9",
+          "label_cn": "扑救"
+        },
+        "possessionPct": {
+          "label": "Possession",
+          "value": "33.2",
+          "label_cn": "控球率"
+        },
+        "totalShots": {
+          "label": "SHOTS",
+          "value": "7",
+          "label_cn": "总射门"
+        },
+        "shotsOnTarget": {
+          "label": "ON GOAL",
+          "value": "3",
+          "label_cn": "射正"
+        },
+        "shotPct": {
+          "label": "On Target %",
+          "value": "0.4",
+          "label_cn": "射正率"
+        },
+        "penaltyKickGoals": {
+          "label": "Penalty Goals",
+          "value": "0",
+          "label_cn": "点球进球"
+        },
+        "penaltyKickShots": {
+          "label": "Penalty Kicks Taken",
+          "value": "0",
+          "label_cn": "点球次数"
+        },
+        "accuratePasses": {
+          "label": "Accurate Passes",
+          "value": "236",
+          "label_cn": "精准传球"
+        },
+        "totalPasses": {
+          "label": "Passes",
+          "value": "322",
+          "label_cn": "传球"
+        },
+        "passPct": {
+          "label": "Pass Completion %",
+          "value": "0.7",
+          "label_cn": "传球成功率"
+        },
+        "accurateCrosses": {
+          "label": "Accurate Crosses",
+          "value": "3",
+          "label_cn": "精准传中"
+        },
+        "totalCrosses": {
+          "label": "Crosses",
+          "value": "6",
+          "label_cn": "传中"
+        },
+        "crossPct": {
+          "label": "Cross %",
+          "value": "0.5",
+          "label_cn": "传中成功率"
+        },
+        "totalLongBalls": {
+          "label": "Long Balls",
+          "value": "41",
+          "label_cn": "长传"
+        },
+        "accurateLongBalls": {
+          "label": "Accurate Long Balls",
+          "value": "10",
+          "label_cn": "精准长传"
+        },
+        "longballPct": {
+          "label": "Long Balls %",
+          "value": "0.2",
+          "label_cn": "长传成功率"
+        },
+        "blockedShots": {
+          "label": "Blocked Shots",
+          "value": "1",
+          "label_cn": "封堵射门"
+        },
+        "effectiveTackles": {
+          "label": "Effective Tackles",
+          "value": "8",
+          "label_cn": "有效抢断"
+        },
+        "totalTackles": {
+          "label": "Tackles",
+          "value": "11",
+          "label_cn": "抢断"
+        },
+        "tacklePct": {
+          "label": "Tackle %",
+          "value": "0.7",
+          "label_cn": "抢断成功率"
+        },
+        "interceptions": {
+          "label": "Interceptions",
+          "value": "9",
+          "label_cn": "拦截"
+        },
+        "effectiveClearance": {
+          "label": "Effective Clearances",
+          "value": "43",
+          "label_cn": "有效解围"
+        },
+        "totalClearance": {
+          "label": "Clearances",
+          "value": "43",
+          "label_cn": "解围"
+        }
+      },
+      "team_name_cn": "沙特阿拉伯"
+    },
+    "away": {
+      "team_name": "Uruguay",
+      "stats": {
+        "foulsCommitted": {
+          "label": "Fouls",
+          "value": "6",
+          "label_cn": "犯规"
+        },
+        "yellowCards": {
+          "label": "Yellow Cards",
+          "value": "0",
+          "label_cn": "黄牌"
+        },
+        "redCards": {
+          "label": "Red Cards",
+          "value": "0",
+          "label_cn": "红牌"
+        },
+        "offsides": {
+          "label": "Offsides",
+          "value": "6",
+          "label_cn": "越位"
+        },
+        "wonCorners": {
+          "label": "Corner Kicks",
+          "value": "14",
+          "label_cn": "角球"
+        },
+        "saves": {
+          "label": "Saves",
+          "value": "2",
+          "label_cn": "扑救"
+        },
+        "possessionPct": {
+          "label": "Possession",
+          "value": "66.8",
+          "label_cn": "控球率"
+        },
+        "totalShots": {
+          "label": "SHOTS",
+          "value": "27",
+          "label_cn": "总射门"
+        },
+        "shotsOnTarget": {
+          "label": "ON GOAL",
+          "value": "10",
+          "label_cn": "射正"
+        },
+        "shotPct": {
+          "label": "On Target %",
+          "value": "0.4",
+          "label_cn": "射正率"
+        },
+        "penaltyKickGoals": {
+          "label": "Penalty Goals",
+          "value": "0",
+          "label_cn": "点球进球"
+        },
+        "penaltyKickShots": {
+          "label": "Penalty Kicks Taken",
+          "value": "0",
+          "label_cn": "点球次数"
+        },
+        "accuratePasses": {
+          "label": "Accurate Passes",
+          "value": "540",
+          "label_cn": "精准传球"
+        },
+        "totalPasses": {
+          "label": "Passes",
+          "value": "612",
+          "label_cn": "传球"
+        },
+        "passPct": {
+          "label": "Pass Completion %",
+          "value": "0.9",
+          "label_cn": "传球成功率"
+        },
+        "accurateCrosses": {
+          "label": "Accurate Crosses",
+          "value": "16",
+          "label_cn": "精准传中"
+        },
+        "totalCrosses": {
+          "label": "Crosses",
+          "value": "47",
+          "label_cn": "传中"
+        },
+        "crossPct": {
+          "label": "Cross %",
+          "value": "0.3",
+          "label_cn": "传中成功率"
+        },
+        "totalLongBalls": {
+          "label": "Long Balls",
+          "value": "41",
+          "label_cn": "长传"
+        },
+        "accurateLongBalls": {
+          "label": "Accurate Long Balls",
+          "value": "24",
+          "label_cn": "精准长传"
+        },
+        "longballPct": {
+          "label": "Long Balls %",
+          "value": "0.6",
+          "label_cn": "长传成功率"
+        },
+        "blockedShots": {
+          "label": "Blocked Shots",
+          "value": "7",
+          "label_cn": "封堵射门"
+        },
+        "effectiveTackles": {
+          "label": "Effective Tackles",
+          "value": "2",
+          "label_cn": "有效抢断"
+        },
+        "totalTackles": {
+          "label": "Tackles",
+          "value": "3",
+          "label_cn": "抢断"
+        },
+        "tacklePct": {
+          "label": "Tackle %",
+          "value": "0.7",
+          "label_cn": "抢断成功率"
+        },
+        "interceptions": {
+          "label": "Interceptions",
+          "value": "10",
+          "label_cn": "拦截"
+        },
+        "effectiveClearance": {
+          "label": "Effective Clearances",
+          "value": "17",
+          "label_cn": "有效解围"
+        },
+        "totalClearance": {
+          "label": "Clearances",
+          "value": "17",
+          "label_cn": "解围"
+        }
+      },
+      "team_name_cn": "乌拉圭"
+    }
+  },
+  "lineups": {
+    "home": {
+      "formation": "4-4-2",
+      "starters": [
+        {
+          "id": "247018",
+          "name": "Mohammed Al-Owais",
+          "short_name": "M. Al-Owais",
+          "jersey": "21",
+          "position": "G",
+          "position_name": "Goalkeeper",
+          "starter": true,
+          "formation_place": "1",
+          "active": true
+        },
+        {
+          "id": "283331",
+          "name": "Feras Al-Brikan",
+          "short_name": "F. Al-Brikan",
+          "jersey": "9",
+          "position": "F",
+          "position_name": "Center Right Forward",
+          "starter": true,
+          "formation_place": "10",
+          "active": true
+        },
+        {
+          "id": "163850",
+          "name": "Salem Al-Dawsari",
+          "short_name": "S. Al-Dawsari",
+          "jersey": "10",
+          "position": "M",
+          "position_name": "Left Midfielder",
+          "starter": true,
+          "formation_place": "11",
+          "active": true
+        },
+        {
+          "id": "286011",
+          "name": "Saud Abdulhamid",
+          "short_name": "S. Abdulhamid",
+          "jersey": "12",
+          "position": "D",
+          "position_name": "Right Back",
+          "starter": true,
+          "formation_place": "2",
+          "active": true
+        },
+        {
+          "id": "330543",
+          "name": "Moteb Al-Harbi",
+          "short_name": "M. Al-Harbi",
+          "jersey": "24",
+          "position": "D",
+          "position_name": "Left Back",
+          "starter": true,
+          "formation_place": "3",
+          "active": true
+        },
+        {
+          "id": "262468",
+          "name": "Mohamed Kanno",
+          "short_name": "M. Kanno",
+          "jersey": "23",
+          "position": "M",
+          "position_name": "Center Right Midfielder",
+          "starter": true,
+          "formation_place": "4",
+          "active": true
+        },
+        {
+          "id": "256667",
+          "name": "Abdulelah Al-Amri",
+          "short_name": "A. Al-Amri",
+          "jersey": "4",
+          "position": "D",
+          "position_name": "Center Right Defender",
+          "starter": true,
+          "formation_place": "5",
+          "active": true
+        },
+        {
+          "id": "256666",
+          "name": "Hassan Al-Tambakti",
+          "short_name": "H. Al-Tambakti",
+          "jersey": "5",
+          "position": "D",
+          "position_name": "Center Left Defender",
+          "starter": true,
+          "formation_place": "6",
+          "active": true
+        },
+        {
+          "id": "361692",
+          "name": "Mohammed Abu Al-Shamat",
+          "short_name": "M. Abu Al-Shamat",
+          "jersey": "26",
+          "position": "M",
+          "position_name": "Right Midfielder",
+          "starter": true,
+          "formation_place": "7",
+          "active": true
+        },
+        {
+          "id": "271461",
+          "name": "Abdullah Al-Khaibari",
+          "short_name": "A. Al-Khaibari",
+          "jersey": "15",
+          "position": "M",
+          "position_name": "Center Left Midfielder",
+          "starter": true,
+          "formation_place": "8",
+          "active": true
+        },
+        {
+          "id": "315523",
+          "name": "Musab Al-Juwayr",
+          "short_name": "M. Al-Juwayr",
+          "jersey": "7",
+          "position": "F",
+          "position_name": "Center Left Forward",
+          "starter": true,
+          "formation_place": "9",
+          "active": true
+        }
+      ],
+      "substitutes": [
+        {
+          "id": "371796",
+          "name": "Jehad Thakri",
+          "short_name": "J. Thakri",
+          "jersey": "25",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "302332",
+          "name": "Nawaf Al-Aqidi",
+          "short_name": "N. Al-Aqidi",
+          "jersey": "1",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "296602",
+          "name": "Aiman Yahya",
+          "short_name": "A. Yahya",
+          "jersey": "8",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "288570",
+          "name": "Khalid Al-Ghannam",
+          "short_name": "K. Al-Ghannam",
+          "jersey": "17",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "306692",
+          "name": "Ziyad Al-Johani",
+          "short_name": "Z. Al-Johani",
+          "jersey": "16",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "296972",
+          "name": "Ali Lajami",
+          "short_name": "A. Lajami",
+          "jersey": "3",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "294239",
+          "name": "Abdullah Al-Hamdan",
+          "short_name": "A. Al-Hamdan",
+          "jersey": "19",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "270417",
+          "name": "Nasser Al-Dawsari",
+          "short_name": "N. Al-Dawsari",
+          "jersey": "6",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "331920",
+          "name": "Ali Majrashi",
+          "short_name": "A. Majrashi",
+          "jersey": "2",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "171878",
+          "name": "Ahmed Al-Kassar",
+          "short_name": "A. Al-Kassar",
+          "jersey": "22",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "357660",
+          "name": "Ala Al-Hajji",
+          "short_name": "A. Al-Hajji",
+          "jersey": "18",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "331918",
+          "name": "Nawaf Boushal",
+          "short_name": "N. Boushal",
+          "jersey": "13",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "287054",
+          "name": "Sultan Mandash",
+          "short_name": "S. Mandash",
+          "jersey": "20",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "185636",
+          "name": "Hassan Kadish",
+          "short_name": "H. Kadish",
+          "jersey": "14",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "177897",
+          "name": "Saleh Al-Shehri",
+          "short_name": "S. Al-Shehri",
+          "jersey": "11",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        }
+      ]
+    },
+    "away": {
+      "formation": "4-2-3-1",
+      "starters": [
+        {
+          "id": "108622",
+          "name": "Fernando Muslera",
+          "short_name": "F. Muslera",
+          "jersey": "23",
+          "position": "G",
+          "position_name": "Goalkeeper",
+          "starter": true,
+          "formation_place": "1",
+          "active": true
+        },
+        {
+          "id": "295847",
+          "name": "Federico Viñas",
+          "short_name": "F. Viñas",
+          "jersey": "21",
+          "position": "M",
+          "position_name": "Attacking Midfielder",
+          "starter": true,
+          "formation_place": "10",
+          "active": true
+        },
+        {
+          "id": "287025",
+          "name": "Maxi Araújo",
+          "short_name": "M. Araújo",
+          "jersey": "20",
+          "position": "M",
+          "position_name": "Attacking Midfielder Left",
+          "starter": true,
+          "formation_place": "11",
+          "active": true
+        },
+        {
+          "id": "188368",
+          "name": "Guillermo Varela",
+          "short_name": "G. Varela",
+          "jersey": "13",
+          "position": "D",
+          "position_name": "Right Back",
+          "starter": true,
+          "formation_place": "2",
+          "active": true
+        },
+        {
+          "id": "254032",
+          "name": "Matías Viña",
+          "short_name": "M. Viña",
+          "jersey": "17",
+          "position": "D",
+          "position_name": "Left Back",
+          "starter": true,
+          "formation_place": "3",
+          "active": true
+        },
+        {
+          "id": "215772",
+          "name": "Rodrigo Bentancur",
+          "short_name": "R. Bentancur",
+          "jersey": "6",
+          "position": "M",
+          "position_name": "Left Midfielder",
+          "starter": true,
+          "formation_place": "4",
+          "active": true
+        },
+        {
+          "id": "285756",
+          "name": "Sebastián Cáceres",
+          "short_name": "S. Cáceres",
+          "jersey": "3",
+          "position": "D",
+          "position_name": "Center Right Defender",
+          "starter": true,
+          "formation_place": "5",
+          "active": true
+        },
+        {
+          "id": "234881",
+          "name": "Mathías Olivera",
+          "short_name": "M. Olivera",
+          "jersey": "16",
+          "position": "D",
+          "position_name": "Center Left Defender",
+          "starter": true,
+          "formation_place": "6",
+          "active": true
+        },
+        {
+          "id": "235818",
+          "name": "Federico Valverde",
+          "short_name": "F. Valverde",
+          "jersey": "8",
+          "position": "M",
+          "position_name": "Attacking Midfielder Right",
+          "starter": true,
+          "formation_place": "7",
+          "active": true
+        },
+        {
+          "id": "241468",
+          "name": "Manuel Ugarte",
+          "short_name": "M. Ugarte",
+          "jersey": "5",
+          "position": "M",
+          "position_name": "Right Midfielder",
+          "starter": true,
+          "formation_place": "8",
+          "active": true
+        },
+        {
+          "id": "271788",
+          "name": "Darwin Núñez",
+          "short_name": "D. Núñez",
+          "jersey": "9",
+          "position": "F",
+          "position_name": "Forward",
+          "starter": true,
+          "formation_place": "9",
+          "active": true
+        }
+      ],
+      "substitutes": [
+        {
+          "id": "251889",
+          "name": "Nicolás de la Cruz",
+          "short_name": "N. de la Cruz",
+          "jersey": "7",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "109962",
+          "name": "Emiliano Martínez",
+          "short_name": "E. Martínez",
+          "jersey": "15",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "254007",
+          "name": "Joaquín Piquerez",
+          "short_name": "J. Piquerez",
+          "jersey": "22",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "159042",
+          "name": "Rodrigo Aguirre",
+          "short_name": "R. Aguirre",
+          "jersey": "19",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "287497",
+          "name": "Juan Manuel Sanabria",
+          "short_name": "J. Sanabria",
+          "jersey": "25",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "241466",
+          "name": "Agustín Canobbio",
+          "short_name": "A. Canobbio",
+          "jersey": "14",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "203067",
+          "name": "Santiago Mele",
+          "short_name": "S. Mele",
+          "jersey": "12",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "184206",
+          "name": "Sergio Rochet",
+          "short_name": "S. Rochet",
+          "jersey": "1",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "290538",
+          "name": "Facundo Pellistri",
+          "short_name": "F. Pellistri",
+          "jersey": "11",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "287494",
+          "name": "Rodrigo Zalazar",
+          "short_name": "R. Zalazar",
+          "jersey": "26",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "144325",
+          "name": "Brian Rodríguez",
+          "short_name": "B. Rodríguez",
+          "jersey": "18",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "241225",
+          "name": "Santiago Bueno",
+          "short_name": "S. Bueno",
+          "jersey": "24",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "188398",
+          "name": "José María Giménez",
+          "short_name": "J. Giménez",
+          "jersey": "2",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        }
+      ]
+    }
+  },
+  "competition_id": "760429",
+  "_saved_at": "2026-06-16T17:13:30.858051"
+}

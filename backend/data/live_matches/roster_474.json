@@ -1,0 +1,326 @@
+{
+  "team_id": "474",
+  "team_name": "Austria",
+  "team_name_cn": "奥地利",
+  "coach": "奥地利主教练",
+  "players": {
+    "G": [
+      {
+        "id": "195082",
+        "name": "Alexander Schlager",
+        "short_name": "A. Schlager",
+        "jersey": "1",
+        "position": "G",
+        "position_name": "Goalkeeper",
+        "headshot": "",
+        "height": "6' 0\"",
+        "weight": "174 lbs",
+        "age": 30
+      },
+      {
+        "id": "387869",
+        "name": "Florian Wiegele",
+        "short_name": "F. Wiegele",
+        "jersey": "12",
+        "position": "G",
+        "position_name": "Goalkeeper",
+        "headshot": "",
+        "height": "6' 9\"",
+        "weight": "214 lbs",
+        "age": 25
+      },
+      {
+        "id": "237966",
+        "name": "Patrick Pentz",
+        "short_name": "P. Pentz",
+        "jersey": "13",
+        "position": "G",
+        "position_name": "Goalkeeper",
+        "headshot": "",
+        "height": "6' 0\"",
+        "weight": "179 lbs",
+        "age": 29
+      }
+    ],
+    "D": [
+      {
+        "id": "313230",
+        "name": "David Affengruber",
+        "short_name": "D. Affengruber",
+        "jersey": "2",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 1\"",
+        "weight": "172 lbs",
+        "age": 25
+      },
+      {
+        "id": "250543",
+        "name": "Kevin Danso",
+        "short_name": "K. Danso",
+        "jersey": "3",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 3\"",
+        "weight": "185 lbs",
+        "age": 27
+      },
+      {
+        "id": "238906",
+        "name": "Stefan Posch",
+        "short_name": "S. Posch",
+        "jersey": "5",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 3\"",
+        "weight": "181 lbs",
+        "age": 29
+      },
+      {
+        "id": "118444",
+        "name": "David Alaba",
+        "short_name": "D. Alaba",
+        "jersey": "8",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "5' 11\"",
+        "weight": "172 lbs",
+        "age": 33
+      },
+      {
+        "id": "219316",
+        "name": "Philipp Lienhart",
+        "short_name": "P. Lienhart",
+        "jersey": "15",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 2\"",
+        "weight": "183 lbs",
+        "age": 29
+      },
+      {
+        "id": "239574",
+        "name": "Phillipp Mwene",
+        "short_name": "P. Mwene",
+        "jersey": "16",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/239574.png",
+        "height": "5' 7\"",
+        "weight": "146 lbs",
+        "age": 32
+      },
+      {
+        "id": "320939",
+        "name": "Alexander Prass",
+        "short_name": "A. Prass",
+        "jersey": "22",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 0\"",
+        "weight": "159 lbs",
+        "age": 25
+      },
+      {
+        "id": "232477",
+        "name": "Marco Friedl",
+        "short_name": "M. Friedl",
+        "jersey": "23",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 2\"",
+        "weight": "181 lbs",
+        "age": 28
+      },
+      {
+        "id": "289942",
+        "name": "Michael Svoboda",
+        "short_name": "M. Svoboda",
+        "jersey": "25",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 5\"",
+        "weight": "190 lbs",
+        "age": 27
+      }
+    ],
+    "M": [
+      {
+        "id": "238886",
+        "name": "Xaver Schlager",
+        "short_name": "X. Schlager",
+        "jersey": "4",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "5' 9\"",
+        "weight": "172 lbs",
+        "age": 28
+      },
+      {
+        "id": "305956",
+        "name": "Nicolas Seiwald",
+        "short_name": "N. Seiwald",
+        "jersey": "6",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "5' 11\"",
+        "weight": "174 lbs",
+        "age": 25
+      },
+      {
+        "id": "173907",
+        "name": "Marcel Sabitzer",
+        "short_name": "M. Sabitzer",
+        "jersey": "9",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "5' 10\"",
+        "weight": "170 lbs",
+        "age": 32
+      },
+      {
+        "id": "219304",
+        "name": "Florian Grillitsch",
+        "short_name": "F. Grillitsch",
+        "jersey": "10",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "6' 2\"",
+        "weight": "161 lbs",
+        "age": 30
+      },
+      {
+        "id": "294317",
+        "name": "Carney Chukwuemeka",
+        "short_name": "C. Chukwuemeka",
+        "jersey": "17",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "6' 2\"",
+        "weight": "170 lbs",
+        "age": 22
+      },
+      {
+        "id": "238296",
+        "name": "Romano Schmid",
+        "short_name": "R. Schmid",
+        "jersey": "18",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "5' 6\"",
+        "weight": "150 lbs",
+        "age": 26
+      },
+      {
+        "id": "169189",
+        "name": "Konrad Laimer",
+        "short_name": "K. Laimer",
+        "jersey": "20",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "5' 11\"",
+        "weight": "159 lbs",
+        "age": 29
+      },
+      {
+        "id": "300095",
+        "name": "Patrick Wimmer",
+        "short_name": "P. Wimmer",
+        "jersey": "21",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "6' 0\"",
+        "weight": "170 lbs",
+        "age": 25
+      },
+      {
+        "id": "333399",
+        "name": "Paul Wanner",
+        "short_name": "P. Wanner",
+        "jersey": "24",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "6' 1\"",
+        "weight": "163 lbs",
+        "age": 20
+      },
+      {
+        "id": "203868",
+        "name": "Alessandro Schöpf",
+        "short_name": "A. Schöpf",
+        "jersey": "26",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/203868.png",
+        "height": "5' 10\"",
+        "weight": "161 lbs",
+        "age": 32
+      }
+    ],
+    "F": [
+      {
+        "id": "98193",
+        "name": "Marko Arnautovic",
+        "short_name": "M. Arnautovic",
+        "jersey": "7",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "6' 4\"",
+        "weight": "192 lbs",
+        "age": 37
+      },
+      {
+        "id": "146804",
+        "name": "Michael Gregoritsch",
+        "short_name": "M. Gregoritsch",
+        "jersey": "11",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "6' 4\"",
+        "weight": "201 lbs",
+        "age": 32
+      },
+      {
+        "id": "259131",
+        "name": "Sasa Kalajdzic",
+        "short_name": "S. Kalajdzic",
+        "jersey": "14",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "6' 7\"",
+        "weight": "196 lbs",
+        "age": 28
+      }
+    ],
+    "U": []
+  },
+  "total_players": 25,
+  "position_labels": {
+    "G": "门将",
+    "D": "后卫",
+    "M": "中场",
+    "F": "前锋",
+    "U": "未知"
+  },
+  "_saved_at": "2026-06-16T19:58:07.164599"
+}

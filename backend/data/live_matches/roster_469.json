@@ -1,0 +1,338 @@
+{
+  "team_id": "469",
+  "team_name": "Iran",
+  "team_name_cn": "伊朗",
+  "coach": "伊朗主教练",
+  "players": {
+    "G": [
+      {
+        "id": "214798",
+        "name": "Alireza Beiranvand",
+        "short_name": "A. Beiranvand",
+        "jersey": "1",
+        "position": "G",
+        "position_name": "Goalkeeper",
+        "headshot": "",
+        "height": "6' 5\"",
+        "weight": "192 lbs",
+        "age": 33
+      },
+      {
+        "id": "284219",
+        "name": "Payam Niazmand",
+        "short_name": "P. Niazmand",
+        "jersey": "12",
+        "position": "G",
+        "position_name": "Goalkeeper",
+        "headshot": "",
+        "height": "6' 4\"",
+        "weight": "203 lbs",
+        "age": 31
+      },
+      {
+        "id": "185648",
+        "name": "Hossein Hosseini",
+        "short_name": "H. Hosseini",
+        "jersey": "22",
+        "position": "G",
+        "position_name": "Goalkeeper",
+        "headshot": "",
+        "height": "6' 2\"",
+        "weight": "183 lbs",
+        "age": 33
+      }
+    ],
+    "D": [
+      {
+        "id": "317748",
+        "name": "Saleh Hardani",
+        "short_name": "S. Hardani",
+        "jersey": "2",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "5' 9\"",
+        "weight": "150 lbs",
+        "age": 27
+      },
+      {
+        "id": "203453",
+        "name": "Ehsan Hajsafi",
+        "short_name": "E. Hajsafi",
+        "jersey": "3",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "5' 10\"",
+        "weight": "183 lbs",
+        "age": 36
+      },
+      {
+        "id": "180674",
+        "name": "Shoja Khalilzadeh",
+        "short_name": "S. Khalilzadeh",
+        "jersey": "4",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 0\"",
+        "weight": "163 lbs",
+        "age": 37
+      },
+      {
+        "id": "226302",
+        "name": "Milad Mohammadi",
+        "short_name": "M. Mohammadi",
+        "jersey": "5",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "5' 10\"",
+        "weight": "152 lbs",
+        "age": 32
+      },
+      {
+        "id": "243943",
+        "name": "Hossein Kanani",
+        "short_name": "H. Kanani",
+        "jersey": "13",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 2\"",
+        "weight": "194 lbs",
+        "age": 32
+      },
+      {
+        "id": "339178",
+        "name": "Arya Yousefi",
+        "short_name": "A. Yousefi",
+        "jersey": "17",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "5' 11\"",
+        "weight": "172 lbs",
+        "age": 24
+      },
+      {
+        "id": "302404",
+        "name": "Ali Nemati",
+        "short_name": "A. Nemati",
+        "jersey": "19",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 0\"",
+        "weight": "170 lbs",
+        "age": 30
+      },
+      {
+        "id": "218086",
+        "name": "Ramin Rezaeian",
+        "short_name": "R. Rezaeian",
+        "jersey": "23",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 0\"",
+        "weight": "163 lbs",
+        "age": 36
+      },
+      {
+        "id": "401990",
+        "name": "Danial Iri",
+        "short_name": "D. Iri",
+        "jersey": "25",
+        "position": "D",
+        "position_name": "Defender",
+        "headshot": "",
+        "height": "6' 0\"",
+        "weight": "163 lbs",
+        "age": 22
+      }
+    ],
+    "M": [
+      {
+        "id": "194863",
+        "name": "Saeid Ezatolahi",
+        "short_name": "S. Ezatolahi",
+        "jersey": "6",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "6' 2\"",
+        "weight": "194 lbs",
+        "age": 29
+      },
+      {
+        "id": "188055",
+        "name": "Alireza Jahanbakhsh",
+        "short_name": "A. Jahanbakhsh",
+        "jersey": "7",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "https://a.espncdn.com/i/headshots/soccer/players/full/188055.png",
+        "height": "6' 0\"",
+        "weight": "172 lbs",
+        "age": 32
+      },
+      {
+        "id": "296999",
+        "name": "Mohammad Mohebbi",
+        "short_name": "M. Mohebbi",
+        "jersey": "8",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "6' 2\"",
+        "weight": "183 lbs",
+        "age": 27
+      },
+      {
+        "id": "235519",
+        "name": "Saman Ghoddos",
+        "short_name": "S. Ghoddos",
+        "jersey": "14",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "5' 9\"",
+        "weight": "170 lbs",
+        "age": 32
+      },
+      {
+        "id": "253376",
+        "name": "Roozbeh Cheshmi",
+        "short_name": "R. Cheshmi",
+        "jersey": "15",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "6' 4\"",
+        "weight": "181 lbs",
+        "age": 32
+      },
+      {
+        "id": "226301",
+        "name": "Mehdi Torabi",
+        "short_name": "M. Torabi",
+        "jersey": "16",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "6' 1\"",
+        "weight": "170 lbs",
+        "age": 31
+      },
+      {
+        "id": "355158",
+        "name": "Mohammad Ghorbani",
+        "short_name": "M. Ghorbani",
+        "jersey": "21",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "6' 3\"",
+        "weight": "183 lbs",
+        "age": 24
+      },
+      {
+        "id": "372049",
+        "name": "Amirmohammad Razzaghinia",
+        "short_name": "A. Razzaghinia",
+        "jersey": "26",
+        "position": "M",
+        "position_name": "Midfielder",
+        "headshot": "",
+        "height": "6' 2\"",
+        "weight": "183 lbs",
+        "age": 20
+      }
+    ],
+    "F": [
+      {
+        "id": "219611",
+        "name": "Mehdi Taremi",
+        "short_name": "M. Taremi",
+        "jersey": "9",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "6' 2\"",
+        "weight": "181 lbs",
+        "age": 33
+      },
+      {
+        "id": "256581",
+        "name": "Mehdi Ghayedi",
+        "short_name": "M. Ghayedi",
+        "jersey": "10",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "5' 5\"",
+        "weight": "130 lbs",
+        "age": 27
+      },
+      {
+        "id": "219617",
+        "name": "Ali Alipour",
+        "short_name": "A. Alipour",
+        "jersey": "11",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "5' 11\"",
+        "weight": "163 lbs",
+        "age": 30
+      },
+      {
+        "id": "266729",
+        "name": "Amirhossein Hosseinzadeh",
+        "short_name": "A. Hosseinzadeh",
+        "jersey": "18",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "5' 10\"",
+        "weight": "179 lbs",
+        "age": 25
+      },
+      {
+        "id": "308077",
+        "name": "Shahriyar Moghanloo",
+        "short_name": "S. Moghanloo",
+        "jersey": "20",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "6' 2\"",
+        "weight": "196 lbs",
+        "age": 31
+      },
+      {
+        "id": "272489",
+        "name": "Dennis Dargahi",
+        "short_name": "D. Dargahi",
+        "jersey": "24",
+        "position": "F",
+        "position_name": "Forward",
+        "headshot": "",
+        "height": "6' 0\"",
+        "weight": "181 lbs",
+        "age": 29
+      }
+    ],
+    "U": []
+  },
+  "total_players": 26,
+  "position_labels": {
+    "G": "门将",
+    "D": "后卫",
+    "M": "中场",
+    "F": "前锋",
+    "U": "未知"
+  },
+  "_saved_at": "2026-06-16T00:42:37.059599"
+}

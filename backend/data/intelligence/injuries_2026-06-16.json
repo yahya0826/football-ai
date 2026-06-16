@@ -1,0 +1,74 @@
+{
+  "date": "2026-06-16",
+  "last_updated": "2026-06-16T00:41:42.797503",
+  "teams": {
+    "Argentina": {
+      "name_cn": "阿根廷",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "Algeria": {
+      "name_cn": "阿尔及利亚",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "Iraq": {
+      "name_cn": "伊拉克",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "Norway": {
+      "name_cn": "挪威",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "France": {
+      "name_cn": "法国",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "Senegal": {
+      "name_cn": "塞内加尔",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    }
+  },
+  "total_teams": 6,
+  "_cache_ts": 1781541702.7975135
+}

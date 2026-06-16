@@ -1,0 +1,1135 @@
+{
+  "match_id": "760414",
+  "date": "2026-06-12",
+  "status": {
+    "state": "finished",
+    "detail": "FT",
+    "period": 0,
+    "clock": "",
+    "completed": true,
+    "state_cn": "已结束"
+  },
+  "home": {
+    "name": "South Korea",
+    "abbrev": "KOR",
+    "logo": "",
+    "score": 2,
+    "team_id": "451",
+    "name_cn": "韩国"
+  },
+  "away": {
+    "name": "Czechia",
+    "abbrev": "CZE",
+    "logo": "",
+    "score": 1,
+    "team_id": "450",
+    "name_cn": "捷克"
+  },
+  "events": [
+    {
+      "type": "kickoff",
+      "minute": "",
+      "team": "",
+      "player": "",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "",
+      "type_cn": "开球",
+      "team_cn": "",
+      "description_cn": "比赛开始！"
+    },
+    {
+      "type": "halftime",
+      "minute": "45'+4'",
+      "team": "",
+      "player": "",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "",
+      "type_cn": "中场休息",
+      "team_cn": "",
+      "description_cn": "中场休息 ⏸️"
+    },
+    {
+      "type": "halftime",
+      "minute": "45'",
+      "team": "",
+      "player": "",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "",
+      "type_cn": "中场休息",
+      "team_cn": "",
+      "description_cn": "上半场结束 ⏸️"
+    },
+    {
+      "type": "goal",
+      "minute": "59'",
+      "team": "Czechia",
+      "player": "Ladislav Krejcí Goal - Header",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Goal! Korea Republic 0, Czechia 1. Ladislav Krejcí (Czechia) header from very close range to the bottom right corner. Assisted by Vladimír Coufal.",
+      "type_cn": "进球",
+      "team_cn": "捷克",
+      "description_cn": "59'' Ladislav Krejcí Goal - Header 为捷克进球！"
+    },
+    {
+      "type": "substitution",
+      "minute": "62'",
+      "team": "South Korea",
+      "player": "Hwang Hee-Chan Substitution",
+      "player_in": "Hwang Hee-Chan",
+      "player_out": "Lee Jae-Sung",
+      "assist": "",
+      "text": "Substitution, Korea Republic. Hwang Hee-Chan replaces Lee Jae-Sung.",
+      "type_cn": "换人",
+      "team_cn": "韩国",
+      "description_cn": "62'' Hwang Hee-Chan ↑ 替补登场，Lee Jae-Sung ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "64'",
+      "team": "Czechia",
+      "player": "Adam Hlozek Substitution",
+      "player_in": "Adam Hlozek",
+      "player_out": "Pavel Sulc",
+      "assist": "",
+      "text": "Substitution, Czechia. Adam Hlozek replaces Pavel Sulc.",
+      "type_cn": "换人",
+      "team_cn": "捷克",
+      "description_cn": "64'' Adam Hlozek ↑ 替补登场，Pavel Sulc ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "64'",
+      "team": "Czechia",
+      "player": "Tomás Chorý Substitution",
+      "player_in": "Tomás Chorý",
+      "player_out": "Patrik Schick",
+      "assist": "",
+      "text": "Substitution, Czechia. Tomás Chory replaces Patrik Schick.",
+      "type_cn": "换人",
+      "team_cn": "捷克",
+      "description_cn": "64'' Tomás Chorý ↑ 替补登场，Patrik Schick ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "64'",
+      "team": "Czechia",
+      "player": "Michal Sadílek Substitution",
+      "player_in": "Michal Sadílek",
+      "player_out": "Lukás Provod",
+      "assist": "",
+      "text": "Substitution, Czechia. Michal Sadílek replaces Lukás Provod.",
+      "type_cn": "换人",
+      "team_cn": "捷克",
+      "description_cn": "64'' Michal Sadílek ↑ 替补登场，Lukás Provod ↓ 被换下"
+    },
+    {
+      "type": "goal",
+      "minute": "67'",
+      "team": "South Korea",
+      "player": "Hwang In-Beom Goal",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Goal! Korea Republic 1, Czechia 1. Hwang In-Beom (Korea Republic) right footed shot from the centre of the box to the bottom right corner. Assisted by Lee Kang-In.",
+      "type_cn": "进球",
+      "team_cn": "韩国",
+      "description_cn": "67'' Hwang In-Beom Goal 为韩国进球！"
+    },
+    {
+      "type": "substitution",
+      "minute": "69'",
+      "team": "South Korea",
+      "player": "Eom Ji-Sung Substitution",
+      "player_in": "Eom Ji-Sung",
+      "player_out": "Lee Tae-Seok",
+      "assist": "",
+      "text": "Substitution, Korea Republic. Eom Ji-Sung replaces Lee Tae-Seok.",
+      "type_cn": "换人",
+      "team_cn": "韩国",
+      "description_cn": "69'' Eom Ji-Sung ↑ 替补登场，Lee Tae-Seok ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "69'",
+      "team": "South Korea",
+      "player": "Oh Hyeon-Gyu Substitution",
+      "player_in": "Oh Hyeon-Gyu",
+      "player_out": "Son Heung-Min",
+      "assist": "",
+      "text": "Substitution, Korea Republic. Oh Hyeon-Gyu replaces Son Heung-Min.",
+      "type_cn": "换人",
+      "team_cn": "韩国",
+      "description_cn": "69'' Oh Hyeon-Gyu ↑ 替补登场，Son Heung-Min ↓ 被换下"
+    },
+    {
+      "type": "goal",
+      "minute": "80'",
+      "team": "South Korea",
+      "player": "Oh Hyeon-Gyu Goal",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Goal! Korea Republic 2, Czechia 1. Oh Hyeon-Gyu (Korea Republic) left footed shot from very close range to the bottom left corner. Assisted by Hwang In-Beom.",
+      "type_cn": "进球",
+      "team_cn": "韩国",
+      "description_cn": "80'' Oh Hyeon-Gyu Goal 为韩国进球！"
+    },
+    {
+      "type": "substitution",
+      "minute": "84'",
+      "team": "South Korea",
+      "player": "Kim Jin-Gyu Substitution",
+      "player_in": "Kim Jin-Gyu",
+      "player_out": "Hwang In-Beom",
+      "assist": "",
+      "text": "Substitution, Korea Republic. Kim Jin-Gyu replaces Hwang In-Beom.",
+      "type_cn": "换人",
+      "team_cn": "韩国",
+      "description_cn": "84'' Kim Jin-Gyu ↑ 替补登场，Hwang In-Beom ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "84'",
+      "team": "South Korea",
+      "player": "Park Jin-Seop Substitution",
+      "player_in": "Park Jin-Seop",
+      "player_out": "Paik Seung-Ho",
+      "assist": "",
+      "text": "Substitution, Korea Republic. Park Jin-Seob replaces Paik Seung-Ho.",
+      "type_cn": "换人",
+      "team_cn": "韩国",
+      "description_cn": "84'' Park Jin-Seop ↑ 替补登场，Paik Seung-Ho ↓ 被换下"
+    },
+    {
+      "type": "substitution",
+      "minute": "84'",
+      "team": "Czechia",
+      "player": "Mojmír Chytil Substitution",
+      "player_in": "Mojmír Chytil",
+      "player_out": "Alexandr Sojka",
+      "assist": "",
+      "text": "Substitution, Czechia. Mojmír Chytil replaces Alexandr Sojka.",
+      "type_cn": "换人",
+      "team_cn": "捷克",
+      "description_cn": "84'' Mojmír Chytil ↑ 替补登场，Alexandr Sojka ↓ 被换下"
+    },
+    {
+      "type": "yellow_card",
+      "minute": "90'+6'",
+      "team": "South Korea",
+      "player": "Lee Gi-Hyuk Yellow Card",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Lee Gi-Hyuk (Korea Republic) is shown the yellow card for a bad foul.",
+      "type_cn": "黄牌",
+      "team_cn": "韩国",
+      "description_cn": "90'+6'' Lee Gi-Hyuk Yellow Card（韩国）吃到黄牌 🟨"
+    },
+    {
+      "type": "83",
+      "minute": "90'+7'",
+      "team": "",
+      "player": "",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "",
+      "type_cn": "83",
+      "team_cn": "",
+      "description_cn": ""
+    }
+  ],
+  "statistics": {
+    "home": {
+      "team_name": "South Korea",
+      "stats": {
+        "foulsCommitted": {
+          "label": "Fouls",
+          "value": "9",
+          "label_cn": "犯规"
+        },
+        "yellowCards": {
+          "label": "Yellow Cards",
+          "value": "1",
+          "label_cn": "黄牌"
+        },
+        "redCards": {
+          "label": "Red Cards",
+          "value": "0",
+          "label_cn": "红牌"
+        },
+        "offsides": {
+          "label": "Offsides",
+          "value": "2",
+          "label_cn": "越位"
+        },
+        "wonCorners": {
+          "label": "Corner Kicks",
+          "value": "4",
+          "label_cn": "角球"
+        },
+        "saves": {
+          "label": "Saves",
+          "value": "3",
+          "label_cn": "扑救"
+        },
+        "possessionPct": {
+          "label": "Possession",
+          "value": "61.5",
+          "label_cn": "控球率"
+        },
+        "totalShots": {
+          "label": "SHOTS",
+          "value": "15",
+          "label_cn": "总射门"
+        },
+        "shotsOnTarget": {
+          "label": "ON GOAL",
+          "value": "6",
+          "label_cn": "射正"
+        },
+        "shotPct": {
+          "label": "On Target %",
+          "value": "0.4",
+          "label_cn": "射正率"
+        },
+        "penaltyKickGoals": {
+          "label": "Penalty Goals",
+          "value": "0",
+          "label_cn": "点球进球"
+        },
+        "penaltyKickShots": {
+          "label": "Penalty Kicks Taken",
+          "value": "0",
+          "label_cn": "点球次数"
+        },
+        "accuratePasses": {
+          "label": "Accurate Passes",
+          "value": "469",
+          "label_cn": "精准传球"
+        },
+        "totalPasses": {
+          "label": "Passes",
+          "value": "541",
+          "label_cn": "传球"
+        },
+        "passPct": {
+          "label": "Pass Completion %",
+          "value": "0.9",
+          "label_cn": "传球成功率"
+        },
+        "accurateCrosses": {
+          "label": "Accurate Crosses",
+          "value": "3",
+          "label_cn": "精准传中"
+        },
+        "totalCrosses": {
+          "label": "Crosses",
+          "value": "12",
+          "label_cn": "传中"
+        },
+        "crossPct": {
+          "label": "Cross %",
+          "value": "0.3",
+          "label_cn": "传中成功率"
+        },
+        "totalLongBalls": {
+          "label": "Long Balls",
+          "value": "61",
+          "label_cn": "长传"
+        },
+        "accurateLongBalls": {
+          "label": "Accurate Long Balls",
+          "value": "30",
+          "label_cn": "精准长传"
+        },
+        "longballPct": {
+          "label": "Long Balls %",
+          "value": "0.5",
+          "label_cn": "长传成功率"
+        },
+        "blockedShots": {
+          "label": "Blocked Shots",
+          "value": "4",
+          "label_cn": "封堵射门"
+        },
+        "effectiveTackles": {
+          "label": "Effective Tackles",
+          "value": "4",
+          "label_cn": "有效抢断"
+        },
+        "totalTackles": {
+          "label": "Tackles",
+          "value": "7",
+          "label_cn": "抢断"
+        },
+        "tacklePct": {
+          "label": "Tackle %",
+          "value": "0.6",
+          "label_cn": "抢断成功率"
+        },
+        "interceptions": {
+          "label": "Interceptions",
+          "value": "9",
+          "label_cn": "拦截"
+        },
+        "effectiveClearance": {
+          "label": "Effective Clearances",
+          "value": "32",
+          "label_cn": "有效解围"
+        },
+        "totalClearance": {
+          "label": "Clearances",
+          "value": "32",
+          "label_cn": "解围"
+        }
+      },
+      "team_name_cn": "韩国"
+    },
+    "away": {
+      "team_name": "Czechia",
+      "stats": {
+        "foulsCommitted": {
+          "label": "Fouls",
+          "value": "16",
+          "label_cn": "犯规"
+        },
+        "yellowCards": {
+          "label": "Yellow Cards",
+          "value": "0",
+          "label_cn": "黄牌"
+        },
+        "redCards": {
+          "label": "Red Cards",
+          "value": "0",
+          "label_cn": "红牌"
+        },
+        "offsides": {
+          "label": "Offsides",
+          "value": "2",
+          "label_cn": "越位"
+        },
+        "wonCorners": {
+          "label": "Corner Kicks",
+          "value": "5",
+          "label_cn": "角球"
+        },
+        "saves": {
+          "label": "Saves",
+          "value": "4",
+          "label_cn": "扑救"
+        },
+        "possessionPct": {
+          "label": "Possession",
+          "value": "38.5",
+          "label_cn": "控球率"
+        },
+        "totalShots": {
+          "label": "SHOTS",
+          "value": "7",
+          "label_cn": "总射门"
+        },
+        "shotsOnTarget": {
+          "label": "ON GOAL",
+          "value": "4",
+          "label_cn": "射正"
+        },
+        "shotPct": {
+          "label": "On Target %",
+          "value": "0.6",
+          "label_cn": "射正率"
+        },
+        "penaltyKickGoals": {
+          "label": "Penalty Goals",
+          "value": "0",
+          "label_cn": "点球进球"
+        },
+        "penaltyKickShots": {
+          "label": "Penalty Kicks Taken",
+          "value": "0",
+          "label_cn": "点球次数"
+        },
+        "accuratePasses": {
+          "label": "Accurate Passes",
+          "value": "230",
+          "label_cn": "精准传球"
+        },
+        "totalPasses": {
+          "label": "Passes",
+          "value": "327",
+          "label_cn": "传球"
+        },
+        "passPct": {
+          "label": "Pass Completion %",
+          "value": "0.7",
+          "label_cn": "传球成功率"
+        },
+        "accurateCrosses": {
+          "label": "Accurate Crosses",
+          "value": "3",
+          "label_cn": "精准传中"
+        },
+        "totalCrosses": {
+          "label": "Crosses",
+          "value": "15",
+          "label_cn": "传中"
+        },
+        "crossPct": {
+          "label": "Cross %",
+          "value": "0.2",
+          "label_cn": "传中成功率"
+        },
+        "totalLongBalls": {
+          "label": "Long Balls",
+          "value": "69",
+          "label_cn": "长传"
+        },
+        "accurateLongBalls": {
+          "label": "Accurate Long Balls",
+          "value": "23",
+          "label_cn": "精准长传"
+        },
+        "longballPct": {
+          "label": "Long Balls %",
+          "value": "0.3",
+          "label_cn": "长传成功率"
+        },
+        "blockedShots": {
+          "label": "Blocked Shots",
+          "value": "1",
+          "label_cn": "封堵射门"
+        },
+        "effectiveTackles": {
+          "label": "Effective Tackles",
+          "value": "7",
+          "label_cn": "有效抢断"
+        },
+        "totalTackles": {
+          "label": "Tackles",
+          "value": "9",
+          "label_cn": "抢断"
+        },
+        "tacklePct": {
+          "label": "Tackle %",
+          "value": "0.8",
+          "label_cn": "抢断成功率"
+        },
+        "interceptions": {
+          "label": "Interceptions",
+          "value": "6",
+          "label_cn": "拦截"
+        },
+        "effectiveClearance": {
+          "label": "Effective Clearances",
+          "value": "21",
+          "label_cn": "有效解围"
+        },
+        "totalClearance": {
+          "label": "Clearances",
+          "value": "21",
+          "label_cn": "解围"
+        }
+      },
+      "team_name_cn": "捷克"
+    }
+  },
+  "lineups": {
+    "home": {
+      "formation": "3-4-2-1",
+      "starters": [
+        {
+          "id": "175921",
+          "name": "Kim Seung-Gyu",
+          "short_name": "K. Seung-Gyu",
+          "jersey": "1",
+          "position": "G",
+          "position_name": "Goalkeeper",
+          "starter": true,
+          "formation_place": "1",
+          "active": true
+        },
+        {
+          "id": "274197",
+          "name": "Lee Kang-In",
+          "short_name": "L. Kang-In",
+          "jersey": "19",
+          "position": "F",
+          "position_name": "Center Right Forward",
+          "starter": true,
+          "formation_place": "10",
+          "active": true
+        },
+        {
+          "id": "134103",
+          "name": "Lee Jae-Sung",
+          "short_name": "L. Jae-Sung",
+          "jersey": "10",
+          "position": "F",
+          "position_name": "Center Left Forward",
+          "starter": true,
+          "formation_place": "11",
+          "active": true
+        },
+        {
+          "id": "302793",
+          "name": "Seol Young-Woo",
+          "short_name": "S. Young-Woo",
+          "jersey": "22",
+          "position": "M",
+          "position_name": "Right Midfielder",
+          "starter": true,
+          "formation_place": "2",
+          "active": true
+        },
+        {
+          "id": "297270",
+          "name": "Lee Tae-Seok",
+          "short_name": "L. Tae-Seok",
+          "jersey": "13",
+          "position": "M",
+          "position_name": "Left Midfielder",
+          "starter": true,
+          "formation_place": "3",
+          "active": true
+        },
+        {
+          "id": "345769",
+          "name": "Lee Gi-Hyuk",
+          "short_name": "L. Gi-Hyuk",
+          "jersey": "3",
+          "position": "D",
+          "position_name": "Center Left Defender",
+          "starter": true,
+          "formation_place": "4",
+          "active": true
+        },
+        {
+          "id": "157688",
+          "name": "Kim Min-Jae",
+          "short_name": "K. Min-Jae",
+          "jersey": "4",
+          "position": "D",
+          "position_name": "Center Defender",
+          "starter": true,
+          "formation_place": "5",
+          "active": true
+        },
+        {
+          "id": "297788",
+          "name": "Lee Han-Beom",
+          "short_name": "L. Han-Beom",
+          "jersey": "2",
+          "position": "D",
+          "position_name": "Center Right Defender",
+          "starter": true,
+          "formation_place": "6",
+          "active": true
+        },
+        {
+          "id": "280061",
+          "name": "Hwang In-Beom",
+          "short_name": "H. In-Beom",
+          "jersey": "6",
+          "position": "M",
+          "position_name": "Center Right Midfielder",
+          "starter": true,
+          "formation_place": "7",
+          "active": true
+        },
+        {
+          "id": "256598",
+          "name": "Paik Seung-Ho",
+          "short_name": "P. Seung-Ho",
+          "jersey": "8",
+          "position": "M",
+          "position_name": "Center Left Midfielder",
+          "starter": true,
+          "formation_place": "8",
+          "active": true
+        },
+        {
+          "id": "149945",
+          "name": "Son Heung-Min",
+          "short_name": "S. Heung-Min",
+          "jersey": "7",
+          "position": "F",
+          "position_name": "Forward",
+          "starter": true,
+          "formation_place": "9",
+          "active": true
+        }
+      ],
+      "substitutes": [
+        {
+          "id": "362208",
+          "name": "Bae Jun-Ho",
+          "short_name": "B. Jun-Ho",
+          "jersey": "17",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "90721",
+          "name": "Kim Jin-Gyu",
+          "short_name": "K. Jin-Gyu",
+          "jersey": "24",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "286268",
+          "name": "Kim Tae-Hyeon",
+          "short_name": "K. Tae-Hyeon",
+          "jersey": "5",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "271702",
+          "name": "Lee Dong-Gyeong",
+          "short_name": "L. Dong-Gyeong",
+          "jersey": "26",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "304793",
+          "name": "Jens Castrop",
+          "short_name": "J. Castrop",
+          "jersey": "23",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "256724",
+          "name": "Song Bum-Keun",
+          "short_name": "S. Bum-Keun",
+          "jersey": "12",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "237224",
+          "name": "Hwang Hee-Chan",
+          "short_name": "H. Hee-Chan",
+          "jersey": "11",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "303464",
+          "name": "Cho Gue-Sung",
+          "short_name": "C. Gue-Sung",
+          "jersey": "9",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "297791",
+          "name": "Eom Ji-Sung",
+          "short_name": "E. Ji-Sung",
+          "jersey": "25",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "230244",
+          "name": "Jo Hyeon-Woo",
+          "short_name": "J. Hyeon-Woo",
+          "jersey": "21",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "350711",
+          "name": "Yang Hyun-Jun",
+          "short_name": "Y. Hyun-Jun",
+          "jersey": "20",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "280060",
+          "name": "Kim Moon-Hwan",
+          "short_name": "K. Moon-Hwan",
+          "jersey": "15",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "3098209",
+          "name": "Cho Wi-Je",
+          "short_name": "C. Wi-Je",
+          "jersey": "14",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "336178",
+          "name": "Park Jin-Seop",
+          "short_name": "P. Jin-Seop",
+          "jersey": "16",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "302434",
+          "name": "Oh Hyeon-Gyu",
+          "short_name": "O. Hyeon-Gyu",
+          "jersey": "18",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        }
+      ]
+    },
+    "away": {
+      "formation": "3-4-2-1",
+      "starters": [
+        {
+          "id": "277313",
+          "name": "Matej Kovár",
+          "short_name": "M. Kovár",
+          "jersey": "1",
+          "position": "G",
+          "position_name": "Goalkeeper",
+          "starter": true,
+          "formation_place": "1",
+          "active": true
+        },
+        {
+          "id": "294618",
+          "name": "Lukás Provod",
+          "short_name": "L. Provod",
+          "jersey": "17",
+          "position": "F",
+          "position_name": "Center Right Forward",
+          "starter": true,
+          "formation_place": "10",
+          "active": true
+        },
+        {
+          "id": "305545",
+          "name": "Pavel Sulc",
+          "short_name": "P. Sulc",
+          "jersey": "15",
+          "position": "F",
+          "position_name": "Center Left Forward",
+          "starter": true,
+          "formation_place": "11",
+          "active": true
+        },
+        {
+          "id": "191209",
+          "name": "Vladimír Coufal",
+          "short_name": "V. Coufal",
+          "jersey": "5",
+          "position": "M",
+          "position_name": "Right Midfielder",
+          "starter": true,
+          "formation_place": "2",
+          "active": true
+        },
+        {
+          "id": "276659",
+          "name": "Jaroslav Zelený",
+          "short_name": "J. Zelený",
+          "jersey": "20",
+          "position": "M",
+          "position_name": "Left Midfielder",
+          "starter": true,
+          "formation_place": "3",
+          "active": true
+        },
+        {
+          "id": "151714",
+          "name": "Ladislav Krejcí",
+          "short_name": "L. Krejcí",
+          "jersey": "7",
+          "position": "D",
+          "position_name": "Center Left Defender",
+          "starter": true,
+          "formation_place": "4",
+          "active": true
+        },
+        {
+          "id": "322510",
+          "name": "Robin Hranác",
+          "short_name": "R. Hranác",
+          "jersey": "4",
+          "position": "D",
+          "position_name": "Center Defender",
+          "starter": true,
+          "formation_place": "5",
+          "active": true
+        },
+        {
+          "id": "370744",
+          "name": "Stepán Chaloupek",
+          "short_name": "S. Chaloupek",
+          "jersey": "6",
+          "position": "D",
+          "position_name": "Center Right Defender",
+          "starter": true,
+          "formation_place": "6",
+          "active": true
+        },
+        {
+          "id": "230666",
+          "name": "Tomás Soucek",
+          "short_name": "T. Soucek",
+          "jersey": "22",
+          "position": "M",
+          "position_name": "Center Right Midfielder",
+          "starter": true,
+          "formation_place": "7",
+          "active": true
+        },
+        {
+          "id": "387865",
+          "name": "Alexandr Sojka",
+          "short_name": "A. Sojka",
+          "jersey": "24",
+          "position": "M",
+          "position_name": "Center Left Midfielder",
+          "starter": true,
+          "formation_place": "8",
+          "active": true
+        },
+        {
+          "id": "212330",
+          "name": "Patrik Schick",
+          "short_name": "P. Schick",
+          "jersey": "10",
+          "position": "F",
+          "position_name": "Forward",
+          "starter": true,
+          "formation_place": "9",
+          "active": true
+        }
+      ],
+      "substitutes": [
+        {
+          "id": "199988",
+          "name": "Jindrich Stanek",
+          "short_name": "J. Stanek",
+          "jersey": "16",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "292169",
+          "name": "Adam Hlozek",
+          "short_name": "A. Hlozek",
+          "jersey": "9",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "257336",
+          "name": "Tomás Chorý",
+          "short_name": "T. Chorý",
+          "jersey": "19",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "343937",
+          "name": "David Doudera",
+          "short_name": "D. Doudera",
+          "jersey": "21",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "303726",
+          "name": "Lukás Cerv",
+          "short_name": "L. Cerv",
+          "jersey": "12",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "280885",
+          "name": "Tomás Holes",
+          "short_name": "T. Holes",
+          "jersey": "3",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "165637",
+          "name": "Vladimír Darida",
+          "short_name": "V. Darida",
+          "jersey": "8",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "319267",
+          "name": "Lukás Hornícek",
+          "short_name": "L. Hornícek",
+          "jersey": "23",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "306008",
+          "name": "Jan Kuchta",
+          "short_name": "J. Kuchta",
+          "jersey": "11",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "343733",
+          "name": "Mojmír Chytil",
+          "short_name": "M. Chytil",
+          "jersey": "13",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "249525",
+          "name": "Michal Sadílek",
+          "short_name": "M. Sadílek",
+          "jersey": "18",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "403974",
+          "name": "Hugo Sochurek",
+          "short_name": "H. Sochurek",
+          "jersey": "25",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "335996",
+          "name": "David Jurásek",
+          "short_name": "D. Jurásek",
+          "jersey": "14",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "310027",
+          "name": "Denis Visinský",
+          "short_name": "D. Visinský",
+          "jersey": "26",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "290116",
+          "name": "David Zima",
+          "short_name": "D. Zima",
+          "jersey": "2",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        }
+      ]
+    }
+  },
+  "competition_id": "760414",
+  "_saved_at": "2026-06-16T19:50:54.514397"
+}
