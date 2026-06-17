@@ -137,7 +137,7 @@ TEAM_NAMES_CN: Dict[str, str] = {
     "Australia": "澳大利亚", "Iran": "伊朗", "Japan": "日本", "Jordan": "约旦",
     "Uzbekistan": "乌兹别克斯坦", "Qatar": "卡塔尔", "Saudi Arabia": "沙特阿拉伯",
     "South Korea": "韩国", "Iraq": "伊拉克",
-    "Algeria": "阿尔及利亚", "Cape Verde": "佛得角", "DR Congo": "刚果民主共和国",
+    "Algeria": "阿尔及利亚", "Cape Verde": "佛得角", "DR Congo": "刚果民主共和国", "Congo DR": "刚果民主共和国",
     "Egypt": "埃及", "Ghana": "加纳", "Ivory Coast": "科特迪瓦", "Morocco": "摩洛哥",
     "Senegal": "塞内加尔", "South Africa": "南非", "Tunisia": "突尼斯",
     "United States": "美国", "Mexico": "墨西哥", "Canada": "加拿大",
@@ -149,6 +149,7 @@ ESPN_NAME_OVERRIDE: Dict[str, str] = {
     "Türkiye": "Turkey",
     "Bosnia-Herzegovina": "Bosnia and Herzegovina",
     "Czechia": "Czech Republic",
+    "Congo DR": "DR Congo",
 }
 
 
@@ -228,7 +229,7 @@ class LiveMatchService:
         for ev in sb.get("events", []):
             status = ev.get("status", {}).get("type", {})
             name = status.get("name", "STATUS_SCHEDULED")
-            if name in ("STATUS_IN_PROGRESS", "STATUS_HALFTIME", "STATUS_END_OF_PERIOD"):
+            if self._state_name(name) in ("live", "halftime"):
                 live.append(self._simplify_match(ev))
         return live
 
@@ -682,7 +683,7 @@ class LiveMatchService:
         detail = status.get("detail", "")
         status_name = status.get("name", "STATUS_SCHEDULED")
         state = "scheduled"
-        if status_name == "STATUS_IN_PROGRESS":
+        if status_name in ("STATUS_IN_PROGRESS", "STATUS_FIRST_HALF", "STATUS_SECOND_HALF", "STATUS_EXTRA_TIME", "STATUS_SHOOTOUT"):
             state = "live"
         elif status_name == "STATUS_HALFTIME":
             state = "halftime"
@@ -737,12 +738,13 @@ class LiveMatchService:
                     "score": int(team.get("score", 0) or 0),
                     "team_id": str(t.get("id", "")),
                 }
-            status = comp.get("status", {}).get("type", {})
+            comp_status = comp.get("status", {}) or {}
+            status = comp_status.get("type", {})
             status_info = {
                 "state": self._state_name(status.get("name", "")),
                 "detail": status.get("detail", ""),
                 "period": status.get("period", 0),
-                "clock": status.get("displayClock", ""),
+                "clock": comp_status.get("displayClock") or status.get("displayClock", ""),
                 "completed": status.get("completed", False),
             }
 
@@ -784,6 +786,10 @@ class LiveMatchService:
         m = {
             "STATUS_SCHEDULED": "scheduled",
             "STATUS_IN_PROGRESS": "live",
+            "STATUS_FIRST_HALF": "live",
+            "STATUS_SECOND_HALF": "live",
+            "STATUS_EXTRA_TIME": "live",
+            "STATUS_SHOOTOUT": "live",
             "STATUS_HALFTIME": "halftime",
             "STATUS_END_OF_PERIOD": "live",
             "STATUS_FULL_TIME": "finished",

@@ -1,0 +1,954 @@
+{
+  "match_id": "760435",
+  "date": "2026-06-17",
+  "date_bj": "2026-06-18",
+  "status": {
+    "state": "live",
+    "detail": "14'",
+    "period": 0,
+    "clock": "14'",
+    "completed": false,
+    "state_cn": "进行中"
+  },
+  "home": {
+    "name": "Portugal",
+    "abbrev": "POR",
+    "logo": "",
+    "score": 1,
+    "team_id": "482",
+    "name_cn": "葡萄牙"
+  },
+  "away": {
+    "name": "Congo DR",
+    "abbrev": "COD",
+    "logo": "",
+    "score": 0,
+    "team_id": "2850",
+    "name_cn": "刚果民主共和国"
+  },
+  "events": [
+    {
+      "type": "kickoff",
+      "minute": "",
+      "team": "",
+      "player": "",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "",
+      "type_cn": "开球",
+      "team_cn": "",
+      "description_cn": "比赛开始！"
+    },
+    {
+      "type": "goal",
+      "minute": "6'",
+      "team": "Portugal",
+      "player": "João Neves Goal - Header",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Goal! Portugal 1, Congo DR 0. João Neves (Portugal) header from the centre of the box to the bottom right corner. Assisted by Pedro Neto with a cross.",
+      "type_cn": "进球",
+      "team_cn": "葡萄牙",
+      "description_cn": "6'' João Neves Goal - Header 为葡萄牙进球！"
+    },
+    {
+      "type": "yellow_card",
+      "minute": "13'",
+      "team": "Portugal",
+      "player": "Bernardo Silva Yellow Card",
+      "player_in": "",
+      "player_out": "",
+      "assist": "",
+      "text": "Bernardo Silva (Portugal) is shown the yellow card for a bad foul.",
+      "type_cn": "黄牌",
+      "team_cn": "葡萄牙",
+      "description_cn": "13'' Bernardo Silva Yellow Card（葡萄牙）吃到黄牌 🟨"
+    }
+  ],
+  "statistics": {
+    "home": {
+      "team_name": "Portugal",
+      "stats": {
+        "foulsCommitted": {
+          "label": "Fouls",
+          "value": "2",
+          "label_cn": "犯规"
+        },
+        "yellowCards": {
+          "label": "Yellow Cards",
+          "value": "1",
+          "label_cn": "黄牌"
+        },
+        "redCards": {
+          "label": "Red Cards",
+          "value": "0",
+          "label_cn": "红牌"
+        },
+        "offsides": {
+          "label": "Offsides",
+          "value": "1",
+          "label_cn": "越位"
+        },
+        "wonCorners": {
+          "label": "Corner Kicks",
+          "value": "0",
+          "label_cn": "角球"
+        },
+        "saves": {
+          "label": "Saves",
+          "value": "0",
+          "label_cn": "扑救"
+        },
+        "possessionPct": {
+          "label": "POSSESSION",
+          "value": "77.2",
+          "label_cn": "控球率"
+        },
+        "totalShots": {
+          "label": "SHOTS",
+          "value": "1",
+          "label_cn": "总射门"
+        },
+        "shotsOnTarget": {
+          "label": "ON GOAL",
+          "value": "1",
+          "label_cn": "射正"
+        },
+        "shotPct": {
+          "label": "On Target %",
+          "value": "1.0",
+          "label_cn": "射正率"
+        },
+        "penaltyKickGoals": {
+          "label": "Penalty Goals",
+          "value": "0",
+          "label_cn": "点球进球"
+        },
+        "penaltyKickShots": {
+          "label": "Penalty Kicks Taken",
+          "value": "0",
+          "label_cn": "点球次数"
+        },
+        "accuratePasses": {
+          "label": "Accurate Passes",
+          "value": "135",
+          "label_cn": "精准传球"
+        },
+        "totalPasses": {
+          "label": "Passes",
+          "value": "141",
+          "label_cn": "传球"
+        },
+        "passPct": {
+          "label": "Pass Completion %",
+          "value": "1.0",
+          "label_cn": "传球成功率"
+        },
+        "accurateCrosses": {
+          "label": "Accurate Crosses",
+          "value": "1",
+          "label_cn": "精准传中"
+        },
+        "totalCrosses": {
+          "label": "Crosses",
+          "value": "5",
+          "label_cn": "传中"
+        },
+        "crossPct": {
+          "label": "Cross %",
+          "value": "0.2",
+          "label_cn": "传中成功率"
+        },
+        "totalLongBalls": {
+          "label": "Long Balls",
+          "value": "6",
+          "label_cn": "长传"
+        },
+        "accurateLongBalls": {
+          "label": "Accurate Long Balls",
+          "value": "5",
+          "label_cn": "精准长传"
+        },
+        "longballPct": {
+          "label": "Long Balls %",
+          "value": "0.8",
+          "label_cn": "长传成功率"
+        },
+        "blockedShots": {
+          "label": "Blocked Shots",
+          "value": "0",
+          "label_cn": "封堵射门"
+        },
+        "effectiveTackles": {
+          "label": "Effective Tackles",
+          "value": "1",
+          "label_cn": "有效抢断"
+        },
+        "totalTackles": {
+          "label": "Tackles",
+          "value": "2",
+          "label_cn": "抢断"
+        },
+        "tacklePct": {
+          "label": "Tackle %",
+          "value": "0.5",
+          "label_cn": "抢断成功率"
+        },
+        "interceptions": {
+          "label": "Interceptions",
+          "value": "0",
+          "label_cn": "拦截"
+        },
+        "effectiveClearance": {
+          "label": "Effective Clearances",
+          "value": "3",
+          "label_cn": "有效解围"
+        },
+        "totalClearance": {
+          "label": "Clearances",
+          "value": "3",
+          "label_cn": "解围"
+        }
+      },
+      "team_name_cn": "葡萄牙"
+    },
+    "away": {
+      "team_name": "Congo DR",
+      "stats": {
+        "foulsCommitted": {
+          "label": "Fouls",
+          "value": "0",
+          "label_cn": "犯规"
+        },
+        "yellowCards": {
+          "label": "Yellow Cards",
+          "value": "0",
+          "label_cn": "黄牌"
+        },
+        "redCards": {
+          "label": "Red Cards",
+          "value": "0",
+          "label_cn": "红牌"
+        },
+        "offsides": {
+          "label": "Offsides",
+          "value": "0",
+          "label_cn": "越位"
+        },
+        "wonCorners": {
+          "label": "Corner Kicks",
+          "value": "0",
+          "label_cn": "角球"
+        },
+        "saves": {
+          "label": "Saves",
+          "value": "0",
+          "label_cn": "扑救"
+        },
+        "possessionPct": {
+          "label": "POSSESSION",
+          "value": "22.8",
+          "label_cn": "控球率"
+        },
+        "totalShots": {
+          "label": "SHOTS",
+          "value": "2",
+          "label_cn": "总射门"
+        },
+        "shotsOnTarget": {
+          "label": "ON GOAL",
+          "value": "0",
+          "label_cn": "射正"
+        },
+        "shotPct": {
+          "label": "On Target %",
+          "value": "0.0",
+          "label_cn": "射正率"
+        },
+        "penaltyKickGoals": {
+          "label": "Penalty Goals",
+          "value": "0",
+          "label_cn": "点球进球"
+        },
+        "penaltyKickShots": {
+          "label": "Penalty Kicks Taken",
+          "value": "0",
+          "label_cn": "点球次数"
+        },
+        "accuratePasses": {
+          "label": "Accurate Passes",
+          "value": "36",
+          "label_cn": "精准传球"
+        },
+        "totalPasses": {
+          "label": "Passes",
+          "value": "41",
+          "label_cn": "传球"
+        },
+        "passPct": {
+          "label": "Pass Completion %",
+          "value": "0.9",
+          "label_cn": "传球成功率"
+        },
+        "accurateCrosses": {
+          "label": "Accurate Crosses",
+          "value": "0",
+          "label_cn": "精准传中"
+        },
+        "totalCrosses": {
+          "label": "Crosses",
+          "value": "2",
+          "label_cn": "传中"
+        },
+        "crossPct": {
+          "label": "Cross %",
+          "value": "0.0",
+          "label_cn": "传中成功率"
+        },
+        "totalLongBalls": {
+          "label": "Long Balls",
+          "value": "7",
+          "label_cn": "长传"
+        },
+        "accurateLongBalls": {
+          "label": "Accurate Long Balls",
+          "value": "4",
+          "label_cn": "精准长传"
+        },
+        "longballPct": {
+          "label": "Long Balls %",
+          "value": "0.6",
+          "label_cn": "长传成功率"
+        },
+        "blockedShots": {
+          "label": "Blocked Shots",
+          "value": "1",
+          "label_cn": "封堵射门"
+        },
+        "effectiveTackles": {
+          "label": "Effective Tackles",
+          "value": "1",
+          "label_cn": "有效抢断"
+        },
+        "totalTackles": {
+          "label": "Tackles",
+          "value": "1",
+          "label_cn": "抢断"
+        },
+        "tacklePct": {
+          "label": "Tackle %",
+          "value": "0.0",
+          "label_cn": "抢断成功率"
+        },
+        "interceptions": {
+          "label": "Interceptions",
+          "value": "1",
+          "label_cn": "拦截"
+        },
+        "effectiveClearance": {
+          "label": "Effective Clearances",
+          "value": "6",
+          "label_cn": "有效解围"
+        },
+        "totalClearance": {
+          "label": "Clearances",
+          "value": "6",
+          "label_cn": "解围"
+        }
+      },
+      "team_name_cn": "刚果民主共和国"
+    }
+  },
+  "lineups": {
+    "home": {
+      "formation": "4-2-3-1",
+      "starters": [
+        {
+          "id": "238903",
+          "name": "Diogo Costa",
+          "short_name": "D. Costa",
+          "jersey": "1",
+          "position": "G",
+          "position_name": "Goalkeeper",
+          "starter": true,
+          "formation_place": "1",
+          "active": true
+        },
+        {
+          "id": "124091",
+          "name": "Bruno Fernandes",
+          "short_name": "B. Fernandes",
+          "jersey": "8",
+          "position": "M",
+          "position_name": "Attacking Midfielder",
+          "starter": true,
+          "formation_place": "10",
+          "active": true
+        },
+        {
+          "id": "256115",
+          "name": "Pedro Neto",
+          "short_name": "P. Neto",
+          "jersey": "18",
+          "position": "M",
+          "position_name": "Attacking Midfielder Left",
+          "starter": true,
+          "formation_place": "11",
+          "active": true
+        },
+        {
+          "id": "176399",
+          "name": "João Cancelo",
+          "short_name": "J. Cancelo",
+          "jersey": "20",
+          "position": "D",
+          "position_name": "Right Back",
+          "starter": true,
+          "formation_place": "2",
+          "active": true
+        },
+        {
+          "id": "290591",
+          "name": "Nuno Mendes",
+          "short_name": "N. Mendes",
+          "jersey": "25",
+          "position": "D",
+          "position_name": "Left Back",
+          "starter": true,
+          "formation_place": "3",
+          "active": true
+        },
+        {
+          "id": "288897",
+          "name": "Vitinha ",
+          "short_name": "Vitinha ",
+          "jersey": "23",
+          "position": "M",
+          "position_name": "Left Midfielder",
+          "starter": true,
+          "formation_place": "4",
+          "active": true
+        },
+        {
+          "id": "329691",
+          "name": "Tomás Araújo",
+          "short_name": "T. Araújo",
+          "jersey": "4",
+          "position": "D",
+          "position_name": "Center Right Defender",
+          "starter": true,
+          "formation_place": "5",
+          "active": true
+        },
+        {
+          "id": "337011",
+          "name": "Renato Veiga",
+          "short_name": "R. Veiga",
+          "jersey": "13",
+          "position": "D",
+          "position_name": "Center Left Defender",
+          "starter": true,
+          "formation_place": "6",
+          "active": true
+        },
+        {
+          "id": "199833",
+          "name": "Bernardo Silva",
+          "short_name": "B. Silva",
+          "jersey": "10",
+          "position": "M",
+          "position_name": "Attacking Midfielder Right",
+          "starter": true,
+          "formation_place": "7",
+          "active": true
+        },
+        {
+          "id": "355061",
+          "name": "João Neves",
+          "short_name": "J. Neves",
+          "jersey": "15",
+          "position": "M",
+          "position_name": "Right Midfielder",
+          "starter": true,
+          "formation_place": "8",
+          "active": true
+        },
+        {
+          "id": "22774",
+          "name": "Cristiano Ronaldo",
+          "short_name": "C. Ronaldo",
+          "jersey": "7",
+          "position": "F",
+          "position_name": "Forward",
+          "starter": true,
+          "formation_place": "9",
+          "active": true
+        }
+      ],
+      "substitutes": [
+        {
+          "id": "304106",
+          "name": "Gonçalo Inácio",
+          "short_name": "G. Inácio",
+          "jersey": "14",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "183466",
+          "name": "Samú Costa",
+          "short_name": "S. Costa",
+          "jersey": "24",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "234878",
+          "name": "Rúben Dias",
+          "short_name": "R. Dias",
+          "jersey": "3",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "276350",
+          "name": "João Félix",
+          "short_name": "J. Félix",
+          "jersey": "11",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "181278",
+          "name": "José Sá",
+          "short_name": "J. Sá",
+          "jersey": "12",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "303785",
+          "name": "Matheus Nunes",
+          "short_name": "M. Nunes",
+          "jersey": "6",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "274159",
+          "name": "Francisco Trincão",
+          "short_name": "F. Trincão",
+          "jersey": "16",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "208128",
+          "name": "Rúben Neves",
+          "short_name": "R. Neves",
+          "jersey": "21",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "312659",
+          "name": "Francisco Conceição",
+          "short_name": "F. Conceição",
+          "jersey": "26",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "222670",
+          "name": "Nélson Semedo",
+          "short_name": "N. Semedo",
+          "jersey": "2",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "288896",
+          "name": "Gonçalo Ramos",
+          "short_name": "G. Ramos",
+          "jersey": "9",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "177898",
+          "name": "Rui Silva",
+          "short_name": "R. Silva",
+          "jersey": "22",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "258917",
+          "name": "Rafael Leão",
+          "short_name": "R. Leão",
+          "jersey": "17",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "238902",
+          "name": "Diogo Dalot",
+          "short_name": "D. Dalot",
+          "jersey": "5",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "213141",
+          "name": "Gonçalo Guedes",
+          "short_name": "G. Guedes",
+          "jersey": "19",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        }
+      ]
+    },
+    "away": {
+      "formation": "5-3-2",
+      "starters": [
+        {
+          "id": "211669",
+          "name": "Lionel Mpasi",
+          "short_name": "L. Mpasi",
+          "jersey": "1",
+          "position": "G",
+          "position_name": "Goalkeeper",
+          "starter": true,
+          "formation_place": "1",
+          "active": true
+        },
+        {
+          "id": "147193",
+          "name": "Cédric Bakambu",
+          "short_name": "C. Bakambu",
+          "jersey": "17",
+          "position": "F",
+          "position_name": "Center Right Forward",
+          "starter": true,
+          "formation_place": "10",
+          "active": true
+        },
+        {
+          "id": "268986",
+          "name": "Edo Kayembe",
+          "short_name": "E. Kayembe",
+          "jersey": "25",
+          "position": "M",
+          "position_name": "Center Left Midfielder",
+          "starter": true,
+          "formation_place": "11",
+          "active": true
+        },
+        {
+          "id": "250945",
+          "name": "Aaron Wan-Bissaka",
+          "short_name": "A. Wan-Bissaka",
+          "jersey": "2",
+          "position": "D",
+          "position_name": "Right Back",
+          "starter": true,
+          "formation_place": "2",
+          "active": true
+        },
+        {
+          "id": "165892",
+          "name": "Arthur Masuaku",
+          "short_name": "A. Masuaku",
+          "jersey": "26",
+          "position": "D",
+          "position_name": "Left Back",
+          "starter": true,
+          "formation_place": "3",
+          "active": true
+        },
+        {
+          "id": "369201",
+          "name": "Steve Kapuadi",
+          "short_name": "S. Kapuadi",
+          "jersey": "3",
+          "position": "D",
+          "position_name": "Center Left Defender",
+          "starter": true,
+          "formation_place": "4",
+          "active": true
+        },
+        {
+          "id": "229524",
+          "name": "Axel Tuanzebe",
+          "short_name": "A. Tuanzebe",
+          "jersey": "4",
+          "position": "D",
+          "position_name": "Center Defender",
+          "starter": true,
+          "formation_place": "5",
+          "active": true
+        },
+        {
+          "id": "174322",
+          "name": "Chancel Mbemba",
+          "short_name": "C. Mbemba",
+          "jersey": "22",
+          "position": "D",
+          "position_name": "Center Right Defender",
+          "starter": true,
+          "formation_place": "6",
+          "active": true
+        },
+        {
+          "id": "345988",
+          "name": "Ngal'ayel Mukau",
+          "short_name": "N. Mukau",
+          "jersey": "6",
+          "position": "M",
+          "position_name": "Center Right Midfielder",
+          "starter": true,
+          "formation_place": "7",
+          "active": true
+        },
+        {
+          "id": "260932",
+          "name": "Samuel Moutoussamy",
+          "short_name": "S. Moutoussamy",
+          "jersey": "8",
+          "position": "M",
+          "position_name": "Center Midfielder",
+          "starter": true,
+          "formation_place": "8",
+          "active": true
+        },
+        {
+          "id": "224077",
+          "name": "Yoane Wissa",
+          "short_name": "Y. Wissa",
+          "jersey": "20",
+          "position": "F",
+          "position_name": "Center Left Forward",
+          "starter": true,
+          "formation_place": "9",
+          "active": true
+        }
+      ],
+      "substitutes": [
+        {
+          "id": "204329",
+          "name": "Joris Kayembe",
+          "short_name": "J. Kayembe",
+          "jersey": "12",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "182337",
+          "name": "Théo Bongonda",
+          "short_name": "T. Bongonda",
+          "jersey": "10",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "352285",
+          "name": "Brian Cipenga",
+          "short_name": "B. Cipenga",
+          "jersey": "9",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "291345",
+          "name": "Gédéon Kalulu",
+          "short_name": "G. Kalulu",
+          "jersey": "24",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "282757",
+          "name": "Timothy Fayulu",
+          "short_name": "T. Fayulu",
+          "jersey": "16",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "231161",
+          "name": "Simon Banza",
+          "short_name": "S. Banza",
+          "jersey": "23",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "340240",
+          "name": "Noah Sadiki",
+          "short_name": "N. Sadiki",
+          "jersey": "14",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "319371",
+          "name": "Matthieu Epolo",
+          "short_name": "M. Epolo",
+          "jersey": "21",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "175104",
+          "name": "Aaron Tshibola",
+          "short_name": "A. Tshibola",
+          "jersey": "15",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "291750",
+          "name": "Nathanaël Mbuku",
+          "short_name": "N. Mbuku",
+          "jersey": "7",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "260228",
+          "name": "Dylan Batubinsika",
+          "short_name": "D. Batubinsika",
+          "jersey": "5",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "299324",
+          "name": "Fiston Mayele",
+          "short_name": "F. Mayele",
+          "jersey": "19",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "130545",
+          "name": "Gaël Kakuta",
+          "short_name": "G. Kakuta",
+          "jersey": "11",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "235875",
+          "name": "Charles Pickel",
+          "short_name": "C. Pickel",
+          "jersey": "18",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        },
+        {
+          "id": "232492",
+          "name": "Meschack Elia",
+          "short_name": "M. Elia",
+          "jersey": "13",
+          "position": "U",
+          "position_name": "Substitute",
+          "starter": false,
+          "formation_place": "0",
+          "active": true
+        }
+      ]
+    }
+  },
+  "competition_id": "760435",
+  "_saved_at": "2026-06-18T01:15:51.061982"
+}
