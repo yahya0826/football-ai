@@ -2,7 +2,7 @@
 
 import { Component, useState, useEffect, useMemo } from 'react';
 import type { ErrorInfo, ReactNode } from 'react';
-import api, { ScheduleMatch, MatchScheduleResponse, MatchDetailResponse, MatchHighlightsResponse, H2HData, RecentMatch, LiveScoreboardResponse, LiveMatchSummary, MatchAnalysisResponse, MatchAnalysis, LiveEvent } from '@/lib/api';
+import api, { ScheduleMatch, MatchScheduleResponse, MatchDetailResponse, H2HData, RecentMatch, LiveScoreboardResponse, LiveMatchSummary, MatchAnalysisResponse, MatchAnalysis, LiveEvent } from '@/lib/api';
 import LiveMatchPanel from '@/components/LiveMatchPanel';
 import FormationView from '@/components/FormationView';
 
@@ -109,8 +109,6 @@ export default function SchedulePage() {
   const [selectedMatch, setSelectedMatch] = useState<ScheduleMatch | null>(null);
   const [matchDetail, setMatchDetail] = useState<MatchDetailResponse | null>(null);
   const [detailLoading, setDetailLoading] = useState(false);
-  const [aiHighlights, setAiHighlights] = useState<string | null>(null);
-  const [highlightsLoading, setHighlightsLoading] = useState(false);
   const [liveMatchId, setLiveMatchId] = useState<string | null>(null);
   const [liveLookupDone, setLiveLookupDone] = useState(false);
 
@@ -215,24 +213,13 @@ export default function SchedulePage() {
     if (isKnockoutPlaceholder(match)) return;
     setSelectedMatch(match);
     setMatchDetail(null);
-    setAiHighlights(null);
     setLiveMatchId(null);
     setLiveLookupDone(false);
     setDetailLoading(true);
-    setHighlightsLoading(true);
 
-    // Parallelize all 3 API calls — avoid sequential blocking
-    const [detailRes, hlRes, liveRes] = await Promise.allSettled([
+    // Parallelize detail and live lookup to avoid sequential blocking
+    const [detailRes, liveRes] = await Promise.allSettled([
       api.getScheduleMatch(match.match_id),
-      api.getMatchHighlights(match.match_id, {
-        home_team: match.home_team,
-        away_team: match.away_team,
-        home_team_cn: match.home_team_cn,
-        away_team_cn: match.away_team_cn,
-        group: match.group,
-        stage: match.stage,
-        venue: match.venue,
-      }),
       api.getLiveMatchLookup(match.home_team, match.away_team, match.date),
     ]);
 
@@ -240,11 +227,6 @@ export default function SchedulePage() {
       setMatchDetail(detailRes.value);
     }
     setDetailLoading(false);
-
-    if (hlRes.status === 'fulfilled') {
-      setAiHighlights(hlRes.value.highlights);
-    }
-    setHighlightsLoading(false);
 
     if (liveRes.status === 'fulfilled' && liveRes.value.found && liveRes.value.match_id) {
       setLiveMatchId(liveRes.value.match_id);
@@ -348,9 +330,7 @@ export default function SchedulePage() {
               <MatchDetailPanel
                 match={selectedMatch}
                 detail={matchDetail}
-                aiHighlights={aiHighlights}
                 detailLoading={detailLoading}
-                highlightsLoading={highlightsLoading}
                 liveMatchId={liveMatchId}
                 liveLookupDone={liveLookupDone}
               />
@@ -521,9 +501,7 @@ export default function SchedulePage() {
             <MatchDetailPanel
               match={selectedMatch}
               detail={matchDetail}
-              aiHighlights={aiHighlights}
               detailLoading={detailLoading}
-              highlightsLoading={highlightsLoading}
               liveMatchId={liveMatchId}
               liveLookupDone={liveLookupDone}
             />
@@ -1205,14 +1183,12 @@ function TimelineCard({ match, live, onClick, isFeatured }: { match: ScheduleMat
    ───────────────────────────────────────────── */
 
 function MatchDetailPanel({
-  match, detail, aiHighlights, detailLoading, highlightsLoading,
+  match, detail, detailLoading,
   liveMatchId, liveLookupDone,
 }: {
   match: ScheduleMatch;
   detail: MatchDetailResponse | null;
-  aiHighlights: string | null;
   detailLoading: boolean;
-  highlightsLoading: boolean;
   liveMatchId: string | null;
   liveLookupDone: boolean;
 }) {
@@ -1296,22 +1272,6 @@ function MatchDetailPanel({
             </DetailCard>
           </div>
 
-          {/* AI Highlights */}
-          <DetailCard title="比赛看点 & 关注点" fullWidth>
-            {highlightsLoading ? (
-              <div style={{ color: 'var(--text-muted)', fontSize: 'var(--text-sm)', padding: '1rem', textAlign: 'center' }}>
-                AI 正在分析比赛看点…
-              </div>
-            ) : aiHighlights ? (
-              <div style={{ fontSize: 'var(--text-sm)', lineHeight: 1.8, whiteSpace: 'pre-wrap', padding: '0.5rem' }}>
-                {aiHighlights}
-              </div>
-            ) : (
-              <div style={{ color: 'var(--text-muted)', fontSize: 'var(--text-sm)', textAlign: 'center', padding: '1rem' }}>
-                正在获取AI分析…
-              </div>
-            )}
-          </DetailCard>
         </>
       )}
     </div>

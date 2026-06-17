@@ -469,22 +469,6 @@ export interface MatchDetailResponse {
   } | null;
 }
 
-export interface MatchHighlightsResponse {
-  match_id: number;
-  home_team: string;
-  away_team: string;
-  home_team_cn: string;
-  away_team_cn: string;
-  h2h: H2HData | null;
-  home_recent: RecentMatch[] | null;
-  away_recent: RecentMatch[] | null;
-  highlights: string;
-  team_profiles: {
-    home: MatchTeamProfile | null;
-    away: MatchTeamProfile | null;
-  } | null;
-}
-
 // API 函数
 export const api = {
   // 赛程相关
@@ -504,21 +488,6 @@ export const api = {
 
   async getScheduleMatch(matchId: number): Promise<MatchDetailResponse> {
     return fetchAPI(`/api/schedule/${matchId}`);
-  },
-
-  async getMatchHighlights(matchId: number, request: {
-    home_team: string;
-    away_team: string;
-    home_team_cn?: string;
-    away_team_cn?: string;
-    group?: string;
-    stage?: string;
-    venue?: string;
-  }): Promise<MatchHighlightsResponse> {
-    return fetchAPI(`/api/schedule/${matchId}/highlights`, {
-      method: 'POST',
-      body: JSON.stringify(request),
-    });
   },
 
   // 旧比赛数据（保留兼容）

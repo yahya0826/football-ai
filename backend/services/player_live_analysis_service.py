@@ -239,6 +239,11 @@ def _only_substitution_events(player_events: Optional[List[str]]) -> bool:
     return all(any(marker in event for marker in substitution_markers) for event in player_events)
 
 
+def _is_placeholder_analysis(text: str) -> bool:
+    markers = ("æš‚æ— ", "æœªæ•èŽ·", "暂无", "未捕获")
+    return any(marker in str(text or "") for marker in markers)
+
+
 class PlayerLiveAnalysisService:
     """Fetch per-player stats from ESPN Core API and generate AI analysis."""
 
@@ -273,6 +278,8 @@ class PlayerLiveAnalysisService:
         # Fetch player stats from ESPN Core API
         stats = self._fetch_player_stats(match_id, competition_id, team_id, player_id)
         stats_available = stats is not None and len(stats) > 0
+        persisted_player = self._get_persisted_player_record(match_id, team_id, player_id)
+        interval_snapshots = persisted_player.get("interval_snapshots", {}) if persisted_player else {}
 
         # Determine which intervals should be generated
         interval_order = ["p1", "p2", "p3", "p4"]
@@ -282,8 +289,32 @@ class PlayerLiveAnalysisService:
         for i, iv in enumerate(interval_order):
             should_generate = i <= current_idx and (_interval_available(iv, clock, match_state) or iv == current_interval)
             if should_generate:
+                snapshot = interval_snapshots.get(iv) or {}
+                has_snapshot = bool(snapshot)
+                interval_stats = stats
+                interval_clock = clock
+                interval_state = match_state
+                if iv != current_interval and has_snapshot:
+                    interval_stats = snapshot.get("stats") or {}
+                    interval_clock = snapshot.get("clock") or clock
+                    interval_state = snapshot.get("match_state") or match_state
+                elif iv == current_interval and not stats_available and has_snapshot:
+                    interval_stats = snapshot.get("stats") or {}
+                    interval_clock = snapshot.get("clock") or clock
+                    interval_state = snapshot.get("match_state") or match_state
+
                 analyses[iv] = self._get_or_generate_interval(
-                    match_id, team_id, player_id, iv, player_name, position, clock, match_state, stats, events
+                    match_id,
+                    team_id,
+                    player_id,
+                    iv,
+                    player_name,
+                    position,
+                    interval_clock,
+                    interval_state,
+                    interval_stats,
+                    events,
+                    allow_past_generation=has_snapshot,
                 )
             else:
                 analyses[iv] = {
@@ -415,6 +446,11 @@ class PlayerLiveAnalysisService:
         except Exception as e:
             logger.warning(f"Failed to load match player stats {match_id}: {e}")
             return {}
+
+    def _get_persisted_player_record(self, match_id: str, team_id: str, player_id: str) -> Dict[str, Any]:
+        persisted = self._load_match_player_stats(match_id)
+        players = persisted.get("players", {}) if isinstance(persisted, dict) else {}
+        return players.get(f"{team_id}_{player_id}", {}) if isinstance(players, dict) else {}
 
     def _save_match_player_stats(self, match_id: str, data: Dict[str, Any]):
         path = self._match_player_stats_path(match_id)
@@ -583,6 +619,7 @@ class PlayerLiveAnalysisService:
         match_state: str,
         stats: Optional[Dict],
         events: Optional[List[Dict[str, Any]]] = None,
+        allow_past_generation: bool = False,
     ) -> Dict:
         """Get cached analysis or generate new one for a time interval."""
         # Check memory cache
@@ -590,22 +627,22 @@ class PlayerLiveAnalysisService:
         signature = _stats_signature(stats)
         generated_minute = _parse_clock(clock)
         cache_allowed = _interval_available(interval, clock, match_state)
+        current_interval = get_current_interval(clock, match_state)
         cache_locked = interval != get_current_interval(clock, match_state) or match_state == "finished"
         if cache_key in self._memory_cache:
             cached = self._memory_cache[cache_key]
-            if self._cache_valid(cached, signature, cache_allowed):
+            if self._cache_valid(cached, signature, cache_allowed, cache_locked):
                 self._lock_cache_if_past(cache_key, cached, interval, clock, match_state)
                 return cached
 
         # Check file cache
         cached = self._load_cached(cache_key)
-        if cached and self._cache_valid(cached, signature, cache_allowed):
+        if cached and self._cache_valid(cached, signature, cache_allowed, cache_locked):
             self._lock_cache_if_past(cache_key, cached, interval, clock, match_state)
             self._memory_cache[cache_key] = cached
             return cached
 
-        current_interval = get_current_interval(clock, match_state)
-        if interval != current_interval:
+        if interval != current_interval and not allow_past_generation:
             return {
                 "_cache_version": CACHE_VERSION,
                 "team_id": team_id,
@@ -644,12 +681,14 @@ class PlayerLiveAnalysisService:
 
         return result
 
-    def _cache_valid(self, cached: Dict, signature: str, cache_allowed: bool) -> bool:
+    def _cache_valid(self, cached: Dict, signature: str, cache_allowed: bool, cache_locked: bool = False) -> bool:
         """Reject legacy or early-match cache that may have been generated from stale ESPN stats."""
         if cached.get("_cache_version") != CACHE_VERSION:
             return False
         if not cache_allowed:
             return False
+        if cache_locked and cached.get("generated") and cached.get("analysis") and not _is_placeholder_analysis(cached.get("analysis", "")):
+            return True
         if cached.get("_stats_signature") != signature and not cached.get("_cache_locked"):
             return False
         return True

@@ -169,56 +169,6 @@ export default function LineupAnalysis({ lineup, formationId, teamName }: Lineup
         <div style={{ fontSize: 'var(--text-xs)', color: '#eab308' }}>{error}</div>
       )}
 
-      {/* Highlights */}
-      {data && data.highlights.length > 0 && (
-        <div>
-          <div style={{
-            fontSize: 'var(--text-xs)',
-            fontWeight: 600,
-            color: '#10b981',
-            marginBottom: '0.4rem',
-          }}>
-            核心亮点
-          </div>
-          <ul style={{
-            margin: 0,
-            paddingLeft: '1.1rem',
-            fontSize: 'var(--text-xs)',
-            color: '#d1d5db',
-            lineHeight: 1.7,
-          }}>
-            {data.highlights.map((h, i) => (
-              <li key={i}>{h}</li>
-            ))}
-          </ul>
-        </div>
-      )}
-
-      {/* Concerns */}
-      {data && data.concerns.length > 0 && (
-        <div>
-          <div style={{
-            fontSize: 'var(--text-xs)',
-            fontWeight: 600,
-            color: '#eab308',
-            marginBottom: '0.4rem',
-          }}>
-            潜在短板
-          </div>
-          <ul style={{
-            margin: 0,
-            paddingLeft: '1.1rem',
-            fontSize: 'var(--text-xs)',
-            color: '#d1d5db',
-            lineHeight: 1.7,
-          }}>
-            {data.concerns.map((c, i) => (
-              <li key={i}>{c}</li>
-            ))}
-          </ul>
-        </div>
-      )}
-
       {/* Set Pieces */}
       {data?.set_pieces && (
         <SetPieceSection sp={data.set_pieces} />

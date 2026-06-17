@@ -31,9 +31,7 @@ export default function MatchDetailClient() {
   const matchId = parseInt(params.id as string);
 
   const [detail, setDetail] = useState<MatchDetailResponse | null>(null);
-  const [highlights, setHighlights] = useState<string | null>(null);
   const [loading, setLoading] = useState(true);
-  const [hlLoading, setHlLoading] = useState(false);
   const [liveMatchId, setLiveMatchId] = useState<string | null>(null);
 
   useEffect(() => {
@@ -50,23 +48,6 @@ export default function MatchDetailClient() {
     }
     load();
   }, [matchId]);
-
-  useEffect(() => {
-    if (!detail?.match) return;
-    const match = detail.match;
-    setHlLoading(true);
-    api.getMatchHighlights(matchId, {
-      home_team: match.home_team,
-      away_team: match.away_team,
-      home_team_cn: match.home_team_cn,
-      away_team_cn: match.away_team_cn,
-      group: match.group,
-      stage: match.stage,
-      venue: match.venue,
-    }).then(hl => {
-      setHighlights(hl.highlights);
-    }).catch(console.error).finally(() => setHlLoading(false));
-  }, [detail?.match?.match_id]);
 
   useEffect(() => {
     if (!detail?.match) return;
@@ -149,19 +130,6 @@ export default function MatchDetailClient() {
         </SectionCard>
       </div>
 
-      <SectionCard title="比赛看点 & 关注点">
-        {hlLoading ? (
-          <div style={{ color: 'var(--text-muted)', fontSize: 'var(--text-sm)', textAlign: 'center', padding: '1rem' }}>
-            AI 正在分析比赛看点…
-          </div>
-        ) : highlights ? (
-          <div style={{ fontSize: 'var(--text-sm)', lineHeight: 1.8, whiteSpace: 'pre-wrap' }}>
-            {highlights}
-          </div>
-        ) : (
-          <div style={{ color: 'var(--text-muted)', fontSize: 'var(--text-sm)' }}>暂无数据</div>
-        )}
-      </SectionCard>
     </div>
   );
 }

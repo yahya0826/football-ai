@@ -1136,6 +1136,7 @@ async def get_team_roster(team_id: str):
 async def get_player_live_analysis(
     match_id: str,
     player_id: str,
+    background_tasks: BackgroundTasks,
     team_id: str = Query(..., description="ESPN team ID"),
     player_name: str = Query(..., description="球员英文名"),
     position: str = Query(..., description="球员位置 (G/D/M/F)"),
@@ -1152,6 +1153,8 @@ async def get_player_live_analysis(
         match_state = detail.get("status", {}).get("state", "scheduled")
         if not clock:
             clock = detail.get("status", {}).get("clock", "")
+
+        _schedule_player_stats_collection(detail, background_tasks)
 
         result = player_live_analysis_service.get_player_analysis(
             match_id=match_id,

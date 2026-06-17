@@ -1,0 +1,272 @@
+{
+  "date": "2026-06-18",
+  "last_updated": "2026-06-18T00:16:03.690740",
+  "teams": {
+    "group_a": {
+      "name_cn": "A组",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "group_b": {
+      "name_cn": "B组",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "group_c": {
+      "name_cn": "C组",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "group_d": {
+      "name_cn": "D组",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "group_e": {
+      "name_cn": "E组",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "group_f": {
+      "name_cn": "F组",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "group_g": {
+      "name_cn": "G组",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "group_h": {
+      "name_cn": "H组",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "group_i": {
+      "name_cn": "I组",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "group_j": {
+      "name_cn": "J组",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "group_k": {
+      "name_cn": "K组",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "group_l": {
+      "name_cn": "L组",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "Switzerland": {
+      "name_cn": "瑞士",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "4-3-3",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "Bosnia and Herzegovina": {
+      "name_cn": "波黑",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "4-3-3",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "Mexico": {
+      "name_cn": "墨西哥",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "4-3-3",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "South Korea": {
+      "name_cn": "韩国",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "4-3-3",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "Canada": {
+      "name_cn": "加拿大",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "Qatar": {
+      "name_cn": "卡塔尔",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "Uzbekistan": {
+      "name_cn": "乌兹别克斯坦",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "Colombia": {
+      "name_cn": "哥伦比亚",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "Ghana": {
+      "name_cn": "加纳",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "Panama": {
+      "name_cn": "巴拿马",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "England": {
+      "name_cn": "英格兰",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "4-3-3",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "Croatia": {
+      "name_cn": "克罗地亚",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "4-3-3",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    }
+  },
+  "total_teams": 24,
+  "_cache_ts": 1781712963.6908424
+}

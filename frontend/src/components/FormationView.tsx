@@ -129,8 +129,8 @@ function processSubstitutions(
     // Determine side from the player being substituted off first, then match
     // the incoming player only within that same team. This avoids cross-team
     // name collisions when two players have similar names.
-    const homePlayerOut = findPlayerByName(ev.player_out, homeLineup.starters);
-    const awayPlayerOut = findPlayerByName(ev.player_out, awayLineup.starters);
+    const homePlayerOut = findPlayerByName(ev.player_out, allHome);
+    const awayPlayerOut = findPlayerByName(ev.player_out, allAway);
     const outInHome = !!homePlayerOut && !awayPlayerOut;
     const outInAway = !!awayPlayerOut && !homePlayerOut;
 
@@ -152,6 +152,22 @@ function processSubstitutions(
   }
 
   return { homeSubbedOut, homeSubbedIn, awaySubbedOut, awaySubbedIn, homeReplacements, awayReplacements };
+}
+
+function appendSubbedOutPlayers(
+  substitutes: LineupPlayer[],
+  starters: LineupPlayer[],
+  subbedOut: Set<string>,
+): LineupPlayer[] {
+  const subbedOutPlayers = starters.filter(player => subbedOut.has(player.id));
+  if (subbedOutPlayers.length === 0) return substitutes;
+
+  const seen = new Set<string>();
+  return [...subbedOutPlayers, ...substitutes].filter((player) => {
+    if (seen.has(player.id)) return false;
+    seen.add(player.id);
+    return true;
+  });
 }
 
 function buildSlotsFromLineup(
@@ -333,6 +349,20 @@ function SubItem({ player, subStatus }: { player: RosterPlayer | LineupPlayer; s
         number={player.jersey}
         size={31}
       />
+      {subStatus && (
+        <span
+          aria-label={subStatus === 'out' ? '已被换下' : '已替补登场'}
+          style={{
+            flex: '0 0 auto',
+            color: subStatus === 'out' ? '#ef4444' : '#10b981',
+            fontSize: 16,
+            fontWeight: 900,
+            lineHeight: 1,
+          }}
+        >
+          {subStatus === 'out' ? '▼' : '▲'}
+        </span>
+      )}
       <span
         style={{
           minWidth: 0,
@@ -669,8 +699,8 @@ export default function FormationView({ homeTeamId, awayTeamId, homeName, awayNa
 
   homeSlots = buildSlotsFromLineup(homeLineup.starters, displayHomeFormation, 'home', subs.homeReplacements, subs.homeSubbedIn);
   awaySlots = buildSlotsFromLineup(awayLineup.starters, displayAwayFormation, 'away', subs.awayReplacements, subs.awaySubbedIn);
-  homeBench = homeLineup.substitutes;
-  awayBench = awayLineup.substitutes;
+  homeBench = appendSubbedOutPlayers(homeLineup.substitutes, homeLineup.starters, subs.homeSubbedOut);
+  awayBench = appendSubbedOutPlayers(awayLineup.substitutes, awayLineup.starters, subs.awaySubbedOut);
   resolvedHomeName = homeNameCn || homeName;
   resolvedAwayName = awayNameCn || awayName;
   homeCoach = '';
