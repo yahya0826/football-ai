@@ -94,7 +94,7 @@ function RecentMatches() {
   return (
     <section className="py-6 md:py-12">
       <div className="max-w-4xl mx-auto px-4">
-        <div className="flex justify-between items-center mb-6">
+        <div className="flex justify-between items-center mb-6 gap-3">
           <h2 className="text-2xl font-bold">最近比赛</h2>
           <Link href="/matches" className="text-sm" style={{ color: 'var(--primary)' }}>
             查看全部
@@ -106,7 +106,7 @@ function RecentMatches() {
               <div className="match-card">
                 <div className="flex justify-between items-center">
                   <div className="flex-1">
-                    <div className="flex justify-between items-center">
+                    <div className="responsive-match-row">
                       <div className="text-right flex-1">
                         <span className="font-medium">{match.home_team_cn}</span>
                         <span className="text-xs block" style={{ color: 'var(--text-muted)' }}>{match.home_team}</span>

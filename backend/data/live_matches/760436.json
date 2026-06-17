@@ -1,0 +1,55 @@
+{
+  "match_id": "760436",
+  "date": "2026-06-18",
+  "status": {
+    "state": "scheduled",
+    "detail": "Wed, June 17th at 10:00 PM EDT",
+    "period": 0,
+    "clock": "",
+    "completed": false,
+    "state_cn": "未开始"
+  },
+  "home": {
+    "name": "Uzbekistan",
+    "abbrev": "UZB",
+    "logo": "",
+    "score": 0,
+    "team_id": "2570",
+    "name_cn": "乌兹别克斯坦"
+  },
+  "away": {
+    "name": "Colombia",
+    "abbrev": "COL",
+    "logo": "",
+    "score": 0,
+    "team_id": "208",
+    "name_cn": "哥伦比亚"
+  },
+  "events": [],
+  "statistics": {
+    "home": {
+      "team_name": "Uzbekistan",
+      "stats": {},
+      "team_name_cn": "乌兹别克斯坦"
+    },
+    "away": {
+      "team_name": "Colombia",
+      "stats": {},
+      "team_name_cn": "哥伦比亚"
+    }
+  },
+  "lineups": {
+    "home": {
+      "formation": "",
+      "starters": [],
+      "substitutes": []
+    },
+    "away": {
+      "formation": "",
+      "starters": [],
+      "substitutes": []
+    }
+  },
+  "competition_id": "760436",
+  "_saved_at": "2026-06-17T10:05:53.718240"
+}

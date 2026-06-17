@@ -272,19 +272,19 @@ export default function SchedulePage() {
 
   return (
     <ErrorBoundary>
-      <div style={{ maxWidth: 1400, margin: '0 auto', padding: '1.5rem 1rem' }}>
+      <div className="responsive-page" style={{ maxWidth: 1400 }}>
       {/* Header */}
       <div style={{ textAlign: 'center', marginBottom: '1.5rem' }}>
         <h1 style={{ fontSize: '1.8rem', fontWeight: 800, margin: '0 0 0.5rem', background: 'linear-gradient(135deg, #f0c059, #3b82f6, #ef4444)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>
           2026 世界杯赛程
         </h1>
-        <p style={{ color: 'var(--text-muted)', fontSize: 'var(--text-sm)', margin: 0 }}>
+        <p style={{ color: 'var(--text-muted)', fontSize: 'var(--text-sm)', margin: '0 auto', maxWidth: '42rem', lineHeight: 1.6, overflowWrap: 'anywhere' }}>
           6月12日 — 7月20日 · 104场比赛 · 16座球场 · 美国/加拿大/墨西哥
         </p>
       </div>
 
       {/* ── Tab Switcher ── */}
-      <div style={{ display: 'flex', justifyContent: 'center', gap: '0.5rem', marginBottom: '1.5rem' }}>
+      <div className="responsive-toolbar" style={{ justifyContent: 'center', marginBottom: '1.5rem' }}>
         {(['all', 'today'] as const).map(mode => (
           <button
             key={mode}
@@ -309,8 +309,8 @@ export default function SchedulePage() {
       {/* ── Today View ── */}
       {viewMode === 'today' ? (
         selectedMatch ? (
-          <div style={{ display: 'flex', gap: '1.25rem', alignItems: 'flex-start' }}>
-            <div style={{
+          <div className="matches-detail-layout" style={{ display: 'flex', gap: '1.25rem', alignItems: 'flex-start' }}>
+            <div className="matches-detail-list" style={{
               flex: '0 0 40%',
               maxHeight: 'calc(100vh - 200px)',
               overflowY: 'auto',
@@ -324,7 +324,7 @@ export default function SchedulePage() {
                 onMatchClick={handleMatchClick}
               />
             </div>
-            <div style={{
+            <div className="matches-detail-panel" style={{
               flex: '1',
               maxHeight: 'calc(100vh - 200px)',
               overflowY: 'auto',
@@ -369,7 +369,7 @@ export default function SchedulePage() {
         <>
 
       {/* Stage Tabs */}
-      <div style={{ display: 'flex', gap: '0.35rem', flexWrap: 'wrap', marginBottom: '1rem', justifyContent: 'center' }}>
+      <div className="responsive-toolbar" style={{ gap: '0.35rem', flexWrap: 'wrap', marginBottom: '1rem', justifyContent: 'center' }}>
         {Object.entries(STAGE_TABS).map(([key, { label }]) => {
           const count = stageCounts[key] || 0;
           const displayLabel = key === 'all' ? `${label}(${schedule?.total || 0})` : `${label}(${count})`;
@@ -395,7 +395,7 @@ export default function SchedulePage() {
 
       {/* Group filter */}
       {activeStage === 'group' && (
-        <div style={{ display: 'flex', gap: '0.35rem', flexWrap: 'wrap', marginBottom: '1rem', justifyContent: 'center' }}>
+        <div className="responsive-toolbar" style={{ gap: '0.35rem', flexWrap: 'wrap', marginBottom: '1rem', justifyContent: 'center' }}>
           <button
             onClick={() => setSelectedGroup('')}
             style={{
@@ -427,9 +427,9 @@ export default function SchedulePage() {
       )}
 
       {/* ── Two-Column Layout ── */}
-      <div style={{ display: 'flex', gap: '1.25rem', alignItems: 'flex-start' }}>
+      <div className="matches-detail-layout" style={{ display: 'flex', gap: '1.25rem', alignItems: 'flex-start' }}>
         {/* ── LEFT: Match List (40%) ── */}
-        <div style={{
+        <div className="matches-detail-list" style={{
           flex: '0 0 40%',
           maxHeight: 'calc(100vh - 280px)',
           overflowY: 'auto',
@@ -512,7 +512,7 @@ export default function SchedulePage() {
         </div>
 
         {/* ── RIGHT: Match Detail (60%) ── */}
-        <div style={{
+        <div className="matches-detail-panel" style={{
           flex: '1',
           maxHeight: 'calc(100vh - 280px)',
           overflowY: 'auto',
@@ -770,9 +770,9 @@ function DateNav({ dates, selected, onChange }: { dates: string[]; selected: str
     return beijing.toISOString().slice(0, 10);
   })();
   return (
-    <div style={{
+    <div className="responsive-toolbar" style={{
       display: 'flex', gap: '0.35rem', overflowX: 'auto',
-      padding: '0.5rem 0 1rem', justifyContent: 'center',
+      padding: '0.5rem 0 1rem', justifyContent: 'flex-start',
     }}>
       {dates.map(d => {
         // Parse date safely in UTC to avoid timezone shifts
@@ -1278,7 +1278,7 @@ function MatchDetailPanel({
           )}
 
           {/* Detail grid */}
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0.75rem' }}>
+          <div className="responsive-two-col" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0.75rem' }}>
             <DetailCard title="历史交锋记录">
               <H2HSection h2h={detail?.h2h ?? null} homeCn={match.home_team_cn} awayCn={match.away_team_cn} />
             </DetailCard>

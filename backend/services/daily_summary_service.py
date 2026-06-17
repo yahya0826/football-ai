@@ -78,33 +78,6 @@ class DailySummaryService:
             "matches_completed": completed,
         }
 
-    def check_and_generate(self, date: str = None) -> Optional[Dict]:
-        """检查是否所有比赛结束，是则生成总结。返回生成结果或 None。"""
-        if date is None:
-            date = self._today_bj()
-
-        # 检查是否已生成
-        cache_file = DATA_DIR / f"{date}.json"
-        if cache_file.exists():
-            return None  # 已生成，不重复
-
-        matches = self._get_schedule_day_matches(date)
-
-        if not matches:
-            return None
-
-        # 检查所有比赛是否结束
-        all_finished = all(
-            m.get("state", "") == "finished"
-            for m in matches
-        )
-
-        if not all_finished:
-            return None
-
-        # 全部结束 → 生成总结
-        return self._generate_summary(date, matches)
-
     def get_all_summaries(self) -> List[Dict]:
         """获取所有已生成的总结列表"""
         summaries = []

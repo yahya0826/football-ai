@@ -42,24 +42,33 @@ export default function SquadList({ squad, lineup, onSwapWithLineup, onSwapFromB
     e.dataTransfer.dropEffect = 'move';
   }, []);
 
+  const positionGroups = ['GK', 'DF', 'MF', 'FW'];
+
   const formatPosition = (pos: string) => {
     const posMap: Record<string, string> = {
-      GK: '门将', DF: '后卫', MF: '中场', FW: '前锋',
-      CB: '中卫', LB: '左后', RB: '右后',
-      LWB: '左翼', RWB: '右翼', CDM: '后腰', CM: '中前卫',
-      CAM: '前腰', LM: '左前', RM: '右前', LW: '左边锋', RW: '右边锋', ST: '中锋',
+      GK: '门将',
+      DF: '后卫',
+      MF: '中场',
+      FW: '前锋',
     };
     return posMap[pos] || pos;
   };
 
+  const getPositionGroup = (pos: string) => {
+    const normalized = (pos || '').toUpperCase();
+    if (normalized === 'GK') return 'GK';
+    if (['DF', 'CB', 'LB', 'RB', 'LWB', 'RWB'].includes(normalized)) return 'DF';
+    if (['MF', 'CDM', 'CM', 'CAM', 'LM', 'RM'].includes(normalized)) return 'MF';
+    if (['FW', 'ST', 'CF', 'LW', 'RW'].includes(normalized)) return 'FW';
+    return 'MF';
+  };
+
   const groupedPlayers = squad.reduce((acc, player) => {
-    const group = player.position;
+    const group = getPositionGroup(player.position);
     if (!acc[group]) acc[group] = [];
     acc[group].push(player);
     return acc;
   }, {} as Record<string, Player[]>);
-
-  const positionGroups = ['GK', 'DF', 'CB', 'LB', 'RB', 'CDM', 'CM', 'CAM', 'MF', 'LW', 'RW', 'ST', 'FW'];
 
   return (
     <div style={{

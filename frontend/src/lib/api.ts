@@ -251,32 +251,6 @@ export interface ScheduleData {
   total: number;
 }
 
-// ── 每日比赛总结 (Daily Summary) ──────────────────
-
-export interface DailySummaryMatch {
-  home_team: string;
-  home_team_cn: string;
-  away_team: string;
-  away_team_cn: string;
-  score: string;
-  analysis?: string;
-  key_moment?: string;
-}
-
-export interface DailySummaryResponse {
-  date: string;
-  date_cn?: string;
-  title: string;
-  generated: boolean;
-  matches_count?: number;
-  matches_completed?: number;
-  matches_total?: number;
-  message?: string;
-  article?: string;
-  matches?: DailySummaryMatch[];
-  generated_at?: string;
-}
-
 // ── 临哨快讯 / 伤病情报 (Injury Intel) ──────────────────
 
 export interface InjuryIntelItem {
@@ -614,11 +588,6 @@ export const api = {
   },
 
   // 哨前情报 (WhistleIntel)
-
-  // 每日比赛总结（所有比赛结束后 AI 自动生成）
-  async getDailySummary(date?: string): Promise<DailySummaryResponse> {
-    return fetchAPI('/api/intelligence/daily-summary', { params: { date } });
-  },
 
   // 临哨快讯 — 伤病情报 + 预测首发 + 球队状态
   async getInjuryIntel(date?: string, forceRefresh = false): Promise<InjuriesResponse> {

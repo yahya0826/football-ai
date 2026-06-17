@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
-import api, { DailySummaryResponse, InjuriesResponse, TeamInjuryIntel } from '@/lib/api';
+import api, { InjuriesResponse, TeamInjuryIntel } from '@/lib/api';
 
 const FLAGS: Record<string, string> = {
   'Mexico': '🇲🇽', 'South Africa': '🇿🇦', 'South Korea': '🇰🇷', 'Czech Republic': '🇨🇿',
@@ -41,149 +41,6 @@ function formatTimestamp(iso: string): string {
   } catch {
     return iso;
   }
-}
-
-// ── 赛程情报：每日总结文章 ──────────────────────────────
-
-function DailySummaryTab({ data, loading }: { data: DailySummaryResponse | null; loading: boolean }) {
-  const [refreshing, setRefreshing] = useState(false);
-
-  async function handleRefresh() {
-    setRefreshing(true);
-    window.location.reload();
-  }
-
-  if (loading) {
-    return (
-      <div className="flex justify-center py-16">
-        <div className="animate-spin w-8 h-8 border-4 border-primary border-t-transparent rounded-full" />
-      </div>
-    );
-  }
-
-  if (!data) {
-    return <p className="text-center py-16" style={{ color: 'var(--text-muted)' }}>暂无数据</p>;
-  }
-
-  // 文章尚未生成（比赛未全部结束）
-  if (!data.generated) {
-    const total = data.matches_total ?? data.matches_count ?? 0;
-    const completed = data.matches_completed ?? 0;
-    return (
-      <div>
-        <div className="card text-center py-12">
-          <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>📝</div>
-          <h2 className="text-xl font-bold mb-3">{data.title || '比赛日总结'}</h2>
-          <p style={{ color: 'var(--text-muted)', marginBottom: '1.5rem' }}>
-            今日 {total} 场比赛，已完成 {completed}/{total}
-          </p>
-          <div className="flex items-center justify-center gap-2 mb-4">
-            <div className="animate-spin w-4 h-4 border-2 border-primary border-t-transparent rounded-full" />
-            <span className="text-sm" style={{ color: 'var(--text-muted)' }}>
-              所有比赛结束后将自动生成总结文章
-            </span>
-          </div>
-          {/* 进度条 */}
-          <div style={{
-            maxWidth: 300, margin: '0 auto', height: 6,
-            background: 'var(--border)', borderRadius: 3, overflow: 'hidden'
-          }}>
-            <div style={{
-              height: '100%', width: `${total > 0 ? (completed / total) * 100 : 0}%`,
-              background: 'var(--primary)', borderRadius: 3, transition: 'width 0.5s'
-            }} />
-          </div>
-          <p className="text-xs mt-3" style={{ color: 'var(--text-muted)' }}>
-            系统每 15 分钟自动检测一次
-          </p>
-        </div>
-
-        {/* 历史已生成总结 */}
-        <div className="mt-8">
-          <h3 className="font-bold mb-3" style={{ color: 'var(--text-muted)' }}>
-            历史比赛总结
-          </h3>
-          <PastSummaries />
-        </div>
-      </div>
-    );
-  }
-
-  // 已生成 → 渲染 Markdown 文章
-  return (
-    <div>
-      <div className="flex justify-between items-center mb-4">
-        <div>
-          <h2 className="text-xl font-bold">{data.title}</h2>
-          {data.generated_at && (
-            <span className="text-xs" style={{ color: 'var(--text-muted)' }}>
-              生成于 {formatTimestamp(data.generated_at)}
-            </span>
-          )}
-        </div>
-        <button onClick={handleRefresh} className="btn btn-secondary text-sm" disabled={refreshing}>
-          {refreshing ? '刷新中...' : '↻ 刷新'}
-        </button>
-      </div>
-
-      {/* 比赛快览卡片 */}
-      {data.matches && data.matches.length > 0 && (
-        <div className="flex flex-wrap gap-2 mb-6">
-          {data.matches.map((m, i) => (
-            <div key={i} className="card" style={{ padding: '0.5rem 0.75rem', minWidth: 180 }}>
-              <div className="flex items-center gap-1 mb-1">
-                <span>{getFlag(m.home_team)}</span>
-                <span className="text-sm font-bold">{m.home_team_cn}</span>
-              </div>
-              <div className="flex items-center gap-1">
-                <span>{getFlag(m.away_team)}</span>
-                <span className="text-sm font-bold">{m.away_team_cn}</span>
-              </div>
-              <div className="text-right mt-1">
-                <span className="badge badge-primary">{m.score}</span>
-              </div>
-            </div>
-          ))}
-        </div>
-      )}
-
-      {/* AI 文章正文 */}
-      {data.article ? (
-        <div className="card">
-          <div
-            className="prose"
-            style={{ whiteSpace: 'pre-wrap', lineHeight: 1.9, fontSize: '0.95rem' }}
-          >
-            {data.article}
-          </div>
-        </div>
-      ) : (
-        <p className="text-center py-8" style={{ color: 'var(--text-muted)' }}>文章内容生成中...</p>
-      )}
-
-      <div className="text-center mt-4">
-        <span className="text-xs" style={{ color: 'var(--text-muted)' }}>
-          本文由 AI 自动生成，仅供参考
-        </span>
-      </div>
-
-      {/* 历史总结 */}
-      <div className="mt-8">
-        <h3 className="font-bold mb-3" style={{ color: 'var(--text-muted)' }}>
-          历史比赛总结
-        </h3>
-        <PastSummaries />
-      </div>
-    </div>
-  );
-}
-
-function PastSummaries() {
-  return (
-    <p className="text-xs" style={{ color: 'var(--text-muted)' }}>
-      历史总结将自动保存在系统中，可通过日期切换查看
-    </p>
-  );
 }
 
 // ── 临哨快讯：伤病情报 + 预测首发 ──────────────────────────
@@ -389,8 +246,7 @@ function ReviewTab() {
 // ── 主页面 ────────────────────────────────────────────
 
 export default function IntelligencePage() {
-  const [activeTab, setActiveTab] = useState('schedule');
-  const [dailySummary, setDailySummary] = useState<DailySummaryResponse | null>(null);
+  const [activeTab, setActiveTab] = useState('breaking');
   const [injuries, setInjuries] = useState<InjuriesResponse | null>(null);
   const [loading, setLoading] = useState(true);
 
@@ -398,12 +254,7 @@ export default function IntelligencePage() {
     async function loadData() {
       setLoading(true);
       try {
-        // 并行加载赛程情报和临哨快讯
-        const [summaryData, injuriesData] = await Promise.all([
-          api.getDailySummary(),
-          api.getInjuryIntel(),
-        ]);
-        setDailySummary(summaryData);
+        const injuriesData = await api.getInjuryIntel();
         setInjuries(injuriesData);
       } catch (err) {
         console.error('Failed to load intelligence data:', err);
@@ -426,9 +277,8 @@ export default function IntelligencePage() {
         </div>
 
         {/* Tabs */}
-        <div className="flex gap-2 mb-6">
+        <div className="responsive-toolbar flex gap-2 mb-6">
           {[
-            ['schedule', '赛程情报'],
             ['breaking', '临哨快讯'],
             ['review', '哨后复盘'],
           ].map(([key, label]) => (
@@ -441,11 +291,6 @@ export default function IntelligencePage() {
             </button>
           ))}
         </div>
-
-        {/* 赛程情报 */}
-        {activeTab === 'schedule' && (
-          <DailySummaryTab data={dailySummary} loading={loading} />
-        )}
 
         {/* 临哨快讯 */}
         {activeTab === 'breaking' && (

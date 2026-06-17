@@ -34,6 +34,7 @@ export default function NavBar() {
   };
 
   return (
+    <>
     <nav className="navbar">
       <div className="container-responsive">
         <div className="flex items-center justify-between h-16">
@@ -96,7 +97,7 @@ export default function NavBar() {
             </button>
 
             <button
-              className="md:hidden flex flex-col justify-center items-center w-10 h-10 rounded-lg"
+              className="mobile-menu-button flex flex-col justify-center items-center w-10 h-10 rounded-lg"
               style={{ background: 'rgba(255,255,255,0.05)', border: '1px solid var(--card-border)' }}
               onClick={() => setMenuOpen(!menuOpen)}
               aria-label={menuOpen ? '关闭菜单' : '打开菜单'}
@@ -131,6 +132,8 @@ export default function NavBar() {
           </div>
         </div>
       </div>
+
+    </nav>
 
       {menuOpen && (
         <>
@@ -167,6 +170,6 @@ export default function NavBar() {
       )}
 
       <FeedbackModal open={feedbackOpen} onClose={() => setFeedbackOpen(false)} />
-    </nav>
+    </>
   );
 }

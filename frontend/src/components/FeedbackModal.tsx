@@ -1,6 +1,7 @@
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
+import { createPortal } from 'react-dom';
 import api from '@/lib/api';
 
 interface Props {
@@ -15,8 +16,22 @@ export default function FeedbackModal({ open, onClose }: Props) {
   const [submitting, setSubmitting] = useState(false);
   const [done, setDone] = useState(false);
   const [error, setError] = useState('');
+  const [mounted, setMounted] = useState(false);
 
-  if (!open) return null;
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  useEffect(() => {
+    if (!open) return;
+    const previous = document.body.style.overflow;
+    document.body.style.overflow = 'hidden';
+    return () => {
+      document.body.style.overflow = previous;
+    };
+  }, [open]);
+
+  if (!open || !mounted) return null;
 
   async function handleSubmit() {
     if (!text.trim() || rating === 0) return;
@@ -47,37 +62,52 @@ export default function FeedbackModal({ open, onClose }: Props) {
 
   const stars = [1, 2, 3, 4, 5];
 
-  return (
-    <>
-      <div className="mobile-menu-backdrop" onClick={handleClose} />
-
-      <div style={{
+  return createPortal(
+    <div
+      role="presentation"
+      onClick={handleClose}
+      style={{
         position: 'fixed',
-        top: '50%',
-        left: '50%',
-        transform: 'translate(-50%, -50%)',
+        inset: 0,
         zIndex: 300,
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        padding: '1rem',
+        background: 'rgba(0,0,0,0.62)',
+      }}
+    >
+      <div style={{
         background: 'var(--card-bg)',
         border: '1px solid var(--card-border)',
         borderRadius: '1rem',
         padding: 'var(--space-lg)',
         width: 'min(90vw, 28rem)',
+        maxHeight: 'calc(100vh - 2rem)',
+        overflowY: 'auto',
+        boxShadow: '0 24px 70px rgba(0,0,0,0.45)',
         animation: 'fadeIn 0.2s ease',
-      }}>
+      }}
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="feedback-title"
+      onClick={e => e.stopPropagation()}
+      >
         {done ? (
           <div className="text-center py-4">
             <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>✅</div>
-            <h3 className="text-xl font-bold mb-2">感谢反馈！</h3>
+            <h3 id="feedback-title" className="text-xl font-bold mb-2">感谢反馈！</h3>
             <p className="text-sm" style={{ color: 'var(--text-muted)' }}>你的意见将帮助我们改进产品</p>
             <button className="btn btn-primary mt-4 w-full" onClick={handleClose}>关闭</button>
           </div>
         ) : (
           <>
             <div className="flex items-center justify-between mb-4">
-              <h2 className="text-xl font-bold">产品反馈</h2>
+              <h2 id="feedback-title" className="text-xl font-bold">产品反馈</h2>
               <button
                 onClick={handleClose}
                 style={{ color: 'var(--text-muted)', fontSize: '1.5rem', lineHeight: 1 }}
+                aria-label="关闭反馈弹窗"
               >
                 ✕
               </button>
@@ -139,6 +169,7 @@ export default function FeedbackModal({ open, onClose }: Props) {
           </>
         )}
       </div>
-    </>
+    </div>,
+    document.body,
   );
 }

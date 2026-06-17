@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import NavBar from "@/components/NavBar";
 
@@ -31,6 +31,12 @@ export const metadata: Metadata = {
     description: "赛前洞察、实时分析、阵型可视化与 AI 足球情报。",
     images: ["/images/tanqiu-logo-preview.png"],
   },
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 5,
 };
 
 function Footer() {

@@ -16,7 +16,7 @@ if sys.platform == 'win32':
 import asyncio
 from datetime import datetime, timedelta, timezone
 from contextlib import asynccontextmanager
-from fastapi import FastAPI, HTTPException, Query
+from fastapi import FastAPI, HTTPException, Query, BackgroundTasks
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import JSONResponse
@@ -35,13 +35,10 @@ from services import (
 )
 from services.team_service import team_service
 from services.intelligence_service import intelligence_service
-from services.intel_card_service import intel_card_service
-from services.daily_report_service import daily_report_service
 from services.lineup_analysis_service import lineup_analysis_service
 from services.live_match_service import live_match_service
 from services.player_live_analysis_service import player_live_analysis_service
 from services.injury_intel_service import injury_intel_service
-from services.daily_summary_service import daily_summary_service
 from services.match_analysis_service import analyze_match
 
 BEIJING_TZ = timezone(timedelta(hours=8))
@@ -54,20 +51,14 @@ def today_bj() -> str:
 # ── 后台情报调度器 ────────────────────────────────────────────
 
 async def intelligence_scheduler():
-    """后台定时任务：每15分钟检查每日总结，每20分钟刷新伤病情报"""
+    """后台定时任务：每20分钟刷新伤病情报"""
     import datetime as dt_mod
     print("[Scheduler] Intelligence background tasks started")
-    last_daily_check = 0
     last_injury_check = 0
     while True:
         try:
             now = dt_mod.datetime.now(BEIJING_TZ)
             today = now.strftime("%Y-%m-%d")
-
-            # 每15分钟检查每日总结
-            if now.timestamp() - last_daily_check > 900:
-                daily_summary_service.check_and_generate(today)
-                last_daily_check = now.timestamp()
 
             # 每20分钟检查伤病情报
             if now.timestamp() - last_injury_check > 1200:
@@ -79,14 +70,46 @@ async def intelligence_scheduler():
         await asyncio.sleep(300)  # 每5分钟轮询一次
 
 
+async def player_live_stats_scheduler():
+    """后台定时任务：自动持久化今日进行中/已结束比赛的已登场球员实时数据。"""
+    print("[Scheduler] Player live stats background task started")
+    while True:
+        try:
+            today = today_bj()
+            matches = live_match_service.get_today_matches(today)
+            for match in matches:
+                state = match.get("state", "scheduled")
+                if state not in ("live", "halftime", "finished"):
+                    continue
+                match_id = str(match.get("match_id") or "")
+                if not match_id:
+                    continue
+                detail = live_match_service.get_match_detail(match_id)
+                if detail:
+                    player_live_analysis_service.collect_match_player_stats(
+                        detail,
+                        force=(detail.get("status", {}) or {}).get("state") == "finished",
+                    )
+        except Exception as e:
+            print(f"[Scheduler] Player stats error: {e}")
+
+        await asyncio.sleep(60)
+
+
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     # 启动后台定时任务
     task = asyncio.create_task(intelligence_scheduler())
+    player_stats_task = asyncio.create_task(player_live_stats_scheduler())
     yield
     task.cancel()
+    player_stats_task.cancel()
     try:
         await task
+    except asyncio.CancelledError:
+        pass
+    try:
+        await player_stats_task
     except asyncio.CancelledError:
         pass
 
@@ -952,6 +975,18 @@ def _generate_fallback_highlights(home_cn: str, away_cn: str, h2h: Optional[Dict
 
 # ==================== 实时比赛路由 ====================
 
+def _schedule_player_stats_collection(detail: Dict, background_tasks: BackgroundTasks = None):
+    state = (detail.get("status", {}) or {}).get("state", "")
+    if state not in ("live", "halftime", "finished"):
+        return
+    force = state == "finished"
+    if force:
+        player_live_analysis_service.collect_match_player_stats(detail, force=True)
+    elif background_tasks:
+        background_tasks.add_task(player_live_analysis_service.collect_match_player_stats, detail, False)
+    else:
+        player_live_analysis_service.collect_match_player_stats(detail, force=False)
+
 @app.get("/api/live/scoreboard")
 async def get_live_scoreboard(date: str = None):
     """获取实时比分板 — 进行中 + 指定日期比赛"""
@@ -974,12 +1009,13 @@ async def get_live_scoreboard(date: str = None):
 
 
 @app.get("/api/live/matches/{match_id}")
-async def get_live_match_detail(match_id: str):
+async def get_live_match_detail(match_id: str, background_tasks: BackgroundTasks):
     """获取单场比赛实时详情 — 比分 + 事件时间线 + 技术统计"""
     try:
         detail = live_match_service.get_match_detail(match_id)
         if not detail:
             raise HTTPException(status_code=404, detail=f"Match {match_id} not found or not available")
+        _schedule_player_stats_collection(detail, background_tasks)
         return detail
     except HTTPException:
         raise
@@ -1035,12 +1071,13 @@ async def find_schedule_match(home_team: str, away_team: str, date: str = None):
 
 
 @app.get("/api/live/matches/{match_id}/analysis")
-async def get_live_match_analysis(match_id: str):
+async def get_live_match_analysis(match_id: str, background_tasks: BackgroundTasks):
     """获取比赛中场/全场分析 + 实时事件与数据"""
     try:
         detail = live_match_service.get_match_detail(match_id)
         if not detail:
             raise HTTPException(status_code=404, detail=f"Match {match_id} not found")
+        _schedule_player_stats_collection(detail, background_tasks)
 
         state = detail.get("status", {}).get("state", "")
         home_team_id = detail.get("home", {}).get("team_id", "")
@@ -1125,6 +1162,7 @@ async def get_player_live_analysis(
             position=position,
             clock=clock,
             match_state=match_state,
+            events=detail.get("events", []),
         )
         return result
     except HTTPException:
@@ -1227,15 +1265,6 @@ async def get_prematch_preview(request: CommentaryPreviewRequest):
         raise HTTPException(status_code=500, detail=str(e))
 
 # ==================== 哨前情报路由 (WhistleIntel) ====================
-
-@app.get("/api/intelligence/daily-summary")
-async def get_daily_summary(date: str = None):
-    """获取每日比赛总结文章（所有比赛结束后由 AI 自动生成）"""
-    try:
-        summary = daily_summary_service.get_daily_summary(date)
-        return summary
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
 
 @app.get("/api/intelligence/intel-card")
 async def get_intel_card_by_teams(home_team: str, away_team: str):

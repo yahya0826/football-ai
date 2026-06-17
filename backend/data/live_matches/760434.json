@@ -1,0 +1,55 @@
+{
+  "match_id": "760434",
+  "date": "2026-06-17",
+  "status": {
+    "state": "scheduled",
+    "detail": "Wed, June 17th at 7:00 PM EDT",
+    "period": 0,
+    "clock": "",
+    "completed": false,
+    "state_cn": "未开始"
+  },
+  "home": {
+    "name": "Ghana",
+    "abbrev": "GHA",
+    "logo": "",
+    "score": 0,
+    "team_id": "4469",
+    "name_cn": "加纳"
+  },
+  "away": {
+    "name": "Panama",
+    "abbrev": "PAN",
+    "logo": "",
+    "score": 0,
+    "team_id": "2659",
+    "name_cn": "巴拿马"
+  },
+  "events": [],
+  "statistics": {
+    "home": {
+      "team_name": "Ghana",
+      "stats": {},
+      "team_name_cn": "加纳"
+    },
+    "away": {
+      "team_name": "Panama",
+      "stats": {},
+      "team_name_cn": "巴拿马"
+    }
+  },
+  "lineups": {
+    "home": {
+      "formation": "",
+      "starters": [],
+      "substitutes": []
+    },
+    "away": {
+      "formation": "",
+      "starters": [],
+      "substitutes": []
+    }
+  },
+  "competition_id": "760434",
+  "_saved_at": "2026-06-17T10:05:51.011785"
+}

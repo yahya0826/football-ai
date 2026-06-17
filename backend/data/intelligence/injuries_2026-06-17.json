@@ -1,0 +1,151 @@
+{
+  "date": "2026-06-17",
+  "last_updated": "2026-06-17T00:19:12.466209",
+  "teams": {
+    "": {
+      "name_cn": "",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "France": {
+      "name_cn": "法国",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "4-3-3",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "Senegal": {
+      "name_cn": "塞内加尔",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "4-3-3",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "Uzbekistan": {
+      "name_cn": "乌兹别克斯坦",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "4-3-3",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "Colombia": {
+      "name_cn": "哥伦比亚",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "4-3-3",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "Ghana": {
+      "name_cn": "加纳",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "4-3-3",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "Panama": {
+      "name_cn": "巴拿马",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "4-3-3",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "England": {
+      "name_cn": "英格兰",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "Croatia": {
+      "name_cn": "克罗地亚",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "Austria": {
+      "name_cn": "奥地利",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "4-3-3",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "Jordan": {
+      "name_cn": "约旦",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "4-3-3",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "Iraq": {
+      "name_cn": "伊拉克",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "Norway": {
+      "name_cn": "挪威",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    }
+  },
+  "total_teams": 13,
+  "_cache_ts": 1781626752.4663022
+}

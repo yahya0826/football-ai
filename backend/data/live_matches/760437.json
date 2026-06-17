@@ -1,0 +1,55 @@
+{
+  "match_id": "760437",
+  "date": "2026-06-17",
+  "status": {
+    "state": "scheduled",
+    "detail": "Wed, June 17th at 4:00 PM EDT",
+    "period": 0,
+    "clock": "",
+    "completed": false,
+    "state_cn": "未开始"
+  },
+  "home": {
+    "name": "England",
+    "abbrev": "ENG",
+    "logo": "",
+    "score": 0,
+    "team_id": "448",
+    "name_cn": "英格兰"
+  },
+  "away": {
+    "name": "Croatia",
+    "abbrev": "CRO",
+    "logo": "",
+    "score": 0,
+    "team_id": "477",
+    "name_cn": "克罗地亚"
+  },
+  "events": [],
+  "statistics": {
+    "home": {
+      "team_name": "England",
+      "stats": {},
+      "team_name_cn": "英格兰"
+    },
+    "away": {
+      "team_name": "Croatia",
+      "stats": {},
+      "team_name_cn": "克罗地亚"
+    }
+  },
+  "lineups": {
+    "home": {
+      "formation": "",
+      "starters": [],
+      "substitutes": []
+    },
+    "away": {
+      "formation": "",
+      "starters": [],
+      "substitutes": []
+    }
+  },
+  "competition_id": "760437",
+  "_saved_at": "2026-06-17T10:05:47.582923"
+}

@@ -1,16 +1,10 @@
 'use client';
 
 import { useState, useEffect, useRef, useMemo } from 'react';
-import api, { TeamRoster, RosterPlayer, MatchLineups, TeamLineup, LineupPlayer, LiveEvent, PlayerLiveAnalysisResponse, IntervalAnalysis } from '@/lib/api';
+import api, { RosterPlayer, MatchLineups, TeamLineup, LineupPlayer, LiveEvent, PlayerLiveAnalysisResponse, IntervalAnalysis } from '@/lib/api';
 
 type Formation = '4-4-2' | '4-3-3' | '3-5-2' | '4-2-3-1' | '5-4-1' | '3-4-3';
 type Side = 'home' | 'away';
-
-interface FormationConfig {
-  def: number;
-  mid: number;
-  fwd: number;
-}
 
 interface PitchSlot {
   player: RosterPlayer | LineupPlayer;
@@ -18,15 +12,6 @@ interface PitchSlot {
   y: number;
   subStatus?: 'in' | 'out';
 }
-
-const FORMATIONS: Record<Formation, FormationConfig> = {
-  '4-4-2': { def: 4, mid: 4, fwd: 2 },
-  '4-3-3': { def: 4, mid: 3, fwd: 3 },
-  '3-5-2': { def: 3, mid: 5, fwd: 2 },
-  '4-2-3-1': { def: 4, mid: 5, fwd: 1 },
-  '5-4-1': { def: 5, mid: 4, fwd: 1 },
-  '3-4-3': { def: 3, mid: 4, fwd: 3 },
-};
 
 const HOME_COLOR = '#10b981';
 const AWAY_COLOR = '#818cf8';
@@ -141,21 +126,25 @@ function processSubstitutions(
   for (const ev of events) {
     if (ev.type !== 'substitution') continue;
 
-    // Match player_in and player_out to lineup players
-    const playerIn = findPlayerByName(ev.player_in, allHome) || findPlayerByName(ev.player_in, allAway);
-    const playerOut = findPlayerByName(ev.player_out, allHome) || findPlayerByName(ev.player_out, allAway);
-
-    if (!playerIn || !playerOut) continue;
-
-    // Determine side by checking which lineup contains playerOut
-    const outInHome = homeLineup.starters.some(p => p.id === playerOut.id);
-    const outInAway = awayLineup.starters.some(p => p.id === playerOut.id);
+    // Determine side from the player being substituted off first, then match
+    // the incoming player only within that same team. This avoids cross-team
+    // name collisions when two players have similar names.
+    const homePlayerOut = findPlayerByName(ev.player_out, homeLineup.starters);
+    const awayPlayerOut = findPlayerByName(ev.player_out, awayLineup.starters);
+    const outInHome = !!homePlayerOut && !awayPlayerOut;
+    const outInAway = !!awayPlayerOut && !homePlayerOut;
 
     if (outInHome) {
+      const playerOut = homePlayerOut;
+      const playerIn = findPlayerByName(ev.player_in, homeLineup.substitutes);
+      if (!playerOut || !playerIn) continue;
       homeSubbedOut.add(playerOut.id);
       homeSubbedIn.add(playerIn.id);
       homeReplacements.set(playerOut.id, playerIn);
     } else if (outInAway) {
+      const playerOut = awayPlayerOut;
+      const playerIn = findPlayerByName(ev.player_in, awayLineup.substitutes);
+      if (!playerOut || !playerIn) continue;
       awaySubbedOut.add(playerOut.id);
       awaySubbedIn.add(playerIn.id);
       awayReplacements.set(playerOut.id, playerIn);
@@ -163,26 +152,6 @@ function processSubstitutions(
   }
 
   return { homeSubbedOut, homeSubbedIn, awaySubbedOut, awaySubbedIn, homeReplacements, awayReplacements };
-}
-
-function pickPlayers(roster: TeamRoster, formation: FormationConfig): { starters: RosterPlayer[]; bench: RosterPlayer[] } {
-  const gk = roster.players.G.slice(0, 1);
-  const def = roster.players.D.slice(0, formation.def);
-  const mid = roster.players.M.slice(0, formation.mid);
-  const fwd = roster.players.F.slice(0, formation.fwd);
-  const starters = [...gk, ...def, ...mid, ...fwd];
-
-  const starterIds = new Set(starters.map(p => p.id));
-  const allOthers = [
-    ...roster.players.G,
-    ...roster.players.D,
-    ...roster.players.M,
-    ...roster.players.F,
-    ...roster.players.U,
-  ];
-  const bench = allOthers.filter(p => !starterIds.has(p.id));
-
-  return { starters, bench };
 }
 
 function buildSlotsFromLineup(
@@ -246,43 +215,6 @@ function buildSlotsFromLineup(
       player: fwd[i], ...pos,
       subStatus: subbedIn.has(fwd[i].id) ? 'in' : undefined,
     });
-  });
-
-  return slots;
-}
-
-function buildSlots(players: { starters: RosterPlayer[] }, formation: Formation, side: Side): PitchSlot[] {
-  const starters = players.starters;
-  const gk = starters.filter(p => getPositionGroup(p.position) === 'G');
-  const def = starters.filter(p => getPositionGroup(p.position) === 'D');
-  const mid = starters.filter(p => getPositionGroup(p.position) === 'M');
-  const fwd = starters.filter(p => getPositionGroup(p.position) === 'F');
-  const isHome = side === 'home';
-  const mirror = (x: number) => (isHome ? x : 100 - x);
-
-  const slots: PitchSlot[] = [];
-  gk.slice(0, 1).forEach(player => slots.push({ player, x: mirror(5.5), y: 50 }));
-
-  linePositions(def.length, mirror(18.5), 17, 83).forEach((pos, i) => {
-    if (def[i]) slots.push({ player: def[i], ...pos });
-  });
-
-  const midfieldLines = splitMidfield(mid, formation);
-  const midfieldXs =
-    midfieldLines.length === 1
-      ? [29.5]
-      : formation === '4-2-3-1'
-        ? [28, 38]
-        : [28, 38];
-
-  midfieldLines.forEach((line, lineIndex) => {
-    linePositions(line.length, mirror(midfieldXs[lineIndex]), 20, 80).forEach((pos, i) => {
-      if (line[i]) slots.push({ player: line[i], ...pos });
-    });
-  });
-
-  linePositions(fwd.length, mirror(45), fwd.length === 1 ? 48 : 24, fwd.length === 1 ? 52 : 76).forEach((pos, i) => {
-    if (fwd[i]) slots.push({ player: fwd[i], ...pos });
   });
 
   return slots;
@@ -641,9 +573,7 @@ export default function FormationView({ homeTeamId, awayTeamId, homeName, awayNa
   const homeLineup: TeamLineup | undefined = lineups?.home;
   const awayLineup: TeamLineup | undefined = lineups?.away;
   const hasRealLineups = !!(homeLineup?.starters?.length && awayLineup?.starters?.length);
-  const [homeRoster, setHomeRoster] = useState<TeamRoster | null>(null);
-  const [awayRoster, setAwayRoster] = useState<TeamRoster | null>(null);
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(!hasRealLineups);
   const [homeFormation, setHomeFormation] = useState<Formation>('5-4-1');
   const [awayFormation, setAwayFormation] = useState<Formation>('4-2-3-1');
 
@@ -676,43 +606,11 @@ export default function FormationView({ homeTeamId, awayTeamId, homeName, awayNa
     return () => { mounted = false; };
   }, [selectedPlayer, matchId, homeTeamId, awayTeamId]);
 
-  // Only fetch rosters if real lineups not available
+  // Show the formation only after ESPN publishes real starters for both teams.
+  // Do not guess a starting XI from team rosters before official lineups exist.
   useEffect(() => {
-    if (hasRealLineups) {
-      setLoading(false);
-      return;
-    }
-    let mounted = true;
-    async function load() {
-      setLoading(true);
-      try {
-        const [home, away] = await Promise.all([
-          api.getTeamRoster(homeTeamId),
-          api.getTeamRoster(awayTeamId),
-        ]);
-        if (mounted) {
-          setHomeRoster(home);
-          setAwayRoster(away);
-          const guessFormation = (def: number, mid: number, fwd: number): Formation => {
-            if (def >= 5) return '5-4-1';
-            if (def === 3 && mid >= 5) return '3-5-2';
-            if (def === 3) return '3-4-3';
-            if (mid >= 5) return '4-2-3-1';
-            if (fwd >= 3) return '4-3-3';
-            return '4-4-2';
-          };
-          setHomeFormation(guessFormation(home.players.D.length, home.players.M.length, home.players.F.length));
-          setAwayFormation(guessFormation(away.players.D.length, away.players.M.length, away.players.F.length));
-        }
-      } catch {
-        // Roster not available
-      } finally {
-        if (mounted) setLoading(false);
-      }
-    }
-    load();
-    return () => { mounted = false; };
-  }, [homeTeamId, awayTeamId, hasRealLineups]);
+    setLoading(false);
+  }, [hasRealLineups]);
 
   // Sync formation state from real lineups (must be in effect, not during render)
   useEffect(() => {
@@ -735,7 +633,24 @@ export default function FormationView({ homeTeamId, awayTeamId, homeName, awayNa
     );
   }
 
-  // Build slots from real lineups or fallback to roster guessing
+  if (!hasRealLineups || !homeLineup || !awayLineup) {
+    return (
+      <div style={{
+        textAlign: 'center',
+        padding: '2rem',
+        color: TEXT_MUTED,
+        fontSize: 14,
+        background: CARD_BG,
+        border: `1px solid ${CARD_BORDER}`,
+        borderRadius: '1rem',
+        marginTop: '1.25rem',
+      }}>
+        阵容尚未公布
+      </div>
+    );
+  }
+
+  // Build slots from real ESPN lineups.
   let homeSlots: PitchSlot[];
   let awaySlots: PitchSlot[];
   let homeBench: RosterPlayer[] | LineupPlayer[];
@@ -747,45 +662,23 @@ export default function FormationView({ homeTeamId, awayTeamId, homeName, awayNa
   let homeCoach: string;
   let awayCoach: string;
 
-  if (hasRealLineups && homeLineup && awayLineup) {
-    const hForm = (homeLineup.formation || '4-4-2') as Formation;
-    const aForm = (awayLineup.formation || '4-3-3') as Formation;
-    displayHomeFormation = ['4-4-2','4-3-3','3-5-2','4-2-3-1','5-4-1','3-4-3'].includes(hForm) ? hForm : '4-4-2';
-    displayAwayFormation = ['4-4-2','4-3-3','3-5-2','4-2-3-1','5-4-1','3-4-3'].includes(aForm) ? aForm : '4-3-3';
+  const hForm = (homeLineup.formation || '4-4-2') as Formation;
+  const aForm = (awayLineup.formation || '4-3-3') as Formation;
+  displayHomeFormation = ['4-4-2','4-3-3','3-5-2','4-2-3-1','5-4-1','3-4-3'].includes(hForm) ? hForm : '4-4-2';
+  displayAwayFormation = ['4-4-2','4-3-3','3-5-2','4-2-3-1','5-4-1','3-4-3'].includes(aForm) ? aForm : '4-3-3';
 
-    homeSlots = buildSlotsFromLineup(homeLineup.starters, displayHomeFormation, 'home', subs.homeReplacements, subs.homeSubbedIn);
-    awaySlots = buildSlotsFromLineup(awayLineup.starters, displayAwayFormation, 'away', subs.awayReplacements, subs.awaySubbedIn);
-    homeBench = homeLineup.substitutes;
-    awayBench = awayLineup.substitutes;
-    resolvedHomeName = homeNameCn || homeName;
-    resolvedAwayName = awayNameCn || awayName;
-    homeCoach = '';
-    awayCoach = '';
-  } else {
-    if (!homeRoster || !awayRoster) {
-      return (
-        <div style={{ textAlign: 'center', padding: '2rem', color: TEXT_MUTED, fontSize: 14, background: CARD_BG, border: `1px solid ${CARD_BORDER}`, borderRadius: '1rem' }}>
-          阵容数据暂不可用（比赛日接入 ESPN 后显示）
-        </div>
-      );
-    }
-
-    const home = pickPlayers(homeRoster, FORMATIONS[homeFormation]);
-    const away = pickPlayers(awayRoster, FORMATIONS[awayFormation]);
-    homeSlots = buildSlots(home, homeFormation, 'home');
-    awaySlots = buildSlots(away, awayFormation, 'away');
-    homeBench = home.bench;
-    awayBench = away.bench;
-    displayHomeFormation = homeFormation;
-    displayAwayFormation = awayFormation;
-    resolvedHomeName = homeNameCn || homeRoster.team_name_cn || homeName || homeRoster.team_name;
-    resolvedAwayName = awayNameCn || awayRoster.team_name_cn || awayName || awayRoster.team_name;
-    homeCoach = homeRoster.coach || '';
-    awayCoach = awayRoster.coach || '';
-  }
+  homeSlots = buildSlotsFromLineup(homeLineup.starters, displayHomeFormation, 'home', subs.homeReplacements, subs.homeSubbedIn);
+  awaySlots = buildSlotsFromLineup(awayLineup.starters, displayAwayFormation, 'away', subs.awayReplacements, subs.awaySubbedIn);
+  homeBench = homeLineup.substitutes;
+  awayBench = awayLineup.substitutes;
+  resolvedHomeName = homeNameCn || homeName;
+  resolvedAwayName = awayNameCn || awayName;
+  homeCoach = '';
+  awayCoach = '';
 
   return (
     <div
+      className="responsive-formation"
       style={{
         background: CARD_BG,
         border: `1px solid ${CARD_BORDER}`,
@@ -816,6 +709,7 @@ export default function FormationView({ homeTeamId, awayTeamId, homeName, awayNa
       </div>
 
       <div
+        className="responsive-pitch"
         style={{
           position: 'relative',
           width: '100%',
@@ -946,6 +840,7 @@ export default function FormationView({ homeTeamId, awayTeamId, homeName, awayNa
       </div>
 
       <div
+        className="responsive-bench-grid"
         style={{
           display: 'grid',
           gridTemplateColumns: '1fr 1fr',
@@ -987,6 +882,7 @@ function BenchPanel({ coach, players, subbedIn, subbedOut, withBorder = true }: 
         主教练：{coach || '--'}
       </div>
       <div
+        className="responsive-bench-list"
         style={{
           display: 'grid',
           gridTemplateColumns: 'repeat(2, minmax(0, 1fr))',
