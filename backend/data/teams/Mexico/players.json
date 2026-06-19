@@ -1,7 +1,7 @@
 {
   "team": "Mexico",
   "total_players": 26,
-  "matched_count": 25,
+  "matched_count": 26,
   "players": [
     {
       "id": "ra-l-rangel",
@@ -77,8 +77,42 @@
       "age": 0,
       "national_caps": 0,
       "national_goals": 0,
-      "stats": null,
-      "name_cn": "豪尔赫·桑切斯"
+      "stats": {
+        "appearances": 39,
+        "starts": 31,
+        "minutes": 2743,
+        "goals": 1,
+        "assists": 2,
+        "pk_scored": 0,
+        "pk_attempted": 0,
+        "shots": 18,
+        "shots_on_target": 2,
+        "yellow_cards": 5,
+        "red_cards": 0,
+        "fouls": 23,
+        "fouled": 8,
+        "offsides": 2,
+        "crosses": 42,
+        "tackles_won": 25,
+        "interceptions": 13,
+        "own_goals": 0,
+        "pk_won": 0,
+        "pk_conceded": 0,
+        "wins": 19,
+        "draws": 12,
+        "losses": 8,
+        "goals_p90": 0.03,
+        "assists_p90": 0.07,
+        "shots_p90": 0.59,
+        "tackles_p90": 0.82,
+        "shot_conversion": 5.6,
+        "shot_accuracy": 11.1,
+        "start_rate": 79.5,
+        "data_source": "desktop",
+        "has_real_data": true
+      },
+      "name_cn": "豪尔赫·桑切斯",
+      "avatar": "/headshots/jorge-s-nchez.jpg"
     },
     {
       "id": "c-sar-montes",

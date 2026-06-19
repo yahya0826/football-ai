@@ -1,0 +1,1026 @@
+{
+  "date": "2026-06-19",
+  "last_updated": "2026-06-19T13:37:54.933767",
+  "teams": {
+    "United States": {
+      "name_cn": "美国",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "4-3-3",
+        "players": [
+          "特纳",
+          "德斯特",
+          "里姆",
+          "罗宾逊",
+          "耶德林",
+          "麦肯尼",
+          "亚当斯",
+          "穆萨",
+          "普利希奇",
+          "巴洛贡",
+          "维阿"
+        ]
+      },
+      "recent_form": "近期状态稳定，高压逼抢体系成熟，进攻端依赖普利希奇创造力。",
+      "score_prediction": "2-1",
+      "score_prediction_cn": "美国 2-1 巴拉圭"
+    },
+    "Australia": {
+      "name_cn": "澳大利亚",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "4-1-4-1",
+        "players": [
+          "门将",
+          "右后卫",
+          "中后卫",
+          "中后卫",
+          "左后卫",
+          "防守型中场",
+          "右边锋",
+          "中前卫",
+          "中前卫",
+          "左边锋",
+          "中锋"
+        ]
+      },
+      "recent_form": "球队身体对抗强硬，定位球威胁大，但技术细腻度一般，近期表现稳健。",
+      "score_prediction": "2-1",
+      "score_prediction_cn": "澳大利亚 2-1 土耳其"
+    },
+    "Scotland": {
+      "name_cn": "苏格兰",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "3-5-2",
+        "players": [
+          "门将：戈登",
+          "后卫：汉利、麦克纳、库珀",
+          "中场：罗伯逊、麦克托米奈、麦金、阿姆斯特朗、奥唐奈",
+          "前锋：戴克斯、亚当斯"
+        ]
+      },
+      "recent_form": "苏格兰整体实力占优，战术纪律性强，擅长高位逼抢与快速转换，本场取胜希望较大。",
+      "score_prediction": "0-3",
+      "score_prediction_cn": "海地 0-3 苏格兰"
+    },
+    "Morocco": {
+      "name_cn": "摩洛哥",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "4-3-3",
+        "players": [
+          "布努",
+          "阿什拉夫",
+          "阿格尔德",
+          "赛斯",
+          "马兹拉维",
+          "阿姆拉巴特",
+          "奥纳西",
+          "萨比里",
+          "齐耶什",
+          "恩内斯里",
+          "布法尔"
+        ]
+      },
+      "recent_form": "摩洛哥防守坚韧，反击犀利，近期大赛表现令人印象深刻。",
+      "score_prediction": "1-2",
+      "score_prediction_cn": "1-2"
+    },
+    "Brazil": {
+      "name_cn": "巴西",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "4-2-3-1",
+        "players": [
+          "阿利松",
+          "达尼洛",
+          "马尔基尼奥斯",
+          "蒂亚戈·席尔瓦",
+          "洛迪",
+          "卡塞米罗",
+          "帕奎塔",
+          "拉菲尼亚",
+          "内马尔",
+          "维尼修斯",
+          "理查利森"
+        ]
+      },
+      "recent_form": "巴西队近期状态稳定，进攻端依赖边路爆破，防守端偶有松懈。",
+      "score_prediction": "2-1",
+      "score_prediction_cn": "2-1"
+    },
+    "Haiti": {
+      "name_cn": "海地",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "4-4-2",
+        "players": [
+          "门将：普拉西德",
+          "后卫：阿尔塞纳、热罗姆、阿维斯卡、杜塞纳",
+          "中场：亚历山大、巴兹勒、埃蒂安、皮埃罗",
+          "前锋：纳佐、贝尔福"
+        ]
+      },
+      "recent_form": "海地实力有限，国际赛场经验不足，攻防两端缺乏稳定性，面对强敌恐难有作为。",
+      "score_prediction": "0-3",
+      "score_prediction_cn": "海地 0-3 苏格兰"
+    },
+    "Turkey": {
+      "name_cn": "土耳其",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "数据暂缺，但球队以顽强防守和快速反击著称，整体实力不容小觑。",
+      "score_prediction": "1-2",
+      "score_prediction_cn": "土耳其 1-2 澳大利亚"
+    },
+    "Paraguay": {
+      "name_cn": "巴拉圭",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "4-4-2",
+        "players": [
+          "费尔南德斯",
+          "巴尔武埃纳",
+          "戈麦斯",
+          "阿隆索",
+          "埃斯皮诺拉",
+          "阿尔米隆",
+          "比利亚桑蒂",
+          "库瓦斯",
+          "罗梅罗",
+          "圣克鲁斯",
+          "阿瓦洛斯"
+        ]
+      },
+      "recent_form": "防守硬朗但进攻效率偏低，依赖阿尔米隆边路突破制造威胁。",
+      "score_prediction": "1-2",
+      "score_prediction_cn": "巴拉圭 1-2 美国"
+    },
+    "South Korea": {
+      "name_cn": "韩国",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "情报暂缺",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "Czech Republic": {
+      "name_cn": "捷克",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "4-2-3-1",
+        "players": [
+          "门将：瓦茨利克",
+          "后卫：曹法尔、切卢斯特卡、布拉贝茨、博日尔",
+          "中场：绍切克、克拉尔",
+          "前场：扬克托、达里达、赫洛热克",
+          "前锋：希克"
+        ]
+      },
+      "recent_form": "东欧劲旅，整体实力均衡，防守稳健，进攻依赖希克个人能力。",
+      "score_prediction": "2-1",
+      "score_prediction_cn": "捷克 2-1 南非"
+    },
+    "": {
+      "name_cn": "",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "情报暂缺",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "Mexico": {
+      "name_cn": "墨西哥",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "情报暂缺",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "South Africa": {
+      "name_cn": "南非",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "4-3-3",
+        "players": [
+          "门将：威廉姆斯",
+          "后卫：莫科纳、德雷克、姆瓦拉、赫拉蒂",
+          "中场：莫科特乔、祖马、莫雷纳",
+          "前锋：陶、莱科、马库贝拉"
+        ]
+      },
+      "recent_form": "非洲新锐，身体对抗强，反击速度快，但大赛经验稍显不足。",
+      "score_prediction": "1-2",
+      "score_prediction_cn": "南非 1-2 捷克"
+    },
+    "Canada": {
+      "name_cn": "加拿大",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "4-4-2",
+        "players": [
+          "门将：博扬",
+          "后卫：约翰斯顿、维托利亚、米勒、阿方索·戴维斯",
+          "中场：布坎南、欧斯塔基奥、科内、拉林",
+          "前锋：乔纳森·戴维、凯尔·拉林"
+        ]
+      },
+      "recent_form": "加拿大近期状态起伏，但凭借戴维斯和戴维的快速反击能力，具备爆冷潜力。",
+      "score_prediction": "2-1",
+      "score_prediction_cn": "加拿大 2-1 波黑"
+    },
+    "Bosnia and Herzegovina": {
+      "name_cn": "波黑",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "4-3-3",
+        "players": [
+          "门将：谢希奇",
+          "后卫：德迪奇、艾哈迈多维奇、萨尼查宁、科拉希纳茨",
+          "中场：皮亚尼奇、克鲁尼奇、戈亚克",
+          "前锋：维斯卡、哲科、德米罗维奇"
+        ]
+      },
+      "recent_form": "波黑阵容老化，依赖哲科和皮亚尼奇的经验，但防守稳定性不足。",
+      "score_prediction": "1-2",
+      "score_prediction_cn": "波黑 1-2 加拿大"
+    },
+    "主队": {
+      "name_cn": "主队",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "4-3-3",
+        "players": [
+          "门将",
+          "右后卫",
+          "中后卫",
+          "中后卫",
+          "左后卫",
+          "中场",
+          "中场",
+          "中场",
+          "右边锋",
+          "中锋",
+          "左边锋"
+        ]
+      },
+      "recent_form": "球队实力均衡，近期状态稳定，攻防两端表现稳健。",
+      "score_prediction": "2-1",
+      "score_prediction_cn": "主队2-1客队"
+    },
+    "客队": {
+      "name_cn": "客队",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "4-2-3-1",
+        "players": [
+          "门将",
+          "右后卫",
+          "中后卫",
+          "中后卫",
+          "左后卫",
+          "后腰",
+          "后腰",
+          "右边锋",
+          "前腰",
+          "左边锋",
+          "中锋"
+        ]
+      },
+      "recent_form": "客队实力不俗，但近期客场表现起伏，防守存在隐患。",
+      "score_prediction": "1-2",
+      "score_prediction_cn": "客队1-2主队"
+    },
+    "Qatar": {
+      "name_cn": "卡塔尔",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "5-3-2",
+        "players": [
+          "巴沙姆",
+          "米格尔",
+          "胡希",
+          "萨勒曼",
+          "哈桑",
+          "艾哈迈德",
+          "哈特姆",
+          "马迪博",
+          "阿费夫",
+          "阿里",
+          "海多斯"
+        ]
+      },
+      "recent_form": "实力有限，传控体系未成型，面对强队难有作为。",
+      "score_prediction": "0-3",
+      "score_prediction_cn": "卡塔尔 0-3 瑞士"
+    },
+    "Switzerland": {
+      "name_cn": "瑞士",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "4-2-3-1",
+        "players": [
+          "索默",
+          "威德默",
+          "阿坎吉",
+          "埃尔维迪",
+          "罗德里格斯",
+          "扎卡",
+          "弗罗伊勒",
+          "沙奇里",
+          "索乌",
+          "巴尔加斯",
+          "恩博洛"
+        ]
+      },
+      "recent_form": "防守稳健，反击高效，中场控制力强，整体实力占优。",
+      "score_prediction": "3-0",
+      "score_prediction_cn": "瑞士 3-0 卡塔尔"
+    },
+    "Germany": {
+      "name_cn": "德国",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "4-2-3-1",
+        "players": [
+          "诺伊尔",
+          "基米希",
+          "吕迪格",
+          "施洛特贝克",
+          "劳姆",
+          "京多安",
+          "格雷茨卡",
+          "穆西亚拉",
+          "维尔茨",
+          "萨内",
+          "菲尔克鲁格"
+        ]
+      },
+      "recent_form": "德国队阵容深厚，高位压迫与控球结合，主场优势明显，实力碾压对手。",
+      "score_prediction": "4-0",
+      "score_prediction_cn": "4-0"
+    },
+    "Curaçao": {
+      "name_cn": "库拉索",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "5-4-1",
+        "players": [
+          "鲁姆",
+          "马蒂纳",
+          "马里亚",
+          "范德维尔",
+          "罗森",
+          "巴库纳",
+          "安托尼奥",
+          "塞斯特",
+          "雅各布斯",
+          "霍伊",
+          "扬加"
+        ]
+      },
+      "recent_form": "库拉索实力有限，防守反击为主，但面对强敌恐难抵挡。",
+      "score_prediction": "0-4",
+      "score_prediction_cn": "0-4"
+    },
+    "Ivory Coast": {
+      "name_cn": "科特迪瓦",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "4-3-3",
+        "players": [
+          "奥基贾",
+          "奥里耶",
+          "拜利",
+          "科苏努",
+          "科南",
+          "凯西",
+          "塞里",
+          "阿马德",
+          "扎哈",
+          "阿莱",
+          "佩佩"
+        ]
+      },
+      "recent_form": "非洲劲旅，阵容豪华但磨合存疑，进攻端依赖个人能力。",
+      "score_prediction": "1-2",
+      "score_prediction_cn": "科特迪瓦 1-2 厄瓜多尔"
+    },
+    "Ecuador": {
+      "name_cn": "厄瓜多尔",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "4-2-3-1",
+        "players": [
+          "加林德斯",
+          "埃斯图皮尼安",
+          "因卡皮耶",
+          "托雷斯",
+          "普雷西亚多",
+          "凯塞多",
+          "门德斯",
+          "普拉塔",
+          "瓦伦西亚",
+          "埃斯特拉达",
+          "萨米恩托"
+        ]
+      },
+      "recent_form": "南美新锐，防守反击犀利，凯塞多中场核心，边路速度威胁大。",
+      "score_prediction": "2-1",
+      "score_prediction_cn": "厄瓜多尔 2-1 科特迪瓦"
+    },
+    "Sweden": {
+      "name_cn": "瑞典",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "4-4-2",
+        "players": [
+          "门将：奥尔森",
+          "后卫：卢斯蒂格",
+          "后卫：林德洛夫",
+          "后卫：格兰奎斯特",
+          "后卫：奥古斯丁松",
+          "中场：拉尔森",
+          "中场：埃克达尔",
+          "中场：福斯贝里",
+          "中场：克拉松",
+          "前锋：伊萨克",
+          "前锋：奎森"
+        ]
+      },
+      "recent_form": "瑞典队防守硬朗，但进攻端创造力不足，客场挑战强敌。",
+      "score_prediction": "1-2",
+      "score_prediction_cn": "瑞典 1-2 荷兰"
+    },
+    "Tunisia": {
+      "name_cn": "突尼斯",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "4-3-3",
+        "players": []
+      },
+      "recent_form": "战术纪律性强，擅长防守反击和边路进攻，近期状态稳定，具备爆冷潜力。",
+      "score_prediction": "1-1",
+      "score_prediction_cn": "1-1 平局"
+    },
+    "Netherlands": {
+      "name_cn": "荷兰",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "3-4-3",
+        "players": [
+          "门将：西莱森",
+          "后卫：德利赫特",
+          "后卫：范戴克",
+          "后卫：阿克",
+          "中场：邓弗里斯",
+          "中场：德容",
+          "中场：维纳尔杜姆",
+          "中场：布林德",
+          "前锋：德佩",
+          "前锋：贝尔温",
+          "前锋：加克波"
+        ]
+      },
+      "recent_form": "荷兰队近期状态稳定，攻防体系成熟，主场优势明显。",
+      "score_prediction": "2-1",
+      "score_prediction_cn": "荷兰 2-1 瑞典"
+    },
+    "Japan": {
+      "name_cn": "日本",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "4-2-3-1",
+        "players": [
+          "门将: 权田修一",
+          "后卫: 酒井宏树",
+          "后卫: 吉田麻也",
+          "后卫: 富安健洋",
+          "后卫: 长友佑都",
+          "中场: 远藤航",
+          "中场: 田中碧",
+          "中场: 伊东纯也",
+          "中场: 久保建英",
+          "中场: 三笘薰",
+          "前锋: 上田绮世"
+        ]
+      },
+      "recent_form": "日本队技术细腻，高位逼抢犀利，但面对强队时防守稳定性存疑，反击效率是关键。",
+      "score_prediction": "1-2",
+      "score_prediction_cn": "日本 1-2 荷兰"
+    },
+    "Belgium": {
+      "name_cn": "比利时",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "3-4-2-1",
+        "players": [
+          "库尔图瓦",
+          "阿尔德韦雷尔德",
+          "维尔通亨",
+          "费斯",
+          "卡斯塔涅",
+          "蒂勒曼斯",
+          "奥纳纳",
+          "卡拉斯科",
+          "德布劳内",
+          "多库",
+          "卢卡库"
+        ]
+      },
+      "recent_form": "整体实力强劲，但大赛稳定性存疑，依赖核心球员状态。",
+      "score_prediction": "2-1",
+      "score_prediction_cn": "比利时 2-1 埃及"
+    },
+    "Egypt": {
+      "name_cn": "埃及",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "4-3-3",
+        "players": [
+          "埃尔-谢纳维",
+          "埃尔-瓦基尔",
+          "赫加齐",
+          "阿卜杜勒-莫内姆",
+          "法图赫",
+          "埃尔内尼",
+          "哈姆迪",
+          "阿什拉夫",
+          "萨拉赫",
+          "穆斯塔法-穆罕默德",
+          "特雷泽盖"
+        ]
+      },
+      "recent_form": "非洲劲旅，防守坚韧，萨拉赫是反击核心，整体实力均衡。",
+      "score_prediction": "1-2",
+      "score_prediction_cn": "埃及 1-2 比利时"
+    },
+    "Iran": {
+      "name_cn": "伊朗",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "4-3-3",
+        "players": [
+          "贝兰万德",
+          "莫哈拉米",
+          "侯赛尼",
+          "普拉利甘吉",
+          "哈伊萨菲",
+          "埃扎托拉希",
+          "努罗拉希",
+          "贾汉巴赫什",
+          "阿兹蒙",
+          "塔雷米",
+          "戈利扎德"
+        ]
+      },
+      "recent_form": "亚洲顶级强队，防守稳固，反击犀利，世界杯常客，经验丰富。",
+      "score_prediction": "2-1",
+      "score_prediction_cn": "伊朗 2-1 新西兰"
+    },
+    "New Zealand": {
+      "name_cn": "新西兰",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "4-4-2",
+        "players": [
+          "马里诺维奇",
+          "卡卡切",
+          "史密斯",
+          "博克索尔",
+          "刘易斯",
+          "罗哈斯",
+          "鲁弗",
+          "托马斯",
+          "辛格",
+          "伍德",
+          "巴巴罗塞斯"
+        ]
+      },
+      "recent_form": "大洋洲霸主，但实力有限，身体对抗强，防守组织一般。",
+      "score_prediction": "1-2",
+      "score_prediction_cn": "新西兰 1-2 伊朗"
+    },
+    "Spain": {
+      "name_cn": "西班牙",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "4-3-3",
+        "players": [
+          "乌奈·西蒙",
+          "卡瓦哈尔",
+          "拉波尔特",
+          "勒诺尔芒",
+          "库库雷利亚",
+          "罗德里",
+          "佩德里",
+          "加维",
+          "亚马尔",
+          "莫拉塔",
+          "尼科·威廉姆斯"
+        ]
+      },
+      "recent_form": "状态稳定，控球统治力强，但锋线终结效率偶有波动。",
+      "score_prediction": "3-0",
+      "score_prediction_cn": "3-0"
+    },
+    "Cape Verde": {
+      "name_cn": "佛得角",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "4-4-2",
+        "players": [
+          "沃齐尼亚",
+          "卡布拉尔",
+          "洛佩斯",
+          "费尔南德斯",
+          "桑托斯",
+          "门德斯",
+          "塔瓦雷斯",
+          "罗查",
+          "蒙特罗",
+          "贝贝",
+          "门德斯"
+        ]
+      },
+      "recent_form": "佛得角实力有限，防守组织尚可，但面对强队难有还手之力。",
+      "score_prediction": "0-3",
+      "score_prediction_cn": "0-3"
+    },
+    "Saudi Arabia": {
+      "name_cn": "沙特阿拉伯",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "4-2-3-1",
+        "players": [
+          "奥韦斯",
+          "阿卜杜勒哈米德",
+          "坦巴蒂",
+          "布莱希",
+          "沙赫拉尼",
+          "卡努",
+          "法拉杰",
+          "达瓦萨里",
+          "谢赫里",
+          "布赖坎",
+          "阿西里"
+        ]
+      },
+      "recent_form": "亚洲劲旅，防守组织有序，但面对顶级强队时抗压能力存疑。",
+      "score_prediction": "0-3",
+      "score_prediction_cn": "0-3"
+    },
+    "Uruguay": {
+      "name_cn": "乌拉圭",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "4-4-2",
+        "players": [
+          "罗切特",
+          "南德斯",
+          "希门尼斯",
+          "戈丁",
+          "比尼亚",
+          "巴尔韦德",
+          "乌加特",
+          "本坦库尔",
+          "佩利斯特里",
+          "苏亚雷斯",
+          "努涅斯"
+        ]
+      },
+      "recent_form": "状态稳健，防守纪律严明，反击效率高，双前锋威胁大。",
+      "score_prediction": "2-1",
+      "score_prediction_cn": "乌拉圭 2-1 沙特阿拉伯"
+    },
+    "Iraq": {
+      "name_cn": "伊拉克",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "4-2-3-1",
+        "players": [
+          "门将: 贾拉尔·哈桑",
+          "右后卫: 艾哈迈德·易卜拉欣",
+          "中后卫: 阿里·阿德南",
+          "中后卫: 雷宾·苏拉卡",
+          "左后卫: 穆罕默德·阿里",
+          "后腰: 阿姆贾德·阿特万",
+          "后腰: 萨阿德·阿卜杜勒-阿米尔",
+          "右边锋: 巴沙尔·雷桑",
+          "前腰: 胡马姆·塔里克",
+          "左边锋: 阿拉·阿卜杜勒-扎赫拉",
+          "前锋: 穆罕默德·达伍德"
+        ]
+      },
+      "recent_form": "伊拉克整体实力有限，防守组织尚可，但进攻端缺乏创造力，面对强队时易陷入被动。",
+      "score_prediction": "0-2",
+      "score_prediction_cn": "伊拉克 0-2 挪威"
+    },
+    "Norway": {
+      "name_cn": "挪威",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "4-3-3",
+        "players": [
+          "门将: 厄尔扬·尼兰德",
+          "右后卫: 朱利安·莱尔森",
+          "中后卫: 斯特凡·斯特兰德贝里",
+          "中后卫: 安德烈亚斯·汉切-奥尔森",
+          "左后卫: 比尔吉·梅林",
+          "中场: 桑德·贝格",
+          "中场: 莫滕·托尔斯比",
+          "中场: 马丁·厄德高",
+          "右边锋: 亚历山大·索尔洛特",
+          "中锋: 埃尔林·哈兰德",
+          "左边锋: 杰登·桑乔"
+        ]
+      },
+      "recent_form": "挪威拥有哈兰德和厄德高领衔的豪华阵容，进攻火力强劲，整体实力远超对手。",
+      "score_prediction": "0-2",
+      "score_prediction_cn": "伊拉克 0-2 挪威"
+    },
+    "Austria": {
+      "name_cn": "奥地利",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "4-2-3-1",
+        "players": [
+          "门将：施拉格尔",
+          "后卫：莱纳尔、林哈特、丹索、姆维尼",
+          "中场：施拉格、萨比策",
+          "前场：莱默尔、鲍姆加特纳、维默尔",
+          "前锋：阿瑙托维奇"
+        ]
+      },
+      "recent_form": "欧洲劲旅，整体实力占优，近期表现稳定，攻防均衡。",
+      "score_prediction": "3-0",
+      "score_prediction_cn": "奥地利 3-0 约旦"
+    },
+    "Jordan": {
+      "name_cn": "约旦",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "4-4-2",
+        "players": [
+          "门将：阿布·莱拉",
+          "后卫：哈塔布、穆萨、阿卜杜拉、纳西布",
+          "中场：拉瓦比德、萨米尔、阿塔、穆罕默德",
+          "前锋：达乌德、塔马里"
+        ]
+      },
+      "recent_form": "亚洲中游球队，实力差距明显，防守反击为主，但缺乏大赛经验。",
+      "score_prediction": "0-3",
+      "score_prediction_cn": "约旦 0-3 奥地利"
+    },
+    "France": {
+      "name_cn": "法国",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "4-3-3",
+        "players": [
+          "洛里斯",
+          "帕瓦尔",
+          "瓦拉内",
+          "金彭贝",
+          "卢卡斯·埃尔南德斯",
+          "坎特",
+          "博格巴",
+          "格列兹曼",
+          "姆巴佩",
+          "吉鲁",
+          "登贝莱"
+        ]
+      },
+      "recent_form": "卫冕冠军实力雄厚，攻防转换极快，姆巴佩左路突破是核心武器。",
+      "score_prediction": "2-0",
+      "score_prediction_cn": "法国 2-0 塞内加尔"
+    },
+    "Senegal": {
+      "name_cn": "塞内加尔",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "4-3-3",
+        "players": [
+          "门迪",
+          "萨巴利",
+          "库利巴利",
+          "迪亚洛",
+          "西斯",
+          "盖耶",
+          "纳帕里斯·门迪",
+          "萨尔",
+          "迪亚",
+          "马内",
+          "杰克逊"
+        ]
+      },
+      "recent_form": "非洲劲旅身体对抗出色，边路速度威胁大，但整体实力略逊法国。",
+      "score_prediction": "0-2",
+      "score_prediction_cn": "塞内加尔 0-2 法国"
+    },
+    "Argentina": {
+      "name_cn": "阿根廷",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "4-3-3",
+        "players": [
+          "门将：埃米利亚诺·马丁内斯",
+          "后卫：莫利纳、罗梅罗、奥塔门迪、塔利亚菲科",
+          "中场：德保罗、帕雷德斯、麦卡利斯特",
+          "前锋：梅西、劳塔罗·马丁内斯、迪马利亚"
+        ]
+      },
+      "recent_form": "阿根廷状态稳定，控球传导流畅，梅西核心作用突出，攻防体系成熟。",
+      "score_prediction": "2-0",
+      "score_prediction_cn": "2-0"
+    },
+    "Algeria": {
+      "name_cn": "阿尔及利亚",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "4-3-3",
+        "players": [
+          "门将：姆博尔希",
+          "后卫：阿塔尔、曼迪、本塞拜尼、法雷斯",
+          "中场：本纳塞尔、费古利、布拉希米",
+          "前锋：马赫雷斯、斯利马尼、奥纳斯"
+        ]
+      },
+      "recent_form": "阿尔及利亚实力不俗，反击犀利，但整体配合与大赛经验略逊于阿根廷。",
+      "score_prediction": "0-2",
+      "score_prediction_cn": "0-2"
+    },
+    "Ghana": {
+      "name_cn": "加纳",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "4-2-3-1",
+        "players": [
+          "阿蒂-齐吉",
+          "奥杜奥",
+          "阿马泰",
+          "萨利苏",
+          "巴巴",
+          "帕尔特伊",
+          "萨梅德",
+          "库杜斯",
+          "阿尤",
+          "威廉姆斯",
+          "伊尼亚基-威廉姆斯"
+        ]
+      },
+      "recent_form": "非洲劲旅，阵容年轻有冲击力，反击犀利，但防守稳定性存疑。",
+      "score_prediction": "2-1",
+      "score_prediction_cn": "加纳 2-1 巴拿马"
+    },
+    "Panama": {
+      "name_cn": "巴拿马",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "4-4-2",
+        "players": [
+          "梅希亚",
+          "穆里略",
+          "埃斯科瓦尔",
+          "科尔多瓦",
+          "奥瓦列",
+          "巴塞纳斯",
+          "戈多伊",
+          "卡拉斯奎利亚",
+          "罗德里格斯",
+          "法哈多",
+          "特哈达"
+        ]
+      },
+      "recent_form": "中北美黑马，整体实力有限，依赖团队防守和定位球。",
+      "score_prediction": "1-2",
+      "score_prediction_cn": "巴拿马 1-2 加纳"
+    },
+    "Portugal": {
+      "name_cn": "葡萄牙",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "4-3-3",
+        "players": [
+          "门将：迪奥戈·科斯塔",
+          "后卫：坎塞洛、鲁本·迪亚斯、佩佩、努诺·门德斯",
+          "中场：B费、帕利尼亚、维蒂尼亚",
+          "前锋：B席、C罗、莱奥"
+        ]
+      },
+      "recent_form": "葡萄牙阵容豪华，近期状态稳定，攻防均衡，具备争冠实力。",
+      "score_prediction": "3-0",
+      "score_prediction_cn": "葡萄牙 3-0 刚果民主共和国"
+    },
+    "Congo DR": {
+      "name_cn": "刚果民主共和国",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "4-4-2",
+        "players": [
+          "门将：姆帕西",
+          "后卫：姆本巴、齐曼加、卢库、马苏库",
+          "中场：姆普图、穆通巴、卡巴塞莱、博林戈利",
+          "前锋：巴坎布、姆博卡尼"
+        ]
+      },
+      "recent_form": "刚果民主共和国实力有限，防守组织松散，进攻依赖个人能力。",
+      "score_prediction": "0-3",
+      "score_prediction_cn": "刚果民主共和国 0-3 葡萄牙"
+    },
+    "Uzbekistan": {
+      "name_cn": "乌兹别克斯坦",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "4-2-3-1",
+        "players": [
+          "门将：内斯特罗夫",
+          "后卫：阿舒尔马托夫、克里梅茨、伊斯梅洛夫、萨菲耶夫",
+          "中场：舒库罗夫、哈姆达莫夫",
+          "前腰：马沙里波夫、艾哈迈多夫、谢尔盖耶夫",
+          "前锋：比克马耶夫"
+        ]
+      },
+      "recent_form": "乌兹别克斯坦近期表现稳健，防守组织有序，但进攻端缺乏顶级终结能力。",
+      "score_prediction": "1-2",
+      "score_prediction_cn": "乌兹别克斯坦 1-2 哥伦比亚"
+    },
+    "Colombia": {
+      "name_cn": "哥伦比亚",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "4-3-3",
+        "players": [
+          "门将：奥斯皮纳",
+          "后卫：阿里亚斯、米纳、桑切斯、莫希卡",
+          "中场：巴里奥斯、夸德拉多、莱尔马",
+          "前锋：穆里尔、萨帕塔、迪亚斯"
+        ]
+      },
+      "recent_form": "哥伦比亚整体实力占优，进攻端个人能力突出，但防守稳定性有待提升。",
+      "score_prediction": "1-2",
+      "score_prediction_cn": "乌兹别克斯坦 1-2 哥伦比亚"
+    },
+    "England": {
+      "name_cn": "英格兰",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "4-2-3-1",
+        "players": [
+          "皮克福德",
+          "沃克",
+          "斯通斯",
+          "马奎尔",
+          "卢克·肖",
+          "赖斯",
+          "贝林厄姆",
+          "萨卡",
+          "福登",
+          "拉什福德",
+          "凯恩"
+        ]
+      },
+      "recent_form": "整体实力强劲，攻防均衡，边路突破与定位球威胁大。",
+      "score_prediction": "2-1",
+      "score_prediction_cn": "2-1"
+    },
+    "Croatia": {
+      "name_cn": "克罗地亚",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "4-3-3",
+        "players": [
+          "利瓦科维奇",
+          "尤拉诺维奇",
+          "洛夫伦",
+          "格瓦迪奥尔",
+          "巴里西奇",
+          "布罗佐维奇",
+          "科瓦契奇",
+          "莫德里奇",
+          "佩里西奇",
+          "克拉马里奇",
+          "布雷卡洛"
+        ]
+      },
+      "recent_form": "中场控制力强，经验丰富，但锋线效率与体能存疑。",
+      "score_prediction": "1-2",
+      "score_prediction_cn": "1-2"
+    }
+  },
+  "total_teams": 51,
+  "_cache_ts": 1781847474.933777
+}

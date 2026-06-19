@@ -15,9 +15,9 @@ import unicodedata
 from pathlib import Path
 from typing import Dict, Optional, Tuple
 
-DESKTOP_ROOT = Path("C:/Users/ASUS/Desktop/WorldCup2026")
-BACKEND_TEAMS = Path("C:/Users/ASUS/football-ai/backend/data/teams")
-AVATARS_OUT = Path("C:/Users/ASUS/football-ai/frontend/public/headshots")
+DESKTOP_ROOT = Path(os.environ.get("DESKTOP_ROOT", "C:/Users/ASUS/Desktop/WorldCup2026"))
+BACKEND_TEAMS = Path(os.environ.get("BACKEND_TEAMS", "C:/Users/ASUS/football-ai/backend/data/teams"))
+AVATARS_OUT = Path(os.environ.get("AVATARS_OUT", "C:/Users/ASUS/football-ai/frontend/public/headshots"))
 
 NAME_MAP: Dict[str, str] = {
     "Bosnia and Herzegovina": "Bosnia and Herzegovina",

@@ -31,6 +31,9 @@ export interface PlayerStats {
   keyPasses?: number;
   tackles?: number;
   interceptions?: number;
+  clearances?: number;
+  blocks?: number;
+  touches?: number;
   dribbleSuccessRate?: number;
   matchConfidence?: string | null;
   dataSource?: string;
@@ -48,6 +51,11 @@ export interface PlayerStats {
   assistsP90?: number;
   startRate?: number;
   shotConversion?: number;
+  xgP90?: number;
+  saves?: number;
+  goalsConceded?: number;
+  cleanSheets?: number;
+  savePct?: number;
   wins?: number;
   draws?: number;
   losses?: number;
@@ -98,6 +106,9 @@ export function apiPlayerToPlayer(api: ApiPlayer): Player {
       keyPasses: s.key_passes,
       tackles: s.tackles,
       interceptions: s.interceptions,
+      clearances: s.clearances,
+      blocks: s.blocks,
+      touches: s.touches,
       dribbleSuccessRate: s.dribble_success_rate,
       matchConfidence: s.match_confidence,
       dataSource: s.data_source,
@@ -112,8 +123,13 @@ export function apiPlayerToPlayer(api: ApiPlayer): Player {
       shotAccuracy: s.shot_accuracy,
       goalsP90: s.goals_p90,
       assistsP90: s.assists_p90,
+      xgP90: s.xg_p90,
       startRate: s.start_rate,
       shotConversion: s.shot_conversion,
+      saves: s.saves,
+      goalsConceded: s.goals_conceded,
+      cleanSheets: s.clean_sheets,
+      savePct: s.save_pct,
       wins: s.wins,
       draws: s.draws,
       losses: s.losses,

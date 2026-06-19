@@ -806,6 +806,7 @@ export interface ApiPlayerStats {
   tackles?: number;
   interceptions?: number;
   clearances?: number;
+  blocks?: number;
   touches?: number;
   dribble_success_rate?: number;
   match_confidence?: string | null;
@@ -833,6 +834,10 @@ export interface ApiPlayerStats {
   pk_won?: number;
   pk_conceded?: number;
   own_goals?: number;
+  saves?: number;
+  goals_conceded?: number;
+  clean_sheets?: number;
+  save_pct?: number;
   wins?: number;
   draws?: number;
   losses?: number;

@@ -49,6 +49,25 @@ function StatItem({ label, value, highlight }: { label: string; value: string | 
   );
 }
 
+type PositionGroup = 'GK' | 'DF' | 'MF' | 'FW';
+
+function getPositionGroup(position: string): PositionGroup {
+  if (position === 'GK') return 'GK';
+  if (['CB', 'LB', 'RB', 'LWB', 'RWB', 'DF'].includes(position)) return 'DF';
+  if (['CDM', 'CM', 'CAM', 'LM', 'RM', 'MF'].includes(position)) return 'MF';
+  return 'FW';
+}
+
+function formatNumber(value: number | undefined | null, digits = 0): string | number {
+  if (value === undefined || value === null || Number.isNaN(Number(value))) return '-';
+  return digits > 0 ? Number(value).toFixed(digits) : value;
+}
+
+function percent(value: number | undefined | null): string {
+  if (value === undefined || value === null || Number.isNaN(Number(value))) return '-';
+  return `${value}%`;
+}
+
 export default function PlayerInfoPanel({ player, teamName }: PlayerInfoPanelProps) {
   const [analysis, setAnalysis] = useState<string | null>(null);
   const [analysisLoading, setAnalysisLoading] = useState(false);
@@ -97,6 +116,40 @@ export default function PlayerInfoPanel({ player, teamName }: PlayerInfoPanelPro
   const stats = player.stats;
   const hasRealData = stats?.hasRealData;
   const dataSource = stats?.dataSource;
+  const positionGroup = getPositionGroup(player.position);
+  const tacklesValue = stats?.tacklesWon ?? stats?.tackles;
+  const commonStats = stats ? [
+    { label: '出场', value: stats.appearances, highlight: true },
+    { label: '首发', value: `${stats.starts} (${stats.startRate ?? Math.round(stats.starts / Math.max(stats.appearances, 1) * 100)}%)` },
+    { label: '时间', value: `${Math.floor(stats.minutes / 60)}h` },
+    { label: '评分', value: formatNumber(stats.rating, 1) },
+  ] : [];
+  const positionCoreStats = stats ? {
+    GK: [
+      { label: '扑救', value: formatNumber(stats.saves), highlight: (stats.saves ?? 0) > 0 },
+      { label: '零封', value: formatNumber(stats.cleanSheets), highlight: (stats.cleanSheets ?? 0) > 0 },
+      { label: '失球', value: formatNumber(stats.goalsConceded) },
+      { label: '扑救率', value: percent(stats.savePct) },
+    ],
+    DF: [
+      { label: '抢断', value: formatNumber(tacklesValue), highlight: (tacklesValue ?? 0) > 0 },
+      { label: '拦截', value: formatNumber(stats.interceptions), highlight: (stats.interceptions ?? 0) > 0 },
+      { label: '解围', value: formatNumber(stats.clearances), highlight: (stats.clearances ?? 0) > 0 },
+      { label: '封堵', value: formatNumber(stats.blocks) },
+    ],
+    MF: [
+      { label: '传球%', value: percent(stats.passAccuracy), highlight: (stats.passAccuracy ?? 0) >= 85 },
+      { label: '关键传', value: formatNumber(stats.keyPasses), highlight: (stats.keyPasses ?? 0) > 0 },
+      { label: '向前传', value: formatNumber(stats.progressivePasses), highlight: (stats.progressivePasses ?? 0) > 0 },
+      { label: '助攻', value: stats.assists, highlight: stats.assists > 0 },
+    ],
+    FW: [
+      { label: '进球', value: stats.goals, highlight: stats.goals > 0 },
+      { label: 'xG', value: formatNumber(stats.xg, 1), highlight: (stats.xg ?? 0) > 0 },
+      { label: '射正率', value: percent(stats.shotAccuracy) },
+      { label: '每90分进球', value: formatNumber(stats.goalsP90, 2), highlight: (stats.goalsP90 ?? 0) > 0.3 },
+    ],
+  }[positionGroup] : [];
 
   const radarData = Object.entries(attributes).map(([key, value]) => ({
     subject: ATTRIBUTE_LABELS[key as keyof PlayerAttributes],
@@ -171,21 +224,18 @@ export default function PlayerInfoPanel({ player, teamName }: PlayerInfoPanelPro
           <h4 style={{ fontSize: 'var(--text-sm)', marginBottom: '0.5rem', color: 'var(--text-muted)' }}>
             赛季数据
           </h4>
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '0.4rem', marginBottom: '0.5rem' }}>
-            <StatItem label="出场" value={stats.appearances} highlight />
-            <StatItem label="首发" value={`${stats.starts} (${stats.startRate ?? Math.round(stats.starts / Math.max(stats.appearances, 1) * 100)}%)`} />
-            <StatItem label="时间" value={`${Math.floor(stats.minutes / 60)}h`} />
-            <StatItem label="进球" value={stats.goals} highlight={stats.goals > 0} />
-            <StatItem label="助攻" value={stats.assists} highlight={stats.assists > 0} />
-            <StatItem label="射正率" value={stats.shotAccuracy ? `${stats.shotAccuracy}%` : '-'} />
-            <StatItem label="黄牌" value={stats.yellowCards} />
+          <div className="player-stats-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '0.4rem', marginBottom: '0.5rem' }}>
+            {commonStats.map((item) => (
+              <StatItem key={item.label} label={item.label} value={item.value} highlight={item.highlight} />
+            ))}
           </div>
-          {/* Second row: per-90 and advanced */}
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '0.4rem' }}>
-            {stats.goalsP90 !== undefined && <StatItem label="每90分进球" value={stats.goalsP90.toFixed(2)} />}
-            {stats.assistsP90 !== undefined && <StatItem label="每90分助攻" value={stats.assistsP90.toFixed(2)} />}
-            {stats.tacklesWon !== undefined && <StatItem label="抢断" value={stats.tacklesWon} />}
-            {stats.interceptions !== undefined && <StatItem label="拦截" value={stats.interceptions} />}
+          <h4 style={{ fontSize: 'var(--text-sm)', margin: '0.75rem 0 0.5rem', color: 'var(--text-muted)' }}>
+            位置核心指标
+          </h4>
+          <div className="player-stats-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '0.4rem' }}>
+            {positionCoreStats.map((item) => (
+              <StatItem key={item.label} label={item.label} value={item.value} highlight={item.highlight} />
+            ))}
           </div>
           {/* W-D-L */}
           {stats.wins !== undefined && (

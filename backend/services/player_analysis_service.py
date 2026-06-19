@@ -11,6 +11,7 @@ from openai import OpenAI
 
 BASE_DIR = Path(__file__).parent.parent
 PLAYER_CACHE_DIR = BASE_DIR / "data" / "player_analysis"
+PLAYER_ANALYSIS_PROMPT_VERSION = "v2"
 
 
 class PlayerAnalysisService:
@@ -35,7 +36,7 @@ class PlayerAnalysisService:
         stats: Optional[dict],
     ) -> dict:
         """Generate a player analysis based on real stats or profile."""
-        cache_key = f"{team}:{name}"
+        cache_key = f"{PLAYER_ANALYSIS_PROMPT_VERSION}:{team}:{name}"
 
         # Check in-memory cache first
         if cache_key in self._cache:
@@ -67,7 +68,7 @@ class PlayerAnalysisService:
             response = self.client.chat.completions.create(
                 model=self.model,
                 messages=[
-                    {"role": "system", "content": "你是2026世界杯的专业球探分析师。你的分析风格客观、专业、有深度，善于从数据中洞察球员的真实状态。用中文输出，200-350字。"},
+                    {"role": "system", "content": "你是2026世界杯的专业球探分析师。你的分析风格客观、专业、有深度，善于从数据中洞察球员的真实状态。已知被分析对象属于已经确定的大名单球员，但不要在正文中提到“大名单已确定”或类似表述。用中文输出，200-350字。"},
                     {"role": "user", "content": prompt},
                 ],
                 temperature=0.7,
@@ -143,6 +144,14 @@ class PlayerAnalysisService:
         start_rate = stats.get("start_rate", 0)
         xg = stats.get("xg")
         pass_acc = stats.get("pass_accuracy")
+        key_passes = stats.get("key_passes")
+        progressive_passes = stats.get("progressive_passes")
+        clearances = stats.get("clearances")
+        blocks = stats.get("blocks")
+        saves = stats.get("saves")
+        goals_conceded = stats.get("goals_conceded")
+        clean_sheets = stats.get("clean_sheets")
+        save_pct = stats.get("save_pct")
 
         lines = [
             f"你是2026世界杯的专业球探分析师。请基于以下球员的完整赛季数据，对该球员的近期状态进行专业解读和评估。",
@@ -165,6 +174,12 @@ class PlayerAnalysisService:
             lines.append(f"传球成功率：{pass_acc}%")
         if xg is not None:
             lines.append(f"预期进球(xG)：{xg}")
+        if key_passes is not None or progressive_passes is not None:
+            lines.append(f"关键传球：{key_passes or 0}次，向前传球：{progressive_passes or 0}次")
+        if clearances is not None or blocks is not None:
+            lines.append(f"解围：{clearances or 0}次，封堵：{blocks or 0}次")
+        if saves is not None or goals_conceded is not None or clean_sheets is not None:
+            lines.append(f"门将数据：扑救{saves or 0}次，失球{goals_conceded or 0}个，零封{clean_sheets or 0}场，扑救率{save_pct if save_pct is not None else '暂无'}%")
 
         lines += [
             f"抢断：{tackles}次，拦截：{interceptions}次",
@@ -178,12 +193,12 @@ class PlayerAnalysisService:
             f"球队战绩：{wins}胜 {draws}平 {losses}负",
             f"",
             f"请从以下角度进行分析（200-350字，既客观又生动）：",
-            f"1. 出场稳定性与健康状况 — 是否是球队的绝对主力？是否有伤病困扰？",
-            f"2. 进攻/防守贡献评估 — 相对于同位置球员，数据表现如何？亮点和短板是什么？",
-            f"3. 近期状态趋势 — 结合赛季数据给出状态判断（优秀/良好/一般/低迷）",
-            f"4. 世界杯前景 — 该球员在国家队的角色和世界杯预期表现",
+            f"1. 个人状态分析 — 结合出场时间、效率、攻防数据判断近期状态，不要只给笼统结论。",
+            f"2. 能力带来的变化 — 说明他的能力会给国家队带来什么战术变化或比赛影响，例如推进、终结、防线稳定、出球、压迫、转换速度等。",
+            f"3. 隐患与风险 — 指出可能拖累球队的风险，例如效率波动、防守覆盖、纪律性、对抗、伤病/体能、位置适配或样本不足。",
+            f"4. 国家队角色 — 判断他更像核心、主力、轮换还是特定场景武器，并说明依据。",
             f"",
-            f"注意：务必引用具体数据，避免空洞的套话。用中文输出。",
+            f"注意：务必引用具体数据，避免空洞的套话。不要在正文中提到该球员已经确定进入大名单。用中文输出。",
         ]
         return "\n".join(lines)
 
@@ -197,13 +212,13 @@ class PlayerAnalysisService:
 俱乐部：{club}
 国家队：{team}
 
-请从以下角度进行简要分析（150-200字）：
-1. 俱乐部背景 — 效力俱乐部的级别和竞争环境
-2. 位置特点 — 该位置对球员的核心要求
-3. 国家队角色预期 — 在国家队可能担任的角色
-4. 世界杯展望 — 大致预期表现
+请从以下角度进行简要分析（150-220字）：
+1. 个人状态判断 — 只能基于履历、位置和俱乐部背景保守判断，不要编造具体赛季数据。
+2. 能力带来的变化 — 说明他的能力可能给国家队带来的战术变化或比赛影响。
+3. 隐患与风险 — 指出样本不足、联赛强度、位置适配、对抗或稳定性方面的风险。
+4. 国家队角色预期 — 判断更可能是主力、轮换还是特定场景选择。
 
-注意：由于缺少赛季真实数据，请注明"基于球员履历评估，待补充赛季数据"，分析要客观保守，不要编造具体数据。用中文输出。"""
+注意：由于缺少赛季真实数据，请注明"基于球员履历评估，待补充赛季数据"，分析要客观保守，不要编造具体数据。不要在正文中提到该球员已经确定进入大名单。用中文输出。"""
 
     def _fallback_analysis(self, name: str, name_cn: str, stats: Optional[dict]) -> dict:
         """Generate a basic text fallback when AI is unavailable."""
