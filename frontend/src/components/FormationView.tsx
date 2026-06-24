@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect, useRef, useMemo } from 'react';
-import api, { RosterPlayer, MatchLineups, TeamLineup, LineupPlayer, LiveEvent, PlayerLiveAnalysisResponse, IntervalAnalysis } from '@/lib/api';
+import api, { RosterPlayer, MatchLineups, TeamLineup, LineupPlayer, LiveEvent, PlayerLiveAnalysisResponse } from '@/lib/api';
 
 type Formation = '4-4-2' | '4-3-3' | '3-5-2' | '4-2-3-1' | '5-4-1' | '3-4-3';
 type Side = 'home' | 'away';
@@ -236,6 +236,70 @@ function buildSlotsFromLineup(
   return slots;
 }
 
+function mobileLinePositions(count: number, y: number, xMin: number, xMax: number): { x: number; y: number }[] {
+  if (count <= 1) return [{ x: 50, y }];
+  return Array.from({ length: count }, (_, i) => ({
+    x: xMin + (i / (count - 1)) * (xMax - xMin),
+    y,
+  }));
+}
+
+function buildMobileSlotsFromLineup(
+  starters: LineupPlayer[],
+  formation: Formation,
+  replacements: Map<string, LineupPlayer> = new Map(),
+  subbedIn: Set<string> = new Set(),
+): PitchSlot[] {
+  const activeStarters = starters.map((starter) => {
+    const replacement = replacements.get(starter.id);
+    if (!replacement) return starter;
+    if (getPositionGroup(replacement.position) === 'U') {
+      return { ...replacement, position: starter.position };
+    }
+    return replacement;
+  });
+
+  const gk = activeStarters.filter(p => getPositionGroup(p.position) === 'G');
+  const def = activeStarters.filter(p => getPositionGroup(p.position) === 'D');
+  const mid = activeStarters.filter(p => getPositionGroup(p.position) === 'M');
+  const fwd = activeStarters.filter(p => getPositionGroup(p.position) === 'F');
+  const slots: PitchSlot[] = [];
+
+  gk.slice(0, 1).forEach(player => slots.push({
+    player,
+    x: 50,
+    y: 88,
+    subStatus: subbedIn.has(player.id) ? 'in' : undefined,
+  }));
+
+  mobileLinePositions(def.length, 68, 16, 84).forEach((pos, i) => {
+    if (def[i]) slots.push({
+      player: def[i], ...pos,
+      subStatus: subbedIn.has(def[i].id) ? 'in' : undefined,
+    });
+  });
+
+  const midfieldLines = splitMidfield(mid, formation);
+  const midfieldYs = midfieldLines.length === 1 ? [48] : [54, 42];
+  midfieldLines.forEach((line, lineIndex) => {
+    mobileLinePositions(line.length, midfieldYs[lineIndex] || 48, 18, 82).forEach((pos, i) => {
+      if (line[i]) slots.push({
+        player: line[i], ...pos,
+        subStatus: subbedIn.has(line[i].id) ? 'in' : undefined,
+      });
+    });
+  });
+
+  mobileLinePositions(fwd.length, 20, fwd.length === 1 ? 50 : 22, fwd.length === 1 ? 50 : 78).forEach((pos, i) => {
+    if (fwd[i]) slots.push({
+      player: fwd[i], ...pos,
+      subStatus: subbedIn.has(fwd[i].id) ? 'in' : undefined,
+    });
+  });
+
+  return slots;
+}
+
 function ShirtMarker({ color, number, size = 46 }: { color: string; number?: string; size?: number }) {
   return (
     <div
@@ -331,9 +395,15 @@ function PitchPlayer({ player, x, y, color, onClick, isSelected, subStatus }: {
   );
 }
 
-function SubItem({ player, subStatus }: { player: RosterPlayer | LineupPlayer; subStatus?: 'in' | 'out' }) {
+function SubItem({ player, subStatus, isSelected, onClick }: {
+  player: RosterPlayer | LineupPlayer;
+  subStatus?: 'in' | 'out';
+  isSelected?: boolean;
+  onClick?: () => void;
+}) {
   return (
     <div
+      onClick={onClick}
       style={{
         display: 'flex',
         alignItems: 'center',
@@ -341,6 +411,9 @@ function SubItem({ player, subStatus }: { player: RosterPlayer | LineupPlayer; s
         minWidth: 0,
         padding: '3px 0',
         opacity: subStatus === 'in' ? 0.55 : 1,
+        cursor: onClick ? 'pointer' : undefined,
+        borderRadius: 6,
+        background: isSelected ? 'rgba(255,255,255,0.08)' : undefined,
       }}
       title={subStatus === 'in' ? '已替补登场' : subStatus === 'out' ? '已被换下' : undefined}
     >
@@ -383,13 +456,6 @@ function SubItem({ player, subStatus }: { player: RosterPlayer | LineupPlayer; s
   );
 }
 
-const INTERVAL_TABS = [
-  { key: 'p1', label: '25\'' },
-  { key: 'p2', label: '中场' },
-  { key: 'p3', label: '65\'' },
-  { key: 'p4', label: '终场' },
-];
-
 interface SelectedPlayerInfo {
   player: RosterPlayer | LineupPlayer;
   x: number;
@@ -409,15 +475,7 @@ function PlayerPopover({
   loading: boolean;
   onClose: () => void;
 }) {
-  const [activeTab, setActiveTab] = useState('p1');
   const popoverRef = useRef<HTMLDivElement>(null);
-
-  // Auto-select current interval tab when analysis loads
-  useEffect(() => {
-    if (analysis?.current_interval) {
-      setActiveTab(analysis.current_interval);
-    }
-  }, [analysis?.current_interval]);
 
   // Close on click outside
   useEffect(() => {
@@ -434,8 +492,7 @@ function PlayerPopover({
   const player = info.player;
   const color = info.side === 'home' ? HOME_COLOR : AWAY_COLOR;
   const hasStats = analysis?.stats_available && Object.keys(analysis?.stats || {}).length > 0;
-  const currentAnalyses = analysis?.analyses || {};
-  const activeData: IntervalAnalysis | undefined = currentAnalyses[activeTab];
+  const latestData = analysis?.latest_analysis || analysis?.analyses?.latest;
 
   return (
     <div
@@ -514,7 +571,7 @@ function PlayerPopover({
         </div>
       )}
 
-      {/* AI Analysis tabs */}
+      {/* AI Analysis */}
       <div style={{
         borderTop: '1px solid rgba(255,255,255,0.08)',
         paddingTop: '0.6rem',
@@ -523,46 +580,11 @@ function PlayerPopover({
           🤖 AI 表现分析
         </div>
 
-        {/* Tab buttons */}
-        <div style={{ display: 'flex', gap: '0.25rem', marginBottom: '0.5rem' }}>
-          {INTERVAL_TABS.map(tab => {
-            const data = currentAnalyses[tab.key];
-            const isCurrent = analysis?.current_interval === tab.key;
-            const isActive = activeTab === tab.key;
-            return (
-              <button
-                key={tab.key}
-                onClick={() => setActiveTab(tab.key)}
-                style={{
-                  flex: 1,
-                  padding: '0.25rem 0.2rem',
-                  borderRadius: '0.3rem',
-                  border: isActive
-                    ? `1px solid ${isCurrent ? '#f59e0b' : color}`
-                    : '1px solid rgba(255,255,255,0.08)',
-                  background: isActive
-                    ? `rgba(${isCurrent ? '245,158,11' : color === HOME_COLOR ? '16,185,129' : '129,140,248'}, 0.12)`
-                    : 'transparent',
-                  color: isActive ? '#fff' : 'var(--text-muted)',
-                  fontSize: 10,
-                  fontWeight: isActive ? 700 : 500,
-                  cursor: 'pointer',
-                  transition: 'all 0.15s',
-                  position: 'relative' as const,
-                }}
-              >
-                {tab.label}
-                {isCurrent && (
-                  <span style={{
-                    position: 'absolute', top: -4, right: -4,
-                    width: 7, height: 7,
-                    borderRadius: '50%', background: '#f59e0b',
-                  }} />
-                )}
-              </button>
-            );
-          })}
-        </div>
+        {latestData?.interval_label && (
+          <div style={{ fontSize: 10, color: '#f59e0b', marginBottom: '0.45rem', fontWeight: 700 }}>
+            {latestData.interval_label}
+          </div>
+        )}
 
         {/* Analysis text */}
         <div style={{
@@ -575,13 +597,93 @@ function PlayerPopover({
         }}>
           {loading && !analysis ? (
             <span style={{ color: 'var(--text-muted)' }}>AI 分析生成中…</span>
-          ) : !activeData?.generated ? (
-            <span style={{ color: 'var(--text-muted)' }}>该时段分析尚未生成</span>
+          ) : !latestData?.generated ? (
+            <span style={{ color: 'var(--text-muted)' }}>最新分析尚未生成</span>
           ) : (
-            activeData.analysis
+            latestData.analysis
           )}
         </div>
       </div>
+    </div>
+  );
+}
+
+function MobileTeamPitch({
+  teamName,
+  formation,
+  slots,
+  color,
+  side,
+  teamId,
+  selectedPlayer,
+  playerAnalysis,
+  analysisLoading,
+  onSelectPlayer,
+  onClosePlayer,
+}: {
+  teamName: string;
+  formation: Formation;
+  slots: PitchSlot[];
+  color: string;
+  side: Side;
+  teamId: string;
+  selectedPlayer: SelectedPlayerInfo | null;
+  playerAnalysis: PlayerLiveAnalysisResponse | null;
+  analysisLoading: boolean;
+  onSelectPlayer: (info: SelectedPlayerInfo) => void;
+  onClosePlayer: () => void;
+}) {
+  return (
+    <div
+      className="mobile-team-pitch-surface"
+      style={{
+        position: 'relative',
+        minHeight: 560,
+        aspectRatio: '0.68 / 1',
+        overflow: 'hidden',
+        borderRadius: '0.85rem',
+        border: '1px solid rgba(236,253,245,0.34)',
+        backgroundColor: '#075f34',
+        backgroundImage:
+          'repeating-linear-gradient(90deg, rgba(16,185,129,0.12) 0 42px, rgba(6,95,70,0.28) 42px 84px), repeating-linear-gradient(0deg, rgba(255,255,255,0.035) 0 2px, rgba(0,0,0,0.04) 2px 5px)',
+        boxShadow: 'inset 0 0 54px rgba(0,0,0,0.34)',
+      }}
+    >
+      <div style={{ position: 'absolute', inset: 8, border: '2px solid rgba(236,253,245,0.48)' }} />
+      <div style={{ position: 'absolute', left: 8, right: 8, top: '50%', borderTop: '2px solid rgba(236,253,245,0.42)' }} />
+      <div style={{ position: 'absolute', left: '50%', top: '50%', width: '36%', aspectRatio: '1 / 1', transform: 'translate(-50%, -50%)', border: '2px solid rgba(236,253,245,0.42)', borderRadius: '50%' }} />
+      <div style={{ position: 'absolute', left: '24%', right: '24%', bottom: 8, height: '13%', border: '2px solid rgba(236,253,245,0.34)', borderBottom: 0 }} />
+      <div style={{ position: 'absolute', left: '24%', right: '24%', top: 8, height: '13%', border: '2px solid rgba(236,253,245,0.34)', borderTop: 0 }} />
+      <div style={{ position: 'absolute', left: 14, top: 12, color: '#fff', fontSize: 16, fontWeight: 800, lineHeight: 1.25, textShadow: '0 1px 2px #000', zIndex: 4 }}>
+        <div>{teamName}</div>
+        <div>{formation}</div>
+      </div>
+      {slots.map(({ player, x, y, subStatus }) => (
+        <PitchPlayer
+          key={player.id}
+          player={player}
+          x={x}
+          y={y}
+          color={color}
+          subStatus={subStatus}
+          isSelected={selectedPlayer?.player.id === player.id && selectedPlayer?.side === side}
+          onClick={() => {
+            if (selectedPlayer?.player.id === player.id && selectedPlayer?.side === side) {
+              onClosePlayer();
+            } else {
+              onSelectPlayer({ player, x, y, side, teamId });
+            }
+          }}
+        />
+      ))}
+      {selectedPlayer?.side === side && (
+        <PlayerPopover
+          info={selectedPlayer}
+          analysis={playerAnalysis}
+          loading={analysisLoading}
+          onClose={onClosePlayer}
+        />
+      )}
     </div>
   );
 }
@@ -603,9 +705,6 @@ export default function FormationView({ homeTeamId, awayTeamId, homeName, awayNa
   const homeLineup: TeamLineup | undefined = lineups?.home;
   const awayLineup: TeamLineup | undefined = lineups?.away;
   const hasRealLineups = !!(homeLineup?.starters?.length && awayLineup?.starters?.length);
-  const [loading, setLoading] = useState(!hasRealLineups);
-  const [homeFormation, setHomeFormation] = useState<Formation>('5-4-1');
-  const [awayFormation, setAwayFormation] = useState<Formation>('4-2-3-1');
 
   // Player popover state
   const [selectedPlayer, setSelectedPlayer] = useState<SelectedPlayerInfo | null>(null);
@@ -615,9 +714,13 @@ export default function FormationView({ homeTeamId, awayTeamId, homeName, awayNa
   // Fetch player analysis when a player is selected
   useEffect(() => {
     if (!selectedPlayer || !matchId) return;
-    setAnalysisLoading(true);
-    setPlayerAnalysis(null);
     let mounted = true;
+    Promise.resolve().then(() => {
+      if (mounted) {
+        setAnalysisLoading(true);
+        setPlayerAnalysis(null);
+      }
+    });
 
     const teamId = selectedPlayer.side === 'home' ? homeTeamId : awayTeamId;
     const name = (selectedPlayer.player as LineupPlayer).name || (selectedPlayer.player as RosterPlayer).name || '';
@@ -636,32 +739,8 @@ export default function FormationView({ homeTeamId, awayTeamId, homeName, awayNa
     return () => { mounted = false; };
   }, [selectedPlayer, matchId, homeTeamId, awayTeamId]);
 
-  // Show the formation only after ESPN publishes real starters for both teams.
-  // Do not guess a starting XI from team rosters before official lineups exist.
-  useEffect(() => {
-    setLoading(false);
-  }, [hasRealLineups]);
-
-  // Sync formation state from real lineups (must be in effect, not during render)
-  useEffect(() => {
-    if (!hasRealLineups || !homeLineup || !awayLineup) return;
-    const hForm = (homeLineup.formation || '4-4-2') as Formation;
-    const aForm = (awayLineup.formation || '4-3-3') as Formation;
-    const validFormations: Formation[] = ['4-4-2', '4-3-3', '3-5-2', '4-2-3-1', '5-4-1', '3-4-3'];
-    setHomeFormation(validFormations.includes(hForm) ? hForm : '4-4-2');
-    setAwayFormation(validFormations.includes(aForm) ? aForm : '4-3-3');
-  }, [hasRealLineups, homeLineup?.formation, awayLineup?.formation]);
-
   // Process substitution events
   const subs = useMemo(() => processSubstitutions(events, homeLineup, awayLineup), [events, homeLineup, awayLineup]);
-
-  if (loading) {
-    return (
-      <div style={{ textAlign: 'center', padding: '2rem', color: TEXT_MUTED, fontSize: 14, background: CARD_BG, border: `1px solid ${CARD_BORDER}`, borderRadius: '1rem' }}>
-        加载阵容数据中...
-      </div>
-    );
-  }
 
   if (!hasRealLineups || !homeLineup || !awayLineup) {
     return (
@@ -681,30 +760,21 @@ export default function FormationView({ homeTeamId, awayTeamId, homeName, awayNa
   }
 
   // Build slots from real ESPN lineups.
-  let homeSlots: PitchSlot[];
-  let awaySlots: PitchSlot[];
-  let homeBench: RosterPlayer[] | LineupPlayer[];
-  let awayBench: RosterPlayer[] | LineupPlayer[];
-  let displayHomeFormation: Formation;
-  let displayAwayFormation: Formation;
-  let resolvedHomeName: string;
-  let resolvedAwayName: string;
-  let homeCoach: string;
-  let awayCoach: string;
-
   const hForm = (homeLineup.formation || '4-4-2') as Formation;
   const aForm = (awayLineup.formation || '4-3-3') as Formation;
-  displayHomeFormation = ['4-4-2','4-3-3','3-5-2','4-2-3-1','5-4-1','3-4-3'].includes(hForm) ? hForm : '4-4-2';
-  displayAwayFormation = ['4-4-2','4-3-3','3-5-2','4-2-3-1','5-4-1','3-4-3'].includes(aForm) ? aForm : '4-3-3';
+  const displayHomeFormation: Formation = ['4-4-2','4-3-3','3-5-2','4-2-3-1','5-4-1','3-4-3'].includes(hForm) ? hForm : '4-4-2';
+  const displayAwayFormation: Formation = ['4-4-2','4-3-3','3-5-2','4-2-3-1','5-4-1','3-4-3'].includes(aForm) ? aForm : '4-3-3';
 
-  homeSlots = buildSlotsFromLineup(homeLineup.starters, displayHomeFormation, 'home', subs.homeReplacements, subs.homeSubbedIn);
-  awaySlots = buildSlotsFromLineup(awayLineup.starters, displayAwayFormation, 'away', subs.awayReplacements, subs.awaySubbedIn);
-  homeBench = appendSubbedOutPlayers(homeLineup.substitutes, homeLineup.starters, subs.homeSubbedOut);
-  awayBench = appendSubbedOutPlayers(awayLineup.substitutes, awayLineup.starters, subs.awaySubbedOut);
-  resolvedHomeName = homeNameCn || homeName;
-  resolvedAwayName = awayNameCn || awayName;
-  homeCoach = '';
-  awayCoach = '';
+  const homeSlots = buildSlotsFromLineup(homeLineup.starters, displayHomeFormation, 'home', subs.homeReplacements, subs.homeSubbedIn);
+  const awaySlots = buildSlotsFromLineup(awayLineup.starters, displayAwayFormation, 'away', subs.awayReplacements, subs.awaySubbedIn);
+  const homeMobileSlots = buildMobileSlotsFromLineup(homeLineup.starters, displayHomeFormation, subs.homeReplacements, subs.homeSubbedIn);
+  const awayMobileSlots = buildMobileSlotsFromLineup(awayLineup.starters, displayAwayFormation, subs.awayReplacements, subs.awaySubbedIn);
+  const homeBench = appendSubbedOutPlayers(homeLineup.substitutes, homeLineup.starters, subs.homeSubbedOut);
+  const awayBench = appendSubbedOutPlayers(awayLineup.substitutes, awayLineup.starters, subs.awaySubbedOut);
+  const resolvedHomeName = homeNameCn || homeName;
+  const resolvedAwayName = awayNameCn || awayName;
+  const homeCoach = '';
+  const awayCoach = '';
 
   return (
     <div
@@ -869,6 +939,35 @@ export default function FormationView({ homeTeamId, awayTeamId, homeName, awayNa
         )}
       </div>
 
+      <div className="mobile-lineup-stack">
+        <MobileTeamPitch
+          teamName={resolvedHomeName}
+          formation={displayHomeFormation}
+          slots={homeMobileSlots}
+          color={HOME_COLOR}
+          side="home"
+          teamId={homeTeamId}
+          selectedPlayer={selectedPlayer}
+          playerAnalysis={playerAnalysis}
+          analysisLoading={analysisLoading}
+          onSelectPlayer={setSelectedPlayer}
+          onClosePlayer={() => { setSelectedPlayer(null); setPlayerAnalysis(null); }}
+        />
+        <MobileTeamPitch
+          teamName={resolvedAwayName}
+          formation={displayAwayFormation}
+          slots={awayMobileSlots}
+          color={AWAY_COLOR}
+          side="away"
+          teamId={awayTeamId}
+          selectedPlayer={selectedPlayer}
+          playerAnalysis={playerAnalysis}
+          analysisLoading={analysisLoading}
+          onSelectPlayer={setSelectedPlayer}
+          onClosePlayer={() => { setSelectedPlayer(null); setPlayerAnalysis(null); }}
+        />
+      </div>
+
       <div
         className="responsive-bench-grid"
         style={{
@@ -878,18 +977,41 @@ export default function FormationView({ homeTeamId, awayTeamId, homeName, awayNa
           borderTop: `1px solid ${CARD_BORDER}`,
         }}
       >
-        <BenchPanel coach={homeCoach} players={homeBench} subbedIn={subs.homeSubbedIn} subbedOut={subs.homeSubbedOut} />
-        <BenchPanel coach={awayCoach} players={awayBench} subbedIn={subs.awaySubbedIn} subbedOut={subs.awaySubbedOut} withBorder={false} />
+        <BenchPanel
+          coach={homeCoach}
+          players={homeBench}
+          subbedIn={subs.homeSubbedIn}
+          subbedOut={subs.homeSubbedOut}
+          side="home"
+          teamId={homeTeamId}
+          selectedPlayer={selectedPlayer}
+          onSelectPlayer={setSelectedPlayer}
+        />
+        <BenchPanel
+          coach={awayCoach}
+          players={awayBench}
+          subbedIn={subs.awaySubbedIn}
+          subbedOut={subs.awaySubbedOut}
+          side="away"
+          teamId={awayTeamId}
+          selectedPlayer={selectedPlayer}
+          onSelectPlayer={setSelectedPlayer}
+          withBorder={false}
+        />
       </div>
     </div>
   );
 }
 
-function BenchPanel({ coach, players, subbedIn, subbedOut, withBorder = true }: {
+function BenchPanel({ coach, players, subbedIn, subbedOut, side, teamId, selectedPlayer, onSelectPlayer, withBorder = true }: {
   coach: string;
   players: (RosterPlayer | LineupPlayer)[];
   subbedIn?: Set<string>;
   subbedOut?: Set<string>;
+  side: Side;
+  teamId: string;
+  selectedPlayer: SelectedPlayerInfo | null;
+  onSelectPlayer: (info: SelectedPlayerInfo) => void;
   withBorder?: boolean;
 }) {
   return (
@@ -924,7 +1046,16 @@ function BenchPanel({ coach, players, subbedIn, subbedOut, withBorder = true }: 
           const isSubbedIn = subbedIn?.has(player.id);
           const isSubbedOut = subbedOut?.has(player.id);
           const subStatus = isSubbedIn ? 'in' as const : isSubbedOut ? 'out' as const : undefined;
-          return <SubItem key={player.id} player={player} subStatus={subStatus} />;
+          const isSelected = selectedPlayer?.player.id === player.id && selectedPlayer?.side === side;
+          return (
+            <SubItem
+              key={player.id}
+              player={player}
+              subStatus={subStatus}
+              isSelected={isSelected}
+              onClick={() => onSelectPlayer({ player, x: side === 'home' ? 22 : 78, y: 86, side, teamId })}
+            />
+          );
         })}
       </div>
     </div>

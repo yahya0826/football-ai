@@ -37,6 +37,7 @@ export default function LineupAnalysis({ lineup, formationId, teamName }: Lineup
   const [data, setData] = useState<LineupEvalResponse | null>(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [chartReady, setChartReady] = useState(false);
   const debounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   const fetchAnalysis = useCallback(async () => {
@@ -78,6 +79,11 @@ export default function LineupAnalysis({ lineup, formationId, teamName }: Lineup
       if (debounceRef.current) clearTimeout(debounceRef.current);
     };
   }, [fetchAnalysis]);
+
+  useEffect(() => {
+    const id = requestAnimationFrame(() => setChartReady(true));
+    return () => cancelAnimationFrame(id);
+  }, []);
 
   const overall = data?.overall_score ?? 0;
   const dimensions = data?.dimensions;
@@ -135,6 +141,7 @@ export default function LineupAnalysis({ lineup, formationId, teamName }: Lineup
 
       {/* Radar chart */}
       <div style={{ height: 170 }}>
+        {chartReady ? (
         <ResponsiveContainer width="100%" height="100%">
           <RadarChart data={radarData}>
             <PolarGrid stroke="rgba(255,255,255,0.12)" />
@@ -157,6 +164,7 @@ export default function LineupAnalysis({ lineup, formationId, teamName }: Lineup
             />
           </RadarChart>
         </ResponsiveContainer>
+        ) : null}
       </div>
 
       {/* Loading / Error */}

@@ -8,7 +8,7 @@ import TacticalAnalysis from './TacticalAnalysis';
 import LineupAnalysis from './LineupAnalysis';
 import { Player, FORMATIONS, Formation, apiPlayerToPlayer } from './types';
 import api from '@/lib/api';
-import type { TeamPlayersResponse, PlayersIndexResponse } from '@/lib/api';
+import type { PlayersIndexResponse } from '@/lib/api';
 
 const FORMATION_POSITIONS = [
   'GK', 'LB', 'CB', 'CB', 'RB',
@@ -74,14 +74,20 @@ export default function TacticsPage() {
   useEffect(() => {
     if (!selectedTeam) return;
 
-    setLoading(true);
-    setError(null);
+    let mounted = true;
+    Promise.resolve().then(() => {
+      if (mounted) {
+        setLoading(true);
+        setError(null);
+      }
+    });
 
     Promise.all([
       api.getTeamPlayers(selectedTeam),
       api.getPredictedLineup(selectedTeam).catch(() => null),
     ])
       .then(([data, predicted]) => {
+        if (!mounted) return;
         const players = data.players.map(apiPlayerToPlayer);
         setSquad(players);
 
@@ -131,9 +137,14 @@ export default function TacticsPage() {
         setSelectedPlayer(null);
       })
       .catch(() => {
+        if (!mounted) return;
         setError('无法连接后端服务，请确认后端已启动（端口8000）');
       })
-      .finally(() => setLoading(false));
+      .finally(() => {
+        if (mounted) setLoading(false);
+      });
+
+    return () => { mounted = false; };
   }, [selectedTeam]);
 
   const handlePlayerClick = useCallback((player: Player) => {
@@ -262,20 +273,22 @@ export default function TacticsPage() {
       )}
 
       {/* Main layout: LineupAnalysis (left) | TacticalBoard + PlayerInfo (center) | SquadList (far right) */}
-      <div style={{
+      <div className="tactics-layout" style={{
         display: 'flex',
         gap: 'var(--space-md)',
         alignItems: 'flex-start',
       }}>
         {/* Far Left: Lineup Analysis */}
-        <LineupAnalysis
-          lineup={lineup}
-          formationId={currentFormation.id}
-          teamName={selectedTeam}
-        />
+        <div className="tactics-lineup-analysis">
+          <LineupAnalysis
+            lineup={lineup}
+            formationId={currentFormation.id}
+            teamName={selectedTeam}
+          />
+        </div>
 
         {/* Center: Tactical Board + PlayerInfoPanel + TacticalAnalysis */}
-        <div style={{
+        <div className="tactics-board-column" style={{
           flex: '1 1 auto',
           minWidth: 0,
           display: 'flex',
@@ -304,7 +317,7 @@ export default function TacticsPage() {
         </div>
 
         {/* Far right: SquadList */}
-        <div style={{
+        <div className="tactics-squad-panel" style={{
           flex: '0 0 20%',
           minWidth: '10rem',
           maxWidth: '14rem',
@@ -317,6 +330,27 @@ export default function TacticsPage() {
           />
         </div>
       </div>
+      <style jsx>{`
+        @media (max-width: 767px) {
+          .tactics-layout {
+            flex-direction: column;
+          }
+          .tactics-board-column {
+            order: 1;
+            width: 100%;
+          }
+          .tactics-squad-panel {
+            order: 2;
+            width: 100%;
+            max-width: none !important;
+            flex: none !important;
+          }
+          .tactics-lineup-analysis {
+            order: 3;
+            width: 100%;
+          }
+        }
+      `}</style>
     </div>
   );
 }

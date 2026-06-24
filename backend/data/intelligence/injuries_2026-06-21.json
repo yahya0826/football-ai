@@ -1,0 +1,162 @@
+{
+  "date": "2026-06-21",
+  "last_updated": "2026-06-21T00:07:41.688257",
+  "teams": {
+    "Germany": {
+      "name_cn": "德国",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "Ivory Coast": {
+      "name_cn": "科特迪瓦",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "Netherlands": {
+      "name_cn": "荷兰",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "Sweden": {
+      "name_cn": "瑞典",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "New Zealand": {
+      "name_cn": "新西兰",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "Egypt": {
+      "name_cn": "埃及",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "Uruguay": {
+      "name_cn": "乌拉圭",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "文章未提供近期状态信息",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "Cape Verde": {
+      "name_cn": "佛得角",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "文章未提供近期状态信息",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "Belgium": {
+      "name_cn": "比利时",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "4-3-3",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "Iran": {
+      "name_cn": "伊朗",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "4-3-3",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "Spain": {
+      "name_cn": "西班牙",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "Saudi Arabia": {
+      "name_cn": "沙特阿拉伯",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "Tunisia": {
+      "name_cn": "突尼斯",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "Japan": {
+      "name_cn": "日本",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    }
+  },
+  "total_teams": 14,
+  "_cache_ts": 1781971661.6891205
+}

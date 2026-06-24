@@ -24,7 +24,8 @@ ESPN_CORE_BASE = "https://sports.core.api.espn.com/v2/sports/soccer/leagues/fifa
 BASE_DIR = Path(__file__).parent.parent
 CACHE_DIR = BASE_DIR / "data" / "player_analysis"
 PLAYER_STATS_DIR = BASE_DIR / "data" / "player_live_stats"
-CACHE_VERSION = 2
+CACHE_VERSION = 3
+LATEST_ANALYSIS_KEY = "latest"
 
 INTERVALS = {
     "p1": {"label": "上半场25分钟", "max_minute": 25},
@@ -108,6 +109,14 @@ def _name_key(value: str) -> str:
 def _stats_signature(stats: Optional[Dict]) -> str:
     payload = json.dumps(stats or {}, sort_keys=True, ensure_ascii=False)
     return hashlib.sha1(payload.encode("utf-8")).hexdigest()
+
+
+def _analysis_label(clock: str, match_state: str) -> str:
+    if match_state == "finished":
+        return "全场"
+    if match_state == "halftime":
+        return "中场最新"
+    return f"最新数据 {clock}".strip()
 
 
 def _interval_available(interval: str, clock: str, match_state: str) -> bool:
@@ -272,57 +281,28 @@ class PlayerLiveAnalysisService:
         match_state: str = "scheduled",
         events: Optional[List[Dict[str, Any]]] = None,
     ) -> Dict[str, Any]:
-        """Get player stats + AI analysis for all available intervals."""
-        current_interval = get_current_interval(clock, match_state)
-
-        # Fetch player stats from ESPN Core API
+        """Get player stats + latest AI analysis."""
         stats = self._fetch_player_stats(match_id, competition_id, team_id, player_id)
         stats_available = stats is not None and len(stats) > 0
         persisted_player = self._get_persisted_player_record(match_id, team_id, player_id)
-        interval_snapshots = persisted_player.get("interval_snapshots", {}) if persisted_player else {}
+        if not stats_available and persisted_player:
+            fallback_stats = persisted_player.get("final_stats") or persisted_player.get("latest_stats") or {}
+            if fallback_stats:
+                stats = fallback_stats
+                stats_available = True
 
-        # Determine which intervals should be generated
-        interval_order = ["p1", "p2", "p3", "p4"]
-        current_idx = interval_order.index(current_interval)
-
-        analyses: Dict[str, Dict] = {}
-        for i, iv in enumerate(interval_order):
-            should_generate = i <= current_idx and (_interval_available(iv, clock, match_state) or iv == current_interval)
-            if should_generate:
-                snapshot = interval_snapshots.get(iv) or {}
-                has_snapshot = bool(snapshot)
-                interval_stats = stats
-                interval_clock = clock
-                interval_state = match_state
-                if iv != current_interval and has_snapshot:
-                    interval_stats = snapshot.get("stats") or {}
-                    interval_clock = snapshot.get("clock") or clock
-                    interval_state = snapshot.get("match_state") or match_state
-                elif iv == current_interval and not stats_available and has_snapshot:
-                    interval_stats = snapshot.get("stats") or {}
-                    interval_clock = snapshot.get("clock") or clock
-                    interval_state = snapshot.get("match_state") or match_state
-
-                analyses[iv] = self._get_or_generate_interval(
-                    match_id,
-                    team_id,
-                    player_id,
-                    iv,
-                    player_name,
-                    position,
-                    interval_clock,
-                    interval_state,
-                    interval_stats,
-                    events,
-                    allow_past_generation=has_snapshot,
-                )
-            else:
-                analyses[iv] = {
-                    "interval_key": iv,
-                    "interval_label": INTERVALS[iv]["label"],
-                    "generated": False,
-                    "analysis": "",
-                }
+        latest_analysis = self._get_or_generate_latest(
+            match_id=match_id,
+            team_id=team_id,
+            player_id=player_id,
+            player_name=player_name,
+            position=position,
+            clock=clock,
+            match_state=match_state,
+            stats=stats or {},
+            events=events,
+            persist=True,
+        )
 
         return {
             "player_id": player_id,
@@ -330,14 +310,17 @@ class PlayerLiveAnalysisService:
             "position": position,
             "stats": stats if stats_available else {},
             "stats_available": stats_available,
-            "current_interval": current_interval,
+            "current_interval": LATEST_ANALYSIS_KEY,
             "clock": clock,
             "match_state": match_state,
-            "analyses": analyses,
+            "latest_analysis": latest_analysis,
+            "analyses": {
+                LATEST_ANALYSIS_KEY: latest_analysis,
+            },
         }
 
     def collect_match_player_stats(self, match_detail: Dict[str, Any], force: bool = False) -> Dict[str, Any]:
-        """Persist live stats for every player who has appeared in the match."""
+        """Persist final full-match stats for every player who has appeared in the match."""
         match_id = str(match_detail.get("match_id") or match_detail.get("id") or "")
         if not match_id:
             return {"collected": 0, "reason": "missing_match_id"}
@@ -346,6 +329,8 @@ class PlayerLiveAnalysisService:
         match_state = status.get("state", "scheduled")
         clock = status.get("clock", "")
         is_finished = match_state == "finished"
+        if not is_finished:
+            return {"collected": 0, "skipped": True, "reason": "final_only"}
         collection_key = f"{match_id}:{match_state}:{clock}"
 
         if not force and self._collection_recent(collection_key, is_finished):
@@ -363,8 +348,6 @@ class PlayerLiveAnalysisService:
         if not players:
             return {"collected": 0, "reason": "no_appeared_players"}
 
-        interval = get_current_interval(clock, match_state)
-        interval_ready = _interval_available(interval, clock, match_state) or is_finished
         now = datetime.now().isoformat()
 
         output = {
@@ -400,22 +383,23 @@ class PlayerLiveAnalysisService:
                 "latest_stats": stats or {},
                 "latest_stats_available": bool(stats),
                 "latest_collected_at": now,
-                "interval_snapshots": existing.get("interval_snapshots", {}),
             }
-            if interval_ready or is_finished:
-                record["interval_snapshots"][interval] = {
-                    "interval_key": interval,
-                    "interval_label": INTERVALS[interval]["label"],
-                    "clock": clock,
-                    "match_state": match_state,
-                    "stats": stats or {},
-                    "stats_available": bool(stats),
-                    "collected_at": now,
-                }
-            if is_finished:
-                record["final_stats"] = stats or {}
-                record["final_stats_available"] = bool(stats)
-                record["final_collected_at"] = now
+            final_analysis = self._get_or_generate_latest(
+                match_id=match_id,
+                team_id=team_id,
+                player_id=player_id,
+                player_name=player.get("name", ""),
+                position=player.get("position", ""),
+                clock=clock,
+                match_state=match_state,
+                stats=stats or {},
+                events=match_detail.get("events", []) or [],
+                persist=True,
+            )
+            record["final_stats"] = stats or {}
+            record["final_stats_available"] = bool(stats)
+            record["final_collected_at"] = now
+            record["final_analysis"] = final_analysis
             output["players"][key] = record
             collected += 1
 
@@ -702,6 +686,76 @@ class PlayerLiveAnalysisService:
         self._memory_cache[cache_key] = cached
         self._save_cached(cache_key, cached)
 
+    def _event_signature_payload(self, events: Optional[List[Dict[str, Any]]], player_name: str) -> List[str]:
+        if not events:
+            return []
+        player_key = _name_key(player_name)
+        payload: List[str] = []
+        for event in events:
+            text = " ".join(str(event.get(k, "")) for k in ("player", "assist", "player_in", "player_out", "text", "description_cn"))
+            if player_key and player_key in _name_key(text):
+                payload.append(f"{event.get('minute')}|{event.get('type')}|{text}")
+        return payload[-8:]
+
+    def _latest_cache_valid(self, cached: Dict, signature: str, cache_locked: bool) -> bool:
+        if cached.get("_cache_version") != CACHE_VERSION:
+            return False
+        if cache_locked and cached.get("_cache_locked") and cached.get("generated") and cached.get("analysis"):
+            return True
+        return cached.get("_stats_signature") == signature and not _is_placeholder_analysis(cached.get("analysis", ""))
+
+    def _get_or_generate_latest(
+        self,
+        match_id: str,
+        team_id: str,
+        player_id: str,
+        player_name: str,
+        position: str,
+        clock: str,
+        match_state: str,
+        stats: Optional[Dict],
+        events: Optional[List[Dict[str, Any]]] = None,
+        persist: bool = True,
+    ) -> Dict[str, Any]:
+        cache_key = f"{match_id}_{team_id}_{player_id}_{LATEST_ANALYSIS_KEY}"
+        signature = _stats_signature({
+            "stats": stats or {},
+            "events": self._event_signature_payload(events, player_name),
+            "state": match_state,
+        })
+        cache_locked = match_state == "finished"
+        cached = self._memory_cache.get(cache_key) or self._load_cached(cache_key)
+        if cached and self._latest_cache_valid(cached, signature, cache_locked):
+            self._memory_cache[cache_key] = cached
+            return cached
+
+        player_events = _extract_player_events(events, player_name, "p4", clock, match_state)
+        sub_context = _get_player_substitution_context(events, player_name)
+        analysis_text = self._generate_analysis(
+            player_name=player_name,
+            position=position,
+            interval=LATEST_ANALYSIS_KEY,
+            clock=clock,
+            stats=stats or {},
+            player_events=player_events,
+            sub_context=sub_context,
+            match_state=match_state,
+        )
+        result = {
+            "_cache_version": CACHE_VERSION,
+            "_stats_signature": signature,
+            "_generated_minute": _parse_clock(clock),
+            "_cache_locked": cache_locked,
+            "interval_key": LATEST_ANALYSIS_KEY,
+            "interval_label": _analysis_label(clock, match_state),
+            "generated": bool(analysis_text),
+            "analysis": analysis_text or "",
+        }
+        self._memory_cache[cache_key] = result
+        if persist:
+            self._save_cached(cache_key, result)
+        return result
+
     def _generate_analysis(
         self,
         player_name: str,
@@ -711,9 +765,10 @@ class PlayerLiveAnalysisService:
         stats: Optional[Dict],
         player_events: Optional[List[str]] = None,
         sub_context: Optional[Dict[str, Any]] = None,
+        match_state: str = "",
     ) -> str:
         """Generate AI analysis via DeepSeek or fallback to rule-based."""
-        interval_label = INTERVALS[interval]["label"]
+        interval_label = INTERVALS.get(interval, {"label": _analysis_label(clock, match_state)})["label"]
         event_summary = "；".join(player_events or []) if player_events else "无"
         substitution_summary = _sub_context_text(sub_context or {})
 

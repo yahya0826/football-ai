@@ -79,7 +79,7 @@ async def player_live_stats_scheduler():
             matches = live_match_service.get_today_matches(today)
             for match in matches:
                 state = match.get("state", "scheduled")
-                if state not in ("live", "halftime", "finished"):
+                if state != "finished":
                     continue
                 match_id = str(match.get("match_id") or "")
                 if not match_id:
@@ -977,15 +977,9 @@ def _generate_fallback_highlights(home_cn: str, away_cn: str, h2h: Optional[Dict
 
 def _schedule_player_stats_collection(detail: Dict, background_tasks: BackgroundTasks = None):
     state = (detail.get("status", {}) or {}).get("state", "")
-    if state not in ("live", "halftime", "finished"):
+    if state != "finished":
         return
-    force = state == "finished"
-    if force:
-        player_live_analysis_service.collect_match_player_stats(detail, force=True)
-    elif background_tasks:
-        background_tasks.add_task(player_live_analysis_service.collect_match_player_stats, detail, False)
-    else:
-        player_live_analysis_service.collect_match_player_stats(detail, force=False)
+    player_live_analysis_service.collect_match_player_stats(detail, force=True)
 
 @app.get("/api/live/scoreboard")
 async def get_live_scoreboard(date: str = None):
@@ -1142,7 +1136,7 @@ async def get_player_live_analysis(
     position: str = Query(..., description="球员位置 (G/D/M/F)"),
     clock: str = Query(default="", description="比赛时钟 (如 23', 45'+2)"),
 ):
-    """获取球员实时个人数据 + AI 分时段表现分析"""
+    """获取球员实时个人数据 + 最新 AI 表现分析"""
     try:
         # Get match detail for competition_id and match state
         detail = live_match_service.get_match_detail(match_id)

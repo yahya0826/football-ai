@@ -138,6 +138,10 @@ textarea {
   width: 100%;
 }
 
+.mobile-lineup-stack {
+  display: none;
+}
+
 .responsive-bench-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -410,11 +414,22 @@ textarea {
     letter-spacing: 0.03em;
   }
   .responsive-formation {
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
+    overflow-x: visible !important;
   }
   .responsive-pitch {
-    min-width: 42rem;
+    display: none !important;
+    min-width: 0 !important;
+  }
+  .mobile-lineup-stack {
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+    padding: 0.75rem;
+  }
+  .mobile-team-pitch-surface {
+    width: 100%;
+    max-width: 28rem;
+    margin: 0 auto;
   }
   .responsive-bench-grid,
   .responsive-bench-list {

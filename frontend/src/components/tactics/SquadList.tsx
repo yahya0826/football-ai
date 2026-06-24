@@ -71,7 +71,7 @@ export default function SquadList({ squad, lineup, onSwapWithLineup, onSwapFromB
   }, {} as Record<string, Player[]>);
 
   return (
-    <div style={{
+    <div className="squad-list-panel" style={{
       border: '1px solid #333',
       borderRadius: '0.75rem',
       padding: 'var(--space-md)',
@@ -94,7 +94,7 @@ export default function SquadList({ squad, lineup, onSwapWithLineup, onSwapFromB
         拖拽球员交换场上位置
       </p>
 
-      <div style={{
+      <div className="squad-list-groups" style={{
         display: 'flex',
         flexDirection: 'column',
         gap: '0.5rem',
@@ -106,7 +106,7 @@ export default function SquadList({ squad, lineup, onSwapWithLineup, onSwapFromB
           if (!players || players.length === 0) return null;
 
           return (
-            <div key={group} style={{
+            <div key={group} className="squad-list-group" style={{
               display: 'flex',
               flexDirection: 'column',
               gap: '0.25rem',
@@ -118,7 +118,7 @@ export default function SquadList({ squad, lineup, onSwapWithLineup, onSwapFromB
               }}>
                 {formatPosition(group)}
               </div>
-              <div style={{
+              <div className="squad-list-players" style={{
                 display: 'flex',
                 flexWrap: 'wrap',
                 gap: '0.35rem',
@@ -226,6 +226,31 @@ export default function SquadList({ squad, lineup, onSwapWithLineup, onSwapFromB
           );
         })}
       </div>
+      <style jsx>{`
+        @media (max-width: 767px) {
+          .squad-list-panel {
+            height: auto !important;
+          }
+          .squad-list-groups {
+            flex-direction: row !important;
+            overflow-x: auto !important;
+            overflow-y: hidden !important;
+            padding-bottom: 0.25rem;
+            -webkit-overflow-scrolling: touch;
+          }
+          .squad-list-group {
+            flex: 0 0 min(18rem, 82vw);
+          }
+          .squad-list-players {
+            flex-wrap: nowrap !important;
+            overflow-x: auto;
+            padding-bottom: 0.15rem;
+          }
+          .squad-list-players > div {
+            flex: 0 0 auto;
+          }
+        }
+      `}</style>
     </div>
   );
 }

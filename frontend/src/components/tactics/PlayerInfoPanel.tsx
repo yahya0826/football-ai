@@ -73,6 +73,7 @@ export default function PlayerInfoPanel({ player, teamName }: PlayerInfoPanelPro
   const [analysisLoading, setAnalysisLoading] = useState(false);
   const [analysisBasis, setAnalysisBasis] = useState<string>('');
   const [analysisError, setAnalysisError] = useState<string | null>(null);
+  const [chartReady, setChartReady] = useState(false);
 
   const fetchAnalysis = useCallback(async () => {
     if (!player || !teamName) return;
@@ -82,7 +83,7 @@ export default function PlayerInfoPanel({ player, teamName }: PlayerInfoPanelPro
       const result = await api.getPlayerAnalysis(teamName, player.name);
       setAnalysis(result.analysis);
       setAnalysisBasis(result.data_basis);
-    } catch (err) {
+    } catch {
       setAnalysisError('AI分析暂不可用');
     } finally {
       setAnalysisLoading(false);
@@ -90,12 +91,22 @@ export default function PlayerInfoPanel({ player, teamName }: PlayerInfoPanelPro
   }, [player, teamName]);
 
   useEffect(() => {
-    setAnalysis(null);
-    setAnalysisError(null);
-    if (player) {
-      fetchAnalysis();
-    }
+    let mounted = true;
+    Promise.resolve().then(() => {
+      if (!mounted) return;
+      setAnalysis(null);
+      setAnalysisError(null);
+      if (player) {
+        fetchAnalysis();
+      }
+    });
+    return () => { mounted = false; };
   }, [player, fetchAnalysis]);
+
+  useEffect(() => {
+    const id = requestAnimationFrame(() => setChartReady(true));
+    return () => cancelAnimationFrame(id);
+  }, []);
 
   if (!player) {
     return (
@@ -274,6 +285,7 @@ export default function PlayerInfoPanel({ player, teamName }: PlayerInfoPanelPro
         <h4 style={{ fontSize: 'var(--text-sm)', marginBottom: '0.5rem', color: 'var(--text-muted)' }}>
           能力雷达图
         </h4>
+        {chartReady ? (
         <ResponsiveContainer width="100%" height={180}>
           <RadarChart data={radarData}>
             <PolarGrid stroke="rgba(255,255,255,0.15)" />
@@ -282,6 +294,7 @@ export default function PlayerInfoPanel({ player, teamName }: PlayerInfoPanelPro
             <Radar name="能力值" dataKey="value" stroke="#10b981" fill="#10b981" fillOpacity={0.25} strokeWidth={2} />
           </RadarChart>
         </ResponsiveContainer>
+        ) : null}
       </div>
 
       {/* AI Scout Report */}

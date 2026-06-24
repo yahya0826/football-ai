@@ -1,0 +1,130 @@
+{
+  "date": "2026-06-22",
+  "last_updated": "2026-06-22T11:45:53.910479",
+  "teams": {
+    "Norway": {
+      "name_cn": "挪威",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "Senegal": {
+      "name_cn": "塞内加尔",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "Argentina": {
+      "name_cn": "阿根廷",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "Austria": {
+      "name_cn": "奥地利",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "France": {
+      "name_cn": "法国",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "4-3-3",
+        "players": [
+          "姆巴佩",
+          "其他球员1",
+          "其他球员2",
+          "其他球员3",
+          "其他球员4",
+          "其他球员5",
+          "其他球员6",
+          "其他球员7",
+          "其他球员8",
+          "其他球员9",
+          "其他球员10"
+        ]
+      },
+      "recent_form": "首战3-1战胜塞内加尔，姆巴佩梅开二度，状态良好。",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "Iraq": {
+      "name_cn": "伊拉克",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "Jordan": {
+      "name_cn": "约旦",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "首战失利，状态不佳",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "Algeria": {
+      "name_cn": "阿尔及利亚",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "首战失利，状态不佳",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "Spain": {
+      "name_cn": "西班牙",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "Saudi Arabia": {
+      "name_cn": "沙特阿拉伯",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    }
+  },
+  "total_teams": 10,
+  "_cache_ts": 1782099953.9105685
+}

@@ -1,0 +1,74 @@
+{
+  "date": "2026-06-20",
+  "last_updated": "2026-06-20T20:46:50.300373",
+  "teams": {
+    "Germany": {
+      "name_cn": "德国",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "Ivory Coast": {
+      "name_cn": "科特迪瓦",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "Netherlands": {
+      "name_cn": "荷兰",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "4-3-3",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "Sweden": {
+      "name_cn": "瑞典",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "4-3-3",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "Spain": {
+      "name_cn": "西班牙",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "4-3-3",
+        "players": []
+      },
+      "recent_form": "首战0-0战平，未达预期。",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "Saudi Arabia": {
+      "name_cn": "沙特阿拉伯",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    }
+  },
+  "total_teams": 6,
+  "_cache_ts": 1781959610.3009028
+}

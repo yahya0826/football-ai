@@ -1277,6 +1277,7 @@ export interface PlayerLiveAnalysisResponse {
   current_interval: string;
   clock: string;
   match_state: string;
+  latest_analysis?: IntervalAnalysis;
   analyses: Record<string, IntervalAnalysis>;
 }
 
