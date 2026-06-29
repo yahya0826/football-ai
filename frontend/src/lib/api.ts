@@ -457,6 +457,54 @@ export interface MatchTeamProfile {
   tactical_profile?: Record<string, unknown>;
 }
 
+export interface GroupStageKeyPlayer {
+  name: string;
+  goals: number;
+}
+
+export interface GroupStageFormItem {
+  match_id: string | number;
+  opponent: string;
+  opponent_cn?: string;
+  score: string;
+  result: string;
+  state: string;
+}
+
+export interface GroupStageTeamSummary {
+  team: string;
+  team_cn: string;
+  matches: number;
+  wins: number;
+  draws: number;
+  losses: number;
+  goals_for: number;
+  goals_against: number;
+  goal_difference: number;
+  shots: number;
+  shots_on_target: number;
+  shot_accuracy: number;
+  avg_possession: number;
+  pass_accuracy: number;
+  corners: number;
+  fouls: number;
+  yellow_cards: number;
+  red_cards: number;
+  key_players: GroupStageKeyPlayer[];
+  form: GroupStageFormItem[];
+}
+
+export interface GroupStageInsight {
+  available: boolean;
+  source: string;
+  generated_by_ai: boolean;
+  generated_at: string;
+  home: GroupStageTeamSummary;
+  away: GroupStageTeamSummary;
+  comparison: string[];
+  analysis: string;
+}
+
 export interface MatchDetailResponse {
   match: ScheduleMatch;
   h2h: H2HData | null;
@@ -467,6 +515,7 @@ export interface MatchDetailResponse {
     home: MatchTeamProfile | null;
     away: MatchTeamProfile | null;
   } | null;
+  group_stage_insight?: GroupStageInsight | null;
 }
 
 // API 函数

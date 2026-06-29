@@ -203,6 +203,7 @@ function deriveAttributes(s: ApiPlayer['stats']): PlayerAttributes {
 
 const POSITION_CN_MAP: Record<string, string> = {
   GK: '门将',
+  G: '门将',
   CB: '中后卫',
   LB: '左后卫',
   RB: '右后卫',

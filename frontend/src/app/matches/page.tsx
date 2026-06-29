@@ -5,6 +5,7 @@ import type { ErrorInfo, ReactNode } from 'react';
 import api, { ScheduleMatch, MatchScheduleResponse, MatchDetailResponse, H2HData, RecentMatch, LiveScoreboardResponse, LiveMatchSummary, MatchAnalysisResponse, MatchAnalysis, LiveEvent } from '@/lib/api';
 import LiveMatchPanel from '@/components/LiveMatchPanel';
 import FormationView from '@/components/FormationView';
+import GroupStageInsightPanel from '@/components/GroupStageInsightPanel';
 
 class ErrorBoundary extends Component<{ children: ReactNode }, { hasError: boolean; error: Error | null }> {
   constructor(props: { children: ReactNode }) {
@@ -1252,6 +1253,8 @@ function MatchDetailPanel({
               📡 该比赛暂无实时数据（比赛日将自动接入ESPN）
             </div>
           )}
+
+          <GroupStageInsightPanel insight={detail?.group_stage_insight} />
 
           {/* Detail grid */}
           <div className="responsive-two-col" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0.75rem' }}>

@@ -40,6 +40,7 @@ from services.live_match_service import live_match_service
 from services.player_live_analysis_service import player_live_analysis_service
 from services.injury_intel_service import injury_intel_service
 from services.match_analysis_service import analyze_match
+from services.group_stage_insight_service import group_stage_insight_service
 
 BEIJING_TZ = timezone(timedelta(hours=8))
 
@@ -552,6 +553,7 @@ class ScheduleMatchDetail(BaseModel):
     away_recent: Optional[List[Dict]] = Field(default=None, description="客队近期战绩")
     highlights: Optional[str] = Field(default=None, description="AI生成的比赛看点")
     team_profiles: Optional[Dict] = Field(default=None, description="两队档案")
+    group_stage_insight: Optional[Dict] = Field(default=None, description="小组赛实时数据聚合分析")
 
 class MatchHighlightsRequest(BaseModel):
     """比赛看点请求"""
@@ -630,7 +632,8 @@ async def get_schedule_match(match_id: int):
             home_recent=None,
             away_recent=None,
             highlights=f"淘汰赛对阵待小组赛结束后确定 — {match.get('home_team_cn', '')} vs {match.get('away_team_cn', '')}",
-            team_profiles=None
+            team_profiles=None,
+            group_stage_insight=None
         )
 
     # Get H2H from match history
@@ -650,13 +653,26 @@ async def get_schedule_match(match_id: int):
     except Exception:
         pass
 
+    group_stage_insight = None
+    try:
+        group_stage_insight = group_stage_insight_service.get_match_insight(
+            match_id=match_id,
+            home_team=home,
+            away_team=away,
+            home_team_cn=match.get("home_team_cn", ""),
+            away_team_cn=match.get("away_team_cn", ""),
+        )
+    except Exception as e:
+        print(f"[GroupStageInsight] Failed for schedule match {match_id}: {e}")
+
     return ScheduleMatchDetail(
         match=match,
         h2h=h2h_data,
         home_recent=home_recent,
         away_recent=away_recent,
         highlights=None,
-        team_profiles=team_profiles
+        team_profiles=team_profiles,
+        group_stage_insight=group_stage_insight
     )
 
 @app.post("/api/schedule/{match_id}/highlights")

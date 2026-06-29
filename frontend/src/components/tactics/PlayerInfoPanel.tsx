@@ -22,6 +22,7 @@ const ATTRIBUTE_LABELS: Record<keyof PlayerAttributes, string> = {
 
 const POSITION_CN: Record<string, string> = {
   GK: '守门员', CB: '中后卫', LB: '左后卫', RB: '右后卫',
+  G: '守门员',
   LWB: '左边翼卫', RWB: '右边翼卫', CDM: '后腰', CM: '中场',
   CAM: '前腰', LM: '左中场', RM: '右中场', LW: '左边锋',
   RW: '右边锋', ST: '前锋', CF: '前锋', FW: '前锋',
@@ -55,10 +56,11 @@ function StatItem({ label, value, highlight }: StatItemData) {
   );
 }
 
-function getPositionGroup(position: string): PositionGroup {
-  if (position === 'GK') return 'GK';
-  if (['CB', 'LB', 'RB', 'LWB', 'RWB', 'DF'].includes(position)) return 'DF';
-  if (['CDM', 'CM', 'CAM', 'LM', 'RM', 'MF'].includes(position)) return 'MF';
+function getPositionGroup(position: string, positionCn?: string): PositionGroup {
+  const normalized = position.trim().toUpperCase();
+  if (['GK', 'G', 'GOALKEEPER'].includes(normalized) || positionCn?.includes('门')) return 'GK';
+  if (['CB', 'LB', 'RB', 'LWB', 'RWB', 'DF'].includes(normalized)) return 'DF';
+  if (['CDM', 'CM', 'CAM', 'LM', 'RM', 'MF'].includes(normalized)) return 'MF';
   return 'FW';
 }
 
@@ -87,14 +89,22 @@ function getPositionStats(player: Player): StatItemData[] {
 
   const shots = stats.shots ?? stats.shotsTotal;
   const tackles = stats.tacklesWon ?? stats.tackles;
+  const shotsOnTargetAgainst = stats.shotsOnTargetAgainst
+    ?? (stats.saves !== undefined && stats.goalsConceded !== undefined
+      ? stats.saves + stats.goalsConceded
+      : undefined);
+  const savePct = stats.savePct
+    ?? (shotsOnTargetAgainst && stats.saves !== undefined
+      ? Number(((stats.saves / shotsOnTargetAgainst) * 100).toFixed(1))
+      : undefined);
 
-  switch (getPositionGroup(player.position)) {
+  switch (getPositionGroup(player.position, player.positionCn)) {
     case 'GK':
       return [
-        { label: 'SoTA 对手射正', value: formatNumber(stats.shotsOnTargetAgainst) },
+        { label: 'SoTA 对手射正', value: formatNumber(shotsOnTargetAgainst) },
         { label: 'GA 失球', value: formatNumber(stats.goalsConceded) },
         { label: 'Saves 扑救', value: formatNumber(stats.saves), highlight: (stats.saves ?? 0) > 0 },
-        { label: 'Save% 扑救率', value: percent(stats.savePct), highlight: (stats.savePct ?? 0) >= 70 },
+        { label: 'Save% 扑救率', value: percent(savePct), highlight: (savePct ?? 0) >= 70 },
         { label: 'CS 零封', value: formatNumber(stats.cleanSheets), highlight: (stats.cleanSheets ?? 0) > 0 },
         { label: 'PKatt 对手点球', value: formatNumber(stats.pkAttempted) },
         { label: 'PKA 点球失球', value: formatNumber(stats.penaltyGoalsAllowed) },
@@ -205,6 +215,11 @@ export default function PlayerInfoPanel({ player, teamName }: PlayerInfoPanelPro
   const hasRealData = stats?.hasRealData;
   const dataSource = stats?.dataSource;
   const positionStats = getPositionStats(player);
+  const basicStats: StatItemData[] = stats ? [
+    { label: '出场次数', value: stats.appearances, highlight: stats.appearances > 0 },
+    { label: '首发', value: stats.starts, highlight: stats.starts > 0 },
+    { label: '评分', value: formatNumber(stats.rating, 1), highlight: stats.rating >= 7 },
+  ] : [];
 
   const radarData = Object.entries(attributes).map(([key, value]) => ({
     subject: ATTRIBUTE_LABELS[key as keyof PlayerAttributes],
@@ -279,6 +294,14 @@ export default function PlayerInfoPanel({ player, teamName }: PlayerInfoPanelPro
 
       {hasRealData && stats ? (
         <div style={{ marginBottom: 'var(--space-md)' }}>
+          <h4 style={{ fontSize: 'var(--text-sm)', marginBottom: '0.5rem', color: 'var(--text-muted)' }}>
+            基础数据
+          </h4>
+          <div className="player-stats-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '0.4rem', marginBottom: '0.75rem' }}>
+            {basicStats.map((item) => (
+              <StatItem key={item.label} label={item.label} value={item.value} highlight={item.highlight} />
+            ))}
+          </div>
           <h4 style={{ fontSize: 'var(--text-sm)', marginBottom: '0.5rem', color: 'var(--text-muted)' }}>
             位置关注指标
           </h4>

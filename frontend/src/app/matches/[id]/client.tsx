@@ -5,6 +5,7 @@ import { useParams } from 'next/navigation';
 import Link from 'next/link';
 import api, { MatchDetailResponse, RecentMatch } from '@/lib/api';
 import LiveMatchPanel from '@/components/LiveMatchPanel';
+import GroupStageInsightPanel from '@/components/GroupStageInsightPanel';
 
 const FLAGS: Record<string, string> = {
   'Mexico': '🇲🇽', 'South Africa': '🇿🇦', 'South Korea': '🇰🇷', 'Czech Republic': '🇨🇿',
@@ -55,7 +56,7 @@ export default function MatchDetailClient() {
     api.getLiveMatchLookup(m.home_team, m.away_team, m.date).then(res => {
       if (res.found && res.match_id) setLiveMatchId(res.match_id);
     }).catch(() => {});
-  }, [detail?.match?.match_id]);
+  }, [detail?.match]);
 
   if (loading) {
     return <div style={{ textAlign: 'center', padding: '4rem', color: 'var(--text-muted)' }}>加载中…</div>;
@@ -99,6 +100,8 @@ export default function MatchDetailClient() {
           {match.stage !== 'group' && ` · ${match.stage === 'final' ? '决赛' : match.stage === 'semi_final' ? '半决赛' : match.stage === 'quarter_final' ? '1/4决赛' : match.stage === 'round_of_16' ? '1/8决赛' : '1/16决赛'}`}
         </div>
       </div>
+
+      <GroupStageInsightPanel insight={detail.group_stage_insight} />
 
       <SectionCard title="历史交锋记录">
         {detail.h2h && detail.h2h.total_matches > 0 ? (

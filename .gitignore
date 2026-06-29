@@ -45,3 +45,4 @@ football-data/
 
 # AI highlights cache
 backend/data/highlights_cache/
+backend/data/group_stage_insights/
