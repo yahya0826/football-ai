@@ -1,0 +1,118 @@
+{
+  "date": "2026-06-25",
+  "last_updated": "2026-06-25T09:36:59.915767",
+  "teams": {
+    "Turkiye": {
+      "name_cn": "土耳其",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "USA": {
+      "name_cn": "美国",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "Paraguay": {
+      "name_cn": "巴拉圭",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "Australia": {
+      "name_cn": "澳大利亚",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "Tunisia": {
+      "name_cn": "突尼斯",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "Netherlands": {
+      "name_cn": "荷兰",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "Japan": {
+      "name_cn": "日本",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "Sweden": {
+      "name_cn": "瑞典",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "Ecuador": {
+      "name_cn": "厄瓜多尔",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "Germany": {
+      "name_cn": "德国",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    }
+  },
+  "total_teams": 10,
+  "_cache_ts": 1782351419.9165602
+}

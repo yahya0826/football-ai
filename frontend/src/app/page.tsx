@@ -1,7 +1,6 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import Image from 'next/image';
 import Link from 'next/link';
 import api, { ScheduleMatch } from '@/lib/api';
 import LiveScoreTicker from '@/components/LiveScoreTicker';
@@ -41,26 +40,6 @@ function getRecommendedScheduleMatches(matches: ScheduleMatch[]): ScheduleMatch[
     .filter(match => match.date === targetDate)
     .sort((a, b) => a.time_bj.localeCompare(b.time_bj))
     .slice(0, 5);
-}
-
-function HeroSection() {
-  return (
-    <section className="relative py-4 md:py-8 overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-r from-emerald-900/20 via-transparent to-indigo-900/20" />
-      <div className="relative max-w-4xl mx-auto px-4 text-center">
-        <Image
-          src="/images/hero-banner.png"
-          alt="探球 - 2026 世界杯 AI 足球情报平台"
-          width={5102}
-          height={832}
-          priority
-          unoptimized
-          className="mx-auto img-responsive"
-          style={{ maxHeight: '640px' }}
-        />
-      </div>
-    </section>
-  );
 }
 
 function RecentMatches() {
@@ -144,7 +123,6 @@ export default function Home() {
   return (
     <div>
       <LiveScoreTicker />
-      <HeroSection />
       <RecentMatches />
     </div>
   );

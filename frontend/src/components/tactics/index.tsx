@@ -101,6 +101,7 @@ export default function TacticsPage() {
             return {
               id: pp.id,
               name: pp.name,
+              nameCn: pp.name_cn,
               position: pp.position,
               number: pp.number,
               club: pp.club || undefined,

@@ -1942,6 +1942,7 @@ async def get_predicted_lineup(team_name: str):
                 matched_players.append({
                     "id": matched["id"],
                     "name": matched["name"],
+                    "name_cn": matched.get("name_cn"),
                     "position": positions[i] if i < len(positions) else (matched.get("position", "")),
                     "club": matched.get("club", ""),
                     "number": matched.get("number", 0),

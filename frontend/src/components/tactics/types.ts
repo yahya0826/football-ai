@@ -45,6 +45,8 @@ export interface PlayerStats {
   crosses?: number;
   tacklesWon?: number;
   pkScored?: number;
+  pkAttempted?: number;
+  ownGoals?: number;
   shots?: number;
   shotAccuracy?: number;
   goalsP90?: number;
@@ -53,9 +55,12 @@ export interface PlayerStats {
   shotConversion?: number;
   xgP90?: number;
   saves?: number;
+  shotsOnTargetAgainst?: number;
   goalsConceded?: number;
   cleanSheets?: number;
   savePct?: number;
+  penaltyGoalsAllowed?: number;
+  penaltySaves?: number;
   wins?: number;
   draws?: number;
   losses?: number;
@@ -99,7 +104,7 @@ export function apiPlayerToPlayer(api: ApiPlayer): Player {
       redCards: s.red_cards ?? 0,
       rating: s.rating ?? 6.0,
       xg: s.xg,
-      shotsTotal: s.shots_total,
+      shotsTotal: s.shots_total ?? s.shots,
       shotsOnTarget: s.shots_on_target,
       passAccuracy: s.pass_accuracy,
       progressivePasses: s.progressive_passes,
@@ -119,7 +124,9 @@ export function apiPlayerToPlayer(api: ApiPlayer): Player {
       crosses: s.crosses,
       tacklesWon: s.tackles_won,
       pkScored: s.pk_scored,
-      shots: s.shots_total,
+      pkAttempted: s.pk_attempted,
+      ownGoals: s.own_goals,
+      shots: s.shots ?? s.shots_total,
       shotAccuracy: s.shot_accuracy,
       goalsP90: s.goals_p90,
       assistsP90: s.assists_p90,
@@ -127,9 +134,12 @@ export function apiPlayerToPlayer(api: ApiPlayer): Player {
       startRate: s.start_rate,
       shotConversion: s.shot_conversion,
       saves: s.saves,
+      shotsOnTargetAgainst: s.shots_on_target_against,
       goalsConceded: s.goals_conceded,
       cleanSheets: s.clean_sheets,
       savePct: s.save_pct,
+      penaltyGoalsAllowed: s.penalty_goals_allowed,
+      penaltySaves: s.penalty_saves,
       wins: s.wins,
       draws: s.draws,
       losses: s.losses,

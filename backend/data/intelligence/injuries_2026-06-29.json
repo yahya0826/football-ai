@@ -1,0 +1,96 @@
+{
+  "date": "2026-06-29",
+  "last_updated": "2026-06-29T00:06:30.254028",
+  "teams": {
+    "south_africa": {
+      "name_cn": "南非",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "canada": {
+      "name_cn": "加拿大",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "Germany": {
+      "name_cn": "德国",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "4-3-3",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "Paraguay": {
+      "name_cn": "巴拉圭",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "4-3-3",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "Netherlands": {
+      "name_cn": "荷兰",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "4-3-3",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "Morocco": {
+      "name_cn": "摩洛哥",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "4-3-3",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "Brazil": {
+      "name_cn": "巴西",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "Japan": {
+      "name_cn": "日本",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    }
+  },
+  "total_teams": 8,
+  "_cache_ts": 1782662790.2541084
+}

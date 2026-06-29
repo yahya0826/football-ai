@@ -14,10 +14,18 @@ const NAV_ITEMS = [
   { href: '/knowledge', label: '知识库' },
 ];
 
+const AUTO_FEEDBACK_SESSION_KEY = 'tanqiu_auto_feedback_shown';
+const AUTO_FEEDBACK_DELAY_MS = 60_000;
+
 export default function NavBar() {
   const pathname = usePathname();
   const [menuOpen, setMenuOpen] = useState(false);
   const [feedbackOpen, setFeedbackOpen] = useState(false);
+
+  const openFeedback = () => {
+    sessionStorage.setItem(AUTO_FEEDBACK_SESSION_KEY, '1');
+    setFeedbackOpen(true);
+  };
 
   useEffect(() => {
     if (menuOpen) {
@@ -27,6 +35,18 @@ export default function NavBar() {
     }
     return () => { document.body.style.overflow = ''; };
   }, [menuOpen]);
+
+  useEffect(() => {
+    if (sessionStorage.getItem(AUTO_FEEDBACK_SESSION_KEY)) return;
+
+    const timer = window.setTimeout(() => {
+      if (sessionStorage.getItem(AUTO_FEEDBACK_SESSION_KEY)) return;
+      sessionStorage.setItem(AUTO_FEEDBACK_SESSION_KEY, '1');
+      setFeedbackOpen(true);
+    }, AUTO_FEEDBACK_DELAY_MS);
+
+    return () => window.clearTimeout(timer);
+  }, []);
 
   const isActive = (href: string) => {
     if (href === '/') return pathname === '/';
@@ -72,7 +92,7 @@ export default function NavBar() {
             <span className="badge badge-primary">2026 世界杯</span>
 
             <button
-              onClick={() => setFeedbackOpen(true)}
+              onClick={openFeedback}
               title="产品反馈"
               style={{
                 background: 'rgba(129, 140, 248, 0.15)',

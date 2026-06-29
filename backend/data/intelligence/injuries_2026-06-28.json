@@ -1,0 +1,30 @@
+{
+  "date": "2026-06-28",
+  "last_updated": "2026-06-28T20:05:56.504971",
+  "teams": {
+    "South Africa": {
+      "name_cn": "南非",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    },
+    "Canada": {
+      "name_cn": "加拿大",
+      "injuries": [],
+      "predicted_lineup": {
+        "formation": "",
+        "players": []
+      },
+      "recent_form": "",
+      "score_prediction": "",
+      "score_prediction_cn": ""
+    }
+  },
+  "total_teams": 2,
+  "_cache_ts": 1782648356.5050397
+}

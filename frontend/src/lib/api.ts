@@ -315,7 +315,7 @@ export interface TeamBasic {
   weakness?: string;
   key_formation?: string;
   history?: string;
-  odds?: Record<string, any>;
+  odds?: Record<string, unknown>;
 }
 
 export interface TeamListItem {
@@ -358,9 +358,9 @@ export interface TeamDetail {
     total_matches_20y: number;
   };
   pre_match: {
-    group_analysis: any;
-    key_players: any;
-    prediction: any;
+    group_analysis: unknown;
+    key_players: unknown;
+    prediction: unknown;
   };
 }
 
@@ -797,6 +797,7 @@ export interface ApiPlayerStats {
   yellow_cards?: number;
   red_cards?: number;
   xg?: number;
+  shots?: number;
   shots_total?: number;
   shots_on_target?: number;
   shot_accuracy?: number;
@@ -835,9 +836,12 @@ export interface ApiPlayerStats {
   pk_conceded?: number;
   own_goals?: number;
   saves?: number;
+  shots_on_target_against?: number;
   goals_conceded?: number;
   clean_sheets?: number;
   save_pct?: number;
+  penalty_goals_allowed?: number;
+  penalty_saves?: number;
   wins?: number;
   draws?: number;
   losses?: number;
@@ -1009,6 +1013,7 @@ export interface PositionRequirement {
 export interface PredictedLineupPlayer {
   id: string;
   name: string;
+  name_cn?: string;
   position: string;
   club: string;
   number: number;
