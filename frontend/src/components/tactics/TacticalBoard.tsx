@@ -128,7 +128,7 @@ export default function TacticalBoard({
         width: '100%',
       }}>
         {/* Pitch */}
-        <div style={{
+        <div className="tactical-board-pitch" style={{
           width: '100%',
           maxWidth: 'min(80%, 42rem)',
           aspectRatio: '1 / 1.4',
@@ -194,7 +194,7 @@ export default function TacticalBoard({
                   }}
                 >
                   {/* Position label */}
-                  <div style={{
+                  <div className="tactical-board-position-label" style={{
                     fontSize: 'clamp(1.1rem, 1.4vw, 1.3rem)',
                     color: 'rgba(255,255,255,0.8)',
                     marginBottom: '0.2em',
@@ -203,7 +203,7 @@ export default function TacticalBoard({
                     {POSITION_NAMES[pos.position] || pos.position}
                   </div>
                   {/* Player circle */}
-                  <div style={{
+                  <div className="tactical-board-player-circle" style={{
                     width: player ? 'clamp(3rem, 5vw, 4.9rem)' : 'clamp(2.25rem, 3.5vw, 3.4rem)',
                     height: player ? 'clamp(3rem, 5vw, 4.9rem)' : 'clamp(2.25rem, 3.5vw, 3.4rem)',
                     borderRadius: '50%',
@@ -237,7 +237,7 @@ export default function TacticalBoard({
                   </div>
                   {/* Player name */}
                   {player && (
-                    <div style={{
+                    <div className="tactical-board-player-name" style={{
                       marginTop: '0.3em',
                       padding: '0.2em 0.5em',
                       background: 'rgba(0, 0, 0, 0.8)',
@@ -255,7 +255,7 @@ export default function TacticalBoard({
                   )}
                   {/* Jersey number */}
                   {player && (
-                    <div style={{
+                    <div className="tactical-board-player-number" style={{
                       fontSize: 'clamp(1.05rem, 1.3vw, 1.28rem)',
                       color: 'rgba(255,255,255,0.9)',
                       marginTop: '0.15em',

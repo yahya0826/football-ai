@@ -431,6 +431,27 @@ textarea {
     max-width: 28rem;
     margin: 0 auto;
   }
+  .tactical-board-pitch {
+    max-width: 100% !important;
+  }
+  .tactical-board-player-name {
+    margin-top: 0.12rem !important;
+    padding: 0.08rem 0.22rem !important;
+    max-width: 4.6rem !important;
+    font-size: 0.58rem !important;
+    line-height: 1.15 !important;
+    border-radius: 0.2rem !important;
+  }
+  .tactical-board-position-label,
+  .tactical-board-player-number {
+    font-size: 0.58rem !important;
+    line-height: 1.1 !important;
+  }
+  .tactical-board-player-circle {
+    width: 2.55rem !important;
+    height: 2.55rem !important;
+    font-size: 1.35rem !important;
+  }
   .responsive-bench-grid,
   .responsive-bench-list {
     grid-template-columns: 1fr !important;

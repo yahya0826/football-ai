@@ -1498,14 +1498,14 @@
       "round": 4,
       "date": "2026-06-29",
       "time_bj": "03:00",
-      "home_team": "A2",
-      "away_team": "B2",
-      "home_team_cn": "A组第2",
-      "away_team_cn": "B组第2",
+      "home_team": "South Africa",
+      "away_team": "Canada",
+      "home_team_cn": "南非",
+      "away_team_cn": "加拿大",
       "venue": "SoFi Stadium",
       "city": "Inglewood",
       "country": "USA",
-      "note": ""
+      "note": "1/16决赛（32强）"
     },
     {
       "match_id": 74,
@@ -1514,14 +1514,14 @@
       "round": 4,
       "date": "2026-06-30",
       "time_bj": "01:00",
-      "home_team": "C1",
-      "away_team": "F2",
-      "home_team_cn": "C组第1",
-      "away_team_cn": "F组第2",
+      "home_team": "Brazil",
+      "away_team": "Japan",
+      "home_team_cn": "巴西",
+      "away_team_cn": "日本",
       "venue": "NRG Stadium",
       "city": "Houston",
       "country": "USA",
-      "note": ""
+      "note": "1/16决赛（32强）"
     },
     {
       "match_id": 75,
@@ -1530,14 +1530,14 @@
       "round": 4,
       "date": "2026-06-30",
       "time_bj": "04:30",
-      "home_team": "E1",
-      "away_team": "3rd_ABCD",
-      "home_team_cn": "E组第1",
-      "away_team_cn": "A/B/C/D/F组第3",
+      "home_team": "Germany",
+      "away_team": "Paraguay",
+      "home_team_cn": "德国",
+      "away_team_cn": "巴拉圭",
       "venue": "Gillette Stadium",
       "city": "Foxborough",
       "country": "USA",
-      "note": ""
+      "note": "1/16决赛（32强）"
     },
     {
       "match_id": 76,
@@ -1546,14 +1546,14 @@
       "round": 4,
       "date": "2026-06-30",
       "time_bj": "09:00",
-      "home_team": "F1",
-      "away_team": "C2",
-      "home_team_cn": "F组第1",
-      "away_team_cn": "C组第2",
+      "home_team": "Netherlands",
+      "away_team": "Morocco",
+      "home_team_cn": "荷兰",
+      "away_team_cn": "摩洛哥",
       "venue": "Estadio BBVA",
       "city": "Guadalupe",
       "country": "Mexico",
-      "note": ""
+      "note": "1/16决赛（32强）"
     },
     {
       "match_id": 77,
@@ -1562,14 +1562,14 @@
       "round": 4,
       "date": "2026-07-01",
       "time_bj": "01:00",
-      "home_team": "E2",
-      "away_team": "I2",
-      "home_team_cn": "E组第2",
-      "away_team_cn": "I组第2",
+      "home_team": "Ivory Coast",
+      "away_team": "Norway",
+      "home_team_cn": "科特迪瓦",
+      "away_team_cn": "挪威",
       "venue": "AT&T Stadium",
       "city": "Arlington",
       "country": "USA",
-      "note": ""
+      "note": "1/16决赛（32强）"
     },
     {
       "match_id": 78,
@@ -1578,14 +1578,14 @@
       "round": 4,
       "date": "2026-07-01",
       "time_bj": "05:00",
-      "home_team": "I1",
-      "away_team": "3rd_CDFG",
-      "home_team_cn": "I组第1",
-      "away_team_cn": "C/D/F/G/H组第3",
+      "home_team": "France",
+      "away_team": "Sweden",
+      "home_team_cn": "法国",
+      "away_team_cn": "瑞典",
       "venue": "MetLife Stadium",
       "city": "East Rutherford",
       "country": "USA",
-      "note": ""
+      "note": "1/16决赛（32强）"
     },
     {
       "match_id": 79,
@@ -1594,14 +1594,14 @@
       "round": 4,
       "date": "2026-07-01",
       "time_bj": "09:00",
-      "home_team": "A1",
-      "away_team": "3rd_CEFH",
-      "home_team_cn": "A组第1",
-      "away_team_cn": "C/E/F/H/I组第3",
+      "home_team": "Mexico",
+      "away_team": "Ecuador",
+      "home_team_cn": "墨西哥",
+      "away_team_cn": "厄瓜多尔",
       "venue": "Estadio Azteca",
       "city": "Mexico City",
       "country": "Mexico",
-      "note": ""
+      "note": "1/16决赛（32强）"
     },
     {
       "match_id": 80,
@@ -1610,14 +1610,14 @@
       "round": 4,
       "date": "2026-07-02",
       "time_bj": "00:00",
-      "home_team": "L1",
-      "away_team": "3rd_EHIJ",
-      "home_team_cn": "L组第1",
-      "away_team_cn": "E/H/I/J/K组第3",
+      "home_team": "England",
+      "away_team": "DR Congo",
+      "home_team_cn": "英格兰",
+      "away_team_cn": "民主刚果",
       "venue": "Mercedes-Benz Stadium",
       "city": "Atlanta",
       "country": "USA",
-      "note": ""
+      "note": "1/16决赛（32强）"
     },
     {
       "match_id": 81,
@@ -1626,14 +1626,14 @@
       "round": 4,
       "date": "2026-07-02",
       "time_bj": "04:00",
-      "home_team": "G1",
-      "away_team": "3rd_AEHI",
-      "home_team_cn": "G组第1",
-      "away_team_cn": "A/E/H/I/J组第3",
+      "home_team": "Belgium",
+      "away_team": "Senegal",
+      "home_team_cn": "比利时",
+      "away_team_cn": "塞内加尔",
       "venue": "Lumen Field",
       "city": "Seattle",
       "country": "USA",
-      "note": ""
+      "note": "1/16决赛（32强）"
     },
     {
       "match_id": 82,
@@ -1642,14 +1642,14 @@
       "round": 4,
       "date": "2026-07-02",
       "time_bj": "08:00",
-      "home_team": "D1",
-      "away_team": "3rd_BEFI",
-      "home_team_cn": "D组第1",
-      "away_team_cn": "B/E/F/I/J组第3",
+      "home_team": "United States",
+      "away_team": "Bosnia and Herzegovina",
+      "home_team_cn": "美国",
+      "away_team_cn": "波黑",
       "venue": "Levi's Stadium",
       "city": "Santa Clara",
       "country": "USA",
-      "note": ""
+      "note": "1/16决赛（32强）"
     },
     {
       "match_id": 83,
@@ -1658,14 +1658,14 @@
       "round": 4,
       "date": "2026-07-03",
       "time_bj": "03:00",
-      "home_team": "H1",
-      "away_team": "J2",
-      "home_team_cn": "H组第1",
-      "away_team_cn": "J组第2",
+      "home_team": "Spain",
+      "away_team": "Austria",
+      "home_team_cn": "西班牙",
+      "away_team_cn": "奥地利",
       "venue": "SoFi Stadium",
       "city": "Inglewood",
       "country": "USA",
-      "note": ""
+      "note": "1/16决赛（32强）"
     },
     {
       "match_id": 84,
@@ -1674,14 +1674,14 @@
       "round": 4,
       "date": "2026-07-03",
       "time_bj": "07:00",
-      "home_team": "K2",
-      "away_team": "L2",
-      "home_team_cn": "K组第2",
-      "away_team_cn": "L组第2",
+      "home_team": "Portugal",
+      "away_team": "Croatia",
+      "home_team_cn": "葡萄牙",
+      "away_team_cn": "克罗地亚",
       "venue": "BMO Field",
       "city": "Toronto",
       "country": "Canada",
-      "note": ""
+      "note": "1/16决赛（32强）"
     },
     {
       "match_id": 85,
@@ -1690,14 +1690,14 @@
       "round": 4,
       "date": "2026-07-03",
       "time_bj": "11:00",
-      "home_team": "B1",
-      "away_team": "3rd_EFGI",
-      "home_team_cn": "B组第1",
-      "away_team_cn": "E/F/G/I/J组第3",
+      "home_team": "Switzerland",
+      "away_team": "Algeria",
+      "home_team_cn": "瑞士",
+      "away_team_cn": "阿尔及利亚",
       "venue": "BC Place",
       "city": "Vancouver",
       "country": "Canada",
-      "note": ""
+      "note": "1/16决赛（32强）"
     },
     {
       "match_id": 86,
@@ -1706,14 +1706,14 @@
       "round": 4,
       "date": "2026-07-04",
       "time_bj": "02:00",
-      "home_team": "D2",
-      "away_team": "G2",
-      "home_team_cn": "D组第2",
-      "away_team_cn": "G组第2",
+      "home_team": "Australia",
+      "away_team": "Egypt",
+      "home_team_cn": "澳大利亚",
+      "away_team_cn": "埃及",
       "venue": "AT&T Stadium",
       "city": "Arlington",
       "country": "USA",
-      "note": ""
+      "note": "1/16决赛（32强）"
     },
     {
       "match_id": 87,
@@ -1722,14 +1722,14 @@
       "round": 4,
       "date": "2026-07-04",
       "time_bj": "06:00",
-      "home_team": "J1",
-      "away_team": "H2",
-      "home_team_cn": "J组第1",
-      "away_team_cn": "H组第2",
+      "home_team": "Argentina",
+      "away_team": "Cape Verde",
+      "home_team_cn": "阿根廷",
+      "away_team_cn": "佛得角",
       "venue": "Hard Rock Stadium",
       "city": "Miami Gardens",
       "country": "USA",
-      "note": ""
+      "note": "1/16决赛（32强）"
     },
     {
       "match_id": 88,
@@ -1738,14 +1738,14 @@
       "round": 4,
       "date": "2026-07-04",
       "time_bj": "09:30",
-      "home_team": "K1",
-      "away_team": "3rd_DEIJ",
-      "home_team_cn": "K组第1",
-      "away_team_cn": "D/E/I/J/L组第3",
+      "home_team": "Colombia",
+      "away_team": "Ghana",
+      "home_team_cn": "哥伦比亚",
+      "away_team_cn": "加纳",
       "venue": "Arrowhead Stadium",
       "city": "Kansas City",
       "country": "USA",
-      "note": ""
+      "note": "1/16决赛（32强）"
     },
     {
       "match_id": 89,
