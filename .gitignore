@@ -33,6 +33,7 @@ Thumbs.db
 
 # Large downloaded / temp
 downloaded_files/
+.tmp-mobile-check/
 *.tmp
 *.log
 
